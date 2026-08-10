@@ -1,4 +1,4 @@
-/** Samobi's own locations — Valo pieces can be seen and sat on in all of them. */
+/** Samobi's own locations — Vallo pieces can be seen and sat on in all of them. */
 export type Location = {
   id: string
   city: string

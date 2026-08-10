@@ -135,13 +135,19 @@ export function HeroFilm() {
           style={{ scale: titleScale, opacity: titleOpacity }}
           className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-paper"
         >
+          {/*
+            Letter-spacing also lands after the final letter, so a centred
+            wordmark sits half a space to the left of true centre. The negative
+            margin cancels that trailing space, and is animated alongside the
+            tracking so the mark stays centred for the whole entrance.
+          */}
           <motion.span
-            initial={{ opacity: 0, letterSpacing: '0.6em' }}
-            animate={{ opacity: 1, letterSpacing: '0.34em' }}
+            initial={{ opacity: 0, letterSpacing: '0.6em', marginRight: '-0.6em' }}
+            animate={{ opacity: 1, letterSpacing: '0.34em', marginRight: '-0.34em' }}
             transition={{ duration: 1.8, ease: expo, delay: 0.15 }}
             className="font-display text-[clamp(3.5rem,17vw,17rem)] leading-none"
           >
-            VALO
+            VALLO
           </motion.span>
           <motion.span
             initial={{ opacity: 0, y: 14 }}

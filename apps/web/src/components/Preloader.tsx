@@ -65,9 +65,10 @@ export function Preloader() {
               initial={{ y: '110%' }}
               animate={{ y: '0%' }}
               transition={{ duration: 1.1, ease: expo }}
-              className="block font-display text-[clamp(3rem,12vw,9rem)] leading-none tracking-[0.3em]"
+              // -mr cancels the trailing letter-space so the mark is truly centred.
+              className="-mr-[0.3em] block font-display text-[clamp(3rem,12vw,9rem)] leading-none tracking-[0.3em]"
             >
-              VALO
+              VALLO
             </motion.span>
           </div>
 

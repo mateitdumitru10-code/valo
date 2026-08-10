@@ -51,7 +51,7 @@ const ro = {
 
   'manifesto.eyebrow': 'Cine suntem',
   'manifesto.body':
-    'Valo este brațul de distribuție al Samobi. Aceleași hale, aceiași tapițeri, același lemn — dar un catalog editat: colțare, canapele, paturi și fotolii alese pentru case unde mobila rămâne zece ani, nu două sezoane.',
+    'Vallo este brațul de distribuție al Samobi. Aceleași hale, aceiași tapițeri, același lemn — dar un catalog editat: colțare, canapele, paturi și fotolii alese pentru case unde mobila rămâne zece ani, nu două sezoane.',
   'manifesto.pull': 'Distribuim ceea ce se produce la doi pași de noi.',
   'manifesto.link': 'Despre atelier',
 
@@ -85,7 +85,7 @@ const ro = {
   'lineage.eyebrow': 'Origine',
   'lineage.title': 'Un nume nou. O fabrică veche de tot.',
   'lineage.body':
-    'Samobi produce mobilier tapițat în comuna Vadu Săpat, județul Prahova, și îl vinde prin showroom-uri proprii în București, Ploiești, Constanța și Buzău. Valo preia din acest catalog piesele cu cea mai lungă viață și le duce mai departe, sub un nume propriu.',
+    'Samobi produce mobilier tapițat în comuna Vadu Săpat, județul Prahova, și îl vinde prin showroom-uri proprii în București, Ploiești, Constanța și Buzău. Vallo preia din acest catalog piesele cu cea mai lungă viață și le duce mai departe, sub un nume propriu.',
   'lineage.stat.1': 'Fabrică proprie',
   'lineage.stat.1.value': 'Vadu Săpat, PH',
   'lineage.stat.2': 'Garanție',
@@ -155,7 +155,7 @@ const ro = {
   'story.eyebrow': 'Atelier',
   'story.title': 'Mobilă făcută unde se și vinde',
   'story.p1':
-    'Piesele Valo se croiesc și se tapițează în hala Samobi din comuna Vadu Săpat, județul Prahova. Nu importăm containere; producem la 60 de kilometri de București și livrăm de acolo în toată țara.',
+    'Piesele Vallo se croiesc și se tapițează în hala Samobi din comuna Vadu Săpat, județul Prahova. Nu importăm containere; producem la 60 de kilometri de București și livrăm de acolo în toată țara.',
   'story.p2':
     'Un colțar trece prin patru mâini: tâmplarul care încheie cadrul, croitorul care taie textila, tapițerul care o trage pe spumă și omul care verifică cusătura înainte de ambalare. Ne place să credem că se vede.',
   'story.p3':
@@ -209,7 +209,7 @@ const en: Record<keyof typeof ro, string> = {
 
   'manifesto.eyebrow': 'Who we are',
   'manifesto.body':
-    'Valo is the distribution arm of Samobi. The same workshop, the same upholsterers, the same timber — but an edited catalogue: sectionals, sofas, beds and armchairs picked for homes where furniture stays ten years, not two seasons.',
+    'Vallo is the distribution arm of Samobi. The same workshop, the same upholsterers, the same timber — but an edited catalogue: sectionals, sofas, beds and armchairs picked for homes where furniture stays ten years, not two seasons.',
   'manifesto.pull': 'We distribute what is made a few steps away.',
   'manifesto.link': 'About the atelier',
 
@@ -242,7 +242,7 @@ const en: Record<keyof typeof ro, string> = {
   'lineage.eyebrow': 'Origin',
   'lineage.title': 'A new name. A long-standing factory.',
   'lineage.body':
-    'Samobi manufactures upholstered furniture in Vadu Săpat, Prahova County, and sells it through its own showrooms in Bucharest, Ploiești, Constanța and Buzău. Valo takes the longest-lived pieces from that catalogue and carries them under a name of their own.',
+    'Samobi manufactures upholstered furniture in Vadu Săpat, Prahova County, and sells it through its own showrooms in Bucharest, Ploiești, Constanța and Buzău. Vallo takes the longest-lived pieces from that catalogue and carries them under a name of their own.',
   'lineage.stat.1': 'Own factory',
   'lineage.stat.1.value': 'Vadu Săpat, PH',
   'lineage.stat.2': 'Warranty',
@@ -312,7 +312,7 @@ const en: Record<keyof typeof ro, string> = {
   'story.eyebrow': 'Atelier',
   'story.title': 'Furniture made where it is sold',
   'story.p1':
-    'Valo pieces are cut and upholstered in the Samobi workshop in Vadu Săpat, Prahova County. We do not import containers; we make furniture 60 kilometres from Bucharest and ship it from there across the country.',
+    'Vallo pieces are cut and upholstered in the Samobi workshop in Vadu Săpat, Prahova County. We do not import containers; we make furniture 60 kilometres from Bucharest and ship it from there across the country.',
   'story.p2':
     'A sectional passes through four pairs of hands: the joiner who closes the frame, the cutter who lays the textile, the upholsterer who pulls it over the foam, and the person who checks the seam before it is wrapped. We like to think it shows.',
   'story.p3':
