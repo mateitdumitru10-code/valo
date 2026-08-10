@@ -105,11 +105,11 @@ export function Nav() {
           <Link
             to="/"
             className="group flex items-baseline gap-2"
-            aria-label="Valo"
+            aria-label="Vallo"
             data-cursor="hide"
           >
-            <span className="font-display text-2xl leading-none tracking-[0.28em] md:text-[1.75rem]">
-              VALO
+            <span className="-mr-[0.28em] font-display text-2xl leading-none tracking-[0.28em] md:text-[1.75rem]">
+              VALLO
             </span>
             <span className="eyebrow hidden opacity-55 transition-opacity group-hover:opacity-100 sm:block">
               by Samobi

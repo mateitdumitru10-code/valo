@@ -89,17 +89,17 @@ export function Footer() {
       {/* The wordmark, set as large as the page allows. */}
       <div className="mt-20 overflow-hidden">
         <span
-          className="block w-full font-display leading-[0.78] tracking-[0.02em] text-ink/90 select-none"
-          style={{ fontSize: 'clamp(4rem, 24.5vw, 24rem)' }}
+          className="-mr-[0.02em] block w-full text-center font-display leading-[0.78] tracking-[0.02em] text-ink/90 select-none"
+          style={{ fontSize: 'clamp(3.5rem, 19.5vw, 20rem)' }}
           aria-hidden
         >
-          VALO
+          VALLO
         </span>
       </div>
 
       <div className="mt-6 flex flex-col gap-3 border-t border-ink/10 pt-6 text-xs opacity-55 sm:flex-row sm:items-center sm:justify-between">
         <p>
-          © {year} Valo — {t('footer.rights')}
+          © {year} Vallo — {t('footer.rights')}
         </p>
         <p className="eyebrow">Vadu Săpat · Prahova · România</p>
       </div>
