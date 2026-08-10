@@ -1,0 +1,8 @@
+node_modules
+dist
+media-src
+data/.source.json
+data/inquiries.jsonl
+docs/*.mp4
+.DS_Store
+*.local

@@ -1,0 +1,26 @@
+{
+  "name": "valo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c magenta,cyan \"pnpm --filter @valo/api dev\" \"pnpm --filter @valo/web dev\"",
+    "build": "pnpm --filter @valo/web build",
+    "start": "pnpm --filter @valo/api start",
+    "ingest": "node scripts/ingest.mjs",
+    "media": "node scripts/media.mjs",
+    "data": "node scripts/ingest.mjs && node scripts/media.mjs",
+    "sheets": "node scripts/contact-sheet.mjs",
+    "typecheck": "pnpm --filter @valo/web exec tsc -b --noEmit",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4",
+    "jsdom": "^30.0.1",
+    "sharp": "^0.35.3",
+    "vite": "^8.2.1"
+  }
+}
