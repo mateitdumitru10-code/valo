@@ -72,6 +72,20 @@
       "price": null
     }
   },
+  "exclude": {
+    "_note": "Pieces removed from the catalogue. Kept as a list rather than deleted from the source so a re-ingest cannot quietly bring them back.",
+    "slugs": [
+      "tabureti",
+      "scaun-crama",
+      "taburet-cu-capac",
+      "taburet-inima",
+      "taburet-rotund",
+      "noptiere-aldo",
+      "noptiere-fantezie",
+      "noptiera-sun",
+      "noptiera-paul"
+    ]
+  },
   "schematics": {
     "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot.",
     "coltar-aldo": {
@@ -92,8 +106,7 @@
     "beds": "pat-matrimonial-1",
     "armchairs": "fotoliu-king-1",
     "hallway": "hol-chesterfield-1",
-    "nightstands": "noptiera-paul-1",
-    "seating": "scaun-crama-2"
+    "seating": "demifotoliu-1"
   },
   "headers": {
     "_note": "Full-bleed image at the top of a collection page. Falls back to `covers` when a collection has no entry here — split out because a studio cut-out can work as a small cover and still be wrong behind a headline."

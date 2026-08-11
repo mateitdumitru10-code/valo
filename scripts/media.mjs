@@ -250,13 +250,17 @@ for (const product of catalog.products) {
   product.editorial = images.some((i) => i.editorial)
 }
 
-// A piece with no usable photography would render as an empty card.
-catalog.products = catalog.products.filter((p) => p.cover)
+// Dropped pieces, and any piece left without usable photography — the latter
+// would otherwise render as an empty card.
+const excluded = new Set(curation.exclude?.slugs ?? [])
+catalog.products = catalog.products.filter((p) => p.cover && !excluded.has(p.slug))
 
-// Counts come from ingest, which has not seen the pieces created above.
+// Counts come from ingest, which has seen neither the pieces created above nor
+// the ones dropped here. A collection left with nothing in it goes too.
 for (const collection of catalog.collections) {
   collection.count = catalog.products.filter((p) => p.collection === collection.id).length
 }
+catalog.collections = catalog.collections.filter((c) => c.count > 0)
 
 const byName = new Map([...meta.values()].map((m) => [m.src, m]))
 catalog.hero = curation.hero.map((n) => byName.get(n)).filter(Boolean)
