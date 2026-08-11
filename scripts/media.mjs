@@ -155,10 +155,21 @@ for (const product of catalog.products) {
     .filter(Boolean)
 }
 
-// Pieces Valo has photographed that Samobi's catalogue does not list. Created
-// here rather than in ingest.mjs, which only ever mirrors what the API returns.
+// Pieces Valo has photographed that Samobi's catalogue does not list, and
+// corrections to the ones it does. Handled here rather than in ingest.mjs,
+// which only ever mirrors what the API returns.
 for (const [slug, spec] of Object.entries(curation.products ?? {})) {
-  if (slug === '_note' || catalog.products.some((p) => p.slug === slug)) continue
+  if (slug === '_note') continue
+
+  const existing = catalog.products.find((p) => p.slug === slug)
+  if (existing) {
+    // Only what the entry actually states — a missing price must not wipe one.
+    for (const field of ['name', 'collection', 'price', 'lead', 'summary', 'body']) {
+      if (spec[field] !== undefined && spec[field] !== null) existing[field] = spec[field]
+    }
+    continue
+  }
+
   catalog.products.push({
     id: `valo-${slug}`,
     slug,

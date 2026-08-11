@@ -85,7 +85,7 @@
     ]
   },
   "products": {
-    "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue. media.mjs creates them, then the images map above gives them their photographs. Price is null until Samobi supplies one — the app simply omits it.",
+    "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue, and corrections to pieces that do exist — a name here overrides the one the API returns. media.mjs applies both. Price is null until Samobi supplies one; the app then omits it.",
     "canapea-cubiq": {
       "name": "Canapea Cubiq",
       "collection": "sofas",
@@ -115,6 +115,9 @@
       "name": "Colțar Linear",
       "collection": "sectionals",
       "price": null
+    },
+    "pat-fantezie": {
+      "name": "Pat Fantezie"
     }
   },
   "exclude": {
