@@ -80,13 +80,30 @@ than blown up to fill a landscape frame, and the space either side is filled by 
 darkened by CSS — an ambient fill that costs no second decode. Phones, being
 portrait themselves, just use `object-cover`.
 
-If scrubbing looks steppy, the fix is a keyframe on every frame, which needs
-ffmpeg:
+### Encoding the clip
+
+Two things matter, and both are invisible locally — the file reads off an SSD
+instantly, so problems only appear once it is served over a network.
+
+- **`+movflags faststart`.** Phone and camera exports put the `moov` index at the
+  end of the file. Until the browser has that index it cannot decode a frame,
+  report a duration or seek, so it downloads the whole clip first: a black hero
+  and a dead scrub until it finishes.
+- **A short GOP.** Seeking decodes forward from the nearest keyframe, so sparse
+  keyframes make scrubbing lag. `-g 6` puts one every quarter second. All-intra
+  (`-g 1`) is smoother still but doubled the file here for no visible gain.
 
 ```bash
-ffmpeg -i source.mp4 -an -c:v libx264 -crf 20 -g 1 -movflags +faststart \
+ffmpeg -i source.mp4 -an -c:v libx264 -crf 20 -preset slow \
+  -g 6 -keyint_min 6 -sc_threshold 0 -pix_fmt yuv420p -movflags +faststart \
   apps/web/public/media/hero.mp4
+
+# poster: first frame, graded to match the house look
+ffmpeg -i apps/web/public/media/hero.mp4 -vf "select=eq(n\,0)" -vframes 1 poster.png
 ```
+
+Dropping the audio track (`-an`) is free — the hero is muted by definition.
+The current clip is 3.1 MB, down from 9.2 MB as exported.
 
 ## Type and palette
 

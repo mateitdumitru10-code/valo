@@ -13,6 +13,8 @@ import { expo } from '~/lib/motion'
 const CHAPTERS = [1, 2, 3, 4] as const
 
 const CLIP = '/media/hero.mp4'
+/** First frame, so the hero is never a black rectangle while the clip loads. */
+const POSTER = '/media/hero-poster.webp'
 /** How much scroll the clip is stretched over, in viewport heights. */
 const LENGTH = 5
 /** How hard the playhead chases the scroll. Lower is smoother and laggier. */
@@ -34,7 +36,6 @@ export function HeroFilm() {
   const video = useRef<HTMLVideoElement>(null)
   const progress = useRef(0)
   const duration = useRef(5)
-  const [ready, setReady] = useState(false)
   const reduced = useReducedMotion()
 
   const { scrollYProgress } = useScroll({
@@ -94,6 +95,7 @@ export function HeroFilm() {
         <video
           ref={video}
           src={CLIP}
+          poster={POSTER}
           className="absolute inset-0 h-full w-full object-cover"
           muted
           playsInline
@@ -104,15 +106,6 @@ export function HeroFilm() {
             duration.current = e.currentTarget.duration || 5
             e.currentTarget.currentTime = 0
           }}
-          onLoadedData={() => setReady(true)}
-        />
-
-        {/* Until the first frame is decoded the section is simply dark. */}
-        <motion.div
-          className="absolute inset-0 bg-night"
-          animate={{ opacity: ready ? 0 : 1 }}
-          transition={{ duration: 0.6, ease: expo }}
-          aria-hidden
         />
 
         <motion.div className="absolute inset-0 bg-night" style={{ opacity: veil }} aria-hidden />
