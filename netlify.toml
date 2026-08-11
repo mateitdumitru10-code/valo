@@ -1,0 +1,35 @@
+[build]
+  command = "pnpm build"
+  publish = "apps/web/dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# The API is a long-running Express process and does not exist on Netlify.
+# This rule must come first: without it the catch-all below would answer
+# /api/inquiries with index.html and a 200, and the quote form would report
+# success for a request nobody received.
+[[redirects]]
+  from = "/api/*"
+  to = "/index.html"
+  status = 404
+
+# Single-page app: every route is rendered by the client, so any path that is
+# not a real file has to be served index.html. Without this, /piese/coltar-aldo
+# works when reached in-app — the router handles it — but a direct visit or a
+# refresh asks Netlify for a file that was never built, and gets a 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Hashed assets and processed media never change under the same name.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    cache-control = "public, max-age=31536000, immutable"
