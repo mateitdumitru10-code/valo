@@ -25,14 +25,15 @@ export function Preloader() {
     }
     requestAnimationFrame(tick)
 
-    const clip = new Promise<void>((resolve) => {
-      const el = document.createElement('video')
-      el.preload = 'auto'
-      el.muted = true
-      el.src = '/media/hero.mp4'
-      el.oncanplaythrough = el.onerror = () => resolve()
-      setTimeout(resolve, 4000)
-    })
+    // Warm the cache with a plain ranged fetch rather than a second <video>.
+    // iOS allows very few simultaneous video decoders, and a hidden element
+    // holding one starves the hero's own element — the clip then never paints.
+    const clip = Promise.race([
+      fetch('/media/hero.mp4', { headers: { range: 'bytes=0-262143' } })
+        .then(() => undefined)
+        .catch(() => undefined),
+      new Promise<void>((resolve) => setTimeout(resolve, 3000)),
+    ])
 
     Promise.all([clip, document.fonts?.ready ?? Promise.resolve()]).then(() => {
       const wait = Math.max(0, MIN_MS - (performance.now() - started))

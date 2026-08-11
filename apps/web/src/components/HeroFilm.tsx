@@ -47,6 +47,37 @@ export function HeroFilm() {
     progress.current = clamp01(p)
   })
 
+  // iOS will not paint a seeked frame from a video that has never played, and
+  // it ignores `preload` until then. A muted inline play, immediately paused,
+  // starts the decoder without the clip ever visibly running. If the browser
+  // refuses — Low Power Mode does — retry once the page is first touched.
+  useEffect(() => {
+    const el = video.current
+    if (!el || reduced) return
+
+    let cancelled = false
+    const prime = () => {
+      if (cancelled || !el) return
+      el.muted = true
+      void el
+        .play()
+        .then(() => {
+          el.pause()
+          el.currentTime = 0
+        })
+        .catch(() => {})
+    }
+
+    prime()
+    window.addEventListener('touchstart', prime, { once: true, passive: true })
+    window.addEventListener('pointerdown', prime, { once: true })
+    return () => {
+      cancelled = true
+      window.removeEventListener('touchstart', prime)
+      window.removeEventListener('pointerdown', prime)
+    }
+  }, [reduced])
+
   // Chase the scroll position in a rAF loop. Assigning currentTime on every
   // scroll event instead would queue seeks faster than the decoder retires them.
   useEffect(() => {
@@ -64,7 +95,12 @@ export function HeroFilm() {
       const delta = target - playhead
       if (Math.abs(delta) < 0.004) return
       playhead += delta * CHASE
-      if (!el.seeking) el.currentTime = playhead
+      if (el.seeking) return
+      // fastSeek lands on the nearest keyframe instead of decoding up to an
+      // exact frame. With a keyframe every quarter second that is invisible,
+      // and on mobile it is the difference between smooth and unusable.
+      if (typeof el.fastSeek === 'function') el.fastSeek(playhead)
+      else el.currentTime = playhead
     }
 
     frame = requestAnimationFrame(tick)
