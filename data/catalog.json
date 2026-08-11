@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-11T20:36:52.660Z",
+  "generatedAt": "2026-08-11T20:44:22.339Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
       "id": "sectionals",
       "ro": "Colțare",
       "en": "Sectionals",
-      "count": 14,
+      "count": 15,
       "cover": {
         "src": "coltar-sam-1",
         "w": 1536,
@@ -4494,6 +4494,75 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+r/mz2hMnoyAAD+82676WnkuKag1RLUdty5FNhh1QOlLQvvQgAAAA==",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-coltar-linear",
+      "slug": "coltar-linear",
+      "name": "Colțar Linear",
+      "collection": "sectionals",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "coltar-linear-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDLLCHfwMM2xPaj4AD+82vsehHNjvAywUze5j9AAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-linear-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDLLCHgDDgJYcAqkQAA/vNu+/fdsi8fKDcIy5V3a0EAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-linear-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JZwAAW+ss3rvmp91UAAD+82vsr6e4sJCupsQA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "coltar-linear-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDLLCHfwMM2xPaj4AD+82vsehHNjvAywUze5j9AAA==",
         "editorial": true,
         "studio": true
       },

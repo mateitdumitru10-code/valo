@@ -77,6 +77,11 @@
       "pat-fantezie-studio-1",
       "pat-fantezie-studio-2",
       "pat-fantezie-studio-3"
+    ],
+    "coltar-linear": [
+      "coltar-linear-studio-1",
+      "coltar-linear-studio-2",
+      "coltar-linear-studio-3"
     ]
   },
   "products": {
@@ -103,6 +108,11 @@
     },
     "coltar-zeno": {
       "name": "Colțar Zeno",
+      "collection": "sectionals",
+      "price": null
+    },
+    "coltar-linear": {
+      "name": "Colțar Linear",
       "collection": "sectionals",
       "price": null
     }
@@ -191,6 +201,9 @@
     "pat-fantezie-studio-1",
     "pat-fantezie-studio-2",
     "pat-fantezie-studio-3",
+    "coltar-linear-studio-1",
+    "coltar-linear-studio-2",
+    "coltar-linear-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
