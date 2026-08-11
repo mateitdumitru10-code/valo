@@ -44,7 +44,7 @@ const exists = (p) =>
  * furniture sitting off-centre by varying amounts, so matching frames would
  * leave the pieces mismatched.
  */
-const STAGE = { w: 2000, h: 1500, height: 0.62, width: 0.78, baseline: 0.8 }
+const STAGE = { w: 2000, h: 1500, width: 0.78, cap: 0.72, baseline: 0.8 }
 
 /**
  * Re-stage a studio shot: trim the sweep away, then set the piece back down on
@@ -66,13 +66,29 @@ async function stageStudio(input) {
     .raw()
     .toBuffer({ resolveWithObject: true })
 
+  const lumaAt = (px) => {
+    const i = px * info.channels
+    return (0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]) / 255
+  }
+
+  // The threshold is relative to each shot's own background, not fixed: some
+  // sweeps are pure white, others a light grey. A fixed cut read the grey ones
+  // as solid subject, so the piece came out smaller than the rest.
+  const corners = [
+    0,
+    info.width - 1,
+    (info.height - 1) * info.width,
+    info.height * info.width - 1,
+  ].map(lumaAt)
+  const field = Math.max(...corners)
+  const cut = Math.min(0.94, field - 0.05)
+
   let minX = info.width
   let minY = info.height
   let maxX = 0
   let maxY = 0
   for (let i = 0, px = 0; i < data.length; i += info.channels, px++) {
-    const luma = (0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]) / 255
-    if (luma > 0.93) continue
+    if (lumaAt(px) > cut) continue
     const x = px % info.width
     const y = Math.floor(px / info.width)
     if (x < minX) minX = x
@@ -92,11 +108,13 @@ async function stageStudio(input) {
         }
       : { left: 0, top: 0, width, height }
 
-  // Scale and place by that box, so every piece lands at the same size and
-  // stands on the same line no matter how its own photograph was framed.
+  // Width sets the scale, height only caps it. Taking the smaller of the two
+  // made the apparent size depend on the subject's proportions: a bed shot with
+  // its nightstands came out larger than one without, and a tall piece shrank.
+  // Normalising on width means every piece occupies the same span of the frame.
   const scale = Math.min(
-    (STAGE.h * STAGE.height) / box.height,
     (STAGE.w * STAGE.width) / box.width,
+    (STAGE.h * STAGE.cap) / box.height,
   )
   const piece = await source
     .clone()
