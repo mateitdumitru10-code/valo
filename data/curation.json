@@ -22,6 +22,11 @@
       "coltar-aldo-studio-1",
       "coltar-aldo-studio-2",
       "coltar-aldo-studio-3"
+    ],
+    "pat-aldo": [
+      "pat-aldo-studio-1",
+      "pat-aldo-studio-2",
+      "pat-aldo-studio-3"
     ]
   },
   "schematics": {
@@ -58,6 +63,9 @@
     "coltar-aldo-studio-1",
     "coltar-aldo-studio-2",
     "coltar-aldo-studio-3",
+    "pat-aldo-studio-1",
+    "pat-aldo-studio-2",
+    "pat-aldo-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
