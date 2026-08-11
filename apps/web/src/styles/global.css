@@ -37,6 +37,11 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     scroll-behavior: auto;
+    overflow-x: clip;
+    /* Reserve the scrollbar's width at all times. Without this, every change in
+       page height — a route change, a lazy chunk, the preloader locking scroll —
+       adds or removes the scrollbar, and the whole layout jumps sideways. */
+    scrollbar-gutter: stable;
   }
 
   body {
