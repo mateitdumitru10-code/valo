@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import { Img } from '~/components/Img'
@@ -8,7 +8,14 @@ import { PieceCard } from '~/components/PieceCard'
 import { RevealImage, RevealLines, Reveal } from '~/components/Reveal'
 import { InquiryForm } from '~/components/InquiryForm'
 import { ArrowLink, Eyebrow, Rule } from '~/components/UI'
-import { bySlug, collection, formatPrice, related } from '~/lib/catalog'
+import {
+  bySlug,
+  collection,
+  formatPrice,
+  loadPiece,
+  related,
+  type PieceDetail,
+} from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 
 export function PiecePage() {
@@ -16,6 +23,22 @@ export function PiecePage() {
   const { t, lang } = useI18n()
   const piece = bySlug(slug)
   const [textile, setTextile] = useState(0)
+  // Prose, gallery, drawing and textiles live outside the bundle and arrive
+  // here. The cover comes from the index, so the page has an image to show
+  // from the first frame.
+  const [detail, setDetail] = useState<PieceDetail | null>(null)
+
+  useEffect(() => {
+    let live = true
+    setDetail(null)
+    setTextile(0)
+    loadPiece(slug).then((data) => {
+      if (live) setDetail(data)
+    })
+    return () => {
+      live = false
+    }
+  }, [slug])
 
   if (!piece) return <Navigate to="/piese" replace />
 
@@ -24,16 +47,14 @@ export function PiecePage() {
 
   // With textiles, the lead image is whichever one is selected, and the
   // remaining textile shots leave the gallery — they are the picker's job now.
-  const variants = piece.variants ?? []
+  const images = detail?.images?.length ? detail.images : [piece.cover]
+  const variants = detail?.variants ?? []
   const variantSrcs = new Set(variants.map((v) => v.src))
   const selected = variants[Math.min(textile, variants.length - 1)]
-  const cover =
-    (selected && piece.images.find((img) => img.src === selected.src)) ?? piece.images[0]
-  const gallery = piece.images.filter(
-    (img) => img.src !== cover.src && !variantSrcs.has(img.src),
-  )
+  const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
+  const gallery = images.filter((img) => img.src !== cover.src && !variantSrcs.has(img.src))
   const siblings = related(piece)
-  const paragraphs = piece.body
+  const paragraphs = (detail?.body ?? '')
     .split('\n')
     .map((line) => line.trim())
     .filter(Boolean)
@@ -124,11 +145,11 @@ export function PiecePage() {
             <Rule className="mt-4" />
 
             <dl className="text-sm">
-              {piece.dimensions.length > 0 && (
+              {(detail?.dimensions?.length ?? 0) > 0 && (
                 <div className="border-b border-ink/10 py-4">
                   <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
                   <dd className="mt-2 space-y-1 tabular-nums">
-                    {piece.dimensions.map((d) => (
+                    {detail?.dimensions.map((d) => (
                       <p key={`${d.w}-${d.d}-${d.h}`}>
                         {d.w} × {d.d} × {d.h} mm
                       </p>
@@ -182,7 +203,7 @@ export function PiecePage() {
           <div className="md:col-span-7 md:col-start-6">
             <Reveal>
               <p className="font-display text-[clamp(1.35rem,2.3vw,2rem)] leading-[1.22]">
-                {piece.lead || paragraphs[0]}
+                {detail?.lead || paragraphs[0]}
               </p>
             </Reveal>
             <div className="mt-8 space-y-4 text-sm leading-relaxed opacity-70">
@@ -195,7 +216,7 @@ export function PiecePage() {
       )}
 
       {/* ----------------------------------------------------------- plan -- */}
-      {piece.schematic && <Schematic drawing={piece.schematic} name={piece.name} />}
+      {detail?.schematic && <Schematic drawing={detail.schematic} name={piece.name} />}
 
       {/* -------------------------------------------------------- related -- */}
       {siblings.length > 0 && (

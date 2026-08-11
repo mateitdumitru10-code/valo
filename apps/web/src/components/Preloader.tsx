@@ -3,7 +3,8 @@ import { AnimatePresence, motion } from 'motion/react'
 import { expo, quint } from '~/lib/motion'
 import { stopScroll } from '~/hooks/useLenis'
 
-const MIN_MS = 900
+/** Floor on how long the curtain is held. Anything more is self-inflicted. */
+const MIN_MS = 280
 
 /**
  * First paint: hold the page until the fonts and enough of the opening clip are
@@ -43,7 +44,7 @@ export function Preloader() {
         setTimeout(() => {
           setDone(true)
           stopScroll(false)
-        }, 420)
+        }, 180)
       }, wait)
     })
 
@@ -59,7 +60,7 @@ export function Preloader() {
         <motion.div
           className="fixed inset-0 z-[70] flex flex-col items-center justify-center bg-bone"
           exit={{ y: '-100%' }}
-          transition={{ duration: 1, ease: quint }}
+          transition={{ duration: 0.62, ease: quint }}
         >
           <div className="overflow-hidden">
             <motion.span

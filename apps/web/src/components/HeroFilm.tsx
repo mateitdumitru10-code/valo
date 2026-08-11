@@ -33,6 +33,7 @@ const clamp01 = (v: number) => Math.min(1, Math.max(0, v))
 export function HeroFilm() {
   const { t } = useI18n()
   const section = useRef<HTMLDivElement>(null)
+  const sticky = useRef<HTMLDivElement>(null)
   const video = useRef<HTMLVideoElement>(null)
   const progress = useRef(0)
   const duration = useRef(5)
@@ -82,19 +83,27 @@ export function HeroFilm() {
   // scroll event instead would queue seeks faster than the decoder retires them.
   useEffect(() => {
     const el = video.current
-    if (!el || reduced) return
+    const stage = sticky.current
+    if (!el || !stage || reduced) return
 
     let frame = 0
     let playhead = 0
+    let last = 0
 
-    const tick = () => {
+    const tick = (now: number) => {
       frame = requestAnimationFrame(tick)
       if (el.readyState < 2) return
+
+      // Frame-rate independent chase: a 120Hz display would otherwise run the
+      // easing — and so the seeks — twice as fast as a 60Hz one.
+      const dt = last ? Math.min((now - last) / 1000, 0.1) : 1 / 60
+      last = now
+      const ease = 1 - Math.pow(1 - CHASE, dt * 60)
 
       const target = progress.current * duration.current
       const delta = target - playhead
       if (Math.abs(delta) < 0.004) return
-      playhead += delta * CHASE
+      playhead += delta * ease
       if (el.seeking) return
       // fastSeek lands on the nearest keyframe instead of decoding up to an
       // exact frame. With a keyframe every quarter second that is invisible,
@@ -103,8 +112,27 @@ export function HeroFilm() {
       else el.currentTime = playhead
     }
 
-    frame = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(frame)
+    // Only run while the film is actually on screen. Left ungated, the loop
+    // kept asking the decoder for frames for the rest of the visit, five
+    // screens after anyone could see them.
+    const watcher = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !frame) {
+          last = 0
+          frame = requestAnimationFrame(tick)
+        } else if (!entry.isIntersecting && frame) {
+          cancelAnimationFrame(frame)
+          frame = 0
+        }
+      },
+      { threshold: 0 },
+    )
+    watcher.observe(stage)
+
+    return () => {
+      watcher.disconnect()
+      if (frame) cancelAnimationFrame(frame)
+    }
   }, [reduced])
 
   const [chapter, setChapter] = useState(0)
@@ -126,7 +154,7 @@ export function HeroFilm() {
       style={{ height: reduced ? '100svh' : `${LENGTH * 100}svh` }}
       className="relative bg-night"
     >
-      <div className="sticky top-0 h-[100svh] w-full overflow-hidden grain">
+      <div ref={sticky} className="sticky top-0 h-[100svh] w-full overflow-hidden grain">
         {/* Full bleed: the clip fills the stage, cropping rather than letterboxing. */}
         <video
           ref={video}
@@ -145,15 +173,13 @@ export function HeroFilm() {
         />
 
         <motion.div className="absolute inset-0 bg-night" style={{ opacity: veil }} aria-hidden />
-        <div
-          className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-night/85 to-transparent"
-          aria-hidden
-        />
-        {/* Vignette: makes the letterbox edges read as framing, not as bars. */}
+        {/* Vignette and the caption gradient in one layer: each full-viewport
+            overlay is another surface to composite on every scrubbed frame. */}
         <div
           className="absolute inset-0"
           style={{
             background:
+              'linear-gradient(to top, rgba(13,12,10,0.85) 0%, transparent 40%),' +
               'radial-gradient(120% 85% at 50% 45%, transparent 45%, rgba(13,12,10,0.6) 100%)',
           }}
           aria-hidden

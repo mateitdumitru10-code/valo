@@ -13,6 +13,7 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
+import { emit } from './emit.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = join(ROOT, 'media-src')
@@ -102,6 +103,5 @@ for (const product of catalog.products) {
   if (!schematics[product.slug]) delete product.schematic
 }
 
-await writeFile(CATALOG, JSON.stringify(catalog, null, 2))
-await writeFile(join(ROOT, 'apps/web/src/data/catalog.json'), JSON.stringify(catalog))
+await emit(catalog, ROOT)
 console.log(`schematics: ${count} drawing(s)`)

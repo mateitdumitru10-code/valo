@@ -13,6 +13,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
+import { emit } from './emit.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = join(ROOT, 'media-src')
@@ -232,7 +233,6 @@ if (only) {
     }
   }
 
-  await writeFile(CATALOG, JSON.stringify(catalog, null, 2))
-  await writeFile(join(ROOT, 'apps/web/src/data/catalog.json'), JSON.stringify(catalog))
+  await emit(catalog, ROOT)
   console.log(`swatches: ${count} textile chips across ${Object.keys(variants).length - 1} product(s)`)
 }

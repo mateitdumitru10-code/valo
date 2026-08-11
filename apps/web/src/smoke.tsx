@@ -42,9 +42,9 @@ const urls = [
   ...collections.map((c) => `/colectii/${c.id}`),
   '/piese',
   ...pieces.slice(0, 6).map((p) => `/piese/${p.slug}`),
-  // Textile variants and plan drawings each take a different path through the page.
-  ...pieces.filter((p) => p.variants?.length).map((p) => `/piese/${p.slug}`),
-  ...pieces.filter((p) => p.schematic).map((p) => `/piese/${p.slug}`),
+  // Detail — prose, gallery, drawing, textiles — is fetched at runtime and so
+  // is absent here; these render the page's no-detail-yet path, which is what
+  // every visitor sees on the first frame.
   `/piese/${pieces[pieces.length - 1].slug}`,
   '/atelier',
   '/showroom-uri',

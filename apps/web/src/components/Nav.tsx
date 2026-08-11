@@ -25,28 +25,42 @@ function useInverted() {
   const location = useLocation()
 
   useEffect(() => {
-    let frame = 0
-    const check = () => {
-      frame = 0
+    // An IntersectionObserver rather than a scroll handler: measuring with
+    // getBoundingClientRect every frame forced a layout flush mid-scroll, right
+    // after motion had written its transforms.
+    const dark = document.querySelectorAll<HTMLElement>('[data-nav="invert"]')
+    if (!dark.length) {
+      setInverted(false)
+      return
+    }
+
+    const over = new Set<Element>()
+    let observer: IntersectionObserver | null = null
+
+    // A one-pixel band at the height of the bar: a section counts as "under the
+    // nav" exactly while it crosses that line.
+    const watch = () => {
+      observer?.disconnect()
       const line = 34
-      const dark = document.querySelectorAll<HTMLElement>('[data-nav="invert"]')
-      let over = false
-      dark.forEach((el) => {
-        const r = el.getBoundingClientRect()
-        if (r.top <= line && r.bottom >= line) over = true
-      })
-      setInverted(over)
+      observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) over.add(entry.target)
+            else over.delete(entry.target)
+          }
+          setInverted(over.size > 0)
+        },
+        { rootMargin: `-${line}px 0px -${Math.max(0, window.innerHeight - line - 1)}px 0px` },
+      )
+      dark.forEach((el) => observer?.observe(el))
     }
-    const onScroll = () => {
-      if (!frame) frame = requestAnimationFrame(check)
-    }
-    check()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    window.addEventListener('resize', onScroll)
+
+    watch()
+    window.addEventListener('resize', watch)
     return () => {
-      cancelAnimationFrame(frame)
-      window.removeEventListener('scroll', onScroll)
-      window.removeEventListener('resize', onScroll)
+      observer?.disconnect()
+      over.clear()
+      window.removeEventListener('resize', watch)
     }
   }, [location.pathname])
 

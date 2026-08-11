@@ -49,6 +49,10 @@ export type Variant = {
   tone: { ro: string; en: string }
 }
 
+/**
+ * What every card and listing needs, and nothing else. This is bundled, so it
+ * is the part the browser parses before it can draw.
+ */
 export type Piece = {
   id: number
   slug: string
@@ -56,13 +60,18 @@ export type Piece = {
   collection: CollectionId
   price: number | null
   currency: string
+  cover: Img
+  editorial: boolean
+}
+
+/** The rest of a piece: fetched when that piece is opened. See scripts/emit.mjs. */
+export type PieceDetail = {
+  slug: string
   lead: string
   summary: string
   body: string
   dimensions: Dimension[]
   images: Img[]
-  cover: Img
-  editorial: boolean
   source: string
   variants?: Variant[]
   schematic?: Schematic
@@ -73,6 +82,20 @@ type Catalog = {
   collections: Collection[]
   products: Piece[]
   hero: Img[]
+}
+
+const details = new Map<string, Promise<PieceDetail | null>>()
+
+/** Loads a piece's detail once and remembers it for the rest of the session. */
+export function loadPiece(slug: string) {
+  const cached = details.get(slug)
+  if (cached) return cached
+
+  const request = fetch(`/data/pieces/${slug}.json`)
+    .then((res) => (res.ok ? (res.json() as Promise<PieceDetail>) : null))
+    .catch(() => null)
+  details.set(slug, request)
+  return request
 }
 
 const catalog = raw as unknown as Catalog
@@ -124,6 +147,10 @@ export const srcSet = (img: Img) =>
   img.widths.map((w) => `/media/${img.src}-${w}.webp ${w}w`).join(', ')
 
 export const srcFor = (img: Img, width = 1200) => {
-  const best = img.widths.find((w) => w >= width) ?? img.widths.at(-1) ?? 700
+  // `widths` is stored largest-first, so a plain `find` returned the biggest
+  // rendition for every request — a 430px panel was being served the 1200px
+  // file, and an 80px thumbnail the same.
+  const ascending = [...img.widths].sort((a, b) => a - b)
+  const best = ascending.find((w) => w >= width) ?? ascending.at(-1) ?? 700
   return `/media/${img.src}-${best}.webp`
 }

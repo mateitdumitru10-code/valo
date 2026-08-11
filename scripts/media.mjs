@@ -13,6 +13,7 @@ import { readFile, writeFile, mkdir, readdir, access } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
+import { emit } from './emit.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = join(ROOT, 'media-src')
@@ -193,9 +194,8 @@ for (const collection of catalog.collections) {
     byName.get(curation.headers?.[collection.id]) ?? collection.cover
 }
 
-await writeFile(CATALOG, JSON.stringify(catalog, null, 2))
-// The web app bundles the catalogue so it renders without the API running.
-await writeFile(join(ROOT, 'apps/web/src/data/catalog.json'), JSON.stringify(catalog))
+await emit(catalog, ROOT)
+
 console.log(
   `media: ${meta.size} images, ${rendered} renditions written, ${catalog.hero.length} hero frames`,
 )
