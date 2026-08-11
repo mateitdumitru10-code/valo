@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:56:19.412Z",
+  "generatedAt": "2026-08-11T20:17:13.837Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -1788,54 +1788,58 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-torro-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-torro-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC3uCHiBrdKGEc8zZyQAAD+835Y0kVyChdHz4MzuYQYTP53QUTi/SZ+wJBCEfWAkKsAAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "coltar-torro-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-torro-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB4JFh8VP39AAAD+mIkqOCVTpHK0yb2Co6DyZJKid4t9GaJphfWik5zKwaj8HLAA",
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC06B7HTpWyUn32fY6wAP7zgrILNqR/GrRFTzhJnHY2lfroXvITfM4J8ubidOei4yzlA0gG5QAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "coltar-torro-3",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-torro-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdACHcaqnWpp2tAAD+tjhWngTY5B2FDISImxFYT+qe/Hnyqv8r0jIEgl0SMhvcntQAAAA=",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+uXkSdtCgAA/vNr/iHL21vXoyjx2ThzqynwyuKAAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-torro/",
       "cover": {
-        "src": "coltar-torro-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-torro-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC3uCHiBrdKGEc8zZyQAAD+835Y0kVyChdHz4MzuYQYTP53QUTi/SZ+wJBCEfWAkKsAAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true
     },

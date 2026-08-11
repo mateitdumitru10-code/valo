@@ -67,6 +67,11 @@
       "coltar-sam-studio-1",
       "coltar-sam-studio-2",
       "coltar-sam-studio-3"
+    ],
+    "coltar-torro": [
+      "coltar-torro-studio-1",
+      "coltar-torro-studio-2",
+      "coltar-torro-studio-3"
     ]
   },
   "products": {
@@ -175,6 +180,9 @@
     "coltar-sam-studio-1",
     "coltar-sam-studio-2",
     "coltar-sam-studio-3",
+    "coltar-torro-studio-1",
+    "coltar-torro-studio-2",
+    "coltar-torro-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
