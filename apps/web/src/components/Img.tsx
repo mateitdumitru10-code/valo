@@ -28,27 +28,14 @@ export function Img({
 }: Props) {
   const [loaded, setLoaded] = useState(false)
 
-  // A studio frame already carries its own margin, so cropping it to fill a
-  // card cuts the piece's legs off and reads as a zoom. It sits inside the frame
-  // instead, on paper, with a little breathing room.
-  const contained = img.studio
-
   return (
     <div
-      className={clsx(
-        'relative overflow-hidden',
-        contained ? 'bg-paper' : 'bg-mist',
-        className,
-      )}
-      style={
-        contained
-          ? undefined
-          : {
-              backgroundImage: `url(${img.lqip})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }
-      }
+      className={clsx('relative overflow-hidden bg-mist', className)}
+      style={{
+        backgroundImage: `url(${img.lqip})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       <img
         src={srcFor(img, 1200)}
@@ -62,10 +49,9 @@ export function Img({
         decoding="async"
         onLoad={() => setLoaded(true)}
         className={clsx(
-          'h-full w-full transition-[opacity,transform] duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]',
-          contained ? 'scale-[0.92] object-contain' : 'object-cover',
+          'h-full w-full object-cover transition-[opacity,transform] duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]',
           loaded ? 'opacity-100' : 'opacity-0',
-          zoom && (contained ? 'group-hover:scale-[0.96]' : 'group-hover:scale-[1.045]'),
+          zoom && 'group-hover:scale-[1.045]',
           imgClassName,
         )}
       />

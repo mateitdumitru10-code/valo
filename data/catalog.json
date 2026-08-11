@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:43:42.879Z",
+  "generatedAt": "2026-08-11T16:06:14.093Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -236,37 +236,40 @@
       "images": [
         {
           "src": "coltar-aldo-studio-2",
-          "w": 1264,
-          "h": 844,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDA3CHfq2+3RHbYAAD+82+hvnMnG1X14pFnZUO1LLxvmwCQjvQ8dNr2xngA",
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAW+uYR4AtME/P8AAA/vNr7+YDnRR6kMmRMcoYR1pglVxWTYAA",
           "editorial": true,
           "studio": true
         },
         {
           "src": "coltar-aldo-studio-1",
-          "w": 1264,
-          "h": 844,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JZwAAW+uXyxY+wLn2hQAA/vNu+/y29jAc8xyNOjd1U4b539aFXYKAAAA=",
           "editorial": true,
           "studio": true
         },
         {
           "src": "coltar-aldo-studio-3",
-          "w": 1264,
-          "h": 844,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDLLCHYfQOt2WujpbgA/vNwGNMhYX4dqRFRhdb1inxOXoFCPnkcDyAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW+vQVtdBmMQAAP7za8jJfwdN2B5SbF9e6TgQAA==",
           "editorial": true,
           "studio": true
         }
@@ -274,13 +277,14 @@
       "source": "https://mobilasamobi.ro/products/coltar-aldo/",
       "cover": {
         "src": "coltar-aldo-studio-2",
-        "w": 1264,
-        "h": 844,
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDA3CHfq2+3RHbYAAD+82+hvnMnG1X14pFnZUO1LLxvmwCQjvQ8dNr2xngA",
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAW+uYR4AtME/P8AAA/vNr7+YDnRR6kMmRMcoYR1pglVxWTYAA",
         "editorial": true,
         "studio": true
       },
@@ -2319,37 +2323,40 @@
       "images": [
         {
           "src": "pat-aldo-studio-2",
-          "w": 1195,
-          "h": 896,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+qpx/qoAAD+82vvLxwMrkX1B6AMCAAA",
           "editorial": true,
           "studio": true
         },
         {
           "src": "pat-aldo-studio-1",
-          "w": 1195,
-          "h": 896,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+pIwzhaWDwAAAD+83SA4CcYg0YzZgp/gbxvjHLqFfliRyCuTV/BaFUAAAA=",
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JaQAAW+s78/KhShAAAP7zawUugU8pbPFZAAAA",
           "editorial": true,
           "studio": true
         },
         {
           "src": "pat-aldo-studio-3",
-          "w": 1448,
-          "h": 1086,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZwAAUqi9J79pS2FAAP7zgrUMTqPRzmXtiQhQFc7sVETCcfxVqO4AoAA=",
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+quFUoAAP7za+93p2z61qowBAA=",
           "editorial": true,
           "studio": true
         }
@@ -2357,13 +2364,14 @@
       "source": "https://mobilasamobi.ro/products/pat-aldo/",
       "cover": {
         "src": "pat-aldo-studio-2",
-        "w": 1195,
-        "h": 896,
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
+        "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+qpx/qoAAD+82vvLxwMrkX1B6AMCAAA",
         "editorial": true,
         "studio": true
       },
@@ -3296,48 +3304,53 @@
       "images": [
         {
           "src": "aldo-studio-2",
-          "w": 1264,
-          "h": 843,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZwAAW+hdH69RGD2SAAD+79EYXIRC/4BvxFOHm8ABIy2+vUjbXcBuSMAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDE2CHfz1JSRKez3wgA/vNr/M1UB+PZeqHyJafJapEAAAA=",
           "editorial": true,
           "studio": true
         },
         {
           "src": "aldo-studio-1",
-          "w": 1264,
-          "h": 843,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwC+SCHfubWBbfcC1pAA/vNuswNoJVJirQLgD+1dCg48AAA=",
           "editorial": true,
           "studio": true
         },
         {
           "src": "aldo-studio-3",
-          "w": 1264,
-          "h": 843,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZwAAW+hYvD0X1gd5oAD+83AIim8vMzFqjre/aRkmWDI4WejxNHXPiCitss8s+NMqoAAA",
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+s1xuMwVfDIAP7za/nWeT7ljwA6C8oU1Abwbq8tZHAAAA==",
           "editorial": true,
           "studio": true
         },
         {
           "src": "aldo-studio-4",
-          "w": 843,
-          "h": 1264,
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
+            1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBQCdASoUAB4APu1iqE6ppSOiMBgMATAdiWMAnQAPY0KOYsGsxZJzjn3ns7wZDhoAAP7x9oxzu7Px3+0mhZ5dicBb4qbzKgbTCksMWnad+cR9UP2CqpkXM6+oRtonTydyrkf2vkdcGVW/kBR+zLlEfMAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+y6+FLoQygA/vN1KwO3uJ0l8kessZ7THAA=",
           "editorial": true,
           "studio": true
         }
@@ -3345,13 +3358,14 @@
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-aldo/",
       "cover": {
         "src": "aldo-studio-2",
-        "w": 1264,
-        "h": 843,
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZwAAW+hdH69RGD2SAAD+79EYXIRC/4BvxFOHm8ABIy2+vUjbXcBuSMAAAA==",
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDE2CHfz1JSRKez3wgA/vNr/M1UB+PZeqHyJafJapEAAAA=",
         "editorial": true,
         "studio": true
       },

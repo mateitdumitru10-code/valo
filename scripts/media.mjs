@@ -37,6 +37,59 @@ const exists = (p) =>
     () => false,
   )
 
+/** The staged frame studio shots are placed into: 4:3, piece at 68% height. */
+const STAGE = { w: 2000, h: 1500, height: 0.68, width: 0.8 }
+
+/**
+ * Re-stage a studio shot: trim the sweep away, then set the piece back down on
+ * a larger white field at a fixed size and position. Every studio frame then
+ * shares one crop and one scale, so a grid of them reads as one shoot — and the
+ * margin lives in the pixels rather than in a box drawn around them.
+ */
+async function stageStudio(input) {
+  const source = sharp(input)
+  const { width = 1, height = 1 } = await source.metadata()
+
+  // The whole frame is scaled down and set into a larger field — no trimming.
+  // These sweeps are vignetted, so cutting the piece out of one and dropping it
+  // onto a flat colour leaves the original's corners showing as a box.
+  const scale = Math.min((STAGE.h * STAGE.height) / height, (STAGE.w * STAGE.width) / width)
+  const piece = await source
+    .clone()
+    .resize(Math.round(width * scale), Math.round(height * scale))
+    .toBuffer()
+  const placed = await sharp(piece).metadata()
+  const pw = placed.width ?? 0
+  const ph = placed.height ?? 0
+
+  // These sweeps are vignetted: white behind the piece, grey towards the edges.
+  // Lift the white point until the corners are white too, so the shot dissolves
+  // into the field it is set into instead of sitting in a visible rectangle.
+  const band = Math.max(4, Math.round(Math.min(pw, ph) * 0.03))
+  const corner = await sharp(piece)
+    .extract({ left: 0, top: 0, width: band * 4, height: band * 4 })
+    .stats()
+  const edge = Math.min(...corner.channels.slice(0, 3).map((c) => c.mean))
+  const lift = Math.min(1.14, 255 / Math.max(edge, 200))
+
+  const levelled = await sharp(piece).linear(lift, 0).toBuffer()
+
+  return sharp({
+    create: { width: STAGE.w, height: STAGE.h, channels: 3, background: '#ffffff' },
+  })
+    .composite([
+      {
+        input: levelled,
+        left: Math.round((STAGE.w - pw) / 2),
+        // A little above centre: furniture reads better with more floor beneath
+        // it than headroom above.
+        top: Math.round((STAGE.h - ph) * 0.45),
+      },
+    ])
+    .png()
+    .toBuffer()
+}
+
 const base = (file) => file.replace(/\.(webp|jpe?g|png)$/i, '')
 
 const catalog = JSON.parse(await readFile(CATALOG, 'utf8'))
@@ -91,7 +144,8 @@ let rendered = 0
 for (const file of sources) {
   if (!used.has(file)) continue
   const name = base(file)
-  const input = join(SRC, file)
+  const original = join(SRC, file)
+  const input = studio.has(name) ? await stageStudio(original) : original
   const { width = 0, height = 0 } = await sharp(input).metadata()
 
   for (const w of WIDTHS) {
