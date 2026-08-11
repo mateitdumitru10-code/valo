@@ -7,6 +7,8 @@ export type Img = {
   widths: number[]
   lqip: string
   editorial: boolean
+  /** Shot on a white sweep, with its own margin — shown whole, never cropped. */
+  studio?: boolean
 }
 
 export type CollectionId =

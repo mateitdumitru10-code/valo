@@ -13,14 +13,14 @@
   "images": {
     "_note": "Own photography, replacing the scraped set for a piece. Filenames live in media-src/ and survive a re-ingest, since ingest only writes the scraped list and media.mjs applies these over the top.",
     "canapea-extensibila-aldo": [
-      "aldo-studio-1",
       "aldo-studio-2",
+      "aldo-studio-1",
       "aldo-studio-3",
       "aldo-studio-4"
     ],
     "coltar-aldo": [
-      "coltar-aldo-studio-1",
       "coltar-aldo-studio-2",
+      "coltar-aldo-studio-1",
       "coltar-aldo-studio-3"
     ],
     "pat-aldo": [

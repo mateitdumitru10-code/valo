@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:25:44.952Z",
+  "generatedAt": "2026-08-11T15:43:42.879Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -16,7 +16,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "coltar-sam-1",
@@ -27,7 +28,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -44,7 +46,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "canapea-ela-1",
@@ -55,7 +58,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -72,7 +76,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "pat-matrimonial-1",
@@ -83,7 +88,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -100,7 +106,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "fotoliu-king-1",
@@ -111,7 +118,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -128,7 +136,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "hol-chesterfield-1",
@@ -139,7 +148,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -156,7 +166,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "noptiera-paul-1",
@@ -167,7 +178,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     },
     {
@@ -184,7 +196,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0APu1mqk2ppaQiMAgBMB2JZQCdAB6oRJQefkVoAP6azOKKgsrqDtEbO6XonkESMWllFl32fchITTJBsK+RnJLHOJFIt7gAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "header": {
         "src": "scaun-crama-2",
@@ -195,7 +208,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0APu1mqk2ppaQiMAgBMB2JZQCdAB6oRJQefkVoAP6azOKKgsrqDtEbO6XonkESMWllFl32fchITTJBsK+RnJLHOJFIt7gAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       }
     }
   ],
@@ -221,17 +235,6 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-aldo-studio-1",
-          "w": 1264,
-          "h": 844,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
-          "editorial": true
-        },
-        {
           "src": "coltar-aldo-studio-2",
           "w": 1264,
           "h": 844,
@@ -240,7 +243,20 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDA3CHfq2+3RHbYAAD+82+hvnMnG1X14pFnZUO1LLxvmwCQjvQ8dNr2xngA",
-          "editorial": true
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-aldo-studio-1",
+          "w": 1264,
+          "h": 844,
+          "widths": [
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
+          "editorial": true,
+          "studio": true
         },
         {
           "src": "coltar-aldo-studio-3",
@@ -251,20 +267,22 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDLLCHYfQOt2WujpbgA/vNwGNMhYX4dqRFRhdb1inxOXoFCPnkcDyAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-aldo/",
       "cover": {
-        "src": "coltar-aldo-studio-1",
+        "src": "coltar-aldo-studio-2",
         "w": 1264,
         "h": 844,
         "widths": [
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
-        "editorial": true
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDA3CHfq2+3RHbYAAD+82+hvnMnG1X14pFnZUO1LLxvmwCQjvQ8dNr2xngA",
+        "editorial": true,
+        "studio": true
       },
       "editorial": true,
       "schematic": {
@@ -310,7 +328,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUI7gBVYLuP2zBUA9AAD+103ADk5x7wgyswVhfWUqdzEBU1Xhj+JFaIO4Nr5gAOeS7QH7B00wK2yt/MAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alex-ii-2",
@@ -321,7 +340,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOgA9DQwAdJeZMh8AD+6IvudKmjkVAgmp4H7jQ0lZCLfQYRVbQIhizyftgNAmPj14Q/UTn95FtexywqCpzP7wAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alex-ii-3",
@@ -332,7 +352,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAA0APu1kq04ppaQiMAgBMB2JQBOmUABfZrGmejMoFIoAAP7XTcYxirfjpoLIjadgLrmRhyHY/l8O8jR5bZV/IKmliNFscL0i6vjfmrWRrJWtaK7AAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alex-ii-4",
@@ -342,7 +363,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwAAW1ewGrPmf0csxAAA/vBAlyx65Why76dbX61zJV/1A3qftU8s7vitM6mBLtvHiBA3wAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alex-ii-5",
@@ -352,7 +374,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAAwAPu1krU6ppaSiMAgBMB2JYwDCgB5uUytgTaaSq2AA/vHgw67kFz7mvBk5x1DUrsk9V3bny2bSw/WCb5L2+pMAjVeAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-alex-ii/",
@@ -365,7 +388,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUI7gBVYLuP2zBUA9AAD+103ADk5x7wgyswVhfWUqdzEBU1Xhj+JFaIO4Nr5gAOeS7QH7B00wK2yt/MAA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -398,7 +422,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1orU6ppiSiMAgBMB2JYwC2yBuk1G4w9lF/eKEAAP6bm/CLm7Y+DQJpcDPH+3BBSwDOAIuhPq2by71Q88EPtjmu11fBfctpARuU/HaAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-eco-2-2",
@@ -409,7 +434,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JYgCdABuUYFRe0ZJJ+7AA/mcjkdCC3ziPD/GAI+NkgHfNxNfRFK+AoXoIuTTFsVqecBl2cm4nIcF6Oi4IMAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-eco-2-3",
@@ -420,7 +446,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoADTbl+B06zzRSgAP7EuyE5MuXBvHTb7pwP0x6vImVudRKKbunTHEsGIOFgKTm/d4HigAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-eco-2-4",
@@ -431,7 +458,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA8APu1kq04ppaQiMAgBMB2JZACADCcga4ShXu0rfhO4a2QA/sRh2TxSd7QXv2pWSByTxzcuPO+WqEX90DjXs4LCnzvc0sqFyAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-eco-2-5",
@@ -442,7 +470,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZAC7ABuUYNuyUoe8FmmAAP5bMOeVaAP/panxlFriTT+p2hjpHx46WOj8NEIZTDhMJXDIIcjLp7heSMl0XW2CWJXAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-eco-2/",
@@ -455,7 +484,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1orU6ppiSiMAgBMB2JYwC2yBuk1G4w9lF/eKEAAP6bm/CLm7Y+DQJpcDPH+3BBSwDOAIuhPq2by71Q88EPtjmu11fBfctpARuU/HaAAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -483,7 +513,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-fantezie-2",
@@ -494,7 +525,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBQCdASoUABsAPu1grFAppKQisBgIATAdiUAVyXqQVEnkNv2hE4QsxGhxUmEPeF4dHiAA/rUfPph1q46IeGu2eVRYmK/kuzLT3mmz5IXjHM3YmjevSYip4f/oGzaV1L5i4FnLI3lTWKwyQPxGm0fAyWpsZPuRD0OwNfyOM/vLcogA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-fantezie-3",
@@ -505,7 +537,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQBQCdASoUABsAPu1mq0+ppSOiMBgIATAdiUAYz4aOGA5KqhbBaeXbfiNZefkwX2BKXAAA/rB4AT8KyVqhZDwHnWNby8gXcXynJ8g59+WbUsrn1tq5Jfa06e66RwWwMvYC4KuEpqr+DzabO6oqopVj18iKFp5F8S3CCWtfLjwAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-fantezie-4",
@@ -516,7 +549,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUABsAPu1qrlEppaQiqAqpMB2JQBdgBgR0xvrpArBnlka4wsNuVejCoAD+jTzwfm7uzUa9+3QeyyTL/WpdkmDx6FE9JGMs3h4GOwFQZtjCrGjpk3yGdUM8VJO3a4EnwCEgBngmNEIb4mp3n3Y+AAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-fantezie-5",
@@ -527,7 +561,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-fantezie/",
@@ -540,7 +575,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -571,7 +607,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAA0APu1mqk2ppaQiMAgBMB2JQBOmUGMACEkg5mbfgPkMbdcAAP2sMFEWo90LHH795MxMR/9W21bzOp+w5hNI1fEhQL3V9Y+JXQBmuO4FmvBbd+OAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-extensibila-soria-2",
@@ -582,7 +619,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOkDgBXt1qXKVJEDOAA/awwUYlSq92WhNjK41SS89v8SfySkTe4Ygk2BQx/LO1oupYaS6sWQP6iodl/1p/5czVbQAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-extensibila-soria-3",
@@ -593,7 +631,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBQCdASoUAB4APulgpE2pJaMiMAwBIB0JbACdMoMwcEmWf2lVToc6HvjLKiQ2uJvl7ulWCGvAAP7zdQPZxdS1mVNMrNadU3bscDycb8rjqRTT8r6I8N5tDE82Slw0qPfZdL1Mo4PbqHaWBg51v0UxFY9ROHbinc3BIR+NDYh1yaNExFeKl5Q2mri3c6lqkIcDHk15AAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-extensibila-soria-4",
@@ -604,7 +643,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsABUxcdHu2YAD+6DoiVKrIkTwGOXNmdIk9E7k48zyH/96FwxaP1dMWThWYhQwryPOYN+v/VQAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-extensibila-soria-5",
@@ -614,7 +654,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAAwAPu1oqk6ppiQiMAgBMB2JZgCw7CHcVHT0bnn06EsAAP7h7Iox8JO2IdCaMlIZyyysD06ZgyiILd3ja9XyAPmF1twn4uuKEAcDLBHV4DrYAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-soria/",
@@ -627,7 +668,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAA0APu1mqk2ppaQiMAgBMB2JQBOmUGMACEkg5mbfgPkMbdcAAP2sMFEWo90LHH795MxMR/9W21bzOp+w5hNI1fEhQL3V9Y+JXQBmuO4FmvBbd+OAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -663,7 +705,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JYwC06B5uG+Yb8CxNzwAA/reEZkIGpDX97ye3yDusVLkZLIKVa87u5B2Y3Z2n4riWoRwZkdK3eytuGq/tKIQeAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-eco-2",
@@ -674,7 +717,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JYwCsMoACAC3NjxPlbGDYXAAA/gqayAl21Pw4CJDd9Nhno5iCKq1t2W38nuB87j3lDl04A5ajBJp8l4uuKAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-eco-3",
@@ -686,7 +730,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JZwAAW+RlYWYBcWlPfKwA/sljP0J6X6ZJmXg+kPfJD4qy+bo+5sGdjiUernfva1kTrAXzECaznUjgzWAOFCU1LQAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-eco-4",
@@ -696,7 +741,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAAoAPu1iqU2ppaQiMAgBMB2JZgCdMoADTuLsU6oMriT1YAD+8jRULjbdQT1nvrXUbf/bWbxj364G8uvCRUuHYQIrWMYQiFvYVwjz6kEAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-eco-5",
@@ -707,7 +753,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPu1oqk6ppiQiMAgBMB2JZQAASoWecsT/xVBXwAD+uCtQXa8VTaykWmiVgOiLeP/oivApfEXmu/Cuv9f+ZdAIigAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-extensibil-eco/",
@@ -720,7 +767,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JYwC06B5uG+Yb8CxNzwAA/reEZkIGpDX97ye3yDusVLkZLIKVa87u5B2Y3Z2n4riWoRwZkdK3eytuGq/tKIQeAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -749,7 +797,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBjehDhWPzeVQnAA/OFD8ZZbd5F3yHW1by/iXWvXmypIbLi02dOWt4vHMSqjekqDn9KEX2AAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-sonia-extensibila-2",
@@ -761,7 +810,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JQBOmUAAg+SIFeuKJ8SWAAMoomKr3/eiWsBEdSPJOACxy/0Xexl5did7oZnRtcy2NbbcELthghgm/ajhHg4fAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-sonia-extensibila-3",
@@ -773,7 +823,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JQBOgAf3pzzwF4Bg8AAD8syWtNTkcXA5QvZ5kXk6FvIYbtOseJfDIbvaBaIAmJCFpi1Qsz3TcGhUMhMok/PoAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-sonia-extensibila-4",
@@ -785,7 +836,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA8APu1iqU2ppaQiMAgBMB2JQBOmUGVsicmE8BSQeQKu4AD45L0WsWaD6F9i3De3TAnWLO5K8TYTtgfgya4fq+uCpSsY0ScTCwAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-sonia-extensibila-5",
@@ -797,7 +849,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBOmUAAhhuCbjcVxngAA8lMbpq2GYyueWEnBFQMcpVVekoZyPq7sl7hMEDap94eS60mEPlMwyMAn2b5yQSoAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-sonia-extensibila/",
@@ -811,7 +864,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBjehDhWPzeVQnAA/OFD8ZZbd5F3yHW1by/iXWvXmypIbLi02dOWt4vHMSqjekqDn9KEX2AAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -839,7 +893,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoAC8hOE0lwdCHi0AAD+CVdC+Yzt5qou58R/NyMStMb1xnZVxnjBYGcYB6mm+hBbagdXnvnwAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "pat-panouri-dreptunghiulare-2",
@@ -850,7 +905,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBACdASoUABsAPu1oqk8ppiOiKA1RMB2JYwDE2HTF4upl4cHXsigY1GVvbAAA/Ju1sxfVC3YkmKGpP1uxXln/6M47VtS9TCEzFo3g/Fbwla4tAPOGjSGeFbrhow5jKKxi3vIcjBQChmPFqnc+DvjffhguMS2c/tlAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-panouri-dreptunghiulare-3",
@@ -861,7 +917,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABsAPu1or1AppaSiqAqpMB2JZQDCgDTvlsElhU2CC9Rk3DuAlYxx2AD+kBBMJVg5vOX6dmMG7bFDZpPQkTUKtfI46jTuvlMctXUtQ85lJA3IKbDyiSUmrHoyw4AvwAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-panouri-dreptunghiulare-4",
@@ -872,7 +929,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBQCdASoUABsAPu1oqlAppaOiqA1RMB2JZQDDzQSFEXfN/U8WrsG7miMdv9fhuqqlX5IAAP6xg8R8jj5jNC/aLxxcT5ULGyOgYPwyIKP04xAieaon9j9zayAIDgp3yHT/M/58b/C+xgS9B+ZlSQvOuKv2v3dO0sAeCSoAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-panouri-dreptunghiulare-5",
@@ -883,7 +941,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBQCdASoUABsAPu1oq08ppiOiMBgIATAdiWMAuwApe2MG1ktwNi+DuZF6H4SRh67EYAD8qyiCWIowX867SNIxxfuLa3e1Bv3c2Y5WJ10MG59QNaqlw1+kb5HMO/irkch4ur3cu3JUFkZ+/lgS5knOxPYx1gAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-panouri-dreptunghiulare/",
@@ -896,7 +955,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoAC8hOE0lwdCHi0AAD+CVdC+Yzt5qou58R/NyMStMb1xnZVxnjBYGcYB6mm+hBbagdXnvnwAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -924,7 +984,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdLwABrTvL2XMNuCwl0cAA/QBc5wk8VTuswq2NGKUEnfVEFekNVmgfqMNHi1cC1Vfv9jmdU+EzUUtUaSN1DQAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-sun-2",
@@ -935,7 +996,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBQCdASoUABsAPu1oqk2ppiQiMAgBMB2JYgDHLUAA5HRE/GFAax9DMTrjRS6qjr0EAS3gAP5WpGYQuhL73izGn6eNgPLUu6yfpgNbDGI4HwPCbXZKqiYfkX8AH7kke2lkCroCLBqTYC8riMuhUItCRPrBaQAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-sun-3",
@@ -946,7 +1008,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBQCdASoUABsAPuVep02pJSOiN/VYASAciWQAtwFAAFrGawUxo2BXcLv8DrJ5YMuOwAD4srw/UAA50iQFLpcnv698vYGvfYnv8CU2qE+4wCU58vOe7I+qCUZleu8YhSYG+8dWOG0gL0yyFItjYSTT45AjrdQVNbt2IAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-sun-4",
@@ -957,7 +1020,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBQCdASoUABsAPu1mqU4ppaOiMAgBMB2JYgCxHvZ7KCSdclvo8LKr0CyENWtlCzlQ6QAAAPxlnNhiTcz6ICcgvB4eesaRYHWEyvxXKyHu0pJJTvBAKbdrf+LMetirh4lbDy9aZHkAR/ud7AbHeHvJHQKj4D/saSXAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-sun-5",
@@ -968,7 +1032,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBQCdASoUABsAPu1arE2ppKSiMBgMATAdiUAXZlBlUwO678fr4uQscTmZmZhJFTK4YSPs2YAA/lbz4IYXAYe8XwBf1ryGmYHll1sTAnYO+LrSheCCqOTCfDkrUrcAXM/KKqFZ9PnSYvot2IukuUBB0AvPJiEsW8jO9ouAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-sun/",
@@ -981,7 +1046,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdLwABrTvL2XMNuCwl0cAA/QBc5wk8VTuswq2NGKUEnfVEFekNVmgfqMNHi1cC1Vfv9jmdU+EzUUtUaSN1DQAAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1013,7 +1079,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA0ALrV2u12jqampiYC0SygE6AHpHPHhluf7yYcAAP7KmdMfy5v7XSy7YDMDOAXDXKadWiqCKayJxsVAZl/k195sZo6AAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-vision-2",
@@ -1024,7 +1091,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA0APu1orU6ppiSiMAgBMB2JYwCsAB6SEHHweMJr6ffwAP5sLm5tHZIvRtGwgZ5DPryzJ5vlg5Ar8J9/pfLfqh4M8JXc/C5OQAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-vision-4",
@@ -1035,7 +1103,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZgCdMoACaiE4KV0o8dqAAP6pd6RF5XAIYnZyZ/iWyJohANUj9VPhr6DCA70Gy4QVRvJvBDIc05bdZCcsMqXG10AAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-vision-3",
@@ -1046,7 +1115,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQBACdASoUAB4APu1iq0+ppSOiMBgIATAdiWIAnQA81Go3Q2s9yl49G6iAAP7sZiU3XJdGYdZD72IvYLafjkKCMUhBWH1sVmb0OgR7vrJI+OW/AxFtcPuReWARYMY3WiuztBoO91Mpwx3tOoNM8NYgAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-vision-5",
@@ -1058,7 +1128,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPu1orU6ppiSiMAgBMB2JZQAAW++GL3QR1nqKAAD+64683cu29mJ1+KYpNvdkX5T3tTtGEZ3+zA8fx9Qws4ylkAQA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-vision/",
@@ -1071,7 +1142,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA0ALrV2u12jqampiYC0SygE6AHpHPHhluf7yYcAAP7KmdMfy5v7XSy7YDMDOAXDXKadWiqCKayJxsVAZl/k195sZo6AAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -1101,7 +1173,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZwC/OBuffB9hHmvv0AD+ynok1jH+6+sdG8/oLkVxc7fuh1qhahuDIByawAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-ii-2",
@@ -1112,7 +1185,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAAsAPu1oqk6ppiQiMAgBMB2JZQDE2BjyQNUOle/Iw+WAAP7yNHmaWDe5QtRwdVfeiOB7eoCSVA4Ue68vqtoGcTLxkQf0YKgAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-ii-3",
@@ -1123,7 +1197,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwDImB6XOBhpPjhPtrMgAP7uNRUNyMcyb3ZWvwNQMS3iIAU7R9nYOkqEHfojbSds3MU7SI1WmeAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-ii-4",
@@ -1133,7 +1208,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZwC/OCE5hvKXBuVb8JoAAP7vw6ot1Mc1tRMtRKGwo/pqA9kWPv1u76BLWYPul2AAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-ii-5",
@@ -1144,7 +1220,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4WAoAAAAQAAAAEwAADwAAQUxQSM0AAAANuTJE9D80kBVJcuzw5L35/6/03rtvqGHkpaIX3mmauj23+95J0AM6iYgJmIDeRWsWXDp2Djd6RIBnBpFX1XrlWiFEEJpjVReCyywdgjJpLkIeGhS3QcxLoLUAwPbN0qlxsF2HJAigkbaioAh/IB6VI8CZJ8Dx7CRHDYnPYnbrD8bEc8lWmJ2w9lmqlpn004Zcj8nDxT27zMKi9QeeW5TwjzfgJ3IGRKLmUtwOLHFkwABCLpLIv1HfZjUCD8ccs5m1BuT+lvg3UEqDqE1DAFZQOCBIAAAAsAMAnQEqFAAQAD7tYqpNqaWkIjAIATAdiWcAxNgUKoVwCqiK/QAA/VIcYEhL3IGgf+ubkkIy74yZD1ArpWUM9oOvqXl4AAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-corina-ii/",
@@ -1157,7 +1234,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZwC/OBuffB9hHmvv0AD+ynok1jH+6+sdG8/oLkVxc7fuh1qhahuDIByawAAA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1194,7 +1272,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JagCdMoADTN+mNlS2c8AA/prp0wUS8NY9E3Jljh2mV7vKyffC1xVTAPV/ZAIvSpHq0EMrIkxlXBuI3+zUwvyqgAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-maria-2",
@@ -1205,7 +1284,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwBACdASoUAA0APu1kqU2ppaOiMAgBMB2JaACdMoR3ACWWvP/O5WgK0ozo0AD+BuHVlcoji8AvbTNxF87eOTWP4svmZst/hqUpSazUsLAITjQEK84L9F1UAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-maria-3",
@@ -1216,7 +1296,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAAsAPu1mqk2ppaQiMAgBMB2JQBfnBDw76oS2aJXOwAD+8dhUvL4ERVGt/XxTY9JrQ3Sui/G+4AAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-maria-4",
@@ -1227,7 +1308,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRiwBAABXRUJQVlA4WAoAAAAQAAAAEwAADAAAQUxQSLsAAAANuS5E9D80cGPbVt1IZqb+K4SI2Y7Uw34Ww5mrVHdOZmZO/0RMwATU1mmaLhXENaMrtp+kKbOaOnMuABO+MNGMZrM5RyWJNGnL8ZfjVXDsO1JGSgXlRHVqy65qT3Xs79/pJ/zUXDf6eFhy4FC14EkhpwXOzobekduHTiIQmHgYNZ9ed+gpSRraEz2VbXMIhRqAywM3T0EBGWQgkT96mYhIyyD4T8W+ea9NS8gWlp86zTVPpNIZcoKtsb8BAFZQOCBKAAAAEAQAnQEqFAANAD7tYqlNqaWkIjAIATAdiWIAnTKAAvvh9XY+d/my4AAA/uj2RaprgWzf/FDlZYehyoAMHF30IvccdgjQvN2AAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-maria-5",
@@ -1238,7 +1320,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBfnBDrTxidqJuMgAP7wSiEWkRlu097zhsPO8zsnajGTPY85Gxr90kZUTV+cwy6JxuWQXg8Kzjz1bnZUlSA3zoAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-maria/",
@@ -1251,7 +1334,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JagCdMoADTN+mNlS2c8AA/prp0wUS8NY9E3Jljh2mV7vKyffC1xVTAPV/ZAIvSpHq0EMrIkxlXBuI3+zUwvyqgAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1279,7 +1363,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JYgCdMoACWAfS6rMBwgAA/QBbU3Td1Yfo3imFXNkZ1RLUuS3eHz15CP+i0e0zzWL/msDaxDpuR4Wq7NiaGn5I/ID+gAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-spring-2",
@@ -1290,7 +1375,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQBACdASoUABQAPu1mqk8ppaOiKA1RMB2JZwC4qAljAkpamXYO9wrWGWHQAPz8cU9+TnQS6mfut68dCV4bJV1/Uz81yJWobHb7+G8DtyhVXGhL4SfcGZjtOnr2JgxIka323wvKdh7SjfFvgAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-spring-3",
@@ -1300,7 +1386,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZgCdMoADTet7fntkw/24AP7x9m6ZZYnp9N6YDWJtr8m7SfpcaU5ad90LLTvFJ7TaF1fhyKHo0kFISFc1/4+GiHNogAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-spring-4",
@@ -1311,7 +1398,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRpABAABXRUJQVlA4WAoAAAAQAAAAEwAAFAAAQUxQSP4AAAANuTJE9D80shzbVm1FcQj976G7u54+jJUrfzP74JyVicPJSu7vxiUREzABW3cccdxdJ5y363my7YB9rjrllqM+JLrnujrsw3QZ3HeD91xQUyDhOxZSGLf4lnaz67YI7WepKfLbIiZbM719a2WSzMyIGTs0RgXIUrZvIXBTFYDBFimMU8I8UTKNBCMGK4moRUaP/m0gM/OPD/F8jdftSeqLsfXPY590DH6S1etnTK37M2Kwhb8d9OdzLd6KYbc589urRYE8QKhp8/9tLmLOIbXQW0c2vvG4DAku4iYv9A1kCxiLn0xz5WgpykaVY+sEtQCFsHAkm8iszG4LZNTZyFZQOCBsAAAAEAUAnQEqFAAVAD7taq9QqaWkIqgKqTAdiWcAzBu/Yv+BdxWqAgzuk01tytDwLs2U4AD+0elhpr3MFWCAXLjN8VPHFOWxqgArdWk47wtL0g9oSEClThl8ozaIdNOMBnXAoUVAjF4jvxdoAAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-spring-5",
@@ -1322,7 +1410,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnYBAABXRUJQVlA4WAoAAAAQAAAAEwAADgAAQUxQSOsAAAANuTJE9D8AS7adNoyeZIFrerL/reWvd8ZgmlL3EDEBE0DJ38yI0YS9e5Ywh5E/gYFqkqLxVkkU/AIDoIQpoqiZKCdJDkBYNzCsMYemKN5lymOfmkXVkYYVxScQu41DDkY44krQFVXXRW8GZxxCSEMYgGKHoupMsBgYI0zTFQM2unNOgTEeSyoxgu5QOY5nbl2beMREnRLCQAXCWdx4sssmk0lQMOGAACVm5MIjpgIzgapjGwEHxiab3Qcgkw/RTHnMU6OsIaqIgBDiVEk0WYnOi4hgSUN+K4h20ZnFIQADDfmbCZMZEAEQRv4HAFZQOCBkAAAAEAQAnQEqFAAPAD7tYqlNqaWkIjAIATAdiWkAA+Mw2bLPVzYpVsD7AAAA8B9IYcSEBNTY7v7DmflXmRAUHZuQbpLyQsafVpW32A7yKQe4PhJmn2jG521x0inAT1cmQwV10jgAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-spring/",
@@ -1335,7 +1424,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JYgCdMoACWAfS6rMBwgAA/QBbU3Td1Yfo3imFXNkZ1RLUuS3eHz15CP+i0e0zzWL/msDaxDpuR4Wq7NiaGn5I/ID+gAAA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1394,7 +1484,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBWGUABf4EGWMZyeG18AAP7JEuV8oZQ6yhc79ndxp9BZYMUpCd8+HsfVdIEJ9xdEWbiPkY4zMn85dSAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alin-2",
@@ -1405,7 +1496,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA0APu1mqk2ppaQiMAgBMB2JYwC06B6HO39dwPR9YeaAAP7JEuV1ynf+574EJQeWPQdpzO0yPyl5tDjh25yYW+sbCAi/j7dhdsAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alin-3",
@@ -1416,7 +1508,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAAsAPu1mq04ppaQiMAgBMB2JaACdACHh3iRRRcJqIAD+8CuAMstLVOrHCaU8+gsN4jUJy7LyNKxo3ybmXSQgFw+1XkYAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-alin-4",
@@ -1426,7 +1519,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA0APu1kqk4ppaQiMAgBMB2JZACdMoR8eCm9C3VMI3L6wAD+7Vcd0x2CRsWUxa1qj0r2NeWH6tdQx97TSCl1o5Sq0ksmnXk8AAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-alin/",
@@ -1439,7 +1533,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBWGUABf4EGWMZyeG18AAP7JEuV8oZQ6yhc79ndxp9BZYMUpCd8+HsfVdIEJ9xdEWbiPkY4zMn85dSAAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1472,7 +1567,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1krU6ppaSiMAgBMB2JZQCxDMgDBMiknmVijPRxYAD+7hl68BfMQNsNCnEHUpMfhEUZLY3CS3B8g7g2JrJpoOr3X91moZmAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-robert-5-piese-2",
@@ -1483,7 +1579,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABQAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JZwAAW+oLP0lmAAD+83R+NKH+Vnw7j0Gqdjfg8AA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-robert-5-piese-3",
@@ -1494,7 +1591,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwAAXKOzEFIWlQAA/vN/Dv7jJaR46eMcpNzvk/BoOAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-robert-5-piese-4",
@@ -1504,7 +1602,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZwAAW+/maYoRCKSTIAD+835Y0m29DuU3sxvbjlN98LgFGt/pRFmCyyqn5lXGHP6eX+QAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-robert-5-piese/",
@@ -1517,7 +1616,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1krU6ppaSiMAgBMB2JZQCxDMgDBMiknmVijPRxYAD+7hl68BfMQNsNCnEHUpMfhEUZLY3CS3B8g7g2JrJpoOr3X91moZmAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1548,7 +1648,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZACdMoAC+3DvOwHrqkoydQAA/tgFN5YoNRZUwOLsEjTJsyZ9t1wG74Ns3cUvH9FWJ2x8qHKxKRkBbp9maFljf6WRin1kZDFPcNbqgAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-mona-2",
@@ -1559,7 +1660,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdMoAC+3DavWUpaYOeEAAA/skMw8fIruGv2/tTTzL9FO3mFlRf0izMmKX6akTDt9lAjw67IKhW5rwceRkW07/WnOdrsGwAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-mona-3",
@@ -1569,7 +1671,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZAC7ACHcVTUPd8P2XmEAAP7yNFCIlllKCVb3nlbv7p5UezBH5oKYKVz/8JvX2wJteiJW5uHQYniuXfRbavPuAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-mona-4",
@@ -1579,7 +1682,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAAwAPu1kq04ppaQiMAgBMB2JagCdAB6V91/SsBox1CYAAP7rNXwwrBxjhKaDJmgD/UHcql/Uv3tVFkjDDwx52ws/UVL23BF1o2tFW6jhA3XvOFJSlAx8udg6fyGAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-mona/",
@@ -1592,7 +1696,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZACdMoAC+3DvOwHrqkoydQAA/tgFN5YoNRZUwOLsEjTJsyZ9t1wG74Ns3cUvH9FWJ2x8qHKxKRkBbp9maFljf6WRin1kZDFPcNbqgAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1620,7 +1725,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1kqk4ppaQiMAgBMB2JYwCw7CHdtbJs/zDXWmWg8AD+6ItoS1cBc7DXk8tGH/LdC9Ns+R9xVwbmwI5IeydAL5630I6+xNcmCAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-colt-2",
@@ -1631,7 +1737,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBQCdASoUABsAPu1qq06ppiQiMBgIATAdiWcAyFw0aU9WU7X8ctq5QliVcTLXI84k4VgAAP6LV3eMxE8LiebaLx1ZaCze5z/s9dkXjh75w//XBTogPwolD1K4YhP5j0EjBtoAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-colt-3",
@@ -1642,7 +1749,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABsAPuleqE2pJSQiN/VYASAdCWMAxzA/CWROp7PVytXdkXwMq23DBwAA/snsaHzPqYWrj1gSOzOD0V1dke6aEWa8KUYSmdt6L0uEwihoHkhae/6EYkbaaeWl6a0O7ZeaMW16UOQAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-colt-4",
@@ -1653,7 +1761,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwBQCdASoUABsAPu1grU+ppSQiMBgIATAdiWUAyjMvxT30A4Tax6+55LslLIJv3Q3HkmYAAP7V9sc7pdxAeqsKSJWjKeFBF+NBv6NWVKt3kneFp30DQQsKPerZVWWwPB2NxnSizUyqalQf3u5ejVwA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-colt/",
@@ -1666,7 +1775,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1kqk4ppaQiMAgBMB2JYwCw7CHdtbJs/zDXWmWg8AD+6ItoS1cBc7DXk8tGH/LdC9Ns+R9xVwbmwI5IeydAL5630I6+xNcmCAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1700,7 +1810,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JaACdMoAC9gelRaiOEj8pAAD+53SYNEa7iK+qg+blrk4V9JumzJInhWvH3CRnrtURsVvxm0cczf6nSZKp3GuWAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-2",
@@ -1711,7 +1822,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA0APu1mqk4ppaOiMAgBMB2JQBWAA4ZiP57rxmjCtlicAAD+6r/AN+yylXJCqO/nq+5H5qAVW4huy33+0UXhViG+soIt+4i4LjtqCAF7AAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-3",
@@ -1722,7 +1834,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JYwC7ABuJXnxg+hxDhygA/tal5XuDmIcxRmc1lOAAKao9DaHU7sJyrhRjYlW+i8T1FksV0HJLpWgA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-corina-4",
@@ -1733,7 +1846,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAAsAPu1krU6ppaSiMAgBMB2JQAALfh6TOwFIEM5BCAAA/vHbyeywxorJe+AuoirHU0BUby/zK6YmbnhBtEFfGAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-corina/",
@@ -1746,7 +1860,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JaACdMoAC9gelRaiOEj8pAAD+53SYNEa7iK+qg+blrk4V9JumzJInhWvH3CRnrtURsVvxm0cczf6nSZKp3GuWAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1781,7 +1896,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JQBOmUAB8RDIID7ps5iAAxBgE0iz3caS78syvyTLrZYXFcKuhlsWKg0xynzAmaQT3C1zeLNAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-soria-in-forma-de-u-2",
@@ -1793,7 +1909,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwC06CD1QoqrMGgA+Ra0RdqfUUg8bh/O7oZpsqvUUlCxwoIkW4EM8CYi65q6L2xsqOewAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-soria-in-forma-de-u-3",
@@ -1805,7 +1922,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwC06Ay/U/+VOAD+yAjiCdZKu6DSKkKSzA79cmF51d/8MqTaUiMuktqMCHomDf6AAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-soria-in-forma-de-u/",
@@ -1819,7 +1937,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JQBOmUAB8RDIID7ps5iAAxBgE0iz3caS78syvyTLrZYXFcKuhlsWKg0xynzAmaQT3C1zeLNAAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1848,7 +1967,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZwDCgB6WbrJAsu+/AAD+r9iW8HlucpM+BcLgOThle+8FEaLdUQkTuTO6AAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "hol-vision-2",
@@ -1859,7 +1979,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdMoAC+iqQRzAAAP6vnqgd6yVngxqDItlTSZMPj3QJTaEtB1D87nLOy7u+Fr7YwVZAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "hol-vision-3",
@@ -1870,7 +1991,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC06B50rCw4qHcweMAA/q+ep/oAhtlu4JqsXJBl4kPv/bP0cU7weAuMNgAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-vision/",
@@ -1883,7 +2005,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZwDCgB6WbrJAsu+/AAD+r9iW8HlucpM+BcLgOThle+8FEaLdUQkTuTO6AAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -1915,7 +2038,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoUAA4APu1kqU4ppaOiMAgBMB2JZgCsABf2/4hMcMzAAP5T/j4kOrr565xaSx3Ga/w7cz4F8DTpisnUAvr1/nK5gAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-mona-2",
@@ -1926,7 +2050,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JYwDCgCHQQuyJc1REmzAA/vI0VG+Zp4dOHqN7ApcLaaGiKOx9KoyKMrdVWw7qtQhBg7iCUxQgAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-extensibil-mona-3",
@@ -1937,7 +2062,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQC2yCHEmbpPsLkYcIAA/vBAkmqPp8zSo8TaMRzs7pwihZkAfB9GlbfAYDBDH8DZgAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-extensibil-mona/",
@@ -1949,7 +2075,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoUAA4APu1kqU4ppaOiMAgBMB2JZgCsABf2/4hMcMzAAP5T/j4kOrr565xaSx3Ga/w7cz4F8DTpisnUAvr1/nK5gAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -1982,7 +2109,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQC7AB6SsTzfxwn5x8sAAP4KspOs136T6nzupA1EQYZ0oyUolsC2m9X6TEf150koxNtlMbSmrIAAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-soria-2",
@@ -1993,7 +2121,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPu1mqk2ppaQiMAgBMB2JaQAAW1IYWyUastnCAAD+7/t3S5LXgbEcxBOIgwNloHFviydFMHY7jXDYrnAcQXZCgAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-soria-3",
@@ -2004,7 +2133,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAO+4VON4ozpAA/uqW4jclMRUfFCjk+XhryTjfir1iqGNM/82BBC686hmaAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-soria/",
@@ -2017,7 +2147,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQC7AB6SsTzfxwn5x8sAAP4KspOs136T6nzupA1EQYZ0oyUolsC2m9X6TEf150koxNtlMbSmrIAAAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2050,7 +2181,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-torro-2",
@@ -2061,7 +2193,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB4JFh8VP39AAAD+mIkqOCVTpHK0yb2Co6DyZJKid4t9GaJphfWik5zKwaj8HLAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-torro-3",
@@ -2072,7 +2205,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdACHcaqnWpp2tAAD+tjhWngTY5B2FDISImxFYT+qe/Hnyqv8r0jIEgl0SMhvcntQAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-torro/",
@@ -2085,7 +2219,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2124,7 +2259,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZQCw7B6JHmM8/bqe8AAA/piJHyg+UzpHxmqMfsOT0F0UQhGoloHpq2txHVqvjDzJcanrk8OpwAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltare-extensibile-vision-2",
@@ -2135,7 +2271,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JYwCdMoAC+jZ0Tc9uzgAA/prGghBytKqcNylyJ9eQsoiJMRZ3vuFPr7hZgR1zqtfD1Srsvvn+8IAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltare-extensibile-vision-3",
@@ -2146,7 +2283,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwAAXBnvAF6f6mdEpAD+mg2AFY2J5n+I5sHpFn8XHVCwsnsVzOabdXthOjrtmgAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltare-extensibile-vision/",
@@ -2159,7 +2297,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZQCw7B6JHmM8/bqe8AAA/piJHyg+UzpHxmqMfsOT0F0UQhGoloHpq2txHVqvjDzJcanrk8OpwAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2187,7 +2326,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         },
         {
           "src": "pat-aldo-studio-1",
@@ -2198,7 +2338,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+pIwzhaWDwAAAD+83SA4CcYg0YzZgp/gbxvjHLqFfliRyCuTV/BaFUAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         },
         {
           "src": "pat-aldo-studio-3",
@@ -2209,7 +2350,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZwAAUqi9J79pS2FAAP7zgrUMTqPRzmXtiQhQFc7sVETCcfxVqO4AoAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-aldo/",
@@ -2222,7 +2364,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": true
       },
       "editorial": true
     },
@@ -2250,7 +2393,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQC7MoADO/dqI67GRnbgAP7uBvj0YcnHCigewvAeZYv8ktJ/0zZZQ8x9FefOd18sajCM8+9u/OGBuaqGAAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-toro-3",
@@ -2261,7 +2405,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JYwC7ABj5XIpWODPpHPOAAP5q0HZI1Cso9t7FBSZ4V960N86U6nQGECN4gGOzpOfNX3tOIujsYXIF/il+42qVWIAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-toro-2",
@@ -2272,7 +2417,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAWj8NaEt9OlS5HjQAAP7uB+tbo1WiH/WbZiFXmhbfJpxF/kXDruT8a0uw2qHEAmN8SKR9imDnUryYkuwAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-toro/",
@@ -2285,7 +2431,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQC7MoADO/dqI67GRnbgAP7uBvj0YcnHCigewvAeZYv8ktJ/0zZZQ8x9FefOd18sajCM8+9u/OGBuaqGAAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2313,7 +2460,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBhQA2v4CBKHNlMAAP7hsk4In6F+NPiWpQtv3bOZ7/KtL0PWNlQGyMO4yIzx2NkyiiphQeHuAAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-happy-2",
@@ -2324,7 +2472,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoUABsAPu1qqk6ppiOiMAgBMB2JYwC/7BjU5V9PQ2AWfAQzVY8eWIOJv4AA/rFWlo1MuWxzGdXf8pcwuV79aLUJIsIeWTke1efwinneU57KXd0HLdGW9HDEG7YUJM4Lr8lYT0E8A6grKMwECQtoAAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-happy-3",
@@ -2335,7 +2484,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBQCdASoUABsAPuVcpk2pJSOiMAwBIByJYwDI1Bwv46ZEBfg0S9ISO/GBeIGhDt4eQAD+38IIXaMN4fOYZNziNDWg/lTtEEtgGnnESF1ZVSpgsr62PVbVf8ZitZxlp4dGfHUQfx5UQ1AkAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-happy/",
@@ -2348,7 +2498,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBhQA2v4CBKHNlMAAP7hsk4In6F+NPiWpQtv3bOZ7/KtL0PWNlQGyMO4yIzx2NkyiiphQeHuAAAA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2381,7 +2532,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUABU7DviXhqD1+gA/usZaxk2aAJTcGMdg76wxdLIE5tWiqKbvjv/oMwTOZvmMDQr+iUR9c8AAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-sorina-2",
@@ -2391,7 +2543,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoUAAwAPu1kqU2ppaQiMAgBMB2JZACADCcgdGw2PWEddI/iAAD+8Cbwv9FLH7EK1Q+qt4kis+rWv4geLlhMMwLAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-sorina-3",
@@ -2402,7 +2555,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBYdgz8DVgWQ5+AAAPgKsD0fBSQpiYB0/51jn6mP+IcO6gZooUBYH4ZnAqqsQJEAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-sorina/",
@@ -2415,7 +2569,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUABU7DviXhqD1+gA/usZaxk2aAJTcGMdg76wxdLIE5tWiqKbvjv/oMwTOZvmMDQr+iUR9c8AAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2443,7 +2598,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdACG1Ma9vmUIuIAD+abAiZX3AgV/IsEDCwPR+qtdpeTxbgGXx3Dc5Bj+7bAAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-paul-2",
@@ -2454,7 +2610,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBQCdASoUABsAPu1kq02ppaQiMAgBMB2JYwCpJ47DK6zsU3u1ZaliQVxyfvwSwNYJ+gAA9yn0zfSR/QZ39HABWFzf05BtaoxigsR8y67wpQQ/Kin6pNEEi5fv8EAwGWrDTuaSz5Bw/7gUkGiba4vQeBjgAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-paul-3",
@@ -2465,7 +2622,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBQCdASoUABsAPu1mqk2ppaQiMAgBMB2JYwCnFBspy6ojD25CvvgASVg10MUsWT1pYAD3sXNi1k4IYcwpF+y3eaHX4l1wdVMfytnOXXu1V7cwF3I7gRCnGK+EUBNYyMVocGGdJ8HXM4r/90SSTSzBZ3e0jwaBIAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-paul/",
@@ -2478,7 +2636,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdACG1Ma9vmUIuIAD+abAiZX3AgV/IsEDCwPR+qtdpeTxbgGXx3Dc5Bj+7bAAAAA==",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2507,7 +2666,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOmUI+PBLbcBR9xSXJAAP7oOOtP+LeZ0fXcFKyjfxg59b8sqT5dUHqFlDM28TxqA3D7py3tsYwZaHAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-spring-2",
@@ -2518,7 +2678,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JagCw7CIfpFFzow1tlxYAAP7zfw7/XQgdl5mGfVbcI0h1BEVY4knw/lA2Z+0/N2fVKGGM5usZlrph6nPAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-spring-3",
@@ -2529,7 +2690,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA4APu1kqU4ppaOiMAgBMB2JZgCw7B6SATP/T5e/lXNAAP7zgdsf19yiXwUYoawaIKxSLr4/lxJ4Le44O6D2a6XtVXjK0g2wsgAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-spring/",
@@ -2542,7 +2704,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOmUI+PBLbcBR9xSXJAAP7oOOtP+LeZ0fXcFKyjfxg59b8sqT5dUHqFlDM28TxqA3D7py3tsYwZaHAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2570,7 +2733,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZwCw7B9CCkY8MJ+ybPUAAP5sroitobMGr/hWcpH6KXZrIIqPrFcMJLdZ8MwA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-extensibil-corina-2-2",
@@ -2581,7 +2745,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRrABAABXRUJQVlA4WAoAAAAQAAAAEwAAEAAAQUxQSBEBAAANuTJE9D800FxbTxsxM+x/e8zMvIjn8fDk05fhifX5V8nSYKTPUjsQRUzABDQF0IxakGvTYd+qZVv2tArtAgBHVoR3ZOq60a51RuyxToQNmzSLPkasKWUCEFwsaUbPMTgbuyT5M5GTbUuCJt4CxqS2R1GkkXVeKeobSAA2MabhAvJbmtQvwAGAcEZv9cBqMMKAcCIry9uS4FwvIYMTWdn5fgv4880mEIYLTk3mLrwmRj+9KbjKb3WurqN6rzFTQrYpPLisRKkdIsWC+oBh48hrnvy2qZ6/2WrOvtfF8ySCJc1zn9br9XDeAoPGjCOAUqwqCqlLXTeFi1GnBIAkIKf69bnhkugCwnFigMGKFl5KguMAVlA4IHgAAAAwBACdASoUABEAPu1mqk8ppaOiKA1RMB2JZwDL4A0Z+cKjE1ETsxYNsPAAzFQuPE0quy6LAjUJNG/2p9YaSiHIfLIKVlc977034R2pIBXrszEk+hu1pN86DeOF2TCzBlNWuIhN3K1I/G21e27rcTXiVbf5aNTJAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "fotoliu-extensibil-corina-2-3",
@@ -2592,7 +2757,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRo4BAABXRUJQVlA4WAoAAAAQAAAAEwAAFAAAQUxQSPIAAAANuTJE9D80slTbdq0oZwX738ucs17bsDbmsNjX7N0sK9dhQ30VnBc+IyZgAkZi1IRJ2LXtEMeAZNmxr3cB9npS4QECgrMI45AX3LOJEQBEWT4WMljX2bQpAYGOnrihirUoZzgIgLj4wpqOxbyKgM6IjFZCwSwThDNV0AIOOtEsEQBhODdFplMuNkkE2ZaKRLOjfiFE07k8LuD0XtYmmfWMXjLhTbSeSS6ki02kqrsoqksGmLTwCEGg/RaGIOMLj1Sk3EtH9AQxRfJf26l0MZz3JQI1u/x6CfsvM70suOh6VXrvtGhOu4zMhMWtCBqNtuRHAlZQOCB2AAAAEAUAnQEqFAAVAD7tbK1PqaYkIjAYCAEwHYlnAM+gDHkaBrIcAsHA3owIpt/+so9QAAD+6PvlnXnVN73CO/Otp1ejTmxnBtGVLqgyKF+T14cBXwCXvBN+zqz0v/Pkri3ez0EiHhQnD/ySq7vRZIFUsxN+sTxAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-extensibil-corina-2/",
@@ -2605,7 +2771,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZwCw7B9CCkY8MJ+ybPUAAP5sroitobMGr/hWcpH6KXZrIIqPrFcMJLdZ8MwA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2633,7 +2800,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYgCw7AeoZwXUAP7UMAQ9JiANVBsEpWnOHW/QZDZ77BCU1iesnF3oGcc+Bpp7y8YvktPc+J9gfhYAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "noptiere-aldo-2",
@@ -2644,7 +2812,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAA8APu1iqU2ppaQiMAgBMB2JZACdMoADFXxyQKpj8X4Z2SfAAP4Ay4V0F6XpqWc/CLbYqu2bvY+iTqDfPff45kGf1C842n64ekpLkQzZiFiqBsAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "noptiere-aldo-3",
@@ -2655,7 +2824,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBOgA+39r2lgtfieu7vgAP6RRLIyaghxdpY4Fyajp0Yb5rihdoM+DKjsnDwpHTTkJg9iD/SlRAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/noptiere-aldo/",
@@ -2668,7 +2838,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYgCw7AeoZwXUAP7UMAQ9JiANVBsEpWnOHW/QZDZ77BCU1iesnF3oGcc+Bpp7y8YvktPc+J9gfhYAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2696,7 +2867,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoUAA8APu1iqk2ppaQiMAgBMB2JbACdMoR4GCoYRZGwnXt38moOgAD+31i0BUuQmsy34hFT2Jv4GRFaTXKp/DRFvyM3SQ6QiTfqH9AXbhCcWbBN+i1fA0vSmBoE/YtkAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "noptiere-fantezie-2",
@@ -2707,7 +2879,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JbACdACK4P7DGUAdyh9wq0JQAAP7TcJRkVT88kXwTzEFmGOBSmAZVnYlsloXY8pi+CNU85iwqpyY6DhaYzaHS4FYipe5AciYJ6QAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "noptiere-fantezie-3",
@@ -2718,7 +2891,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JagCdMoMYAEnsNC6cA+ZgHZOcAAD+VytVzR+GOmiJ7eU6D/6OvSSEFfMdJsePmQ20BHJN3a45z1ldrO3paoAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/noptiere-fantezie/",
@@ -2731,7 +2905,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoUAA8APu1iqk2ppaQiMAgBMB2JbACdMoR4GCoYRZGwnXt38moOgAD+31i0BUuQmsy34hFT2Jv4GRFaTXKp/DRFvyM3SQ6QiTfqH9AXbhCcWbBN+i1fA0vSmBoE/YtkAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2759,7 +2934,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1kq04ppaQiMAgBMB2JQBOgA82xz51Hxx8CqAD+4KMDghG5lUaoV6qfVlVkgYkeNjAE0rXf7YlfMlgF4scnbT1sdtiFgEAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "tabureti-3",
@@ -2770,7 +2946,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1kqk4ppaQiMAgBMB2JZwCnFBbtz5wRUB5BQAD+tpgApJ4a3ljvAx5BHbqe+ga3UGRbzTG7PJEXrLZ8px4e9/6oqUKajgAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "tabureti-1",
@@ -2781,7 +2958,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYgC7ABbvlIoXLnHXMKwA/sldM+YGY3E9OpvAGhEmljgzLEvAAhxkIiEGaoYxpaghFNl3q9X+K4fWPkxFK9UIsAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/tabureti/",
@@ -2794,7 +2972,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1kq04ppaQiMAgBMB2JQBOgA82xz51Hxx8CqAD+4KMDghG5lUaoV6qfVlVkgYkeNjAE0rXf7YlfMlgF4scnbT1sdtiFgEAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2822,7 +3001,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoUAA0ALrV2u12jqampiYC0SxgF2AHpHJCCJen5O8ngAAD9AGVjDyHWr9QYekxfc/ydfgNGXJ+4j53eqHJdJxs5kyT85vlsxSlqxvdiBGOp4AAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-alesia-2",
@@ -2833,7 +3013,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA0ALrV2u12jqampiYC0SxgF2AI9AVikN6CWnIdO3DQA/P0b3J4b3wWdyd4/IYRuWtijtT4YGYewGuiYfO0F1WDt3bU3LzAxb7HZD2AAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-alesia/",
@@ -2846,7 +3027,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoUAA0ALrV2u12jqampiYC0SxgF2AHpHJCCJen5O8ngAAD9AGVjDyHWr9QYekxfc/ydfgNGXJ+4j53eqHJdJxs5kyT85vlsxSlqxvdiBGOp4AAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -2885,7 +3067,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JZQCdAB8twfQqpj0yNwAA/rY4nMENlQnPl/JiyW8+rRkRju6XP5OibfKBaJSF99JPE8cPJXhRwAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltar-robert-7-piese-2",
@@ -2896,7 +3079,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQBT8Aef+TWuxWzPCAAA/vNsaruWWcc6IW/LB9aUdR+rfm7M4gYjRwAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-robert-7-piese/",
@@ -2909,7 +3093,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JZQCdAB8twfQqpj0yNwAA/rY4nMENlQnPl/JiyW8+rRkRju6XP5OibfKBaJSF99JPE8cPJXhRwAAA",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -2942,7 +3127,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdAB8vgLrJJV0UAAD+mHu3ZQmCCG3sVPmFt0l7iM3YVXKo9UEOr+gb5rW9YJs5gAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-bela-2",
@@ -2953,7 +3139,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHerVKguifu6D4AAP7zcAWrCMH7v+Gazs9PqxzcUFCeYvq1EpNSSuR4AAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-bela/",
@@ -2966,7 +3153,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdAB8vgLrJJV0UAAD+mHu3ZQmCCG3sVPmFt0l7iM3YVXKo9UEOr+gb5rW9YJs5gAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3005,7 +3193,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "coltar-sam-2",
@@ -3016,7 +3205,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAsAPu1mq04ppaQiMAgBMB2JQBAAARWXDgkteMNvyuAA/vIczU3hLiDZZr5jnjQirV8MtrQqfvJvmwgUWFdU80iAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-sam/",
@@ -3029,7 +3219,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3057,7 +3248,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsAHsU/w7U/L6mmAAD+bBg0sxQAY5C7ikq+Sl3pcCsP4jI5itPRbmLlOZtMK8QXxAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-bella-2",
@@ -3068,7 +3260,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdMoAC9BwW5DaOnCRgAAD+m5vw0LI8d3xclKmowto0Qm2fx67IdS2i/xP1P7Xi7fbQcCgiAAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-bella/",
@@ -3081,7 +3274,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsAHsU/w7U/L6mmAAD+bBg0sxQAY5C7ikq+Sl3pcCsP4jI5itPRbmLlOZtMK8QXxAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3101,17 +3295,6 @@
       "dimensions": [],
       "images": [
         {
-          "src": "aldo-studio-1",
-          "w": 1264,
-          "h": 843,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
-          "editorial": true
-        },
-        {
           "src": "aldo-studio-2",
           "w": 1264,
           "h": 843,
@@ -3120,7 +3303,20 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZwAAW+hdH69RGD2SAAD+79EYXIRC/4BvxFOHm8ABIy2+vUjbXcBuSMAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "aldo-studio-1",
+          "w": 1264,
+          "h": 843,
+          "widths": [
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
           "src": "aldo-studio-3",
@@ -3131,7 +3327,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZwAAW+hYvD0X1gd5oAD+83AIim8vMzFqjre/aRkmWDI4WejxNHXPiCitss8s+NMqoAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         },
         {
           "src": "aldo-studio-4",
@@ -3141,20 +3338,22 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBQCdASoUAB4APu1iqE6ppSOiMBgMATAdiWMAnQAPY0KOYsGsxZJzjn3ns7wZDhoAAP7x9oxzu7Px3+0mhZ5dicBb4qbzKgbTCksMWnad+cR9UP2CqpkXM6+oRtonTydyrkf2vkdcGVW/kBR+zLlEfMAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-aldo/",
       "cover": {
-        "src": "aldo-studio-1",
+        "src": "aldo-studio-2",
         "w": 1264,
         "h": 843,
         "widths": [
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
-        "editorial": true
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZwAAW+hdH69RGD2SAAD+79EYXIRC/4BvxFOHm8ABIy2+vUjbXcBuSMAAAA==",
+        "editorial": true,
+        "studio": true
       },
       "editorial": true
     },
@@ -3184,7 +3383,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwC7AB6XKQW9ryuB2e2KCAD+8DO/NGtITVdly/DLPE8pCVKi13dSVJGZjFKHH/+D7OAAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "coltare-extensibile-alex-2",
@@ -3195,7 +3395,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAAsAPu1kq04ppaQiMAgBMB2JZQC7ACHf/YP64eNwB5gAAP7wL08v0gjOriEDKwHLWoDqKwBOgh1Jm5rfMNeAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltare-extensibile-alex/",
@@ -3208,7 +3409,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwC7AB6XKQW9ryuB2e2KCAD+8DO/NGtITVdly/DLPE8pCVKi13dSVJGZjFKHH/+D7OAAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -3237,7 +3439,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQC7AB6PBTjuWZZTmgAA/mwvOTH+OWSpxeiJANNR/gqHaA6OqVbiseFlMnvGuMlnwvszuJ1wc/XzcsAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "canapea-star-2",
@@ -3248,7 +3451,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JYwCdAB6SDl4phThxWAD+m4w7guYIpmt4DCOUzmTBI0xl9cohOD3vTB15uViVfPw849gAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-star/",
@@ -3261,7 +3465,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQC7AB6PBTjuWZZTmgAA/mwvOTH+OWSpxeiJANNR/gqHaA6OqVbiseFlMnvGuMlnwvszuJ1wc/XzcsAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3290,7 +3495,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZwC7ABY+eVpBeBXPQAD+2E4trfTrLmlgj0SzswSlqMPDrkqYdSmbiGYBO229IbS5oS0vAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "pat-miraj-2",
@@ -3301,7 +3507,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APu1kqk4ppaQiMAgBMB2JZwCnFBuJqkYPwFVNDYAA/uJCe+XhPDJ18X/2B0eECjXCh2JoBVWCBvF2/Gp3rqhk7xAAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-miraj/",
@@ -3314,7 +3521,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZwC7ABY+eVpBeBXPQAD+2E4trfTrLmlgj0SzswSlqMPDrkqYdSmbiGYBO229IbS5oS0vAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3344,7 +3552,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "pat-matrimonial-2",
@@ -3355,7 +3564,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZwCw7CP82PrS60pmWN0LvUAA/sp6IsBd/rfFjRG/PZYXkYQh3HeQAtYuAAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-matrimonial/",
@@ -3368,7 +3578,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3398,7 +3609,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQAAKj3DinKRTbDTnAAD+ynoku/NubuPp7Lo+Yh/+eJUUeQPdo5bwEjnFTpL0P/nBTxMmzwYeHx4wAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "pat-one-2",
@@ -3409,7 +3621,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQAAIYUhhyp80x9AA/spv2vz2/c0gFLV4t1aG8GYmIeiA1gwbzsoj6euUn6CgbDttXfQAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-one/",
@@ -3422,7 +3635,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQAAKj3DinKRTbDTnAAD+ynoku/NubuPp7Lo+Yh/+eJUUeQPdo5bwEjnFTpL0P/nBTxMmzwYeHx4wAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -3459,7 +3673,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1orU2ppqSiMAgBMB2JYwCdABuwGpySG2XIQAD+tjibIMtNTOHDBhitsWk/udGamb6FIo+JdebaUpBlZE85XXCqckBBd9nkAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         },
         {
           "src": "canapea-karina-2",
@@ -3470,7 +3685,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JYwCdAGYVkkLz8QAA/vCuigtQW3h9CHeRTWox5VVdXDxwPnGiG7Irmc25Ifl3AStGOJqKQAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-karina/",
@@ -3483,7 +3699,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1orU2ppqSiMAgBMB2JYwCdABuwGpySG2XIQAD+tjibIMtNTOHDBhitsWk/udGamb6FIo+JdebaUpBlZE85XXCqckBBd9nkAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -3511,7 +3728,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "demifotoliu-2",
@@ -3522,7 +3740,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUAB4APu1qr1CppaQiqAqpMB2JZQDG9DTjwABpDB7n7LTbmT8ZR50X56AA/u/EKGRraexUvyJFtIA7Y0mqUCRlgSfSc2JGzNuwhJQ/feYkpbDxDtQaSXpxMx7AaVWwgVsUYsIAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/demifotoliu/",
@@ -3535,7 +3754,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3563,7 +3783,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYgCdMoAC+3d8Ea4AkayAAP7Wr1KQZ/JDtgjwbdBZIExe0hyU+ezw0wjokFqZ4+mckj8bgaAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "noptiera-sun-2",
@@ -3574,7 +3795,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBQCdASoUAB4APuVepU2pJSOiMAwBIByJbACdL9SB0UniSKuMSvnbbgWpGCnm1c2wAP7oFergJurnwG2Xf7WvVBHpsnxPyBp3ZZ0Sw7XlnU66UxMRIiSrlx6tOb20KhnGLENIwlM2I3+xQAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/noptiera-sun/",
@@ -3587,7 +3809,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYgCdMoAC+3d8Ea4AkayAAP7Wr1KQZ/JDtgjwbdBZIExe0hyU+ezw0wjokFqZ4+mckj8bgaAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3615,7 +3838,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "noptiera-paul-2",
@@ -3626,7 +3850,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUAB4APuVeqE2pJSQiMAwBIByJZQC/7CHT7vFugZtMOpea89D/fkcAAP7nGuVZlndq7Km5e/o1icyr0XIvCBPLXXE9bQDSWbqqj2bb9RSAiogb8peCxk4Ue8EKRsEAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/noptiera-paul/",
@@ -3639,7 +3864,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3667,7 +3893,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUABfh9hR2pdX5eZGqEAA/uQKla/A/bZqt1bvFE5csdwqzN1IW8ZRDK+Tz5tlsO9fBCh5CgZco0GP7H8SAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "scaun-crama-2",
@@ -3678,7 +3905,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0APu1mqk2ppaQiMAgBMB2JZQCdAB6oRJQefkVoAP6azOKKgsrqDtEbO6XonkESMWllFl32fchITTJBsK+RnJLHOJFIt7gAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/scaun-crama/",
@@ -3691,7 +3919,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUABfh9hR2pdX5eZGqEAA/uQKla/A/bZqt1bvFE5csdwqzN1IW8ZRDK+Tz5tlsO9fBCh5CgZco0GP7H8SAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3719,7 +3948,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdABBnr6dhG82vAAD+mwGsfBI971DPPVmU0LeqzSXLFPqFmWIt62N5/GVNvChGN4XeX7mQYpwA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "taburet-cu-capac-2",
@@ -3730,7 +3960,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYwCdMoC4AAmfV0OFstp4APaqye62c8/XY4m41TDibtcUvA9L5HJ5C00YSVPippdcrumLdYMWf+osDQAAAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/taburet-cu-capac/",
@@ -3743,7 +3974,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdABBnr6dhG82vAAD+mwGsfBI971DPPVmU0LeqzSXLFPqFmWIt62N5/GVNvChGN4XeX7mQYpwA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3771,7 +4003,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwAAP9JW6f8lsWAA9lHWcUrqed1MIIAqbCGHfXLWc0L56Ie2TvSMteq5PTtKeiEHL1AA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "taburet-inima-2",
@@ -3782,7 +4015,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwBACdASoUABsAPu1osFCppaSiqAqpMB2JZACdMwnBqQaDeu6XU8iGwhjq2m7+5gAA/rsrpqvUSgGcxX6Q8hjHMAf079vWOf29djMnn2qTbnQ4Tyfu3PS/Kcz70PKfah8IRxqtWxDYuEP9t5DVsduXI3VRk4wiAu60wzZCD1QDnB0ICGG9oAAA",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/taburet-inima/",
@@ -3795,7 +4029,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwAAP9JW6f8lsWAA9lHWcUrqed1MIIAqbCGHfXLWc0L56Ie2TvSMteq5PTtKeiEHL1AA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3823,7 +4058,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdMoMYACyxDSQmCdnX6jvoAOJ0QnsKbo9gWVcpV9Jygb1LeI4un4vZjLzXm9YV5DLnrfPLGuFflJnKFn2BXpHFPqjaA3XcE3BHHFgAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         },
         {
           "src": "taburet-rotund-2",
@@ -3834,7 +4070,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBQCdASoUAB4APu1ur1KppiQiqAgBMB2JaACxHzQ/UG9+0QSnA44UfB35/8ePxnoa0rlRIpQAAP7KJaEmERBsT4OYicB9EdZZiunpE5En4/IrwCn/htl7qdrz2x7d36Wm1aYuiPeXzLoLQzGzJAwl6eXqFSRJ+B+3OJLYlzjomjjnqiQaqVfkAp0gAA==",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/taburet-rotund/",
@@ -3847,7 +4084,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdMoMYACyxDSQmCdnX6jvoAOJ0QnsKbo9gWVcpV9Jygb1LeI4un4vZjLzXm9YV5DLnrfPLGuFflJnKFn2BXpHFPqjaA3XcE3BHHFgAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3877,7 +4115,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-chesterfield/",
@@ -3890,7 +4129,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3918,7 +4158,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-ela/",
@@ -3931,7 +4172,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -3959,7 +4201,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1yrU+pp6QiMAgBMB2JZQC06B6SEPs3DmnYNXQAAPlK16VHPSx55E1aq+Qel2dE9+N+LXOfQcJwXf5GPMRVfV7dM61JwBUF4AA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-chesterfield/",
@@ -3972,7 +4215,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1yrU+pp6QiMAgBMB2JZQC06B6SEPs3DmnYNXQAAPlK16VHPSx55E1aq+Qel2dE9+N+LXOfQcJwXf5GPMRVfV7dM61JwBUF4AA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4002,7 +4246,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwAARmLuyAaIQ00AAP7h24zwtdnslyxI1W4O6f5VGllVjCjXpxIAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-mona/",
@@ -4015,7 +4260,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwAARmLuyAaIQ00AAP7h24zwtdnslyxI1W4O6f5VGllVjCjXpxIAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4043,7 +4289,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZwDImCHcwexHzg3HEnAA/vHN3fO4gyKdvZ3TB9vYOJlJdyapPpj94lN5V7Vbpng7NT8AAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-corina-ii/",
@@ -4055,7 +4302,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZwDImCHcwexHzg3HEnAA/vHN3fO4gyKdvZ3TB9vYOJlJdyapPpj94lN5V7Vbpng7NT8AAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4083,7 +4331,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDCgCDZ//42OI+2DtwAAPzpZVHk8TY/6N/RjBYznl4lJ3X+T5IDlm5HMCjssiEHYEATa1qMQAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-cubic-fix/",
@@ -4096,7 +4345,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDCgCDZ//42OI+2DtwAAPzpZVHk8TY/6N/RjBYznl4lJ3X+T5IDlm5HMCjssiEHYEATa1qMQAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4125,7 +4375,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwDA3Bt0p3DQz7eNF0lgAP7YR9fIQ/U9Bi2mTBSnj3+nfCFl4uZ1CSszh6qbPQWfnAMHhigAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-office/",
@@ -4138,7 +4389,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwDA3Bt0p3DQz7eNF0lgAP7YR9fIQ/U9Bi2mTBSnj3+nfCFl4uZ1CSszh6qbPQWfnAMHhigAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4165,7 +4417,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoUAA0APu1kqk4ppaQiMAgBMB2JQBOgBDrQzAkFUbLgAP7tVWorfQq/Tfgf1pkMJiJejbNSq+wt/Mzo9m0dlqEAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-corina-fix/",
@@ -4177,7 +4430,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoUAA0APu1kqk4ppaQiMAgBMB2JQBOgBDrQzAkFUbLgAP7tVWorfQq/Tfgf1pkMJiJejbNSq+wt/Mzo9m0dlqEAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4206,7 +4460,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCw7B8xHrENJSbmQEAA/PVodUGBKNqyxQGsFplIjPQs+OYH52F/b+rTX9xS73NX1eyoLaFgRPZwAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-salt/",
@@ -4219,7 +4474,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCw7B8xHrENJSbmQEAA/PVodUGBKNqyxQGsFplIjPQs+OYH52F/b+rTX9xS73NX1eyoLaFgRPZwAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4247,7 +4503,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABQAPu1oqU8ppiOiKA1RMB2JZwAAKcufr0yoG/VkDdyI5M/4WCvQAPVCEvgbzbElPuJ2ppGdWqEQkh07tLleqFU/y2MZFa+lPMly+BCX1aV6/JGOszP52eqCF1uAAAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-cubic/",
@@ -4260,7 +4517,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABQAPu1oqU8ppiOiKA1RMB2JZwAAKcufr0yoG/VkDdyI5M/4WCvQAPVCEvgbzbElPuJ2ppGdWqEQkh07tLleqFU/y2MZFa+lPMly+BCX1aV6/JGOszP52eqCF1uAAAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4287,7 +4545,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwDCgCHf482s4rVtI3AA/vHJaA1ON8ySn92yfp0xNF9vb61mBg9R3Kem7gUAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/hol-maria/",
@@ -4299,7 +4558,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwDCgCHf482s4rVtI3AA/vHJaA1ON8ySn92yfp0xNF9vb61mBg9R3Kem7gUAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4329,7 +4589,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZAAASj7+EIsfxMbvrKIAAP7YRtxPuHu7xhRZPikHw/E24eQfXeFecv/wRN8Ai7chU53S/96uz+VmYAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-chesterfield/",
@@ -4342,7 +4603,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZAAASj7+EIsfxMbvrKIAAP7YRtxPuHu7xhRZPikHw/E24eQfXeFecv/wRN8Ai7chU53S/96uz+VmYAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4372,7 +4634,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoADgeSJGAcgA4m+AP7Keh53RvlKlHwGTEws8EV26UjjhDxnjfMK5w1M9lGJlc3nn4XgAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-panouri-verticale/",
@@ -4385,7 +4648,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoADgeSJGAcgA4m+AP7Keh53RvlKlHwGTEws8EV26UjjhDxnjfMK5w1M9lGJlc3nn4XgAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4415,7 +4679,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAAoAPu1mqk4ppaOiMAgBMB2JQBOgBDjY0vDXxHAA/lIgSwCsTiRfvXUP1GXr2XwcIN909Pgriu44ZarTBjonNp6CN5dgAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-vision-ii/",
@@ -4427,7 +4692,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAAoAPu1mqk4ppaOiMAgBMB2JQBOgBDjY0vDXxHAA/lIgSwCsTiRfvXUP1GXr2XwcIN909Pgriu44ZarTBjonNp6CN5dgAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4457,7 +4723,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JaQC+SB6u8K8dZr1VnAD+ynokufBWrGw25Nhfv5E3ueqKoStCvfdCl/O1jDHq7QpgAAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/paturi-dan/",
@@ -4470,7 +4737,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JaQC+SB6u8K8dZr1VnAD+ynokufBWrGw25Nhfv5E3ueqKoStCvfdCl/O1jDHq7QpgAAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4500,7 +4768,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwDE2BwrLb5Ev98Ko4AA/sp6IsrPaK7iIMwIbrezTgjT2Pl42fCHVwRAzMhD4rBrIzJS/I9+AAAA",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/paturi-dormitor-david/",
@@ -4513,7 +4782,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwDE2BwrLb5Ev98Ko4AA/sp6IsrPaK7iIMwIbrezTgjT2Pl42fCHVwRAzMhD4rBrIzJS/I9+AAAA",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4541,7 +4811,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JZQCdABk6MpMAMt25NaAA/myuiK4K8Ge/iFemmKAJ7pWMP3ttnAudWS0tqHsiAE0AAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotolii-vision-ii/",
@@ -4554,7 +4825,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JZQCdABk6MpMAMt25NaAA/myuiK4K8Ge/iFemmKAJ7pWMP3ttnAudWS0tqHsiAE0AAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4583,7 +4855,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-king/",
@@ -4596,7 +4869,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4624,7 +4898,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZwC7AB0mIntgvRXwQS0sfAAA/gqxrayM+UoKrw8/HqbtA35jTcieNl4s8NfAl+vuRGkAAAA=",
-          "editorial": false
+          "editorial": false,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-corina/",
@@ -4637,7 +4912,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZwC7AB0mIntgvRXwQS0sfAAA/gqxrayM+UoKrw8/HqbtA35jTcieNl4s8NfAl+vuRGkAAAA=",
-        "editorial": false
+        "editorial": false,
+        "studio": false
       },
       "editorial": false
     },
@@ -4665,7 +4941,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZQCdMoADDYQHip1EPU3Aa4wAAP5srpkXcYqdqvRkrmC4r93icez3q8fjgIG74XanF6lqWKAAAA==",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-kim/",
@@ -4678,7 +4955,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZQCdMoADDYQHip1EPU3Aa4wAAP5srpkXcYqdqvRkrmC4r93icez3q8fjgIG74XanF6lqWKAAAA==",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     },
@@ -4707,7 +4985,8 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAAuHT+65AAD+bK6Irebz+Zg6IwAZ5t2EUF7yOQLAxAPI5et6PIl2/6s/gAA=",
-          "editorial": true
+          "editorial": true,
+          "studio": false
         }
       ],
       "source": "https://mobilasamobi.ro/products/scaun-heatar/",
@@ -4720,7 +4999,8 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAAuHT+65AAD+bK6Irebz+Zg6IwAZ5t2EUF7yOQLAxAPI5et6PIl2/6s/gAA=",
-        "editorial": true
+        "editorial": true,
+        "studio": false
       },
       "editorial": true
     }
@@ -4735,7 +5015,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDCgCDZ//42OI+2DtwAAPzpZVHk8TY/6N/RjBYznl4lJ3X+T5IDlm5HMCjssiEHYEATa1qMQAAA",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "coltar-sam-1",
@@ -4746,7 +5027,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "canapea-bella-1",
@@ -4757,7 +5039,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsAHsU/w7U/L6mmAAD+bBg0sxQAY5C7ikq+Sl3pcCsP4jI5itPRbmLlOZtMK8QXxAAA",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "coltar-aldo-5",
@@ -4768,7 +5051,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYwCdAB4M5NAVUB61kYQAAP7o34xAmlt7efFArcMZxwkB9CpowkhDuqyZkLehw+MA0msqrFxDD2SgAAA=",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "pat-cubic-1",
@@ -4779,7 +5063,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABQAPu1oqU8ppiOiKA1RMB2JZwAAKcufr0yoG/VkDdyI5M/4WCvQAPVCEvgbzbElPuJ2ppGdWqEQkh07tLleqFU/y2MZFa+lPMly+BCX1aV6/JGOszP52eqCF1uAAAA=",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "hol-vision-1",
@@ -4790,7 +5075,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZwDCgB6WbrJAsu+/AAD+r9iW8HlucpM+BcLgOThle+8FEaLdUQkTuTO6AAAA",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "fotoliu-king-1",
@@ -4801,7 +5087,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     },
     {
       "src": "coltar-torro-1",
@@ -4812,7 +5099,8 @@
         700
       ],
       "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
-      "editorial": true
+      "editorial": true,
+      "studio": false
     }
   ]
 }

@@ -60,11 +60,16 @@ for (const product of catalog.products) {
 // Own photography wins over the scraped set. Applied here rather than in
 // ingest.mjs so that re-ingesting from Samobi never undoes it.
 const fileByName = known
+const studio = new Set()
 for (const [slug, names] of Object.entries(curation.images ?? {})) {
   const product = catalog.products.find((p) => p.slug === slug)
   if (!product || !Array.isArray(names)) continue
   const files = names.map((n) => fileByName.get(n)).filter(Boolean)
   if (files.length) product.images = files
+  // Studio frames are a piece on a white sweep, with margin already built into
+  // the shot. Cropping them to fill a card cuts the legs off; the app shows
+  // them whole instead, which is why they are flagged here.
+  names.forEach((n) => studio.add(n))
 }
 
 // Hero frames and collection covers are curated independently of the product
@@ -111,6 +116,7 @@ for (const file of sources) {
     widths: WIDTHS.filter((w) => w <= width * 1.2),
     lqip: `data:image/webp;base64,${lqip.toString('base64')}`,
     editorial: editorial.has(name),
+    studio: studio.has(name),
   })
 }
 
