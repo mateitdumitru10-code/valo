@@ -1,5 +1,9 @@
+import { useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { AnimatePresence, motion } from 'motion/react'
 import { Img } from '~/components/Img'
+import { TextilePicker } from '~/components/TextilePicker'
+import { Schematic } from '~/components/Schematic'
 import { PieceCard } from '~/components/PieceCard'
 import { RevealImage, RevealLines, Reveal } from '~/components/Reveal'
 import { InquiryForm } from '~/components/InquiryForm'
@@ -11,12 +15,23 @@ export function PiecePage() {
   const { slug = '' } = useParams()
   const { t, lang } = useI18n()
   const piece = bySlug(slug)
+  const [textile, setTextile] = useState(0)
 
   if (!piece) return <Navigate to="/piese" replace />
 
   const family = collection(piece.collection)
   const price = formatPrice(piece.price, lang)
-  const [cover, ...gallery] = piece.images
+
+  // With textiles, the lead image is whichever one is selected, and the
+  // remaining textile shots leave the gallery — they are the picker's job now.
+  const variants = piece.variants ?? []
+  const variantSrcs = new Set(variants.map((v) => v.src))
+  const selected = variants[Math.min(textile, variants.length - 1)]
+  const cover =
+    (selected && piece.images.find((img) => img.src === selected.src)) ?? piece.images[0]
+  const gallery = piece.images.filter(
+    (img) => img.src !== cover.src && !variantSrcs.has(img.src),
+  )
   const siblings = related(piece)
   const paragraphs = piece.body
     .split('\n')
@@ -51,13 +66,29 @@ export function PiecePage() {
       <section className="gutter mt-14 grid gap-6 md:grid-cols-12">
         <div className="md:col-span-8">
           <RevealImage>
-            <Img
-              img={cover}
-              alt={piece.name}
-              sizes="(max-width: 768px) 100vw, 64vw"
-              priority
-              className="aspect-[4/3] w-full"
-            />
+            {/* Textile changes cross-dissolve; the frame itself never moves. */}
+            <div className="relative aspect-[4/3] w-full overflow-hidden">
+              <AnimatePresence initial={false}>
+                <motion.div
+                  key={cover.src}
+                  className="absolute inset-0"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.55, ease: 'easeInOut' }}
+                >
+                  <Img
+                    img={cover}
+                    alt={
+                      selected ? `${piece.name} — ${selected.tone[lang]}` : piece.name
+                    }
+                    sizes="(max-width: 768px) 100vw, 64vw"
+                    priority
+                    className="h-full w-full"
+                  />
+                </motion.div>
+              </AnimatePresence>
+            </div>
           </RevealImage>
 
           {gallery.length > 0 && (
@@ -79,6 +110,16 @@ export function PiecePage() {
         {/* -------------------------------------------------------- spec -- */}
         <aside className="md:col-span-4">
           <div className="md:sticky md:top-28">
+            {variants.length > 1 && (
+              <div className="mb-12">
+                <TextilePicker
+                  variants={variants}
+                  active={Math.min(textile, variants.length - 1)}
+                  onSelect={setTextile}
+                />
+              </div>
+            )}
+
             <Eyebrow>{t('piece.spec')}</Eyebrow>
             <Rule className="mt-4" />
 
@@ -152,6 +193,9 @@ export function PiecePage() {
           </div>
         </section>
       )}
+
+      {/* ----------------------------------------------------------- plan -- */}
+      {piece.schematic && <Schematic drawing={piece.schematic} name={piece.name} />}
 
       {/* -------------------------------------------------------- related -- */}
       {siblings.length > 0 && (

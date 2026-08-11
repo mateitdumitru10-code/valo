@@ -23,10 +23,29 @@ export type Collection = {
   ro: string
   en: string
   count: number
+  /** Small cover, used on cards and in the index preview. */
   cover: Img | null
+  /** Full-bleed image behind the collection page headline. */
+  header: Img | null
 }
 
 export type Dimension = { w: number; d: number; h: number }
+
+/** The workshop's dimensioned plan drawing, processed to ink on transparent. */
+export type Schematic = {
+  src: string
+  w: number
+  h: number
+  cm: { width: number; depth: number; depthBack: number } | null
+}
+
+/** The same piece photographed in another textile. See data/curation.json. */
+export type Variant = {
+  src: string
+  chip: string
+  swatch: string
+  tone: { ro: string; en: string }
+}
 
 export type Piece = {
   id: number
@@ -43,6 +62,8 @@ export type Piece = {
   cover: Img
   editorial: boolean
   source: string
+  variants?: Variant[]
+  schematic?: Schematic
 }
 
 type Catalog = {

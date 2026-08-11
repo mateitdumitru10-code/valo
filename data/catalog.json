@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:29:32.070Z",
+  "generatedAt": "2026-08-11T11:08:30.920Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -8,6 +8,17 @@
       "en": "Sectionals",
       "count": 16,
       "cover": {
+        "src": "coltar-sam-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
+        "editorial": true
+      },
+      "header": {
         "src": "coltar-sam-1",
         "w": 1536,
         "h": 1024,
@@ -34,6 +45,17 @@
         ],
         "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
         "editorial": true
+      },
+      "header": {
+        "src": "canapea-ela-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
+        "editorial": true
       }
     },
     {
@@ -42,6 +64,17 @@
       "en": "Beds",
       "count": 15,
       "cover": {
+        "src": "pat-matrimonial-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "editorial": true
+      },
+      "header": {
         "src": "pat-matrimonial-1",
         "w": 1536,
         "h": 1024,
@@ -68,6 +101,17 @@
         ],
         "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
         "editorial": true
+      },
+      "header": {
+        "src": "fotoliu-king-1",
+        "w": 1024,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "editorial": true
       }
     },
     {
@@ -76,6 +120,17 @@
       "en": "Hallway",
       "count": 6,
       "cover": {
+        "src": "hol-chesterfield-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
+        "editorial": true
+      },
+      "header": {
         "src": "hol-chesterfield-1",
         "w": 1536,
         "h": 1024,
@@ -102,6 +157,17 @@
         ],
         "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
         "editorial": true
+      },
+      "header": {
+        "src": "noptiera-paul-1",
+        "w": 1024,
+        "h": 1536,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBQCdASoUAB4APuVeqE2pJSQiMAwBIByJZQCzgCHgRtaWV07iHOJ/RlT6uFbWfBaHAAD+3tpyE3fT3ReH/HYs1RlpxO6OvZ9iYbO2xwto/Aygi+gYQXKGAUQxsERbfQNJxKYLiAA=",
+        "editorial": true
       }
     },
     {
@@ -110,6 +176,17 @@
       "en": "Seating",
       "count": 6,
       "cover": {
+        "src": "scaun-crama-2",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0APu1mqk2ppaQiMAgBMB2JZQCdAB6oRJQefkVoAP6azOKKgsrqDtEbO6XonkESMWllFl32fchITTJBsK+RnJLHOJFIt7gAAA==",
+        "editorial": true
+      },
+      "header": {
         "src": "scaun-crama-2",
         "w": 1536,
         "h": 1024,
@@ -144,74 +221,62 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-aldo-4",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-aldo-studio-1",
+          "w": 1264,
+          "h": 844,
           "widths": [
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA0APu1oqk6ppiQiMAgBMB2JZQCdMoACT7XDseMtuaDc9yAA/DFrI804BUmWkoBFNTYyZod8aMms1uZjPHVsmkB2j4uWsfFOxkAA",
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
           "editorial": true
         },
         {
-          "src": "coltar-aldo-5",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-aldo-studio-2",
+          "w": 1264,
+          "h": 844,
           "widths": [
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYwCdAB4M5NAVUB61kYQAAP7o34xAmlt7efFArcMZxwkB9CpowkhDuqyZkLehw+MA0msqrFxDD2SgAAA=",
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDA3CHfq2+3RHbYAAD+82+hvnMnG1X14pFnZUO1LLxvmwCQjvQ8dNr2xngA",
           "editorial": true
         },
         {
-          "src": "coltar-aldo-1",
-          "w": 1600,
-          "h": 1200,
+          "src": "coltar-aldo-studio-3",
+          "w": 1264,
+          "h": 844,
           "widths": [
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBOgBCRl5RUfbVXtAAD+XNsC183v8E5Vwf5OS1GSmB+5qYvL+e2K1soaHPuTVLl4HIIAAAA=",
-          "editorial": false
-        },
-        {
-          "src": "coltar-aldo-2",
-          "w": 1600,
-          "h": 1200,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JYgCdMoABpxVITevq0BdgAP7fUV7iNG0cRHKrZMI3Q9k7K8tA58o+w51kHOcF0JEbK1p3r+ZLenUtR8Sh9AAA",
-          "editorial": false
-        },
-        {
-          "src": "coltar-aldo-3",
-          "w": 1600,
-          "h": 1200,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBOgBCRl5RUfbVXtAAD+XNsC183v8E5Vwf5OS1GSmB+5qYvL+e2K1soaHPuTVLl4HIIAAAA=",
-          "editorial": false
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JZwDLLCHYfQOt2WujpbgA/vNwGNMhYX4dqRFRhdb1inxOXoFCPnkcDyAAAA==",
+          "editorial": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-aldo/",
       "cover": {
-        "src": "coltar-aldo-4",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-aldo-studio-1",
+        "w": 1264,
+        "h": 844,
         "widths": [
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA0APu1oqk6ppiQiMAgBMB2JZQCdMoACT7XDseMtuaDc9yAA/DFrI804BUmWkoBFNTYyZod8aMms1uZjPHVsmkB2j4uWsfFOxkAA",
+        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JZwC+SCHNvX/N1+hiCZwAAP7x0NCgtOlEvHh/tNk0XxOjREiE2JFUSF/hheT5O69ovPAA",
         "editorial": true
       },
-      "editorial": true
+      "editorial": true,
+      "schematic": {
+        "src": "/media/schema/coltar-aldo.webp",
+        "w": 1133,
+        "h": 944,
+        "cm": {
+          "width": 330,
+          "depth": 190,
+          "depthBack": 110
+        }
+      }
     },
     {
       "id": 6687,
@@ -3036,38 +3101,59 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-extensibila-aldo-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "aldo-studio-1",
+          "w": 1264,
+          "h": 843,
           "widths": [
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1kq04ppaQiMAgBMB2JZQCw7BgPzFquXN2/AAD+1PL6KNe9KtgtkKXRCv2VxoFuFMCgOoifQUNcp3dDhAbi5V8NAAA=",
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
           "editorial": true
         },
         {
-          "src": "canapea-extensibila-aldo-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "aldo-studio-2",
+          "w": 1264,
+          "h": 843,
           "widths": [
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdABj6wptJBFt6gAD+sgoV7phFn/wLVw4cgz/y3GDXdMPNiTTUo056CXQEO8JfNgKMTsnzkAAA",
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZwAAW+hdH69RGD2SAAD+79EYXIRC/4BvxFOHm8ABIy2+vUjbXcBuSMAAAA==",
+          "editorial": true
+        },
+        {
+          "src": "aldo-studio-3",
+          "w": 1264,
+          "h": 843,
+          "widths": [
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZwAAW+hYvD0X1gd5oAD+83AIim8vMzFqjre/aRkmWDI4WejxNHXPiCitss8s+NMqoAAA",
+          "editorial": true
+        },
+        {
+          "src": "aldo-studio-4",
+          "w": 843,
+          "h": 1264,
+          "widths": [
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBQCdASoUAB4APu1iqE6ppSOiMBgMATAdiWMAnQAPY0KOYsGsxZJzjn3ns7wZDhoAAP7x9oxzu7Px3+0mhZ5dicBb4qbzKgbTCksMWnad+cR9UP2CqpkXM6+oRtonTydyrkf2vkdcGVW/kBR+zLlEfMAAAA==",
           "editorial": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-aldo/",
       "cover": {
-        "src": "canapea-extensibila-aldo-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "aldo-studio-1",
+        "w": 1264,
+        "h": 843,
         "widths": [
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1kq04ppaQiMAgBMB2JZQCw7BgPzFquXN2/AAD+1PL6KNe9KtgtkKXRCv2VxoFuFMCgOoifQUNcp3dDhAbi5V8NAAA=",
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAW+hNEO86cuu+AfjgAP7zfmNBKLO/2rDZlC3IJNRyb3m1d2N6RESeINzZVU4i/63nuwRagn4AAAA=",
         "editorial": true
       },
       "editorial": true

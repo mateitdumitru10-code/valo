@@ -135,6 +135,15 @@ const ro = {
   'piece.related': 'Din aceeași colecție',
   'piece.priceNote': 'Preț de listă, textil standard. TVA inclus.',
   'piece.roNote': 'Descriere din fișa de producție.',
+  'piece.plan': 'Plan',
+  'piece.planTitle': 'Cotele piesei',
+  'piece.planNote': 'Cote în centimetri, preluate din desenul de execuție al atelierului.',
+  'piece.width': 'Lățime',
+  'piece.depth': 'Adâncime, cu șezlong',
+  'piece.depthBack': 'Adâncime, corp canapea',
+  'piece.textile': 'Textil',
+  'piece.textileNote': 'Nuanțele sunt preluate din fotografiile de producție. Paleta completă se vede în showroom.',
+  'piece.options': 'variante',
   'piece.gallery': 'Galerie',
 
   'collection.lede.sectionals':
@@ -292,6 +301,15 @@ const en: Record<keyof typeof ro, string> = {
   'piece.related': 'From the same collection',
   'piece.priceNote': 'List price, standard textile. VAT included.',
   'piece.roNote': 'Description as written on the production sheet, in Romanian.',
+  'piece.plan': 'Plan',
+  'piece.planTitle': 'Measured drawing',
+  'piece.planNote': 'Centimetres, taken from the workshop drawing.',
+  'piece.width': 'Width',
+  'piece.depth': 'Depth, with chaise',
+  'piece.depthBack': 'Depth, sofa body',
+  'piece.textile': 'Textile',
+  'piece.textileNote': 'Shades are taken from the production photographs. The full range is in the showroom.',
+  'piece.options': 'options',
   'piece.gallery': 'Gallery',
 
   'collection.lede.sectionals':

@@ -10,6 +10,34 @@
     "fotoliu-king-1",
     "coltar-torro-1"
   ],
+  "images": {
+    "_note": "Own photography, replacing the scraped set for a piece. Filenames live in media-src/ and survive a re-ingest, since ingest only writes the scraped list and media.mjs applies these over the top.",
+    "canapea-extensibila-aldo": [
+      "aldo-studio-1",
+      "aldo-studio-2",
+      "aldo-studio-3",
+      "aldo-studio-4"
+    ],
+    "coltar-aldo": [
+      "coltar-aldo-studio-1",
+      "coltar-aldo-studio-2",
+      "coltar-aldo-studio-3"
+    ]
+  },
+  "schematics": {
+    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot.",
+    "coltar-aldo": {
+      "file": "schita-coltar-aldo",
+      "cm": {
+        "width": 330,
+        "depth": 190,
+        "depthBack": 110
+      }
+    }
+  },
+  "variants": {
+    "_note": "Images of the same piece in a different textile. Samobi's catalogue has no variant data, so these have to be identified by eye. Add a slug here and rerun scripts/swatches.mjs to give that piece a textile picker; with none listed, no product shows one."
+  },
   "covers": {
     "sectionals": "coltar-sam-1",
     "sofas": "canapea-ela-1",
@@ -19,7 +47,17 @@
     "nightstands": "noptiera-paul-1",
     "seating": "scaun-crama-2"
   },
+  "headers": {
+    "_note": "Full-bleed image at the top of a collection page. Falls back to `covers` when a collection has no entry here — split out because a studio cut-out can work as a small cover and still be wrong behind a headline."
+  },
   "editorial": [
+    "aldo-studio-1",
+    "aldo-studio-2",
+    "aldo-studio-3",
+    "aldo-studio-4",
+    "coltar-aldo-studio-1",
+    "coltar-aldo-studio-2",
+    "coltar-aldo-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",

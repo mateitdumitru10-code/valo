@@ -42,6 +42,9 @@ const urls = [
   ...collections.map((c) => `/colectii/${c.id}`),
   '/piese',
   ...pieces.slice(0, 6).map((p) => `/piese/${p.slug}`),
+  // Textile variants and plan drawings each take a different path through the page.
+  ...pieces.filter((p) => p.variants?.length).map((p) => `/piese/${p.slug}`),
+  ...pieces.filter((p) => p.schematic).map((p) => `/piese/${p.slug}`),
   `/piese/${pieces[pieces.length - 1].slug}`,
   '/atelier',
   '/showroom-uri',

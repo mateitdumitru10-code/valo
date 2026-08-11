@@ -1,5 +1,4 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { Img } from '~/components/Img'
 import { PieceCard } from '~/components/PieceCard'
 import { RevealLines } from '~/components/Reveal'
 import { ArrowLink, Eyebrow } from '~/components/UI'
@@ -18,26 +17,14 @@ export function CollectionPage() {
   const others = collections.filter((c) => c.id !== family.id)
 
   return (
-    <div>
-      {/* Full-bleed cover; the nav inverts over it. */}
-      {family.cover && (
-        <header data-nav="invert" className="grain relative h-[68svh] min-h-[26rem] w-full">
-          <Img
-            img={family.cover}
-            alt={lang === 'ro' ? family.ro : family.en}
-            sizes="100vw"
-            priority
-            className="absolute inset-0 h-full w-full"
-          />
-          <div className="absolute inset-0 bg-night/45" aria-hidden />
-          <div className="gutter absolute inset-x-0 bottom-0 pb-12 text-paper">
-            <Eyebrow className="text-paper">{t('collections.eyebrow')}</Eyebrow>
-            <h1 className="display-lg mt-4">
-              <RevealLines lines={[lang === 'ro' ? family.ro : family.en]} />
-            </h1>
-          </div>
-        </header>
-      )}
+    <div className="pt-32 md:pt-44">
+      {/* Type-led opening: the pieces below are the photography. */}
+      <header className="gutter">
+        <Eyebrow index="—">{t('collections.eyebrow')}</Eyebrow>
+        <h1 className="display-xl mt-8">
+          <RevealLines lines={[lang === 'ro' ? family.ro : family.en]} />
+        </h1>
+      </header>
 
       <section className="gutter grid gap-10 py-16 md:grid-cols-12 md:py-24">
         <p className="md:col-span-6 md:col-start-1">

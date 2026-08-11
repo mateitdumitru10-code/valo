@@ -46,7 +46,40 @@ const editorial = new Set(curation.editorial)
 await mkdir(OUT, { recursive: true })
 
 const sources = (await readdir(SRC)).filter((f) => /\.(webp|jpe?g|png)$/i.test(f))
-const used = new Set(catalog.products.flatMap((p) => p.images))
+const known = new Map(sources.map((f) => [base(f), f]))
+
+// This script rewrites image entries from filenames into metadata objects, so
+// running it twice would otherwise consume its own output and empty the
+// catalogue. Normalise back to filenames first and the run is idempotent.
+for (const product of catalog.products) {
+  product.images = product.images
+    .map((img) => (typeof img === 'string' ? img : known.get(img.src)))
+    .filter(Boolean)
+}
+
+// Own photography wins over the scraped set. Applied here rather than in
+// ingest.mjs so that re-ingesting from Samobi never undoes it.
+const fileByName = known
+for (const [slug, names] of Object.entries(curation.images ?? {})) {
+  const product = catalog.products.find((p) => p.slug === slug)
+  if (!product || !Array.isArray(names)) continue
+  const files = names.map((n) => fileByName.get(n)).filter(Boolean)
+  if (files.length) product.images = files
+}
+
+// Hero frames and collection covers are curated independently of the product
+// list, so they are rendered even when no product still references them —
+// otherwise replacing a piece's photography silently empties a hero slot.
+const used = new Set([
+  ...catalog.products.flatMap((p) => p.images),
+  ...[
+    ...curation.hero,
+    ...Object.values(curation.covers),
+    ...Object.values(curation.headers ?? {}),
+  ]
+    .map((n) => fileByName.get(n))
+    .filter(Boolean),
+])
 const meta = new Map()
 let rendered = 0
 
@@ -95,6 +128,9 @@ const byName = new Map([...meta.values()].map((m) => [m.src, m]))
 catalog.hero = curation.hero.map((n) => byName.get(n)).filter(Boolean)
 for (const collection of catalog.collections) {
   collection.cover = byName.get(curation.covers[collection.id]) ?? null
+  // The page header can differ from the card cover; it falls back to it.
+  collection.header =
+    byName.get(curation.headers?.[collection.id]) ?? collection.cover
 }
 
 await writeFile(CATALOG, JSON.stringify(catalog, null, 2))
