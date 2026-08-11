@@ -38,8 +38,13 @@ const exists = (p) =>
     () => false,
   )
 
-/** The staged frame studio shots are placed into: 4:3, piece at 68% height. */
-const STAGE = { w: 2000, h: 1500, height: 0.68, width: 0.8 }
+/**
+ * The staged frame studio shots are placed into. Sizes and positions refer to
+ * the piece itself, not to the photograph around it — the sweeps have the
+ * furniture sitting off-centre by varying amounts, so matching frames would
+ * leave the pieces mismatched.
+ */
+const STAGE = { w: 2000, h: 1500, height: 0.62, width: 0.78, baseline: 0.8 }
 
 /**
  * Re-stage a studio shot: trim the sweep away, then set the piece back down on
@@ -51,13 +56,52 @@ async function stageStudio(input) {
   const source = sharp(input)
   const { width = 1, height = 1 } = await source.metadata()
 
-  // The whole frame is scaled down and set into a larger field — no trimming.
-  // These sweeps are vignetted, so cutting the piece out of one and dropping it
-  // onto a flat colour leaves the original's corners showing as a box.
-  const scale = Math.min((STAGE.h * STAGE.height) / height, (STAGE.w * STAGE.width) / width)
+  // Where the furniture actually is inside the frame. Measured on a small copy:
+  // anything appreciably darker than the sweep is the piece or its shadow.
+  const SCAN = 240
+  const { data, info } = await source
+    .clone()
+    .resize(SCAN, null)
+    .removeAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true })
+
+  let minX = info.width
+  let minY = info.height
+  let maxX = 0
+  let maxY = 0
+  for (let i = 0, px = 0; i < data.length; i += info.channels, px++) {
+    const luma = (0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]) / 255
+    if (luma > 0.93) continue
+    const x = px % info.width
+    const y = Math.floor(px / info.width)
+    if (x < minX) minX = x
+    if (x > maxX) maxX = x
+    if (y < minY) minY = y
+    if (y > maxY) maxY = y
+  }
+
+  const ratio = width / info.width
+  const box =
+    maxX > minX && maxY > minY
+      ? {
+          left: Math.round(minX * ratio),
+          top: Math.round(minY * ratio),
+          width: Math.round((maxX - minX + 1) * ratio),
+          height: Math.round((maxY - minY + 1) * ratio),
+        }
+      : { left: 0, top: 0, width, height }
+
+  // Scale and place by that box, so every piece lands at the same size and
+  // stands on the same line no matter how its own photograph was framed.
+  const scale = Math.min(
+    (STAGE.h * STAGE.height) / box.height,
+    (STAGE.w * STAGE.width) / box.width,
+  )
   const piece = await source
     .clone()
-    .resize(Math.round(width * scale), Math.round(height * scale))
+    .extract(box)
+    .resize(Math.round(box.width * scale), Math.round(box.height * scale))
     .toBuffer()
   const placed = await sharp(piece).metadata()
   const pw = placed.width ?? 0
@@ -82,9 +126,9 @@ async function stageStudio(input) {
       {
         input: levelled,
         left: Math.round((STAGE.w - pw) / 2),
-        // A little above centre: furniture reads better with more floor beneath
-        // it than headroom above.
-        top: Math.round((STAGE.h - ph) * 0.45),
+        // Every piece stands on the same line, with more floor beneath it than
+        // headroom above.
+        top: Math.max(0, Math.round(STAGE.h * STAGE.baseline - ph)),
       },
     ])
     .png()
