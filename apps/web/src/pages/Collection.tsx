@@ -52,7 +52,10 @@ export function CollectionPage() {
             key={piece.slug}
             piece={piece}
             index={i}
-            ratio={i % 5 === 0 ? 'portrait' : 'landscape'}
+            // One ratio throughout. Breaking the rhythm with a portrait card
+            // crops a studio frame on both sides, and its piece then reads as
+            // larger than the identically-scaled pieces beside it.
+            ratio="landscape"
             sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
           />
         ))}
