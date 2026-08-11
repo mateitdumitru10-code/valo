@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:18:12.029Z",
+  "generatedAt": "2026-08-11T21:39:20.674Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -66,7 +66,7 @@
       "id": "beds",
       "ro": "Paturi",
       "en": "Beds",
-      "count": 16,
+      "count": 17,
       "cover": {
         "src": "pat-matrimonial-1",
         "w": 1536,
@@ -4567,6 +4567,88 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDLLCHfwMM2xPaj4AD+82vsehHNjvAywUze5j9AAA==",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-pat-linear",
+      "slug": "pat-linear",
+      "name": "Pat Linear",
+      "collection": "beds",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "pat-linear-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+yYLRTZexAA/vN/Dv1IaqzvQ/MJL0mHiHILocAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAASnpYhskd0AD+84KyDFTavDxA9hDkGgjBhM9OXgAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+i+wf+U74EcYAAA/vHwnEyqEKrxPJJGmZ8oqBHQD0K1TyUtBQAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwAAW+xQZlY4F8AA/vN/Dt4VC7ytkIHStp2Ns6HhwAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "pat-linear-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+yYLRTZexAA/vN/Dv1IaqzvQ/MJL0mHiHILocAA",
         "editorial": true,
         "studio": true
       },

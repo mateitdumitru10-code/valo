@@ -94,6 +94,12 @@
       "canapea-sonia-studio-2",
       "canapea-sonia-studio-3",
       "canapea-sonia-studio-4"
+    ],
+    "pat-linear": [
+      "pat-linear-studio-1",
+      "pat-linear-studio-2",
+      "pat-linear-studio-3",
+      "pat-linear-studio-4"
     ]
   },
   "products": {
@@ -136,6 +142,11 @@
     },
     "canapea-sonia-extensibila": {
       "name": "Canapea Sonia extensibilă"
+    },
+    "pat-linear": {
+      "name": "Pat Linear",
+      "collection": "beds",
+      "price": null
     }
   },
   "exclude": {
@@ -233,6 +244,10 @@
     "canapea-sonia-studio-2",
     "canapea-sonia-studio-3",
     "canapea-sonia-studio-4",
+    "pat-linear-studio-1",
+    "pat-linear-studio-2",
+    "pat-linear-studio-3",
+    "pat-linear-studio-4",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
