@@ -37,6 +37,31 @@ function Field({
 const inputClass =
   'w-full border-b border-ink/20 bg-transparent py-3 text-base outline-none transition-colors placeholder:text-ink/30 focus:border-ink'
 
+/**
+ * Two destinations, because the site has two homes.
+ *
+ * In development the Express API is running, so requests go there and land in
+ * data/inquiries.jsonl. In production the site is static on Netlify, where
+ * there is no API — submissions go to Netlify Forms, declared in
+ * public/__forms.html. It posts to that file rather than to "/" because the SPA
+ * rewrite in netlify.toml would otherwise swallow the request.
+ */
+function send(data: Record<string, string>) {
+  if (import.meta.env.DEV) {
+    return fetch('/api/inquiries', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(data),
+    })
+  }
+
+  return fetch('/__forms.html', {
+    method: 'POST',
+    headers: { 'content-type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ 'form-name': 'inquiry', ...data }).toString(),
+  })
+}
+
 export function InquiryForm({ defaultPiece }: { defaultPiece?: string }) {
   const { t } = useI18n()
   const [status, setStatus] = useState<Status>('idle')
@@ -57,11 +82,7 @@ export function InquiryForm({ defaultPiece }: { defaultPiece?: string }) {
 
     setStatus('sending')
     try {
-      const res = await fetch('/api/inquiries', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(data),
-      })
+      const res = await send(data)
       if (!res.ok) throw new Error(String(res.status))
       setStatus('sent')
       form.reset()
@@ -85,6 +106,17 @@ export function InquiryForm({ defaultPiece }: { defaultPiece?: string }) {
 
   return (
     <form onSubmit={submit} noValidate className="grid gap-8 sm:grid-cols-2">
+      {/* Honeypot: invisible to people, irresistible to bots. Netlify drops any
+          submission that arrives with it filled in. */}
+      <input
+        type="text"
+        name="bot-field"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden
+        className="hidden"
+      />
+
       <Field id="name" label={t('contact.name')} error={errors.name}>
         <input id="name" name="name" className={inputClass} autoComplete="name" />
       </Field>

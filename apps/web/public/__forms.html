@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulare</title>
+  </head>
+  <body>
+    <!--
+      Netlify detects forms by parsing the HTML it deploys. A single-page app has
+      none to find, so this file exists purely to declare the shape of the quote
+      request: field names here must match what InquiryForm sends.
+
+      The form posts to this file rather than to "/" because netlify.toml
+      rewrites every unknown path to index.html, and that rewrite would swallow
+      the submission. This page is a real file, so no redirect applies.
+    -->
+    <form name="inquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="piece" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>
