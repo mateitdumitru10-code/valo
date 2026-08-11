@@ -88,6 +88,12 @@
       "canapea-torro-studio-2",
       "canapea-torro-studio-3",
       "canapea-torro-studio-4"
+    ],
+    "canapea-sonia-extensibila": [
+      "canapea-sonia-studio-1",
+      "canapea-sonia-studio-2",
+      "canapea-sonia-studio-3",
+      "canapea-sonia-studio-4"
     ]
   },
   "products": {
@@ -127,6 +133,9 @@
     },
     "canapea-toro": {
       "name": "Canapea Torro"
+    },
+    "canapea-sonia-extensibila": {
+      "name": "Canapea Sonia extensibilă"
     }
   },
   "exclude": {
@@ -220,6 +229,10 @@
     "canapea-torro-studio-2",
     "canapea-torro-studio-3",
     "canapea-torro-studio-4",
+    "canapea-sonia-studio-1",
+    "canapea-sonia-studio-2",
+    "canapea-sonia-studio-3",
+    "canapea-sonia-studio-4",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
