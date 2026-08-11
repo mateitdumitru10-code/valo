@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:11:58.753Z",
+  "generatedAt": "2026-08-11T15:25:44.952Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -2179,17 +2179,6 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-aldo-studio-1",
-          "w": 1195,
-          "h": 896,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+pIwzhaWDwAAAD+83SA4CcYg0YzZgp/gbxvjHLqFfliRyCuTV/BaFUAAAA=",
-          "editorial": true
-        },
-        {
           "src": "pat-aldo-studio-2",
           "w": 1195,
           "h": 896,
@@ -2198,6 +2187,17 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
+          "editorial": true
+        },
+        {
+          "src": "pat-aldo-studio-1",
+          "w": 1195,
+          "h": 896,
+          "widths": [
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+pIwzhaWDwAAAD+83SA4CcYg0YzZgp/gbxvjHLqFfliRyCuTV/BaFUAAAA=",
           "editorial": true
         },
         {
@@ -2214,14 +2214,14 @@
       ],
       "source": "https://mobilasamobi.ro/products/pat-aldo/",
       "cover": {
-        "src": "pat-aldo-studio-1",
+        "src": "pat-aldo-studio-2",
         "w": 1195,
         "h": 896,
         "widths": [
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+pIwzhaWDwAAAD+83SA4CcYg0YzZgp/gbxvjHLqFfliRyCuTV/BaFUAAAA=",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUrn6hMuPhrrz/AAA/vOCtROsbWHMwzk4yNN/VwwDLxk6zI3BJoAAAA==",
         "editorial": true
       },
       "editorial": true
