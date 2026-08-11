@@ -101,7 +101,16 @@ export function loadPiece(slug: string) {
 const catalog = raw as unknown as Catalog
 
 export const collections = catalog.collections
-export const pieces = catalog.products.filter((p) => p.cover)
+
+/**
+ * Own studio photography leads everywhere a list of pieces appears — grids,
+ * collections, the featured rail, related. Those frames share one scale and one
+ * white field, so putting them first makes a listing open on a coherent block
+ * rather than on whatever the scrape happened to return first.
+ */
+export const pieces = catalog.products
+  .filter((p) => p.cover)
+  .sort((a, b) => Number(b.cover.studio ?? false) - Number(a.cover.studio ?? false))
 export const heroFrames = catalog.hero
 
 export const bySlug = (slug: string) => pieces.find((p) => p.slug === slug)
