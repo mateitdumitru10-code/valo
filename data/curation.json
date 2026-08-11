@@ -52,6 +52,16 @@
     "pat-loris": [
       "pat-loris-studio-1",
       "pat-loris-studio-2"
+    ],
+    "coltar-vallo": [
+      "coltar-vallo-studio-1",
+      "coltar-vallo-studio-2",
+      "coltar-vallo-studio-3"
+    ],
+    "coltar-zeno": [
+      "coltar-zeno-studio-1",
+      "coltar-zeno-studio-2",
+      "coltar-zeno-studio-3"
     ]
   },
   "products": {
@@ -69,6 +79,16 @@
     "pat-loris": {
       "name": "Pat Loris",
       "collection": "beds",
+      "price": null
+    },
+    "coltar-vallo": {
+      "name": "Colțar Vallo",
+      "collection": "sectionals",
+      "price": null
+    },
+    "coltar-zeno": {
+      "name": "Colțar Zeno",
+      "collection": "sectionals",
       "price": null
     }
   },
@@ -137,6 +157,12 @@
     "canapea-rotunda-aldo-studio-3",
     "pat-loris-studio-1",
     "pat-loris-studio-2",
+    "coltar-vallo-studio-1",
+    "coltar-vallo-studio-2",
+    "coltar-vallo-studio-3",
+    "coltar-zeno-studio-1",
+    "coltar-zeno-studio-2",
+    "coltar-zeno-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
