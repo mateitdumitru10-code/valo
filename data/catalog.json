@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:17:13.837Z",
+  "generatedAt": "2026-08-11T20:36:52.660Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -382,80 +382,60 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-fantezie-1",
-          "w": 1200,
-          "h": 1600,
+          "src": "pat-fantezie-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1kqU2ppaOiMAgBMB2JYwDCgCHfw4yD2yEhbcAA/vN+S5NdNMK3t2tJzlrfgE9AAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-fantezie-2",
-          "w": 1200,
-          "h": 1600,
+          "src": "pat-fantezie-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBQCdASoUABsAPu1grFAppKQisBgIATAdiUAVyXqQVEnkNv2hE4QsxGhxUmEPeF4dHiAA/rUfPph1q46IeGu2eVRYmK/kuzLT3mmz5IXjHM3YmjevSYip4f/oGzaV1L5i4FnLI3lTWKwyQPxGm0fAyWpsZPuRD0OwNfyOM/vLcogA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAgCdASoUAA8AA4BaJZQDKAEO/gYLONe7sAAA/vitVDaNR7yVfaGvUqVksPWYSAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-fantezie-3",
-          "w": 1200,
-          "h": 1600,
+          "src": "pat-fantezie-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQBQCdASoUABsAPu1mq0+ppSOiMBgIATAdiUAYz4aOGA5KqhbBaeXbfiNZefkwX2BKXAAA/rB4AT8KyVqhZDwHnWNby8gXcXynJ8g59+WbUsrn1tq5Jfa06e66RwWwMvYC4KuEpqr+DzabO6oqopVj18iKFp5F8S3CCWtfLjwAAA==",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-fantezie-4",
-          "w": 1200,
-          "h": 1600,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUABsAPu1qrlEppaQiqAqpMB2JQBdgBgR0xvrpArBnlka4wsNuVejCoAD+jTzwfm7uzUa9+3QeyyTL/WpdkmDx6FE9JGMs3h4GOwFQZtjCrGjpk3yGdUM8VJO3a4EnwCEgBngmNEIb4mp3n3Y+AAAA",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-fantezie-5",
-          "w": 1200,
-          "h": 1600,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYwDA3CHfjVoyGoAA/vN0fCOb8q+NUeoFTO2EV0AAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-fantezie/",
       "cover": {
-        "src": "pat-fantezie-1",
-        "w": 1200,
-        "h": 1600,
+        "src": "pat-fantezie-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoUABsAPu1eqE4ppKOiMBgMATAdiWIAxNg0SnEIXq6zkfuboQITE21JoRiH8AD+3oTNHNy4diXJoA1pOvBORYRQl1eR1DDMEJOADdD3hop2qA6KCFIwVvrodYwxTJq0OqRMa6KRm5lSbCvNeWGkFA23R9AAAA==",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1kqU2ppaOiMAgBMB2JYwDCgCHfw4yD2yEhbcAA/vN+S5NdNMK3t2tJzlrfgE9AAAA=",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false
+      "editorial": true
     },
     {
       "id": 250,

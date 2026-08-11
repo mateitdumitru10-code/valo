@@ -72,6 +72,11 @@
       "coltar-torro-studio-1",
       "coltar-torro-studio-2",
       "coltar-torro-studio-3"
+    ],
+    "pat-fantezie": [
+      "pat-fantezie-studio-1",
+      "pat-fantezie-studio-2",
+      "pat-fantezie-studio-3"
     ]
   },
   "products": {
@@ -183,6 +188,9 @@
     "coltar-torro-studio-1",
     "coltar-torro-studio-2",
     "coltar-torro-studio-3",
+    "pat-fantezie-studio-1",
+    "pat-fantezie-studio-2",
+    "pat-fantezie-studio-3",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
