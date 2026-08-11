@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:46:55.479Z",
+  "generatedAt": "2026-08-11T22:02:49.312Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -2265,54 +2265,71 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-spring-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-spring-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOmUI+PBLbcBR9xSXJAAP7oOOtP+LeZ0fXcFKyjfxg59b8sqT5dUHqFlDM28TxqA3D7py3tsYwZaHAAAA==",
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQC/OCHXitp1xxtV8AD+83AhYngyGBjhzSJ+mN4fMmAYGDvBj1K+TAAAAA==",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "canapea-spring-2",
-          "w": 1200,
-          "h": 806,
+          "src": "canapea-spring-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JagCw7CIfpFFzow1tlxYAAP7zfw7/XQgdl5mGfVbcI0h1BEVY4knw/lA2Z+0/N2fVKGGM5usZlrph6nPAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JYwCsAB6WdvuiCzX10AD+84LOBZeUq1gPfOwLQLuESE9okTlQjWOEWN49eX9AAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "canapea-spring-3",
-          "w": 1200,
-          "h": 839,
+          "src": "canapea-spring-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA4APu1kqU4ppaOiMAgBMB2JZgCw7B6SATP/T5e/lXNAAP7zgdsf19yiXwUYoawaIKxSLr4/lxJ4Le44O6D2a6XtVXjK0g2wsgAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JZwC90CHf/VKjlMAA/vNux/qSb/E6s5qfKy8OZMRV+cj2UWHOu5wA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-spring-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwAAW+yxb0P+sAAA/vN1CcMQaXiIHc3Lh0POh5q0AAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-spring/",
       "cover": {
-        "src": "canapea-spring-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "canapea-spring-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOmUI+PBLbcBR9xSXJAAP7oOOtP+LeZ0fXcFKyjfxg59b8sqT5dUHqFlDM28TxqA3D7py3tsYwZaHAAAA==",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQC/OCHXitp1xxtV8AD+83AhYngyGBjhzSJ+mN4fMmAYGDvBj1K+TAAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true
     },

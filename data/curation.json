@@ -100,6 +100,12 @@
       "pat-linear-studio-2",
       "pat-linear-studio-3",
       "pat-linear-studio-4"
+    ],
+    "canapea-spring": [
+      "canapea-spring-studio-1",
+      "canapea-spring-studio-2",
+      "canapea-spring-studio-3",
+      "canapea-spring-studio-4"
     ]
   },
   "products": {
@@ -248,6 +254,10 @@
     "pat-linear-studio-2",
     "pat-linear-studio-3",
     "pat-linear-studio-4",
+    "canapea-spring-studio-1",
+    "canapea-spring-studio-2",
+    "canapea-spring-studio-3",
+    "canapea-spring-studio-4",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
