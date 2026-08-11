@@ -27,7 +27,50 @@
       "pat-aldo-studio-2",
       "pat-aldo-studio-1",
       "pat-aldo-studio-3"
+    ],
+    "pat-cubic": [
+      "pat-cubiq-studio-1",
+      "pat-cubiq-studio-2",
+      "pat-cubiq-studio-3",
+      "pat-cubiq-studio-4"
+    ],
+    "coltar-cubic-fix": [
+      "coltar-cubiq-studio-1",
+      "coltar-cubiq-studio-2"
+    ],
+    "canapea-cubiq": [
+      "canapea-cubiq-studio-1",
+      "canapea-cubiq-studio-2",
+      "canapea-cubiq-studio-3",
+      "canapea-cubiq-studio-4"
+    ],
+    "canapea-rotunda-aldo": [
+      "canapea-rotunda-aldo-studio-1",
+      "canapea-rotunda-aldo-studio-2",
+      "canapea-rotunda-aldo-studio-3"
+    ],
+    "pat-loris": [
+      "pat-loris-studio-1",
+      "pat-loris-studio-2"
     ]
+  },
+  "products": {
+    "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue. media.mjs creates them, then the images map above gives them their photographs. Price is null until Samobi supplies one — the app simply omits it.",
+    "canapea-cubiq": {
+      "name": "Canapea Cubiq",
+      "collection": "sofas",
+      "price": null
+    },
+    "canapea-rotunda-aldo": {
+      "name": "Canapea rotundă Aldo",
+      "collection": "sofas",
+      "price": null
+    },
+    "pat-loris": {
+      "name": "Pat Loris",
+      "collection": "beds",
+      "price": null
+    }
   },
   "schematics": {
     "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot.",
@@ -66,6 +109,21 @@
     "pat-aldo-studio-1",
     "pat-aldo-studio-2",
     "pat-aldo-studio-3",
+    "pat-cubiq-studio-1",
+    "pat-cubiq-studio-2",
+    "pat-cubiq-studio-3",
+    "pat-cubiq-studio-4",
+    "coltar-cubiq-studio-1",
+    "coltar-cubiq-studio-2",
+    "canapea-cubiq-studio-1",
+    "canapea-cubiq-studio-2",
+    "canapea-cubiq-studio-3",
+    "canapea-cubiq-studio-4",
+    "canapea-rotunda-aldo-studio-1",
+    "canapea-rotunda-aldo-studio-2",
+    "canapea-rotunda-aldo-studio-3",
+    "pat-loris-studio-1",
+    "pat-loris-studio-2",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",

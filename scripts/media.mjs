@@ -111,6 +111,27 @@ for (const product of catalog.products) {
     .filter(Boolean)
 }
 
+// Pieces Valo has photographed that Samobi's catalogue does not list. Created
+// here rather than in ingest.mjs, which only ever mirrors what the API returns.
+for (const [slug, spec] of Object.entries(curation.products ?? {})) {
+  if (slug === '_note' || catalog.products.some((p) => p.slug === slug)) continue
+  catalog.products.push({
+    id: `valo-${slug}`,
+    slug,
+    name: spec.name,
+    collection: spec.collection,
+    collections: [],
+    price: spec.price ?? null,
+    currency: 'RON',
+    lead: spec.lead ?? '',
+    summary: spec.summary ?? '',
+    body: spec.body ?? '',
+    dimensions: spec.dimensions ?? [],
+    images: [],
+    source: '',
+  })
+}
+
 // Own photography wins over the scraped set. Applied here rather than in
 // ingest.mjs so that re-ingesting from Samobi never undoes it.
 const fileByName = known
@@ -183,6 +204,14 @@ for (const product of catalog.products) {
   product.images = images
   product.cover = images[0] ?? null
   product.editorial = images.some((i) => i.editorial)
+}
+
+// A piece with no usable photography would render as an empty card.
+catalog.products = catalog.products.filter((p) => p.cover)
+
+// Counts come from ingest, which has not seen the pieces created above.
+for (const collection of catalog.collections) {
+  collection.count = catalog.products.filter((p) => p.collection === collection.id).length
 }
 
 const byName = new Map([...meta.values()].map((m) => [m.src, m]))

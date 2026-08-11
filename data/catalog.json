@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:21:01.464Z",
+  "generatedAt": "2026-08-11T18:45:07.954Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -36,7 +36,7 @@
       "id": "sofas",
       "ro": "Canapele",
       "en": "Sofas",
-      "count": 20,
+      "count": 22,
       "cover": {
         "src": "canapea-ela-1",
         "w": 1536,
@@ -66,7 +66,7 @@
       "id": "beds",
       "ro": "Paturi",
       "en": "Beds",
-      "count": 15,
+      "count": 16,
       "cover": {
         "src": "pat-matrimonial-1",
         "w": 1536,
@@ -4337,30 +4337,45 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-cubic-fix-1",
-          "w": 1200,
-          "h": 896,
+          "src": "coltar-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDCgCDZ//42OI+2DtwAAPzpZVHk8TY/6N/RjBYznl4lJ3X+T5IDlm5HMCjssiEHYEATa1qMQAAA",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAW+uVePT9lycAAP7zbvcSqefeH0ZhA5VoNIdcQegAAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "coltar-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+vg9SpEgAD+82v/dUpBJ++n7G8sT+igAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-cubic-fix/",
       "cover": {
-        "src": "coltar-cubic-fix-1",
-        "w": 1200,
-        "h": 896,
+        "src": "coltar-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDCgCDZ//42OI+2DtwAAPzpZVHk8TY/6N/RjBYznl4lJ3X+T5IDlm5HMCjssiEHYEATa1qMQAAA",
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAW+uVePT9lycAAP7zbvcSqefeH0ZhA5VoNIdcQegAAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true
     },
@@ -4509,30 +4524,71 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-cubic-1",
-          "w": 1024,
-          "h": 1024,
+          "src": "pat-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABQAPu1oqU8ppiOiKA1RMB2JZwAAKcufr0yoG/VkDdyI5M/4WCvQAPVCEvgbzbElPuJ2ppGdWqEQkh07tLleqFU/y2MZFa+lPMly+BCX1aV6/JGOszP52eqCF1uAAAA=",
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+vT596Js6/wAP7zgTFbwAvYw1QRmNzXhId/Bmbl2zZS/Xzl5whEAAAA",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "pat-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+wEwDDVsAD+82v6msOgjl+HCC/oAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+y82mSrH+AA/vN1Cxi8Typq3Xx7MLCy2s0YLu3MUYAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-cubiq-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAWqATBlU1kgAA/vN1MXofXIEh8WefQjbxWHCRvVTYVa14qAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-cubic/",
       "cover": {
-        "src": "pat-cubic-1",
-        "w": 1024,
-        "h": 1024,
+        "src": "pat-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABQAPu1oqU8ppiOiKA1RMB2JZwAAKcufr0yoG/VkDdyI5M/4WCvQAPVCEvgbzbElPuJ2ppGdWqEQkh07tLleqFU/y2MZFa+lPMly+BCX1aV6/JGOszP52eqCF1uAAAA=",
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+vT596Js6/wAP7zgTFbwAvYw1QRmNzXhId/Bmbl2zZS/Xzl5whEAAAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true
     },
@@ -5015,6 +5071,213 @@
         "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAAuHT+65AAD+bK6Irebz+Zg6IwAZ5t2EUF7yOQLAxAPI5et6PIl2/6s/gAA=",
         "editorial": true,
         "studio": false
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-canapea-cubiq",
+      "slug": "canapea-cubiq",
+      "name": "Canapea Cubiq",
+      "collection": "sofas",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "canapea-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JaQAAW+zk2W6tL92AAP7zbvv41NlyCzAiDtwAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABQAwCdASoUAA8APu1iqk4ppaQiMAgBMB2JaQAAW+vhInJ1AAD+82v8wptlUY2fOIAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+ve3XedUAAA/vNr/rMIZL2fCvfgtXgQAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZQDImCHfxjWlctglQoAA/vNvoctsq0MtVnb1HdxnKxbxFuxB50scHnAAAA==",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "canapea-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JaQAAW+zk2W6tL92AAP7zbvv41NlyCzAiDtwAAAA=",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-canapea-rotunda-aldo",
+      "slug": "canapea-rotunda-aldo",
+      "name": "Canapea rotundă Aldo",
+      "collection": "sofas",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "canapea-rotunda-aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+sgSOAA/vNr7GF7T57k8BAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-rotunda-aldo-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+sXj0AA/vNrxuMU4VcwAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-rotunda-aldo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+tBqw4AAP7za8VhN8iQgAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "canapea-rotunda-aldo-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAW+sgSOAA/vNr7GF7T57k8BAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-pat-loris",
+      "slug": "pat-loris",
+      "name": "Pat Loris",
+      "collection": "beds",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "pat-loris-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC7ACHf+hhvu7X8GgAA/vOBOTdP8PIphoRrG4ZT80DxQ6v2/0+QZFHjKLqAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDLLCHXX8VstlFAAP7zfSTIiRf9cW6ypbb4oQxlG6UsshJJ6VN9SXAAAA==",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "pat-loris-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC7ACHf+hhvu7X8GgAA/vOBOTdP8PIphoRrG4ZT80DxQ6v2/0+QZFHjKLqAAAA=",
+        "editorial": true,
+        "studio": true
       },
       "editorial": true
     }
