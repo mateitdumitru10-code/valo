@@ -82,6 +82,12 @@
       "coltar-linear-studio-1",
       "coltar-linear-studio-2",
       "coltar-linear-studio-3"
+    ],
+    "canapea-toro": [
+      "canapea-torro-studio-1",
+      "canapea-torro-studio-2",
+      "canapea-torro-studio-3",
+      "canapea-torro-studio-4"
     ]
   },
   "products": {
@@ -118,6 +124,9 @@
     },
     "pat-fantezie": {
       "name": "Pat Fantezie"
+    },
+    "canapea-toro": {
+      "name": "Canapea Torro"
     }
   },
   "exclude": {
@@ -207,6 +216,10 @@
     "coltar-linear-studio-1",
     "coltar-linear-studio-2",
     "coltar-linear-studio-3",
+    "canapea-torro-studio-1",
+    "canapea-torro-studio-2",
+    "canapea-torro-studio-3",
+    "canapea-torro-studio-4",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
