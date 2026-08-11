@@ -25,13 +25,13 @@ export function PieceCard({
   className,
   ratio = 'landscape',
 }: Props) {
-  const { t, lang } = useI18n()
+  const { lang } = useI18n()
   const family = findCollection(piece.collection)
   const price = formatPrice(piece.price, lang)
 
   return (
     <article className={clsx('group', className)}>
-      <Link to={`/piese/${piece.slug}`} data-cursor-label={t('common.viewPiece')}>
+      <Link to={`/piese/${piece.slug}`}>
         <Img
           img={piece.cover}
           alt={piece.name}

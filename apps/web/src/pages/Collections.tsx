@@ -31,7 +31,7 @@ export function Collections() {
           const range = priceRange(list)
           return (
             <Reveal key={c.id} delay={i % 2} className="group">
-              <Link to={`/colectii/${c.id}`} data-cursor-label={t('common.explore')}>
+              <Link to={`/colectii/${c.id}`}>
                 {c.cover && (
                   <RevealImage>
                     <Img

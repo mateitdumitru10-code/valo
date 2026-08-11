@@ -120,7 +120,6 @@ export function Nav() {
             to="/"
             className="group flex items-baseline gap-2"
             aria-label="Vallo"
-            data-cursor="hide"
           >
             <span className="-mr-[0.28em] font-display text-2xl leading-none tracking-[0.28em] md:text-[1.75rem]">
               VALLO

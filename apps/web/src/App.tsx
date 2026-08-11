@@ -3,7 +3,6 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import { Nav } from '~/components/Nav'
 import { Footer } from '~/components/Footer'
-import { Cursor } from '~/components/Cursor'
 import { Preloader } from '~/components/Preloader'
 import { Home } from '~/pages/Home'
 
@@ -34,7 +33,6 @@ export default function App() {
   return (
     <>
       <Preloader />
-      <Cursor />
       <Nav />
       <ScrollToTop />
 
