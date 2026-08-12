@@ -110,72 +110,6 @@ export function toneOf(value) {
   return { ro: 'Roz', en: 'Rose' }
 }
 
-/**
- * A chip of the actual textile, cut from the seat of the photograph. A woven
- * chip says more about a fabric than a flat colour ever does — it is what a
- * showroom hands you.
- */
-async function chipOf(file, dest, swatch) {
-  const image = sharp(join(SRC, file))
-  const { width = 0, height = 0 } = await image.metadata()
-  if (!width || !height) return null
-
-  // No fixed crop survives this library — a seat crop catches a seam, a
-  // backrest crop catches a patterned cushion. So search the frame for the
-  // flattest patch whose colour matches the piece, and cut the chip there.
-  const SCAN = 200
-  const { data, info } = await image
-    .clone()
-    .resize(SCAN, null)
-    .removeAlpha()
-    .raw()
-    .toBuffer({ resolveWithObject: true })
-
-  const target = [1, 3, 5].map((i) => parseInt(swatch.slice(i, i + 2), 16))
-  const win = 20
-  const at = (x, y, c) => data[(y * info.width + x) * info.channels + c]
-
-  let best = null
-  for (let y = Math.round(info.height * 0.3); y < info.height * 0.85 - win; y += 6) {
-    for (let x = Math.round(info.width * 0.12); x < info.width * 0.88 - win; x += 6) {
-      const mean = [0, 0, 0]
-      const sq = [0, 0, 0]
-      for (let j = 0; j < win; j++) {
-        for (let i = 0; i < win; i++) {
-          for (let c = 0; c < 3; c++) {
-            const v = at(x + i, y + j, c)
-            mean[c] += v
-            sq[c] += v * v
-          }
-        }
-      }
-      const n = win * win
-      const avg = mean.map((v) => v / n)
-      const sd =
-        sq.map((v, c) => Math.sqrt(Math.max(0, v / n - avg[c] ** 2))).reduce((a, b) => a + b, 0) / 3
-      const distance = Math.hypot(...avg.map((v, c) => v - target[c]))
-      const score = distance + sd * 9 // flatness dominates; a seam or a stripe disqualifies a patch
-      if (!best || score < best.score) best = { x, y, score }
-    }
-  }
-  if (!best) return null
-
-  const scale = width / info.width
-  const side = Math.round(win * scale)
-  await image
-    .extract({
-      left: Math.round(best.x * scale),
-      top: Math.round(best.y * scale),
-      width: side,
-      height: side,
-    })
-    .resize(160, 160)
-    .modulate({ saturation: 0.92, brightness: 1.03 })
-    .webp({ quality: 88 })
-    .toFile(dest)
-  return true
-}
-
 const source = async (name) => {
   for (const ext of ['webp', 'jpeg', 'jpg', 'png']) {
     try {
@@ -200,14 +134,6 @@ if (only) {
     console.log(`  ${swatch}  ${toneOf(swatch).ro}  ${img.src}`)
   }
 } else {
-  const CHIPS = join(ROOT, 'apps/web/public/media/textile')
-  await sharp({ create: { width: 1, height: 1, channels: 3, background: '#000' } })
-    .toFile(join(CHIPS, '.probe.png'))
-    .catch(async () => {
-      const { mkdir } = await import('node:fs/promises')
-      await mkdir(CHIPS, { recursive: true })
-    })
-
   let count = 0
   for (const product of catalog.products) {
     const list = variants[product.slug]
@@ -218,21 +144,27 @@ if (only) {
     }
 
     product.variants = []
-    for (const name of list) {
+    for (const entry of list) {
+      // An entry may name its own colour; otherwise the tone is derived.
+      const name = typeof entry === 'string' ? entry : entry.src
       const file = await source(name)
       if (!file) continue
       const swatch = await swatchOf(file)
-      await chipOf(file, join(CHIPS, `${name}.webp`), swatch)
       product.variants.push({
         src: name,
-        chip: `/media/textile/${name}.webp`,
+        // The swatch is the piece itself in that colour — a crop of cloth says
+        // less here than seeing the whole thing upholstered.
+        chip: `/media/${name}-700.webp`,
         swatch,
-        tone: toneOf(swatch),
+        tone:
+          typeof entry === 'string'
+            ? toneOf(swatch)
+            : { ro: entry.ro, en: entry.en },
       })
       count++
     }
   }
 
   await emit(catalog, ROOT)
-  console.log(`swatches: ${count} textile chips across ${Object.keys(variants).length - 1} product(s)`)
+  console.log(`swatches: ${count} colour variants across ${Object.keys(variants).length - 1} product(s)`)
 }

@@ -38,7 +38,14 @@ export type Schematic = {
   src: string
   w: number
   h: number
-  cm: { width: number; depth: number; depthBack: number } | null
+  cm: {
+    width?: number
+    /** Deepest point — over the chaise, where there is one. */
+    depth?: number
+    /** Depth of the sofa body, quoted only when a chaise makes them differ. */
+    depthBack?: number
+    seat?: number
+  } | null
 }
 
 /** The same piece photographed in another textile. See data/curation.json. */

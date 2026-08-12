@@ -1,0 +1,16 @@
+# Cloudflare Pages reads this from the build output; Netlify takes the same
+# rules from netlify.toml.
+
+# Vite hashes these filenames, so they can never change under the same name.
+/assets/*
+  cache-control: public, max-age=31536000, immutable
+
+# Media filenames are stable, not hashed: hero.mp4 stays hero.mp4 when the clip
+# is re-encoded. Marking it immutable would leave returning visitors on a
+# year-stale file, so it revalidates in the background instead.
+/media/*
+  cache-control: public, max-age=604800, stale-while-revalidate=86400
+
+# Catalogue detail, fetched when a piece is opened. Same reasoning.
+/data/*
+  cache-control: public, max-age=604800, stale-while-revalidate=86400

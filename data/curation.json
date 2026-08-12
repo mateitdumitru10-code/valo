@@ -13,50 +13,77 @@
   "images": {
     "_note": "Own photography, replacing the scraped set for a piece. Filenames live in media-src/ and survive a re-ingest, since ingest only writes the scraped list and media.mjs applies these over the top.",
     "canapea-extensibila-aldo": [
-      "aldo-studio-2",
-      "aldo-studio-1",
-      "aldo-studio-3",
-      "aldo-studio-4"
+      "canapea-extensibila-aldo-c1",
+      "canapea-extensibila-aldo-c2",
+      "canapea-extensibila-aldo-c3",
+      "canapea-extensibila-aldo-c4",
+      "canapea-extensibila-aldo-c5",
+      "canapea-extensibila-aldo-c6",
+      "canapea-extensibila-aldo-c7"
     ],
     "coltar-aldo": [
-      "coltar-aldo-studio-2",
-      "coltar-aldo-studio-1",
-      "coltar-aldo-studio-3"
+      "coltar-aldo-c1",
+      "coltar-aldo-c2",
+      "coltar-aldo-c3",
+      "coltar-aldo-c4",
+      "coltar-aldo-c5",
+      "coltar-aldo-c6"
     ],
     "pat-aldo": [
-      "pat-aldo-studio-2",
-      "pat-aldo-studio-1",
-      "pat-aldo-studio-3"
+      "pat-aldo-c1",
+      "pat-aldo-c2",
+      "pat-aldo-c3",
+      "pat-aldo-c4",
+      "pat-aldo-c5",
+      "pat-aldo-c6",
+      "pat-aldo-c7"
     ],
     "pat-cubic": [
-      "pat-cubiq-studio-1",
-      "pat-cubiq-studio-2",
-      "pat-cubiq-studio-3",
-      "pat-cubiq-studio-4"
+      "pat-cubic-c1",
+      "pat-cubic-c2",
+      "pat-cubic-c3",
+      "pat-cubic-c4",
+      "pat-cubic-c5",
+      "pat-cubic-c6",
+      "pat-cubic-detail-1",
+      "pat-cubic-detail-2"
     ],
     "coltar-cubic-fix": [
-      "coltar-cubiq-studio-1",
-      "coltar-cubiq-studio-2"
+      "coltar-cubic-fix-c1",
+      "coltar-cubic-fix-c2",
+      "coltar-cubic-fix-c3",
+      "coltar-cubic-fix-c4",
+      "coltar-cubic-fix-c5",
+      "coltar-cubic-fix-c6",
+      "coltar-cubic-fix-c7"
     ],
     "canapea-cubiq": [
-      "canapea-cubiq-studio-1",
-      "canapea-cubiq-studio-2",
-      "canapea-cubiq-studio-3",
-      "canapea-cubiq-studio-4"
+      "canapea-cubiq-c1",
+      "canapea-cubiq-c2",
+      "canapea-cubiq-c3",
+      "canapea-cubiq-c4",
+      "canapea-cubiq-c5",
+      "canapea-cubiq-c6",
+      "canapea-cubiq-c7",
+      "canapea-cubiq-c8"
     ],
     "canapea-rotunda-aldo": [
-      "canapea-rotunda-aldo-studio-1",
-      "canapea-rotunda-aldo-studio-2",
-      "canapea-rotunda-aldo-studio-3"
+      "canapea-rotunda-aldo-c1",
+      "canapea-rotunda-aldo-c2",
+      "canapea-rotunda-aldo-c3",
+      "canapea-rotunda-aldo-c4",
+      "canapea-rotunda-aldo-c5"
     ],
     "pat-loris": [
       "pat-loris-studio-1",
       "pat-loris-studio-2"
     ],
     "coltar-vallo": [
-      "coltar-vallo-studio-1",
-      "coltar-vallo-studio-2",
-      "coltar-vallo-studio-3"
+      "coltar-vallo-c1",
+      "coltar-vallo-c2",
+      "coltar-vallo-c3",
+      "coltar-vallo-c4",
+      "coltar-vallo-c5"
     ],
     "coltar-zeno": [
       "coltar-zeno-studio-1",
@@ -79,9 +106,11 @@
       "pat-fantezie-studio-3"
     ],
     "coltar-linear": [
-      "coltar-linear-studio-1",
-      "coltar-linear-studio-2",
-      "coltar-linear-studio-3"
+      "coltar-linear-c1",
+      "coltar-linear-c2",
+      "coltar-linear-c3",
+      "coltar-linear-c4",
+      "coltar-linear-c5"
     ],
     "canapea-toro": [
       "canapea-torro-studio-1",
@@ -202,16 +231,332 @@
   "schematics": {
     "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot.",
     "coltar-aldo": {
-      "file": "schita-coltar-aldo",
+      "file": "schita-coltar-aldo-2",
       "cm": {
         "width": 330,
-        "depth": 190,
-        "depthBack": 110
+        "depth": 170,
+        "depthBack": 115,
+        "seat": 85
+      }
+    },
+    "canapea-extensibila-aldo": {
+      "file": "schita-canapea-aldo",
+      "cm": {
+        "width": 240,
+        "depth": 115,
+        "seat": 85
+      }
+    },
+    "coltar-linear": {
+      "file": "schita-coltar-linear",
+      "cm": {
+        "width": 280,
+        "depth": 145,
+        "depthBack": 105,
+        "seat": 70
       }
     }
   },
   "variants": {
-    "_note": "Images of the same piece in a different textile. Samobi's catalogue has no variant data, so these have to be identified by eye. Add a slug here and rerun scripts/swatches.mjs to give that piece a textile picker; with none listed, no product shows one."
+    "_note": "The same piece photographed in another colour. Names are the ones read off the photographs, not derived from an average pixel — averaging called terracotta burgundy and olive mustard. Add a slug here and rerun scripts/swatches.mjs to give that piece a colour picker.",
+    "canapea-extensibila-aldo": [
+      {
+        "src": "canapea-extensibila-aldo-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c2",
+        "ro": "Muștar",
+        "en": "Mustard"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c4",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c6",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "canapea-extensibila-aldo-c7",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "coltar-aldo": [
+      {
+        "src": "coltar-aldo-c1",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "coltar-aldo-c2",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "coltar-aldo-c3",
+        "ro": "Antracit",
+        "en": "Charcoal"
+      },
+      {
+        "src": "coltar-aldo-c4",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-aldo-c5",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "coltar-aldo-c6",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ],
+    "canapea-rotunda-aldo": [
+      {
+        "src": "canapea-rotunda-aldo-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-rotunda-aldo-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-rotunda-aldo-c3",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-rotunda-aldo-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "canapea-rotunda-aldo-c5",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ],
+    "pat-aldo": [
+      {
+        "src": "pat-aldo-c1",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "pat-aldo-c2",
+        "ro": "Verde salvie",
+        "en": "Sage"
+      },
+      {
+        "src": "pat-aldo-c3",
+        "ro": "Camel",
+        "en": "Camel"
+      },
+      {
+        "src": "pat-aldo-c4",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-aldo-c5",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-aldo-c6",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-aldo-c7",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ],
+    "coltar-cubic-fix": [
+      {
+        "src": "coltar-cubic-fix-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-cubic-fix-c2",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "coltar-cubic-fix-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-cubic-fix-c4",
+        "ro": "Verde închis",
+        "en": "Dark green"
+      },
+      {
+        "src": "coltar-cubic-fix-c5",
+        "ro": "Albastru regal",
+        "en": "Royal blue"
+      },
+      {
+        "src": "coltar-cubic-fix-c6",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "coltar-cubic-fix-c7",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ],
+    "canapea-cubiq": [
+      {
+        "src": "canapea-cubiq-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-cubiq-c2",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "canapea-cubiq-c3",
+        "ro": "Gri șifonat",
+        "en": "Washed grey"
+      },
+      {
+        "src": "canapea-cubiq-c4",
+        "ro": "Coniac",
+        "en": "Cognac"
+      },
+      {
+        "src": "canapea-cubiq-c5",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "canapea-cubiq-c6",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-cubiq-c7",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-cubiq-c8",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "coltar-linear": [
+      {
+        "src": "coltar-linear-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-linear-c2",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "coltar-linear-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-linear-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-linear-c5",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ],
+    "pat-cubic": [
+      {
+        "src": "pat-cubic-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "pat-cubic-c2",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "pat-cubic-c3",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-cubic-c4",
+        "ro": "Oliv închis",
+        "en": "Dark olive"
+      },
+      {
+        "src": "pat-cubic-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-cubic-c6",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "coltar-vallo": [
+      {
+        "src": "coltar-vallo-c1",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "coltar-vallo-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-vallo-c3",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-vallo-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "coltar-vallo-c5",
+        "ro": "Maro închis",
+        "en": "Dark brown"
+      }
+    ]
   },
   "covers": {
     "sectionals": "coltar-sam-1",
@@ -296,6 +641,64 @@
     "canapea-soria-studio-3",
     "canapea-soria-studio-4",
     "canapea-soria-studio-5",
+    "canapea-extensibila-aldo-c1",
+    "canapea-extensibila-aldo-c2",
+    "canapea-extensibila-aldo-c3",
+    "canapea-extensibila-aldo-c4",
+    "canapea-extensibila-aldo-c5",
+    "canapea-extensibila-aldo-c6",
+    "canapea-extensibila-aldo-c7",
+    "coltar-aldo-c1",
+    "coltar-aldo-c2",
+    "coltar-aldo-c3",
+    "coltar-aldo-c4",
+    "coltar-aldo-c5",
+    "coltar-aldo-c6",
+    "canapea-rotunda-aldo-c1",
+    "canapea-rotunda-aldo-c2",
+    "canapea-rotunda-aldo-c3",
+    "canapea-rotunda-aldo-c4",
+    "canapea-rotunda-aldo-c5",
+    "pat-aldo-c1",
+    "pat-aldo-c2",
+    "pat-aldo-c3",
+    "pat-aldo-c4",
+    "pat-aldo-c5",
+    "pat-aldo-c6",
+    "pat-aldo-c7",
+    "coltar-cubic-fix-c1",
+    "coltar-cubic-fix-c2",
+    "coltar-cubic-fix-c3",
+    "coltar-cubic-fix-c4",
+    "coltar-cubic-fix-c5",
+    "coltar-cubic-fix-c6",
+    "coltar-cubic-fix-c7",
+    "canapea-cubiq-c1",
+    "canapea-cubiq-c2",
+    "canapea-cubiq-c3",
+    "canapea-cubiq-c4",
+    "canapea-cubiq-c5",
+    "canapea-cubiq-c6",
+    "canapea-cubiq-c7",
+    "canapea-cubiq-c8",
+    "coltar-linear-c1",
+    "coltar-linear-c2",
+    "coltar-linear-c3",
+    "coltar-linear-c4",
+    "coltar-linear-c5",
+    "pat-cubic-c1",
+    "pat-cubic-c2",
+    "pat-cubic-c3",
+    "pat-cubic-c4",
+    "pat-cubic-c5",
+    "pat-cubic-c6",
+    "pat-cubic-detail-1",
+    "pat-cubic-detail-2",
+    "coltar-vallo-c1",
+    "coltar-vallo-c2",
+    "coltar-vallo-c3",
+    "coltar-vallo-c4",
+    "coltar-vallo-c5",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",

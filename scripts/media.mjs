@@ -98,15 +98,19 @@ async function stageStudio(input) {
   }
 
   const ratio = width / info.width
-  const box =
-    maxX > minX && maxY > minY
-      ? {
-          left: Math.round(minX * ratio),
-          top: Math.round(minY * ratio),
-          width: Math.round((maxX - minX + 1) * ratio),
-          height: Math.round((maxY - minY + 1) * ratio),
-        }
-      : { left: 0, top: 0, width, height }
+  let box = { left: 0, top: 0, width, height }
+  if (maxX > minX && maxY > minY) {
+    // Scaling the measured box back up can round past the edge of the frame,
+    // which sharp rejects outright — clamp it to what actually exists.
+    const left = Math.max(0, Math.round(minX * ratio))
+    const top = Math.max(0, Math.round(minY * ratio))
+    box = {
+      left,
+      top,
+      width: Math.max(1, Math.min(width - left, Math.round((maxX - minX + 1) * ratio))),
+      height: Math.max(1, Math.min(height - top, Math.round((maxY - minY + 1) * ratio))),
+    }
+  }
 
   // Width sets the scale, height only caps it. Taking the smaller of the two
   // made the apparent size depend on the subject's proportions: a bed shot with

@@ -141,9 +141,10 @@ const ro = {
   'piece.width': 'Lățime',
   'piece.depth': 'Adâncime, cu șezlong',
   'piece.depthBack': 'Adâncime, corp canapea',
-  'piece.textile': 'Textil',
-  'piece.textileNote': 'Nuanțele sunt preluate din fotografiile de producție. Paleta completă se vede în showroom.',
-  'piece.options': 'variante',
+  'piece.seat': 'Adâncime șezut',
+  'piece.textile': 'Culoare',
+  'piece.textileNote': 'Nuanțele sunt fotografiate, nu simulate. Paleta completă se vede în showroom.',
+  'piece.options': 'nuanțe',
   'piece.gallery': 'Galerie',
 
   'collection.lede.sectionals':
@@ -307,9 +308,10 @@ const en: Record<keyof typeof ro, string> = {
   'piece.width': 'Width',
   'piece.depth': 'Depth, with chaise',
   'piece.depthBack': 'Depth, sofa body',
-  'piece.textile': 'Textile',
-  'piece.textileNote': 'Shades are taken from the production photographs. The full range is in the showroom.',
-  'piece.options': 'options',
+  'piece.seat': 'Seat depth',
+  'piece.textile': 'Colour',
+  'piece.textileNote': 'Shades are photographed, not simulated. The full range is in the showroom.',
+  'piece.options': 'shades',
   'piece.gallery': 'Gallery',
 
   'collection.lede.sectionals':

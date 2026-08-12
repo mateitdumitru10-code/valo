@@ -12,12 +12,14 @@ type Props = {
 }
 
 /**
- * Textile selector. The chip is a crop of the actual cloth rather than a
- * miniature of the whole sofa — at 56px a product thumbnail is unreadable, while
- * a weave is not, and it is what a showroom would put in your hand.
+ * Colour selector. Each swatch is the piece itself, upholstered in that colour,
+ * on the same white field as the photograph above — a crop of cloth tells you
+ * the shade but not what the shade does to the form.
  *
- * Hovering previews a name without committing to it, so the row can be read
- * without a single click.
+ * Restraint carries the luxury here: no boxes, no shadows, no rounded corners.
+ * A hairline rule under the label, a hairline frame held off the selected
+ * swatch, and the colour's name set large in the display face. Hovering a
+ * swatch previews its name without committing, so the range reads at a glance.
  */
 export function TextilePicker({ variants, active, onSelect }: Props) {
   const { t, lang } = useI18n()
@@ -35,7 +37,6 @@ export function TextilePicker({ variants, active, onSelect }: Props) {
 
       <div className="mt-3 h-px w-full bg-ink/12" />
 
-      {/* The name is the headline here; the chips below are the control. */}
       <div className="mt-4 h-8 overflow-hidden">
         <motion.p
           key={shown.tone[lang]}
@@ -48,7 +49,7 @@ export function TextilePicker({ variants, active, onSelect }: Props) {
         </motion.p>
       </div>
 
-      <ul className="mt-5 flex flex-wrap gap-3">
+      <ul className="mt-5 flex flex-wrap gap-x-4 gap-y-5">
         {variants.map((variant, i) => {
           const selected = i === active
           return (
@@ -63,27 +64,35 @@ export function TextilePicker({ variants, active, onSelect }: Props) {
                 aria-pressed={selected}
                 aria-label={variant.tone[lang]}
                 title={variant.tone[lang]}
-                className={clsx(
-                  'group relative block p-1 transition-colors duration-500',
-                  // The selection is a hairline frame held off the cloth, not a
-                  // heavy border drawn on it.
-                  selected ? 'ring-1 ring-ink' : 'ring-1 ring-transparent hover:ring-ink/25',
-                )}
+                className="group block"
               >
                 <span
-                  className="block h-12 w-12 bg-cover bg-center transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06] md:h-14 md:w-14"
-                  style={{
-                    backgroundColor: variant.swatch,
-                    backgroundImage: `url(${variant.chip})`,
-                  }}
-                />
+                  className={clsx(
+                    'block p-[3px] transition-colors duration-500',
+                    selected
+                      ? 'ring-1 ring-ink'
+                      : 'ring-1 ring-transparent hover:ring-ink/20',
+                  )}
+                >
+                  <img
+                    src={variant.chip}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    style={{ backgroundColor: variant.swatch }}
+                    className={clsx(
+                      'h-14 w-20 object-cover object-center transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] md:h-16 md:w-24',
+                      selected ? 'opacity-100' : 'opacity-80 group-hover:opacity-100',
+                    )}
+                  />
+                </span>
               </button>
             </li>
           )
         })}
       </ul>
 
-      <p className="mt-4 max-w-xs text-xs leading-relaxed opacity-40">{t('piece.textileNote')}</p>
+      <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">{t('piece.textileNote')}</p>
     </section>
   )
 }

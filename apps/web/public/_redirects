@@ -1,0 +1,13 @@
+# Cloudflare Pages and Netlify both read this file from the build output.
+# netlify.toml covers Netlify already; this is what makes Cloudflare behave.
+
+# The API is a long-running Express process and exists on neither host. This
+# rule must come first: without it the SPA fallback below would answer
+# /api/inquiries with index.html and a 200, and the quote form would report
+# success for a request nobody received.
+/api/*  /index.html  404
+
+# Single-page app: every route is rendered by the client, so any path that is
+# not a real file has to be served index.html — otherwise a direct visit to
+# /piese/coltar-aldo asks for a file that was never built.
+/*  /index.html  200

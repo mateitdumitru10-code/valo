@@ -1,6 +1,6 @@
 import { motion } from 'motion/react'
 import type { Schematic as Drawing } from '~/lib/catalog'
-import { useI18n } from '~/lib/i18n'
+import { useI18n, type Key } from '~/lib/i18n'
 import { Eyebrow } from './UI'
 import { expo, viewport } from '~/lib/motion'
 
@@ -14,13 +14,16 @@ import { expo, viewport } from '~/lib/motion'
  */
 export function Schematic({ drawing, name }: { drawing: Drawing; name: string }) {
   const { t } = useI18n()
-  const figures = drawing.cm
-    ? ([
-        ['piece.width', drawing.cm.width],
-        ['piece.depth', drawing.cm.depth],
-        ['piece.depthBack', drawing.cm.depthBack],
-      ] as const)
-    : []
+  // Only the figures the drawing actually carries: a sofa without a chaise has
+  // one depth, a sectional has two.
+  const figures: [Key, number][] = (
+    [
+      ['piece.width', drawing.cm?.width],
+      ['piece.depth', drawing.cm?.depth],
+      ['piece.depthBack', drawing.cm?.depthBack],
+      ['piece.seat', drawing.cm?.seat],
+    ] satisfies [Key, number | undefined][]
+  ).flatMap(([key, value]) => (typeof value === 'number' ? [[key, value] as [Key, number]] : []))
 
   return (
     <section className="gutter border-t border-ink/12 py-20 md:py-28">
