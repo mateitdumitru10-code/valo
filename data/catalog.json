@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:02:49.312Z",
+  "generatedAt": "2026-08-12T12:38:07.752Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -66,7 +66,7 @@
       "id": "beds",
       "ro": "Paturi",
       "en": "Beds",
-      "count": 17,
+      "count": 18,
       "cover": {
         "src": "pat-matrimonial-1",
         "w": 1536,
@@ -2679,42 +2679,58 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-bella-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-bella-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsAHsU/w7U/L6mmAAD+bBg0sxQAY5C7ikq+Sl3pcCsP4jI5itPRbmLlOZtMK8QXxAAA",
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfz3Y/Azp55XQAAP7zbqakJSQ3Wu68QrVBcXKUf0l92AAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "canapea-bella-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-bella-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdMoAC9BwW5DaOnCRgAAD+m5vw0LI8d3xclKmowto0Qm2fx67IdS2i/xP1P7Xi7fbQcCgiAAAA",
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAW+vbBvb14EtIfgAA/vNvob6kh+ww4ny3vW2UH7LPZeN5xJF8UAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAUqlwGFHWhu5WAAD+8EDXWZCfuvqBNOSLa6gV2oXAXG7UHoeNi6ero3igAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-bella/",
       "cover": {
-        "src": "canapea-bella-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "canapea-bella-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsAHsU/w7U/L6mmAAD+bBg0sxQAY5C7ikq+Sl3pcCsP4jI5itPRbmLlOZtMK8QXxAAA",
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfz3Y/Azp55XQAAP7zbqakJSQ3Wu68QrVBcXKUf0l92AAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true
     },
@@ -4666,6 +4682,88 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAUqROEkNAT4AAAP7zgri93+qDE69LCYrsfTZA1r/LIlj6p6YChwAAAA==",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true
+    },
+    {
+      "id": "valo-pat-king",
+      "slug": "pat-king",
+      "name": "Pat King",
+      "collection": "beds",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "pat-king-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHgDDhQ9/tIuFAA/vN/CBAWaNsNLvLRYOjTUPb9jleoTUAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAUqZcqW0cAAD+84K0cfpoLxKYcFlI837KdrQgAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAA8ALrV2u12jqampiYC0SzgABc612kwqxAAAAP74rg/KA6EiwMtcSR9XdpkAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC7AB7H8QSImnZggAD+84LNptoyCW3puzI0LFjKmPapfeAAAA==",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "pat-king-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHgDDhQ9/tIuFAA/vN/CBAWaNsNLvLRYOjTUPb9jleoTUAA",
         "editorial": true,
         "studio": true
       },

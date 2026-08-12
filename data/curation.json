@@ -106,6 +106,17 @@
       "canapea-spring-studio-2",
       "canapea-spring-studio-3",
       "canapea-spring-studio-4"
+    ],
+    "canapea-bella": [
+      "canapea-bella-studio-1",
+      "canapea-bella-studio-2",
+      "canapea-bella-studio-3"
+    ],
+    "pat-king": [
+      "pat-king-studio-1",
+      "pat-king-studio-2",
+      "pat-king-studio-3",
+      "pat-king-studio-4"
     ]
   },
   "products": {
@@ -151,6 +162,11 @@
     },
     "pat-linear": {
       "name": "Pat Linear",
+      "collection": "beds",
+      "price": null
+    },
+    "pat-king": {
+      "name": "Pat King",
       "collection": "beds",
       "price": null
     }
@@ -258,6 +274,13 @@
     "canapea-spring-studio-2",
     "canapea-spring-studio-3",
     "canapea-spring-studio-4",
+    "canapea-bella-studio-1",
+    "canapea-bella-studio-2",
+    "canapea-bella-studio-3",
+    "pat-king-studio-1",
+    "pat-king-studio-2",
+    "pat-king-studio-3",
+    "pat-king-studio-4",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",
