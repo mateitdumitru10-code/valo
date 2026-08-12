@@ -117,6 +117,13 @@
       "pat-king-studio-2",
       "pat-king-studio-3",
       "pat-king-studio-4"
+    ],
+    "canapea-extensibila-soria": [
+      "canapea-soria-studio-1",
+      "canapea-soria-studio-2",
+      "canapea-soria-studio-3",
+      "canapea-soria-studio-4",
+      "canapea-soria-studio-5"
     ]
   },
   "products": {
@@ -169,6 +176,9 @@
       "name": "Pat King",
       "collection": "beds",
       "price": null
+    },
+    "canapea-extensibila-soria": {
+      "name": "Canapea Soria extensibilă"
     }
   },
   "exclude": {
@@ -281,6 +291,11 @@
     "pat-king-studio-2",
     "pat-king-studio-3",
     "pat-king-studio-4",
+    "canapea-soria-studio-1",
+    "canapea-soria-studio-2",
+    "canapea-soria-studio-3",
+    "canapea-soria-studio-4",
+    "canapea-soria-studio-5",
     "canapea-alesia-1",
     "canapea-alesia-2",
     "canapea-bella-1",

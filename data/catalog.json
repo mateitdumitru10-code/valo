@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:38:07.752Z",
+  "generatedAt": "2026-08-12T12:49:49.143Z",
   "source": "mobilasamobi.ro",
   "collections": [
     {
@@ -440,7 +440,7 @@
     {
       "id": 250,
       "slug": "canapea-extensibila-soria",
-      "name": "Canapea extensibila Soria",
+      "name": "Canapea Soria extensibilă",
       "collection": "sofas",
       "collections": [
         "Canapele",
@@ -456,79 +456,86 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-extensibila-soria-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-soria-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAA0APu1mqk2ppaQiMAgBMB2JQBOmUGMACEkg5mbfgPkMbdcAAP2sMFEWo90LHH795MxMR/9W21bzOp+w5hNI1fEhQL3V9Y+JXQBmuO4FmvBbd+OAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JQBYhiYhga2AdavB9yDUAAP7zb7e6PTTuv4ytmyWfuQ9AR6dJ5U6JdQMXN0Syj0M5EAT2yrwAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "canapea-extensibila-soria-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-soria-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOkDgBXt1qXKVJEDOAA/awwUYlSq92WhNjK41SS89v8SfySkTe4Ygk2BQx/LO1oupYaS6sWQP6iodl/1p/5czVbQAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA8APu1kqU4ppaOiMAgBMB2JZACxDJPDAtCRWqq3lFycAAD+8d6aMwqj4j25AS1rosQNcM4oZmAeErA1ujyRNeTFOleSmqCqLX0yImyaUAAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "canapea-extensibila-soria-3",
-          "w": 1024,
-          "h": 1536,
+          "src": "canapea-soria-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBQCdASoUAB4APulgpE2pJaMiMAwBIB0JbACdMoMwcEmWf2lVToc6HvjLKiQ2uJvl7ulWCGvAAP7zdQPZxdS1mVNMrNadU3bscDycb8rjqRTT8r6I8N5tDE82Slw0qPfZdL1Mo4PbqHaWBg51v0UxFY9ROHbinc3BIR+NDYh1yaNExFeKl5Q2mri3c6lqkIcDHk15AAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JYgC06BYHWdDx5WV7JaKAAP7ze30FwZyBemWw/ZaRBLs3CI+LvjOR7+BEMvSM3dTSpt0wu9VOlMduAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "canapea-extensibila-soria-4",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-soria-studio-4",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoUAA0APu1Ct1apoqakGAEwHYllALsABUxcdHu2YAD+6DoiVKrIkTwGOXNmdIk9E7k48zyH/96FwxaP1dMWThWYhQwryPOYN+v/VQAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBWAA9LqjbYG07ygaH4gAP7x0qfApLSCtVeGd8F9S2DTMTmpe/F4kLFsQtjM1cGZIZfwVSRwHEJXUI10LAAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "canapea-extensibila-soria-5",
-          "w": 884,
-          "h": 552,
+          "src": "canapea-soria-studio-5",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
+            1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAAwAPu1oqk6ppiQiMAgBMB2JZgCw7CHcVHT0bnn06EsAAP7h7Iox8JO2IdCaMlIZyyysD06ZgyiILd3ja9XyAPmF1twn4uuKEAcDLBHV4DrYAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA8APu1iqk2ppaQiMAgBMB2JQBYhlThgaF1PvyjLrfAjAAD+83R+W5oOgd4D6zhbXXerYDffRNfoD6PurXaFYaOuYbVqaCh5br7CAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-soria/",
       "cover": {
-        "src": "canapea-extensibila-soria-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "canapea-soria-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAA0APu1mqk2ppaQiMAgBMB2JQBOmUGMACEkg5mbfgPkMbdcAAP2sMFEWo90LHH795MxMR/9W21bzOp+w5hNI1fEhQL3V9Y+JXQBmuO4FmvBbd+OAAA==",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JQBYhiYhga2AdavB9yDUAAP7zb7e6PTTuv4ytmyWfuQ9AR6dJ5U6JdQMXN0Syj0M5EAT2yrwAAA==",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false
+      "editorial": true
     },
     {
       "id": 6699,
