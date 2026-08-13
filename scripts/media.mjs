@@ -281,6 +281,17 @@ for (const product of catalog.products) {
   product.images = images
   product.cover = images[0] ?? null
   product.editorial = images.some((i) => i.editorial)
+
+  // Captioned extra frames — the angle, the side, the piece opened out. A
+  // colour picker turns the rest of the gallery into swatches, so without this
+  // the only way to tell a side view from another colour is to look at it.
+  const named = curation.views?.[product.slug]
+  if (Array.isArray(named)) {
+    const shown = new Set(images.map((i) => i.src))
+    product.views = named.filter((v) => shown.has(v.src))
+  } else {
+    delete product.views
+  }
 }
 
 // Dropped pieces, and any piece left without usable photography — the latter

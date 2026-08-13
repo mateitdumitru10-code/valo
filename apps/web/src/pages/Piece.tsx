@@ -14,9 +14,14 @@ import {
   formatPrice,
   loadPiece,
   related,
+  type Img as Photo,
   type PieceDetail,
+  type View,
 } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
+
+/** One slot in the gallery: a photograph, and what it shows when it is a named view. */
+type Frame = { view: View | null; img: Photo }
 
 export function PiecePage() {
   const { slug = '' } = useParams()
@@ -52,7 +57,22 @@ export function PiecePage() {
   const variantSrcs = new Set(variants.map((v) => v.src))
   const selected = variants[Math.min(textile, variants.length - 1)]
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
-  const gallery = images.filter((img) => img.src !== cover.src && !variantSrcs.has(img.src))
+  // Below the lead image sit the other views of the piece — the angle, the
+  // side, the sofa opened out, the storage box lifted — captioned, and only the
+  // ones shot in the selected colour. The whole page then changes together with
+  // the picker instead of showing one piece in four colours at once. Pieces
+  // without curated views keep whatever is left once the colour shots are out.
+  const bySrc = new Map(images.map((img) => [img.src, img]))
+  const curated: Frame[] = (detail?.views ?? []).flatMap((view) => {
+    if (view.in && selected && view.in !== selected.src) return []
+    const img = bySrc.get(view.src)
+    return img && img.src !== cover.src ? [{ view, img }] : []
+  })
+  const gallery: Frame[] = detail?.views?.length
+    ? curated
+    : images
+        .filter((img) => img.src !== cover.src && !variantSrcs.has(img.src))
+        .map((img) => ({ view: null, img }))
   const siblings = related(piece)
   const paragraphs = (detail?.body ?? '')
     .split('\n')
@@ -114,16 +134,27 @@ export function PiecePage() {
 
           {gallery.length > 0 && (
             <div className="mt-6 grid grid-cols-2 gap-6">
-              {gallery.map((img, i) => (
-                <RevealImage key={img.src} className={i === 0 && gallery.length % 2 === 1 ? 'col-span-2' : ''}>
-                  <Img
-                    img={img}
-                    alt={`${piece.name} — ${i + 2}`}
-                    sizes="(max-width: 768px) 46vw, 32vw"
-                    className="aspect-[4/3] w-full"
-                  />
-                </RevealImage>
-              ))}
+              {gallery.map(({ view, img }, i) => {
+                const label = view ? (lang === 'ro' ? view.ro : view.en) : null
+                return (
+                  <figure
+                    key={img.src}
+                    className={i === 0 && gallery.length % 2 === 1 ? 'col-span-2' : ''}
+                  >
+                    <RevealImage>
+                      <Img
+                        img={img}
+                        alt={label ? `${piece.name} — ${label}` : `${piece.name} — ${i + 2}`}
+                        sizes="(max-width: 768px) 46vw, 32vw"
+                        className="aspect-[4/3] w-full"
+                      />
+                    </RevealImage>
+                    {label && (
+                      <figcaption className="eyebrow mt-3 opacity-45">{label}</figcaption>
+                    )}
+                  </figure>
+                )
+              })}
             </div>
           )}
         </div>

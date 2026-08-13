@@ -281,6 +281,32 @@
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JZwDGfCHfz3ZKbdvgB7QA/vNvpFktmIj8qobI5V8t3vkRlR1lx4IlKZxFdk4HINWAAA==",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "coltar-aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+hgVy4P4QhKgAAA/vNwIWbK/nN4F2UiMhT5bpfcB6otzDwAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-aldo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6+DFGLPkMgLAAP7za+5EdO9f3kHDI5UuMZ5wAgAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-aldo/",
@@ -364,7 +390,21 @@
           "depthBack": 115,
           "seat": 85
         }
-      }
+      },
+      "views": [
+        {
+          "src": "coltar-aldo-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-aldo-c1"
+        },
+        {
+          "src": "coltar-aldo-studio-3",
+          "ro": "Deschis, pat",
+          "en": "Opened as a bed",
+          "in": "coltar-aldo-c1"
+        }
+      ]
     },
     {
       "id": 6643,
@@ -2096,6 +2136,32 @@
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDImB5z6HIwPToEHYAA/vOCW+AY8wmxXIr9k6wzvojU5FgT/doYad9lY3zxeB7Fin7jqK7tLDZxNAYAAAAA",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "pat-aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+uecO3f4EejkAAA/vNx18QOpDIxyR868YGLeSkZQgAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-aldo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAwCdASoUAA8APu1kqU2ppaOiMAgBMB2JZwAAW+qdUitmlCgAAP7zfwmYIHRG9GkZRV/BbnTFAAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-aldo/",
@@ -2176,6 +2242,20 @@
             "ro": "Maro închis",
             "en": "Dark brown"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "pat-aldo-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-aldo-c1"
+        },
+        {
+          "src": "pat-aldo-studio-3",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-aldo-c1"
         }
       ]
     },
@@ -3059,6 +3139,45 @@
           "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDKACHXYvBrg+jFngAA/vNwGgvHiyER0HfkNpplBjSl1iJYljGGVKcG51KSAAA=",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQDE2CHes5bl96r/pjeAAP7zdIbXQjITWcY6kih0G9v8lezaYZ9iUB+5KgAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "aldo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwC+SCHZsIUEwzIwLiAA/vNwIWbO7wgL4WtUjc4U5Yw1A8LJ0AAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "aldo-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDCgCG6xIG11ngA/vN/DwssMvZL7ZusKokIi+JvAAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-aldo/",
@@ -3150,7 +3269,27 @@
           "depth": 115,
           "seat": 85
         }
-      }
+      },
+      "views": [
+        {
+          "src": "aldo-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-extensibila-aldo-c1"
+        },
+        {
+          "src": "aldo-studio-3",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-extensibila-aldo-c1"
+        },
+        {
+          "src": "aldo-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "canapea-extensibila-aldo-c1"
+        }
+      ]
     },
     {
       "id": 6695,
@@ -3788,6 +3927,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "coltar-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-cubic-fix-c1",
           "w": 2000,
           "h": 1500,
@@ -3877,11 +4029,24 @@
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9W8OguBLGBXAAD+83AJtLiicUn1LCykdjN91cMrusSkKw8ta21Kd4L4goAAAA==",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "coltar-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAUrok7PhMPqLAAAD+8eDDrrBz55XR0PQYQH6tM3h7lBHzNPk9MR9wa5gAAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-cubic-fix/",
       "cover": {
-        "src": "coltar-cubic-fix-c1",
+        "src": "coltar-cubiq-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -3889,12 +4054,21 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8ALrV2u12jqampiYC0SzgGN6Id+9/ldxWBXUAA/vivynrCxUW0C81sv2UVqz6EsmmGD5AhAAAA",
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "variants": [
+        {
+          "src": "coltar-cubiq-studio-1",
+          "chip": "/media/coltar-cubiq-studio-1-700.webp",
+          "swatch": "#6b6a6a",
+          "tone": {
+            "ro": "Gri",
+            "en": "Grey"
+          }
+        },
         {
           "src": "coltar-cubic-fix-c1",
           "chip": "/media/coltar-cubic-fix-c1-700.webp",
@@ -3957,6 +4131,14 @@
             "ro": "Maro închis",
             "en": "Dark brown"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "coltar-cubiq-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "coltar-cubiq-studio-1"
         }
       ]
     },
@@ -4105,6 +4287,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAUqPlIVgy8Re1AAD+83+RV7sqH/xt0DMJ+RLHtUL0AYm/lykp76HLDR8KSOH+ZF9HEAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-cubic-c1",
           "w": 2000,
           "h": 1500,
@@ -4183,6 +4378,45 @@
           "studio": true
         },
         {
+          "src": "pat-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAW+LSFeY4i29dIAD+8EHsACzR+/5yeVBiy7irIob5cpCSvn2pH/A2gAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JaQAAWlbWayVJgAD+838RfGgjB1O+DNpVMt3S5vuXlRuZG0pkcAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-cubiq-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAWlzqQ1npyTAA/vN/DvMspiJbqcMjXr73noYVfwq9UyicAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-cubic-detail-1",
           "w": 2000,
           "h": 1500,
@@ -4211,7 +4445,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/pat-cubic/",
       "cover": {
-        "src": "pat-cubic-c1",
+        "src": "pat-cubiq-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -4219,12 +4453,21 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDG9B6PpJGaxeGieYAA/vOCd4IgZHZdI/pszomudroXEH3zQQX5WqZFqAAA",
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAUqPlIVgy8Re1AAD+83+RV7sqH/xt0DMJ+RLHtUL0AYm/lykp76HLDR8KSOH+ZF9HEAAAAA==",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "variants": [
+        {
+          "src": "pat-cubiq-studio-1",
+          "chip": "/media/pat-cubiq-studio-1-700.webp",
+          "swatch": "#222222",
+          "tone": {
+            "ro": "Negru",
+            "en": "Black"
+          }
+        },
         {
           "src": "pat-cubic-c1",
           "chip": "/media/pat-cubic-c1-700.webp",
@@ -4278,6 +4521,38 @@
             "ro": "Bordo",
             "en": "Burgundy"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "pat-cubiq-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-cubiq-studio-1"
+        },
+        {
+          "src": "pat-cubiq-studio-3",
+          "ro": "Detaliu tăblie",
+          "en": "Headboard detail",
+          "in": "pat-cubiq-studio-1"
+        },
+        {
+          "src": "pat-cubiq-studio-4",
+          "ro": "Detaliu colț",
+          "en": "Corner detail",
+          "in": "pat-cubiq-studio-1"
+        },
+        {
+          "src": "pat-cubic-detail-1",
+          "ro": "Detaliu tăblie",
+          "en": "Headboard detail",
+          "in": "pat-cubic-c1"
+        },
+        {
+          "src": "pat-cubic-detail-2",
+          "ro": "Detaliu colț",
+          "en": "Corner detail",
+          "in": "pat-cubic-c1"
         }
       ]
     },
@@ -4777,6 +5052,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "canapea-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-cubiq-c1",
           "w": 2000,
           "h": 1500,
@@ -4879,11 +5167,37 @@
           "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYwAAW+vU8wBDQ5e+XXDgAP7zbvv9mPe0xEvsrDftgYMYb3ZcQzc5vN667ePR5dsL1biEAAA=",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+ziGiXnNjv1rAAA/vNu+/b3etlE5508gAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUYJeP6EaXETgAAD+84J3lQ+7ALBXjoeN3zgJTN/bBLQYHgAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "",
       "cover": {
-        "src": "canapea-cubiq-c1",
+        "src": "canapea-cubiq-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -4891,12 +5205,21 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDImCHf+5IWcSrdi4AA/vNr+T88+WdbWTPmyatdox5eHvlMgAAA",
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "variants": [
+        {
+          "src": "canapea-cubiq-studio-1",
+          "chip": "/media/canapea-cubiq-studio-1-700.webp",
+          "swatch": "#979596",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
         {
           "src": "canapea-cubiq-c1",
           "chip": "/media/canapea-cubiq-c1-700.webp",
@@ -4968,6 +5291,20 @@
             "ro": "Bordo",
             "en": "Burgundy"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "canapea-cubiq-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-cubiq-studio-1"
+        },
+        {
+          "src": "canapea-cubiq-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "canapea-cubiq-studio-1"
         }
       ]
     },
@@ -5048,6 +5385,19 @@
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW9N4c53xcsLgAP7zcBoLx4bpZe7/H9Ez0JSzm9iKlmuEaldD5x3sjgAA",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "canapea-rotunda-aldo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+sbdeAAAP7za8YdBGD/Gs2nX8bkAAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "",
@@ -5110,6 +5460,14 @@
             "ro": "Maro închis",
             "en": "Dark brown"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "canapea-rotunda-aldo-studio-3",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-rotunda-aldo-c1"
         }
       ]
     },
@@ -5183,6 +5541,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "coltar-vallo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-vallo-c1",
           "w": 2000,
           "h": 1500,
@@ -5246,11 +5617,37 @@
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW9W75WBdicagAP7zcAiRCsrgqILLgzDDHDZs0t03DhvnvpEOMmwAAA==",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "coltar-vallo-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC7ACHahqw69QAA/vNwIWbKHw3b0sBGtLMag/8Zc7FsRpLAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwC/OCHf3BuyOmJwm4AA/vN1KwOuMVLprWP96QiMZWxtmCXY2LrjTn/0rI+wQqoIShAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "",
       "cover": {
-        "src": "coltar-vallo-c1",
+        "src": "coltar-vallo-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -5258,12 +5655,21 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYgCsINiDApu+LLOnAm4AAP7zcBoN/jIn02J5ZyMuMOim9e2PkSkH2VdfUENPrrewWMAA",
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "variants": [
+        {
+          "src": "coltar-vallo-studio-1",
+          "chip": "/media/coltar-vallo-studio-1-700.webp",
+          "swatch": "#978269",
+          "tone": {
+            "ro": "Crem",
+            "en": "Cream"
+          }
+        },
         {
           "src": "coltar-vallo-c1",
           "chip": "/media/coltar-vallo-c1-700.webp",
@@ -5308,6 +5714,20 @@
             "ro": "Maro închis",
             "en": "Dark brown"
           }
+        }
+      ],
+      "views": [
+        {
+          "src": "coltar-vallo-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-vallo-studio-1"
+        },
+        {
+          "src": "coltar-vallo-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "coltar-vallo-studio-1"
         }
       ]
     },
@@ -5457,6 +5877,32 @@
           "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDGfCHfv7tGi3CZwAD+82+3vHijoBmJJ6OO5tKpfdYy5UPiBSeJ5eGwg3Re2WMoAA==",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "coltar-linear-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JZwAAW+s/rS3wFPcNAAD+82vsr6tU7+Y9aGYA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-linear-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDLLCHgDDgJYcAqkQAA/vNu+/fdsi8fKDcIy5V3a0EAAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "",
@@ -5531,7 +5977,21 @@
           "depthBack": 105,
           "seat": 70
         }
-      }
+      },
+      "views": [
+        {
+          "src": "coltar-linear-studio-3",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-linear-c1"
+        },
+        {
+          "src": "coltar-linear-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "coltar-linear-c1"
+        }
+      ]
     },
     {
       "id": "valo-pat-linear",

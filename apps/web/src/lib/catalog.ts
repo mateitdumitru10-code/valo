@@ -57,6 +57,18 @@ export type Variant = {
 }
 
 /**
+ * A frame of the piece beyond the colour shots — the angle, the side, the sofa
+ * opened out, the storage box lifted. `in` is the colour it was photographed
+ * in, so the caption can say so when another colour is selected.
+ */
+export type View = {
+  src: string
+  ro: string
+  en: string
+  in?: string
+}
+
+/**
  * What every card and listing needs, and nothing else. This is bundled, so it
  * is the part the browser parses before it can draw.
  */
@@ -81,6 +93,7 @@ export type PieceDetail = {
   images: Img[]
   source: string
   variants?: Variant[]
+  views?: View[]
   schematic?: Schematic
 }
 
