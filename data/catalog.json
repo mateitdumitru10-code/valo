@@ -36,7 +36,7 @@
       "id": "sofas",
       "ro": "Canapele",
       "en": "Sofas",
-      "count": 22,
+      "count": 23,
       "cover": {
         "src": "canapea-ela-1",
         "w": 1536,
@@ -518,6 +518,97 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-fantezie-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQC+SCHfF70LAZmmCgAA/vI0Vhj8fsG0BK0keJuQ603sbghk9CZ9bYEpmiLkxi7gAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQC06CHfuPHeusAA/vI0Vhj927NMWwCarIlsPKShbZT6XiCgXp1G8b2u7f0ulcrwd5/AAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA8APu1krU6ppaSiMAgBMB2JZACxDIjCuSe6VFqGtGukgAD+8IdNu6qsDyxrI3lcMkCOOyo2hbBcozLC5a/bIv3WlAhoWnM1FZGNDAvqsAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQAAUqQx4WQ5mhpwAP7uNRS+daajnbGNdhiEcToeYBXCdpGOV+ADK5gH1W2D0AacyxyzWoWQ4BwA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBYdg9I57iEZ5tejtOAA/uutbkwbuSOQB3ITQ3aHTfNTGdVnym5qZEA7KFagfwnjXqL8PqAxuYqYemQFawOYAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c7",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JQAAKVV32XiDIUNGgAP7rrW5eXzW6g91HnCFCYZY7FzHYRrRJ81LwqXVzcj/CQfO2Ybnr6wdg5SiLvPgon8AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-fantezie-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUqrvsu/OjKLkjgAA/uutbkwbuSOQB3ITSJDyjn9BX3ytPEPhq8S2lMf/PSov5/JTGC86OYemQWGQAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-fantezie-studio-1",
           "w": 2000,
           "h": 1500,
@@ -559,7 +650,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/pat-fantezie/",
       "cover": {
-        "src": "pat-fantezie-studio-1",
+        "src": "pat-fantezie-c2",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -567,11 +658,93 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JQBdgBDw6IQWf3cwAAP7x20kymGGGf5dqIURJZuhmkVeuX1Wj8dJQAAA=",
+        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQC+SCHfF70LAZmmCgAA/vI0Vhj8fsG0BK0keJuQ603sbghk9CZ9bYEpmiLkxi7gAA==",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-fantezie-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "pat-fantezie-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        },
+        {
+          "src": "pat-fantezie-studio-3",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-fantezie-c2",
+          "chip": "/media/pat-fantezie-c2-700.webp",
+          "swatch": "#998779",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "pat-fantezie-c4",
+          "chip": "/media/pat-fantezie-c4-700.webp",
+          "swatch": "#9b826e",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "pat-fantezie-c1",
+          "chip": "/media/pat-fantezie-c1-700.webp",
+          "swatch": "#86532a",
+          "tone": {
+            "ro": "Coniac",
+            "en": "Cognac"
+          }
+        },
+        {
+          "src": "pat-fantezie-c3",
+          "chip": "/media/pat-fantezie-c3-700.webp",
+          "swatch": "#38391d",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-fantezie-c6",
+          "chip": "/media/pat-fantezie-c6-700.webp",
+          "swatch": "#032349",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-fantezie-c7",
+          "chip": "/media/pat-fantezie-c7-700.webp",
+          "swatch": "#350a10",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "pat-fantezie-c5",
+          "chip": "/media/pat-fantezie-c5-700.webp",
+          "swatch": "#2e1f17",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     },
     {
       "id": 250,
@@ -592,6 +765,32 @@
       "dimensions": [],
       "images": [
         {
+          "src": "canapea-extensibila-soria-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDA3CHfv72rd9F9cAD+8277/L24LxgA2nbKFXEwrJYOVR7oIuAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-extensibila-soria-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwC90CHftmwIOaOTCAAA/vNur2OwGwt+ospVaQ2zgx1gAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-soria-studio-1",
           "w": 2000,
           "h": 1500,
@@ -605,6 +804,58 @@
           "studio": true
         },
         {
+          "src": "canapea-extensibila-soria-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwAAW9N4alCntIogAAD+83AaC8eKOfmfFep7BYHZHtMbIF+MV5/J6Kw9ar0v0fT4AA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-extensibila-soria-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+uEYdOnkg/sAAD+82+3uj008JUDE2AJV+zfgC8AkiZ+D6ocdFZyKAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-extensibila-soria-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA8APu1krU6ppaSiMAgBMB2JZACxDIjDAszUOAnaS5ZdAAD+83AhZtM4f66+duK5BzQJGlbdf5bnLYQUVj6Ohy1rPZb0UOTCAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-extensibila-soria-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwDGfCHerb4wfuaPhbcAAP7zcBoLx4b08UY/ypmQ89IYSZaxLCz0Z0DEltouCBuQP4AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-soria-studio-2",
           "w": 2000,
           "h": 1500,
@@ -614,19 +865,6 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA8APu1kqU4ppaOiMAgBMB2JZACxDJPDAtCRWqq3lFycAAD+8d6aMwqj4j25AS1rosQNcM4oZmAeErA1ujyRNeTFOleSmqCqLX0yImyaUAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-soria-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JYgC06BYHWdDx5WV7JaKAAP7ze30FwZyBemWw/ZaRBLs3CI+LvjOR7+BEMvSM3dTSpt0wu9VOlMduAAA=",
           "editorial": true,
           "studio": true
         },
@@ -655,11 +893,24 @@
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA8APu1iqk2ppaQiMAgBMB2JQBYhlThgaF1PvyjLrfAjAAD+83R+W5oOgd4D6zhbXXerYDffRNfoD6PurXaFYaOuYbVqaCh5br7CAAA=",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "canapea-soria-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JYgC06BYHWdDx5WV7JaKAAP7ze30FwZyBemWw/ZaRBLs3CI+LvjOR7+BEMvSM3dTSpt0wu9VOlMduAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-extensibila-soria/",
       "cover": {
-        "src": "canapea-soria-studio-1",
+        "src": "canapea-extensibila-soria-c6",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -667,11 +918,102 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JQBYhiYhga2AdavB9yDUAAP7zb7e6PTTuv4ytmyWfuQ9AR6dJ5U6JdQMXN0Syj0M5EAT2yrwAAA==",
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDA3CHfv72rd9F9cAD+8277/L24LxgA2nbKFXEwrJYOVR7oIuAA",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "canapea-soria-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-soria-studio-1"
+        },
+        {
+          "src": "canapea-soria-studio-4",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "canapea-soria-studio-1"
+        },
+        {
+          "src": "canapea-soria-studio-5",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-soria-studio-1"
+        },
+        {
+          "src": "canapea-soria-studio-3",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "canapea-soria-studio-1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "canapea-extensibila-soria-c6",
+          "chip": "/media/canapea-extensibila-soria-c6-700.webp",
+          "swatch": "#96897b",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-extensibila-soria-c1",
+          "chip": "/media/canapea-extensibila-soria-c1-700.webp",
+          "swatch": "#af9c8a",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "canapea-soria-studio-1",
+          "chip": "/media/canapea-soria-studio-1-700.webp",
+          "swatch": "#024764",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "canapea-extensibila-soria-c5",
+          "chip": "/media/canapea-extensibila-soria-c5-700.webp",
+          "swatch": "#072049",
+          "tone": {
+            "ro": "Albastru regal",
+            "en": "Royal blue"
+          }
+        },
+        {
+          "src": "canapea-extensibila-soria-c2",
+          "chip": "/media/canapea-extensibila-soria-c2-700.webp",
+          "swatch": "#333521",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-extensibila-soria-c4",
+          "chip": "/media/canapea-extensibila-soria-c4-700.webp",
+          "swatch": "#b15031",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "canapea-extensibila-soria-c3",
+          "chip": "/media/canapea-extensibila-soria-c3-700.webp",
+          "swatch": "#2c1e16",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     },
     {
       "id": 6699,
@@ -788,6 +1130,32 @@
       "dimensions": [],
       "images": [
         {
+          "src": "canapea-sonia-extensibila-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDDNCHfxoa3nJy6KAD+826vY2D9JNj/GEa5BzZegMoWxEyAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-extensibila-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+uXEd4K0BdAAP7za+y6d5V0ySWj/7YAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-sonia-studio-1",
           "w": 2000,
           "h": 1500,
@@ -797,6 +1165,58 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAW9aFZdm8eSyAAP7zcCFm0sS2c21JK1KtMzSb3gfM+EHbUN+H4toOgAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-extensibila-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk8ZclZsyZmmAA/vNvohz85R84E1drZkWJc8WRsuUiset7DjYTd31IQ3IAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-extensibila-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+hPbryjsQ3rgAD+83AaDhr2K9utZLjmhkgdbk3I24YArV+kkt/JmkklqJf4UAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-extensibila-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAW+hPfQr04syZmmAA/vNwGg4a9ivbmZr3RA8YaKVo86nvOyRtgq26KKWM8YhAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-extensibila-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JaQAAW+uXXi0RiFv8gAD+82+3thtMHAdqn3pqBd3shG/mAR4r4pP1lDzEpyAAAAA=",
           "editorial": true,
           "studio": true
         },
@@ -842,7 +1262,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/canapea-sonia-extensibila/",
       "cover": {
-        "src": "canapea-sonia-studio-1",
+        "src": "canapea-sonia-extensibila-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -850,11 +1270,96 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAW9aFZdm8eSyAAP7zcCFm0sS2c21JK1KtMzSb3gfM+EHbUN+H4toOgAAA",
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDDNCHfxoa3nJy6KAD+826vY2D9JNj/GEa5BzZegMoWxEyAAA==",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "canapea-sonia-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-sonia-studio-1"
+        },
+        {
+          "src": "canapea-sonia-studio-3",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-sonia-studio-1"
+        },
+        {
+          "src": "canapea-sonia-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "canapea-sonia-studio-1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "canapea-sonia-extensibila-c1",
+          "chip": "/media/canapea-sonia-extensibila-c1-700.webp",
+          "swatch": "#ac9885",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c3",
+          "chip": "/media/canapea-sonia-extensibila-c3-700.webp",
+          "swatch": "#b3b1af",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "canapea-sonia-studio-1",
+          "chip": "/media/canapea-sonia-studio-1-700.webp",
+          "swatch": "#44676d",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c6",
+          "chip": "/media/canapea-sonia-extensibila-c6-700.webp",
+          "swatch": "#30331f",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c5",
+          "chip": "/media/canapea-sonia-extensibila-c5-700.webp",
+          "swatch": "#102016",
+          "tone": {
+            "ro": "Verde smarald",
+            "en": "Emerald"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c4",
+          "chip": "/media/canapea-sonia-extensibila-c4-700.webp",
+          "swatch": "#2a221e",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c2",
+          "chip": "/media/canapea-sonia-extensibila-c2-700.webp",
+          "swatch": "#313131",
+          "tone": {
+            "ro": "Antracit",
+            "en": "Charcoal"
+          }
+        }
+      ]
     },
     {
       "id": 7002,
@@ -2565,7 +3070,7 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-spring-studio-1",
+          "src": "canapea-spring-c2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2573,7 +3078,59 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQC/OCHXitp1xxtV8AD+83AhYngyGBjhzSJ+mN4fMmAYGDvBj1K+TAAAAA==",
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1Ct1apoqakGAEwHYllAL84Id68szWPVIwyRYAA/vN0fiFAGMpg+v2UB9AlInBJmohSLVl+LxoAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-spring-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1Ct1apoqakGAEwHYlAAAude6Eo/Jp5YooAAP7zdA0pqg6Pl+TmjIYnNpjMwa7JZEA4EgAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-spring-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW9N4aZWMuAWAAP7x28nwlgKRIiST3jB1MMLacMfVu2KrGGkQac2FRMLSoMQ0pAUAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-spring-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JaACdACHh7glj19W7ZOCAAP7x28nwi62gvXXqSAV6w7t2FhSv8tdJlnVopdSDRgUWCXsZlTJialXuGts1NYyAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-spring-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUo3tQ0w3KWBkZAAA/vHgw6/hWHDOL45vr3fAqhRf+Za4QNT7Aedxj8EgqbrZG5SeXVi+AAAA",
           "editorial": true,
           "studio": true
         },
@@ -2619,7 +3176,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/canapea-spring/",
       "cover": {
-        "src": "canapea-spring-studio-1",
+        "src": "canapea-spring-c2",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -2627,11 +3184,78 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQC/OCHXitp1xxtV8AD+83AhYngyGBjhzSJ+mN4fMmAYGDvBj1K+TAAAAA==",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1Ct1apoqakGAEwHYllAL84Id68szWPVIwyRYAA/vN0fiFAGMpg+v2UB9AlInBJmohSLVl+LxoAAA==",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "canapea-spring-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-spring-c2"
+        },
+        {
+          "src": "canapea-spring-studio-3",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-spring-c2"
+        },
+        {
+          "src": "canapea-spring-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "canapea-spring-c2"
+        }
+      ],
+      "variants": [
+        {
+          "src": "canapea-spring-c2",
+          "chip": "/media/canapea-spring-c2-700.webp",
+          "swatch": "#af9a82",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-spring-c5",
+          "chip": "/media/canapea-spring-c5-700.webp",
+          "swatch": "#cf9c9b",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "canapea-spring-c1",
+          "chip": "/media/canapea-spring-c1-700.webp",
+          "swatch": "#34371e",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-spring-c3",
+          "chip": "/media/canapea-spring-c3-700.webp",
+          "swatch": "#943822",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "canapea-spring-c4",
+          "chip": "/media/canapea-spring-c4-700.webp",
+          "swatch": "#2f2018",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     },
     {
       "id": 6787,
@@ -2979,6 +3603,32 @@
       "dimensions": [],
       "images": [
         {
+          "src": "canapea-bella-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc6yEYEHfVkuAA/vNr7kR+XdhJRYrrDah9YNyQAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA8ALrV2u12jqampiYC0SygABc69RWAjUmSsAAD++K4PodY/pW14LYb9ivv0KcAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-bella-studio-1",
           "w": 2000,
           "h": 1500,
@@ -2988,6 +3638,58 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfz3Y/Azp55XQAAP7zbqakJSQ3Wu68QrVBcXKUf0l92AAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+tgHXeLis8YEAD+8277/U+DQD8BIk31gFXIcEuuGEHlUFnyOAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZQAAW+tgHXeLirYSsAD+8278ue4bu7jyF80EYFe8jUOxaedPTMKQilxoP7IqARAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDG9CHfv7zJsn61dAAA/vNvohz612lqf/Z7GXtJ90Kj7BTA9F349KYSBeqAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-bella-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9FtP275xbAA/vNwIWprqSPMOgWMjiV3TejHUo2+aZL0X8L0AAA=",
           "editorial": true,
           "studio": true
         },
@@ -3020,7 +3722,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/canapea-bella/",
       "cover": {
-        "src": "canapea-bella-studio-1",
+        "src": "canapea-bella-c2",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -3028,11 +3730,90 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfz3Y/Azp55XQAAP7zbqakJSQ3Wu68QrVBcXKUf0l92AAA",
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc6yEYEHfVkuAA/vNr7kR+XdhJRYrrDah9YNyQAA==",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "canapea-bella-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-bella-studio-1"
+        },
+        {
+          "src": "canapea-bella-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "canapea-bella-studio-1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "canapea-bella-c2",
+          "chip": "/media/canapea-bella-c2-700.webp",
+          "swatch": "#af9b84",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-bella-c3",
+          "chip": "/media/canapea-bella-c3-700.webp",
+          "swatch": "#e1b9b3",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "canapea-bella-studio-1",
+          "chip": "/media/canapea-bella-studio-1-700.webp",
+          "swatch": "#856860",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "canapea-bella-c1",
+          "chip": "/media/canapea-bella-c1-700.webp",
+          "swatch": "#323015",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-bella-c4",
+          "chip": "/media/canapea-bella-c4-700.webp",
+          "swatch": "#310a0f",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "canapea-bella-c5",
+          "chip": "/media/canapea-bella-c5-700.webp",
+          "swatch": "#031737",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "canapea-bella-c6",
+          "chip": "/media/canapea-bella-c6-700.webp",
+          "swatch": "#2e1f17",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     },
     {
       "id": 3578,
@@ -5485,6 +6266,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-loris-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDG9CHf3XHqK9tgKpEAAP7zfmNYgeS+RGrOOnrNOCT3IYEmG8jl7AAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-loris-studio-1",
           "w": 2000,
           "h": 1500,
@@ -5494,6 +6288,71 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JYwAAUqTtM2bxwDrOAAD+84A6EUhKEyInUeKQb5jmyETknOlzo9/Mvws2BK7/FehcsbbaiUvTSwjIAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAUqtg57l61+PuIAD+84B7Ddi3qxJOUt5IDdZw/msNP43wLgv6F0+kb2Ev0uiOoK6ocgAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JYgCw7B6PkH9FVXgwPfWAAP7zgnfoNdGB6bf0ZWSkbqiPrgXLrCTEaI5C+LKv5Q/FDhMdaBrpQdt5KoAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JYwAAUliricFdcOex0AD+83txX4LQBugOjjNhOuw7mi9L/U1Ssg73p0+u4wmKyzNJ+E1rO8WNDoXQcuoIudgAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAUkld8xyM4gODoAD+83c87ubiTZZatVqnPXt4Bdgfh8WLcl+c23sk9Qwda5FWR+N1zcHYE+PlG461QXSAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-loris-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAUliriqtzCChEAAD+84A6EWnY8GA6e9dWI1vUcMSgFtOki5HRDXDCv5L6nyK7+lis/MoWWAAA",
           "editorial": true,
           "studio": true
         },
@@ -5513,7 +6372,7 @@
       ],
       "source": "",
       "cover": {
-        "src": "pat-loris-studio-1",
+        "src": "pat-loris-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -5521,11 +6380,84 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JYwAAUqTtM2bxwDrOAAD+84A6EUhKEyInUeKQb5jmyETknOlzo9/Mvws2BK7/FehcsbbaiUvTSwjIAAA=",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDG9CHf3XHqK9tgKpEAAP7zfmNYgeS+RGrOOnrNOCT3IYEmG8jl7AAAAA==",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-loris-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-loris-studio-1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-loris-c1",
+          "chip": "/media/pat-loris-c1-700.webp",
+          "swatch": "#b6a492",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "pat-loris-studio-1",
+          "chip": "/media/pat-loris-studio-1-700.webp",
+          "swatch": "#1f4b62",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "pat-loris-c2",
+          "chip": "/media/pat-loris-c2-700.webp",
+          "swatch": "#333320",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-loris-c4",
+          "chip": "/media/pat-loris-c4-700.webp",
+          "swatch": "#9a4d31",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-loris-c5",
+          "chip": "/media/pat-loris-c5-700.webp",
+          "swatch": "#092244",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-loris-c6",
+          "chip": "/media/pat-loris-c6-700.webp",
+          "swatch": "#370b10",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "pat-loris-c3",
+          "chip": "/media/pat-loris-c3-700.webp",
+          "swatch": "#2e211a",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     },
     {
       "id": "valo-coltar-vallo",
@@ -6007,6 +6939,32 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-linear-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDA3CB/etYqrzCAgUAA/vOCtGStlr25qgR3CX69ZxpBME/bcYAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwDA3B6SEJWef0jV0y0gAP7zgrRiYIqddG7t+h7ICVcfuEI+IkR+unZwAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-linear-studio-1",
           "w": 2000,
           "h": 1500,
@@ -6016,6 +6974,58 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAUqROEkNAT4AAAP7zgri93+qDE69LCYrsfTZA1r/LIlj6p6YChwAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAUz76cTDMilgmKEAA/vN/nOu9g2tqwUtfY8cYHOr1P5qi694HPrp6+0EefbdpVVDkAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZACsAB6W0huxa7K1npAAAP7zdzpP9soCE9ZXC9nSihWyNPlDE8K5ThmorIFXpICa3rh/VVUpzAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAUYN8lD1DXJ9PHwAA/vOBm+sAn2ZDw7XLjICaa5ErVT6+yRTs1QARpY/7An9sagMdcnpwUAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-linear-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAUz5yDDVd1zTRAAAA/vN/nzxE4/ezMAXmUoaVugyG+gyLAn4yqbs/E41zdS9CkAAA",
           "editorial": true,
           "studio": true
         },
@@ -6061,7 +7071,7 @@
       ],
       "source": "",
       "cover": {
-        "src": "pat-linear-studio-1",
+        "src": "pat-linear-c3",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -6069,11 +7079,96 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAUqROEkNAT4AAAP7zgri93+qDE69LCYrsfTZA1r/LIlj6p6YChwAAAA==",
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwDA3CB/etYqrzCAgUAA/vOCtGStlr25qgR3CX69ZxpBME/bcYAA",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-linear-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-linear-studio-1"
+        },
+        {
+          "src": "pat-linear-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "pat-linear-studio-1"
+        },
+        {
+          "src": "pat-linear-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-linear-studio-1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-linear-c3",
+          "chip": "/media/pat-linear-c3-700.webp",
+          "swatch": "#ae9c8a",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "pat-linear-c1",
+          "chip": "/media/pat-linear-c1-700.webp",
+          "swatch": "#a29383",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "pat-linear-studio-1",
+          "chip": "/media/pat-linear-studio-1-700.webp",
+          "swatch": "#cdd5d5",
+          "tone": {
+            "ro": "Verde salvie",
+            "en": "Sage"
+          }
+        },
+        {
+          "src": "pat-linear-c6",
+          "chip": "/media/pat-linear-c6-700.webp",
+          "swatch": "#3c3d29",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-linear-c4",
+          "chip": "/media/pat-linear-c4-700.webp",
+          "swatch": "#944634",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-linear-c5",
+          "chip": "/media/pat-linear-c5-700.webp",
+          "swatch": "#2f211b",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-linear-c2",
+          "chip": "/media/pat-linear-c2-700.webp",
+          "swatch": "#3c3c3c",
+          "tone": {
+            "ro": "Antracit",
+            "en": "Charcoal"
+          }
+        }
+      ]
     },
     {
       "id": "valo-pat-king",
@@ -6089,7 +7184,7 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-king-studio-1",
+          "src": "pat-king-c1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -6097,7 +7192,72 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHgDDhQ9/tIuFAA/vN/CBAWaNsNLvLRYOjTUPb9jleoTUAA",
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAUqksy3Lt5DPYAAD+84LQhCokfaU5niyNJo8C/qh7TINY4ZkNoAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+s18qQAAP7zaXOMPTf8v0AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBWEFThGbzM8X1iQBjDAAP7zgoC9GWKBS67K3G8X+S1if/zzcrsS8Jzyhk++f6zsdnTF6CpaAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAUVYu25XFDQgYAAD+83dOXALyR7liJSLGwKiLP3wEQ/zM2zm0Un2bz3YqMTAtdyL9ibol1PlAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JYwAAUqjmRu+l4BKIAP7zd05OZfr42suR6BFe8HbemYHe0Q500Xtafye5niXWAmDFJI9w37b03/bc8AA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-king-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAUWA0eY4Rc5MgwAD+83dOXAL9DMw0pHzNLZhe2sUyihchOHkl/YKbWMITH/RtIdrTfJ1Fk0GCOAA=",
           "editorial": true,
           "studio": true
         },
@@ -6143,7 +7303,7 @@
       ],
       "source": "",
       "cover": {
-        "src": "pat-king-studio-1",
+        "src": "pat-king-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -6151,11 +7311,273 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHgDDhQ9/tIuFAA/vN/CBAWaNsNLvLRYOjTUPb9jleoTUAA",
+        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAUqksy3Lt5DPYAAD+84LQhCokfaU5niyNJo8C/qh7TINY4ZkNoAA=",
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-king-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-king-c1"
+        },
+        {
+          "src": "pat-king-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "pat-king-c1"
+        },
+        {
+          "src": "pat-king-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-king-c1"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-king-c1",
+          "chip": "/media/pat-king-c1-700.webp",
+          "swatch": "#9a9389",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "pat-king-c5",
+          "chip": "/media/pat-king-c5-700.webp",
+          "swatch": "#e3dacb",
+          "tone": {
+            "ro": "Crem",
+            "en": "Cream"
+          }
+        },
+        {
+          "src": "pat-king-c6",
+          "chip": "/media/pat-king-c6-700.webp",
+          "swatch": "#85552f",
+          "tone": {
+            "ro": "Coniac",
+            "en": "Cognac"
+          }
+        },
+        {
+          "src": "pat-king-c2",
+          "chip": "/media/pat-king-c2-700.webp",
+          "swatch": "#32301e",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-king-c4",
+          "chip": "/media/pat-king-c4-700.webp",
+          "swatch": "#49181d",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "pat-king-c3",
+          "chip": "/media/pat-king-c3-700.webp",
+          "swatch": "#2d1f16",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valo-canapea-mini-aldo",
+      "slug": "canapea-mini-aldo",
+      "name": "Canapea mini Aldo",
+      "collection": "sofas",
+      "collections": [],
+      "price": null,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "canapea-mini-aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+s7+waW02X4AAD+82rdybWy2s7K9RwA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwC+SCHese3xrs7eGgkAAP7zdBlm7h8rWBrraUPZPruYQkQPhFAgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYwAAW+shGG5T3WIyAAD+8270CKB2njwreMRivO5RJ7KxEHpMAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDKAB6GkzSgJ/1xMuGAAP7zgs77yrMa+UF7DmbIQnF6Zum3BQzuGJK14pFz94bn+nL3bgROIUAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQAAUov7u5YUdmVIzUAA/vOCzvwgC/qHrEXW+lXQkOSxmdAvp0+3uy1NQfM0n8Ek5lJLWxytH9mPPpAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwAAW9OYCnM/+SEeAAD+8d6aKIvGl350zaV5r7MlhC7ZSRU5tMZmDw+tGTmOx0+tms6Cz3bNEdhgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-mini-aldo-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwC+SCHZr6wm0Qi6xsoAAP7x28nsZwVmzuC3jc+GU1wWpl6xGeLavyTstt5le2F63jt8SrziOGSHyAA=",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "canapea-mini-aldo-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+s7+waW02X4AAD+82rdybWy2s7K9RwA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "variants": [
+        {
+          "src": "canapea-mini-aldo-studio-1",
+          "chip": "/media/canapea-mini-aldo-studio-1-700.webp",
+          "swatch": "#d5d4cc",
+          "tone": {
+            "ro": "Alb",
+            "en": "White"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c1",
+          "chip": "/media/canapea-mini-aldo-c1-700.webp",
+          "swatch": "#99897a",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c4",
+          "chip": "/media/canapea-mini-aldo-c4-700.webp",
+          "swatch": "#c7a39a",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c2",
+          "chip": "/media/canapea-mini-aldo-c2-700.webp",
+          "swatch": "#2f301f",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c5",
+          "chip": "/media/canapea-mini-aldo-c5-700.webp",
+          "swatch": "#10223b",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c6",
+          "chip": "/media/canapea-mini-aldo-c6-700.webp",
+          "swatch": "#351013",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "canapea-mini-aldo-c3",
+          "chip": "/media/canapea-mini-aldo-c3-700.webp",
+          "swatch": "#2d1d15",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ]
     }
   ],
   "hero": [

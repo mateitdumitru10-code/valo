@@ -92,7 +92,13 @@
       "canapea-rotunda-aldo-studio-3"
     ],
     "pat-loris": [
+      "pat-loris-c1",
       "pat-loris-studio-1",
+      "pat-loris-c2",
+      "pat-loris-c4",
+      "pat-loris-c5",
+      "pat-loris-c6",
+      "pat-loris-c3",
       "pat-loris-studio-2"
     ],
     "coltar-vallo": [
@@ -121,6 +127,13 @@
       "coltar-torro-studio-3"
     ],
     "pat-fantezie": [
+      "pat-fantezie-c2",
+      "pat-fantezie-c4",
+      "pat-fantezie-c1",
+      "pat-fantezie-c3",
+      "pat-fantezie-c6",
+      "pat-fantezie-c7",
+      "pat-fantezie-c5",
       "pat-fantezie-studio-1",
       "pat-fantezie-studio-2",
       "pat-fantezie-studio-3"
@@ -141,40 +154,82 @@
       "canapea-torro-studio-4"
     ],
     "canapea-sonia-extensibila": [
+      "canapea-sonia-extensibila-c1",
+      "canapea-sonia-extensibila-c3",
       "canapea-sonia-studio-1",
+      "canapea-sonia-extensibila-c6",
+      "canapea-sonia-extensibila-c5",
+      "canapea-sonia-extensibila-c4",
+      "canapea-sonia-extensibila-c2",
       "canapea-sonia-studio-2",
       "canapea-sonia-studio-3",
       "canapea-sonia-studio-4"
     ],
     "pat-linear": [
+      "pat-linear-c3",
+      "pat-linear-c1",
       "pat-linear-studio-1",
+      "pat-linear-c6",
+      "pat-linear-c4",
+      "pat-linear-c5",
+      "pat-linear-c2",
       "pat-linear-studio-2",
       "pat-linear-studio-3",
       "pat-linear-studio-4"
     ],
     "canapea-spring": [
-      "canapea-spring-studio-1",
+      "canapea-spring-c2",
+      "canapea-spring-c5",
+      "canapea-spring-c1",
+      "canapea-spring-c3",
+      "canapea-spring-c4",
       "canapea-spring-studio-2",
       "canapea-spring-studio-3",
       "canapea-spring-studio-4"
     ],
     "canapea-bella": [
+      "canapea-bella-c2",
+      "canapea-bella-c3",
       "canapea-bella-studio-1",
+      "canapea-bella-c1",
+      "canapea-bella-c4",
+      "canapea-bella-c5",
+      "canapea-bella-c6",
       "canapea-bella-studio-2",
       "canapea-bella-studio-3"
     ],
     "pat-king": [
-      "pat-king-studio-1",
+      "pat-king-c1",
+      "pat-king-c5",
+      "pat-king-c6",
+      "pat-king-c2",
+      "pat-king-c4",
+      "pat-king-c3",
       "pat-king-studio-2",
       "pat-king-studio-3",
       "pat-king-studio-4"
     ],
     "canapea-extensibila-soria": [
+      "canapea-extensibila-soria-c6",
+      "canapea-extensibila-soria-c1",
       "canapea-soria-studio-1",
+      "canapea-extensibila-soria-c5",
+      "canapea-extensibila-soria-c2",
+      "canapea-extensibila-soria-c4",
+      "canapea-extensibila-soria-c3",
       "canapea-soria-studio-2",
-      "canapea-soria-studio-3",
       "canapea-soria-studio-4",
-      "canapea-soria-studio-5"
+      "canapea-soria-studio-5",
+      "canapea-soria-studio-3"
+    ],
+    "canapea-mini-aldo": [
+      "canapea-mini-aldo-studio-1",
+      "canapea-mini-aldo-c1",
+      "canapea-mini-aldo-c4",
+      "canapea-mini-aldo-c2",
+      "canapea-mini-aldo-c5",
+      "canapea-mini-aldo-c6",
+      "canapea-mini-aldo-c3"
     ]
   },
   "products": {
@@ -230,6 +285,11 @@
     },
     "canapea-extensibila-soria": {
       "name": "Canapea Soria extensibilă"
+    },
+    "canapea-mini-aldo": {
+      "name": "Canapea mini Aldo",
+      "collection": "sofas",
+      "price": null
     }
   },
   "exclude": {
@@ -598,6 +658,324 @@
         "ro": "Maro închis",
         "en": "Dark brown"
       }
+    ],
+    "canapea-bella": [
+      {
+        "src": "canapea-bella-c2",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-bella-c3",
+        "ro": "Roz pudră",
+        "en": "Powder pink"
+      },
+      {
+        "src": "canapea-bella-studio-1",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "canapea-bella-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-bella-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "canapea-bella-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-bella-c6",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "canapea-sonia-extensibila": [
+      {
+        "src": "canapea-sonia-extensibila-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-sonia-extensibila-c3",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "canapea-sonia-studio-1",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "canapea-sonia-extensibila-c6",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-sonia-extensibila-c5",
+        "ro": "Verde smarald",
+        "en": "Emerald"
+      },
+      {
+        "src": "canapea-sonia-extensibila-c4",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "canapea-sonia-extensibila-c2",
+        "ro": "Antracit",
+        "en": "Charcoal"
+      }
+    ],
+    "canapea-extensibila-soria": [
+      {
+        "src": "canapea-extensibila-soria-c6",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-extensibila-soria-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "canapea-soria-studio-1",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "canapea-extensibila-soria-c5",
+        "ro": "Albastru regal",
+        "en": "Royal blue"
+      },
+      {
+        "src": "canapea-extensibila-soria-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-extensibila-soria-c4",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "canapea-extensibila-soria-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "canapea-spring": [
+      {
+        "src": "canapea-spring-c2",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-spring-c5",
+        "ro": "Roz pudră",
+        "en": "Powder pink"
+      },
+      {
+        "src": "canapea-spring-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-spring-c3",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "canapea-spring-c4",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "pat-fantezie": [
+      {
+        "src": "pat-fantezie-c2",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "pat-fantezie-c4",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "pat-fantezie-c1",
+        "ro": "Coniac",
+        "en": "Cognac"
+      },
+      {
+        "src": "pat-fantezie-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-fantezie-c6",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-fantezie-c7",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "pat-fantezie-c5",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "pat-king": [
+      {
+        "src": "pat-king-c1",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "pat-king-c5",
+        "ro": "Crem",
+        "en": "Cream"
+      },
+      {
+        "src": "pat-king-c6",
+        "ro": "Coniac",
+        "en": "Cognac"
+      },
+      {
+        "src": "pat-king-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-king-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "pat-king-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "pat-linear": [
+      {
+        "src": "pat-linear-c3",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "pat-linear-c1",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "pat-linear-studio-1",
+        "ro": "Verde salvie",
+        "en": "Sage"
+      },
+      {
+        "src": "pat-linear-c6",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-linear-c4",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-linear-c5",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-linear-c2",
+        "ro": "Antracit",
+        "en": "Charcoal"
+      }
+    ],
+    "pat-loris": [
+      {
+        "src": "pat-loris-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "pat-loris-studio-1",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "pat-loris-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-loris-c4",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-loris-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-loris-c6",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "pat-loris-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "canapea-mini-aldo": [
+      {
+        "src": "canapea-mini-aldo-studio-1",
+        "ro": "Alb",
+        "en": "White"
+      },
+      {
+        "src": "canapea-mini-aldo-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-mini-aldo-c4",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "canapea-mini-aldo-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-mini-aldo-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-mini-aldo-c6",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "canapea-mini-aldo-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
     ]
   },
   "views": {
@@ -738,6 +1116,151 @@
         "ro": "Vedere laterală",
         "en": "Side view",
         "in": "coltar-linear-c1"
+      }
+    ],
+    "canapea-bella": [
+      {
+        "src": "canapea-bella-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "canapea-bella-studio-1"
+      },
+      {
+        "src": "canapea-bella-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view",
+        "in": "canapea-bella-studio-1"
+      }
+    ],
+    "canapea-sonia-extensibila": [
+      {
+        "src": "canapea-sonia-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "canapea-sonia-studio-1"
+      },
+      {
+        "src": "canapea-sonia-studio-3",
+        "ro": "Deschisă, pat",
+        "en": "Opened as a bed",
+        "in": "canapea-sonia-studio-1"
+      },
+      {
+        "src": "canapea-sonia-studio-4",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "canapea-sonia-studio-1"
+      }
+    ],
+    "canapea-extensibila-soria": [
+      {
+        "src": "canapea-soria-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "canapea-soria-studio-1"
+      },
+      {
+        "src": "canapea-soria-studio-4",
+        "ro": "Vedere laterală",
+        "en": "Side view",
+        "in": "canapea-soria-studio-1"
+      },
+      {
+        "src": "canapea-soria-studio-5",
+        "ro": "Deschisă, pat",
+        "en": "Opened as a bed",
+        "in": "canapea-soria-studio-1"
+      },
+      {
+        "src": "canapea-soria-studio-3",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "canapea-soria-studio-1"
+      }
+    ],
+    "canapea-spring": [
+      {
+        "src": "canapea-spring-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "canapea-spring-c2"
+      },
+      {
+        "src": "canapea-spring-studio-3",
+        "ro": "Deschisă, pat",
+        "en": "Opened as a bed",
+        "in": "canapea-spring-c2"
+      },
+      {
+        "src": "canapea-spring-studio-4",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "canapea-spring-c2"
+      }
+    ],
+    "pat-fantezie": [
+      {
+        "src": "pat-fantezie-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "pat-fantezie-studio-2",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      },
+      {
+        "src": "pat-fantezie-studio-3",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box"
+      }
+    ],
+    "pat-king": [
+      {
+        "src": "pat-king-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-king-c1"
+      },
+      {
+        "src": "pat-king-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view",
+        "in": "pat-king-c1"
+      },
+      {
+        "src": "pat-king-studio-4",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "pat-king-c1"
+      }
+    ],
+    "pat-linear": [
+      {
+        "src": "pat-linear-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-linear-studio-1"
+      },
+      {
+        "src": "pat-linear-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view",
+        "in": "pat-linear-studio-1"
+      },
+      {
+        "src": "pat-linear-studio-4",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "pat-linear-studio-1"
+      }
+    ],
+    "pat-loris": [
+      {
+        "src": "pat-loris-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-loris-studio-1"
       }
     ]
   },
@@ -939,6 +1462,61 @@
     "taburet-inima-1",
     "taburet-rotund-1",
     "tabureti-2",
-    "tabureti-3"
+    "tabureti-3",
+    "canapea-bella-c2",
+    "canapea-bella-c3",
+    "canapea-bella-c1",
+    "canapea-bella-c4",
+    "canapea-bella-c5",
+    "canapea-bella-c6",
+    "canapea-sonia-extensibila-c1",
+    "canapea-sonia-extensibila-c3",
+    "canapea-sonia-extensibila-c6",
+    "canapea-sonia-extensibila-c5",
+    "canapea-sonia-extensibila-c4",
+    "canapea-sonia-extensibila-c2",
+    "canapea-extensibila-soria-c6",
+    "canapea-extensibila-soria-c1",
+    "canapea-extensibila-soria-c5",
+    "canapea-extensibila-soria-c2",
+    "canapea-extensibila-soria-c4",
+    "canapea-extensibila-soria-c3",
+    "canapea-spring-c2",
+    "canapea-spring-c5",
+    "canapea-spring-c1",
+    "canapea-spring-c3",
+    "canapea-spring-c4",
+    "pat-fantezie-c2",
+    "pat-fantezie-c4",
+    "pat-fantezie-c1",
+    "pat-fantezie-c3",
+    "pat-fantezie-c6",
+    "pat-fantezie-c7",
+    "pat-fantezie-c5",
+    "pat-king-c5",
+    "pat-king-c1",
+    "pat-king-c6",
+    "pat-king-c2",
+    "pat-king-c4",
+    "pat-king-c3",
+    "pat-linear-c3",
+    "pat-linear-c1",
+    "pat-linear-c6",
+    "pat-linear-c4",
+    "pat-linear-c5",
+    "pat-linear-c2",
+    "pat-loris-c1",
+    "pat-loris-c2",
+    "pat-loris-c4",
+    "pat-loris-c5",
+    "pat-loris-c6",
+    "pat-loris-c3",
+    "canapea-mini-aldo-studio-1",
+    "canapea-mini-aldo-c1",
+    "canapea-mini-aldo-c4",
+    "canapea-mini-aldo-c2",
+    "canapea-mini-aldo-c5",
+    "canapea-mini-aldo-c6",
+    "canapea-mini-aldo-c3"
   ]
 }
