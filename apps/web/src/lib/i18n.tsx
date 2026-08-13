@@ -146,6 +146,9 @@ const ro = {
   'piece.textileNote': 'Nuanțele sunt fotografiate, nu simulate. Paleta completă se vede în showroom.',
   'piece.options': 'nuanțe',
   'piece.gallery': 'Galerie',
+  'piece.detail': 'În detaliu',
+  'piece.shotIn': 'Fotografiat în',
+  'piece.views': 'vederi',
 
   'collection.lede.sectionals':
     'Colțare modulare, cu ladă de depozitare și extensie de dormit. Piesa care organizează un living întreg.',
@@ -313,6 +316,9 @@ const en: Record<keyof typeof ro, string> = {
   'piece.textileNote': 'Shades are photographed, not simulated. The full range is in the showroom.',
   'piece.options': 'shades',
   'piece.gallery': 'Gallery',
+  'piece.detail': 'In detail',
+  'piece.shotIn': 'Photographed in',
+  'piece.views': 'views',
 
   'collection.lede.sectionals':
     'Modular sectionals with storage and a sleeping extension. The piece that organises a whole living room.',

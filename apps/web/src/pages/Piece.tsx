@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
+import clsx from 'clsx'
 import { Img } from '~/components/Img'
 import { TextilePicker } from '~/components/TextilePicker'
 import { Schematic } from '~/components/Schematic'
@@ -57,22 +58,28 @@ export function PiecePage() {
   const variantSrcs = new Set(variants.map((v) => v.src))
   const selected = variants[Math.min(textile, variants.length - 1)]
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
-  // Below the lead image sit the other views of the piece — the angle, the
-  // side, the sofa opened out, the storage box lifted — captioned, and only the
-  // ones shot in the selected colour. The whole page then changes together with
-  // the picker instead of showing one piece in four colours at once. Pieces
-  // without curated views keep whatever is left once the colour shots are out.
+  // The other views of the piece — the angle, the side, the sofa opened out,
+  // the storage box lifted. They are the atelier's record of the model, not the
+  // visitor's configuration, so the set never moves: the lead image is the only
+  // photograph the picker touches. Nothing here reads `selected`, deliberately.
   const bySrc = new Map(images.map((img) => [img.src, img]))
-  const curated: Frame[] = (detail?.views ?? []).flatMap((view) => {
-    if (view.in && selected && view.in !== selected.src) return []
-    const img = bySrc.get(view.src)
-    return img && img.src !== cover.src ? [{ view, img }] : []
-  })
-  const gallery: Frame[] = detail?.views?.length
-    ? curated
+  const frames: Frame[] = detail?.views?.length
+    ? detail.views.flatMap((view) => {
+        const img = bySrc.get(view.src)
+        return img ? [{ view, img }] : []
+      })
     : images
-        .filter((img) => img.src !== cover.src && !variantSrcs.has(img.src))
+        .filter((img) => img.src !== images[0].src && !variantSrcs.has(img.src))
         .map((img) => ({ view: null, img }))
+
+  // Each view exists in the one colour it was shot in. Where they share it —
+  // true of every model but Pat Cubic — the colour is credited once, at the
+  // head of the section, rather than repeated under each frame like an excuse.
+  const toneOf = (src?: string) =>
+    src ? variants.find((variant) => variant.src === src)?.tone[lang] : undefined
+  const tones = frames.map((frame) => toneOf(frame.view?.in))
+  const oneTone = tones.length > 0 && tones.every((tone) => tone && tone === tones[0])
+  const solo = frames.length === 1
   const siblings = related(piece)
   const paragraphs = (detail?.body ?? '')
     .split('\n')
@@ -132,31 +139,6 @@ export function PiecePage() {
             </div>
           </RevealImage>
 
-          {gallery.length > 0 && (
-            <div className="mt-6 grid grid-cols-2 gap-6">
-              {gallery.map(({ view, img }, i) => {
-                const label = view ? (lang === 'ro' ? view.ro : view.en) : null
-                return (
-                  <figure
-                    key={img.src}
-                    className={i === 0 && gallery.length % 2 === 1 ? 'col-span-2' : ''}
-                  >
-                    <RevealImage>
-                      <Img
-                        img={img}
-                        alt={label ? `${piece.name} — ${label}` : `${piece.name} — ${i + 2}`}
-                        sizes="(max-width: 768px) 46vw, 32vw"
-                        className="aspect-[4/3] w-full"
-                      />
-                    </RevealImage>
-                    {label && (
-                      <figcaption className="eyebrow mt-3 opacity-45">{label}</figcaption>
-                    )}
-                  </figure>
-                )
-              })}
-            </div>
-          )}
         </div>
 
         {/* -------------------------------------------------------- spec -- */}
@@ -223,6 +205,74 @@ export function PiecePage() {
           </div>
         </aside>
       </section>
+
+      {/* ------------------------------------------------------ in detail -- */}
+      {frames.length > 0 && (
+        <section className="gutter mt-16 border-t border-ink/12 pt-14 md:mt-24 md:pt-20">
+          {/* Above the rule is the piece as you would order it. Below it, the
+              record of the model — photographed once, in one cloth. */}
+          <div className="flex items-baseline justify-between gap-4">
+            <Eyebrow>{frames[0].view ? t('piece.detail') : t('piece.gallery')}</Eyebrow>
+            {frames[0].view && (
+              <p className="eyebrow tabular-nums opacity-35">
+                {oneTone
+                  ? `${t('piece.shotIn')} ${tones[0]}`
+                  : `${String(frames.length).padStart(2, '0')} ${t('piece.views')}`}
+              </p>
+            )}
+          </div>
+
+          <div
+            className={clsx(
+              'mt-10 grid gap-10 sm:gap-6',
+              solo ? 'md:grid-cols-12' : 'grid-cols-1 sm:grid-cols-2',
+            )}
+          >
+            {frames.map(({ view, img }, i) => {
+              const label = view ? (lang === 'ro' ? view.ro : view.en) : null
+              // Credited per frame only where the section cannot credit them all
+              // at once — Pat Cubic, whose details exist in two cloths.
+              const tone = oneTone ? undefined : tones[i]
+              const wide = !solo && i === 0 && frames.length % 2 === 1
+              return (
+                <figure
+                  key={img.src}
+                  className={clsx(
+                    solo && 'md:col-span-8 md:col-start-3',
+                    wide && 'sm:col-span-2',
+                  )}
+                >
+                  <RevealImage>
+                    <Img
+                      img={img}
+                      alt={[piece.name, label ?? `${i + 2}`, tone].filter(Boolean).join(' — ')}
+                      sizes={
+                        solo
+                          ? '(max-width: 768px) 100vw, 62vw'
+                          : wide
+                            ? '(max-width: 640px) 100vw, 92vw'
+                            : '(max-width: 640px) 100vw, 46vw'
+                      }
+                      className="aspect-[4/3] w-full"
+                    />
+                  </RevealImage>
+                  {label && (
+                    <figcaption className="eyebrow mt-3">
+                      <span className="opacity-60">{label}</span>
+                      {tone && (
+                        <>
+                          <span className="mx-2 opacity-30">·</span>
+                          <span className="opacity-40">{tone}</span>
+                        </>
+                      )}
+                    </figcaption>
+                  )}
+                </figure>
+              )
+            })}
+          </div>
+        </section>
+      )}
 
       {/* ---------------------------------------------------- description -- */}
       {paragraphs.length > 0 && (

@@ -664,16 +664,16 @@
         "in": "pat-cubiq-studio-1"
       },
       {
-        "src": "pat-cubiq-studio-4",
-        "ro": "Detaliu colț",
-        "en": "Corner detail",
-        "in": "pat-cubiq-studio-1"
-      },
-      {
         "src": "pat-cubic-detail-1",
         "ro": "Detaliu tăblie",
         "en": "Headboard detail",
         "in": "pat-cubic-c1"
+      },
+      {
+        "src": "pat-cubiq-studio-4",
+        "ro": "Detaliu colț",
+        "en": "Corner detail",
+        "in": "pat-cubiq-studio-1"
       },
       {
         "src": "pat-cubic-detail-2",
