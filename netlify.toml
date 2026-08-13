@@ -36,3 +36,12 @@
   for = "/media/*"
   [headers.values]
     cache-control = "public, max-age=604800, stale-while-revalidate=86400"
+
+# Catalogue detail, fetched when a piece is opened. The filename is the slug, so
+# a re-shot piece keeps it — and a week of cache meant a deploy that changed the
+# photography did not reach anyone who had opened the page before. These are a
+# few kilobytes each: revalidate every time and let the ETag answer.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    cache-control = "public, max-age=0, must-revalidate"
