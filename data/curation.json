@@ -223,8 +223,8 @@
       "canapea-soria-studio-3"
     ],
     "canapea-mini-aldo": [
-      "canapea-mini-aldo-studio-1",
       "canapea-mini-aldo-c1",
+      "canapea-mini-aldo-studio-1",
       "canapea-mini-aldo-c4",
       "canapea-mini-aldo-c2",
       "canapea-mini-aldo-c5",
@@ -942,14 +942,14 @@
     ],
     "canapea-mini-aldo": [
       {
-        "src": "canapea-mini-aldo-studio-1",
-        "ro": "Alb",
-        "en": "White"
-      },
-      {
         "src": "canapea-mini-aldo-c1",
         "ro": "Bej",
         "en": "Beige"
+      },
+      {
+        "src": "canapea-mini-aldo-studio-1",
+        "ro": "Alb",
+        "en": "White"
       },
       {
         "src": "canapea-mini-aldo-c4",
