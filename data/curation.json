@@ -230,6 +230,41 @@
       "canapea-mini-aldo-c5",
       "canapea-mini-aldo-c6",
       "canapea-mini-aldo-c3"
+    ],
+    "coltar-extensibil-eco": [
+      "coltar-extensibil-eco-studio-1",
+      "coltar-extensibil-eco-studio-2",
+      "coltar-extensibil-eco-studio-3"
+    ],
+    "canapea-ela": [
+      "canapea-ela-studio-1",
+      "canapea-ela-studio-2",
+      "canapea-ela-studio-3"
+    ],
+    "modul-cubiq": [
+      "modul-cubiq-studio-1",
+      "modul-cubiq-studio-2",
+      "modul-cubiq-studio-3"
+    ],
+    "pat-geometry": [
+      "pat-geometry-studio-1",
+      "pat-geometry-studio-2",
+      "pat-geometry-studio-3"
+    ],
+    "pat-miraj": [
+      "pat-miraj-studio-1",
+      "pat-miraj-studio-2",
+      "pat-miraj-studio-3"
+    ],
+    "pat-panouri-dreptunghiulare": [
+      "pat-panouri-dreptunghiulare-studio-1",
+      "pat-panouri-dreptunghiulare-studio-2",
+      "pat-panouri-dreptunghiulare-studio-3"
+    ],
+    "pat-sun": [
+      "pat-sun-studio-1",
+      "pat-sun-studio-2",
+      "pat-sun-studio-3"
     ]
   },
   "products": {
@@ -290,6 +325,16 @@
       "name": "Canapea mini Aldo",
       "collection": "sofas",
       "price": null
+    },
+    "modul-cubiq": {
+      "name": "Modul Cubiq",
+      "collection": "sectionals",
+      "price": 5200
+    },
+    "pat-geometry": {
+      "name": "Pat Geometry",
+      "collection": "beds",
+      "price": 3400
     }
   },
   "exclude": {
@@ -1284,6 +1329,90 @@
         "en": "Three-quarter",
         "in": "pat-loris-studio-1"
       }
+    ],
+    "coltar-extensibil-eco": [
+      {
+        "src": "coltar-extensibil-eco-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "coltar-extensibil-eco-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      }
+    ],
+    "canapea-ela": [
+      {
+        "src": "canapea-ela-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "canapea-ela-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      }
+    ],
+    "modul-cubiq": [
+      {
+        "src": "modul-cubiq-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "modul-cubiq-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      }
+    ],
+    "pat-geometry": [
+      {
+        "src": "pat-geometry-studio-2",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      },
+      {
+        "src": "pat-geometry-studio-3",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box"
+      }
+    ],
+    "pat-miraj": [
+      {
+        "src": "pat-miraj-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "pat-miraj-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      }
+    ],
+    "pat-panouri-dreptunghiulare": [
+      {
+        "src": "pat-panouri-dreptunghiulare-studio-2",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-studio-3",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      }
+    ],
+    "pat-sun": [
+      {
+        "src": "pat-sun-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box"
+      },
+      {
+        "src": "pat-sun-studio-3",
+        "ro": "Vedere laterală",
+        "en": "Side view"
+      }
     ]
   },
   "covers": {
@@ -1539,6 +1668,27 @@
     "canapea-mini-aldo-c2",
     "canapea-mini-aldo-c5",
     "canapea-mini-aldo-c6",
-    "canapea-mini-aldo-c3"
+    "canapea-mini-aldo-c3",
+    "coltar-extensibil-eco-studio-1",
+    "coltar-extensibil-eco-studio-2",
+    "coltar-extensibil-eco-studio-3",
+    "canapea-ela-studio-1",
+    "canapea-ela-studio-2",
+    "canapea-ela-studio-3",
+    "modul-cubiq-studio-1",
+    "modul-cubiq-studio-2",
+    "modul-cubiq-studio-3",
+    "pat-geometry-studio-1",
+    "pat-geometry-studio-2",
+    "pat-geometry-studio-3",
+    "pat-miraj-studio-1",
+    "pat-miraj-studio-2",
+    "pat-miraj-studio-3",
+    "pat-panouri-dreptunghiulare-studio-1",
+    "pat-panouri-dreptunghiulare-studio-2",
+    "pat-panouri-dreptunghiulare-studio-3",
+    "pat-sun-studio-1",
+    "pat-sun-studio-2",
+    "pat-sun-studio-3"
   ]
 }

@@ -6,7 +6,7 @@
       "id": "sectionals",
       "ro": "Colțare",
       "en": "Sectionals",
-      "count": 12,
+      "count": 13,
       "cover": {
         "src": "coltar-sam-1",
         "w": 1536,
@@ -66,7 +66,7 @@
       "id": "beds",
       "ro": "Paturi",
       "en": "Beds",
-      "count": 18,
+      "count": 19,
       "cover": {
         "src": "pat-matrimonial-1",
         "w": 1536,
@@ -1039,80 +1039,72 @@
       ],
       "images": [
         {
-          "src": "coltar-extensibil-eco-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JYwC06B5uG+Yb8CxNzwAA/reEZkIGpDX97ye3yDusVLkZLIKVa87u5B2Y3Z2n4riWoRwZkdK3eytuGq/tKIQeAAA=",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "coltar-extensibil-eco-2",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JYwCsMoACAC3NjxPlbGDYXAAA/gqayAl21Pw4CJDd9Nhno5iCKq1t2W38nuB87j3lDl04A5ajBJp8l4uuKAAA",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "coltar-extensibil-eco-3",
-          "w": 2560,
-          "h": 1709,
+          "src": "coltar-extensibil-eco-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
             2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JZwAAW+RlYWYBcWlPfKwA/sljP0J6X6ZJmXg+kPfJD4qy+bo+5sGdjiUernfva1kTrAXzECaznUjgzWAOFCU1LQAAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-extensibil-eco-4",
-          "w": 800,
-          "h": 415,
+          "src": "coltar-extensibil-eco-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAAoAPu1iqU2ppaQiMAgBMB2JZgCdMoADTuLsU6oMriT1YAD+8jRULjbdQT1nvrXUbf/bWbxj364G8uvCRUuHYQIrWMYQiFvYVwjz6kEAAA==",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "coltar-extensibil-eco-5",
-          "w": 1100,
-          "h": 625,
-          "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPu1oqk6ppiQiMAgBMB2JZQAASoWecsT/xVBXwAD+uCtQXa8VTaykWmiVgOiLeP/oivApfEXmu/Cuv9f+ZdAIigAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAW+vdPt+Q5diSsgAA/vNu+/2CRgsrv/i56z0vMW6ONfftlp8WkBCB91QAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+sCjfNuYhpAAP7za8jlXxOmZdEUfdbaJ9jAxvGQELnXgAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-extensibil-eco/",
       "cover": {
-        "src": "coltar-extensibil-eco-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-extensibil-eco-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA0APu1krU2ppaSiMAgBMB2JYwC06B5uG+Yb8CxNzwAA/reEZkIGpDX97ye3yDusVLkZLIKVa87u5B2Y3Z2n4riWoRwZkdK3eytuGq/tKIQeAAA=",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false
+      "editorial": true,
+      "views": [
+        {
+          "src": "coltar-extensibil-eco-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ]
     },
     {
       "id": 7088,
@@ -1377,80 +1369,72 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-panouri-dreptunghiulare-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-panouri-dreptunghiulare-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoAC8hOE0lwdCHi0AAD+CVdC+Yzt5qou58R/NyMStMb1xnZVxnjBYGcYB6mm+hBbagdXnvnwAAA=",
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "pat-panouri-dreptunghiulare-2",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-panouri-dreptunghiulare-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBACdASoUABsAPu1oqk8ppiOiKA1RMB2JYwDE2HTF4upl4cHXsigY1GVvbAAA/Ju1sxfVC3YkmKGpP1uxXln/6M47VtS9TCEzFo3g/Fbwla4tAPOGjSGeFbrhow5jKKxi3vIcjBQChmPFqnc+DvjffhguMS2c/tlAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+i+p0pg8NCAAP7xzW+jajRuiqrjN8a/gAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-panouri-dreptunghiulare-3",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-panouri-dreptunghiulare-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABsAPu1or1AppaSiqAqpMB2JZQDCgDTvlsElhU2CC9Rk3DuAlYxx2AD+kBBMJVg5vOX6dmMG7bFDZpPQkTUKtfI46jTuvlMctXUtQ85lJA3IKbDyiSUmrHoyw4AvwAA=",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-4",
-          "w": 1536,
-          "h": 2048,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBQCdASoUABsAPu1oqlAppaOiqA1RMB2JZQDDzQSFEXfN/U8WrsG7miMdv9fhuqqlX5IAAP6xg8R8jj5jNC/aLxxcT5ULGyOgYPwyIKP04xAieaon9j9zayAIDgp3yHT/M/58b/C+xgS9B+ZlSQvOuKv2v3dO0sAeCSoAAAA=",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-5",
-          "w": 1536,
-          "h": 2048,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBQCdASoUABsAPu1oq08ppiOiMBgIATAdiWMAuwApe2MG1ktwNi+DuZF6H4SRh67EYAD8qyiCWIowX867SNIxxfuLa3e1Bv3c2Y5WJ10MG59QNaqlw1+kb5HMO/irkch4ur3cu3JUFkZ+/lgS5knOxPYx1gAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1iqk4ppaQiMAgBMB2JaQAAW+m0hSHIuAAA/vInO/rTw2fMZWFyHZdhtUQAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-panouri-dreptunghiulare/",
       "cover": {
-        "src": "pat-panouri-dreptunghiulare-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-panouri-dreptunghiulare-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoAC8hOE0lwdCHi0AAD+CVdC+Yzt5qou58R/NyMStMb1xnZVxnjBYGcYB6mm+hBbagdXnvnwAAA=",
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-3",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        }
+      ]
     },
     {
       "id": 6996,
@@ -1468,80 +1452,72 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-sun-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-sun-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdLwABrTvL2XMNuCwl0cAA/QBc5wk8VTuswq2NGKUEnfVEFekNVmgfqMNHi1cC1Vfv9jmdU+EzUUtUaSN1DQAAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaAC7AB4VnJLWR2CvGgAA/vOB8u2IQX8IU7v7dYwGEsF6SN7/ciJAMYzSfZsxzcZN20CyYqt/4AAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-sun-2",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-sun-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBQCdASoUABsAPu1oqk2ppiQiMAgBMB2JYgDHLUAA5HRE/GFAax9DMTrjRS6qjr0EAS3gAP5WpGYQuhL73izGn6eNgPLUu6yfpgNbDGI4HwPCbXZKqiYfkX8AH7kke2lkCroCLBqTYC8riMuhUItCRPrBaQAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZgC7AB6QZ1Yj5aQAAP7zgndvJPbwB5yyHxPDZJwzQEYs1EeiieoAAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-sun-3",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-sun-studio-3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBQCdASoUABsAPuVep02pJSOiN/VYASAciWQAtwFAAFrGawUxo2BXcLv8DrJ5YMuOwAD4srw/UAA50iQFLpcnv698vYGvfYnv8CU2qE+4wCU58vOe7I+qCUZleu8YhSYG+8dWOG0gL0yyFItjYSTT45AjrdQVNbt2IAAA",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-sun-4",
-          "w": 1536,
-          "h": 2048,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBQCdASoUABsAPu1mqU4ppaOiMAgBMB2JYgCxHvZ7KCSdclvo8LKr0CyENWtlCzlQ6QAAAPxlnNhiTcz6ICcgvB4eesaRYHWEyvxXKyHu0pJJTvBAKbdrf+LMetirh4lbDy9aZHkAR/ud7AbHeHvJHQKj4D/saSXAAA==",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "pat-sun-5",
-          "w": 1536,
-          "h": 2048,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBQCdASoUABsAPu1arE2ppKSiMBgMATAdiUAXZlBlUwO678fr4uQscTmZmZhJFTK4YSPs2YAA/lbz4IYXAYe8XwBf1ryGmYHll1sTAnYO+LrSheCCqOTCfDkrUrcAXM/KKqFZ9PnSYvot2IukuUBB0AvPJiEsW8jO9ouAAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JaAC7ACHEjTVjNl9tm2gA/vNwGE9qewhVAb80YuTJMGMbHIhsNIdo10lyVnDfsgAAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-sun/",
       "cover": {
-        "src": "pat-sun-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-sun-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdLwABrTvL2XMNuCwl0cAA/QBc5wk8VTuswq2NGKUEnfVEFekNVmgfqMNHi1cC1Vfv9jmdU+EzUUtUaSN1DQAAAA==",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaAC7AB4VnJLWR2CvGgAA/vOB8u2IQX8IU7v7dYwGEsF6SN7/ciJAMYzSfZsxzcZN20CyYqt/4AAA",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-sun-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box"
+        },
+        {
+          "src": "pat-sun-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ]
     },
     {
       "id": 6746,
@@ -3302,44 +3278,72 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-miraj-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-miraj-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZwC7ABY+eVpBeBXPQAD+2E4trfTrLmlgj0SzswSlqMPDrkqYdSmbiGYBO229IbS5oS0vAAA=",
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAUHINQdyWNh0AAP7ze30GPG3VT2VXGyAkNj0h7EA8nP2Dr+4GuK6In1L9Rp8VPbqzQ/SAAAAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "pat-miraj-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-miraj-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APu1kqk4ppaQiMAgBMB2JZwCnFBuJqkYPwFVNDYAA/uJCe+XhPDJ18X/2B0eECjXCh2JoBVWCBvF2/Gp3rqhk7xAAAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JaQAAWXj5ZOLkhjgAAP7zfgH/rVARpyE/5ETU6aAcHtAk0G5/29/4xCHHdG/QliW1EBhnLGg6wAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-miraj-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JaQAAW9vKtrXHMWdIAAD+83H69c1YfA1HvN1D6t0VP0EX+IK21GgIFP7Ry0c0JvVAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-miraj/",
       "cover": {
-        "src": "pat-miraj-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-miraj-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1mq04ppaQiMAgBMB2JZwC7ABY+eVpBeBXPQAD+2E4trfTrLmlgj0SzswSlqMPDrkqYdSmbiGYBO229IbS5oS0vAAA=",
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAUHINQdyWNh0AAP7ze30GPG3VT2VXGyAkNj0h7EA8nP2Dr+4GuK6In1L9Rp8VPbqzQ/SAAAAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-miraj-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "pat-miraj-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ]
     },
     {
       "id": 6770,
@@ -3571,32 +3575,72 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-ela-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "canapea-ela-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+s26HAcAAD+82ncvBbmDVKAAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAwCdASoUAA8APu1kqU4ppaOiMAgBMB2JaQAAW+sgR9WhzQAA/vNr+L+qHkkxSAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+pdWnM4AAD+835VZf8d27NcIAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-ela/",
       "cover": {
-        "src": "canapea-ela-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "canapea-ela-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+s26HAcAAD+82ncvBbmDVKAAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "views": [
+        {
+          "src": "canapea-ela-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "canapea-ela-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ]
     },
     {
       "id": 6727,
@@ -6225,6 +6269,168 @@
             "ro": "Ciocolată",
             "en": "Chocolate"
           }
+        }
+      ]
+    },
+    {
+      "id": "valo-modul-cubiq",
+      "slug": "modul-cubiq",
+      "name": "Modul Cubiq",
+      "collection": "sectionals",
+      "collections": [],
+      "price": 5200,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "modul-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+s6wVYAAP7zady8F+GWT7HYAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA8APu1kqU2ppaOiMAgBMB2JaQAAW+wEiqYhgAD+82uhRudhZX6dAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAwCdASoUAA8APu1kqU4ppaOiMAgBMB2JaQAAW+swc0i23/gAAP7zbvIXKeJ/+PoFoAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "modul-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+s6wVYAAP7zady8F+GWT7HYAAA=",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "views": [
+        {
+          "src": "modul-cubiq-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "modul-cubiq-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ]
+    },
+    {
+      "id": "valo-pat-geometry",
+      "slug": "pat-geometry",
+      "name": "Pat Geometry",
+      "collection": "beds",
+      "collections": [],
+      "price": 3400,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "pat-geometry-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAUqL+iVW21kgAAP7ze3yt0VjfBvH/pEav2YXDiIJOmYBia+85N3QLsAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-geometry-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+vmPvcAnteZgAD+8277+4Ll75cgl5ZuJPzfbtbnYbccvDafevUw3tdtIhAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-geometry-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAwCdASoUAA8APu1kqU2ppaOiMAgBMB2JZwAAUp/r/Hl4AP7zgrHvPyWc1/BmxGCvpmZivu65dAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "pat-geometry-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAUqL+iVW21kgAAP7ze3yt0VjfBvH/pEav2YXDiIJOmYBia+85N3QLsAAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-geometry-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        },
+        {
+          "src": "pat-geometry-studio-3",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box"
         }
       ]
     }
