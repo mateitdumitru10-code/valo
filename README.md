@@ -94,11 +94,9 @@ The playhead is eased toward the scroll position in a rAF loop (`CHASE`) rather
 than assigned on every scroll event — queuing seeks faster than the decoder
 retires them is what makes naive scrubbing stutter.
 
-The current footage is portrait (720×1280). On desktop it is shown whole rather
-than blown up to fill a landscape frame, and the space either side is filled by a
-32px canvas that the same rAF loop paints from the same decoder, blurred and
-darkened by CSS — an ambient fill that costs no second decode. Phones, being
-portrait themselves, just use `object-cover`.
+The footage is landscape (1280×720) and fills the frame with `object-cover` at
+every width. An earlier portrait clip needed an ambient canvas fill either side
+of it; that clip and that code are both gone.
 
 ### Encoding the clip
 
@@ -110,11 +108,18 @@ instantly, so problems only appear once it is served over a network.
   report a duration or seek, so it downloads the whole clip first: a black hero
   and a dead scrub until it finishes.
 - **A short GOP.** Seeking decodes forward from the nearest keyframe, so sparse
-  keyframes make scrubbing lag. `-g 6` puts one every quarter second. All-intra
-  (`-g 1`) is smoother still but doubled the file here for no visible gain.
+  keyframes make scrubbing lag. `-g 6` puts one every eighth of a second at the
+  clip's 48fps. All-intra (`-g 1`) is smoother still but doubled the file here
+  for no visible gain.
+- **Frames, not seconds.** Scrub resolution is the frame count, not the running
+  time. The 6s export was compressed to 3s by `setpts` with `-r 48` rather than
+  trimmed, so all 145 frames survive: the camera move still runs end to end, and
+  the scroll simply covers it in half the timeline.
 
 ```bash
-ffmpeg -i source.mp4 -an -c:v libx264 -crf 20 -preset slow \
+# 6.048s of source into 3s, every frame kept: 145 / 3 ≈ 48fps
+ffmpeg -i source.mp4 -an -vf "setpts=(3/6.048)*PTS" -r 48 \
+  -c:v libx264 -crf 23 -preset slow \
   -g 6 -keyint_min 6 -sc_threshold 0 -pix_fmt yuv420p -movflags +faststart \
   apps/web/public/media/hero.mp4
 
@@ -123,7 +128,9 @@ ffmpeg -i apps/web/public/media/hero.mp4 -vf "select=eq(n\,0)" -vframes 1 poster
 ```
 
 Dropping the audio track (`-an`) is free — the hero is muted by definition.
-The current clip is 3.1 MB, down from 9.2 MB as exported.
+The current clip is 1.7 MB and 3.0 seconds, from a 9.2 MB export. Encode from
+that export rather than from the shipped file: a second pass over an encode
+costs about 40% more bytes at the same `crf` for no more picture.
 
 ## Type and palette
 
