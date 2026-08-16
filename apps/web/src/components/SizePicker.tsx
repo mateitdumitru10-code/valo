@@ -1,26 +1,34 @@
 import { motion } from 'motion/react'
 import clsx from 'clsx'
+import type { Size } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 import { expo } from '~/lib/motion'
 
 type Props = {
-  sizes: number[]
-  active: number
-  onSelect: (size: number) => void
+  sizes: Size[]
+  active: Size
+  onSelect: (size: Size) => void
 }
 
+/** The dial's long side on screen. The bed's length never changes; its width does. */
+const LENGTH_PX = 168
+
 /**
- * Width selector for a bed. Abstract on purpose: a photograph of a 160 next to
- * a photograph of a 180 tells you nothing, because both are shot to fill the
- * same frame. A measured line does — the bar is drawn at the true fraction of
- * the widest size offered, so a 140 really is seven tenths of a 200 on screen.
+ * Mattress size, shown as a dial rather than as a list.
  *
- * Same restraint as the colour picker: no boxes, no shadows, hairlines only,
- * and the value itself set large in the display face.
+ * The plate is the mattress seen from above, drawn at its true proportion: the
+ * length holds still and the width opens, so 140 × 200 stands at seven tenths
+ * of 200 × 200 on screen. Photography cannot carry this — every bed is shot to
+ * fill the same frame — so the drawing is the only honest place the difference
+ * can live.
+ *
+ * Hairline outline, no fill, the figure set inside in the display face. Same
+ * restraint as the colour picker: no boxes, no shadows, no rounded corners.
  */
 export function SizePicker({ sizes, active, onSelect }: Props) {
   const { t } = useI18n()
-  const widest = Math.max(...sizes)
+  const [width, length] = active
+  const longest = Math.max(...sizes.map(([, l]) => l))
 
   return (
     <section aria-label={t('piece.size')}>
@@ -33,46 +41,51 @@ export function SizePicker({ sizes, active, onSelect }: Props) {
 
       <div className="mt-3 h-px w-full bg-ink/12" />
 
-      <p className="mt-4 flex items-baseline gap-2">
-        <span className="font-display text-4xl leading-none tabular-nums">{active}</span>
-        <span className="eyebrow opacity-40">{t('piece.sizeUnit')}</span>
-      </p>
-
-      {/* The measure. The track is the widest size offered; the bar is the one
-          selected, at its true proportion of it. */}
-      <div className="mt-5 h-px w-full bg-ink/12">
+      {/* The dial. Height is fixed to the longest length offered, so a shorter
+          mattress would read shorter too; only the width animates today. */}
+      <div className="mt-7 flex justify-center">
         <motion.div
-          className="h-px origin-left bg-ink"
+          className="relative border border-ink/25"
           initial={false}
-          animate={{ scaleX: active / widest }}
+          animate={{
+            width: (width / longest) * LENGTH_PX,
+            height: (length / longest) * LENGTH_PX,
+          }}
           transition={{ duration: 0.7, ease: expo }}
-        />
+        >
+          <span className="absolute inset-0 flex flex-col items-center justify-center gap-1">
+            <span className="font-display text-xl leading-none tabular-nums whitespace-nowrap">
+              {width} × {length}
+            </span>
+            <span className="eyebrow opacity-40">{t('piece.sizeUnit')}</span>
+          </span>
+        </motion.div>
       </div>
 
-      <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
-        {sizes.map((size) => {
-          const selected = size === active
+      <ul className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-3">
+        {sizes.map(([w, l]) => {
+          const selected = w === width && l === length
           return (
-            <li key={size}>
+            <li key={`${w}x${l}`}>
               <button
                 type="button"
-                onClick={() => onSelect(size)}
+                onClick={() => onSelect([w, l])}
                 aria-pressed={selected}
                 className={clsx(
-                  'font-display text-lg tabular-nums transition-opacity duration-300',
+                  'font-display text-base tabular-nums whitespace-nowrap transition-opacity duration-300',
                   selected
                     ? 'opacity-100 underline underline-offset-[6px]'
                     : 'opacity-35 hover:opacity-70',
                 )}
               >
-                {size}
+                {w} × {l}
               </button>
             </li>
           )
         })}
       </ul>
 
-      <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">{t('piece.sizeNote')}</p>
+      <p className="mt-6 max-w-xs text-xs leading-relaxed opacity-40">{t('piece.sizeNote')}</p>
     </section>
   )
 }

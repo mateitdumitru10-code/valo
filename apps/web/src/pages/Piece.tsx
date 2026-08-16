@@ -15,6 +15,7 @@ import {
   category,
   collection,
   collectionName,
+  type Size,
   formatPrice,
   loadPiece,
   related,
@@ -32,7 +33,7 @@ export function PiecePage() {
   const { t, lang } = useI18n()
   const piece = bySlug(slug)
   const [textile, setTextile] = useState(0)
-  const [size, setSize] = useState<number | null>(null)
+  const [size, setSize] = useState<Size | null>(null)
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
   // here. The cover comes from the index, so the page has an image to show
   // from the first frame.
@@ -66,7 +67,7 @@ export function PiecePage() {
   // Beds are offered in several widths. Nothing is preselected in state, so the
   // narrowest stands as the default until the visitor says otherwise.
   const sizes = detail?.sizes ?? []
-  const chosenSize = size ?? sizes[0] ?? 0
+  const chosenSize = size ?? sizes[0] ?? [0, 0]
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
   // The other views of the piece — the angle, the side, the sofa opened out,
   // the storage box lifted. They are the atelier's record of the model, not the
@@ -233,7 +234,7 @@ export function PiecePage() {
             <div className="mt-8">
               <ArrowLink
                 to={`/contact?piece=${encodeURIComponent(piece.name)}${
-                  sizes.length > 1 ? `&size=${chosenSize}` : ''
+                  sizes.length > 1 ? `&size=${chosenSize[0]}x${chosenSize[1]}` : ''
                 }`}
               >
                 {t('common.enquire')}

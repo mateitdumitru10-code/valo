@@ -58,6 +58,9 @@ export type Collection = {
 
 export type Dimension = { w: number; d: number; h: number }
 
+/** A mattress size, [width, length] in centimetres. */
+export type Size = [number, number]
+
 /** The workshop's dimensioned plan drawing, processed to ink on transparent. */
 export type Schematic = {
   src: string
@@ -121,8 +124,8 @@ export type PieceDetail = {
   source: string
   variants?: Variant[]
   views?: View[]
-  /** Mattress widths in cm this piece is offered in. Beds only, today. */
-  sizes?: number[]
+  /** Mattress sizes this piece is offered in. Beds only, today. */
+  sizes?: Size[]
   schematic?: Schematic
 }
 
