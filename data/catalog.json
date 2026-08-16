@@ -1039,6 +1039,45 @@
       ],
       "images": [
         {
+          "src": "coltar-extensibil-eco-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+tJoQhty94pHAAA/vNu+/1W6gPujxBi8+5WKNvZTzc89H1YV1SCcSA4AAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDImCHfsykPGTtvmugAAP7zbvv9gkYKdWva3lv7EvTLTsjb3KxAJ6Gx7ffb+UDkAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-extensibil-eco-studio-1",
           "w": 2000,
           "h": 1500,
@@ -1048,6 +1087,19 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAW+sSwvD4wVgaYAD+8277/YJGAeOXdZMu60yTc3bVlBpvAyINbMQpfoAA",
           "editorial": true,
           "studio": true
         },
@@ -1080,7 +1132,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/coltar-extensibil-eco/",
       "cover": {
-        "src": "coltar-extensibil-eco-studio-1",
+        "src": "coltar-extensibil-eco-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -1088,7 +1140,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
         "editorial": true,
         "studio": true
       },
@@ -1103,6 +1155,53 @@
           "src": "coltar-extensibil-eco-studio-3",
           "ro": "Vedere laterală",
           "en": "Side view"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-extensibil-eco-c1",
+          "chip": "/media/coltar-extensibil-eco-c1-700.webp",
+          "swatch": "#ae9988",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c2",
+          "chip": "/media/coltar-extensibil-eco-c2-700.webp",
+          "swatch": "#37331c",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c4",
+          "chip": "/media/coltar-extensibil-eco-c4-700.webp",
+          "swatch": "#1b2c47",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-1",
+          "chip": "/media/coltar-extensibil-eco-studio-1-700.webp",
+          "swatch": "#353434",
+          "tone": {
+            "ro": "Antracit",
+            "en": "Charcoal"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c3",
+          "chip": "/media/coltar-extensibil-eco-c3-700.webp",
+          "swatch": "#2f221a",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
         }
       ]
     },
@@ -1382,6 +1481,84 @@
           "studio": true
         },
         {
+          "src": "pat-panouri-dreptunghiulare-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDE2B6R4R2gUbnHOcgAAP7zgri9d6UJeBgtgaPlw2Ao33CZTyqgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQC7AB6R4nrmhOvIenAA/vOC0GVwVbwA6LKiWktmDPLvQAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQBACdASoUAA8APu1orU6ppiSiMAgBMB2JYwC7AB6R4R/ZCU1pkhIKAAD+84KAKDwVT+jDXZYMevqe5aLJHD0Ih5hEAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaAAAUqU3r33Y8JcBJAAA/vOB8uyCK320pX27hYM58+wOfpekABtw62BfFkysvSA0lQFKnwAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZQAAUz70ice8zMI1OZAA/vN/nzxDfZsmVEa4LQj/hh8trs8cwkXO32Rfa+yHjCVjYA36AAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAUz6A2+JGuXQAAP7zgZvrMVV1EAqe9EDRDmN0Ge8P7cD+1r6fXMY/7AXFYWWbHKiaakfYAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-panouri-dreptunghiulare-studio-2",
           "w": 2000,
           "h": 1500,
@@ -1434,6 +1611,71 @@
           "ro": "Trei sferturi",
           "en": "Three-quarter"
         }
+      ],
+      "variants": [
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-1",
+          "chip": "/media/pat-panouri-dreptunghiulare-studio-1-700.webp",
+          "swatch": "#afaba8",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c6",
+          "chip": "/media/pat-panouri-dreptunghiulare-c6-700.webp",
+          "swatch": "#a99283",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c3",
+          "chip": "/media/pat-panouri-dreptunghiulare-c3-700.webp",
+          "swatch": "#cca29c",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c5",
+          "chip": "/media/pat-panouri-dreptunghiulare-c5-700.webp",
+          "swatch": "#b47d65",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c2",
+          "chip": "/media/pat-panouri-dreptunghiulare-c2-700.webp",
+          "swatch": "#ad791d",
+          "tone": {
+            "ro": "Muștar",
+            "en": "Mustard"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c1",
+          "chip": "/media/pat-panouri-dreptunghiulare-c1-700.webp",
+          "swatch": "#19434d",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c4",
+          "chip": "/media/pat-panouri-dreptunghiulare-c4-700.webp",
+          "swatch": "#3c1f2c",
+          "tone": {
+            "ro": "Prună",
+            "en": "Plum"
+          }
+        }
       ]
     },
     {
@@ -1452,6 +1694,45 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-sun-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC7AB6PjZnjn9fxgAD+84J2QpideMDHie6uEq43ZyA1oQgPMsAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-sun-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JYwAAUqQphlW4HAAA/vOCtIuHBnIk9a/KXsfRlDlwBQug90DyHvvwAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-sun-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JQBdgA9HZ+7g4D4zgAP7zgfLsj5dRydCFvNnpse6UlpqGD2FT8E6hATB4eSH3zEH7QAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-sun-studio-1",
           "w": 2000,
           "h": 1500,
@@ -1461,6 +1742,45 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaAC7AB4VnJLWR2CvGgAA/vOB8u2IQX8IU7v7dYwGEsF6SN7/ciJAMYzSfZsxzcZN20CyYqt/4AAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-sun-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUkyauoCJDHAA/vOCW+AXguQIHqpephxEOBftp30/QpmpjzXQvtD+Y34oxkfoh5+ZS/rrHAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-sun-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDCgB6PVHffjGTehgAA/vOBnBISnirVla+a/VRi4g8ymV1v1im6rLSkcHwg+2Bj3upJuE7Jo7aAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-sun-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAUVYr/fGLIMQAAP7zgqrfgPzatYpC+mv8VGfBCIpSKtd1BU9yOBQGV+93VqghsCAIkNJsrWAA",
           "editorial": true,
           "studio": true
         },
@@ -1493,7 +1813,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/pat-sun/",
       "cover": {
-        "src": "pat-sun-studio-1",
+        "src": "pat-sun-c2",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -1501,7 +1821,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaAC7AB4VnJLWR2CvGgAA/vOB8u2IQX8IU7v7dYwGEsF6SN7/ciJAMYzSfZsxzcZN20CyYqt/4AAA",
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC7AB6PjZnjn9fxgAD+84J2QpideMDHie6uEq43ZyA1oQgPMsAA",
         "editorial": true,
         "studio": true
       },
@@ -1516,6 +1836,71 @@
           "src": "pat-sun-studio-3",
           "ro": "Vedere laterală",
           "en": "Side view"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-sun-c2",
+          "chip": "/media/pat-sun-c2-700.webp",
+          "swatch": "#ae9d87",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "pat-sun-c4",
+          "chip": "/media/pat-sun-c4-700.webp",
+          "swatch": "#cd9b94",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "pat-sun-c5",
+          "chip": "/media/pat-sun-c5-700.webp",
+          "swatch": "#a36a54",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-sun-studio-1",
+          "chip": "/media/pat-sun-studio-1-700.webp",
+          "swatch": "#a37b2c",
+          "tone": {
+            "ro": "Muștar",
+            "en": "Mustard"
+          }
+        },
+        {
+          "src": "pat-sun-c1",
+          "chip": "/media/pat-sun-c1-700.webp",
+          "swatch": "#2f311c",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-sun-c6",
+          "chip": "/media/pat-sun-c6-700.webp",
+          "swatch": "#163946",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "pat-sun-c3",
+          "chip": "/media/pat-sun-c3-700.webp",
+          "swatch": "#231811",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
         }
       ]
     },
@@ -3278,6 +3663,58 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-miraj-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDCgB6WicFNHG0EgA18AP7zgrUTauNC2EQuBm1AZctJnQwRk6r7K5TbInsr9AAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-miraj-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCw7B6WvW2tx7a3AjUOgAD+84KBGAr3Q560BRAiwIJRQMtxyC1OIjW217n7eeAY8oTPcnD6RAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-miraj-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAUiAvOh656tAA/vN3SwGElMJS69mmg9ULWTJLDnwrzty7uxsr9IV83Zuh+9BXO2iElGcuUOfYAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-miraj-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZwAAUrdQ/AHlBLiCAAD+83dLFeorNILjDHudlKGlFMPh/c1M2kA9vo6adOCqQX72TkyweIEOErCL0cAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-miraj-studio-1",
           "w": 2000,
           "h": 1500,
@@ -3319,7 +3756,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/pat-miraj/",
       "cover": {
-        "src": "pat-miraj-studio-1",
+        "src": "pat-miraj-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -3327,7 +3764,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAUHINQdyWNh0AAP7ze30GPG3VT2VXGyAkNj0h7EA8nP2Dr+4GuK6In1L9Rp8VPbqzQ/SAAAAA",
+        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDCgB6WicFNHG0EgA18AP7zgrUTauNC2EQuBm1AZctJnQwRk6r7K5TbInsr9AAAAA==",
         "editorial": true,
         "studio": true
       },
@@ -3342,6 +3779,53 @@
           "src": "pat-miraj-studio-3",
           "ro": "Vedere laterală",
           "en": "Side view"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-miraj-c1",
+          "chip": "/media/pat-miraj-c1-700.webp",
+          "swatch": "#947f70",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "pat-miraj-c4",
+          "chip": "/media/pat-miraj-c4-700.webp",
+          "swatch": "#9a4b34",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-miraj-c2",
+          "chip": "/media/pat-miraj-c2-700.webp",
+          "swatch": "#2f2f19",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-miraj-c3",
+          "chip": "/media/pat-miraj-c3-700.webp",
+          "swatch": "#201610",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-miraj-studio-1",
+          "chip": "/media/pat-miraj-studio-1-700.webp",
+          "swatch": "#303030",
+          "tone": {
+            "ro": "Grafit",
+            "en": "Graphite"
+          }
         }
       ]
     },
@@ -3588,6 +4072,84 @@
           "studio": true
         },
         {
+          "src": "canapea-ela-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc62Adg9YHfgAA/vNryMpVFzS7NOdND8IdKBQAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc62C0Fs8ussAA/vNrxeUNMM0luth6zZECC3Bl4AAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBjehDv57sg2HU0cOAD+82vuRH2SkcKi7SE8aJrSIcJjo2TZ04uAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+t/J8CgmKqbAAD+82v8nXaF7TtVoBmH8dbgEz/bJbvi2w5MmQkqpAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDE2CHfq/sMYqndgAD+826vc9LTGfXw+8PvZhfZ2tph7qlKP7ytkuVZJFPegAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-ela-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwDDNCHfq/sMYq2ErAD+826vc9LS8T6YRUaL3GUkx2ZJM/e6v2MKYhcA8dszD9Rv8AAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "canapea-ela-studio-2",
           "w": 2000,
           "h": 1500,
@@ -3639,6 +4201,71 @@
           "src": "canapea-ela-studio-3",
           "ro": "Vedere laterală",
           "en": "Side view"
+        }
+      ],
+      "variants": [
+        {
+          "src": "canapea-ela-studio-1",
+          "chip": "/media/canapea-ela-studio-1-700.webp",
+          "swatch": "#bebab5",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "canapea-ela-c2",
+          "chip": "/media/canapea-ela-c2-700.webp",
+          "swatch": "#ae9a87",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-ela-c6",
+          "chip": "/media/canapea-ela-c6-700.webp",
+          "swatch": "#bf9894",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "canapea-ela-c5",
+          "chip": "/media/canapea-ela-c5-700.webp",
+          "swatch": "#976c46",
+          "tone": {
+            "ro": "Camel",
+            "en": "Camel"
+          }
+        },
+        {
+          "src": "canapea-ela-c1",
+          "chip": "/media/canapea-ela-c1-700.webp",
+          "swatch": "#37341d",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-ela-c3",
+          "chip": "/media/canapea-ela-c3-700.webp",
+          "swatch": "#1c2d49",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "canapea-ela-c4",
+          "chip": "/media/canapea-ela-c4-700.webp",
+          "swatch": "#4a171b",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
         }
       ]
     },
@@ -6299,6 +6926,84 @@
           "studio": true
         },
         {
+          "src": "modul-cubiq-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwAAW+tdIphU1Gj+AAD+82vF5SCIC7UochVA2YIAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZQAAW+tfuXhp+xYkwAD+82vF5QtWjGKXK0lQEAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JYgDE2CHfoUGtycL/IAD+82v5S1kJpTKf1As+81ber00PUy66TrqdYFWq2X1lTKsAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+uDZOAlXJzXAAD+82676Wh4GMY2RjDcHhrIhdrZS+7iptSU/2m4GooAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQDImCHf3XUvi83bUz8AAP7zbsz2EixavniYF/ZShsEXAJRNAnsIcX2chejytKAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "modul-cubiq-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAW+zdubU768CmAAD+82778AGWoTi3C2pYoczRpc4NlUQN7Goovu44IJjBLPQoAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "modul-cubiq-studio-2",
           "w": 2000,
           "h": 1500,
@@ -6351,6 +7056,71 @@
           "ro": "Vedere laterală",
           "en": "Side view"
         }
+      ],
+      "variants": [
+        {
+          "src": "modul-cubiq-studio-1",
+          "chip": "/media/modul-cubiq-studio-1-700.webp",
+          "swatch": "#b1b1b3",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "modul-cubiq-c1",
+          "chip": "/media/modul-cubiq-c1-700.webp",
+          "swatch": "#9a8a7a",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "modul-cubiq-c2",
+          "chip": "/media/modul-cubiq-c2-700.webp",
+          "swatch": "#b28987",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "modul-cubiq-c6",
+          "chip": "/media/modul-cubiq-c6-700.webp",
+          "swatch": "#803520",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "modul-cubiq-c5",
+          "chip": "/media/modul-cubiq-c5-700.webp",
+          "swatch": "#2c2e19",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "modul-cubiq-c4",
+          "chip": "/media/modul-cubiq-c4-700.webp",
+          "swatch": "#0a1a31",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "modul-cubiq-c3",
+          "chip": "/media/modul-cubiq-c3-700.webp",
+          "swatch": "#300f14",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        }
       ]
     },
     {
@@ -6367,6 +7137,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "pat-geometry-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwDE2B7Hee8ZWQgAAP7zgri9dZ/z6xxJGyUGhUnfYzTQSdgAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "pat-geometry-studio-1",
           "w": 2000,
           "h": 1500,
@@ -6376,6 +7159,45 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAUqL+iVW21kgAAP7ze3yt0VjfBvH/pEav2YXDiIJOmYBia+85N3QLsAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-geometry-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAUz6AwoYrxXAAAP7zf588Q32ZvECwmTZCH2ZpvfGz7eHXiFUooRdPpFDMmJ52sMfh8oAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-geometry-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JZQAAUz6A2+JIZq9oAAD+84Gb6zFXD/Y4+F/MOvYblCLD80N9EG7ZC8dmY8Y++y/cZoJrpgAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-geometry-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYwAAUqRT53VeK4kgAP7zgZvrMVcPxnaZTxy0a0KmWsUCnivMI8EsCDJUQBQQSX2GfS6oOiAOccAA",
           "editorial": true,
           "studio": true
         },
@@ -6408,7 +7230,7 @@
       ],
       "source": "",
       "cover": {
-        "src": "pat-geometry-studio-1",
+        "src": "pat-geometry-c3",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -6416,7 +7238,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAUqL+iVW21kgAAP7ze3yt0VjfBvH/pEav2YXDiIJOmYBia+85N3QLsAAA",
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwDE2B7Hee8ZWQgAAP7zgri9dZ/z6xxJGyUGhUnfYzTQSdgAAA==",
         "editorial": true,
         "studio": true
       },
@@ -6431,6 +7253,53 @@
           "src": "pat-geometry-studio-3",
           "ro": "Ladă de depozitare",
           "en": "Storage box"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-geometry-c3",
+          "chip": "/media/pat-geometry-c3-700.webp",
+          "swatch": "#a49585",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "pat-geometry-studio-1",
+          "chip": "/media/pat-geometry-studio-1-700.webp",
+          "swatch": "#555353",
+          "tone": {
+            "ro": "Gri",
+            "en": "Grey"
+          }
+        },
+        {
+          "src": "pat-geometry-c2",
+          "chip": "/media/pat-geometry-c2-700.webp",
+          "swatch": "#363521",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-geometry-c1",
+          "chip": "/media/pat-geometry-c1-700.webp",
+          "swatch": "#1a2a45",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-geometry-c4",
+          "chip": "/media/pat-geometry-c4-700.webp",
+          "swatch": "#380b12",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
         }
       ]
     }

@@ -232,37 +232,73 @@
       "canapea-mini-aldo-c3"
     ],
     "coltar-extensibil-eco": [
+      "coltar-extensibil-eco-c1",
+      "coltar-extensibil-eco-c2",
+      "coltar-extensibil-eco-c4",
       "coltar-extensibil-eco-studio-1",
+      "coltar-extensibil-eco-c3",
       "coltar-extensibil-eco-studio-2",
       "coltar-extensibil-eco-studio-3"
     ],
     "canapea-ela": [
       "canapea-ela-studio-1",
+      "canapea-ela-c2",
+      "canapea-ela-c6",
+      "canapea-ela-c5",
+      "canapea-ela-c1",
+      "canapea-ela-c3",
+      "canapea-ela-c4",
       "canapea-ela-studio-2",
       "canapea-ela-studio-3"
     ],
     "modul-cubiq": [
       "modul-cubiq-studio-1",
+      "modul-cubiq-c1",
+      "modul-cubiq-c2",
+      "modul-cubiq-c6",
+      "modul-cubiq-c5",
+      "modul-cubiq-c4",
+      "modul-cubiq-c3",
       "modul-cubiq-studio-2",
       "modul-cubiq-studio-3"
     ],
     "pat-geometry": [
+      "pat-geometry-c3",
       "pat-geometry-studio-1",
+      "pat-geometry-c2",
+      "pat-geometry-c1",
+      "pat-geometry-c4",
       "pat-geometry-studio-2",
       "pat-geometry-studio-3"
     ],
     "pat-miraj": [
+      "pat-miraj-c1",
+      "pat-miraj-c4",
+      "pat-miraj-c2",
+      "pat-miraj-c3",
       "pat-miraj-studio-1",
       "pat-miraj-studio-2",
       "pat-miraj-studio-3"
     ],
     "pat-panouri-dreptunghiulare": [
       "pat-panouri-dreptunghiulare-studio-1",
+      "pat-panouri-dreptunghiulare-c6",
+      "pat-panouri-dreptunghiulare-c3",
+      "pat-panouri-dreptunghiulare-c5",
+      "pat-panouri-dreptunghiulare-c2",
+      "pat-panouri-dreptunghiulare-c1",
+      "pat-panouri-dreptunghiulare-c4",
       "pat-panouri-dreptunghiulare-studio-2",
       "pat-panouri-dreptunghiulare-studio-3"
     ],
     "pat-sun": [
+      "pat-sun-c2",
+      "pat-sun-c4",
+      "pat-sun-c5",
       "pat-sun-studio-1",
+      "pat-sun-c1",
+      "pat-sun-c6",
+      "pat-sun-c3",
       "pat-sun-studio-2",
       "pat-sun-studio-3"
     ]
@@ -407,7 +443,7 @@
     }
   },
   "variants": {
-    "_note": "The same piece photographed in another colour. Names are the ones read off the photographs, not derived from an average pixel — averaging called terracotta burgundy and olive mustard. Add a slug here and rerun scripts/swatches.mjs to give that piece a colour picker.",
+    "_note": "The same piece photographed in another colour. Names are the ones read off the photographs, not derived from an average pixel — averaging called terracotta burgundy and olive mustard. Add a slug here and rerun scripts/swatches.mjs to give that piece a colour picker. An entry may also state its own `swatch` hex, for the head-on bed shots where the mattress fills the band the sampler reads.",
     "canapea-extensibila-aldo": [
       {
         "src": "canapea-extensibila-aldo-c1",
@@ -1040,6 +1076,237 @@
       },
       {
         "src": "canapea-mini-aldo-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "coltar-extensibil-eco": [
+      {
+        "src": "coltar-extensibil-eco-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-extensibil-eco-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-extensibil-eco-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-extensibil-eco-studio-1",
+        "ro": "Antracit",
+        "en": "Charcoal"
+      },
+      {
+        "src": "coltar-extensibil-eco-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      }
+    ],
+    "canapea-ela": [
+      {
+        "src": "canapea-ela-studio-1",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "canapea-ela-c2",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "canapea-ela-c6",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "canapea-ela-c5",
+        "ro": "Camel",
+        "en": "Camel"
+      },
+      {
+        "src": "canapea-ela-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-ela-c3",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "canapea-ela-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "modul-cubiq": [
+      {
+        "src": "modul-cubiq-studio-1",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "modul-cubiq-c1",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "modul-cubiq-c2",
+        "ro": "Roz pudră",
+        "en": "Powder pink"
+      },
+      {
+        "src": "modul-cubiq-c6",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "modul-cubiq-c5",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "modul-cubiq-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "modul-cubiq-c3",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "pat-geometry": [
+      {
+        "src": "pat-geometry-c3",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "pat-geometry-studio-1",
+        "ro": "Gri",
+        "en": "Grey"
+      },
+      {
+        "src": "pat-geometry-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-geometry-c1",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-geometry-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "pat-miraj": [
+      {
+        "src": "pat-miraj-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "pat-miraj-c4",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-miraj-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-miraj-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-miraj-studio-1",
+        "ro": "Grafit",
+        "en": "Graphite"
+      }
+    ],
+    "pat-panouri-dreptunghiulare": [
+      {
+        "src": "pat-panouri-dreptunghiulare-studio-1",
+        "ro": "Gri deschis",
+        "en": "Light grey",
+        "swatch": "#afaba8"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c6",
+        "ro": "Taupe",
+        "en": "Taupe",
+        "swatch": "#a99283"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c3",
+        "ro": "Roz pudră",
+        "en": "Powder pink"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c5",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c2",
+        "ro": "Muștar",
+        "en": "Mustard"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c1",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "pat-panouri-dreptunghiulare-c4",
+        "ro": "Prună",
+        "en": "Plum"
+      }
+    ],
+    "pat-sun": [
+      {
+        "src": "pat-sun-c2",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "pat-sun-c4",
+        "ro": "Roz pudră",
+        "en": "Powder pink"
+      },
+      {
+        "src": "pat-sun-c5",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "pat-sun-studio-1",
+        "ro": "Muștar",
+        "en": "Mustard"
+      },
+      {
+        "src": "pat-sun-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-sun-c6",
+        "ro": "Petrol",
+        "en": "Teal"
+      },
+      {
+        "src": "pat-sun-c3",
         "ro": "Ciocolată",
         "en": "Chocolate"
       }
@@ -1689,6 +1956,42 @@
     "pat-panouri-dreptunghiulare-studio-3",
     "pat-sun-studio-1",
     "pat-sun-studio-2",
-    "pat-sun-studio-3"
+    "pat-sun-studio-3",
+    "coltar-extensibil-eco-c1",
+    "coltar-extensibil-eco-c2",
+    "coltar-extensibil-eco-c4",
+    "coltar-extensibil-eco-c3",
+    "canapea-ela-c2",
+    "canapea-ela-c6",
+    "canapea-ela-c5",
+    "canapea-ela-c1",
+    "canapea-ela-c3",
+    "canapea-ela-c4",
+    "modul-cubiq-c1",
+    "modul-cubiq-c2",
+    "modul-cubiq-c6",
+    "modul-cubiq-c5",
+    "modul-cubiq-c4",
+    "modul-cubiq-c3",
+    "pat-geometry-c3",
+    "pat-geometry-c2",
+    "pat-geometry-c1",
+    "pat-geometry-c4",
+    "pat-miraj-c1",
+    "pat-miraj-c4",
+    "pat-miraj-c2",
+    "pat-miraj-c3",
+    "pat-panouri-dreptunghiulare-c6",
+    "pat-panouri-dreptunghiulare-c3",
+    "pat-panouri-dreptunghiulare-c5",
+    "pat-panouri-dreptunghiulare-c2",
+    "pat-panouri-dreptunghiulare-c1",
+    "pat-panouri-dreptunghiulare-c4",
+    "pat-sun-c2",
+    "pat-sun-c4",
+    "pat-sun-c5",
+    "pat-sun-c1",
+    "pat-sun-c6",
+    "pat-sun-c3"
   ]
 }

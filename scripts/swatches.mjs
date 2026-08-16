@@ -149,7 +149,11 @@ if (only) {
       const name = typeof entry === 'string' ? entry : entry.src
       const file = await source(name)
       if (!file) continue
-      const swatch = await swatchOf(file)
+      // It may also state its own chip colour. The middle band is the piece in
+      // every shot but one shape: a bed photographed head-on puts a white
+      // mattress across exactly that band, so the palest fabrics came back as
+      // the bedding rather than the upholstery.
+      const swatch = (typeof entry === 'object' && entry.swatch) || (await swatchOf(file))
       product.variants.push({
         src: name,
         // The swatch is the piece itself in that colour — a crop of cloth says
