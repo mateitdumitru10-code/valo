@@ -115,12 +115,13 @@ export function PiecePage() {
             made the two compete. The price is a specification, so it now sits
             with the rest of them. */}
         <header className="mt-10">
-          {range ? (
+          {/* Only where there is a collection to name. Most of the catalogue
+              belongs to none, and a generic "Piesă" standing where other pages
+              say "Colecția Aldo" reads as a field nobody filled in. */}
+          {range && (
             <Link to={`/colectii/${range.id}`} className="eyebrow opacity-45 hover:opacity-100">
               {t('piece.collectionOf')} {collectionName(range.id)}
             </Link>
-          ) : (
-            <p className="eyebrow opacity-45">{t('piece.eyebrow')}</p>
           )}
           <h1 className="display-xl mt-5">
             <RevealLines lines={[piece.name]} />

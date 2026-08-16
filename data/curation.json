@@ -376,6 +376,45 @@
       "name": "Pat Geometry",
       "price": 3400,
       "category": "beds"
+    },
+    "coltar-aldo": {
+      "name": "Colțar Aldo"
+    },
+    "coltar-bela": {
+      "name": "Colțar Bela"
+    },
+    "coltar-eco-2": {
+      "name": "Colțar Eco 2"
+    },
+    "coltar-sam": {
+      "name": "Colțar Sam"
+    },
+    "coltar-soria": {
+      "name": "Colțar Soria"
+    },
+    "coltar-torro": {
+      "name": "Colțar Torro"
+    },
+    "coltar-cubic-fix": {
+      "name": "Colțar Cubic fix"
+    },
+    "coltar-extensibil-eco": {
+      "name": "Colțar extensibil Eco"
+    },
+    "coltar-soria-in-forma-de-u": {
+      "name": "Colțar Soria în formă de U"
+    },
+    "canapea-extensibila-aldo": {
+      "name": "Canapea extensibilă Aldo"
+    },
+    "fotoliu-king": {
+      "name": "Fotoliu King"
+    },
+    "pat-panouri-dreptunghiulare": {
+      "name": "Pat panouri dreptunghiulare"
+    },
+    "pat-panouri-verticale": {
+      "name": "Pat panouri verticale"
     }
   },
   "exclude": {
