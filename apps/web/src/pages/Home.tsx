@@ -29,6 +29,9 @@ const CRAFT = [1, 2, 3, 4] as const
 const CRAFT_IMAGE_A = 'coltar-sam'
 const CRAFT_IMAGE_B = 'pat-matrimonial'
 
+/** The four pairs of hands a sectional passes through, in order. */
+const HANDS = [1, 2, 3, 4] as const
+
 export function Home() {
   const { t, lang } = useI18n()
   const craftA = bySlug(CRAFT_IMAGE_A) ?? featured[0]
@@ -63,14 +66,57 @@ export function Home() {
             <p className="max-w-3xl font-display text-[clamp(1.5rem,3.1vw,2.75rem)] leading-[1.18]">
               <RevealLines lines={splitToLines(t('manifesto.body'), 4)} />
             </p>
-            <Reveal delay={1} className="mt-10 flex flex-wrap items-center gap-8">
-              <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
-              <p className="eyebrow opacity-45">
-                {pieces.length} {t('common.pieces')}
+            <Reveal delay={1}>
+              <p className="mt-10 max-w-md text-sm leading-relaxed opacity-60">
+                {t('manifesto.hands.lead')}
               </p>
             </Reveal>
           </div>
         </div>
+
+        {/* The claim above is a promise; these four are the only evidence the
+            site can give for it without photographs of the bench.
+
+            Set across rather than down, deliberately. Section 04 is already a
+            numbered list of four making steps read top to bottom, and a second
+            one here would have put the same device twice on one page. Read
+            left to right the order is still legible, the hands land as one
+            band instead of four rows, and the collections index below keeps
+            its place on the first screen. */}
+        <ol className="mt-16 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-ink/12 pt-8 md:mt-24 md:grid-cols-4 md:pt-10">
+          {HANDS.map((n, i) => (
+            <Reveal as="li" key={n} delay={i}>
+              <span className="eyebrow block opacity-30 tabular-nums">
+                {String(n).padStart(2, '0')}
+              </span>
+              <p className="eyebrow mt-4 opacity-55">{t(`manifesto.hand.${n}.role` as Key)}</p>
+              <p className="mt-2 font-display text-[clamp(1.1rem,1.9vw,1.6rem)] leading-[1.2]">
+                {t(`manifesto.hand.${n}.act` as Key)}
+              </p>
+            </Reveal>
+          ))}
+        </ol>
+
+        <div className="mt-14 grid grid-cols-12 gap-x-6 border-t border-ink/12 pt-10">
+          {/* The same line the atelier page closes on, quoted the same way. A
+              house line earns its keep by recurring, so it is read from one
+              key and never retyped. Roman, not italic: the variable Bodoni is
+              loaded without an italic face, so `italic` would only get a faux
+              oblique, and shearing a didone's hairlines looks like a mistake. */}
+          <blockquote className="col-span-12 md:col-span-7 md:col-start-5">
+            <p className="font-display text-[clamp(1.15rem,2.2vw,1.9rem)] leading-[1.25] opacity-70">
+              {`„${t('story.quote')}”`}
+            </p>
+          </blockquote>
+        </div>
+
+        <Reveal delay={1} className="mt-12 flex flex-wrap items-center gap-8">
+          <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
+          <p className="eyebrow opacity-45 tabular-nums">
+            {pieces.length} {t('common.pieces')} · {collections.length}{' '}
+            {t('common.collections')}
+          </p>
+        </Reveal>
       </section>
 
       {/* ------------------------------------------------- collections ---- */}

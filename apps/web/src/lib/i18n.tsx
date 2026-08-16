@@ -36,6 +36,7 @@ const ro = {
   'common.viewPiece': 'Vezi piesa',
   'common.scroll': 'Derulează',
   'common.index': 'Index',
+  'common.collections': 'colecții',
   'common.next': 'Următoarea',
   'common.loading': 'Se încarcă',
 
@@ -54,6 +55,16 @@ const ro = {
   'manifesto.body':
     'Vallo este brațul de distribuție al Samobi. Aceleași hale, aceiași tapițeri, același lemn — dar un catalog editat: colțare, canapele, paturi și fotolii alese pentru case unde mobila rămâne zece ani, nu două sezoane.',
   'manifesto.pull': 'Distribuim ceea ce se produce la doi pași de noi.',
+  'manifesto.hands.lead':
+    'Un colțar trece prin patru perechi de mâini înainte să plece din Vadu Săpat.',
+  'manifesto.hand.1.role': 'Tâmplarul',
+  'manifesto.hand.1.act': 'Închide cadrul.',
+  'manifesto.hand.2.role': 'Croitorul',
+  'manifesto.hand.2.act': 'Așază textilul.',
+  'manifesto.hand.3.role': 'Tapițerul',
+  'manifesto.hand.3.act': 'Trage materialul peste spumă.',
+  'manifesto.hand.4.role': 'Controlul',
+  'manifesto.hand.4.act': 'Verifică cusătura înainte de ambalare.',
   'manifesto.link': 'Despre atelier',
 
   'collections.eyebrow': 'Colecții',
@@ -234,6 +245,7 @@ const en: Record<keyof typeof ro, string> = {
   'common.viewPiece': 'View piece',
   'common.scroll': 'Scroll',
   'common.index': 'Index',
+  'common.collections': 'collections',
   'common.next': 'Next',
   'common.loading': 'Loading',
 
@@ -252,6 +264,16 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.body':
     'Vallo is the distribution arm of Samobi. The same workshop, the same upholsterers, the same timber — but an edited catalogue: sectionals, sofas, beds and armchairs picked for homes where furniture stays ten years, not two seasons.',
   'manifesto.pull': 'We distribute what is made a few steps away.',
+  'manifesto.hands.lead':
+    'A sectional passes through four pairs of hands before it leaves Vadu Săpat.',
+  'manifesto.hand.1.role': 'The joiner',
+  'manifesto.hand.1.act': 'Closes the frame.',
+  'manifesto.hand.2.role': 'The cutter',
+  'manifesto.hand.2.act': 'Lays the textile.',
+  'manifesto.hand.3.role': 'The upholsterer',
+  'manifesto.hand.3.act': 'Pulls it over the foam.',
+  'manifesto.hand.4.role': 'The check',
+  'manifesto.hand.4.act': 'Checks the seam before wrapping.',
   'manifesto.link': 'About the atelier',
 
   'collections.eyebrow': 'Collections',
