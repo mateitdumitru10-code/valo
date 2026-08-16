@@ -38,7 +38,15 @@ export type Category = {
  * everywhere. Membership is listed in data/curation.json, so a piece belongs to
  * a range because it was put there, not because its name happens to match.
  */
-export type CollectionId = 'aldo' | 'cubic' | 'soria' | 'torro' | 'linear' | 'bella' | 'vallo'
+export type CollectionId =
+  | 'aldo'
+  | 'cubic'
+  | 'soria'
+  | 'torro'
+  | 'linear'
+  | 'bella'
+  | 'ela'
+  | 'vallo'
 
 export type Collection = {
   id: CollectionId

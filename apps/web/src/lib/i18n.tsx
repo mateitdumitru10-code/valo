@@ -57,7 +57,7 @@ const ro = {
   'manifesto.link': 'Despre atelier',
 
   'collections.eyebrow': 'Colecții',
-  'collections.title': 'Șapte colecții',
+  'collections.title': 'Un desen, dus mai departe',
   'collections.lede':
     'O colecție e un desen dus mai departe: același braț, același soclu, aceeași cusătură, croite pe rând ca fotoliu, colțar, modul sau pat. Se comandă o piesă sau se scrie camera întreagă în aceeași limbă.',
   'collections.hoverHint': 'Treci cu mouse-ul peste un titlu',
@@ -187,6 +187,8 @@ const ro = {
     'Linie joasă, fără ornament, cu o singură cusătură orizontală. Un colțar și un pat croite din aceeași tăietură.',
   'collection.lede.bella':
     'Brațe rotunjite și perne libere, într-un bouclé care ține forma. Deocamdată o singură piesă.',
+  'collection.lede.ela':
+    'Corp jos, cu falduri strânse pe soclu și perne libere pe toată lungimea. Deocamdată o singură canapea, în șapte nuanțe.',
   'collection.lede.vallo':
     'Spătare joase și o cusătură verticală care împarte șezutul. Deocamdată un singur colțar.',
 
@@ -253,7 +255,7 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.link': 'About the atelier',
 
   'collections.eyebrow': 'Collections',
-  'collections.title': 'Seven collections',
+  'collections.title': 'One drawing, carried further',
   'collections.lede':
     'A collection is one drawing carried further: the same arm, the same base, the same seam, cut in turn as a corner, a sofa, a module, a bed. Order a single piece, or write the whole room in one language.',
   'collections.hoverHint': 'Hover a title',
@@ -379,6 +381,8 @@ const en: Record<keyof typeof ro, string> = {
     'A low line, no ornament, a single horizontal seam. A corner and a bed cut the same way.',
   'collection.lede.bella':
     'Rounded arms and loose cushions, in a bouclé that holds its shape. One piece so far.',
+  'collection.lede.ela':
+    'A low body, gathered along the base, loose cushions its whole length. One sofa so far, in seven tones.',
   'collection.lede.vallo':
     'Low backs and a vertical seam dividing the seat. One corner so far.',
 

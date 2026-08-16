@@ -65,7 +65,9 @@ export function CollectionPage() {
 
         <dl className="grid grid-cols-2 gap-x-6 gap-y-8 self-end md:col-span-5 md:col-start-8">
           <div>
-            <dt className="eyebrow opacity-45">{t('common.pieces')}</dt>
+            <dt className="eyebrow opacity-45">
+              {t(range.count === 1 ? 'common.piece' : 'common.pieces')}
+            </dt>
             <dd className="mt-1 font-display text-2xl tabular-nums">{range.count}</dd>
           </div>
           {prices && (

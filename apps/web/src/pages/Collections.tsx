@@ -95,7 +95,9 @@ export function Collections() {
 
                   <dl className="mt-8 flex flex-wrap items-baseline gap-x-10 gap-y-3 border-t border-ink/12 pt-4">
                     <div className="flex items-baseline gap-2">
-                      <dt className="eyebrow opacity-40">{t('common.pieces')}</dt>
+                      <dt className="eyebrow opacity-40">
+                        {t(c.count === 1 ? 'common.piece' : 'common.pieces')}
+                      </dt>
                       <dd className="eyebrow tabular-nums">{String(c.count).padStart(2, '0')}</dd>
                     </div>
                     {range && (

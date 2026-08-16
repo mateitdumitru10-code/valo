@@ -34,7 +34,9 @@ export function CategoryPage() {
         </p>
         <dl className="grid grid-cols-2 gap-6 self-end md:col-span-4 md:col-start-9">
           <div>
-            <dt className="eyebrow opacity-45">{t('common.pieces')}</dt>
+            <dt className="eyebrow opacity-45">
+              {t(kind.count === 1 ? 'common.piece' : 'common.pieces')}
+            </dt>
             <dd className="mt-1 font-display text-2xl tabular-nums">{kind.count}</dd>
           </div>
           {range && (

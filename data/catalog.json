@@ -4157,7 +4157,8 @@
           }
         }
       ],
-      "category": "sofas"
+      "category": "sofas",
+      "collection": "ela"
     },
     {
       "id": 6727,
@@ -7651,6 +7652,26 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc6yEYEHfVkuAA/vNr7kR+XdhJRYrrDah9YNyQAA==",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "ela",
+      "count": 1,
+      "pieces": [
+        "canapea-ela"
+      ],
+      "cover": {
+        "src": "canapea-ela-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW+s26HAcAAD+82ncvBbmDVKAAAA=",
         "editorial": true,
         "studio": true
       }
