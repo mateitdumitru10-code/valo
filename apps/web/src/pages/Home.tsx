@@ -64,8 +64,8 @@ export function Home() {
               paragraph. The column carries the section's own particulars now —
               what the catalogue holds, where it is made, and the way through to
               the atelier — and sticks alongside while the statement is read. */}
-          <div className="md:col-span-3">
-            <div className="md:sticky md:top-28">
+          <div className="flex flex-col md:col-span-3">
+            <div>
               <Eyebrow index="01">{t('manifesto.eyebrow')}</Eyebrow>
               <Rule className="mt-6" />
               <p className="eyebrow mt-4 opacity-45 tabular-nums">
@@ -73,9 +73,13 @@ export function Home() {
                 {t('common.collections')}
               </p>
               <p className="eyebrow mt-1.5 opacity-45">{t('manifesto.origin')}</p>
-              <div className="mt-7">
-                <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
-              </div>
+            </div>
+            {/* Held to the foot of the column rather than tucked under the
+                particulars: it puts the one link in the section on the same
+                line the statement ends on, and the column reads as spanned
+                top to bottom instead of top-weighted above a void. */}
+            <div className="mt-7 md:mt-auto md:pb-1">
+              <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
             </div>
           </div>
 
