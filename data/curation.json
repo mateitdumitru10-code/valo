@@ -226,14 +226,16 @@
       "canapea-soria-studio-5",
       "canapea-soria-studio-3"
     ],
-    "canapea-mini-aldo": [
-      "canapea-mini-aldo-c1",
-      "canapea-mini-aldo-studio-1",
-      "canapea-mini-aldo-c4",
-      "canapea-mini-aldo-c2",
-      "canapea-mini-aldo-c5",
-      "canapea-mini-aldo-c6",
-      "canapea-mini-aldo-c3"
+    "modul-aldo": [
+      "modul-aldo-c1",
+      "modul-aldo-studio-1",
+      "modul-aldo-c4",
+      "modul-aldo-c2",
+      "modul-aldo-c5",
+      "modul-aldo-c6",
+      "modul-aldo-c3",
+      "modul-aldo-studio-2",
+      "modul-aldo-studio-3"
     ],
     "coltar-extensibil-eco": [
       "coltar-extensibil-eco-c1",
@@ -361,8 +363,8 @@
     "canapea-extensibila-soria": {
       "name": "Canapea Soria extensibilă"
     },
-    "canapea-mini-aldo": {
-      "name": "Canapea mini Aldo",
+    "modul-aldo": {
+      "name": "Modul Aldo",
       "collection": "sofas",
       "price": null
     },
@@ -1052,39 +1054,39 @@
         "en": "Chocolate"
       }
     ],
-    "canapea-mini-aldo": [
+    "modul-aldo": [
       {
-        "src": "canapea-mini-aldo-c1",
+        "src": "modul-aldo-c1",
         "ro": "Bej",
         "en": "Beige"
       },
       {
-        "src": "canapea-mini-aldo-studio-1",
+        "src": "modul-aldo-studio-1",
         "ro": "Alb",
         "en": "White"
       },
       {
-        "src": "canapea-mini-aldo-c4",
+        "src": "modul-aldo-c4",
         "ro": "Roz prăfuit",
         "en": "Dusty rose"
       },
       {
-        "src": "canapea-mini-aldo-c2",
+        "src": "modul-aldo-c2",
         "ro": "Verde oliv",
         "en": "Olive"
       },
       {
-        "src": "canapea-mini-aldo-c5",
+        "src": "modul-aldo-c5",
         "ro": "Bleumarin",
         "en": "Navy"
       },
       {
-        "src": "canapea-mini-aldo-c6",
+        "src": "modul-aldo-c6",
         "ro": "Bordo",
         "en": "Burgundy"
       },
       {
-        "src": "canapea-mini-aldo-c3",
+        "src": "modul-aldo-c3",
         "ro": "Ciocolată",
         "en": "Chocolate"
       }
@@ -1707,6 +1709,20 @@
         "ro": "Vedere laterală",
         "en": "Side view"
       }
+    ],
+    "modul-aldo": [
+      {
+        "src": "modul-aldo-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "modul-aldo-c2"
+      },
+      {
+        "src": "modul-aldo-studio-3",
+        "ro": "Deschis, pat",
+        "en": "Opened as a bed",
+        "in": "modul-aldo-c2"
+      }
     ]
   },
   "covers": {
@@ -1956,13 +1972,13 @@
     "pat-loris-c5",
     "pat-loris-c6",
     "pat-loris-c3",
-    "canapea-mini-aldo-studio-1",
-    "canapea-mini-aldo-c1",
-    "canapea-mini-aldo-c4",
-    "canapea-mini-aldo-c2",
-    "canapea-mini-aldo-c5",
-    "canapea-mini-aldo-c6",
-    "canapea-mini-aldo-c3",
+    "modul-aldo-studio-1",
+    "modul-aldo-c1",
+    "modul-aldo-c4",
+    "modul-aldo-c2",
+    "modul-aldo-c5",
+    "modul-aldo-c6",
+    "modul-aldo-c3",
     "coltar-extensibil-eco-studio-1",
     "coltar-extensibil-eco-studio-2",
     "coltar-extensibil-eco-studio-3",
@@ -2022,6 +2038,8 @@
     "pat-sun-c3",
     "coltar-aldo-c7",
     "coltar-aldo-studio-4",
-    "coltar-aldo-studio-5"
+    "coltar-aldo-studio-5",
+    "modul-aldo-studio-2",
+    "modul-aldo-studio-3"
   ]
 }
