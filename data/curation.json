@@ -187,8 +187,8 @@
       "canapea-spring-c3",
       "canapea-spring-c4",
       "canapea-spring-studio-2",
-      "canapea-spring-studio-3",
-      "canapea-spring-studio-4"
+      "canapea-spring-studio-6",
+      "canapea-spring-studio-5"
     ],
     "canapea-bella": [
       "canapea-bella-c2",
@@ -1548,16 +1548,16 @@
         "in": "canapea-spring-c2"
       },
       {
-        "src": "canapea-spring-studio-3",
+        "src": "canapea-spring-studio-6",
         "ro": "Deschisă, pat",
         "en": "Opened as a bed",
-        "in": "canapea-spring-c2"
+        "in": "canapea-spring-c1"
       },
       {
-        "src": "canapea-spring-studio-4",
+        "src": "canapea-spring-studio-5",
         "ro": "Ladă de depozitare",
         "en": "Storage box",
-        "in": "canapea-spring-c2"
+        "in": "canapea-spring-c1"
       }
     ],
     "pat-fantezie": [
@@ -2038,6 +2038,8 @@
     "modul-aldo-studio-2",
     "modul-aldo-studio-3",
     "pat-fantezie-studio-4",
-    "pat-fantezie-studio-5"
+    "pat-fantezie-studio-5",
+    "canapea-spring-studio-5",
+    "canapea-spring-studio-6"
   ]
 }

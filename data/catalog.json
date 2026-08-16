@@ -2973,7 +2973,7 @@
           "studio": true
         },
         {
-          "src": "canapea-spring-studio-3",
+          "src": "canapea-spring-studio-6",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2981,12 +2981,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JZwC90CHf/VKjlMAA/vNux/qSb/E6s5qfKy8OZMRV+cj2UWHOu5wA",
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAW9oS+VimausAAAD+83AIi4wbtUpzXIxhvEeZyvZMO4UvZHANCdkPbFptAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-spring-studio-4",
+          "src": "canapea-spring-studio-5",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2994,7 +2994,7 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwAAW+yxb0P+sAAA/vN1CcMQaXiIHc3Lh0POh5q0AAAA",
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwAAUqpULITC6YAA/vOCgNJb4kNpPwOkk6xSRo3OEadRlzGbzqfQ/aEaD/uJtAAAAA==",
           "editorial": true,
           "studio": true
         }
@@ -3022,16 +3022,16 @@
           "in": "canapea-spring-c2"
         },
         {
-          "src": "canapea-spring-studio-3",
+          "src": "canapea-spring-studio-6",
           "ro": "Deschisă, pat",
           "en": "Opened as a bed",
-          "in": "canapea-spring-c2"
+          "in": "canapea-spring-c1"
         },
         {
-          "src": "canapea-spring-studio-4",
+          "src": "canapea-spring-studio-5",
           "ro": "Ladă de depozitare",
           "en": "Storage box",
-          "in": "canapea-spring-c2"
+          "in": "canapea-spring-c1"
         }
       ],
       "variants": [
