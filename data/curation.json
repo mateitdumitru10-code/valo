@@ -138,9 +138,8 @@
       "pat-fantezie-c6",
       "pat-fantezie-c7",
       "pat-fantezie-c5",
-      "pat-fantezie-studio-1",
-      "pat-fantezie-studio-2",
-      "pat-fantezie-studio-3"
+      "pat-fantezie-studio-4",
+      "pat-fantezie-studio-5"
     ],
     "coltar-linear": [
       "coltar-linear-c1",
@@ -1563,19 +1562,16 @@
     ],
     "pat-fantezie": [
       {
-        "src": "pat-fantezie-studio-1",
-        "ro": "Trei sferturi",
-        "en": "Three-quarter"
-      },
-      {
-        "src": "pat-fantezie-studio-2",
+        "src": "pat-fantezie-studio-4",
         "ro": "Vedere laterală",
-        "en": "Side view"
+        "en": "Side view",
+        "in": "pat-fantezie-c7"
       },
       {
-        "src": "pat-fantezie-studio-3",
+        "src": "pat-fantezie-studio-5",
         "ro": "Ladă de depozitare",
-        "en": "Storage box"
+        "en": "Storage box",
+        "in": "pat-fantezie-c7"
       }
     ],
     "pat-king": [
@@ -2040,6 +2036,8 @@
     "coltar-aldo-studio-4",
     "coltar-aldo-studio-5",
     "modul-aldo-studio-2",
-    "modul-aldo-studio-3"
+    "modul-aldo-studio-3",
+    "pat-fantezie-studio-4",
+    "pat-fantezie-studio-5"
   ]
 }

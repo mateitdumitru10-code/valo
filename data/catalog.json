@@ -688,7 +688,7 @@
           "studio": true
         },
         {
-          "src": "pat-fantezie-studio-1",
+          "src": "pat-fantezie-studio-4",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -696,12 +696,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JQBdgBDw6IQWf3cwAAP7x20kymGGGf5dqIURJZuhmkVeuX1Wj8dJQAAA=",
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZQDKAGlf5jBOA/UejgAA/v0sTsr5QYIzzuLsXVbIjPnq3JwQlQ2t5ZOXzd4y+TqVsXBWkOlgLva0bSDwHemAAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "pat-fantezie-studio-2",
+          "src": "pat-fantezie-studio-5",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -709,20 +709,7 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAgCdASoUAA8AA4BaJZQDKAEO/gYLONe7sAAA/vitVDaNR7yVfaGvUqVksPWYSAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-fantezie-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JQAALfRj4jUX869YAAP7zfw7fYSIzTGwuG6/PKLFBWGMaoxAAAA==",
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYwDE2Bufdw0U2vBMffoAAP7zf5y2bGJUIeVvSxpBdXil+DwIb9iCiwJgnb8+7BFLJbh43vDxoAAA",
           "editorial": true,
           "studio": true
         }
@@ -744,19 +731,16 @@
       "editorial": true,
       "views": [
         {
-          "src": "pat-fantezie-studio-1",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter"
-        },
-        {
-          "src": "pat-fantezie-studio-2",
+          "src": "pat-fantezie-studio-4",
           "ro": "Vedere laterală",
-          "en": "Side view"
+          "en": "Side view",
+          "in": "pat-fantezie-c7"
         },
         {
-          "src": "pat-fantezie-studio-3",
+          "src": "pat-fantezie-studio-5",
           "ro": "Ladă de depozitare",
-          "en": "Storage box"
+          "en": "Storage box",
+          "in": "pat-fantezie-c7"
         }
       ],
       "variants": [
