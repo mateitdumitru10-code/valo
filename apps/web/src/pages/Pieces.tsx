@@ -36,7 +36,7 @@ export function Pieces() {
     <div className="pt-32 md:pt-44">
       <header className="gutter">
         <Eyebrow index="—">{t('nav.pieces')}</Eyebrow>
-        <h1 className="display-xl mt-8">
+        <h1 className="display-lg mt-8">
           <RevealLines lines={[lang === 'ro' ? 'Toate piesele' : 'Every piece']} />
         </h1>
       </header>

@@ -24,7 +24,7 @@ export function Categories() {
     <div className="pt-32 md:pt-44">
       <header className="gutter">
         <Eyebrow index="—">{t('categories.eyebrow')}</Eyebrow>
-        <h1 className="display-xl mt-8">
+        <h1 className="display-lg mt-8">
           <RevealLines lines={[t('categories.title')]} />
         </h1>
         <p className="mt-8 max-w-lg text-sm leading-relaxed opacity-65">

@@ -50,7 +50,7 @@ export function CollectionPage() {
 
         {/* The name alone. A range is sold on the name being worth carrying. */}
         <header className="mt-10">
-          <h1 className="display-xl">
+          <h1 className="display-lg">
             <RevealLines lines={[collectionName(range.id)]} />
           </h1>
         </header>

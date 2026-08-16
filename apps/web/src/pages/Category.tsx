@@ -21,7 +21,7 @@ export function CategoryPage() {
       {/* Type-led opening: the pieces below are the photography. */}
       <header className="gutter">
         <Eyebrow index="—">{t('categories.eyebrow')}</Eyebrow>
-        <h1 className="display-xl mt-8">
+        <h1 className="display-lg mt-8">
           <RevealLines lines={[lang === 'ro' ? kind.ro : kind.en]} />
         </h1>
       </header>

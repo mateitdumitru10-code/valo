@@ -18,7 +18,7 @@ export function Story() {
     <div className="pt-32 md:pt-44">
       <header className="gutter">
         <Eyebrow index="—">{t('story.eyebrow')}</Eyebrow>
-        <h1 className="display-xl mt-8 max-w-5xl">
+        <h1 className="display-lg mt-8 max-w-5xl">
           <RevealLines lines={t('story.title').split(' ').reduce(intoTwoLines, ['', ''])} />
         </h1>
       </header>
