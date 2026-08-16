@@ -55,6 +55,7 @@ const ro = {
   'manifesto.body':
     'Vallo este brațul de distribuție al Samobi. Aceleași hale, aceiași tapițeri, același lemn — dar un catalog editat: colțare, canapele, paturi și fotolii alese pentru case unde mobila rămâne zece ani, nu două sezoane.',
   'manifesto.pull': 'Distribuim ceea ce se produce la doi pași de noi.',
+  'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'Un colțar trece prin patru perechi de mâini înainte să plece din Vadu Săpat.',
   'manifesto.hand.1.role': 'Tâmplarul',
@@ -264,6 +265,7 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.body':
     'Vallo is the distribution arm of Samobi. The same workshop, the same upholsterers, the same timber — but an edited catalogue: sectionals, sofas, beds and armchairs picked for homes where furniture stays ten years, not two seasons.',
   'manifesto.pull': 'We distribute what is made a few steps away.',
+  'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'A sectional passes through four pairs of hands before it leaves Vadu Săpat.',
   'manifesto.hand.1.role': 'The joiner',

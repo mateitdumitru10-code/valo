@@ -59,10 +59,27 @@ export function Home() {
       {/* ---------------------------------------------------------------- */}
       <section id="manifesto" className="gutter py-28 md:py-40">
         <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <Eyebrow index="01">{t('manifesto.eyebrow')}</Eyebrow>
+          {/* The eyebrow used to stand alone in four columns while the
+              statement ran down beside it, which left a void the height of the
+              paragraph. The column carries the section's own particulars now —
+              what the catalogue holds, where it is made, and the way through to
+              the atelier — and sticks alongside while the statement is read. */}
+          <div className="md:col-span-3">
+            <div className="md:sticky md:top-28">
+              <Eyebrow index="01">{t('manifesto.eyebrow')}</Eyebrow>
+              <Rule className="mt-6" />
+              <p className="eyebrow mt-4 opacity-45 tabular-nums">
+                {pieces.length} {t('common.pieces')} · {collections.length}{' '}
+                {t('common.collections')}
+              </p>
+              <p className="eyebrow mt-1.5 opacity-45">{t('manifesto.origin')}</p>
+              <div className="mt-7">
+                <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
+              </div>
+            </div>
           </div>
-          <div className="md:col-span-8">
+
+          <div className="md:col-span-8 md:col-start-5">
             <p className="max-w-3xl font-display text-[clamp(1.5rem,3.1vw,2.75rem)] leading-[1.18]">
               <RevealLines lines={splitToLines(t('manifesto.body'), 4)} />
             </p>
@@ -110,13 +127,6 @@ export function Home() {
           </blockquote>
         </div>
 
-        <Reveal delay={1} className="mt-12 flex flex-wrap items-center gap-8">
-          <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
-          <p className="eyebrow opacity-45 tabular-nums">
-            {pieces.length} {t('common.pieces')} · {collections.length}{' '}
-            {t('common.collections')}
-          </p>
-        </Reveal>
       </section>
 
       {/* ------------------------------------------------- collections ---- */}
