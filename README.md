@@ -108,17 +108,19 @@ instantly, so problems only appear once it is served over a network.
   report a duration or seek, so it downloads the whole clip first: a black hero
   and a dead scrub until it finishes.
 - **A short GOP.** Seeking decodes forward from the nearest keyframe, so sparse
-  keyframes make scrubbing lag. `-g 6` puts one every eighth of a second at the
-  clip's 48fps. All-intra (`-g 1`) is smoother still but doubled the file here
+  keyframes make scrubbing lag. `-g 6` puts one every twelfth of a second at the
+  clip's 72.5fps. All-intra (`-g 1`) is smoother still but doubled the file here
   for no visible gain.
 - **Frames, not seconds.** Scrub resolution is the frame count, not the running
-  time. The 6s export was compressed to 3s by `setpts` with `-r 48` rather than
-  trimmed, so all 145 frames survive: the camera move still runs end to end, and
-  the scroll simply covers it in half the timeline.
+  time. The 6s export was compressed to 2s by `setpts` with `-r 145/2` rather
+  than trimmed, so all 145 frames survive: the camera move still runs end to
+  end, and the scroll covers it in a third of the timeline. The odd frame rate
+  is the point — rounding it down would throw frames away, and 720p at 72.5fps
+  is H.264 Level 4.2, which every current browser decodes.
 
 ```bash
-# 6.048s of source into 3s, every frame kept: 145 / 3 ≈ 48fps
-ffmpeg -i source.mp4 -an -vf "setpts=(3/6.048)*PTS" -r 48 \
+# 6.048s of source into 2s, every frame kept: 145 / 2 = 72.5fps
+ffmpeg -i source.mp4 -an -vf "setpts=(2/6.048)*PTS" -r 145/2 \
   -c:v libx264 -crf 23 -preset slow \
   -g 6 -keyint_min 6 -sc_threshold 0 -pix_fmt yuv420p -movflags +faststart \
   apps/web/public/media/hero.mp4
@@ -128,7 +130,7 @@ ffmpeg -i apps/web/public/media/hero.mp4 -vf "select=eq(n\,0)" -vframes 1 poster
 ```
 
 Dropping the audio track (`-an`) is free — the hero is muted by definition.
-The current clip is 1.7 MB and 3.0 seconds, from a 9.2 MB export. Encode from
+The current clip is 1.45 MB and 2.0 seconds, from a 9.2 MB export. Encode from
 that export rather than from the shipped file: a second pass over an encode
 costs about 40% more bytes at the same `crf` for no more picture.
 
