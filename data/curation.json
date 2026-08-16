@@ -186,7 +186,7 @@
       "canapea-spring-c1",
       "canapea-spring-c3",
       "canapea-spring-c4",
-      "canapea-spring-studio-2",
+      "canapea-spring-studio-7",
       "canapea-spring-studio-6",
       "canapea-spring-studio-5"
     ],
@@ -1542,10 +1542,10 @@
     ],
     "canapea-spring": [
       {
-        "src": "canapea-spring-studio-2",
+        "src": "canapea-spring-studio-7",
         "ro": "Trei sferturi",
         "en": "Three-quarter",
-        "in": "canapea-spring-c2"
+        "in": "canapea-spring-c1"
       },
       {
         "src": "canapea-spring-studio-6",
@@ -2040,6 +2040,7 @@
     "pat-fantezie-studio-4",
     "pat-fantezie-studio-5",
     "canapea-spring-studio-5",
-    "canapea-spring-studio-6"
+    "canapea-spring-studio-6",
+    "canapea-spring-studio-7"
   ]
 }

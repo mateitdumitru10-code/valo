@@ -2960,7 +2960,7 @@
           "studio": true
         },
         {
-          "src": "canapea-spring-studio-2",
+          "src": "canapea-spring-studio-7",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2968,7 +2968,7 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JYwCsAB6WdvuiCzX10AD+84LOBZeUq1gPfOwLQLuESE9okTlQjWOEWN49eX9AAAA=",
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYwAAW8Zu0pxypFx+AAD+8ItWiiH3RB6gKnQViEzjgxuoKy9UfTpniSELWL9tlz4IFMGUsq9AAA==",
           "editorial": true,
           "studio": true
         },
@@ -3016,10 +3016,10 @@
       "editorial": true,
       "views": [
         {
-          "src": "canapea-spring-studio-2",
+          "src": "canapea-spring-studio-7",
           "ro": "Trei sferturi",
           "en": "Three-quarter",
-          "in": "canapea-spring-c2"
+          "in": "canapea-spring-c1"
         },
         {
           "src": "canapea-spring-studio-6",
