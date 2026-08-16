@@ -114,7 +114,7 @@ export function PiecePage() {
             share the row with the price, which held it to eight columns and
             made the two compete. The price is a specification, so it now sits
             with the rest of them. */}
-        <header className="mt-10">
+        <header className="mt-8">
           {/* Only where there is a collection to name. Most of the catalogue
               belongs to none, and a generic "Piesă" standing where other pages
               say "Colecția Aldo" reads as a field nobody filled in. */}
@@ -123,10 +123,10 @@ export function PiecePage() {
               {t('piece.collectionOf')} {collectionName(range.id)}
             </Link>
           )}
-          <h1 className="display-xl mt-5">
+          <h1 className="display-md mt-4">
             <RevealLines lines={[piece.name]} />
           </h1>
-          <Rule className="mt-10" />
+          <Rule className="mt-8" />
         </header>
       </div>
 
