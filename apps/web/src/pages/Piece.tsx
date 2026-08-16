@@ -105,25 +105,27 @@ export function PiecePage() {
             {t('nav.pieces')}
           </Link>
           <span>/</span>
-          {range ? (
-            <Link to={`/colectii/${range.id}`} className="hover:opacity-100">
-              {collectionName(range.id)}
-            </Link>
-          ) : (
-            <Link to={`/categorii/${piece.category}`} className="hover:opacity-100">
-              {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
-            </Link>
-          )}
+          <Link to={`/categorii/${piece.category}`} className="hover:opacity-100">
+            {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
+          </Link>
         </nav>
 
-        <header className="mt-8 grid gap-8 md:grid-cols-12">
-          <h1 className="display-lg md:col-span-8">
+        {/* A title page: the name alone on its line, at full width. It used to
+            share the row with the price, which held it to eight columns and
+            made the two compete. The price is a specification, so it now sits
+            with the rest of them. */}
+        <header className="mt-10">
+          {range ? (
+            <Link to={`/colectii/${range.id}`} className="eyebrow opacity-45 hover:opacity-100">
+              {t('piece.collectionOf')} {collectionName(range.id)}
+            </Link>
+          ) : (
+            <p className="eyebrow opacity-45">{t('piece.eyebrow')}</p>
+          )}
+          <h1 className="display-xl mt-5">
             <RevealLines lines={[piece.name]} />
           </h1>
-          <div className="self-end md:col-span-4 md:text-right">
-            {price && <p className="font-display text-3xl">{price}</p>}
-            <p className="eyebrow mt-2 opacity-45">{t('piece.priceNote')}</p>
-          </div>
+          <Rule className="mt-10" />
         </header>
       </div>
 
@@ -181,6 +183,13 @@ export function PiecePage() {
             <Rule className="mt-4" />
 
             <dl className="text-sm">
+              {price && (
+                <div className="border-b border-ink/10 py-4">
+                  <dt className="eyebrow opacity-45">{t('piece.price')}</dt>
+                  <dd className="mt-2 font-display text-2xl">{price}</dd>
+                  <p className="mt-1 text-xs opacity-45">{t('piece.priceNote')}</p>
+                </div>
+              )}
               {(detail?.dimensions?.length ?? 0) > 0 && (
                 <div className="border-b border-ink/10 py-4">
                   <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
