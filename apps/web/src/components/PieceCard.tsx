@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import clsx from 'clsx'
-import { collection as findCollection, formatPrice, type Piece } from '~/lib/catalog'
+import { category as findCategory, formatPrice, type Piece } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 import { Img } from './Img'
 
@@ -26,7 +26,7 @@ export function PieceCard({
   ratio = 'landscape',
 }: Props) {
   const { lang } = useI18n()
-  const family = findCollection(piece.collection)
+  const kind = findCategory(piece.category)
   const price = formatPrice(piece.price, lang)
 
   return (
@@ -44,7 +44,7 @@ export function PieceCard({
           <div>
             <h3 className="font-display text-xl leading-tight md:text-2xl">{piece.name}</h3>
             <p className="eyebrow mt-1.5 opacity-45">
-              {family ? (lang === 'ro' ? family.ro : family.en) : ''}
+              {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
             </p>
           </div>
           <div className="text-right">

@@ -33,16 +33,28 @@ api.get('/health', (_req, res) => {
 })
 
 api.get('/catalog', (_req, res) => {
-  res.json({ collections: catalog.collections, hero: catalog.hero, products: catalog.products })
+  res.json({
+    categories: catalog.categories,
+    collections: catalog.collections,
+    hero: catalog.hero,
+    products: catalog.products,
+  })
 })
 
+/** The six kinds of piece. */
+api.get('/categories', (_req, res) => {
+  res.json(catalog.categories)
+})
+
+/** The named ranges — Aldo, Cubic, Soria. */
 api.get('/collections', (_req, res) => {
   res.json(catalog.collections)
 })
 
 api.get('/products', (req, res) => {
-  const { collection, q } = req.query
+  const { category, collection, q } = req.query
   let list = catalog.products
+  if (category) list = list.filter((p) => p.category === category)
   if (collection) list = list.filter((p) => p.collection === collection)
   if (q) {
     const needle = String(q).toLowerCase()

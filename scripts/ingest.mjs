@@ -20,8 +20,8 @@ const OUT = join(ROOT, 'data/catalog.json')
 const WITH_MEDIA = !process.argv.includes('--no-media')
 const MAX_IMAGES = 5
 
-/** Samobi category -> Valo collection. Ordered by specificity. */
-const COLLECTIONS = [
+/** Samobi category -> Valo category. Ordered by specificity. */
+const CATEGORIES = [
   { id: 'sectionals', match: 'Colțare', ro: 'Colțare', en: 'Sectionals' },
   { id: 'sofas', match: 'Canapele', ro: 'Canapele', en: 'Sofas' },
   { id: 'beds', match: 'Paturi', ro: 'Paturi', en: 'Beds' },
@@ -116,8 +116,8 @@ let downloaded = 0
 
 for (const p of raw) {
   const names = (p.categories ?? []).map((c) => decode(c.name))
-  const collection = COLLECTIONS.find((c) => names.includes(c.match))
-  if (!collection) continue
+  const category = CATEGORIES.find((c) => names.includes(c.match))
+  if (!category) continue
 
   const name = decode(p.name)
   const slug = slugify(p.slug || name)
@@ -142,8 +142,8 @@ for (const p of raw) {
     id: p.id,
     slug,
     name,
-    collection: collection.id,
-    collections: names,
+    category: category.id,
+    categories: names,
     price,
     currency: 'RON',
     lead: lead(summary),
@@ -163,17 +163,17 @@ products.sort(
 const catalog = {
   generatedAt: new Date().toISOString(),
   source: 'mobilasamobi.ro',
-  collections: COLLECTIONS.map(({ id, ro, en }) => ({
+  categories: CATEGORIES.map(({ id, ro, en }) => ({
     id,
     ro,
     en,
-    count: products.filter((p) => p.collection === id).length,
+    count: products.filter((p) => p.category === id).length,
   })),
   products,
 }
 
 await writeFile(OUT, JSON.stringify(catalog, null, 2))
 console.log(
-  `catalog: ${products.length} products, ${catalog.collections.length} collections, ${downloaded} images downloaded`,
+  `catalog: ${products.length} products, ${catalog.categories.length} categories, ${downloaded} images downloaded`,
 )
-for (const c of catalog.collections) console.log(`  ${c.id.padEnd(12)} ${c.count}`)
+for (const c of catalog.categories) console.log(`  ${c.id.padEnd(12)} ${c.count}`)

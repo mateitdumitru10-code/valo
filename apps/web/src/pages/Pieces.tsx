@@ -5,7 +5,7 @@ import clsx from 'clsx'
 import { PieceCard } from '~/components/PieceCard'
 import { RevealLines } from '~/components/Reveal'
 import { Eyebrow } from '~/components/UI'
-import { collections, pieces, type CollectionId } from '~/lib/catalog'
+import { categories, pieces, type CategoryId } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 import { expo } from '~/lib/motion'
 
@@ -14,11 +14,11 @@ type Sort = 'featured' | 'price-asc' | 'price-desc'
 export function Pieces() {
   const { t, lang } = useI18n()
   const [params, setParams] = useSearchParams()
-  const active = params.get('c') as CollectionId | null
+  const active = params.get('c') as CategoryId | null
   const sort = (params.get('sort') as Sort) ?? 'featured'
 
   const list = useMemo(() => {
-    const filtered = active ? pieces.filter((p) => p.collection === active) : pieces
+    const filtered = active ? pieces.filter((p) => p.category === active) : pieces
     const sorted = [...filtered]
     if (sort === 'price-asc') sorted.sort((a, b) => (a.price ?? 0) - (b.price ?? 0))
     if (sort === 'price-desc') sorted.sort((a, b) => (b.price ?? 0) - (a.price ?? 0))
@@ -54,7 +54,7 @@ export function Pieces() {
             >
               {t('common.all')}
             </button>
-            {collections.map((c) => (
+            {categories.map((c) => (
               <button
                 key={c.id}
                 type="button"

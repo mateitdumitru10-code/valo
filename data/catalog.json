@@ -1,194 +1,11 @@
 {
   "generatedAt": "2026-08-12T18:19:16.415Z",
   "source": "mobilasamobi.ro",
-  "collections": [
-    {
-      "id": "sectionals",
-      "ro": "Colțare",
-      "en": "Sectionals",
-      "count": 13,
-      "cover": {
-        "src": "coltar-sam-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "coltar-sam-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "sofas",
-      "ro": "Canapele",
-      "en": "Sofas",
-      "count": 12,
-      "cover": {
-        "src": "canapea-ela-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "canapea-ela-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "beds",
-      "ro": "Paturi",
-      "en": "Beds",
-      "count": 19,
-      "cover": {
-        "src": "pat-matrimonial-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "pat-matrimonial-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "armchairs",
-      "ro": "Fotolii",
-      "en": "Armchairs",
-      "count": 4,
-      "cover": {
-        "src": "fotoliu-king-1",
-        "w": 1024,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "fotoliu-king-1",
-        "w": 1024,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "hallway",
-      "ro": "Holuri",
-      "en": "Hallway",
-      "count": 1,
-      "cover": {
-        "src": "hol-chesterfield-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "hol-chesterfield-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "seating",
-      "ro": "Scaune",
-      "en": "Seating",
-      "count": 1,
-      "cover": {
-        "src": "demifotoliu-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "demifotoliu-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
-        "editorial": true,
-        "studio": false
-      }
-    }
-  ],
   "products": [
     {
       "id": 283,
       "slug": "coltar-aldo",
       "name": "Coltar Aldo",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Hol",
@@ -483,13 +300,14 @@
           "en": "Opened as a bed",
           "in": "coltar-aldo-c7"
         }
-      ]
+      ],
+      "category": "sectionals",
+      "collection": "aldo"
     },
     {
       "id": 6643,
       "slug": "coltar-eco-2",
       "name": "Coltar Eco 2",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Hol",
@@ -579,13 +397,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals"
     },
     {
       "id": 7042,
       "slug": "pat-fantezie",
       "name": "Pat Fantezie",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -807,13 +625,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": 250,
       "slug": "canapea-extensibila-soria",
       "name": "Canapea Soria extensibilă",
-      "collection": "sofas",
       "collections": [
         "Canapele",
         "Colecția Dormitor",
@@ -1076,13 +894,14 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "soria"
     },
     {
       "id": 6699,
       "slug": "coltar-extensibil-eco",
       "name": "Coltar extensibil ECO",
-      "collection": "sectionals",
       "collections": [
         "Colțare",
         "Mobilier pentru dormitor",
@@ -1266,13 +1085,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "sectionals"
     },
     {
       "id": 7088,
       "slug": "canapea-sonia-extensibila",
       "name": "Canapea Sonia extensibilă",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -1513,13 +1332,13 @@
             "en": "Charcoal"
           }
         }
-      ]
+      ],
+      "category": "sofas"
     },
     {
       "id": 7002,
       "slug": "pat-panouri-dreptunghiulare",
       "name": "Pat Panouri dreptunghiulare",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -1739,13 +1558,13 @@
             "en": "Plum"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": 6996,
       "slug": "pat-sun",
       "name": "Pat Sun",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -1965,13 +1784,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": 6746,
       "slug": "fotoliu-spring",
       "name": "Fotoliu Spring",
-      "collection": "armchairs",
       "collections": [
         "Fotolii"
       ],
@@ -2055,13 +1874,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "armchairs"
     },
     {
       "id": 7012,
       "slug": "pat-colt",
       "name": "Pat Colt",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -2134,13 +1953,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "beds"
     },
     {
       "id": 6637,
       "slug": "coltar-soria-in-forma-de-u",
       "name": "Coltar soria in Forma de U",
-      "collection": "sectionals",
       "collections": [
         "Colțare"
       ],
@@ -2211,13 +2030,14 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "sectionals",
+      "collection": "soria"
     },
     {
       "id": 6646,
       "slug": "coltar-soria",
       "name": "Coltar Soria",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Hol",
@@ -2283,13 +2103,14 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals",
+      "collection": "soria"
     },
     {
       "id": 6633,
       "slug": "coltar-torro",
       "name": "Coltar Torro",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Hol",
@@ -2359,13 +2180,14 @@
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals",
+      "collection": "torro"
     },
     {
       "id": 7049,
       "slug": "pat-aldo",
       "name": "Pat Aldo",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -2587,13 +2409,14 @@
           "en": "Storage box",
           "in": "pat-aldo-c1"
         }
-      ]
+      ],
+      "category": "beds",
+      "collection": "aldo"
     },
     {
       "id": 7180,
       "slug": "canapea-toro",
       "name": "Canapea Torro",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -2671,13 +2494,14 @@
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sofas",
+      "collection": "torro"
     },
     {
       "id": 7008,
       "slug": "pat-happy",
       "name": "Pat Happy",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -2738,13 +2562,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "beds"
     },
     {
       "id": 225,
       "slug": "canapea-sorina",
       "name": "Canapea Sorina",
-      "collection": "sofas",
       "collections": [
         "Canapele",
         "Colecția Dormitor",
@@ -2809,13 +2633,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sofas"
     },
     {
       "id": 7022,
       "slug": "pat-paul",
       "name": "Pat Paul",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -2876,13 +2700,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "beds"
     },
     {
       "id": 6287,
       "slug": "canapea-spring",
       "name": "Canapea Spring",
-      "collection": "sofas",
       "collections": [
         "Canapele",
         "Colecția Living"
@@ -3080,13 +2904,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "sofas"
     },
     {
       "id": 6629,
       "slug": "coltar-bela",
       "name": "Coltar Bela",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Hol",
@@ -3140,13 +2964,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals"
     },
     {
       "id": 6649,
       "slug": "coltar-sam",
       "name": "Coltar Sam",
-      "collection": "sectionals",
       "collections": [
         "Colecția Dormitor",
         "Colecția Living",
@@ -3222,13 +3046,13 @@
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals"
     },
     {
       "id": 6725,
       "slug": "canapea-bella",
       "name": "Canapea Bella",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -3450,13 +3274,14 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "bella"
     },
     {
       "id": 3578,
       "slug": "canapea-extensibila-aldo",
       "name": "Canapea extensibila Aldo",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -3707,13 +3532,14 @@
           "en": "Storage box",
           "in": "canapea-extensibila-aldo-c1"
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "aldo"
     },
     {
       "id": 6754,
       "slug": "pat-miraj",
       "name": "Pat Miraj",
-      "collection": "beds",
       "collections": [
         "Mobilier pentru dormitor",
         "Paturi"
@@ -3890,13 +3716,13 @@
             "en": "Graphite"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": 6770,
       "slug": "pat-matrimonial",
       "name": "Pat matrimonial",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -3947,13 +3773,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "beds"
     },
     {
       "id": 6757,
       "slug": "pat-one",
       "name": "Pat One",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -4004,13 +3830,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "beds"
     },
     {
       "id": 6748,
       "slug": "demifotoliu",
       "name": "Demifotoliu",
-      "collection": "seating",
       "collections": [
         "Scaune"
       ],
@@ -4059,13 +3885,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "seating"
     },
     {
       "id": 6798,
       "slug": "hol-chesterfield",
       "name": "Hol Chesterfield",
-      "collection": "hallway",
       "collections": [
         "Colecția Hol",
         "Colecția Living",
@@ -4104,13 +3930,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "hallway"
     },
     {
       "id": 6730,
       "slug": "canapea-ela",
       "name": "Canapea Ela",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -4330,13 +4156,13 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "category": "sofas"
     },
     {
       "id": 6727,
       "slug": "canapea-chesterfield",
       "name": "Canapea Chesterfield",
-      "collection": "sofas",
       "collections": [
         "Canapele"
       ],
@@ -4373,13 +4199,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sofas"
     },
     {
       "id": 7189,
       "slug": "coltar-cubic-fix",
       "name": "Coltar cubic – Fix",
-      "collection": "sectionals",
       "collections": [
         "Colțare"
       ],
@@ -4604,13 +4430,14 @@
           "en": "Side view",
           "in": "coltar-cubiq-studio-1"
         }
-      ]
+      ],
+      "category": "sectionals",
+      "collection": "cubic"
     },
     {
       "id": 7191,
       "slug": "pat-cubic",
       "name": "Pat Cubic",
-      "collection": "beds",
       "collections": [
         "Paturi"
       ],
@@ -4889,13 +4716,14 @@
           "en": "Corner detail",
           "in": "pat-cubic-c1"
         }
-      ]
+      ],
+      "category": "beds",
+      "collection": "cubic"
     },
     {
       "id": 6768,
       "slug": "pat-chesterfield",
       "name": "Pat Chesterfield",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -4934,13 +4762,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "beds"
     },
     {
       "id": 6760,
       "slug": "pat-panouri-verticale",
       "name": "Pat Panouri verticale",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -4979,13 +4807,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "beds"
     },
     {
       "id": 6766,
       "slug": "paturi-dan",
       "name": "Paturi Dan",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -5024,13 +4852,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "beds"
     },
     {
       "id": 6764,
       "slug": "paturi-dormitor-david",
       "name": "Paturi dormitor David",
-      "collection": "beds",
       "collections": [
         "Colecția Dormitor",
         "Mobilier pentru dormitor",
@@ -5069,13 +4897,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "beds"
     },
     {
       "id": 275,
       "slug": "fotoliu-king",
       "name": "Fotoliu king",
-      "collection": "armchairs",
       "collections": [
         "Colecția Living",
         "Fotolii"
@@ -5113,13 +4941,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "armchairs"
     },
     {
       "id": 6791,
       "slug": "fotoliu-corina",
       "name": "Fotoliu Corina",
-      "collection": "armchairs",
       "collections": [
         "Fotolii"
       ],
@@ -5156,13 +4984,13 @@
         "editorial": false,
         "studio": false
       },
-      "editorial": false
+      "editorial": false,
+      "category": "armchairs"
     },
     {
       "id": 6785,
       "slug": "scaun-heatar",
       "name": "Scaun Heatar",
-      "collection": "armchairs",
       "collections": [
         "Fotolii",
         "Scaune"
@@ -5200,13 +5028,13 @@
         "editorial": true,
         "studio": false
       },
-      "editorial": true
+      "editorial": true,
+      "category": "armchairs"
     },
     {
       "id": "valo-canapea-cubiq",
       "slug": "canapea-cubiq",
       "name": "Canapea Cubiq",
-      "collection": "sofas",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -5470,13 +5298,14 @@
           "en": "Side view",
           "in": "canapea-cubiq-studio-1"
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "cubic"
     },
     {
       "id": "valo-canapea-rotunda-aldo",
       "slug": "canapea-rotunda-aldo",
       "name": "Canapea rotundă Aldo",
-      "collection": "sofas",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -5633,13 +5462,14 @@
           "en": "Three-quarter",
           "in": "canapea-rotunda-aldo-c1"
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "aldo"
     },
     {
       "id": "valo-pat-loris",
       "slug": "pat-loris",
       "name": "Pat Loris",
-      "collection": "beds",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -5840,13 +5670,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": "valo-coltar-vallo",
       "slug": "coltar-vallo",
       "name": "Colțar Vallo",
-      "collection": "sectionals",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -6044,13 +5874,14 @@
           "en": "Side view",
           "in": "coltar-vallo-studio-1"
         }
-      ]
+      ],
+      "category": "sectionals",
+      "collection": "vallo"
     },
     {
       "id": "valo-coltar-zeno",
       "slug": "coltar-zeno",
       "name": "Colțar Zeno",
-      "collection": "sectionals",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -6113,13 +5944,13 @@
         "editorial": true,
         "studio": true
       },
-      "editorial": true
+      "editorial": true,
+      "category": "sectionals"
     },
     {
       "id": "valo-coltar-linear",
       "slug": "coltar-linear",
       "name": "Colțar Linear",
-      "collection": "sectionals",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -6306,13 +6137,14 @@
           "en": "Side view",
           "in": "coltar-linear-c1"
         }
-      ]
+      ],
+      "category": "sectionals",
+      "collection": "linear"
     },
     {
       "id": "valo-pat-linear",
       "slug": "pat-linear",
       "name": "Pat Linear",
-      "collection": "beds",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -6551,13 +6383,14 @@
             "en": "Charcoal"
           }
         }
-      ]
+      ],
+      "category": "beds",
+      "collection": "linear"
     },
     {
       "id": "valo-pat-king",
       "slug": "pat-king",
       "name": "Pat King",
-      "collection": "beds",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -6774,13 +6607,13 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": "valo-modul-cubiq",
       "slug": "modul-cubiq",
       "name": "Modul Cubiq",
-      "collection": "sectionals",
       "collections": [],
       "price": 5200,
       "currency": "RON",
@@ -6998,13 +6831,14 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "category": "sectionals",
+      "collection": "cubic"
     },
     {
       "id": "valo-pat-geometry",
       "slug": "pat-geometry",
       "name": "Pat Geometry",
-      "collection": "beds",
       "collections": [],
       "price": 3400,
       "currency": "RON",
@@ -7178,13 +7012,13 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "category": "beds"
     },
     {
       "id": "valo-modul-aldo",
       "slug": "modul-aldo",
       "name": "Modul Aldo",
-      "collection": "sofas",
       "collections": [],
       "price": null,
       "currency": "RON",
@@ -7404,7 +7238,9 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "category": "sofas",
+      "collection": "aldo"
     }
   ],
   "hero": [
@@ -7503,6 +7339,341 @@
       "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAB6I50dI55tEKU+6gAD+awZQ3N8CY4nZN536WHIBwxaLTGmwofOFBcC1ycgMeaPcntQAAA==",
       "editorial": true,
       "studio": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "sectionals",
+      "ro": "Colțare",
+      "en": "Sectionals",
+      "count": 13,
+      "cover": {
+        "src": "coltar-sam-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "coltar-sam-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA0APu1kqk2ppaQiMAgBMB2JZQCdABjPbnXMShWMPjAA/tRo0s1AuUT1Xp4AFIZyXzgUStXmkBGv+1XU35Xx8gUHYJ7uPgAAAA==",
+        "editorial": true,
+        "studio": false
+      }
+    },
+    {
+      "id": "sofas",
+      "ro": "Canapele",
+      "en": "Sofas",
+      "count": 12,
+      "cover": {
+        "src": "canapea-ela-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "canapea-ela-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQCdAB6LdiDIgYpLtPPQAPlK16YDt5ltO+sxmU92DKeEVr2sE9lc2ZBfZQlNOBTyZj5SgAAAAA==",
+        "editorial": true,
+        "studio": false
+      }
+    },
+    {
+      "id": "beds",
+      "ro": "Paturi",
+      "en": "Beds",
+      "count": 19,
+      "cover": {
+        "src": "pat-matrimonial-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "pat-matrimonial-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "editorial": true,
+        "studio": false
+      }
+    },
+    {
+      "id": "armchairs",
+      "ro": "Fotolii",
+      "en": "Armchairs",
+      "count": 4,
+      "cover": {
+        "src": "fotoliu-king-1",
+        "w": 1024,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "fotoliu-king-1",
+        "w": 1024,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "editorial": true,
+        "studio": false
+      }
+    },
+    {
+      "id": "hallway",
+      "ro": "Holuri",
+      "en": "Hallway",
+      "count": 1,
+      "cover": {
+        "src": "hol-chesterfield-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "hol-chesterfield-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
+        "editorial": true,
+        "studio": false
+      }
+    },
+    {
+      "id": "seating",
+      "ro": "Scaune",
+      "en": "Seating",
+      "count": 1,
+      "cover": {
+        "src": "demifotoliu-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+        "editorial": true,
+        "studio": false
+      },
+      "header": {
+        "src": "demifotoliu-1",
+        "w": 1536,
+        "h": 1024,
+        "widths": [
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+        "editorial": true,
+        "studio": false
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "aldo",
+      "count": 5,
+      "pieces": [
+        "coltar-aldo",
+        "canapea-extensibila-aldo",
+        "modul-aldo",
+        "canapea-rotunda-aldo",
+        "pat-aldo"
+      ],
+      "cover": {
+        "src": "coltar-aldo-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAW+mRCa5J7vQ6AAD+826zA3kgbBwOMNMwYYjROBWzoAjAwAAA",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "cubic",
+      "count": 4,
+      "pieces": [
+        "modul-cubiq",
+        "coltar-cubic-fix",
+        "canapea-cubiq",
+        "pat-cubic"
+      ],
+      "cover": {
+        "src": "modul-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAW+s6wVYAAP7zady8F+GWT7HYAAA=",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "soria",
+      "count": 3,
+      "pieces": [
+        "coltar-soria",
+        "coltar-soria-in-forma-de-u",
+        "canapea-extensibila-soria"
+      ],
+      "cover": {
+        "src": "canapea-extensibila-soria-c6",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDA3CHfv72rd9F9cAD+8277/L24LxgA2nbKFXEwrJYOVR7oIuAA",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "torro",
+      "count": 2,
+      "pieces": [
+        "coltar-torro",
+        "canapea-toro"
+      ],
+      "cover": {
+        "src": "coltar-torro-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC3uCHiBrdKGEc8zZyQAAD+835Y0kVyChdHz4MzuYQYTP53QUTi/SZ+wJBCEfWAkKsAAAA=",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "linear",
+      "count": 2,
+      "pieces": [
+        "coltar-linear",
+        "pat-linear"
+      ],
+      "cover": {
+        "src": "coltar-linear-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDDNCHfv8CFKS2nsAD+826md9VN7L9C3DJ2kSjI8nRDLqvEmKAA",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "bella",
+      "count": 1,
+      "pieces": [
+        "canapea-bella"
+      ],
+      "cover": {
+        "src": "canapea-bella-c2",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc6yEYEHfVkuAA/vNr7kR+XdhJRYrrDah9YNyQAA==",
+        "editorial": true,
+        "studio": true
+      }
+    },
+    {
+      "id": "vallo",
+      "count": 1,
+      "pieces": [
+        "coltar-vallo"
+      ],
+      "cover": {
+        "src": "coltar-vallo-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
+        "editorial": true,
+        "studio": true
+      }
     }
   ]
 }

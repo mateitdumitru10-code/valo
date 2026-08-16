@@ -9,6 +9,8 @@ import { Home } from '~/pages/Home'
 // The landing page ships in the main bundle; everything else arrives on demand.
 const Collections = lazy(() => import('~/pages/Collections').then((m) => ({ default: m.Collections })))
 const CollectionPage = lazy(() => import('~/pages/Collection').then((m) => ({ default: m.CollectionPage })))
+const Categories = lazy(() => import('~/pages/Categories').then((m) => ({ default: m.Categories })))
+const CategoryPage = lazy(() => import('~/pages/Category').then((m) => ({ default: m.CategoryPage })))
 const Pieces = lazy(() => import('~/pages/Pieces').then((m) => ({ default: m.Pieces })))
 const PiecePage = lazy(() => import('~/pages/Piece').then((m) => ({ default: m.PiecePage })))
 const Story = lazy(() => import('~/pages/Story').then((m) => ({ default: m.Story })))
@@ -49,6 +51,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/colectii" element={<Collections />} />
             <Route path="/colectii/:id" element={<CollectionPage />} />
+            <Route path="/categorii" element={<Categories />} />
+            <Route path="/categorii/:id" element={<CategoryPage />} />
             <Route path="/piese" element={<Pieces />} />
             <Route path="/piese/:slug" element={<PiecePage />} />
             <Route path="/atelier" element={<Story />} />

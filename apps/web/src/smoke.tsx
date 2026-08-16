@@ -16,18 +16,22 @@ import { Footer } from '~/components/Footer'
 import { Home } from '~/pages/Home'
 import { Collections } from '~/pages/Collections'
 import { CollectionPage } from '~/pages/Collection'
+import { Categories } from '~/pages/Categories'
+import { CategoryPage } from '~/pages/Category'
 import { Pieces } from '~/pages/Pieces'
 import { PiecePage } from '~/pages/Piece'
 import { Story } from '~/pages/Story'
 import { Showrooms } from '~/pages/Showrooms'
 import { Contact } from '~/pages/Contact'
 import { NotFound } from '~/pages/NotFound'
-import { collections, pieces } from '~/lib/catalog'
+import { categories, collections, pieces } from '~/lib/catalog'
 
 const table = [
   { path: '/', element: <Home /> },
   { path: '/colectii', element: <Collections /> },
   { path: '/colectii/:id', element: <CollectionPage /> },
+  { path: '/categorii', element: <Categories /> },
+  { path: '/categorii/:id', element: <CategoryPage /> },
   { path: '/piese', element: <Pieces /> },
   { path: '/piese/:slug', element: <PiecePage /> },
   { path: '/atelier', element: <Story /> },
@@ -40,6 +44,8 @@ const urls = [
   '/',
   '/colectii',
   ...collections.map((c) => `/colectii/${c.id}`),
+  '/categorii',
+  ...categories.map((c) => `/categorii/${c.id}`),
   '/piese',
   ...pieces.slice(0, 6).map((p) => `/piese/${p.slug}`),
   // Detail — prose, gallery, drawing, textiles — is fetched at runtime and so
@@ -52,6 +58,26 @@ const urls = [
   '/nu-exista',
 ]
 
+/** One route rendered to HTML — the harness the check below is built from. */
+export function renderPath(url: string, lang: Lang = 'ro') {
+  localStorage.setItem('valo:lang', lang)
+  return renderToString(
+    <MemoryRouter initialEntries={[url]}>
+      <I18nProvider>
+        <Nav />
+        <main>
+          <Routes>
+            {table.map((route) => (
+              <Route key={route.path} path={route.path} element={route.element} />
+            ))}
+          </Routes>
+        </main>
+        <Footer />
+      </I18nProvider>
+    </MemoryRouter>,
+  )
+}
+
 export function smoke() {
   const failures: string[] = []
 
@@ -59,21 +85,7 @@ export function smoke() {
     localStorage.setItem('valo:lang', lang)
     for (const url of urls) {
       try {
-        const html = renderToString(
-          <MemoryRouter initialEntries={[url]}>
-            <I18nProvider>
-              <Nav />
-              <main>
-                <Routes>
-                  {table.map((route) => (
-                    <Route key={route.path} path={route.path} element={route.element} />
-                  ))}
-                </Routes>
-              </main>
-              <Footer />
-            </I18nProvider>
-          </MemoryRouter>,
-        )
+        const html = renderPath(url, lang)
         if (html.length < 2000) failures.push(`${lang} ${url}: rendered only ${html.length} chars`)
       } catch (error) {
         failures.push(`${lang} ${url}: ${(error as Error).message}`)

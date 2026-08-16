@@ -163,6 +163,20 @@ const catalog = JSON.parse(await readFile(CATALOG, 'utf8'))
 const curation = JSON.parse(await readFile(CURATION, 'utf8'))
 const editorial = new Set(curation.editorial)
 
+// The catalogue used to call the six kinds of piece `collections`. That word
+// now names the ranges — Aldo, Cubic, Soria — so the kinds became categories.
+// Normalising here rather than in ingest.mjs keeps a stale catalogue readable.
+if (!catalog.categories) {
+  catalog.categories = catalog.collections ?? []
+  delete catalog.collections
+}
+for (const product of catalog.products) {
+  if (product.category === undefined) {
+    product.category = product.collection
+    delete product.collection
+  }
+}
+
 await mkdir(OUT, { recursive: true })
 
 const sources = (await readdir(SRC)).filter((f) => /\.(webp|jpe?g|png)$/i.test(f))
@@ -186,7 +200,7 @@ for (const [slug, spec] of Object.entries(curation.products ?? {})) {
   const existing = catalog.products.find((p) => p.slug === slug)
   if (existing) {
     // Only what the entry actually states — a missing price must not wipe one.
-    for (const field of ['name', 'collection', 'price', 'lead', 'summary', 'body']) {
+    for (const field of ['name', 'category', 'price', 'lead', 'summary', 'body']) {
       if (spec[field] !== undefined && spec[field] !== null) existing[field] = spec[field]
     }
     continue
@@ -196,8 +210,8 @@ for (const [slug, spec] of Object.entries(curation.products ?? {})) {
     id: `valo-${slug}`,
     slug,
     name: spec.name,
-    collection: spec.collection,
-    collections: [],
+    category: spec.category,
+    categories: [],
     price: spec.price ?? null,
     currency: 'RON',
     lead: spec.lead ?? '',
@@ -300,20 +314,43 @@ const excluded = new Set(curation.exclude?.slugs ?? [])
 catalog.products = catalog.products.filter((p) => p.cover && !excluded.has(p.slug))
 
 // Counts come from ingest, which has seen neither the pieces created above nor
-// the ones dropped here. A collection left with nothing in it goes too.
-for (const collection of catalog.collections) {
-  collection.count = catalog.products.filter((p) => p.collection === collection.id).length
+// the ones dropped here. A category left with nothing in it goes too.
+for (const category of catalog.categories) {
+  category.count = catalog.products.filter((p) => p.category === category.id).length
 }
-catalog.collections = catalog.collections.filter((c) => c.count > 0)
+catalog.categories = catalog.categories.filter((c) => c.count > 0)
 
 const byName = new Map([...meta.values()].map((m) => [m.src, m]))
 catalog.hero = curation.hero.map((n) => byName.get(n)).filter(Boolean)
-for (const collection of catalog.collections) {
-  collection.cover = byName.get(curation.covers[collection.id]) ?? null
+for (const category of catalog.categories) {
+  category.cover = byName.get(curation.covers[category.id]) ?? null
   // The page header can differ from the card cover; it falls back to it.
-  collection.header =
-    byName.get(curation.headers?.[collection.id]) ?? collection.cover
+  category.header = byName.get(curation.headers?.[category.id]) ?? category.cover
 }
+
+// The named ranges. A range is one design carried across several kinds of
+// piece, so its order is the order it is listed in — largest piece first, which
+// is the one that shows the language the rest of the range is written in.
+const bySlug = new Map(catalog.products.map((p) => [p.slug, p]))
+// Dropping a piece from a range has to unstamp it, or it keeps pointing at a
+// range it is no longer in.
+for (const product of catalog.products) delete product.collection
+catalog.collections = Object.entries(curation.collections ?? {})
+  .filter(([id]) => id !== '_note')
+  .map(([id, spec]) => {
+    const members = spec.pieces.map((slug) => bySlug.get(slug)).filter(Boolean)
+    for (const piece of members) piece.collection = id
+    return {
+      id,
+      count: members.length,
+      pieces: members.map((p) => p.slug),
+      // Naming a cover is optional: the first piece listed is the range's
+      // lead anyway, so its cover is the honest default.
+      cover: byName.get(spec.cover) ?? members[0]?.cover ?? null,
+    }
+  })
+  // A range whose pieces have all been dropped would render as an empty page.
+  .filter((c) => c.count > 0)
 
 await emit(catalog, ROOT)
 

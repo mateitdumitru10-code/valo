@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'motion/react'
 import { HeroFilm } from '~/components/HeroFilm'
 
-import { CollectionIndex } from '~/components/CollectionIndex'
+import { Index, type IndexItem } from '~/components/Index'
 import { PieceCard } from '~/components/PieceCard'
 import { Rail } from '~/components/Rail'
 import { Img } from '~/components/Img'
@@ -10,7 +10,15 @@ import { Reveal, RevealImage, RevealLines } from '~/components/Reveal'
 import { Parallax } from '~/components/Parallax'
 import { ArrowLink, Cta, Eyebrow, Rule } from '~/components/UI'
 import { InquiryForm } from '~/components/InquiryForm'
-import { featured, pieces, bySlug } from '~/lib/catalog'
+import {
+  bySlug,
+  collectionName,
+  collections,
+  featured,
+  inCollection,
+  pieces,
+  priceRange,
+} from '~/lib/catalog'
 import { useI18n, type Key } from '~/lib/i18n'
 import { locations, parentSite } from '~/lib/showrooms'
 import { expo, viewport } from '~/lib/motion'
@@ -26,6 +34,18 @@ export function Home() {
   const craftA = bySlug(CRAFT_IMAGE_A) ?? featured[0]
   const craftB = bySlug(CRAFT_IMAGE_B) ?? featured[1]
   const showrooms = locations.filter((l) => l.kind === 'showroom')
+
+  // The landing index is the ranges, not the kinds of piece: a name is worth
+  // more on a first visit than a noun the visitor already knows.
+  const rangeIndex: IndexItem[] = collections.map((c) => ({
+    id: c.id,
+    href: `/colectii/${c.id}`,
+    label: collectionName(c.id),
+    lede: t(`collection.lede.${c.id}` as Key),
+    count: c.count,
+    cover: c.cover,
+    from: priceRange(inCollection(c.id))?.min ?? null,
+  }))
 
   return (
     <>
@@ -65,7 +85,7 @@ export function Home() {
           <p className="max-w-sm text-sm opacity-60">{t('collections.lede')}</p>
         </div>
 
-        <CollectionIndex />
+        <Index items={rangeIndex} />
       </section>
 
       {/* ---------------------------------------------------- featured ---- */}

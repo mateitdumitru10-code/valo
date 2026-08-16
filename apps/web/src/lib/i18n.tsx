@@ -18,6 +18,7 @@ export type Lang = 'ro' | 'en'
 
 const ro = {
   'nav.collections': 'Colecții',
+  'nav.categories': 'Categorii',
   'nav.pieces': 'Piese',
   'nav.atelier': 'Atelier',
   'nav.showrooms': 'Showroom-uri',
@@ -56,10 +57,17 @@ const ro = {
   'manifesto.link': 'Despre atelier',
 
   'collections.eyebrow': 'Colecții',
-  'collections.title': 'Șapte familii de piese',
+  'collections.title': 'Șapte colecții',
   'collections.lede':
-    'Catalogul e împărțit după cum se folosește o casă: locul unde stai, locul unde dormi, locul prin care treci.',
+    'O colecție e un desen dus mai departe: același braț, același soclu, aceeași cusătură, croite pe rând ca fotoliu, colțar, modul sau pat. Se comandă o piesă sau se scrie camera întreagă în aceeași limbă.',
   'collections.hoverHint': 'Treci cu mouse-ul peste un titlu',
+
+  'categories.eyebrow': 'Categorii',
+  'categories.title': 'Șase feluri de piese',
+  'categories.lede':
+    'Catalogul întreg, împărțit după cum se folosește o casă: locul unde stai, locul unde dormi, locul prin care treci.',
+  'collection.across': 'Se regăsește în',
+  'collection.only': 'O singură piesă, deocamdată.',
 
   'featured.eyebrow': 'Selecție',
   'featured.title': 'Piese în lumină',
@@ -127,12 +135,14 @@ const ro = {
   'piece.description': 'Descriere',
   'piece.spec': 'Fișă tehnică',
   'piece.collection': 'Colecție',
+  'piece.category': 'Categorie',
   'piece.code': 'Cod',
   'piece.warranty': 'Garanție',
   'piece.warrantyValue': '24 de luni',
   'piece.origin': 'Producție',
   'piece.originValue': 'Vadu Săpat, Prahova',
   'piece.related': 'Din aceeași colecție',
+  'piece.relatedCategory': 'Din aceeași categorie',
   'piece.priceNote': 'Preț de listă, textil standard. TVA inclus.',
   'piece.roNote': 'Descriere din fișa de producție.',
   'piece.plan': 'Plan',
@@ -150,20 +160,35 @@ const ro = {
   'piece.shotIn': 'Fotografiat în',
   'piece.views': 'vederi',
 
-  'collection.lede.sectionals':
+  'category.lede.sectionals':
     'Colțare modulare, cu ladă de depozitare și extensie de dormit. Piesa care organizează un living întreg.',
-  'collection.lede.sofas':
+  'category.lede.sofas':
     'Canapele fixe și extensibile, de la două locuri la piese de patru metri.',
-  'collection.lede.beds':
+  'category.lede.beds':
     'Paturi tapițate cu somieră rabatabilă și ladă. Tăblii capitonate sau cu panouri cusute.',
-  'collection.lede.armchairs':
+  'category.lede.armchairs':
     'Fotolii fixe și extensibile, pentru colțul de citit sau pentru un oaspete peste noapte.',
-  'collection.lede.hallway':
+  'category.lede.hallway':
     'Ansambluri pentru hol și living: canapea, fotolii și măsuță, gândite împreună.',
-  'collection.lede.nightstands':
+  'category.lede.nightstands':
     'Noptiere tapițate, asortate tăbliilor de pat din aceeași colecție.',
-  'collection.lede.seating':
+  'category.lede.seating':
     'Scaune și taburete tapițate — piesele mici care leagă restul camerei.',
+
+  'collection.lede.aldo':
+    'Blocuri adânci, capitonate mărunt, pe picioare joase. Cinci piese pe același desen: colțarul, canapeaua extensibilă, modulul, canapeaua rotundă și patul.',
+  'collection.lede.cubic':
+    'Volume drepte așezate pe un soclu cu falduri strânse. Aceeași geometrie la patru scări — modul, colțar, canapea și pat.',
+  'collection.lede.soria':
+    'Braț lat, șezut adânc, extensie de dormit. Un colțar, un colțar în U și canapeaua din aceeași familie.',
+  'collection.lede.torro':
+    'Braț-bloc și tetiere rabatabile. Colțarul și canapeaua, aceeași linie citită la două lungimi.',
+  'collection.lede.linear':
+    'Linie joasă, fără ornament, cu o singură cusătură orizontală. Un colțar și un pat croite din aceeași tăietură.',
+  'collection.lede.bella':
+    'Brațe rotunjite și perne libere, într-un bouclé care ține forma. Deocamdată o singură piesă.',
+  'collection.lede.vallo':
+    'Spătare joase și o cusătură verticală care împarte șezutul. Deocamdată un singur colțar.',
 
   'story.eyebrow': 'Atelier',
   'story.title': 'Mobilă făcută unde se și vinde',
@@ -189,6 +214,7 @@ const ro = {
 
 const en: Record<keyof typeof ro, string> = {
   'nav.collections': 'Collections',
+  'nav.categories': 'Categories',
   'nav.pieces': 'Pieces',
   'nav.atelier': 'Atelier',
   'nav.showrooms': 'Showrooms',
@@ -227,10 +253,17 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.link': 'About the atelier',
 
   'collections.eyebrow': 'Collections',
-  'collections.title': 'Seven families of pieces',
+  'collections.title': 'Seven collections',
   'collections.lede':
-    'The catalogue is split the way a house is used: where you sit, where you sleep, what you walk past.',
+    'A collection is one drawing carried further: the same arm, the same base, the same seam, cut in turn as a corner, a sofa, a module, a bed. Order a single piece, or write the whole room in one language.',
   'collections.hoverHint': 'Hover a title',
+
+  'categories.eyebrow': 'Categories',
+  'categories.title': 'Six kinds of piece',
+  'categories.lede':
+    'The whole catalogue, sorted the way a house is used: where you sit, where you sleep, what you pass through.',
+  'collection.across': 'Runs across',
+  'collection.only': 'One piece, for now.',
 
   'featured.eyebrow': 'Selection',
   'featured.title': 'In the light',
@@ -297,12 +330,14 @@ const en: Record<keyof typeof ro, string> = {
   'piece.description': 'Description',
   'piece.spec': 'Specification',
   'piece.collection': 'Collection',
+  'piece.category': 'Category',
   'piece.code': 'Code',
   'piece.warranty': 'Warranty',
   'piece.warrantyValue': '24 months',
   'piece.origin': 'Made in',
   'piece.originValue': 'Vadu Săpat, Prahova',
   'piece.related': 'From the same collection',
+  'piece.relatedCategory': 'From the same category',
   'piece.priceNote': 'List price, standard textile. VAT included.',
   'piece.roNote': 'Description as written on the production sheet, in Romanian.',
   'piece.plan': 'Plan',
@@ -320,19 +355,34 @@ const en: Record<keyof typeof ro, string> = {
   'piece.shotIn': 'Photographed in',
   'piece.views': 'views',
 
-  'collection.lede.sectionals':
+  'category.lede.sectionals':
     'Modular sectionals with storage and a sleeping extension. The piece that organises a whole living room.',
-  'collection.lede.sofas':
+  'category.lede.sofas':
     'Fixed and extendable sofas, from two seats to four-metre pieces.',
-  'collection.lede.beds':
+  'category.lede.beds':
     'Upholstered beds with lift-up bases and storage. Buttoned or panel-stitched headboards.',
-  'collection.lede.armchairs':
+  'category.lede.armchairs':
     'Fixed and extendable armchairs, for the reading corner or an overnight guest.',
-  'collection.lede.hallway':
+  'category.lede.hallway':
     'Hallway and living sets: sofa, armchairs and table, designed together.',
-  'collection.lede.nightstands':
+  'category.lede.nightstands':
     'Upholstered nightstands matched to the headboards of the same collection.',
-  'collection.lede.seating':
+  'collection.lede.aldo':
+    'Deep blocks, finely tufted, on low feet. Five pieces on one drawing: the corner, the sofa bed, the module, the round sofa and the bed.',
+  'collection.lede.cubic':
+    'Straight volumes set on a gathered base. One geometry at four scales — module, corner, sofa and bed.',
+  'collection.lede.soria':
+    'A wide arm, a deep seat, a bed inside. A corner, a corner in a U, and the sofa of the same family.',
+  'collection.lede.torro':
+    'Block arms and folding headrests. The corner and the sofa, one line read at two lengths.',
+  'collection.lede.linear':
+    'A low line, no ornament, a single horizontal seam. A corner and a bed cut the same way.',
+  'collection.lede.bella':
+    'Rounded arms and loose cushions, in a bouclé that holds its shape. One piece so far.',
+  'collection.lede.vallo':
+    'Low backs and a vertical seam dividing the seat. One corner so far.',
+
+  'category.lede.seating':
     'Upholstered chairs and stools — the small pieces that tie the room together.',
 
   'story.eyebrow': 'Atelier',

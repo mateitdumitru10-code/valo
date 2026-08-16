@@ -22,13 +22,18 @@ export async function emit(catalog, root) {
 
   const index = {
     generatedAt: catalog.generatedAt,
+    // Categories are the six kinds of piece; collections are the named ranges
+    // a piece belongs to — Aldo, Cubic, Soria. A piece has one of each, though
+    // only the pieces that carry a range name have the second.
+    categories: catalog.categories,
     collections: catalog.collections,
     hero: catalog.hero,
     products: catalog.products.map((p) => ({
       id: p.id,
       slug: p.slug,
       name: p.name,
-      collection: p.collection,
+      category: p.category,
+      ...(p.collection ? { collection: p.collection } : {}),
       price: p.price,
       currency: p.currency,
       cover: p.cover,

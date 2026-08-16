@@ -41,6 +41,26 @@ pnpm build && pnpm start   # Express serves apps/web/dist and /api on :8787
 
 Total media drops from ~171 MB of originals to ~25 MB of renditions.
 
+## Two ways in
+
+The catalogue is grouped twice, and the words are not interchangeable.
+
+- **Categories** — the six kinds of piece: Colțare, Canapele, Paturi, Fotolii,
+  Hol, Șezut. Derived from Samobi's own categories in `ingest.mjs`. They live at
+  `/categorii`.
+- **Collections** — the named ranges: Aldo, Cubic, Soria, Torro, Linear, Bella,
+  Vallo. One design carried across several kinds of piece, so Aldo is a corner,
+  a sofa bed, a module, a round sofa and a bed. They live at `/colectii`, and
+  the landing page indexes them rather than the categories.
+
+Membership is listed in `curation.json` under `collections` rather than matched
+on the product name. Matching looked tempting — every Aldo piece has Aldo in its
+name — but `Coltar Bela` is not a `Canapea Bella`, and renaming a piece would
+silently move it.
+
+A piece has exactly one category and at most one collection; most of the
+catalogue has no collection at all.
+
 ## Art direction
 
 The source library is uneven: some images are clean in-room renders, many are
@@ -51,7 +71,7 @@ the same way.
 `data/curation.json` is the manifest that enforces that:
 
 - **`hero`** — the eight frames of the opening film, in order.
-- **`covers`** — one image per collection.
+- **`covers`** — one image per category.
 - **`editorial`** — images allowed to run large. Everything else is confined to
   small gallery thumbs on a product page, and never gets a full-bleed frame.
 
@@ -126,8 +146,10 @@ contact page — no invented claims about company age, awards or volumes.
 | Method | Route                   | Notes                                    |
 | ------ | ----------------------- | ---------------------------------------- |
 | GET    | `/api/health`           | piece count + catalogue timestamp        |
-| GET    | `/api/catalog`          | collections, hero frames, products       |
-| GET    | `/api/products`         | `?collection=` `?q=`                     |
+| GET    | `/api/catalog`          | categories, collections, hero, products  |
+| GET    | `/api/categories`       | the six kinds of piece                   |
+| GET    | `/api/collections`      | the named ranges                         |
+| GET    | `/api/products`         | `?category=` `?collection=` `?q=`        |
 | GET    | `/api/products/:slug`   |                                          |
 | POST   | `/api/inquiries`        | quote request → `data/inquiries.jsonl`   |
 

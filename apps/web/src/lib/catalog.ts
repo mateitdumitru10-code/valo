@@ -11,7 +11,8 @@ export type Img = {
   studio?: boolean
 }
 
-export type CollectionId =
+/** A kind of piece. What the catalogue is sorted into. */
+export type CategoryId =
   | 'sectionals'
   | 'sofas'
   | 'beds'
@@ -20,15 +21,31 @@ export type CollectionId =
   | 'nightstands'
   | 'seating'
 
-export type Collection = {
-  id: CollectionId
+export type Category = {
+  id: CategoryId
   ro: string
   en: string
   count: number
   /** Small cover, used on cards and in the index preview. */
   cover: Img | null
-  /** Full-bleed image behind the collection page headline. */
+  /** Full-bleed image behind the category page headline. */
   header: Img | null
+}
+
+/**
+ * A named range — one design carried across several kinds of piece. Aldo is a
+ * corner, a sofa, a module and a bed; a category holds one of each from
+ * everywhere. Membership is listed in data/curation.json, so a piece belongs to
+ * a range because it was put there, not because its name happens to match.
+ */
+export type CollectionId = 'aldo' | 'cubic' | 'soria' | 'torro' | 'linear' | 'bella' | 'vallo'
+
+export type Collection = {
+  id: CollectionId
+  count: number
+  /** Slugs, in the order the range should read — its largest piece first. */
+  pieces: string[]
+  cover: Img | null
 }
 
 export type Dimension = { w: number; d: number; h: number }
@@ -76,7 +93,9 @@ export type Piece = {
   id: number
   slug: string
   name: string
-  collection: CollectionId
+  category: CategoryId
+  /** The range it belongs to, where it belongs to one. Most pieces do not. */
+  collection?: CollectionId
   price: number | null
   currency: string
   cover: Img
@@ -99,6 +118,7 @@ export type PieceDetail = {
 
 type Catalog = {
   generatedAt: string
+  categories: Category[]
   collections: Collection[]
   products: Piece[]
   hero: Img[]
@@ -120,7 +140,11 @@ export function loadPiece(slug: string) {
 
 const catalog = raw as unknown as Catalog
 
+export const categories = catalog.categories
 export const collections = catalog.collections
+
+/** Aldo, Cubic — the ranges read as a name, not as a translated noun. */
+export const collectionName = (id: string) => id.charAt(0).toUpperCase() + id.slice(1)
 
 /**
  * Own studio photography leads everywhere a list of pieces appears — grids,
@@ -135,19 +159,41 @@ export const heroFrames = catalog.hero
 
 export const bySlug = (slug: string) => pieces.find((p) => p.slug === slug)
 
-export const inCollection = (id: CollectionId) =>
-  pieces.filter((p) => p.collection === id)
+export const inCategory = (id: CategoryId) => pieces.filter((p) => p.category === id)
 
-export const collection = (id: string) => collections.find((c) => c.id === id)
+export const category = (id?: string) => categories.find((c) => c.id === id)
+
+export const collection = (id?: string) => collections.find((c) => c.id === id)
+
+/**
+ * A range's pieces in the order the manifest lists them, rather than in the
+ * catalogue's own order — a range is meant to be read largest piece first.
+ */
+export const inCollection = (id: CollectionId) => {
+  const range = collection(id)
+  if (!range) return []
+  return range.pieces.map((slug) => bySlug(slug)).filter((p): p is Piece => Boolean(p))
+}
 
 /** Editorial-grade pieces first — the ones whose photography can carry a hero. */
 export const featured = pieces.filter((p) => p.cover.editorial).slice(0, 10)
 
-export const related = (piece: Piece, count = 4) =>
-  pieces
-    .filter((p) => p.slug !== piece.slug && p.collection === piece.collection)
+/**
+ * The rest of the range, where the piece is in one — those are siblings in a
+ * way that two unrelated sofas are not. Pieces outside a range fall back to
+ * their category, which is the only kinship they have.
+ */
+export const related = (piece: Piece, count = 4) => {
+  const family = piece.collection
+    ? inCollection(piece.collection).filter((p) => p.slug !== piece.slug)
+    : []
+  if (family.length) return family.slice(0, count)
+
+  return pieces
+    .filter((p) => p.slug !== piece.slug && p.category === piece.category)
     .sort((a, b) => Number(b.cover.editorial) - Number(a.cover.editorial))
     .slice(0, count)
+}
 
 export const priceRange = (list: Piece[]) => {
   const prices = list.map((p) => p.price ?? 0).filter(Boolean)

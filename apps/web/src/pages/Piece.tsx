@@ -11,7 +11,9 @@ import { InquiryForm } from '~/components/InquiryForm'
 import { ArrowLink, Eyebrow, Rule } from '~/components/UI'
 import {
   bySlug,
+  category,
   collection,
+  collectionName,
   formatPrice,
   loadPiece,
   related,
@@ -48,7 +50,8 @@ export function PiecePage() {
 
   if (!piece) return <Navigate to="/piese" replace />
 
-  const family = collection(piece.collection)
+  const kind = category(piece.category)
+  const range = collection(piece.collection)
   const price = formatPrice(piece.price, lang)
 
   // With textiles, the lead image is whichever one is selected, and the
@@ -94,9 +97,15 @@ export function PiecePage() {
             {t('nav.pieces')}
           </Link>
           <span>/</span>
-          <Link to={`/colectii/${piece.collection}`} className="hover:opacity-100">
-            {family ? (lang === 'ro' ? family.ro : family.en) : ''}
-          </Link>
+          {range ? (
+            <Link to={`/colectii/${range.id}`} className="hover:opacity-100">
+              {collectionName(range.id)}
+            </Link>
+          ) : (
+            <Link to={`/categorii/${piece.category}`} className="hover:opacity-100">
+              {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
+            </Link>
+          )}
         </nav>
 
         <header className="mt-8 grid gap-8 md:grid-cols-12">
@@ -172,11 +181,22 @@ export function PiecePage() {
                 </div>
               )}
 
+              {range && (
+                <div className="border-b border-ink/10 py-4">
+                  <dt className="eyebrow opacity-45">{t('piece.collection')}</dt>
+                  <dd className="mt-2">
+                    <Link to={`/colectii/${range.id}`} className="underline underline-offset-4">
+                      {collectionName(range.id)}
+                    </Link>
+                  </dd>
+                </div>
+              )}
+
               <div className="border-b border-ink/10 py-4">
-                <dt className="eyebrow opacity-45">{t('piece.collection')}</dt>
+                <dt className="eyebrow opacity-45">{t('piece.category')}</dt>
                 <dd className="mt-2">
-                  <Link to={`/colectii/${piece.collection}`} className="underline underline-offset-4">
-                    {family ? (lang === 'ro' ? family.ro : family.en) : ''}
+                  <Link to={`/categorii/${piece.category}`} className="underline underline-offset-4">
+                    {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
                   </Link>
                 </dd>
               </div>
@@ -302,7 +322,7 @@ export function PiecePage() {
       {/* -------------------------------------------------------- related -- */}
       {siblings.length > 0 && (
         <section className="gutter border-t border-ink/12 py-16">
-          <Eyebrow>{t('piece.related')}</Eyebrow>
+          <Eyebrow>{t(range ? 'piece.related' : 'piece.relatedCategory')}</Eyebrow>
           <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4">
             {siblings.map((sibling) => (
               <PieceCard

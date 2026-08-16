@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 import { useI18n } from '~/lib/i18n'
-import { collections } from '~/lib/catalog'
+import { collectionName, collections } from '~/lib/catalog'
 import { locations, mainPhone, mainPhoneHref, parentSite } from '~/lib/showrooms'
 import { Rule } from './UI'
 
 const year = new Date().getFullYear()
 
 export function Footer() {
-  const { t, lang } = useI18n()
+  const { t } = useI18n()
   const showrooms = locations.filter((l) => l.kind === 'showroom')
 
   return (
@@ -36,10 +36,18 @@ export function Footer() {
                   to={`/colectii/${c.id}`}
                   className="text-sm opacity-70 transition-opacity hover:opacity-100"
                 >
-                  {lang === 'ro' ? c.ro : c.en}
+                  {collectionName(c.id)}
                 </Link>
               </li>
             ))}
+            <li className="pt-2">
+              <Link
+                to="/categorii"
+                className="text-sm opacity-45 transition-opacity hover:opacity-100"
+              >
+                {t('nav.categories')}
+              </Link>
+            </li>
           </ul>
         </nav>
 

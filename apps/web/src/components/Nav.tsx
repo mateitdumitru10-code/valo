@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import clsx from 'clsx'
 import { useI18n } from '~/lib/i18n'
-import { collections } from '~/lib/catalog'
+import { collectionName, collections } from '~/lib/catalog'
 import { mainPhone, mainPhoneHref } from '~/lib/showrooms'
 import { expo } from '~/lib/motion'
 import { stopScroll } from '~/hooks/useLenis'
@@ -243,9 +243,15 @@ export function Nav() {
                     to={`/colectii/${c.id}`}
                     className="eyebrow text-paper/50 transition-colors hover:text-paper"
                   >
-                    {lang === 'ro' ? c.ro : c.en}
+                    {collectionName(c.id)}
                   </Link>
                 ))}
+                <Link
+                  to="/categorii"
+                  className="eyebrow text-paper/50 transition-colors hover:text-paper"
+                >
+                  {t('nav.categories')}
+                </Link>
               </div>
             </div>
           </motion.div>
