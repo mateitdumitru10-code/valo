@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import type { ReactNode } from 'react'
 import clsx from 'clsx'
-import { expo, fadeUp, unmask, viewport } from '~/lib/motion'
+import { expo, fadeUp, rise, unmask, viewport } from '~/lib/motion'
 
 type Props = {
   children: ReactNode
@@ -61,21 +61,29 @@ export function RevealLines({
   lineClassName?: string
   delay?: number
 }) {
+  // The observer sits on the outer span, and the lines animate as its
+  // variants. It cannot sit on the lines themselves: each is pushed a full
+  // line below its own mask, so `overflow-hidden` clips it to nothing, the
+  // intersection area is zero, and `whileInView` never fires. Every display
+  // heading on the site stayed hidden that way.
   return (
-    <span className={clsx('block', className)}>
+    <motion.span
+      className={clsx('block', className)}
+      initial="hidden"
+      whileInView="show"
+      viewport={viewport}
+    >
       {lines.map((line, i) => (
         <span key={line} className="block overflow-hidden">
           <motion.span
             className={clsx('block', lineClassName)}
-            initial={{ y: '110%' }}
-            whileInView={{ y: '0%' }}
-            viewport={viewport}
-            transition={{ duration: 1.1, ease: expo, delay: delay + i * 0.08 }}
+            variants={rise}
+            custom={delay + i}
           >
             {line}
           </motion.span>
         </span>
       ))}
-    </span>
+    </motion.span>
   )
 }
