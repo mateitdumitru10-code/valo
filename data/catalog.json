@@ -218,6 +218,19 @@
           "studio": true
         },
         {
+          "src": "coltar-aldo-c7",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwC7ACHfm4sn3pcJAAD+82v8zV8l8vAATE5Q72uwnZEZ3F+OB9XgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-aldo-c2",
           "w": 2000,
           "h": 1500,
@@ -283,6 +296,19 @@
           "studio": true
         },
         {
+          "src": "coltar-aldo-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+vhVH5DgijAAP7za+4ysoPsWyC+OdgUywzKDMQJbqUCBk5/gAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-aldo-studio-1",
           "w": 2000,
           "h": 1500,
@@ -296,6 +322,19 @@
           "studio": true
         },
         {
+          "src": "coltar-aldo-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JZwDE2CHfuPHiWO5kp2AA/vNu+/tJtqJFswts10rWOVLGXAgAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-aldo-studio-3",
           "w": 2000,
           "h": 1500,
@@ -305,6 +344,19 @@
             700
           ],
           "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6+DFGLPkMgLAAP7za+5EdO9f3kHDI5UuMZ5wAgAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-aldo-studio-5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwAAW+uXlLB7JR0EgAD+8277+7aoQyxT8jVpRSvzXm7RsacaAAAA",
           "editorial": true,
           "studio": true
         }
@@ -332,6 +384,15 @@
           "tone": {
             "ro": "Greige",
             "en": "Greige"
+          }
+        },
+        {
+          "src": "coltar-aldo-c7",
+          "chip": "/media/coltar-aldo-c7-700.webp",
+          "swatch": "#96816f",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
           }
         },
         {
@@ -393,16 +454,34 @@
       },
       "views": [
         {
+          "src": "coltar-aldo-studio-2",
+          "ro": "Profil",
+          "en": "Profile",
+          "in": "coltar-aldo-c1"
+        },
+        {
           "src": "coltar-aldo-studio-1",
           "ro": "Trei sferturi",
           "en": "Three-quarter",
           "in": "coltar-aldo-c1"
         },
         {
+          "src": "coltar-aldo-studio-4",
+          "ro": "Fără perne",
+          "en": "Without back cushions",
+          "in": "coltar-aldo-c7"
+        },
+        {
           "src": "coltar-aldo-studio-3",
+          "ro": "Deschis, trei sferturi",
+          "en": "Opened, three-quarter",
+          "in": "coltar-aldo-c1"
+        },
+        {
+          "src": "coltar-aldo-studio-5",
           "ro": "Deschis, pat",
           "en": "Opened as a bed",
-          "in": "coltar-aldo-c1"
+          "in": "coltar-aldo-c7"
         }
       ]
     },

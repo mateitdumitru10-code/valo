@@ -26,13 +26,17 @@
     ],
     "coltar-aldo": [
       "coltar-aldo-c1",
+      "coltar-aldo-c7",
       "coltar-aldo-c2",
       "coltar-aldo-c3",
       "coltar-aldo-c4",
       "coltar-aldo-c5",
       "coltar-aldo-c6",
+      "coltar-aldo-studio-2",
       "coltar-aldo-studio-1",
-      "coltar-aldo-studio-3"
+      "coltar-aldo-studio-4",
+      "coltar-aldo-studio-3",
+      "coltar-aldo-studio-5"
     ],
     "pat-aldo": [
       "pat-aldo-c1",
@@ -486,6 +490,11 @@
         "src": "coltar-aldo-c1",
         "ro": "Greige",
         "en": "Greige"
+      },
+      {
+        "src": "coltar-aldo-c7",
+        "ro": "Bej",
+        "en": "Beige"
       },
       {
         "src": "coltar-aldo-c2",
@@ -1336,16 +1345,34 @@
     ],
     "coltar-aldo": [
       {
+        "src": "coltar-aldo-studio-2",
+        "ro": "Profil",
+        "en": "Profile",
+        "in": "coltar-aldo-c1"
+      },
+      {
         "src": "coltar-aldo-studio-1",
         "ro": "Trei sferturi",
         "en": "Three-quarter",
         "in": "coltar-aldo-c1"
       },
       {
+        "src": "coltar-aldo-studio-4",
+        "ro": "Fără perne",
+        "en": "Without back cushions",
+        "in": "coltar-aldo-c7"
+      },
+      {
         "src": "coltar-aldo-studio-3",
+        "ro": "Deschis, trei sferturi",
+        "en": "Opened, three-quarter",
+        "in": "coltar-aldo-c1"
+      },
+      {
+        "src": "coltar-aldo-studio-5",
         "ro": "Deschis, pat",
         "en": "Opened as a bed",
-        "in": "coltar-aldo-c1"
+        "in": "coltar-aldo-c7"
       }
     ],
     "pat-aldo": [
@@ -1992,6 +2019,9 @@
     "pat-sun-c5",
     "pat-sun-c1",
     "pat-sun-c6",
-    "pat-sun-c3"
+    "pat-sun-c3",
+    "coltar-aldo-c7",
+    "coltar-aldo-studio-4",
+    "coltar-aldo-studio-5"
   ]
 }
