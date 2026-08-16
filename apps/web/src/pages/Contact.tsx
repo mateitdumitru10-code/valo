@@ -9,6 +9,9 @@ export function Contact() {
   const [params] = useSearchParams()
   const { t, lang } = useI18n()
   const piece = params.get('piece') ?? undefined
+  // A width chosen on a bed page rides the link here; it is put in the message
+  // rather than in the piece field, which is a fixed list of catalogue names.
+  const size = params.get('size') ?? undefined
   const factory = locations.find((l) => l.kind === 'factory')!
 
   return (
@@ -51,7 +54,7 @@ export function Contact() {
         </div>
 
         <div className="md:col-span-7 md:col-start-6">
-          <InquiryForm defaultPiece={piece} />
+          <InquiryForm defaultPiece={piece} defaultSize={size} />
         </div>
       </section>
     </div>

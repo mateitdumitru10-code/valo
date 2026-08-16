@@ -308,6 +308,15 @@ for (const product of catalog.products) {
   }
 }
 
+// Sizes are offered by category — every bed takes the same widths — so they
+// are stamped from one list rather than repeated on nineteen pieces.
+for (const product of catalog.products) {
+  const sizes =
+    curation.sizes?.pieces?.[product.slug] ?? curation.sizes?.categories?.[product.category]
+  if (Array.isArray(sizes) && sizes.length) product.sizes = sizes
+  else delete product.sizes
+}
+
 // Dropped pieces, and any piece left without usable photography — the latter
 // would otherwise render as an empty card.
 const excluded = new Set(curation.exclude?.slugs ?? [])

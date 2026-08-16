@@ -121,6 +121,8 @@ export type PieceDetail = {
   source: string
   variants?: Variant[]
   views?: View[]
+  /** Mattress widths in cm this piece is offered in. Beds only, today. */
+  sizes?: number[]
   schematic?: Schematic
 }
 

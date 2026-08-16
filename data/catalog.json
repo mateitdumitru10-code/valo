@@ -626,7 +626,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 250,
@@ -1559,7 +1565,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6996,
@@ -1785,7 +1797,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6746,
@@ -1954,7 +1972,13 @@
         "studio": false
       },
       "editorial": false,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6637,
@@ -2411,6 +2435,12 @@
         }
       ],
       "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ],
       "collection": "aldo"
     },
     {
@@ -2563,7 +2593,13 @@
         "studio": false
       },
       "editorial": false,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 225,
@@ -2701,7 +2737,13 @@
         "studio": false
       },
       "editorial": false,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6287,
@@ -3717,7 +3759,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6770,
@@ -3774,7 +3822,13 @@
         "studio": false
       },
       "editorial": true,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6757,
@@ -3831,7 +3885,13 @@
         "studio": false
       },
       "editorial": false,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6748,
@@ -4719,6 +4779,12 @@
         }
       ],
       "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ],
       "collection": "cubic"
     },
     {
@@ -4764,7 +4830,13 @@
         "studio": false
       },
       "editorial": false,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6760,
@@ -4809,7 +4881,13 @@
         "studio": false
       },
       "editorial": true,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6766,
@@ -4854,7 +4932,13 @@
         "studio": false
       },
       "editorial": true,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 6764,
@@ -4899,7 +4983,13 @@
         "studio": false
       },
       "editorial": true,
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": 275,
@@ -5672,7 +5762,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": "valo-coltar-vallo",
@@ -6386,6 +6482,12 @@
         }
       ],
       "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ],
       "collection": "linear"
     },
     {
@@ -6609,7 +6711,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": "valo-modul-cubiq",
@@ -7014,7 +7122,13 @@
           }
         }
       ],
-      "category": "beds"
+      "category": "beds",
+      "sizes": [
+        140,
+        160,
+        180,
+        200
+      ]
     },
     {
       "id": "valo-modul-aldo",

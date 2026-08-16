@@ -62,7 +62,13 @@ function send(data: Record<string, string>) {
   })
 }
 
-export function InquiryForm({ defaultPiece }: { defaultPiece?: string }) {
+export function InquiryForm({
+  defaultPiece,
+  defaultSize,
+}: {
+  defaultPiece?: string
+  defaultSize?: string
+}) {
   const { t } = useI18n()
   const [status, setStatus] = useState<Status>('idle')
   const [errors, setErrors] = useState<Errors>({})
@@ -151,6 +157,7 @@ export function InquiryForm({ defaultPiece }: { defaultPiece?: string }) {
             id="message"
             name="message"
             rows={4}
+            defaultValue={defaultSize ? t('contact.sizePrefill').replace('{size}', defaultSize) : undefined}
             placeholder={t('contact.messagePlaceholder')}
             className={clsx(inputClass, 'resize-none')}
           />

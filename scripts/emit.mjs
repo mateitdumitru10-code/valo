@@ -57,6 +57,7 @@ export async function emit(catalog, root) {
         source: p.source,
         ...(p.variants ? { variants: p.variants } : {}),
         ...(p.views ? { views: p.views } : {}),
+        ...(p.sizes ? { sizes: p.sizes } : {}),
         ...(p.schematic ? { schematic: p.schematic } : {}),
       }),
     )

@@ -3,6 +3,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import clsx from 'clsx'
 import { Img } from '~/components/Img'
+import { SizePicker } from '~/components/SizePicker'
 import { TextilePicker } from '~/components/TextilePicker'
 import { Schematic } from '~/components/Schematic'
 import { PieceCard } from '~/components/PieceCard'
@@ -31,6 +32,7 @@ export function PiecePage() {
   const { t, lang } = useI18n()
   const piece = bySlug(slug)
   const [textile, setTextile] = useState(0)
+  const [size, setSize] = useState<number | null>(null)
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
   // here. The cover comes from the index, so the page has an image to show
   // from the first frame.
@@ -40,6 +42,7 @@ export function PiecePage() {
     let live = true
     setDetail(null)
     setTextile(0)
+    setSize(null)
     loadPiece(slug).then((data) => {
       if (live) setDetail(data)
     })
@@ -60,6 +63,10 @@ export function PiecePage() {
   const variants = detail?.variants ?? []
   const variantSrcs = new Set(variants.map((v) => v.src))
   const selected = variants[Math.min(textile, variants.length - 1)]
+  // Beds are offered in several widths. Nothing is preselected in state, so the
+  // narrowest stands as the default until the visitor says otherwise.
+  const sizes = detail?.sizes ?? []
+  const chosenSize = size ?? sizes[0] ?? 0
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
   // The other views of the piece — the angle, the side, the sofa opened out,
   // the storage box lifted. They are the atelier's record of the model, not the
@@ -163,6 +170,12 @@ export function PiecePage() {
               </div>
             )}
 
+            {sizes.length > 1 && (
+              <div className="mb-12">
+                <SizePicker sizes={sizes} active={chosenSize} onSelect={setSize} />
+              </div>
+            )}
+
             <Eyebrow>{t('piece.spec')}</Eyebrow>
             <Rule className="mt-4" />
 
@@ -218,7 +231,11 @@ export function PiecePage() {
             </dl>
 
             <div className="mt-8">
-              <ArrowLink to={`/contact?piece=${encodeURIComponent(piece.name)}`}>
+              <ArrowLink
+                to={`/contact?piece=${encodeURIComponent(piece.name)}${
+                  sizes.length > 1 ? `&size=${chosenSize}` : ''
+                }`}
+              >
                 {t('common.enquire')}
               </ArrowLink>
             </div>

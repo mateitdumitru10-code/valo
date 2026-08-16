@@ -2104,5 +2104,17 @@
         "coltar-vallo"
       ]
     }
+  },
+  "sizes": {
+    "_note": "Mattress widths in cm, offered across a whole category. Keyed by category so every bed picks them up without being listed one by one; a slug key under `pieces` overrides the category for a single piece.",
+    "categories": {
+      "beds": [
+        140,
+        160,
+        180,
+        200
+      ]
+    },
+    "pieces": {}
   }
 }
