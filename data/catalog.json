@@ -5662,6 +5662,19 @@
           "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+sbdeAAAP7za8YdBGD/Gs2nX8bkAAAA",
           "editorial": true,
           "studio": true
+        },
+        {
+          "src": "canapea-rotunda-aldo-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAW9N4WwzAXT8AAP7zdH41HGm/4kqDv/1ao4eGfDEdaWT/Xnp/gF+TCeSOrYAAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "",
@@ -5732,6 +5745,11 @@
           "ro": "Trei sferturi",
           "en": "Three-quarter",
           "in": "canapea-rotunda-aldo-c1"
+        },
+        {
+          "src": "canapea-rotunda-aldo-studio-4",
+          "ro": "Trei sferturi, antracit",
+          "en": "Three-quarter, charcoal"
         }
       ],
       "category": "sofas",
