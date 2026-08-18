@@ -38,7 +38,7 @@ export function SizePicker({ sizes, active, onSelect }: Props) {
       <div className="mt-3 h-px w-full bg-ink/12" />
 
       <p className="mt-4 flex items-baseline gap-2">
-        <span className="font-display text-4xl leading-none tabular-nums whitespace-nowrap">
+        <span className="font-display text-2xl leading-none tabular-nums whitespace-nowrap">
           {width} × {length}
         </span>
         <span className="eyebrow opacity-40">{t('piece.sizeUnit')}</span>

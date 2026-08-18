@@ -42,7 +42,7 @@ export function PieceCard({
 
         <div className="mt-4 flex items-baseline justify-between gap-4 border-t border-ink/10 pt-3">
           <div>
-            <h3 className="font-display text-xl leading-tight md:text-2xl">{piece.name}</h3>
+            <h3 className="font-display text-lg leading-tight md:text-xl">{piece.name}</h3>
             <p className="eyebrow mt-1.5 opacity-45">
               {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
             </p>

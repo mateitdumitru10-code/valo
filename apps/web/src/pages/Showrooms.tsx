@@ -15,7 +15,7 @@ export function Showrooms() {
         <h1 className="display-lg mt-8">
           <RevealLines lines={[t('showrooms.title')]} />
         </h1>
-        <p className="mt-8 max-w-md text-sm leading-relaxed opacity-65">{t('showrooms.lede')}</p>
+        <p className="lede mt-10 max-w-md opacity-70">{t('showrooms.lede')}</p>
       </header>
 
       <section className="gutter mt-20 pb-24">
@@ -28,7 +28,7 @@ export function Showrooms() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={viewport}
                   transition={{ duration: 0.7, ease: expo }}
-                  className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-none"
+                  className="display-md"
                 >
                   {city}
                 </motion.h2>
@@ -51,7 +51,7 @@ export function Showrooms() {
                       <p className="eyebrow opacity-40">
                         {l.kind === 'factory' ? t('showrooms.factory') : t('showrooms.showroom')}
                       </p>
-                      <h3 className="mt-2 font-display text-2xl">{l.name}</h3>
+                      <h3 className="mt-2 font-display text-xl">{l.name}</h3>
                       <p className="mt-3 max-w-xs text-sm leading-relaxed opacity-65">
                         {l.address}
                       </p>
@@ -96,14 +96,14 @@ export function Showrooms() {
       </section>
 
       <section className="gutter border-t border-ink/12 py-16 pb-28">
-        <p className="font-display text-[clamp(1.5rem,3vw,2.5rem)] leading-[1.2]">
+        <p className="font-display text-[clamp(1.25rem,1.05rem+1vw,1.75rem)] leading-[1.35]">
           {lang === 'ro'
             ? 'Preferați să sunați?'
             : 'Would you rather call?'}
         </p>
         <a
           href={`tel:${mainPhoneHref}`}
-          className="mt-4 inline-block font-display text-[clamp(2rem,6vw,4rem)] leading-none transition-opacity hover:opacity-60"
+          className="mt-4 inline-block font-display text-[clamp(1.5rem,1.15rem+1.25vw,2rem)] leading-none transition-opacity hover:opacity-60"
         >
           0733 853 257
         </a>

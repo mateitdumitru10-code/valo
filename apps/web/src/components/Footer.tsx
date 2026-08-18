@@ -16,12 +16,12 @@ export function Footer() {
 
       <div className="grid gap-12 pt-14 md:grid-cols-12">
         <div className="md:col-span-5">
-          <p className="max-w-sm font-display text-[clamp(1.5rem,2.4vw,2.25rem)] leading-[1.15]">
+          <p className="max-w-sm font-display text-[clamp(1.25rem,0.9rem+1vw,1.5rem)] leading-[1.35]">
             {t('footer.tagline')}
           </p>
           <a
             href={`tel:${mainPhoneHref}`}
-            className="mt-8 inline-block font-display text-2xl transition-opacity hover:opacity-60"
+            className="mt-8 inline-block font-display text-xl transition-opacity hover:opacity-60"
           >
             {mainPhone}
           </a>

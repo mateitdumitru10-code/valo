@@ -43,7 +43,7 @@ export function Schematic({ drawing, name }: { drawing: Drawing; name: string })
                 className="flex items-baseline justify-between gap-4 border-b border-ink/12 py-3"
               >
                 <dt className="eyebrow opacity-45">{t(key)}</dt>
-                <dd className="font-display text-2xl tabular-nums">
+                <dd className="font-display text-xl tabular-nums">
                   {value}
                   <span className="ml-1 text-sm opacity-45">cm</span>
                 </dd>

@@ -28,7 +28,7 @@ export function CategoryPage() {
 
       <section className="gutter grid gap-10 py-16 md:grid-cols-12 md:py-24">
         <p className="md:col-span-6 md:col-start-1">
-          <span className="font-display text-[clamp(1.35rem,2.4vw,2rem)] leading-[1.25]">
+          <span className="font-display text-xl leading-[1.3]">
             {t(`category.lede.${kind.id}` as Key)}
           </span>
         </p>
@@ -37,12 +37,12 @@ export function CategoryPage() {
             <dt className="eyebrow opacity-45">
               {t(kind.count === 1 ? 'common.piece' : 'common.pieces')}
             </dt>
-            <dd className="mt-1 font-display text-2xl tabular-nums">{kind.count}</dd>
+            <dd className="mt-1 font-display text-xl tabular-nums">{kind.count}</dd>
           </div>
           {range && (
             <div>
               <dt className="eyebrow opacity-45">{t('common.from')}</dt>
-              <dd className="mt-1 font-display text-2xl">{formatPrice(range.min, lang)}</dd>
+              <dd className="mt-1 font-display text-xl">{formatPrice(range.min, lang)}</dd>
             </div>
           )}
         </dl>
@@ -70,7 +70,7 @@ export function CategoryPage() {
             <li key={c.id}>
               <Link
                 to={`/categorii/${c.id}`}
-                className="font-display text-2xl opacity-60 transition-opacity hover:opacity-100 md:text-3xl"
+                className="font-display text-xl opacity-60 transition-opacity hover:opacity-100 md:text-2xl"
               >
                 {lang === 'ro' ? c.ro : c.en}
               </Link>

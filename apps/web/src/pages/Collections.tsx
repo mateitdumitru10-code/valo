@@ -39,7 +39,7 @@ export function Collections() {
         <h1 className="display-lg mt-8">
           <RevealLines lines={[t('collections.title')]} />
         </h1>
-        <p className="mt-8 max-w-lg text-sm leading-relaxed opacity-65">
+        <p className="lede mt-10 max-w-lg opacity-70">
           {t('collections.lede')}
         </p>
       </header>

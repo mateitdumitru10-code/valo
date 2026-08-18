@@ -43,7 +43,7 @@ export function TextilePicker({ variants, active, onSelect }: Props) {
           initial={{ y: '100%', opacity: 0 }}
           animate={{ y: '0%', opacity: 1 }}
           transition={{ duration: 0.5, ease: expo }}
-          className="font-display text-2xl leading-none"
+          className="font-display text-xl leading-none"
         >
           {shown.tone[lang]}
         </motion.p>

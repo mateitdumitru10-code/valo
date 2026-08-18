@@ -187,7 +187,7 @@ export function PiecePage() {
               {price && (
                 <div className="border-b border-ink/10 py-4">
                   <dt className="eyebrow opacity-45">{t('piece.price')}</dt>
-                  <dd className="mt-2 font-display text-2xl">{price}</dd>
+                  <dd className="mt-2 font-display text-xl">{price}</dd>
                   <p className="mt-1 text-xs opacity-45">{t('piece.priceNote')}</p>
                 </div>
               )}
@@ -331,7 +331,7 @@ export function PiecePage() {
           </div>
           <div className="md:col-span-7 md:col-start-6">
             <Reveal>
-              <p className="font-display text-[clamp(1.35rem,2.3vw,2rem)] leading-[1.22]">
+              <p className="font-display text-[clamp(1.1875rem,1.05rem+0.7vw,1.5rem)] leading-[1.35]">
                 {detail?.lead || paragraphs[0]}
               </p>
             </Reveal>

@@ -121,7 +121,7 @@ export function Nav() {
             className="group flex items-baseline gap-2"
             aria-label="Vallo"
           >
-            <span className="-mr-[0.28em] font-display text-2xl leading-none tracking-[0.28em] md:text-[1.75rem]">
+            <span className="-mr-[0.3em] font-display text-xl leading-none tracking-[0.3em] md:text-2xl">
               VALLO
             </span>
             <span className="eyebrow hidden opacity-55 transition-opacity group-hover:opacity-100 sm:block">
@@ -228,7 +228,7 @@ export function Nav() {
                   >
                     <Link
                       to={link.to}
-                      className="block py-4 font-display text-[clamp(2rem,9vw,3.5rem)] leading-tight"
+                      className="block py-4 font-display text-[clamp(1.5rem,5.5vw,2rem)] leading-tight"
                     >
                       {t(link.key)}
                     </Link>

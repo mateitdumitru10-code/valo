@@ -57,7 +57,7 @@ export function Home() {
       </div>
 
       {/* ---------------------------------------------------------------- */}
-      <section id="manifesto" className="gutter py-28 md:py-40">
+      <section id="manifesto" className="gutter py-32 md:py-52">
         <div className="grid gap-12 md:grid-cols-12">
           {/* The eyebrow used to stand alone in four columns while the
               statement ran down beside it, which left a void the height of the
@@ -87,7 +87,7 @@ export function Home() {
             {/* The claim first, at display size and on its own lines, then the
                 argument for it in reading type. One display voice per section:
                 the statement is the headline, everything under it is prose. */}
-            <h2 className="max-w-3xl font-display text-[clamp(1.5rem,3.1vw,2.75rem)] leading-[1.18]">
+            <h2 className="max-w-2xl font-display text-[clamp(1.375rem,1.1rem+1.2vw,2.125rem)] leading-[1.3]">
               <RevealLines lines={splitToLines(t('manifesto.title'), 2)} />
             </h2>
             <Reveal delay={1}>
@@ -124,7 +124,7 @@ export function Home() {
                 {String(n).padStart(2, '0')}
               </span>
               <p className="eyebrow mt-4 opacity-55">{t(`manifesto.hand.${n}.role` as Key)}</p>
-              <p className="mt-2 font-display text-[clamp(1.1rem,1.9vw,1.6rem)] leading-[1.2]">
+              <p className="mt-2 font-display text-[clamp(1.0625rem,0.95rem+0.5vw,1.25rem)] leading-[1.3]">
                 {t(`manifesto.hand.${n}.act` as Key)}
               </p>
             </Reveal>
@@ -138,7 +138,7 @@ export function Home() {
               loaded without an italic face, so `italic` would only get a faux
               oblique, and shearing a didone's hairlines looks like a mistake. */}
           <blockquote className="col-span-12 md:col-span-7 md:col-start-5">
-            <p className="font-display text-[clamp(1.15rem,2.2vw,1.9rem)] leading-[1.25] opacity-70">
+            <p className="font-display text-[clamp(1.125rem,1rem+0.8vw,1.5rem)] leading-[1.45] opacity-70">
               {`„${t('story.quote')}”`}
             </p>
           </blockquote>
@@ -147,7 +147,7 @@ export function Home() {
       </section>
 
       {/* ------------------------------------------------- collections ---- */}
-      <section className="gutter pb-24 md:pb-36">
+      <section className="gutter pb-28 md:pb-44">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
           <div>
             <Eyebrow index="02">{t('collections.eyebrow')}</Eyebrow>
@@ -162,7 +162,7 @@ export function Home() {
       </section>
 
       {/* ---------------------------------------------------- featured ---- */}
-      <section className="py-24 md:py-36">
+      <section className="py-28 md:py-44">
         <div className="gutter mb-12 flex flex-wrap items-end justify-between gap-6">
           <div>
             <Eyebrow index="03">{t('featured.eyebrow')}</Eyebrow>
@@ -193,7 +193,7 @@ export function Home() {
       </section>
 
       {/* ------------------------------------------------------- craft ---- */}
-      <section className="gutter py-24 md:py-36">
+      <section className="gutter py-28 md:py-44">
         <div className="grid gap-16 md:grid-cols-12">
           <div className="md:col-span-5">
             <Eyebrow index="04">{t('craft.eyebrow')}</Eyebrow>
@@ -209,7 +209,7 @@ export function Home() {
                       {String(n).padStart(2, '0')}
                     </span>
                     <div>
-                      <h3 className="font-display text-2xl">{t(`craft.${n}.title` as Key)}</h3>
+                      <h3 className="font-display text-xl">{t(`craft.${n}.title` as Key)}</h3>
                       <p className="mt-2 max-w-sm text-sm leading-relaxed opacity-65">
                         {t(`craft.${n}.body` as Key)}
                       </p>
@@ -245,7 +245,7 @@ export function Home() {
               </Parallax>
 
               <div className="col-span-1 mt-8 flex flex-col justify-end">
-                <p className="font-display text-[clamp(1.25rem,1.9vw,1.85rem)] leading-[1.25]">
+                <p className="font-display text-[clamp(1.125rem,1rem+0.6vw,1.375rem)] leading-[1.35]">
                   {t('manifesto.pull')}
                 </p>
                 <Rule className="mt-6" />
@@ -257,7 +257,7 @@ export function Home() {
       </section>
 
       {/* ----------------------------------------------------- lineage ---- */}
-      <section data-nav="invert" className="grain bg-night py-28 text-paper md:py-40">
+      <section data-nav="invert" className="grain bg-night py-32 text-paper md:py-52">
         <div className="gutter grid gap-14 md:grid-cols-12">
           <div className="md:col-span-5">
             <Eyebrow index="05" className="text-paper">
@@ -290,7 +290,7 @@ export function Home() {
               <Cta tone="paper" href={parentSite}>
                 {t('lineage.link')}
               </Cta>
-              <span className="font-display text-2xl tracking-[0.22em] text-paper/45">
+              <span className="font-display text-xl tracking-[0.25em] text-paper/45">
                 SAMOBI
               </span>
             </div>
@@ -299,7 +299,7 @@ export function Home() {
       </section>
 
       {/* --------------------------------------------------- showrooms ---- */}
-      <section className="gutter py-24 md:py-36">
+      <section className="gutter py-28 md:py-44">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
           <div>
             <Eyebrow index="06">{t('showrooms.eyebrow')}</Eyebrow>
@@ -326,7 +326,7 @@ export function Home() {
                 rel="noreferrer"
                 className="group grid grid-cols-12 items-baseline gap-4 py-5"
               >
-                <span className="col-span-12 font-display text-xl sm:col-span-3 md:text-2xl">
+                <span className="col-span-12 font-display text-lg sm:col-span-3 md:text-xl">
                   {l.city}
                 </span>
                 <span className="col-span-6 text-sm opacity-70 sm:col-span-3">{l.name}</span>

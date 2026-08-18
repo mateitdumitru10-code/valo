@@ -58,7 +58,7 @@ export function CollectionPage() {
 
       <section className="gutter grid gap-10 py-14 md:grid-cols-12 md:py-20">
         <p className="md:col-span-6">
-          <span className="font-display text-[clamp(1.35rem,2.4vw,2rem)] leading-[1.25]">
+          <span className="font-display text-xl leading-[1.3]">
             {t(`collection.lede.${range.id}` as Key)}
           </span>
         </p>
@@ -68,12 +68,12 @@ export function CollectionPage() {
             <dt className="eyebrow opacity-45">
               {t(range.count === 1 ? 'common.piece' : 'common.pieces')}
             </dt>
-            <dd className="mt-1 font-display text-2xl tabular-nums">{range.count}</dd>
+            <dd className="mt-1 font-display text-xl tabular-nums">{range.count}</dd>
           </div>
           {prices && (
             <div>
               <dt className="eyebrow opacity-45">{t('common.from')}</dt>
-              <dd className="mt-1 font-display text-2xl">{formatPrice(prices.min, lang)}</dd>
+              <dd className="mt-1 font-display text-xl">{formatPrice(prices.min, lang)}</dd>
             </div>
           )}
           <div className="col-span-2">
@@ -118,7 +118,7 @@ export function CollectionPage() {
             <li key={c.id}>
               <Link
                 to={`/colectii/${c.id}`}
-                className="font-display text-2xl opacity-60 transition-opacity hover:opacity-100 md:text-3xl"
+                className="font-display text-xl opacity-60 transition-opacity hover:opacity-100 md:text-2xl"
               >
                 {collectionName(c.id)}
               </Link>

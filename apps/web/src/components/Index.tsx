@@ -51,7 +51,7 @@ export function Index({ items }: { items: IndexItem[] }) {
 
               <span className="flex-1 overflow-hidden">
                 <motion.span
-                  className="block font-display text-[clamp(1.6rem,4.4vw,3.5rem)] leading-[1.08]"
+                  className="block font-display text-[clamp(1.375rem,1.1rem+1.5vw,2.25rem)] leading-[1.2]"
                   animate={{ x: active === item.id ? 14 : 0 }}
                   transition={{ duration: 0.65, ease: expo }}
                   style={{ opacity: active === item.id ? 1 : 0.42 }}

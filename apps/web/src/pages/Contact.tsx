@@ -25,7 +25,7 @@ export function Contact() {
 
       <section className="gutter mt-16 grid gap-14 md:grid-cols-12">
         <div className="md:col-span-4">
-          <p className="max-w-sm text-sm leading-relaxed opacity-70">{t('contact.lede')}</p>
+          <p className="lede max-w-sm opacity-70">{t('contact.lede')}</p>
 
           <Rule className="my-10" />
 
@@ -33,7 +33,7 @@ export function Contact() {
             <div>
               <dt className="eyebrow opacity-40">{t('showrooms.phone')}</dt>
               <dd className="mt-2">
-                <a href={`tel:${mainPhoneHref}`} className="font-display text-2xl hover:opacity-60">
+                <a href={`tel:${mainPhoneHref}`} className="font-display text-xl hover:opacity-60">
                   {mainPhone}
                 </a>
               </dd>

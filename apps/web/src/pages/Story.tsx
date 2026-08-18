@@ -98,7 +98,7 @@ export function Story() {
                     {String(n).padStart(2, '0')}
                   </span>
                   <div>
-                    <h3 className="font-display text-2xl">{t(`craft.${n}.title` as Key)}</h3>
+                    <h3 className="font-display text-xl">{t(`craft.${n}.title` as Key)}</h3>
                     <p className="mt-2 max-w-md text-sm leading-relaxed text-paper/65">
                       {t(`craft.${n}.body` as Key)}
                     </p>
@@ -111,7 +111,7 @@ export function Story() {
       </section>
 
       <section className="gutter py-24 text-center md:py-32">
-        <p className="mx-auto max-w-2xl font-display text-[clamp(1.5rem,3vw,2.5rem)] leading-[1.2]">
+        <p className="mx-auto max-w-2xl font-display text-[clamp(1.25rem,1.05rem+1vw,1.75rem)] leading-[1.35]">
           {t('lineage.body')}
         </p>
         <div className="mt-10 flex justify-center">

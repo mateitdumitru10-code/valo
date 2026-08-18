@@ -27,12 +27,12 @@ export function Categories() {
         <h1 className="display-lg mt-8">
           <RevealLines lines={[t('categories.title')]} />
         </h1>
-        <p className="mt-8 max-w-lg text-sm leading-relaxed opacity-65">
+        <p className="lede mt-10 max-w-lg opacity-70">
           {t('categories.lede')}
         </p>
       </header>
 
-      <section className="gutter mt-20">
+      <section className="gutter mt-24">
         <Index items={items} />
       </section>
 
@@ -54,7 +54,7 @@ export function Categories() {
                   </RevealImage>
                 )}
                 <div className="mt-5 flex items-baseline justify-between gap-6 border-t border-ink/12 pt-4">
-                  <h2 className="font-display text-3xl md:text-4xl">
+                  <h2 className="font-display text-2xl md:text-[1.75rem]">
                     {lang === 'ro' ? c.ro : c.en}
                   </h2>
                   <span className="eyebrow opacity-45">

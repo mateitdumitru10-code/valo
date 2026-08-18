@@ -76,12 +76,16 @@
     outline-offset: 3px;
   }
 
+  /* Tracking is an optical correction, and the correction depends on the size
+     it is applied at. The headings used to be set at poster scale, where the
+     counters open up and want pulling back in; at the reading sizes below they
+     would only look pinched, so the negative tracking is halved. */
   h1,
   h2,
   h3 {
     font-family: var(--font-display);
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     text-wrap: balance;
   }
 
@@ -99,34 +103,44 @@
   border-color: color-mix(in srgb, var(--color-stone) 45%, transparent);
 }
 
-/* Uppercase micro-label — the connective tissue of the whole layout. */
+/* Uppercase micro-label — the connective tissue of the whole layout, and now
+   the loudest recurring voice on it. Where the headings used to carry a section
+   by being large, the label and the rule above it carry it instead. */
 @utility eyebrow {
   font-size: var(--text-micro);
   line-height: 1.1;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-@utility display-xl {
-  font-family: var(--font-display);
-  font-size: clamp(3rem, 11vw, 11rem);
-  line-height: 0.88;
-  letter-spacing: -0.035em;
-}
-
+/* The display scale is deliberately short. A heading at ninety-odd pixels over
+   fifteen-pixel body copy is a poster, and a poster repeated down every section
+   stops meaning anything. Set against the body it is now at most two and a half
+   times its size: the hierarchy is carried by the air around a line, the rule
+   that opens the section and the tracked label above it, not by the point size.
+   The photography is left at its old scale on purpose — type coming down while
+   images hold makes the page read as a gallery rather than a landing page. */
 @utility display-lg {
   font-family: var(--font-display);
-  font-size: clamp(2.25rem, 6.5vw, 6rem);
-  line-height: 0.95;
-  letter-spacing: -0.03em;
+  font-size: clamp(1.625rem, 1.15rem + 1.6vw, 2.625rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
 }
 
 @utility display-md {
   font-family: var(--font-display);
-  font-size: clamp(1.75rem, 3.6vw, 3.25rem);
-  line-height: 1.02;
-  letter-spacing: -0.02em;
+  font-size: clamp(1.25rem, 1rem + 1vw, 1.875rem);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+/* An opening paragraph, one step above body copy. The only size between the
+   body and the display scale, so a lede reads as an introduction without
+   borrowing a heading's voice. */
+@utility lede {
+  font-size: 1.0625rem;
+  line-height: 1.7;
 }
 
 @utility gutter {

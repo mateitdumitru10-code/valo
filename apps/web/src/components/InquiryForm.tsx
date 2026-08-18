@@ -105,7 +105,7 @@ export function InquiryForm({
         transition={{ duration: 0.7, ease: expo }}
         className="border border-ink/15 p-8"
       >
-        <p className="font-display text-2xl leading-snug">{t('contact.success')}</p>
+        <p className="font-display text-xl leading-snug">{t('contact.success')}</p>
       </motion.div>
     )
   }
