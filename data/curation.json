@@ -93,7 +93,6 @@
       "canapea-rotunda-aldo-c3",
       "canapea-rotunda-aldo-c4",
       "canapea-rotunda-aldo-c5",
-      "canapea-rotunda-aldo-studio-3",
       "canapea-rotunda-aldo-studio-4"
     ],
     "pat-loris": [
@@ -1486,12 +1485,6 @@
     ],
     "canapea-rotunda-aldo": [
       {
-        "src": "canapea-rotunda-aldo-studio-3",
-        "ro": "Trei sferturi",
-        "en": "Three-quarter",
-        "in": "canapea-rotunda-aldo-c1"
-      },
-      {
         "src": "canapea-rotunda-aldo-studio-4",
         "ro": "Trei sferturi, antracit",
         "en": "Three-quarter, charcoal"
@@ -1800,7 +1793,6 @@
     "canapea-cubiq-studio-4",
     "canapea-rotunda-aldo-studio-1",
     "canapea-rotunda-aldo-studio-2",
-    "canapea-rotunda-aldo-studio-3",
     "canapea-rotunda-aldo-studio-4",
     "pat-loris-studio-1",
     "pat-loris-studio-2",

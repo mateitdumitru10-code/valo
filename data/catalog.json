@@ -5651,19 +5651,6 @@
           "studio": true
         },
         {
-          "src": "canapea-rotunda-aldo-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAW+sbdeAAAP7za8YdBGD/Gs2nX8bkAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
           "src": "canapea-rotunda-aldo-studio-4",
           "w": 2000,
           "h": 1500,
@@ -5740,12 +5727,6 @@
         }
       ],
       "views": [
-        {
-          "src": "canapea-rotunda-aldo-studio-3",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter",
-          "in": "canapea-rotunda-aldo-c1"
-        },
         {
           "src": "canapea-rotunda-aldo-studio-4",
           "ro": "Trei sferturi, antracit",
