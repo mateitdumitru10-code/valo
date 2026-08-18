@@ -79,15 +79,28 @@ export function Home() {
                 line the statement ends on, and the column reads as spanned
                 top to bottom instead of top-weighted above a void. */}
             <div className="mt-7 md:mt-auto md:pb-1">
-              <ArrowLink to="/atelier">{t('manifesto.link')}</ArrowLink>
+              <ArrowLink to="/colectii">{t('manifesto.link')}</ArrowLink>
             </div>
           </div>
 
           <div className="md:col-span-8 md:col-start-5">
-            <p className="max-w-3xl font-display text-[clamp(1.5rem,3.1vw,2.75rem)] leading-[1.18]">
-              <RevealLines lines={splitToLines(t('manifesto.body'), 4)} />
-            </p>
+            {/* The claim first, at display size and on its own lines, then the
+                argument for it in reading type. One display voice per section:
+                the statement is the headline, everything under it is prose. */}
+            <h2 className="max-w-3xl font-display text-[clamp(1.5rem,3.1vw,2.75rem)] leading-[1.18]">
+              <RevealLines lines={splitToLines(t('manifesto.title'), 2)} />
+            </h2>
             <Reveal delay={1}>
+              <div className="mt-9 max-w-xl space-y-5 text-[0.95rem] leading-relaxed opacity-75">
+                <p>{t('manifesto.body')}</p>
+                <p>{t('manifesto.stance')}</p>
+                <p>{t('manifesto.intent')}</p>
+              </div>
+            </Reveal>
+            <Reveal delay={2}>
+              <p className="mt-8 max-w-md text-sm leading-relaxed opacity-55">
+                {t('manifesto.made')}
+              </p>
               <p className="mt-10 max-w-md text-sm leading-relaxed opacity-60">
                 {t('manifesto.hands.lead')}
               </p>

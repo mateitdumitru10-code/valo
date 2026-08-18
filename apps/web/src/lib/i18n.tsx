@@ -52,9 +52,16 @@ const ro = {
   'hero.chapter.4.line': 'În toată țara, cu montaj la fața locului.',
 
   'manifesto.eyebrow': 'Cine suntem',
+  'manifesto.title': 'Nu intră într-o cameră. O definește.',
   'manifesto.body':
-    'Vallo este brațul de distribuție al Samobi. Aceleași hale, aceiași tapițeri, același lemn — dar un catalog editat: colțare, canapele, paturi și fotolii alese pentru case unde mobila rămâne zece ani, nu două sezoane.',
-  'manifesto.pull': 'Distribuim ceea ce se produce la doi pași de noi.',
+    'Există mobilier care completează un interior. Și există mobilier care îi schimbă complet prezența. Vallo creează piese pentru a doua categorie.',
+  'manifesto.stance':
+    'Siluete puternice. Volume generoase. Texturi care cer să fie atinse. Confort construit în jurul felului în care trăiești.',
+  'manifesto.intent':
+    'De la prima linie până la ultimul detaliu, fiecare piesă este gândită pentru a avea impact — astăzi și peste ani.',
+  'manifesto.made':
+    'Realizate în România, în atelierul Samobi, piesele Vallo reunesc experiența unei fabrici cu o viziune dedicată designului contemporan.',
+  'manifesto.pull': 'Alege piesa care schimbă totul.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'Un colțar trece prin patru perechi de mâini înainte să plece din Vadu Săpat.',
@@ -66,7 +73,7 @@ const ro = {
   'manifesto.hand.3.act': 'Trage materialul peste spumă.',
   'manifesto.hand.4.role': 'Controlul',
   'manifesto.hand.4.act': 'Verifică cusătura înainte de ambalare.',
-  'manifesto.link': 'Despre atelier',
+  'manifesto.link': 'Descoperă colecția',
 
   'collections.eyebrow': 'Colecții',
   'collections.title': 'Un desen, dus mai departe',
@@ -270,9 +277,16 @@ const en: Record<keyof typeof ro, string> = {
   'hero.chapter.4.line': 'Nationwide, assembled in the room.',
 
   'manifesto.eyebrow': 'Who we are',
+  'manifesto.title': 'It does not enter a room. It defines it.',
   'manifesto.body':
-    'Vallo is the distribution arm of Samobi. The same workshop, the same upholsterers, the same timber — but an edited catalogue: sectionals, sofas, beds and armchairs picked for homes where furniture stays ten years, not two seasons.',
-  'manifesto.pull': 'We distribute what is made a few steps away.',
+    'There is furniture that completes an interior. And there is furniture that changes its presence entirely. Vallo makes pieces of the second kind.',
+  'manifesto.stance':
+    'Strong silhouettes. Generous volumes. Textures that ask to be touched. Comfort built around the way you live.',
+  'manifesto.intent':
+    'From the first line to the last detail, every piece is drawn to make an impact — today and years from now.',
+  'manifesto.made':
+    'Made in Romania, in the Samobi workshop, Vallo pieces bring a factory’s experience together with a vision for contemporary design.',
+  'manifesto.pull': 'Choose the piece that changes everything.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'A sectional passes through four pairs of hands before it leaves Vadu Săpat.',
@@ -284,7 +298,7 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.hand.3.act': 'Pulls it over the foam.',
   'manifesto.hand.4.role': 'The check',
   'manifesto.hand.4.act': 'Checks the seam before wrapping.',
-  'manifesto.link': 'About the atelier',
+  'manifesto.link': 'Discover the collection',
 
   'collections.eyebrow': 'Collections',
   'collections.title': 'One drawing, carried further',
