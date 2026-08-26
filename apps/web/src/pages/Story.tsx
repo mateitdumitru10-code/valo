@@ -89,6 +89,14 @@ export function Story() {
           <div className="md:col-span-4">
             <Eyebrow className="text-paper">{t('craft.eyebrow')}</Eyebrow>
             <h2 className="display-md mt-6">{t('craft.title')}</h2>
+            <Reveal delay={1}>
+              <p className="mt-7 max-w-sm font-display text-lg leading-[1.4] text-paper/85">
+                {t('craft.lede')}
+              </p>
+              <p className="mt-4 max-w-sm text-sm leading-relaxed text-paper/60">
+                {t('craft.body')}
+              </p>
+            </Reveal>
           </div>
           <ol className="md:col-span-7 md:col-start-6">
             {CRAFT.map((n, i) => (
@@ -99,7 +107,10 @@ export function Story() {
                   </span>
                   <div>
                     <h3 className="font-display text-xl">{t(`craft.${n}.title` as Key)}</h3>
-                    <p className="mt-2 max-w-md text-sm leading-relaxed text-paper/65">
+                    <p className="mt-1.5 max-w-md font-display text-[0.9375rem] leading-[1.4] text-paper/75">
+                      {t(`craft.${n}.tag` as Key)}
+                    </p>
+                    <p className="mt-3 max-w-md text-sm leading-relaxed text-paper/65">
                       {t(`craft.${n}.body` as Key)}
                     </p>
                   </div>

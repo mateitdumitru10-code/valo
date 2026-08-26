@@ -52,16 +52,17 @@ const ro = {
   'hero.chapter.4.line': 'În toată țara, cu montaj la fața locului.',
 
   'manifesto.eyebrow': 'Cine suntem',
-  'manifesto.title': 'Nu intră într-o cameră. O definește.',
+  'manifesto.title': 'Mai mult decât mobilier. O expresie a spațiului tău.',
+  'manifesto.lede': 'Un interior memorabil începe cu piese care au prezență.',
   'manifesto.body':
-    'Există mobilier care completează un interior. Și există mobilier care îi schimbă complet prezența. Vallo creează piese pentru a doua categorie.',
+    'VALLO creează mobilier contemporan în care designul, confortul și materialele se întâlnesc într-o formă atent construită. Fiecare volum, fiecare cusătură și fiecare textură este aleasă pentru a crea o experiență care se vede, se simte și rămâne.',
   'manifesto.stance':
-    'Siluete puternice. Volume generoase. Texturi care cer să fie atinse. Confort construit în jurul felului în care trăiești.',
-  'manifesto.intent':
-    'De la prima linie până la ultimul detaliu, fiecare piesă este gândită pentru a avea impact — astăzi și peste ani.',
+    'Selecția de țesături este parte din identitatea fiecărei colecții — de la texturi bogate și sofisticate până la materiale cu o senzație aparte la atingere. Le alegem nu doar pentru aspect, ci pentru felul în care completează designul și experiența piesei.',
   'manifesto.made':
-    'Realizate în România, în atelierul Samobi, piesele Vallo reunesc experiența unei fabrici cu o viziune dedicată designului contemporan.',
-  'manifesto.pull': 'Alege piesa care schimbă totul.',
+    'În spatele fiecărui produs se află experiența de producție Samobi, transformată în piese realizate în România cu atenție pentru structură, confort și rezistență în timp.',
+  'manifesto.pull':
+    'Forme care atrag privirea. Materiale care invită la atingere. Confort creat pentru a fi trăit.',
+  'manifesto.close': 'Aceasta este VALLO.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'Un colțar trece prin patru perechi de mâini înainte să plece din Vadu Săpat.',
@@ -95,19 +96,27 @@ const ro = {
   'featured.drag': 'Trage lateral',
 
   'craft.eyebrow': 'Cum se face',
-  'craft.title': 'Patru pași și nicio scurtătură',
-  'craft.1.title': 'Cadrul',
+  'craft.title': 'Patru pași. Nicio scurtătură.',
+  'craft.lede': 'O piesă VALLO nu începe cu tapițeria. Începe cu ceea ce nu se vede.',
+  'craft.body':
+    'De la structura interioară până la ultimul detaliu al finisajului, fiecare etapă este parte dintr-un proces construit pentru confort, rezistență și un rezultat care se simte în fiecare zi.',
+  'craft.1.title': 'Structura',
+  'craft.1.tag': 'Totul începe din interior.',
   'craft.1.body':
-    'Lemn uscat și plăci stratificate, încheiate mecanic. Cadrul e piesa care decide dacă o canapea trăiește zece ani sau doi.',
+    'O structură bine construită este fundația unei piese care rezistă. Folosim materiale atent selecționate și îmbinări realizate cu precizie pentru a oferi stabilitate și rezistență pe termen lung.',
   'craft.2.title': 'Confortul',
+  'craft.2.tag': 'Confortul nu se vede. Se simte.',
   'craft.2.body':
-    'Spume pe densități diferite pentru șezut și spătar, arcuri în serpentină acolo unde se stă zilnic.',
-  'craft.3.title': 'Textila',
+    'Alegem fiecare strat în funcție de experiența pe care vrem să o ofere piesa. Bureți de calitate, arcuri și, acolo unde designul o cere, memory foam — fiecare contribuie la senzația de confort pe care o simți din primul moment.',
+  'craft.3.title': 'Tapițeria',
+  'craft.3.tag': 'Ultimul strat. Prima impresie.',
   'craft.3.body':
-    'Catifele, țesături bouclé și piele ecologică. Alegerea se face cu mostra în mână, în showroom.',
-  'craft.4.title': 'Livrarea',
+    'Țesătura dă personalitate unei piese. Selectăm materiale pentru textura, aspectul și senzația lor la atingere, astfel încât fiecare colecție să poată fi adaptată spațiului și stilului tău.',
+  'craft.4.title': 'Finisajul',
+  'craft.4.tag': 'Detaliile fac diferența.',
   'craft.4.body':
-    'Transport în toată România și montaj la destinație. Garanție 24 de luni pentru fiecare piesă.',
+    'Ultimele cusături, proporțiile, liniile și finisajele sunt verificate cu aceeași atenție cu care începe construcția. Pentru că o piesă bine făcută nu trebuie doar să arate impecabil. Trebuie să se simtă impecabil.',
+  'craft.close': 'Designul atrage privirea. Execuția îi dă valoare.',
 
   'lineage.eyebrow': 'Origine',
   'lineage.title': 'Un nume nou. O fabrică veche de tot.',
@@ -219,6 +228,23 @@ const ro = {
   'collection.lede.vallo':
     'Spătare joase și o cusătură verticală care împarte șezutul. Deocamdată un singur colțar.',
 
+  /* The four ranges the client has written a full description for. `pull` is
+     the statement the collection page opens on, `body` the prose under it —
+     paragraphs split on a blank line. The `lede` above stays the short,
+     concrete blurb the index needs, and is not the same sentence twice. */
+  'collection.pull.aldo': 'Confort care se simte. Design care rămâne.',
+  'collection.body.aldo':
+    'ALDO este o colecție construită în jurul confortului generos și al unei prezențe imposibil de ignorat. Tapițeria bouclé, stratul de memory foam și structura din lemn masiv de fag, brad și placaj de eucalipt oferă senzația de confort profund, susținută de o construcție gândită să reziste în timp.\n\nCanapea, colțar, modul — fiecare piesă este extensibilă sau configurabilă pentru felul în care alegi să trăiești spațiul.\n\nALDO. O colecție în care confortul devine parte din design.',
+  'collection.pull.cubic': 'Minimalism în formă. Generozitate în confort.',
+  'collection.body.cubic':
+    'CUBIC se remarcă printr-un design minimalist, proporții neobișnuite și un șezut surprinzător de lat și moale. Buretele de înaltă calitate oferă un confort aparte, transformând liniile simple ale colecției într-o experiență de relaxare pe care o simți imediat.\n\nLinii curate. Dimensiuni aparte. Confort fără compromis.',
+  'collection.pull.soria': 'Confort construit în detalii.',
+  'collection.body.soria':
+    'SORIA îmbină un design elegant cu o construcție gândită pentru confort de durată. Șezutul cu arcuri sinusoidale, susținut de o structură din lemn masiv de fag și brad, oferă o senzație plăcută de susținere și relaxare.\n\nDetaliile matlasate de pe șezut și brațele cu formă ondulată îi dau colecției o personalitate aparte, în timp ce extensia și lada de depozitare adaugă funcționalitate discretă.\n\nEleganță în formă. Confort în fiecare detaliu.',
+  'collection.pull.torro': 'Confort care se adaptează. Design care rămâne.',
+  'collection.body.torro':
+    'TORRO combină liniile contemporane cu un confort atent construit. Șezutul cu arcuri sinusoidale oferă susținere plăcută și rezistență în timp, iar tetierele reglabile permit ajustarea poziției pentru un plus de confort. Extensia completează funcționalitatea colecției, transformând fiecare moment de relaxare într-o experiență mai generoasă.\n\nSusținere precisă. Confort personalizat.',
+
   'story.eyebrow': 'Atelier',
   'story.title': 'Mobilă făcută unde se și vinde',
   'story.p1':
@@ -277,16 +303,17 @@ const en: Record<keyof typeof ro, string> = {
   'hero.chapter.4.line': 'Nationwide, assembled in the room.',
 
   'manifesto.eyebrow': 'Who we are',
-  'manifesto.title': 'It does not enter a room. It defines it.',
+  'manifesto.title': 'More than furniture. An expression of your space.',
+  'manifesto.lede': 'A memorable interior starts with pieces that have presence.',
   'manifesto.body':
-    'There is furniture that completes an interior. And there is furniture that changes its presence entirely. Vallo makes pieces of the second kind.',
+    'VALLO makes contemporary furniture where design, comfort and material meet in one carefully built form. Every volume, every seam and every texture is chosen for what it does — to the eye, to the hand, and over the years.',
   'manifesto.stance':
-    'Strong silhouettes. Generous volumes. Textures that ask to be touched. Comfort built around the way you live.',
-  'manifesto.intent':
-    'From the first line to the last detail, every piece is drawn to make an impact — today and years from now.',
+    'The fabrics are part of each collection’s identity — from rich, textured weaves to cloths you notice the moment you touch them. We choose them not just for the look, but for how they complete the design and the piece itself.',
   'manifesto.made':
-    'Made in Romania, in the Samobi workshop, Vallo pieces bring a factory’s experience together with a vision for contemporary design.',
-  'manifesto.pull': 'Choose the piece that changes everything.',
+    'Behind every piece stands Samobi’s factory experience — furniture made in Romania with care for its structure, its comfort, and how long it lasts.',
+  'manifesto.pull':
+    'Shapes that draw the eye. Materials that ask to be touched. Comfort built to be lived in.',
+  'manifesto.close': 'This is VALLO.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
     'A sectional passes through four pairs of hands before it leaves Vadu Săpat.',
@@ -319,19 +346,28 @@ const en: Record<keyof typeof ro, string> = {
   'featured.drag': 'Drag sideways',
 
   'craft.eyebrow': 'How it is made',
-  'craft.title': 'Four steps, no shortcuts',
-  'craft.1.title': 'The frame',
+  'craft.title': 'Four steps. No shortcuts.',
+  'craft.lede':
+    'A VALLO piece does not start with the upholstery. It starts with what you never see.',
+  'craft.body':
+    'From the frame inside to the last detail of the finish, every stage is part of one process, built for comfort, strength and a result you feel every day.',
+  'craft.1.title': 'The structure',
+  'craft.1.tag': 'Everything starts on the inside.',
   'craft.1.body':
-    'Dried timber and laminated board, mechanically joined. The frame decides whether a sofa lasts ten years or two.',
+    'A well-built structure is the foundation of a piece that lasts. Selected materials and precisely made joints give it stability for the long run.',
   'craft.2.title': 'The comfort',
+  'craft.2.tag': 'You do not see comfort. You feel it.',
   'craft.2.body':
-    'Different foam densities for seat and back, serpentine springs wherever a seat is used daily.',
-  'craft.3.title': 'The textile',
+    'We choose every layer for how we want the piece to sit. Quality foam, springs and, where the design calls for it, memory foam — each one at work from the moment you sit down.',
+  'craft.3.title': 'The upholstery',
+  'craft.3.tag': 'The last layer. The first impression.',
   'craft.3.body':
-    'Velvets, bouclé weaves and eco leather. The choice is made with the swatch in your hand, in the showroom.',
-  'craft.4.title': 'The delivery',
+    'The fabric gives a piece its character. We select materials for their texture, their look and their feel under the hand, so every collection can be fitted to your room and your taste.',
+  'craft.4.title': 'The finish',
+  'craft.4.tag': 'The details make the difference.',
   'craft.4.body':
-    'Shipping across Romania and assembly on site. Twenty-four months of warranty on every piece.',
+    'The last seams, the proportions, the lines and the finish are checked with the same attention the build began with. Because a well-made piece should not only look right. It should feel right.',
+  'craft.close': 'Design draws the eye. Execution gives it its value.',
 
   'lineage.eyebrow': 'Origin',
   'lineage.title': 'A new name. A long-standing factory.',
@@ -439,6 +475,19 @@ const en: Record<keyof typeof ro, string> = {
     'A low body, gathered along the base, loose cushions its whole length. One sofa so far, in seven tones.',
   'collection.lede.vallo':
     'Low backs and a vertical seam dividing the seat. One corner so far.',
+
+  'collection.pull.aldo': 'Comfort you feel. Design that stays.',
+  'collection.body.aldo':
+    'ALDO is a collection built around generous comfort and a presence that is hard to ignore. Bouclé upholstery, a layer of memory foam and a structure of solid beech, fir and eucalyptus ply give it a deep, settled comfort, carried by a build made to last.\n\nSofa, corner, module — every piece folds out or reconfigures for the way you choose to live in the space.\n\nALDO. A collection where comfort becomes part of the design.',
+  'collection.pull.cubic': 'Minimal in form. Generous in comfort.',
+  'collection.body.cubic':
+    'CUBIC stands out for its minimal design, its unusual proportions and a seat surprisingly wide and soft. High-grade foam gives it a comfort of its own, turning the collection’s plain lines into something you feel the moment you sit down.\n\nClean lines. Uncommon dimensions. Comfort without compromise.',
+  'collection.pull.soria': 'Comfort built into the details.',
+  'collection.body.soria':
+    'SORIA joins an elegant design to a build made for comfort that lasts. The sinuous-spring seat, carried by a frame of solid beech and fir, supports you and lets you settle.\n\nThe quilted detailing on the seat and the wave-cut arms give the collection a character of its own, while the sleeping extension and the storage box do the quiet work.\n\nElegance in the form. Comfort in every detail.',
+  'collection.pull.torro': 'Comfort that adapts. Design that stays.',
+  'collection.body.torro':
+    'TORRO joins contemporary lines with carefully built comfort. The sinuous-spring seat gives support that lasts, and the adjustable headrests let you set the position that suits you. A sleeping extension completes the collection, giving every evening more room to stretch out.\n\nPrecise support. Comfort you set yourself.',
 
   'category.lede.seating':
     'Upholstered chairs and stools — the small pieces that tie the room together.',

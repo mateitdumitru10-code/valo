@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import type { ReactNode } from 'react'
 import clsx from 'clsx'
-import { expo, fadeUp, rise, unmask, viewport } from '~/lib/motion'
+import { drift, expo, fadeUp, rise, unmask, viewport } from '~/lib/motion'
 
 type Props = {
   children: ReactNode
@@ -23,6 +23,27 @@ export function Reveal({ children, className, delay = 0, as = 'div' }: Props) {
     >
       {children}
     </Tag>
+  )
+}
+
+/**
+ * A statement that drifts in from the margin it is set against. Slower than
+ * `Reveal`, and without its stagger: these are read one at a time with a
+ * screen's worth of space between them, so there is nothing to stagger
+ * against and every reason to let each one take its time.
+ */
+export function Drift({ children, className, from = 'left' }: Props & { from?: 'left' | 'right' }) {
+  return (
+    <motion.div
+      className={className}
+      variants={drift}
+      custom={from}
+      initial="hidden"
+      whileInView="show"
+      viewport={viewport}
+    >
+      {children}
+    </motion.div>
   )
 }
 

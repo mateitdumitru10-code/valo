@@ -6,7 +6,7 @@ import { Index, type IndexItem } from '~/components/Index'
 import { PieceCard } from '~/components/PieceCard'
 import { Rail } from '~/components/Rail'
 import { Img } from '~/components/Img'
-import { Reveal, RevealImage, RevealLines } from '~/components/Reveal'
+import { Drift, Reveal, RevealImage, RevealLines } from '~/components/Reveal'
 import { Parallax } from '~/components/Parallax'
 import { ArrowLink, Cta, Eyebrow, Rule } from '~/components/UI'
 import { InquiryForm } from '~/components/InquiryForm'
@@ -24,6 +24,15 @@ import { locations, parentSite } from '~/lib/showrooms'
 import { expo, viewport } from '~/lib/motion'
 
 const CRAFT = [1, 2, 3, 4] as const
+
+/** The three landing statements and the margin each is set against, in order.
+ *  Left, right, left: the alternation is the section's whole structure, so it
+ *  is declared here rather than derived from the index at the call site. */
+const STATEMENTS = [
+  { key: 'manifesto.body', from: 'left' },
+  { key: 'manifesto.stance', from: 'right' },
+  { key: 'manifesto.made', from: 'left' },
+] as const satisfies readonly { key: Key; from: 'left' | 'right' }[]
 
 /** Two pieces whose photography can hold a full-bleed frame. */
 const CRAFT_IMAGE_A = 'coltar-sam'
@@ -58,54 +67,59 @@ export function Home() {
 
       {/* ---------------------------------------------------------------- */}
       <section id="manifesto" className="gutter py-32 md:py-52">
-        <div className="grid gap-12 md:grid-cols-12">
-          {/* The eyebrow used to stand alone in four columns while the
-              statement ran down beside it, which left a void the height of the
-              paragraph. The column carries the section's own particulars now —
-              what the catalogue holds, where it is made, and the way through to
-              the atelier — and sticks alongside while the statement is read. */}
-          <div className="flex flex-col md:col-span-3">
-            <div>
-              <Eyebrow index="01">{t('manifesto.eyebrow')}</Eyebrow>
-              <Rule className="mt-6" />
-              <p className="eyebrow mt-4 opacity-45 tabular-nums">
-                {pieces.length} {t('common.pieces')} · {collections.length}{' '}
-                {t('common.collections')}
-              </p>
-              <p className="eyebrow mt-1.5 opacity-45">{t('manifesto.origin')}</p>
-            </div>
-            {/* Held to the foot of the column rather than tucked under the
-                particulars: it puts the one link in the section on the same
-                line the statement ends on, and the column reads as spanned
-                top to bottom instead of top-weighted above a void. */}
-            <div className="mt-7 md:mt-auto md:pb-1">
-              <ArrowLink to="/colectii">{t('manifesto.link')}</ArrowLink>
-            </div>
-          </div>
+        {/* The section's particulars, banded across the top rather than held
+            in a column beside the statement. The statement is centred now and
+            the three paragraphs under it alternate against both margins, so
+            there is no longer a side of the page free to stand a column in. */}
+        <div className="flex flex-wrap items-baseline justify-between gap-x-8 gap-y-3">
+          <Eyebrow index="01">{t('manifesto.eyebrow')}</Eyebrow>
+          <p className="eyebrow opacity-45">
+            <span className="tabular-nums">
+              {pieces.length} {t('common.pieces')} · {collections.length}{' '}
+              {t('common.collections')}
+            </span>
+            {' · '}
+            {t('manifesto.origin')}
+          </p>
+        </div>
+        <Rule className="mt-5" />
 
-          <div className="md:col-span-8 md:col-start-5">
-            {/* The claim first, at display size and on its own lines, then the
-                argument for it in reading type. One display voice per section:
-                the statement is the headline, everything under it is prose. */}
-            <h2 className="max-w-2xl font-display text-[clamp(1.375rem,1.1rem+1.2vw,2.125rem)] leading-[1.3]">
-              <RevealLines lines={splitToLines(t('manifesto.title'), 2)} />
-            </h2>
-            <Reveal delay={1}>
-              <div className="mt-9 max-w-xl space-y-5 text-[0.95rem] leading-relaxed opacity-75">
-                <p>{t('manifesto.body')}</p>
-                <p>{t('manifesto.stance')}</p>
-                <p>{t('manifesto.intent')}</p>
-              </div>
-            </Reveal>
-            <Reveal delay={2}>
-              <p className="mt-8 max-w-md text-sm leading-relaxed opacity-55">
-                {t('manifesto.made')}
-              </p>
-              <p className="mt-10 max-w-md text-sm leading-relaxed opacity-60">
-                {t('manifesto.hands.lead')}
-              </p>
-            </Reveal>
-          </div>
+        {/* The claim, centred and on its own lines, with the promise under it.
+            One display voice per section: this is the headline, and everything
+            below it down to the closing pull is prose. */}
+        <header className="mx-auto mt-20 max-w-3xl text-center md:mt-32">
+          <h2 className="font-display text-[clamp(1.5rem,1.15rem+1.6vw,2.625rem)] leading-[1.2]">
+            <RevealLines lines={splitToLines(t('manifesto.title'), 2)} />
+          </h2>
+          <Reveal delay={1}>
+            <p className="mx-auto mt-8 max-w-lg text-[0.95rem] leading-relaxed opacity-65">
+              {t('manifesto.lede')}
+            </p>
+          </Reveal>
+        </header>
+
+        {/* Three statements, set alternately against the left and the right
+            margin with most of a screen between them, each drifting in from
+            the side it is set on. The brief asked for them to arrive one at a
+            time with room to breathe, and the alternation is what makes the
+            room read as intended rather than as a gap.
+
+            Five columns of twelve, not six: at six the two sides very nearly
+            meet in the middle and the page reads as one ragged block. */}
+        <div className="mt-28 grid gap-y-24 md:mt-44 md:grid-cols-12 md:gap-y-52">
+          {STATEMENTS.map(({ key, from }) => (
+            <Drift
+              key={key}
+              from={from}
+              className={
+                from === 'left'
+                  ? 'md:col-span-5 md:col-start-1'
+                  : 'md:col-span-5 md:col-start-8'
+              }
+            >
+              <p className="text-[0.95rem] leading-relaxed opacity-75">{t(key)}</p>
+            </Drift>
+          ))}
         </div>
 
         {/* The claim above is a promise; these four are the only evidence the
@@ -117,7 +131,13 @@ export function Home() {
             left to right the order is still legible, the hands land as one
             band instead of four rows, and the collections index below keeps
             its place on the first screen. */}
-        <ol className="mt-16 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-ink/12 pt-8 md:mt-24 md:grid-cols-4 md:pt-10">
+        <Reveal className="mt-16 border-t border-ink/12 pt-8 md:mt-24 md:pt-10">
+          <p className="max-w-md text-sm leading-relaxed opacity-60">
+            {t('manifesto.hands.lead')}
+          </p>
+        </Reveal>
+
+        <ol className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 md:mt-14 md:grid-cols-4">
           {HANDS.map((n, i) => (
             <Reveal as="li" key={n} delay={i}>
               <span className="eyebrow block opacity-30 tabular-nums">
@@ -142,6 +162,25 @@ export function Home() {
               {`„${t('story.quote')}”`}
             </p>
           </blockquote>
+        </div>
+
+        {/* What the three statements have been building to, and the only place
+            on the page the brand states its own name as a sentence. Centred,
+            above the reading size of everything around it, and given the width
+            of the page to sit in: it is the section's last word and the hands
+            and the quote above are the evidence it rests on. */}
+        <div className="mx-auto mt-28 max-w-3xl text-center md:mt-44">
+          <p className="font-display text-[clamp(1.375rem,1.05rem+1.5vw,2.375rem)] leading-[1.25]">
+            <RevealLines lines={splitToLines(t('manifesto.pull'), 3)} />
+          </p>
+          <Reveal delay={2}>
+            <p className="mt-10 font-display text-[clamp(1.125rem,1rem+0.6vw,1.4375rem)] opacity-55">
+              {t('manifesto.close')}
+            </p>
+            <div className="mt-12 flex justify-center">
+              <ArrowLink to="/colectii">{t('manifesto.link')}</ArrowLink>
+            </div>
+          </Reveal>
         </div>
 
       </section>
@@ -201,6 +240,19 @@ export function Home() {
               <RevealLines lines={[t('craft.title')]} />
             </h2>
 
+            {/* The section used to go straight from the heading into the list.
+                It reads as four service bullets that way; the two lines here
+                are what make it a process, and they say what the list is a
+                list of before the first number arrives. */}
+            <Reveal delay={1}>
+              <p className="mt-7 max-w-sm font-display text-lg leading-[1.4] opacity-80">
+                {t('craft.lede')}
+              </p>
+              <p className="mt-4 max-w-sm text-sm leading-relaxed opacity-60">
+                {t('craft.body')}
+              </p>
+            </Reveal>
+
             <ol className="mt-12">
               {CRAFT.map((n, i) => (
                 <Reveal as="li" key={n} delay={i} className="border-t border-ink/12 py-6">
@@ -210,7 +262,14 @@ export function Home() {
                     </span>
                     <div>
                       <h3 className="font-display text-xl">{t(`craft.${n}.title` as Key)}</h3>
-                      <p className="mt-2 max-w-sm text-sm leading-relaxed opacity-65">
+                      {/* The step's claim, set above its explanation and in
+                          the display face: each one is an aphorism the body
+                          then argues for, and flattening the two into one
+                          grey paragraph loses that turn. */}
+                      <p className="mt-1.5 max-w-sm font-display text-[0.9375rem] leading-[1.4] opacity-75">
+                        {t(`craft.${n}.tag` as Key)}
+                      </p>
+                      <p className="mt-3 max-w-sm text-sm leading-relaxed opacity-65">
                         {t(`craft.${n}.body` as Key)}
                       </p>
                     </div>
@@ -244,9 +303,12 @@ export function Home() {
                 </RevealImage>
               </Parallax>
 
+              {/* The section's own closing line, not the landing pull it used
+                  to borrow. That pull now closes section 01, and a line cannot
+                  be the last word of two sections on the same page. */}
               <div className="col-span-1 mt-8 flex flex-col justify-end">
                 <p className="font-display text-[clamp(1.125rem,1rem+0.6vw,1.375rem)] leading-[1.35]">
-                  {t('manifesto.pull')}
+                  {t('craft.close')}
                 </p>
                 <Rule className="mt-6" />
                 <p className="eyebrow mt-4 opacity-45">Samobi · Vadu Săpat</p>

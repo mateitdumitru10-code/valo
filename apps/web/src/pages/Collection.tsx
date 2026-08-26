@@ -14,6 +14,14 @@ import {
 import { useI18n, type Key } from '~/lib/i18n'
 
 /**
+ * Ranges the client has written a full description for. Listed rather than
+ * probed for a missing key, because `t` falls back to Romanian and then to the
+ * key itself — a range without the copy would otherwise print its own key on
+ * the page instead of rendering nothing.
+ */
+const DESCRIBED = new Set(['aldo', 'cubic', 'soria', 'torro'])
+
+/**
  * One range, whole. Every piece drawn from it stands here together — the
  * corner beside the bed beside the module — because that is the only place the
  * range is visible as a range rather than as five entries in five categories.
@@ -30,6 +38,7 @@ export function CollectionPage() {
     return <Navigate to={moved ? `/categorii/${moved.id}` : '/colectii'} replace />
   }
 
+  const described = DESCRIBED.has(range.id)
   const list = inCollection(range.id)
   const prices = priceRange(list)
   const others = collections.filter((c) => c.id !== range.id)
@@ -57,11 +66,25 @@ export function CollectionPage() {
       </div>
 
       <section className="gutter grid gap-10 py-14 md:grid-cols-12 md:py-20">
-        <p className="md:col-span-6">
-          <span className="font-display text-xl leading-[1.3]">
-            {t(`collection.lede.${range.id}` as Key)}
-          </span>
-        </p>
+        <div className="md:col-span-6">
+          {/* Four ranges have a written description; the rest carry only the
+              index blurb. Both are read from the same slot, so the page never
+              has to explain which kind of range it is showing. */}
+          <p className="font-display text-xl leading-[1.3]">
+            {described
+              ? t(`collection.pull.${range.id}` as Key)
+              : t(`collection.lede.${range.id}` as Key)}
+          </p>
+          {described && (
+            <div className="mt-6 max-w-prose space-y-4 text-sm leading-relaxed opacity-70">
+              {t(`collection.body.${range.id}` as Key)
+                .split('\n\n')
+                .map((para) => (
+                  <p key={para}>{para}</p>
+                ))}
+            </div>
+          )}
+        </div>
 
         <dl className="grid grid-cols-2 gap-x-6 gap-y-8 self-end md:col-span-5 md:col-start-8">
           <div>

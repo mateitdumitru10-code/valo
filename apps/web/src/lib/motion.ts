@@ -21,6 +21,20 @@ export const fadeUp: Variants = {
   }),
 }
 
+/** The landing statements, which are set alternately against the left and the
+ *  right margin and read one at a time down a long column. Slower than
+ *  `fadeUp` and carrying a little lateral drift: the entrance is meant to be
+ *  noticed rather than got out of the way, and it comes from the side the
+ *  paragraph is set on, so the alternation is legible before the text is. */
+export const drift: Variants = {
+  hidden: (from: 'left' | 'right' = 'left') => ({
+    opacity: 0,
+    y: 28,
+    x: from === 'left' ? -24 : 24,
+  }),
+  show: { opacity: 1, y: 0, x: 0, transition: { duration: 1.6, ease: expo } },
+}
+
 /** Photography enters by uncovering, never by fading — it keeps weight. */
 export const unmask: Variants = {
   hidden: { clipPath: 'inset(0 0 100% 0)' },
