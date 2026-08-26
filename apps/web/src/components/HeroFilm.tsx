@@ -15,10 +15,27 @@ const CHAPTERS = [1, 2, 3, 4] as const
 const CLIP = '/media/hero.mp4'
 /** First frame, so the hero is never a black rectangle while the clip loads. */
 const POSTER = '/media/hero-poster.webp'
-/** How much scroll the clip is stretched over, in viewport heights. */
-const LENGTH = 5
-/** How hard the playhead chases the scroll. Lower is smoother and laggier. */
-const CHASE = 0.12
+/**
+ * How much scroll the clip is stretched over, in viewport heights. The stage is
+ * one screen of that and sticks, so the scrub itself runs over LENGTH - 1.
+ *
+ * The clip holds 141 distinct frames and no encoding raises that. Over the four
+ * screens this used to scrub across, a frame had to last about 26px of scroll —
+ * far enough apart to read as a slideshow rather than as motion. At one and a
+ * half it is nearer 10px, which is inside the range where consecutive frames
+ * read as movement.
+ */
+const LENGTH = 2.5
+/**
+ * How hard the playhead chases the scroll, per 60Hz frame. Lower is smoother
+ * and laggier.
+ *
+ * This sits downstream of Lenis, which has already smoothed the scroll, so the
+ * two are low-pass filters in series and their lag adds up. It was low enough
+ * to hide how long a seek took; now that every frame is a keyframe the seeks
+ * land quickly and the smoothing can be most of the way out of the way.
+ */
+const CHASE = 0.3
 
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v))
 
@@ -105,9 +122,16 @@ export function HeroFilm() {
       if (Math.abs(delta) < 0.004) return
       playhead += delta * ease
       if (el.seeking) return
-      // fastSeek lands on the nearest keyframe instead of decoding up to an
-      // exact frame. With a keyframe every quarter second that is invisible,
-      // and on mobile it is the difference between smooth and unusable.
+      // The clip is encoded all-intra, so every frame is a keyframe. That is
+      // what makes both of these cheap, and it is the whole reason the hero
+      // scrubs smoothly: fastSeek rounds to the nearest keyframe, which used to
+      // mean the nearest of twenty-five over the entire clip — the playhead
+      // could only ever land on one of twenty-five images. Chrome has never
+      // implemented fastSeek and took the other branch, where an exact seek had
+      // to decode forward from the preceding keyframe; the guard above then held
+      // the playhead still until it finished. One steppy browser, one sluggish
+      // one, the same cause. With every frame a keyframe, rounding is exact and
+      // decoding is a single frame either way.
       if (typeof el.fastSeek === 'function') el.fastSeek(playhead)
       else el.currentTime = playhead
     }
@@ -140,8 +164,13 @@ export function HeroFilm() {
     setChapter(Math.min(CHAPTERS.length - 1, Math.floor(clamp01(p) * CHAPTERS.length)))
   })
 
-  const titleScale = useTransform(scrollYProgress, [0, 0.18], [1, 0.86])
-  const titleOpacity = useTransform(scrollYProgress, [0, 0.12], [1, 0])
+  // Keyed to progress, which is a fraction of the scrub — so shortening the
+  // scrub would have pulled the wordmark off the screen in a third of the
+  // scrolling it used to take. Rescaled by the same factor the scrub shrank
+  // by (four screens to one and a half), which holds the mark for the same
+  // distance under the hand as before.
+  const titleScale = useTransform(scrollYProgress, [0, 0.48], [1, 0.86])
+  const titleOpacity = useTransform(scrollYProgress, [0, 0.32], [1, 0])
   const veil = useTransform(scrollYProgress, [0, 0.5, 1], [0.3, 0.2, 0.44])
   const bar = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
   const elapsed = useTransform(scrollYProgress, (p) =>

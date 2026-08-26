@@ -10,8 +10,12 @@ export function useSmoothScroll() {
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
 
+    // Site-wide, but the hero is what it is felt through: the film's playhead
+    // chases a scroll position this has already smoothed, so whatever lag is
+    // set here the hero pays again on top. Long enough to still glide, short
+    // enough that the frame under the cursor is the frame being scrolled to.
     const lenis = new Lenis({
-      duration: 1.15,
+      duration: 0.95,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       touchMultiplier: 1.6,
     })
