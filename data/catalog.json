@@ -324,81 +324,177 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-eco-2-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-eco-2-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1orU6ppiSiMAgBMB2JYwC2yBuk1G4w9lF/eKEAAP6bm/CLm7Y+DQJpcDPH+3BBSwDOAIuhPq2by71Q88EPtjmu11fBfctpARuU/HaAAAA=",
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDGfCHXX4jvl093qgAA/vNwIWbSxanJXHLxiQP0YwKcBM6IqMbTDgAAAA==",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "coltar-eco-2-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-eco-2-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA0APu1kq04ppaQiMAgBMB2JYgCdABuUYFRe0ZJJ+7AA/mcjkdCC3ziPD/GAI+NkgHfNxNfRFK+AoXoIuTTFsVqecBl2cm4nIcF6Oi4IMAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JYwAAW9N4eo0BrgTcAAD+83AaDhr3XHdyXTpY6Hyj7UVa4FPlqag7ORXuf0F3hMAAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-eco-2-3",
-          "w": 1600,
-          "h": 1200,
+          "src": "coltar-eco-2-c3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoADTbl+B06zzRSgAP7EuyE5MuXBvHTb7pwP0x6vImVudRKKbunTHEsGIOFgKTm/d4HigAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+sf1/7e9YoAAP7zbvv7d5bJLyHk2s9mNQ6DHTb7AgA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-eco-2-4",
-          "w": 1600,
-          "h": 1200,
+          "src": "coltar-eco-2-c4",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA8APu1kq04ppaQiMAgBMB2JZACADCcga4ShXu0rfhO4a2QA/sRh2TxSd7QXv2pWSByTxzcuPO+WqEX90DjXs4LCnzvc0sqFyAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQDG9CHfv8BTfpc/iuAA/vNvt+GvdceuDIM5pS1Etv5v8yug0FxkkyGjSIYAAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-eco-2-5",
-          "w": 1600,
-          "h": 1200,
+          "src": "coltar-eco-2-c5",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZAC7ABuUYNuyUoe8FmmAAP5bMOeVaAP/panxlFriTT+p2hjpHx46WOj8NEIZTDhMJXDIIcjLp7heSMl0XW2CWJXAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW871/Qzlz/iggAD+83AhZtM5FvwhG3QXdPVmaCrVbHCNBYwgoAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAW/D01BH1ot4umAD+8357FO5ydDxtdm9ZXHk8GwbDM+J/lgmTeWWOK6trJPD9AAAA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-eco-2/",
       "cover": {
-        "src": "coltar-eco-2-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-eco-2-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1orU6ppiSiMAgBMB2JYwC2yBuk1G4w9lF/eKEAAP6bm/CLm7Y+DQJpcDPH+3BBSwDOAIuhPq2by71Q88EPtjmu11fBfctpARuU/HaAAAA=",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDGfCHXX4jvl093qgAA/vNwIWbSxanJXHLxiQP0YwKcBM6IqMbTDgAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
-      "category": "sectionals"
+      "category": "sectionals",
+      "views": [
+        {
+          "src": "coltar-eco-2-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-eco-2-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-eco-2-c1",
+          "chip": "/media/coltar-eco-2-c1-700.webp",
+          "swatch": "#685647",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c2",
+          "chip": "/media/coltar-eco-2-c2-700.webp",
+          "swatch": "#50161d",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c3",
+          "chip": "/media/coltar-eco-2-c3-700.webp",
+          "swatch": "#8a827b",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c4",
+          "chip": "/media/coltar-eco-2-c4-700.webp",
+          "swatch": "#152f50",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c5",
+          "chip": "/media/coltar-eco-2-c5-700.webp",
+          "swatch": "#4d4d38",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c6",
+          "chip": "/media/coltar-eco-2-c6-700.webp",
+          "swatch": "#646233",
+          "tone": {
+            "ro": "Verde oliv, perne crem",
+            "en": "Olive, cream cushions"
+          }
+        }
+      ]
     },
     {
       "id": 7042,
@@ -1946,68 +2042,112 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-colt-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-colt-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1kqk4ppaQiMAgBMB2JYwCw7CHdtbJs/zDXWmWg8AD+6ItoS1cBc7DXk8tGH/LdC9Ns+R9xVwbmwI5IeydAL5630I6+xNcmCAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQAAW+jLS5sYJvkGgAAA/vBB7C40QgFWJElnsa7YgMMgOLqUuQUxn+qzjAJEiZIKi8nu1jgAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-colt-2",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-colt-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBQCdASoUABsAPu1qq06ppiQiMBgIATAdiWcAyFw0aU9WU7X8ctq5QliVcTLXI84k4VgAAP6LV3eMxE8LiebaLx1ZaCze5z/s9dkXjh75w//XBTogPwolD1K4YhP5j0EjBtoAAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JYwCw7CHfJdwJytzT+3GcAP7wSiLs68RbyQ+jATH/8dTCb6eXfPd+s+j97pBt9NjnOyTpQt2OsjDl7NjOAAAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-colt-3",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-colt-c3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABsAPuleqE2pJSQiN/VYASAdCWMAxzA/CWROp7PVytXdkXwMq23DBwAA/snsaHzPqYWrj1gSOzOD0V1dke6aEWa8KUYSmdt6L0uEwihoHkhae/6EYkbaaeWl6a0O7ZeaMW16UOQAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JQAALfS7Yse3EjIBlZAAA/u46rLumy/uqlyYRj4ZQF1oDEQQcYZQf/OzfcTs302jXK1cObBP25dCwxbAAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-colt-4",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-colt-c4",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwBQCdASoUABsAPu1grU+ppSQiMBgIATAdiWUAyjMvxT30A4Tax6+55LslLIJv3Q3HkmYAAP7V9sc7pdxAeqsKSJWjKeFBF+NBv6NWVKt3kneFp30DQQsKPerZVWWwPB2NxnSizUyqalQf3u5ejVwA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1mqk4ppaOiMAgBMB2JZQAAW+j/WMuGTIBlZAAA/u46rLjrhYJztGPRNp9613owVIHXNZof8chqfcddG2c8uJqGKFiuVAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-colt-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQAAW+lCL8Gp8vZKAAD+8jRQ2kv1y5ELeeZCOxR/W0ZUZhiO30zkXGJ/fKO7jlE7EsAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-colt-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZQAAUqT6xeQP2RSLAAD+8eCf4qgDLDsqeI6dNN97wy0BeF+Fm8SmAWEmDWihl3TecAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-colt-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUqPrBfXsXgAA/vIoSoPrLFfcI3YY7Trxl0uF797hiL9gfcjNnpIPhatFa65QAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-colt/",
       "cover": {
-        "src": "pat-colt-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-colt-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAA0APu1kqk4ppaQiMAgBMB2JYwCw7CHdtbJs/zDXWmWg8AD+6ItoS1cBc7DXk8tGH/LdC9Ns+R9xVwbmwI5IeydAL5630I6+xNcmCAA=",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQAAW+jLS5sYJvkGgAAA/vBB7C40QgFWJElnsa7YgMMgOLqUuQUxn+qzjAJEiZIKi8nu1jgAAA==",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false,
+      "editorial": true,
       "category": "beds",
       "sizes": [
         [
@@ -2026,6 +2166,67 @@
           200,
           200
         ]
+      ],
+      "views": [
+        {
+          "src": "pat-colt-studio-1",
+          "ro": "Din față",
+          "en": "Front",
+          "in": "pat-colt-c5"
+        },
+        {
+          "src": "pat-colt-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-colt-c5"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-colt-c1",
+          "chip": "/media/pat-colt-c1-700.webp",
+          "swatch": "#4f4c38",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-colt-c2",
+          "chip": "/media/pat-colt-c2-700.webp",
+          "swatch": "#1a344f",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-colt-c3",
+          "chip": "/media/pat-colt-c3-700.webp",
+          "swatch": "#4c1b21",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "pat-colt-c4",
+          "chip": "/media/pat-colt-c4-700.webp",
+          "swatch": "#4e382c",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-colt-c5",
+          "chip": "/media/pat-colt-c5-700.webp",
+          "swatch": "#856865",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        }
       ]
     },
     {
@@ -2049,62 +2250,219 @@
       ],
       "images": [
         {
-          "src": "coltar-soria-in-forma-de-u-1",
-          "w": 2048,
-          "h": 1536,
+          "src": "coltar-soria-in-forma-de-u-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
             2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JQBOmUAB8RDIID7ps5iAAxBgE0iz3caS78syvyTLrZYXFcKuhlsWKg0xynzAmaQT3C1zeLNAAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6yOZ1aFNvJggAP7za/k++hpoSRBvEM8BUkqW+pVzAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-soria-in-forma-de-u-2",
-          "w": 2048,
-          "h": 1536,
+          "src": "coltar-soria-in-forma-de-u-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
             2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwC06CD1QoqrMGgA+Ra0RdqfUUg8bh/O7oZpsqvUUlCxwoIkW4EM8CYi65q6L2xsqOewAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8ALrV2u12jqampiYC0SygABc60mE5x5UWzmUAA/viuLHhcYNdlnSeB0fKCV2G9jb8MqEAAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-soria-in-forma-de-u-3",
-          "w": 2048,
-          "h": 1536,
+          "src": "coltar-soria-in-forma-de-u-c3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
             2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwC06Ay/U/+VOAD+yAjiCdZKu6DSKkKSzA79cmF51d/8MqTaUiMuktqMCHomDf6AAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW+rlE0XV75MUAAD+82v9+o52O1bIch/DrJ6bbqxOgHyZCvUWAHgyMjgA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW+tFVA2J6aCpbAAA/vNu+/1W6e70u8QyNcy8RKXN1Nq0hpg7R9ESahU02VtgAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JQAq6APRAmvsEHGeYl0QAAP7za/zQ0A/AbFzsZsfXArUwWrELRQ68tJqSFHAAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQDDNCHfzlQI0he+cfUAAP7zbrvuPX9bIPPAkaQNClFqk8W+KOF3jhOuauHU+yhIC7AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c7",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAA8ALrV2u12jqampiYC0SxgABc62B26ACngXYAD++K4l/mhWr33uk08ALPA+aJWPodJ3vfYzAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JYwDCgCHgEJh7VEGKSB4AAP7zb6G83aIEcrH9v+sljJmPMwksggAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoUAA8APu1iqk2ppaQiMAgBMB2JZQCw7CHh39f7xOg5ehC6AAD+8357T59w/rGgE0Lrbh4pfEJaTNgeH++IxvDZyAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-soria-in-forma-de-u/",
       "cover": {
-        "src": "coltar-soria-in-forma-de-u-1",
-        "w": 2048,
-        "h": 1536,
+        "src": "coltar-soria-in-forma-de-u-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
           2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JQBOmUAB8RDIID7ps5iAAxBgE0iz3caS78syvyTLrZYXFcKuhlsWKg0xynzAmaQT3C1zeLNAAAA==",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6yOZ1aFNvJggAP7za/k++hpoSRBvEM8BUkqW+pVzAAA=",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false,
+      "editorial": true,
       "category": "sectionals",
-      "collection": "soria"
+      "views": [
+        {
+          "src": "coltar-soria-in-forma-de-u-studio-1",
+          "ro": "Deschis, pat",
+          "en": "Opened as a bed",
+          "in": "coltar-soria-in-forma-de-u-c7"
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "coltar-soria-in-forma-de-u-c7"
+        }
+      ],
+      "collection": "soria",
+      "variants": [
+        {
+          "src": "coltar-soria-in-forma-de-u-c1",
+          "chip": "/media/coltar-soria-in-forma-de-u-c1-700.webp",
+          "swatch": "#7e6f61",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c2",
+          "chip": "/media/coltar-soria-in-forma-de-u-c2-700.webp",
+          "swatch": "#a38279",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c3",
+          "chip": "/media/coltar-soria-in-forma-de-u-c3-700.webp",
+          "swatch": "#2d3022",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c4",
+          "chip": "/media/coltar-soria-in-forma-de-u-c4-700.webp",
+          "swatch": "#302019",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c5",
+          "chip": "/media/coltar-soria-in-forma-de-u-c5-700.webp",
+          "swatch": "#9b4f37",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c6",
+          "chip": "/media/coltar-soria-in-forma-de-u-c6-700.webp",
+          "swatch": "#16324e",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-soria-in-forma-de-u-c7",
+          "chip": "/media/coltar-soria-in-forma-de-u-c7-700.webp",
+          "swatch": "#b89768",
+          "tone": {
+            "ro": "Muștar",
+            "en": "Mustard"
+          }
+        }
+      ]
     },
     {
       "id": 6646,
@@ -2126,58 +2484,197 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-soria-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-soria-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQC7AB6SsTzfxwn5x8sAAP4KspOs136T6nzupA1EQYZ0oyUolsC2m9X6TEf150koxNtlMbSmrIAAAAA=",
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "coltar-soria-2",
-          "w": 1100,
-          "h": 625,
+          "src": "coltar-soria-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPu1mqk2ppaQiMAgBMB2JaQAAW1IYWyUastnCAAD+7/t3S5LXgbEcxBOIgwNloHFviydFMHY7jXDYrnAcQXZCgAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk2lx82z3uE4AA/vNvt7o8Pcc1DXT09H5Qb5B9NrK5qBgHYdtnRfTHf8KAAA==",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "coltar-soria-3",
-          "w": 1000,
-          "h": 664,
+          "src": "coltar-soria-c3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAO+4VON4ozpAA/uqW4jclMRUfFCjk+XhryTjfir1iqGNM/82BBC686hmaAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQDImCHf49WWD9edC6AA/vNu+/zm+gF2jK8l1n9qU5Nsg5YLtAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+uW64l3T7bvgAD+826v90Ccv0hZqDyCXRrI+gAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwAAW+uXcnublKo/+AD+8277/VUhcmXQb5XLDV3rai1H71ooajXOOAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW+mQ+fCBqK2BAAD+8270crttghjqOHbFSqnA8QwMAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW9OKGdV3MlPeAAD+83AhZs8+WRxDKhGN+Weg8cRQ7569mOAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+ze5w0TjikXMsAA/vNvoctmCGA/6+1lBbxusRay/8MFE3W4AAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-soria/",
       "cover": {
-        "src": "coltar-soria-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-soria-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1qrU8ppiQiMAgBMB2JZQC7AB6SsTzfxwn5x8sAAP4KspOs136T6nzupA1EQYZ0oyUolsC2m9X6TEf150koxNtlMbSmrIAAAAA=",
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
       "category": "sectionals",
-      "collection": "soria"
+      "views": [
+        {
+          "src": "coltar-soria-studio-1",
+          "ro": "Deschis, pat",
+          "en": "Opened as a bed",
+          "in": "coltar-soria-c5"
+        },
+        {
+          "src": "coltar-soria-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-soria-c6"
+        }
+      ],
+      "collection": "soria",
+      "variants": [
+        {
+          "src": "coltar-soria-c1",
+          "chip": "/media/coltar-soria-c1-700.webp",
+          "swatch": "#383a2b",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-soria-c2",
+          "chip": "/media/coltar-soria-c2-700.webp",
+          "swatch": "#1f1511",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "coltar-soria-c3",
+          "chip": "/media/coltar-soria-c3-700.webp",
+          "swatch": "#7e544e",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "coltar-soria-c4",
+          "chip": "/media/coltar-soria-c4-700.webp",
+          "swatch": "#84817d",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "coltar-soria-c5",
+          "chip": "/media/coltar-soria-c5-700.webp",
+          "swatch": "#6d5f53",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-soria-c6",
+          "chip": "/media/coltar-soria-c6-700.webp",
+          "swatch": "#b3a395",
+          "tone": {
+            "ro": "Bej cu perne verde oliv",
+            "en": "Beige with olive cushions"
+          }
+        }
+      ]
     },
     {
       "id": 6633,
@@ -2199,7 +2696,72 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-torro-studio-1",
+          "src": "coltar-torro-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDE2CHgX3Rt3lxUm44AAP7zdIbYxWDCELAc+JR6OOdImhTP0vYU06x4OPaQAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-torro-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDKACHiBle2d/8qspcFAAD+8358C4mAmGXs2PB8wjJSIjBQSvndOA4L+eX0j3ZbjzLP60AAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-torro-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQC7ACHfuMXH3XmkEZgA/vNutDdS2qSZkNbXVsQ97QaF6vfoYhAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-torro-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDKACHiBWQ4sV74C1NGAAD+83592uDZsH4ZSD0G9hgGuz+7Y9Ywdk0skORkaqmfXJH5I8aJKvFXtUn0IAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-torro-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAW+siDcjzP7hQAAD+83QKjXb4cCv+Y1AVeaK5FubagAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-torro-c6",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2212,7 +2774,7 @@
           "studio": true
         },
         {
-          "src": "coltar-torro-studio-2",
+          "src": "coltar-torro-studio-1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2223,24 +2785,11 @@
           "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA8APu1kqk4ppaQiMAgBMB2JZQC7AB7H9Ua4xAokLQN1YAD+84KySKWEuCFXctk7eK/N7WG/LWhmmAFC6WWuumghDTXkzCIAAA==",
           "editorial": true,
           "studio": true
-        },
-        {
-          "src": "coltar-torro-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwC7AB4l9GA4TJQQAP7zgrIKXiuWSpaW1Q3qz3lvzT7qb5ez8EbkVAAAAA==",
-          "editorial": true,
-          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-torro/",
       "cover": {
-        "src": "coltar-torro-studio-1",
+        "src": "coltar-torro-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -2248,13 +2797,77 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC3uCHiBrdKGEc8zZyQAAD+835Y0kVyChdHz4MzuYQYTP53QUTi/SZ+wJBCEfWAkKsAAAA=",
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDE2CHgX3Rt3lxUm44AAP7zdIbYxWDCELAc+JR6OOdImhTP0vYU06x4OPaQAAA=",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "category": "sectionals",
-      "collection": "torro"
+      "views": [
+        {
+          "src": "coltar-torro-studio-1",
+          "ro": "Deschis, pat",
+          "en": "Opened as a bed",
+          "in": "coltar-torro-c6"
+        }
+      ],
+      "collection": "torro",
+      "variants": [
+        {
+          "src": "coltar-torro-c1",
+          "chip": "/media/coltar-torro-c1-700.webp",
+          "swatch": "#7b6956",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-torro-c2",
+          "chip": "/media/coltar-torro-c2-700.webp",
+          "swatch": "#343522",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-torro-c3",
+          "chip": "/media/coltar-torro-c3-700.webp",
+          "swatch": "#a58178",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "coltar-torro-c4",
+          "chip": "/media/coltar-torro-c4-700.webp",
+          "swatch": "#1e0809",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "coltar-torro-c5",
+          "chip": "/media/coltar-torro-c5-700.webp",
+          "swatch": "#878683",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "coltar-torro-c6",
+          "chip": "/media/coltar-torro-c6-700.webp",
+          "swatch": "#684934",
+          "tone": {
+            "ro": "Camel",
+            "en": "Camel"
+          }
+        }
+      ]
     },
     {
       "id": 7049,
@@ -2518,7 +3131,7 @@
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-torro-studio-1",
+          "src": "canapea-toro-c1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2526,12 +3139,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDImCHf/hBbK4ltRFQA/vNu/Ln5yP6ZQZ3RFv6Sj2Cz6PpE3PP+EGma4za03i592mFFEAAAAA==",
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQAAW+uWGICEjsziAAD+82v8zVdQyEJKmeSp1cDxPBugon3ms4loQAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-torro-studio-2",
+          "src": "canapea-toro-c2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2539,12 +3152,90 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZQAAW9mOoujESDyahAAA/vN0htVLZUv7VT1Q0WqZ7MNMgEgv9F7Sp5q3gQfuiPjxy+j6Ikz6w5vwAAA=",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+sOI03ZQAKQAAD+82v51oRxnbwZTIByuAjvPlQ8AAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-torro-studio-3",
+          "src": "canapea-toro-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDMHCHf/g6Sdb83PFIAAP7zbvy5+i40w87RZlqSYt5OuhH+evQmc9KhZp/QBtRxPj5mvAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+zeROAjYkW2/40AAP7zbvv87FG3lOaBpDzehtvCQG1udig+jkaUgg3QlIgAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA8APu1kqk2ppaQiMAgBMB2JYwC/WKnDA17zxXZ840MCuAD+8278ufYtvr4Pn1Z47ZwoqcBy37m1mcHFXBOrjWKMK9yfgk7gAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYwC7IJPDA0LGIw/w4RnuIwAA/vN+fCQoa8g4jFBsrbElCE8lFlqd9wOb11azZCeY7vY/obGRO5N2NlcgAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQAqP0Nvf/p/P7ej0hAAA/vN/nRT6l3ewwVIcichAt8i0eFexTOzbfokkMwKHdz6hkdPqlyOWg3l4AAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JYwAAW+s3az0mZ/KwAP7zcdjP3TAQNFhLIAvYIBNAEUdQe/wAe0qeat4CC0SvizQlI29G6egAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-toro-studio-4",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -2555,24 +3246,11 @@
           "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAA8APu1kq04ppaQiMAgBMB2JQBdgA9GfSKv9DMn+Si8MAAD+84K1HPWHflhDQXIydYjc79PzYiOLjJibuqtpyvIVKFmPHF/qsLcCShVwAA==",
           "editorial": true,
           "studio": true
-        },
-        {
-          "src": "canapea-torro-studio-4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JQBfnA9Lj3DyajBwjfm5AAP7yKcTT2z8bhLf50KjfPm3Oz1rcpGn8pUivtxiGKFH9I/YWN3APtreRwAA=",
-          "editorial": true,
-          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/canapea-toro/",
       "cover": {
-        "src": "canapea-torro-studio-1",
+        "src": "canapea-toro-c1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -2580,13 +3258,86 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDImCHf/hBbK4ltRFQA/vNu/Ln5yP6ZQZ3RFv6Sj2Cz6PpE3PP+EGma4za03i592mFFEAAAAA==",
+        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQAAW+uWGICEjsziAAD+82v8zVdQyEJKmeSp1cDxPBugon3ms4loQAA=",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
       "category": "sofas",
-      "collection": "torro"
+      "views": [
+        {
+          "src": "canapea-toro-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-toro-c5"
+        },
+        {
+          "src": "canapea-toro-studio-2",
+          "ro": "Profil",
+          "en": "Profile",
+          "in": "canapea-toro-c5"
+        },
+        {
+          "src": "canapea-toro-studio-3",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-toro-c5"
+        },
+        {
+          "src": "canapea-toro-studio-4",
+          "ro": "Deschisă, trei sferturi",
+          "en": "Opened, three-quarter",
+          "in": "canapea-toro-c5"
+        }
+      ],
+      "collection": "torro",
+      "variants": [
+        {
+          "src": "canapea-toro-c1",
+          "chip": "/media/canapea-toro-c1-700.webp",
+          "swatch": "#886360",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "canapea-toro-c2",
+          "chip": "/media/canapea-toro-c2-700.webp",
+          "swatch": "#87817d",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "canapea-toro-c3",
+          "chip": "/media/canapea-toro-c3-700.webp",
+          "swatch": "#211712",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "canapea-toro-c4",
+          "chip": "/media/canapea-toro-c4-700.webp",
+          "swatch": "#32331e",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-toro-c5",
+          "chip": "/media/canapea-toro-c5-700.webp",
+          "swatch": "#032f4c",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        }
+      ]
     },
     {
       "id": 7008,
@@ -2603,56 +3354,60 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-happy-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-happy-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBhQA2v4CBKHNlMAAP7hsk4In6F+NPiWpQtv3bOZ7/KtL0PWNlQGyMO4yIzx2NkyiiphQeHuAAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwDG9CHiBWOtsXV4sqpgAP7x28mX1SOjsbX4eM0FD52+6LVfcAnxOypPCMNQAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-happy-2",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-happy-studio-1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoUABsAPu1qqk6ppiOiMAgBMB2JYwC/7BjU5V9PQ2AWfAQzVY8eWIOJv4AA/rFWlo1MuWxzGdXf8pcwuV79aLUJIsIeWTke1efwinneU57KXd0HLdGW9HDEG7YUJM4Lr8lYT0E8A6grKMwECQtoAAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAUqRxn/tnf7EZsAD+8i2TTRog1p28UDqtMKXT+jAeh9ENiB2R9NcHgAAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-happy-3",
-          "w": 1536,
-          "h": 2048,
+          "src": "pat-happy-studio-2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBQCdASoUABsAPuVcpk2pJSOiMAwBIByJYwDI1Bwv46ZEBfg0S9ISO/GBeIGhDt4eQAD+38IIXaMN4fOYZNziNDWg/lTtEEtgGnnESF1ZVSpgsr62PVbVf8ZitZxlp4dGfHUQfx5UQ1AkAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAASoqbFQFcYAD+8eBOazoKZmCNRBntC/Czd0/42GSs/xaenjgA",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-happy/",
       "cover": {
-        "src": "pat-happy-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-happy-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBhQA2v4CBKHNlMAAP7hsk4In6F+NPiWpQtv3bOZ7/KtL0PWNlQGyMO4yIzx2NkyiiphQeHuAAAA",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwDG9CHiBWOtsXV4sqpgAP7x28mX1SOjsbX4eM0FD52+6LVfcAnxOypPCMNQAAA=",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false,
+      "editorial": true,
       "category": "beds",
       "sizes": [
         [
@@ -2671,6 +3426,18 @@
           200,
           200
         ]
+      ],
+      "views": [
+        {
+          "src": "pat-happy-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "pat-happy-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box"
+        }
       ]
     },
     {
@@ -2759,56 +3526,138 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-paul-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-paul-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdACG1Ma9vmUIuIAD+abAiZX3AgV/IsEDCwPR+qtdpeTxbgGXx3Dc5Bj+7bAAAAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAUzpFmRmmGJGaAAD+8d9KGQqKZt/2H87Bsyp+RRecK6cOgB0CSN45pJtfv1UCMpM7TSLI57FAAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-paul-2",
-          "w": 1200,
-          "h": 1600,
+          "src": "pat-paul-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBQCdASoUABsAPu1kq02ppaQiMAgBMB2JYwCpJ47DK6zsU3u1ZaliQVxyfvwSwNYJ+gAA9yn0zfSR/QZ39HABWFzf05BtaoxigsR8y67wpQQ/Kin6pNEEi5fv8EAwGWrDTuaSz5Bw/7gUkGiba4vQeBjgAA==",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQDCgB7F7EGab+B4k0oAAP7x3NwsRofeEB122ItBIw1eaa9rni/Hw1hz8cWPcWdSJcdHC9zbIyoAAAA=",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-paul-3",
-          "w": 1200,
-          "h": 1600,
+          "src": "pat-paul-c3",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBQCdASoUABsAPu1mqk2ppaQiMAgBMB2JYwCnFBspy6ojD25CvvgASVg10MUsWT1pYAD3sXNi1k4IYcwpF+y3eaHX4l1wdVMfytnOXXu1V7cwF3I7gRCnGK+EUBNYyMVocGGdJ8HXM4r/90SSTSzBZ3e0jwaBIAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwAAUzpFmRfbIm7CkAD+83dK3T/57gP3otyb/t4yKOHTzNa4IvQ/eh2C/1IxKoIgDWYYcAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYwCw7B7HR5b5VrRukvwgAP7zgHeVU0AyzR5TND54Cg4Z7GnU12KT77RqrAV/SteRPhGAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAUz/QTa1Af02IPgAA/vOCdc9sTzM49R9El76xMHoeNum6K9E9zvA8AAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JQBYdg858datKnnrfgAD+84Hy7K/ZOcfFcvbM2ofJVZ1gHUCpSoT99oahieHuqNVsuWQAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-c7",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAUz/OmBTKDE+FkAAA/vOCtFqGpjbJPYTA/7rZ4LyZdkU+jtYAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JaQAAW+Og6yO9PR4AAP7x1ADNJI1jusiDmtZg4wAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-paul-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JaQAAW+jJfOiOxmxAAAD+83UJZ1FE1Q/EAKTnPfnOOkKt0AAAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-paul/",
       "cover": {
-        "src": "pat-paul-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-paul-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCdACG1Ma9vmUIuIAD+abAiZX3AgV/IsEDCwPR+qtdpeTxbgGXx3Dc5Bj+7bAAAAA==",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAUzpFmRmmGJGaAAD+8d9KGQqKZt/2H87Bsyp+RRecK6cOgB0CSN45pJtfv1UCMpM7TSLI57FAAAA=",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false,
+      "editorial": true,
       "category": "beds",
       "sizes": [
         [
@@ -2827,6 +3676,85 @@
           200,
           200
         ]
+      ],
+      "views": [
+        {
+          "src": "pat-paul-studio-1",
+          "ro": "Profil",
+          "en": "Profile",
+          "in": "pat-paul-c7"
+        },
+        {
+          "src": "pat-paul-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-paul-c7"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-paul-c1",
+          "chip": "/media/pat-paul-c1-700.webp",
+          "swatch": "#31221d",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-paul-c2",
+          "chip": "/media/pat-paul-c2-700.webp",
+          "swatch": "#203349",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-paul-c3",
+          "chip": "/media/pat-paul-c3-700.webp",
+          "swatch": "#4c4b37",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-paul-c4",
+          "chip": "/media/pat-paul-c4-700.webp",
+          "swatch": "#895f39",
+          "tone": {
+            "ro": "Camel",
+            "en": "Camel"
+          }
+        },
+        {
+          "src": "pat-paul-c5",
+          "chip": "/media/pat-paul-c5-700.webp",
+          "swatch": "#a28683",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "pat-paul-c6",
+          "chip": "/media/pat-paul-c6-700.webp",
+          "swatch": "#876734",
+          "tone": {
+            "ro": "Muștar",
+            "en": "Mustard"
+          }
+        },
+        {
+          "src": "pat-paul-c7",
+          "chip": "/media/pat-paul-c7-700.webp",
+          "swatch": "#97969b",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        }
       ]
     },
     {
@@ -3053,45 +3981,196 @@
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-bela-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "coltar-bela-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdAB8vgLrJJV0UAAD+mHu3ZQmCCG3sVPmFt0l7iM3YVXKo9UEOr+gb5rW9YJs5gAAA",
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAW+tgGermmkAAAP7zbvv9TuMPApgdfRygzBTfkYu9zspQiz4WAjYAAA==",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "coltar-bela-2",
-          "w": 1501,
-          "h": 1126,
+          "src": "coltar-bela-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDG9CHerVKguifu6D4AAP7zcAWrCMH7v+Gazs9PqxzcUFCeYvq1EpNSSuR4AAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+shGUuAaUoYAP7za+5EtoJAwxL33ODtwyEAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQDG9CHfz3VDP9tttwAA/vNu+/1Pg9UorbMbWRdZhHRlXJMGubShdbWAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+tfmeN+L9K7AAD+826vc7e0q/6Z5iiXw35GOLUchwAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZQAAW+tgHXeLisE3yAD+8277/X8nWXQxRehetDWI4vuNPOnXBJ/P6VR4AA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQAAW+tfltW/7O4MAAD+82v5S1xMn831ctZNW0Y8rXBBYF5lDSAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYllAABc6zfVTw1wJuAA/vNu+/zmYCI20tbELHfpLLmdTKsAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-bela-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQBACdASoUAA8APu1krU2ppaSiMAgBMB2JZQDKACHgD+n9Izk0Sa9KAAD+82vtK+4/9dScd0RNuNdzzwxjsjAQEOQAAA==",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/coltar-bela/",
       "cover": {
-        "src": "coltar-bela-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "coltar-bela-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdAB8vgLrJJV0UAAD+mHu3ZQmCCG3sVPmFt0l7iM3YVXKo9UEOr+gb5rW9YJs5gAAA",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwAAW+tgGermmkAAAP7zbvv9TuMPApgdfRygzBTfkYu9zspQiz4WAjYAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
-      "category": "sectionals"
+      "category": "sectionals",
+      "views": [
+        {
+          "src": "coltar-bela-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-bela-c6"
+        },
+        {
+          "src": "coltar-bela-studio-2",
+          "ro": "Profil",
+          "en": "Profile",
+          "in": "coltar-bela-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-bela-c1",
+          "chip": "/media/coltar-bela-c1-700.webp",
+          "swatch": "#514c2c",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-bela-c2",
+          "chip": "/media/coltar-bela-c2-700.webp",
+          "swatch": "#a39b95",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "coltar-bela-c3",
+          "chip": "/media/coltar-bela-c3-700.webp",
+          "swatch": "#1e344d",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-bela-c4",
+          "chip": "/media/coltar-bela-c4-700.webp",
+          "swatch": "#998879",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-bela-c5",
+          "chip": "/media/coltar-bela-c5-700.webp",
+          "swatch": "#4a1c22",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "coltar-bela-c6",
+          "chip": "/media/coltar-bela-c6-700.webp",
+          "swatch": "#866866",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        }
+      ]
     },
     {
       "id": 6649,
@@ -3880,42 +4959,110 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-matrimonial-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-matrimonial-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUqPkKMRGTd2AAP7zgHnMihRGFeaBXIWxK6PKz4zI7nmitl0+zVzKjClGC/VGetU6RRRgAAAA",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "pat-matrimonial-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-matrimonial-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZwCw7CP82PrS60pmWN0LvUAA/sp6IsBd/rfFjRG/PZYXkYQh3HeQAtYuAAAA",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDKAB6PLC6BxMlugoAA/vN3SwDZwetiQAa+mB6kk5KeMrW8AtUELcWe7y9Yg1TqFSLP25jeOlYkQAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-matrimonial-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAUqPlDHw7YDYAAP7zd0sA2cHrYkAGvpgYltTDVyCLM9nZqm/Q8r4jXLxtsEjymaXRHUFOKAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-matrimonial-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAwCdASoUAA8ALrV2u12jqampiYC0S0gABY0p6/l2w5AA/vi6dBM0+9jFQPCx29E7/KprnSTt/edxqWjKpsqEePZhAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-matrimonial-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDCgB6SDvRAy9xIZZAAAP7zgtBxa2WfUdSdQpehis/a9d0JZJo0jWAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-matrimonial-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwDG9CHgAGKVjhdyOTAA/vN0gZBE5Dg8VLJhLqOiFeHQTgq1wL0fU8mFJ4AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-matrimonial-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwC+SB6XCFhZjaLfPKAA/vOC0GVKUJdEtlvnaVBxu4nMTHbFGg9gAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-matrimonial/",
       "cover": {
-        "src": "pat-matrimonial-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-matrimonial-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAUqPkKMRGTd2AAP7zgHnMihRGFeaBXIWxK6PKz4zI7nmitl0+zVzKjClGC/VGetU6RRRgAAAA",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
       "category": "beds",
@@ -3936,6 +5083,67 @@
           200,
           200
         ]
+      ],
+      "views": [
+        {
+          "src": "pat-matrimonial-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-matrimonial-c5"
+        },
+        {
+          "src": "pat-matrimonial-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-matrimonial-c5"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-matrimonial-c1",
+          "chip": "/media/pat-matrimonial-c1-700.webp",
+          "swatch": "#4d4a36",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-matrimonial-c2",
+          "chip": "/media/pat-matrimonial-c2-700.webp",
+          "swatch": "#31211a",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-matrimonial-c3",
+          "chip": "/media/pat-matrimonial-c3-700.webp",
+          "swatch": "#1f314a",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-matrimonial-c4",
+          "chip": "/media/pat-matrimonial-c4-700.webp",
+          "swatch": "#938883",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "pat-matrimonial-c5",
+          "chip": "/media/pat-matrimonial-c5-700.webp",
+          "swatch": "#a08d7f",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        }
       ]
     },
     {
@@ -3955,44 +5163,125 @@
       "dimensions": [],
       "images": [
         {
-          "src": "pat-one-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-one-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQAAKj3DinKRTbDTnAAD+ynoku/NubuPp7Lo+Yh/+eJUUeQPdo5bwEjnFTpL0P/nBTxMmzwYeHx4wAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAUqLqu/Id4WwAAP7zgdsgENdG24tlvGHkbdeT2kh6HthLSaluYvckuoAA",
+          "editorial": true,
+          "studio": true
         },
         {
-          "src": "pat-one-2",
-          "w": 1536,
-          "h": 1024,
+          "src": "pat-one-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQAAIYUhhyp80x9AA/spv2vz2/c0gFLV4t1aG8GYmIeiA1gwbzsoj6euUn6CgbDttXfQAAAA=",
-          "editorial": false,
-          "studio": false
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQAAUqT6aCIJIcFbXAAA/vHczH79KboC7OPFiKNDYAvnQJj71R9LgwUS5or2ampu5WwdYL4AAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDCgB6Om7Em2LkoL+KAAP7x3yH3+tfEMbNYS4x2bvT4bk5udn8L3boe6hPjXCM/gkfnxuWloAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQC2yB6PK715KN4HeKAA/vHfIfhKaXR44uYXc2KeRJvxHxLuyirkVL04+i2E5ikAOZ5PJLfTEKCbgAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JQAAKU/P1vBhumi6gAP7zgnXRRz5Fj+EItqmYXq2MqhlwBQug+d6FzbMJNRM9rxAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JZAC7AB6W588t5xS3BguAAP7x3MrWFhchgQa9BWGAEEKVxWMOVGyh/5fdd8yXBJkaklEjEuYB4qGw1hwAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAA8APu1krU6ppaSiMAgBMB2JZgAAWqFpXYLIrPZllSVYAAD+84F0JpqSjAgnm4xrE/kq/DZjqwZjFA0SNsQp5UluvIEz6ztqKGpUUgAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-one-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JYgC06B6XHr/VnG3h3Wo8AP7zgrHuVMphmZ0DTbHp91vEWgHf65Eiln3IzsvmFsHnYlDjMmY+UNgAAAA=",
+          "editorial": true,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/pat-one/",
       "cover": {
-        "src": "pat-one-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-one-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQAAKj3DinKRTbDTnAAD+ynoku/NubuPp7Lo+Yh/+eJUUeQPdo5bwEjnFTpL0P/nBTxMmzwYeHx4wAAA=",
-        "editorial": false,
-        "studio": false
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAUqLqu/Id4WwAAP7zgdsgENdG24tlvGHkbdeT2kh6HthLSaluYvckuoAA",
+        "editorial": true,
+        "studio": true
       },
-      "editorial": false,
+      "editorial": true,
       "category": "beds",
       "sizes": [
         [
@@ -4011,6 +5300,76 @@
           200,
           200
         ]
+      ],
+      "views": [
+        {
+          "src": "pat-one-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "pat-one-c6"
+        },
+        {
+          "src": "pat-one-studio-2",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "pat-one-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-one-c1",
+          "chip": "/media/pat-one-c1-700.webp",
+          "swatch": "#a0897b",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "pat-one-c2",
+          "chip": "/media/pat-one-c2-700.webp",
+          "swatch": "#37351b",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "pat-one-c3",
+          "chip": "/media/pat-one-c3-700.webp",
+          "swatch": "#32221b",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "pat-one-c4",
+          "chip": "/media/pat-one-c4-700.webp",
+          "swatch": "#17304d",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "pat-one-c5",
+          "chip": "/media/pat-one-c5-700.webp",
+          "swatch": "#b78480",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "pat-one-c6",
+          "chip": "/media/pat-one-c6-700.webp",
+          "swatch": "#82202f",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        }
       ]
     },
     {
@@ -4028,45 +5387,174 @@
       "dimensions": [],
       "images": [
         {
-          "src": "demifotoliu-1",
-          "w": 1536,
-          "h": 1024,
+          "src": "demifotoliu-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQAAUV/PIKTOAAD+8dzcTJ8uzhGD8Pc7ktwQqxRuC5AM7OHjP5vP2NxIdDCQAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
         },
         {
-          "src": "demifotoliu-2",
-          "w": 1024,
-          "h": 1536,
+          "src": "demifotoliu-c2",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUAB4APu1qr1CppaQiqAqpMB2JZQDG9DTjwABpDB7n7LTbmT8ZR50X56AA/u/EKGRraexUvyJFtIA7Y0mqUCRlgSfSc2JGzNuwhJQ/feYkpbDxDtQaSXpxMx7AaVWwgVsUYsIAAAA=",
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDImBjPvpkeOAD+84K1E7Hl877HJyu0wpb1H4JsnBT6L7ZAAA==",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "demifotoliu-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZwAAUz7H1aB40QAA/vHc3EyfLs+reM5T+UWC5ZlJotf7JPn4wz3j+VOk6cU/g+fwAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "demifotoliu-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JYwCw7B6Q3wyCuVQA/vHc3EyfLs4TZiwG0QRyQkijyTo9YbLulkoaFp2/D0vN3YUdRgAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "demifotoliu-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUz7LovGX0AD+8dzcTJ8uz6t4zjaNPcMzcVw8y+2hSD3/kDwcM7UAgAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "demifotoliu-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUqdIRLYeAAD+83t9BcdJ2ERhWdKO8qH5uB2bJMmXvj1yiGQAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "demifotoliu-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAASosR5MnUs/V2AAD+84KBIRybBn9D8fZl0yZW4PXqbKFgY3kUP1bflIw2dratMeg4AAA=",
+          "editorial": false,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/demifotoliu/",
       "cover": {
-        "src": "demifotoliu-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "demifotoliu-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQAAUV/PIKTOAAD+8dzcTJ8uzhGD8Pc7ktwQqxRuC5AM7OHjP5vP2NxIdDCQAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
-      "category": "seating"
+      "category": "seating",
+      "views": [
+        {
+          "src": "demifotoliu-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "demifotoliu-c5"
+        },
+        {
+          "src": "demifotoliu-studio-2",
+          "ro": "Detaliu spătar",
+          "en": "Back detail",
+          "in": "demifotoliu-c5"
+        }
+      ],
+      "variants": [
+        {
+          "src": "demifotoliu-c1",
+          "chip": "/media/demifotoliu-c1-700.webp",
+          "swatch": "#484931",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "demifotoliu-c2",
+          "chip": "/media/demifotoliu-c2-700.webp",
+          "swatch": "#a49589",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "demifotoliu-c3",
+          "chip": "/media/demifotoliu-c3-700.webp",
+          "swatch": "#49372f",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "demifotoliu-c4",
+          "chip": "/media/demifotoliu-c4-700.webp",
+          "swatch": "#07121f",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "demifotoliu-c5",
+          "chip": "/media/demifotoliu-c5-700.webp",
+          "swatch": "#141518",
+          "tone": {
+            "ro": "Antracit",
+            "en": "Charcoal"
+          }
+        }
+      ]
     },
     {
       "id": 6798,
@@ -5187,33 +6675,174 @@
       "dimensions": [],
       "images": [
         {
-          "src": "fotoliu-king-1",
-          "w": 1024,
-          "h": 1024,
+          "src": "fotoliu-king-c1",
+          "w": 2000,
+          "h": 1500,
           "widths": [
+            2000,
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwDE2B6QZ2oKLqwAAP7zgri9/xsFiMnGDc2K3gKiey/AAAA=",
           "editorial": true,
-          "studio": false
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAUVt2w5MfAAD+84CbN8NBAfgiDdv7Dlq+DBILpb/7bofSogBwAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwDA3BivfkSoADPAAP7zgJs3+6HzcNksv/s/bAyA1cSvQXHfNLH4AveAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwDE2B4YLenKyEAA/vOAmzf7lYLby8ZXRFszeFcR3TOCOb2kgp+Iu9/XYEcAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQAAKK3EI3v6joAD+84CbN8LsEeQ6JV7W6u72kQo0YLAPWa942amjbd1Ti/AA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAWlzAIy7NPYAA/vN+/+4TpX/hpGZDqemM8tvDFLyRfX0VCX0wrAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoUAA8APu1kqU4ppaOiMAgBMB2JQAAKVOi4URoeAAD+83+fQWZFFGUacZwo0n/E0wq27W30vZkjn8JdxEIAAA==",
+          "editorial": false,
+          "studio": true
         }
       ],
       "source": "https://mobilasamobi.ro/products/fotoliu-king/",
       "cover": {
-        "src": "fotoliu-king-1",
-        "w": 1024,
-        "h": 1024,
+        "src": "fotoliu-king-c1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwDE2B6QZ2oKLqwAAP7zgri9/xsFiMnGDc2K3gKiey/AAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "editorial": true,
-      "category": "armchairs"
+      "category": "armchairs",
+      "views": [
+        {
+          "src": "fotoliu-king-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "fotoliu-king-c5"
+        },
+        {
+          "src": "fotoliu-king-studio-2",
+          "ro": "Detaliu spătar",
+          "en": "Back detail",
+          "in": "fotoliu-king-c5"
+        }
+      ],
+      "variants": [
+        {
+          "src": "fotoliu-king-c1",
+          "chip": "/media/fotoliu-king-c1-700.webp",
+          "swatch": "#897a6a",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "fotoliu-king-c2",
+          "chip": "/media/fotoliu-king-c2-700.webp",
+          "swatch": "#33341f",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "fotoliu-king-c3",
+          "chip": "/media/fotoliu-king-c3-700.webp",
+          "swatch": "#2e2017",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "fotoliu-king-c4",
+          "chip": "/media/fotoliu-king-c4-700.webp",
+          "swatch": "#133450",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "fotoliu-king-c5",
+          "chip": "/media/fotoliu-king-c5-700.webp",
+          "swatch": "#165149",
+          "tone": {
+            "ro": "Verde smarald",
+            "en": "Emerald"
+          }
+        }
+      ]
     },
     {
       "id": 6791,
@@ -7583,6 +9212,210 @@
       ],
       "category": "sofas",
       "collection": "aldo"
+    },
+    {
+      "id": "valo-fotoliu-king-chester",
+      "slug": "fotoliu-king-chester",
+      "name": "Fotoliu King Chester",
+      "category": "armchairs",
+      "categories": [],
+      "price": 1650,
+      "currency": "RON",
+      "lead": "Aceeași siluetă. Spătarul, capitonat.",
+      "summary": "Aceeași siluetă. Spătarul, capitonat.\n\nFotoliul King Chester păstrează linia fotoliului King — spătar înalt, brațe rotunjite, picioare conice — și înlocuiește spatele simplu cu un capitonaj în romburi. Cusătura prinde lumina altfel la fiecare oră a zilei, așa că piesa citește mai adânc decât o spune conturul ei.",
+      "body": "Aceeași siluetă. Spătarul, capitonat.\n\nFotoliul King Chester păstrează linia fotoliului King — spătar înalt, brațe rotunjite, picioare conice — și înlocuiește spatele simplu cu un capitonaj în romburi. Cusătura prinde lumina altfel la fiecare oră a zilei, așa că piesa citește mai adânc decât o spune conturul ei.\n\nSe așază la fel de firesc în living, în dormitor sau într-un colț de lectură, lângă fotoliul King sau în locul lui.",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "fotoliu-king-chester-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDE2CG6ybm0UngA/vOBdCedbj5PGCpuBsQashy5JFUha2AAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAQvgH6bjQYAD+84H8a8R89o3kNPavPNn91xMwfvk3O+BV44cAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDE2BjbNc3Oj6AA/vOB/GvE2VwR51WVS3s1UbJ7y/Jjm2awprkQdyAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDE2B4YLrwD/rgA/vOC0IRwN5Z0q0C5EHC8lDIKg0NTAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAQvJERQJEsAD+84H/1kjMbnA5vW4agXLpvTBtKgG/jMDXErUDwAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAQvduN+mB8AD+84KEeSihJl4HjVb0+3e0MsL6inAufKiigAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZwAAWlprviPezwAA/vN+/uSeL1VDSMyOrN0o44bo/oB53tXZQOUAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "fotoliu-king-chester-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAUWKJMquTKAAA/vN7fQY80hTa5BYm2aE4c0TkF/LnLp7mbCKMAAA=",
+          "editorial": false,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "fotoliu-king-chester-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDE2CG6ybm0UngA/vOBdCedbj5PGCpuBsQashy5JFUha2AAAA==",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "views": [
+        {
+          "src": "fotoliu-king-chester-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "fotoliu-king-chester-c6"
+        },
+        {
+          "src": "fotoliu-king-chester-studio-2",
+          "ro": "Detaliu spătar",
+          "en": "Back detail",
+          "in": "fotoliu-king-chester-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "fotoliu-king-chester-c1",
+          "chip": "/media/fotoliu-king-chester-c1-700.webp",
+          "swatch": "#82715f",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "fotoliu-king-chester-c2",
+          "chip": "/media/fotoliu-king-chester-c2-700.webp",
+          "swatch": "#1a354c",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "fotoliu-king-chester-c3",
+          "chip": "/media/fotoliu-king-chester-c3-700.webp",
+          "swatch": "#2f2119",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "fotoliu-king-chester-c4",
+          "chip": "/media/fotoliu-king-chester-c4-700.webp",
+          "swatch": "#b2847d",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "fotoliu-king-chester-c5",
+          "chip": "/media/fotoliu-king-chester-c5-700.webp",
+          "swatch": "#301721",
+          "tone": {
+            "ro": "Prună",
+            "en": "Plum"
+          }
+        },
+        {
+          "src": "fotoliu-king-chester-c6",
+          "chip": "/media/fotoliu-king-chester-c6-700.webp",
+          "swatch": "#494e36",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        }
+      ]
     }
   ],
   "hero": [
@@ -7750,58 +9583,62 @@
       "en": "Beds",
       "count": 19,
       "cover": {
-        "src": "pat-matrimonial-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-one-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAA8APu1krU6ppaSiMAgBMB2JZgAAWqFpXYLIrPZllSVYAAD+84F0JpqSjAgnm4xrE/kq/DZjqwZjFA0SNsQp5UluvIEz6ztqKGpUUgAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "header": {
-        "src": "pat-matrimonial-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "pat-one-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA0APu1krU6ppaSiMAgBMB2JZwCo9Bily8EiQu4ZBc0AAP7YRt2swoIBMODDnff3GyukZu9b9duOYuCHumPxwAA=",
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAA8APu1krU6ppaSiMAgBMB2JZgAAWqFpXYLIrPZllSVYAAD+84F0JpqSjAgnm4xrE/kq/DZjqwZjFA0SNsQp5UluvIEz6ztqKGpUUgAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       }
     },
     {
       "id": "armchairs",
       "ro": "Fotolii",
       "en": "Armchairs",
-      "count": 4,
+      "count": 5,
       "cover": {
-        "src": "fotoliu-king-1",
-        "w": 1024,
-        "h": 1024,
+        "src": "fotoliu-king-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAWlzAIy7NPYAA/vN+/+4TpX/hpGZDqemM8tvDFLyRfX0VCX0wrAAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "header": {
-        "src": "fotoliu-king-1",
-        "w": 1024,
-        "h": 1024,
+        "src": "fotoliu-king-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABQAPu1orVCppaQiqAqpMB2JZQCw7BDQJYuQ44gGl0aewzwkIQAA/sM/Glzb1zWF38UTZIf/Ez/H8XjeRaDzfgoWmAGEXcIfLmFYXflIECTgQcYCEFJ2wAA=",
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAWlzAIy7NPYAA/vN+/+4TpX/hpGZDqemM8tvDFLyRfX0VCX0wrAAAAA==",
         "editorial": true,
-        "studio": false
+        "studio": true
       }
     },
     {
@@ -7840,28 +9677,30 @@
       "en": "Seating",
       "count": 1,
       "cover": {
-        "src": "demifotoliu-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "demifotoliu-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUqdIRLYeAAD+83t9BcdJ2ERhWdKO8qH5uB2bJMmXvj1yiGQAAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       },
       "header": {
-        "src": "demifotoliu-1",
-        "w": 1536,
-        "h": 1024,
+        "src": "demifotoliu-studio-1",
+        "w": 2000,
+        "h": 1500,
         "widths": [
+          2000,
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC2yBu0Qu2DchhCQAD+4bwMY6ExRHslcrlmSHqbCmXrqUnSi4/cs3GNg6XoLausGFmcR49pn/EndhYUsGq0q6QAAA==",
+        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUqdIRLYeAAD+83t9BcdJ2ERhWdKO8qH5uB2bJMmXvj1yiGQAAAA=",
         "editorial": true,
-        "studio": false
+        "studio": true
       }
     }
   ],
@@ -7943,7 +9782,7 @@
         "canapea-toro"
       ],
       "cover": {
-        "src": "coltar-torro-studio-1",
+        "src": "coltar-torro-c6",
         "w": 2000,
         "h": 1500,
         "widths": [

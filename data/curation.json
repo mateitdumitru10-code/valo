@@ -126,9 +126,13 @@
       "coltar-sam-studio-3"
     ],
     "coltar-torro": [
-      "coltar-torro-studio-1",
-      "coltar-torro-studio-2",
-      "coltar-torro-studio-3"
+      "coltar-torro-c1",
+      "coltar-torro-c2",
+      "coltar-torro-c3",
+      "coltar-torro-c4",
+      "coltar-torro-c5",
+      "coltar-torro-c6",
+      "coltar-torro-studio-1"
     ],
     "pat-fantezie": [
       "pat-fantezie-c2",
@@ -151,10 +155,15 @@
       "coltar-linear-studio-2"
     ],
     "canapea-toro": [
-      "canapea-torro-studio-1",
-      "canapea-torro-studio-2",
-      "canapea-torro-studio-3",
-      "canapea-torro-studio-4"
+      "canapea-toro-c1",
+      "canapea-toro-c2",
+      "canapea-toro-c3",
+      "canapea-toro-c4",
+      "canapea-toro-c5",
+      "canapea-toro-studio-1",
+      "canapea-toro-studio-2",
+      "canapea-toro-studio-3",
+      "canapea-toro-studio-4"
     ],
     "canapea-sonia-extensibila": [
       "canapea-sonia-extensibila-c1",
@@ -306,6 +315,118 @@
       "pat-sun-c3",
       "pat-sun-studio-2",
       "pat-sun-studio-3"
+    ],
+    "coltar-bela": [
+      "coltar-bela-c1",
+      "coltar-bela-c2",
+      "coltar-bela-c3",
+      "coltar-bela-c4",
+      "coltar-bela-c5",
+      "coltar-bela-c6",
+      "coltar-bela-studio-1",
+      "coltar-bela-studio-2"
+    ],
+    "coltar-eco-2": [
+      "coltar-eco-2-c1",
+      "coltar-eco-2-c2",
+      "coltar-eco-2-c3",
+      "coltar-eco-2-c4",
+      "coltar-eco-2-c5",
+      "coltar-eco-2-c6",
+      "coltar-eco-2-studio-1"
+    ],
+    "coltar-soria": [
+      "coltar-soria-c1",
+      "coltar-soria-c2",
+      "coltar-soria-c3",
+      "coltar-soria-c4",
+      "coltar-soria-c5",
+      "coltar-soria-c6",
+      "coltar-soria-studio-1",
+      "coltar-soria-studio-2"
+    ],
+    "coltar-soria-in-forma-de-u": [
+      "coltar-soria-in-forma-de-u-c1",
+      "coltar-soria-in-forma-de-u-c2",
+      "coltar-soria-in-forma-de-u-c3",
+      "coltar-soria-in-forma-de-u-c4",
+      "coltar-soria-in-forma-de-u-c5",
+      "coltar-soria-in-forma-de-u-c6",
+      "coltar-soria-in-forma-de-u-c7",
+      "coltar-soria-in-forma-de-u-studio-1",
+      "coltar-soria-in-forma-de-u-studio-2"
+    ],
+    "demifotoliu": [
+      "demifotoliu-c1",
+      "demifotoliu-c2",
+      "demifotoliu-c3",
+      "demifotoliu-c4",
+      "demifotoliu-c5",
+      "demifotoliu-studio-1",
+      "demifotoliu-studio-2"
+    ],
+    "fotoliu-king": [
+      "fotoliu-king-c1",
+      "fotoliu-king-c2",
+      "fotoliu-king-c3",
+      "fotoliu-king-c4",
+      "fotoliu-king-c5",
+      "fotoliu-king-studio-1",
+      "fotoliu-king-studio-2"
+    ],
+    "fotoliu-king-chester": [
+      "fotoliu-king-chester-c1",
+      "fotoliu-king-chester-c2",
+      "fotoliu-king-chester-c3",
+      "fotoliu-king-chester-c4",
+      "fotoliu-king-chester-c5",
+      "fotoliu-king-chester-c6",
+      "fotoliu-king-chester-studio-1",
+      "fotoliu-king-chester-studio-2"
+    ],
+    "pat-colt": [
+      "pat-colt-c1",
+      "pat-colt-c2",
+      "pat-colt-c3",
+      "pat-colt-c4",
+      "pat-colt-c5",
+      "pat-colt-studio-1",
+      "pat-colt-studio-2"
+    ],
+    "pat-matrimonial": [
+      "pat-matrimonial-c1",
+      "pat-matrimonial-c2",
+      "pat-matrimonial-c3",
+      "pat-matrimonial-c4",
+      "pat-matrimonial-c5",
+      "pat-matrimonial-studio-1",
+      "pat-matrimonial-studio-2"
+    ],
+    "pat-one": [
+      "pat-one-c1",
+      "pat-one-c2",
+      "pat-one-c3",
+      "pat-one-c4",
+      "pat-one-c5",
+      "pat-one-c6",
+      "pat-one-studio-1",
+      "pat-one-studio-2"
+    ],
+    "pat-paul": [
+      "pat-paul-c1",
+      "pat-paul-c2",
+      "pat-paul-c3",
+      "pat-paul-c4",
+      "pat-paul-c5",
+      "pat-paul-c6",
+      "pat-paul-c7",
+      "pat-paul-studio-1",
+      "pat-paul-studio-2"
+    ],
+    "pat-happy": [
+      "pat-happy-c1",
+      "pat-happy-studio-1",
+      "pat-happy-studio-2"
     ]
   },
   "products": {
@@ -439,6 +560,14 @@
     },
     "fotoliu-king": {
       "name": "Fotoliu King"
+    },
+    "fotoliu-king-chester": {
+      "name": "Fotoliu King Chester",
+      "price": 1650,
+      "category": "armchairs",
+      "lead": "Aceeași siluetă. Spătarul, capitonat.",
+      "summary": "Aceeași siluetă. Spătarul, capitonat.\n\nFotoliul King Chester păstrează linia fotoliului King — spătar înalt, brațe rotunjite, picioare conice — și înlocuiește spatele simplu cu un capitonaj în romburi. Cusătura prinde lumina altfel la fiecare oră a zilei, așa că piesa citește mai adânc decât o spune conturul ei.",
+      "body": "Aceeași siluetă. Spătarul, capitonat.\n\nFotoliul King Chester păstrează linia fotoliului King — spătar înalt, brațe rotunjite, picioare conice — și înlocuiește spatele simplu cu un capitonaj în romburi. Cusătura prinde lumina altfel la fiecare oră a zilei, așa că piesa citește mai adânc decât o spune conturul ei.\n\nSe așază la fel de firesc în living, în dormitor sau într-un colț de lectură, lângă fotoliul King sau în locul lui."
     },
     "pat-panouri-dreptunghiulare": {
       "name": "Pat panouri dreptunghiulare"
@@ -1399,6 +1528,411 @@
         "ro": "Ciocolată",
         "en": "Chocolate"
       }
+    ],
+    "coltar-bela": [
+      {
+        "src": "coltar-bela-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-bela-c2",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "coltar-bela-c3",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-bela-c4",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-bela-c5",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "coltar-bela-c6",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      }
+    ],
+    "coltar-eco-2": [
+      {
+        "src": "coltar-eco-2-c1",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "coltar-eco-2-c2",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "coltar-eco-2-c3",
+        "ro": "Greige",
+        "en": "Greige"
+      },
+      {
+        "src": "coltar-eco-2-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-eco-2-c5",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-eco-2-c6",
+        "ro": "Verde oliv, perne crem",
+        "en": "Olive, cream cushions"
+      }
+    ],
+    "coltar-soria": [
+      {
+        "src": "coltar-soria-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-soria-c2",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "coltar-soria-c3",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "coltar-soria-c4",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "coltar-soria-c5",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-soria-c6",
+        "ro": "Bej cu perne verde oliv",
+        "en": "Beige with olive cushions"
+      }
+    ],
+    "coltar-soria-in-forma-de-u": [
+      {
+        "src": "coltar-soria-in-forma-de-u-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c2",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c4",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c5",
+        "ro": "Teracotă",
+        "en": "Terracotta"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c6",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-c7",
+        "ro": "Muștar",
+        "en": "Mustard"
+      }
+    ],
+    "coltar-torro": [
+      {
+        "src": "coltar-torro-c1",
+        "ro": "Bej",
+        "en": "Beige"
+      },
+      {
+        "src": "coltar-torro-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "coltar-torro-c3",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "coltar-torro-c4",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "coltar-torro-c5",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "coltar-torro-c6",
+        "ro": "Camel",
+        "en": "Camel"
+      }
+    ],
+    "canapea-toro": [
+      {
+        "src": "canapea-toro-c1",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "canapea-toro-c2",
+        "ro": "Gri deschis",
+        "en": "Light grey"
+      },
+      {
+        "src": "canapea-toro-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "canapea-toro-c4",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "canapea-toro-c5",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      }
+    ],
+    "demifotoliu": [
+      {
+        "src": "demifotoliu-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "demifotoliu-c2",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "demifotoliu-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "demifotoliu-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "demifotoliu-c5",
+        "ro": "Antracit",
+        "en": "Charcoal"
+      }
+    ],
+    "fotoliu-king": [
+      {
+        "src": "fotoliu-king-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "fotoliu-king-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "fotoliu-king-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "fotoliu-king-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "fotoliu-king-c5",
+        "ro": "Verde smarald",
+        "en": "Emerald"
+      }
+    ],
+    "fotoliu-king-chester": [
+      {
+        "src": "fotoliu-king-chester-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "fotoliu-king-chester-c2",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "fotoliu-king-chester-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "fotoliu-king-chester-c4",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "fotoliu-king-chester-c5",
+        "ro": "Prună",
+        "en": "Plum"
+      },
+      {
+        "src": "fotoliu-king-chester-c6",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      }
+    ],
+    "pat-colt": [
+      {
+        "src": "pat-colt-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-colt-c2",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-colt-c3",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      },
+      {
+        "src": "pat-colt-c4",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-colt-c5",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      }
+    ],
+    "pat-matrimonial": [
+      {
+        "src": "pat-matrimonial-c1",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-matrimonial-c2",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-matrimonial-c3",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-matrimonial-c4",
+        "ro": "Greige",
+        "en": "Greige",
+        "swatch": "#938883"
+      },
+      {
+        "src": "pat-matrimonial-c5",
+        "ro": "Bej",
+        "en": "Beige",
+        "swatch": "#a08d7f"
+      }
+    ],
+    "pat-one": [
+      {
+        "src": "pat-one-c1",
+        "ro": "Taupe",
+        "en": "Taupe"
+      },
+      {
+        "src": "pat-one-c2",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-one-c3",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-one-c4",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-one-c5",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose"
+      },
+      {
+        "src": "pat-one-c6",
+        "ro": "Bordo",
+        "en": "Burgundy"
+      }
+    ],
+    "pat-paul": [
+      {
+        "src": "pat-paul-c1",
+        "ro": "Ciocolată",
+        "en": "Chocolate"
+      },
+      {
+        "src": "pat-paul-c2",
+        "ro": "Bleumarin",
+        "en": "Navy"
+      },
+      {
+        "src": "pat-paul-c3",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
+        "src": "pat-paul-c4",
+        "ro": "Camel",
+        "en": "Camel"
+      },
+      {
+        "src": "pat-paul-c5",
+        "ro": "Roz prăfuit",
+        "en": "Dusty rose",
+        "swatch": "#a28683"
+      },
+      {
+        "src": "pat-paul-c6",
+        "ro": "Muștar",
+        "en": "Mustard"
+      },
+      {
+        "src": "pat-paul-c7",
+        "ro": "Gri deschis",
+        "en": "Light grey",
+        "swatch": "#97969b"
+      }
     ]
   },
   "views": {
@@ -1797,15 +2331,209 @@
         "en": "Opened as a bed",
         "in": "modul-aldo-c2"
       }
+    ],
+    "coltar-bela": [
+      {
+        "src": "coltar-bela-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "coltar-bela-c6"
+      },
+      {
+        "src": "coltar-bela-studio-2",
+        "ro": "Profil",
+        "en": "Profile",
+        "in": "coltar-bela-c6"
+      }
+    ],
+    "coltar-eco-2": [
+      {
+        "src": "coltar-eco-2-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "coltar-eco-2-c6"
+      }
+    ],
+    "coltar-soria": [
+      {
+        "src": "coltar-soria-studio-1",
+        "ro": "Deschis, pat",
+        "en": "Opened as a bed",
+        "in": "coltar-soria-c5"
+      },
+      {
+        "src": "coltar-soria-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "coltar-soria-c6"
+      }
+    ],
+    "coltar-soria-in-forma-de-u": [
+      {
+        "src": "coltar-soria-in-forma-de-u-studio-1",
+        "ro": "Deschis, pat",
+        "en": "Opened as a bed",
+        "in": "coltar-soria-in-forma-de-u-c7"
+      },
+      {
+        "src": "coltar-soria-in-forma-de-u-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "coltar-soria-in-forma-de-u-c7"
+      }
+    ],
+    "coltar-torro": [
+      {
+        "src": "coltar-torro-studio-1",
+        "ro": "Deschis, pat",
+        "en": "Opened as a bed",
+        "in": "coltar-torro-c6"
+      }
+    ],
+    "canapea-toro": [
+      {
+        "src": "canapea-toro-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "canapea-toro-c5"
+      },
+      {
+        "src": "canapea-toro-studio-2",
+        "ro": "Profil",
+        "en": "Profile",
+        "in": "canapea-toro-c5"
+      },
+      {
+        "src": "canapea-toro-studio-3",
+        "ro": "Deschisă, pat",
+        "en": "Opened as a bed",
+        "in": "canapea-toro-c5"
+      },
+      {
+        "src": "canapea-toro-studio-4",
+        "ro": "Deschisă, trei sferturi",
+        "en": "Opened, three-quarter",
+        "in": "canapea-toro-c5"
+      }
+    ],
+    "demifotoliu": [
+      {
+        "src": "demifotoliu-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "demifotoliu-c5"
+      },
+      {
+        "src": "demifotoliu-studio-2",
+        "ro": "Detaliu spătar",
+        "en": "Back detail",
+        "in": "demifotoliu-c5"
+      }
+    ],
+    "fotoliu-king": [
+      {
+        "src": "fotoliu-king-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "fotoliu-king-c5"
+      },
+      {
+        "src": "fotoliu-king-studio-2",
+        "ro": "Detaliu spătar",
+        "en": "Back detail",
+        "in": "fotoliu-king-c5"
+      }
+    ],
+    "fotoliu-king-chester": [
+      {
+        "src": "fotoliu-king-chester-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "fotoliu-king-chester-c6"
+      },
+      {
+        "src": "fotoliu-king-chester-studio-2",
+        "ro": "Detaliu spătar",
+        "en": "Back detail",
+        "in": "fotoliu-king-chester-c6"
+      }
+    ],
+    "pat-colt": [
+      {
+        "src": "pat-colt-studio-1",
+        "ro": "Din față",
+        "en": "Front",
+        "in": "pat-colt-c5"
+      },
+      {
+        "src": "pat-colt-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "pat-colt-c5"
+      }
+    ],
+    "pat-matrimonial": [
+      {
+        "src": "pat-matrimonial-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-matrimonial-c5"
+      },
+      {
+        "src": "pat-matrimonial-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "pat-matrimonial-c5"
+      }
+    ],
+    "pat-one": [
+      {
+        "src": "pat-one-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-one-c6"
+      },
+      {
+        "src": "pat-one-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box",
+        "in": "pat-one-c6"
+      }
+    ],
+    "pat-paul": [
+      {
+        "src": "pat-paul-studio-1",
+        "ro": "Profil",
+        "en": "Profile",
+        "in": "pat-paul-c7"
+      },
+      {
+        "src": "pat-paul-studio-2",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter",
+        "in": "pat-paul-c7"
+      }
+    ],
+    "pat-happy": [
+      {
+        "src": "pat-happy-studio-1",
+        "ro": "Trei sferturi",
+        "en": "Three-quarter"
+      },
+      {
+        "src": "pat-happy-studio-2",
+        "ro": "Ladă de depozitare",
+        "en": "Storage box"
+      }
     ]
   },
   "covers": {
     "sectionals": "coltar-sam-1",
     "sofas": "canapea-ela-1",
-    "beds": "pat-matrimonial-1",
-    "armchairs": "fotoliu-king-1",
+    "beds": "pat-one-studio-1",
+    "armchairs": "fotoliu-king-studio-1",
     "hallway": "hol-chesterfield-1",
-    "seating": "demifotoliu-1"
+    "seating": "demifotoliu-studio-1"
   },
   "headers": {
     "_note": "Full-bleed image at the top of a collection page. Falls back to `covers` when a collection has no entry here — split out because a studio cut-out can work as a small cover and still be wrong behind a headline."
@@ -2119,7 +2847,107 @@
     "pat-fantezie-studio-5",
     "canapea-spring-studio-5",
     "canapea-spring-studio-6",
-    "canapea-spring-studio-7"
+    "canapea-spring-studio-7",
+    "coltar-bela-c1",
+    "coltar-bela-c2",
+    "coltar-bela-c3",
+    "coltar-bela-c4",
+    "coltar-bela-c5",
+    "coltar-bela-c6",
+    "coltar-bela-studio-1",
+    "coltar-bela-studio-2",
+    "coltar-eco-2-c1",
+    "coltar-eco-2-c2",
+    "coltar-eco-2-c3",
+    "coltar-eco-2-c4",
+    "coltar-eco-2-c5",
+    "coltar-eco-2-c6",
+    "coltar-eco-2-studio-1",
+    "coltar-soria-c1",
+    "coltar-soria-c2",
+    "coltar-soria-c3",
+    "coltar-soria-c4",
+    "coltar-soria-c5",
+    "coltar-soria-c6",
+    "coltar-soria-studio-1",
+    "coltar-soria-studio-2",
+    "coltar-soria-in-forma-de-u-c1",
+    "coltar-soria-in-forma-de-u-c2",
+    "coltar-soria-in-forma-de-u-c3",
+    "coltar-soria-in-forma-de-u-c4",
+    "coltar-soria-in-forma-de-u-c5",
+    "coltar-soria-in-forma-de-u-c6",
+    "coltar-soria-in-forma-de-u-c7",
+    "coltar-soria-in-forma-de-u-studio-1",
+    "coltar-soria-in-forma-de-u-studio-2",
+    "coltar-torro-c1",
+    "coltar-torro-c2",
+    "coltar-torro-c3",
+    "coltar-torro-c4",
+    "coltar-torro-c5",
+    "coltar-torro-c6",
+    "canapea-toro-c1",
+    "canapea-toro-c2",
+    "canapea-toro-c3",
+    "canapea-toro-c4",
+    "canapea-toro-c5",
+    "canapea-toro-studio-1",
+    "canapea-toro-studio-2",
+    "canapea-toro-studio-3",
+    "canapea-toro-studio-4",
+    "demifotoliu-c1",
+    "demifotoliu-c2",
+    "demifotoliu-c3",
+    "demifotoliu-c4",
+    "demifotoliu-c5",
+    "demifotoliu-studio-1",
+    "fotoliu-king-c1",
+    "fotoliu-king-c2",
+    "fotoliu-king-c3",
+    "fotoliu-king-c4",
+    "fotoliu-king-c5",
+    "fotoliu-king-studio-1",
+    "fotoliu-king-chester-c1",
+    "fotoliu-king-chester-c2",
+    "fotoliu-king-chester-c3",
+    "fotoliu-king-chester-c4",
+    "fotoliu-king-chester-c5",
+    "fotoliu-king-chester-c6",
+    "fotoliu-king-chester-studio-1",
+    "pat-colt-c1",
+    "pat-colt-c2",
+    "pat-colt-c3",
+    "pat-colt-c4",
+    "pat-colt-c5",
+    "pat-colt-studio-1",
+    "pat-colt-studio-2",
+    "pat-matrimonial-c1",
+    "pat-matrimonial-c2",
+    "pat-matrimonial-c3",
+    "pat-matrimonial-c4",
+    "pat-matrimonial-c5",
+    "pat-matrimonial-studio-1",
+    "pat-matrimonial-studio-2",
+    "pat-one-c1",
+    "pat-one-c2",
+    "pat-one-c3",
+    "pat-one-c4",
+    "pat-one-c5",
+    "pat-one-c6",
+    "pat-one-studio-1",
+    "pat-one-studio-2",
+    "pat-paul-c1",
+    "pat-paul-c2",
+    "pat-paul-c3",
+    "pat-paul-c4",
+    "pat-paul-c5",
+    "pat-paul-c6",
+    "pat-paul-c7",
+    "pat-paul-studio-1",
+    "pat-paul-studio-2",
+    "pat-happy-c1",
+    "pat-happy-studio-1",
+    "pat-happy-studio-2"
   ],
   "collections": {
     "_note": "Named ranges — one design carried across several kinds of piece. Membership is listed rather than matched on the name: a rename then never moves a piece silently, and a near-miss like Coltar Bela never joins Bella. `cover` is optional and falls back to the first piece listed.",
@@ -2151,7 +2979,7 @@
       ]
     },
     "torro": {
-      "cover": "coltar-torro-studio-1",
+      "cover": "coltar-torro-c6",
       "pieces": [
         "coltar-torro",
         "canapea-toro"
