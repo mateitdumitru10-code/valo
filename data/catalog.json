@@ -3553,77 +3553,6 @@
       "priceFrom": true
     },
     {
-      "id": 225,
-      "slug": "canapea-sorina",
-      "name": "Canapea Sorina",
-      "collections": [
-        "Canapele",
-        "Colecția Dormitor",
-        "Colecția Living",
-        "Mobilier pentru birou",
-        "Mobilier pentru dormitor",
-        "Mobilier pentru living"
-      ],
-      "price": 2499,
-      "currency": "RON",
-      "lead": "Canapeaua extensibilă Sorina îmbină designul modern cu funcționalitatea.",
-      "summary": "Canapeaua extensibilă Sorina îmbină designul modern cu funcționalitatea. Dispune de extensie generoasă și ladă de depozitare, fiind ideală atât pentru relaxare, cât și pentru dormit. Construită pe o structură rezistentă din lemn de fag, MDF și PAL, oferă confort și durabilitate în utilizare zilnică.",
-      "body": "Canapea extensibilă Sorina – Confort și Funcționalitate pentru Living\n\nCanapeaua extensibilă Sorina este alegerea ideală pentru cei care își doresc un living primitor, în care confortul se îmbină perfect cu funcționalitatea. Cu un design simplu și elegant, această canapea se integrează ușor în orice decor, oferind un spațiu plăcut pentru relaxare zilnică sau pentru momente petrecute alături de familie și prieteni.\n\nDatorită funcției de extensie generoase, canapeaua se transformă rapid într-un spațiu confortabil pentru dormit, iar lada de depozitare integrată oferă loc practic pentru lenjerii, pături sau alte obiecte utile.\n\nStructura rezistentă realizată din lemn de fag, MDF și PAL, împreună cu plasa de arcuri cu nervură și spuma poliuretanică de diferite densități, asigură durabilitate și un șezut confortabil. Pernele de spătar umplute cu vată siliconată oferă susținere plăcută și o experiență relaxantă la fiecare utilizare.\n\nCanapeaua Sorina este disponibilă din stoc sau la comandă în showroom, putând fi realizată și în alte culori și dimensiuni, pentru a se potrivi perfect stilului și spațiului locuinței tale.\n\nDimensiuni\n\n• \nCanapea: 2260 mm x 1050 mm\n\n• \nDimensiune extensie: 1900 mm x 1500 mm",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "canapea-sorina-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUABU7DviXhqD1+gA/usZaxk2aAJTcGMdg76wxdLIE5tWiqKbvjv/oMwTOZvmMDQr+iUR9c8AAAA=",
-          "editorial": true,
-          "studio": false
-        },
-        {
-          "src": "canapea-sorina-2",
-          "w": 884,
-          "h": 552,
-          "widths": [
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoUAAwAPu1kqU2ppaQiMAgBMB2JZACADCcgdGw2PWEddI/iAAD+8Cbwv9FLH7EK1Q+qt4kis+rWv4geLlhMMwLAAAA=",
-          "editorial": false,
-          "studio": false
-        },
-        {
-          "src": "canapea-sorina-3",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBYdgz8DVgWQ5+AAAPgKsD0fBSQpiYB0/51jn6mP+IcO6gZooUBYH4ZnAqqsQJEAAA==",
-          "editorial": false,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/canapea-sorina/",
-      "cover": {
-        "src": "canapea-sorina-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBOmUABU7DviXhqD1+gA/usZaxk2aAJTcGMdg76wxdLIE5tWiqKbvjv/oMwTOZvmMDQr+iUR9c8AAAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "sofas"
-    },
-    {
       "id": 7022,
       "slug": "pat-paul",
       "name": "Pat Paul",
@@ -6673,228 +6602,6 @@
       "priceFrom": true
     },
     {
-      "id": 6760,
-      "slug": "pat-panouri-verticale",
-      "name": "Pat panouri verticale",
-      "collections": [
-        "Colecția Dormitor",
-        "Mobilier pentru dormitor",
-        "Paturi"
-      ],
-      "price": 2799,
-      "currency": "RON",
-      "lead": "Patul cu Panouri Verticale oferă un design modern și elegant, fiind ideal pentru un dormitor matrimonial confortabil, compatibil cu saltea de 200 × 160 cm.",
-      "summary": "Patul cu Panouri Verticale oferă un design modern și elegant, fiind ideal pentru un dormitor matrimonial confortabil, compatibil cu saltea de 200 × 160 cm.",
-      "body": "Pat Panouri Verticale impresionează prin designul modern și elegant al tăbliei cu panouri verticale, oferind un aspect rafinat dormitorului și confort optim pentru un somn odihnitor. Dimensiunile exterioare ale patului sunt 220 × 170 cm, fiind compatibil cu o saltea de 200 × 160 cm, ideală pentru un dormitor matrimonial confortabil și stilat.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "pat-panouri-verticale-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoADgeSJGAcgA4m+AP7Keh53RvlKlHwGTEws8EV26UjjhDxnjfMK5w1M9lGJlc3nn4XgAA==",
-          "editorial": true,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/pat-panouri-verticale/",
-      "cover": {
-        "src": "pat-panouri-verticale-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoADgeSJGAcgA4m+AP7Keh53RvlKlHwGTEws8EV26UjjhDxnjfMK5w1M9lGJlc3nn4XgAA==",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "beds",
-      "options": {
-        "kind": "size",
-        "items": [
-          {
-            "ro": "140 × 200",
-            "en": "140 × 200",
-            "measure": 140,
-            "price": null
-          },
-          {
-            "ro": "160 × 200",
-            "en": "160 × 200",
-            "measure": 160,
-            "price": null
-          },
-          {
-            "ro": "180 × 200",
-            "en": "180 × 200",
-            "measure": 180,
-            "price": null
-          },
-          {
-            "ro": "200 × 200",
-            "en": "200 × 200",
-            "measure": 200,
-            "price": null
-          }
-        ]
-      }
-    },
-    {
-      "id": 6766,
-      "slug": "paturi-dan",
-      "name": "Paturi Dan",
-      "collections": [
-        "Colecția Dormitor",
-        "Mobilier pentru dormitor",
-        "Paturi"
-      ],
-      "price": 2199,
-      "currency": "RON",
-      "lead": "Pat Dan este un pat modern cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru economisirea spațiului în dormitor.",
-      "summary": "Pat Dan este un pat modern cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru economisirea spațiului în dormitor.",
-      "body": "Pat Dan este un pat modern și practic, conceput pentru a oferi confort și funcționalitate în dormitor. Designul elegant al tăbliei tapițate se îmbină perfect cu lada de depozitare spațioasă, accesibilă prin sistemul de culisare al saltelei sus-jos, ideal pentru depozitarea lenjeriilor sau a altor obiecte necesare. Patul Dan aduce un plus de stil și organizare, devenind o piesă centrală în orice dormitor.\n\nDimensiuni pat: 220 x 165 cm\n\nDimeniuni Saltea; 200 x 160",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "paturi-dan-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JaQC+SB6u8K8dZr1VnAD+ynokufBWrGw25Nhfv5E3ueqKoStCvfdCl/O1jDHq7QpgAAAA",
-          "editorial": true,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/paturi-dan/",
-      "cover": {
-        "src": "paturi-dan-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JaQC+SB6u8K8dZr1VnAD+ynokufBWrGw25Nhfv5E3ueqKoStCvfdCl/O1jDHq7QpgAAAA",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "beds",
-      "options": {
-        "kind": "size",
-        "items": [
-          {
-            "ro": "140 × 200",
-            "en": "140 × 200",
-            "measure": 140,
-            "price": null
-          },
-          {
-            "ro": "160 × 200",
-            "en": "160 × 200",
-            "measure": 160,
-            "price": null
-          },
-          {
-            "ro": "180 × 200",
-            "en": "180 × 200",
-            "measure": 180,
-            "price": null
-          },
-          {
-            "ro": "200 × 200",
-            "en": "200 × 200",
-            "measure": 200,
-            "price": null
-          }
-        ]
-      }
-    },
-    {
-      "id": 6764,
-      "slug": "paturi-dormitor-david",
-      "name": "Paturi dormitor David",
-      "collections": [
-        "Colecția Dormitor",
-        "Mobilier pentru dormitor",
-        "Paturi"
-      ],
-      "price": 2099,
-      "currency": "RON",
-      "lead": "Pat David este un pat modern pentru dormitor, prevăzut cu sistem de culisare a saltelei pentru acces la lada de depozitare, ideal pentru economisirea spațiului.",
-      "summary": "Pat David este un pat modern pentru dormitor, prevăzut cu sistem de culisare a saltelei pentru acces la lada de depozitare, ideal pentru economisirea spațiului.",
-      "body": "Pat dormitor David este un pat modern și practic, conceput pentru confort și organizarea eficientă a spațiului. Tăblia tapițată oferă un aspect elegant, iar sistemul inteligent permite culisarea saltelei sus-jos pentru acces rapid la lada de depozitare, ideală pentru lenjerii sau alte obiecte. Robust și funcțional, patul David este alegerea perfectă pentru un dormitor confortabil și bine organizat.\n\n• Saltea Incorporata\n\n• Dimensiuni: 210 x 160 cm\n\n• Dimensiuni saltea; 200 x 160",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "paturi-dormitor-david-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwDE2BwrLb5Ev98Ko4AA/sp6IsrPaK7iIMwIbrezTgjT2Pl42fCHVwRAzMhD4rBrIzJS/I9+AAAA",
-          "editorial": true,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/paturi-dormitor-david/",
-      "cover": {
-        "src": "paturi-dormitor-david-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwDE2BwrLb5Ev98Ko4AA/sp6IsrPaK7iIMwIbrezTgjT2Pl42fCHVwRAzMhD4rBrIzJS/I9+AAAA",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "beds",
-      "options": {
-        "kind": "size",
-        "items": [
-          {
-            "ro": "140 × 200",
-            "en": "140 × 200",
-            "measure": 140,
-            "price": null
-          },
-          {
-            "ro": "160 × 200",
-            "en": "160 × 200",
-            "measure": 160,
-            "price": null
-          },
-          {
-            "ro": "180 × 200",
-            "en": "180 × 200",
-            "measure": 180,
-            "price": null
-          },
-          {
-            "ro": "200 × 200",
-            "en": "200 × 200",
-            "measure": 200,
-            "price": null
-          }
-        ]
-      }
-    },
-    {
       "id": 275,
       "slug": "fotoliu-king",
       "name": "Fotoliu King",
@@ -7078,93 +6785,6 @@
           }
         }
       ]
-    },
-    {
-      "id": 6791,
-      "slug": "fotoliu-corina",
-      "name": "Fotoliu Corina",
-      "collections": [
-        "Fotolii"
-      ],
-      "price": 1049,
-      "currency": "RON",
-      "lead": "",
-      "summary": "Exterior: 94 x 90 cm\n\nSezut: 60 x 70 cm",
-      "body": "Exterior: 94 x 90 cm\n\nSezut: 60 x 70 cm",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "fotoliu-corina-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZwC7AB0mIntgvRXwQS0sfAAA/gqxrayM+UoKrw8/HqbtA35jTcieNl4s8NfAl+vuRGkAAAA=",
-          "editorial": false,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/fotoliu-corina/",
-      "cover": {
-        "src": "fotoliu-corina-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwBACdASoUAA0APu1kqU2ppaQiMAgBMB2JZwC7AB0mIntgvRXwQS0sfAAA/gqxrayM+UoKrw8/HqbtA35jTcieNl4s8NfAl+vuRGkAAAA=",
-        "editorial": false,
-        "studio": false
-      },
-      "editorial": false,
-      "category": "armchairs"
-    },
-    {
-      "id": 6785,
-      "slug": "scaun-heatar",
-      "name": "Scaun Heatar",
-      "collections": [
-        "Fotolii",
-        "Scaune"
-      ],
-      "price": 750,
-      "currency": "RON",
-      "lead": "",
-      "summary": "Scaun Heatar",
-      "body": "Scaun Heatar",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "scaun-heatar-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAAuHT+65AAD+bK6Irebz+Zg6IwAZ5t2EUF7yOQLAxAPI5et6PIl2/6s/gAA=",
-          "editorial": true,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/scaun-heatar/",
-      "cover": {
-        "src": "scaun-heatar-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQCdAAuHT+65AAD+bK6Irebz+Zg6IwAZ5t2EUF7yOQLAxAPI5et6PIl2/6s/gAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "armchairs"
     },
     {
       "id": "valo-canapea-cubiq",
@@ -9858,7 +9478,7 @@
       "id": "sofas",
       "ro": "Canapele",
       "en": "Sofas",
-      "count": 12,
+      "count": 11,
       "cover": {
         "src": "canapea-ela-1",
         "w": 1536,
@@ -9888,7 +9508,7 @@
       "id": "beds",
       "ro": "Paturi",
       "en": "Beds",
-      "count": 19,
+      "count": 16,
       "cover": {
         "src": "pat-one-studio-1",
         "w": 2000,
@@ -9920,7 +9540,7 @@
       "id": "armchairs",
       "ro": "Fotolii",
       "en": "Armchairs",
-      "count": 5,
+      "count": 3,
       "cover": {
         "src": "fotoliu-king-studio-1",
         "w": 2000,

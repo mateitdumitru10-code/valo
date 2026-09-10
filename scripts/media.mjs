@@ -391,8 +391,9 @@ catalog.collections = Object.entries(curation.collections ?? {})
   // A range whose pieces have all been dropped would render as an empty page.
   .filter((c) => c.count > 0)
 
-await emit(catalog, ROOT)
+const { pruned } = await emit(catalog, ROOT)
 
 console.log(
-  `media: ${meta.size} images, ${rendered} renditions written, ${catalog.hero.length} hero frames`,
+  `media: ${meta.size} images, ${rendered} renditions written, ${catalog.hero.length} hero frames` +
+    (pruned ? `, ${pruned} dropped pieces pruned` : ''),
 )

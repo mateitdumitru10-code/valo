@@ -14,7 +14,7 @@
  *
  * Every script that touches the catalogue calls this, so the two never drift.
  */
-import { writeFile, mkdir } from 'node:fs/promises'
+import { writeFile, mkdir, readdir, rm } from 'node:fs/promises'
 import { join } from 'node:path'
 
 export async function emit(catalog, root) {
@@ -64,5 +64,20 @@ export async function emit(catalog, root) {
     )
   }
 
-  return { pieces: catalog.products.length, indexBytes: JSON.stringify(index).length }
+  // A piece dropped from the catalogue leaves its detail file behind, and the
+  // file is what the browser fetches — so until it goes, excluding a piece only
+  // takes it out of the listings and leaves the page itself reachable by URL.
+  const live = new Set(catalog.products.map((p) => `${p.slug}.json`))
+  let pruned = 0
+  for (const file of await readdir(detail)) {
+    if (!file.endsWith('.json') || live.has(file)) continue
+    await rm(join(detail, file))
+    pruned++
+  }
+
+  return {
+    pieces: catalog.products.length,
+    pruned,
+    indexBytes: JSON.stringify(index).length,
+  }
 }
