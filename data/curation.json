@@ -433,7 +433,7 @@
     "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue, and corrections to pieces that do exist — a name here overrides the one the API returns. media.mjs applies both. `category` is the kind of piece; the range it belongs to is set in `collections` below. Price is null until Samobi supplies one; the app then omits it. `lead`, `summary` and `body` override the scraped Samobi prose with the client's own copy, and sit here rather than in the generated piece files so that re-ingesting never undoes them. The first paragraph of `body` is never rendered — Piece.tsx reads it only as a fallback lead — so it repeats the lead by convention and the prose proper starts at the second.",
     "canapea-cubiq": {
       "name": "Canapea Cubiq",
-      "price": null,
+      "price": 5300,
       "category": "sofas",
       "lead": "Simplă în formă. Generoasă în confort.",
       "summary": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
@@ -454,17 +454,17 @@
     },
     "coltar-vallo": {
       "name": "Colțar Vallo",
-      "price": null,
+      "price": 5500,
       "category": "sectionals"
     },
     "coltar-zeno": {
       "name": "Colțar Zeno",
-      "price": null,
+      "price": 8200,
       "category": "sectionals"
     },
     "coltar-linear": {
       "name": "Colțar Linear",
-      "price": null,
+      "price": 5500,
       "category": "sectionals"
     },
     "pat-fantezie": {
@@ -474,10 +474,12 @@
       "name": "Canapea Torro",
       "lead": "Confort ajustabil. Susținere precisă. Design contemporan.",
       "summary": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare.",
-      "body": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare."
+      "body": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare.",
+      "price": 4400
     },
     "canapea-sonia-extensibila": {
-      "name": "Canapea Sonia extensibilă"
+      "name": "Canapea Sonia extensibilă",
+      "price": 3800
     },
     "pat-linear": {
       "name": "Pat Linear",
@@ -493,11 +495,12 @@
       "name": "Canapea Soria extensibilă",
       "lead": "Confort autentic. Funcționalitate discretă. Design cu personalitate.",
       "summary": "Confort autentic. Funcționalitate discretă. Design cu personalitate.\n\nEleganță discretă și confort construit pentru fiecare zi. Șezutul cu arcuri sinusoidale oferă o susținere plăcută și un confort de durată, iar extensia transformă canapeaua într-un spațiu generos de relaxare. Lada de depozitare completează funcționalitatea, păstrând designul curat al piesei.",
-      "body": "Confort autentic. Funcționalitate discretă. Design cu personalitate.\n\nEleganță discretă și confort construit pentru fiecare zi. Șezutul cu arcuri sinusoidale oferă o susținere plăcută și un confort de durată, iar extensia transformă canapeaua într-un spațiu generos de relaxare. Lada de depozitare completează funcționalitatea, păstrând designul curat al piesei."
+      "body": "Confort autentic. Funcționalitate discretă. Design cu personalitate.\n\nEleganță discretă și confort construit pentru fiecare zi. Șezutul cu arcuri sinusoidale oferă o susținere plăcută și un confort de durată, iar extensia transformă canapeaua într-un spațiu generos de relaxare. Lada de depozitare completează funcționalitatea, păstrând designul curat al piesei.",
+      "price": 3800
     },
     "modul-aldo": {
       "name": "Modul Aldo",
-      "price": null,
+      "price": 3000,
       "category": "sofas",
       "lead": "Compact ca dimensiune. Generos în confort.",
       "summary": "Compact ca dimensiune. Generos în confort.\n\nCreat pentru spații în care fiecare centimetru contează, fără să faci compromisuri la confort sau design. Dimensiunea compactă și lipsa brațelor îi oferă flexibilitate, iar pernele laterale adaugă susținere și confort. Extensia și lada de depozitare transformă modulul într-o piesă practică și versatilă pentru apartamentele moderne.",
@@ -520,28 +523,34 @@
       "body": "Design generos. Confort fără compromis. Construit să dureze.\n\nSpațiu generos, confort profund și o prezență puternică. Șezutul cu memory foam oferă un confort aparte, iar extensia îl transformă cu ușurință într-un spațiu generos pentru relaxare. Lada de depozitare completează funcționalitatea, în timp ce structura din lemn masiv îi oferă rezistență și stabilitate pe termen lung."
     },
     "coltar-bela": {
-      "name": "Colțar Bela"
+      "name": "Colțar Bela",
+      "price": 6200
     },
     "coltar-eco-2": {
-      "name": "Colțar Eco 2"
+      "name": "Colțar Eco 2",
+      "price": 4500
     },
     "coltar-sam": {
-      "name": "Colțar Sam"
+      "name": "Colțar Sam",
+      "price": 5000
     },
     "coltar-soria": {
-      "name": "Colțar Soria"
+      "name": "Colțar Soria",
+      "price": 4800
     },
     "coltar-torro": {
       "name": "Colțar Torro",
       "lead": "Confort care se adaptează. Spațiu creat pentru relaxare.",
       "summary": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie.",
-      "body": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie."
+      "body": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie.",
+      "price": 5400
     },
     "coltar-cubic-fix": {
       "name": "Colțar Cubic fix",
       "lead": "Proporții îndrăznețe. Confort generos. Design fără compromis.",
       "summary": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
-      "body": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană."
+      "body": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
+      "price": 6000
     },
     "coltar-extensibil-eco": {
       "name": "Colțar extensibil Eco"
@@ -550,13 +559,15 @@
       "name": "Colțar Soria în formă de U",
       "lead": "Spațiu generos. Confort profund. Design care se face remarcat.",
       "summary": "Spațiu generos. Confort profund. Design care se face remarcat.\n\nGeneros prin dimensiune, rafinat în fiecare detaliu. Cele trei lăzi de depozitare oferă spațiu practic, iar extensia transformă colțarul într-un loc generos pentru relaxare. Șezutul cu arcuri sinusoidale asigură susținere și confort, completat de șezlongul cu formă ondulată, care îi oferă un plus de personalitate.",
-      "body": "Spațiu generos. Confort profund. Design care se face remarcat.\n\nGeneros prin dimensiune, rafinat în fiecare detaliu. Cele trei lăzi de depozitare oferă spațiu practic, iar extensia transformă colțarul într-un loc generos pentru relaxare. Șezutul cu arcuri sinusoidale asigură susținere și confort, completat de șezlongul cu formă ondulată, care îi oferă un plus de personalitate."
+      "body": "Spațiu generos. Confort profund. Design care se face remarcat.\n\nGeneros prin dimensiune, rafinat în fiecare detaliu. Cele trei lăzi de depozitare oferă spațiu practic, iar extensia transformă colțarul într-un loc generos pentru relaxare. Șezutul cu arcuri sinusoidale asigură susținere și confort, completat de șezlongul cu formă ondulată, care îi oferă un plus de personalitate.",
+      "price": 8500
     },
     "canapea-extensibila-aldo": {
       "name": "Canapea extensibilă Aldo",
       "lead": "Confort profund. Funcționalitate integrată. Design ALDO.",
       "summary": "Confort profund. Funcționalitate integrată. Design ALDO.\n\nO siluetă generoasă, creată pentru un confort aparte. Șezutul cu strat de memory foam oferă o senzație plăcută de susținere, în timp ce extensia o transformă rapid într-un spațiu de relaxare mai generos. Lada de depozitare adaugă funcționalitate discretă, fără să compromită designul.",
-      "body": "Confort profund. Funcționalitate integrată. Design ALDO.\n\nO siluetă generoasă, creată pentru un confort aparte. Șezutul cu strat de memory foam oferă o senzație plăcută de susținere, în timp ce extensia o transformă rapid într-un spațiu de relaxare mai generos. Lada de depozitare adaugă funcționalitate discretă, fără să compromită designul."
+      "body": "Confort profund. Funcționalitate integrată. Design ALDO.\n\nO siluetă generoasă, creată pentru un confort aparte. Șezutul cu strat de memory foam oferă o senzație plăcută de susținere, în timp ce extensia o transformă rapid într-un spațiu de relaxare mai generos. Lada de depozitare adaugă funcționalitate discretă, fără să compromită designul.",
+      "price": 4400
     },
     "fotoliu-king": {
       "name": "Fotoliu King"
@@ -584,6 +595,12 @@
       "lead": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.",
       "summary": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nDesign minimalist, confort generos și funcționalitate discretă. Patul CUBIC integrează o ladă de depozitare generoasă, ușor accesibilă prin somiera cu pistoane, care permite ridicarea fără efort.",
       "body": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nDesign minimalist, confort generos și funcționalitate discretă. Patul CUBIC integrează o ladă de depozitare generoasă, ușor accesibilă prin somiera cu pistoane, care permite ridicarea fără efort."
+    },
+    "canapea-spring": {
+      "price": 2500
+    },
+    "canapea-bella": {
+      "price": 4800
     }
   },
   "exclude": {
@@ -3008,6 +3025,552 @@
       "cover": "coltar-vallo-studio-1",
       "pieces": [
         "coltar-vallo"
+      ]
+    }
+  },
+  "options": {
+    "_note": "What a piece is offered in, and what each of those costs. Beds are keyed on mattress size; the two Aldo sectionals on their overall dimension; the Eco sofa bed on which mattress goes in it. `measure` is the figure the picker draws its comparison bar from, and is left off where the options are not a length — a bar across two mattress types would compare nothing. Prices come from the client's own list (docs/LISTA PRETURI VALLO.pdf), which is authoritative over the scraped Samobi figure wherever the two disagree. A piece not listed here keeps its single `price`, and a bed not listed here falls back to the widths in `sizes`.",
+    "pat-fantezie": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3600
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3950
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4300
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4700
+        }
+      ]
+    },
+    "pat-aldo": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3800
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 4200
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4600
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4800
+        }
+      ]
+    },
+    "pat-miraj": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3600
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3900
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4200
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4500
+        }
+      ]
+    },
+    "pat-cubic": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3800
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 4200
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4600
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4800
+        }
+      ]
+    },
+    "pat-panouri-dreptunghiulare": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2500
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2600
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 2900
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3300
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 3700
+        }
+      ]
+    },
+    "pat-sun": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2800
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3200
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3450
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 3800
+        }
+      ]
+    },
+    "pat-loris": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3600
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 4000
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4400
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4600
+        }
+      ]
+    },
+    "pat-linear": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2400
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2500
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 2700
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 2900
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 3300
+        }
+      ]
+    },
+    "pat-king": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3200
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3700
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4000
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4400
+        }
+      ]
+    },
+    "pat-geometry": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2600
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 2900
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3300
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 3700
+        }
+      ]
+    },
+    "pat-paul": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2200
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2500
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 2700
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3000
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 3500
+        }
+      ]
+    },
+    "pat-matrimonial": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3000
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3600
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3900
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4500
+        }
+      ]
+    },
+    "pat-chesterfield": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2800
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3300
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3800
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 4200
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4600
+        }
+      ]
+    },
+    "pat-one": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2500
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 2900
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3300
+        },
+        {
+          "ro": "180 × 200",
+          "en": "180 × 200",
+          "measure": 180,
+          "price": 3600
+        },
+        {
+          "ro": "200 × 200",
+          "en": "200 × 200",
+          "measure": 200,
+          "price": 4000
+        }
+      ]
+    },
+    "pat-colt": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "100 × 200",
+          "en": "100 × 200",
+          "measure": 100,
+          "price": 2300
+        },
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2700
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3000
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3500
+        }
+      ]
+    },
+    "pat-happy": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "100 × 200",
+          "en": "100 × 200",
+          "measure": 100,
+          "price": 2500
+        },
+        {
+          "ro": "120 × 200",
+          "en": "120 × 200",
+          "measure": 120,
+          "price": 2900
+        },
+        {
+          "ro": "140 × 200",
+          "en": "140 × 200",
+          "measure": 140,
+          "price": 3200
+        },
+        {
+          "ro": "160 × 200",
+          "en": "160 × 200",
+          "measure": 160,
+          "price": 3700
+        }
+      ]
+    },
+    "coltar-aldo": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "270 × 180",
+          "en": "270 × 180",
+          "measure": 270,
+          "price": 6000
+        },
+        {
+          "ro": "330 × 190",
+          "en": "330 × 190",
+          "measure": 330,
+          "price": 7000
+        }
+      ]
+    },
+    "canapea-rotunda-aldo": {
+      "kind": "size",
+      "items": [
+        {
+          "ro": "Ø 330",
+          "en": "Ø 330",
+          "measure": 330,
+          "price": 10500
+        },
+        {
+          "ro": "Ø 450",
+          "en": "Ø 450",
+          "measure": 450,
+          "price": 13000
+        }
+      ]
+    },
+    "coltar-extensibil-eco": {
+      "kind": "spec",
+      "items": [
+        {
+          "ro": "Saltea Relaxa",
+          "en": "Relaxa mattress",
+          "price": 3800
+        },
+        {
+          "ro": "Memory foam",
+          "en": "Memory foam",
+          "price": 4700
+        }
       ]
     }
   },

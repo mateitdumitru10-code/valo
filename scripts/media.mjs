@@ -308,13 +308,43 @@ for (const product of catalog.products) {
   }
 }
 
-// Sizes are offered by category — every bed takes the same widths — so they
-// are stamped from one list rather than repeated on nineteen pieces.
+// What a piece is offered in. Where the client's price list states it, each
+// option carries its own price and the picker moves the figure on the page.
+// Otherwise sizes are stamped from the category — every bed takes the same
+// widths — rather than repeated on nineteen pieces, and priced as a whole.
 for (const product of catalog.products) {
+  const stated = curation.options?.[product.slug]
   const sizes =
     curation.sizes?.pieces?.[product.slug] ?? curation.sizes?.categories?.[product.category]
-  if (Array.isArray(sizes) && sizes.length) product.sizes = sizes
-  else delete product.sizes
+
+  if (stated?.items?.length) {
+    product.options = { kind: stated.kind ?? 'size', items: stated.items }
+    // The card, the listing and the price sort all read one number, so the
+    // index takes the cheapest option and says `de la` in front of it.
+    const prices = stated.items.map((i) => i.price).filter((p) => typeof p === 'number')
+    if (prices.length) {
+      product.price = Math.min(...prices)
+      product.priceFrom = prices.length > 1 && Math.max(...prices) !== product.price
+    }
+  } else if (Array.isArray(sizes) && sizes.length) {
+    // A bed the list does not cover: the widths are known, the price per width
+    // is not, so every option carries the piece's single price.
+    product.options = {
+      kind: 'size',
+      items: sizes.map(([w, l]) => ({
+        ro: `${w} × ${l}`,
+        en: `${w} × ${l}`,
+        measure: w,
+        price: null,
+      })),
+    }
+    delete product.priceFrom
+  } else {
+    delete product.options
+    delete product.priceFrom
+  }
+
+  delete product.sizes
 }
 
 // Dropped pieces, and any piece left without usable photography — the latter

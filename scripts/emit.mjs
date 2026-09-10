@@ -35,6 +35,7 @@ export async function emit(catalog, root) {
       category: p.category,
       ...(p.collection ? { collection: p.collection } : {}),
       price: p.price,
+      ...(p.priceFrom ? { priceFrom: true } : {}),
       currency: p.currency,
       cover: p.cover,
       editorial: p.editorial,
@@ -57,7 +58,7 @@ export async function emit(catalog, root) {
         source: p.source,
         ...(p.variants ? { variants: p.variants } : {}),
         ...(p.views ? { views: p.views } : {}),
-        ...(p.sizes ? { sizes: p.sizes } : {}),
+        ...(p.options ? { options: p.options } : {}),
         ...(p.schematic ? { schematic: p.schematic } : {}),
       }),
     )

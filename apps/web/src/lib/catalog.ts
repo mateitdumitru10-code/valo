@@ -58,8 +58,28 @@ export type Collection = {
 
 export type Dimension = { w: number; d: number; h: number }
 
-/** A mattress size, [width, length] in centimetres. */
-export type Size = [number, number]
+/**
+ * One of the ways a piece is offered — a mattress width, an overall dimension,
+ * a choice of mattress — and what it costs.
+ *
+ * `measure` is the figure the picker draws its comparison bar from. It is
+ * absent where the options are not a length: two mattress types have nothing to
+ * compare, and a bar between them would be a graph of nothing.
+ *
+ * `price` is null for a bed the client's list does not cover, where the widths
+ * are known and the price per width is not.
+ */
+export type Option = {
+  ro: string
+  en: string
+  measure?: number
+  price: number | null
+}
+
+export type Options = {
+  kind: 'size' | 'spec'
+  items: Option[]
+}
 
 /** The workshop's dimensioned plan drawing, processed to ink on transparent. */
 export type Schematic = {
@@ -108,6 +128,8 @@ export type Piece = {
   /** The range it belongs to, where it belongs to one. Most pieces do not. */
   collection?: CollectionId
   price: number | null
+  /** The price shown is the cheapest of several, so the card says `de la`. */
+  priceFrom?: boolean
   currency: string
   cover: Img
   editorial: boolean
@@ -124,8 +146,8 @@ export type PieceDetail = {
   source: string
   variants?: Variant[]
   views?: View[]
-  /** Mattress sizes this piece is offered in. Beds only, today. */
-  sizes?: Size[]
+  /** What the piece is offered in, and what each of those costs. */
+  options?: Options
   schematic?: Schematic
 }
 

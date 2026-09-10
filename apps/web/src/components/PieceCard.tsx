@@ -25,7 +25,7 @@ export function PieceCard({
   className,
   ratio = 'landscape',
 }: Props) {
-  const { lang } = useI18n()
+  const { t, lang } = useI18n()
   const kind = findCategory(piece.category)
   const price = formatPrice(piece.price, lang)
 
@@ -53,7 +53,12 @@ export function PieceCard({
                 {String(index + 1).padStart(2, '0')}
               </span>
             )}
-            {price && <span className="mt-1 block text-sm tabular-nums">{price}</span>}
+            {price && (
+              <span className="mt-1 block text-sm tabular-nums">
+                {piece.priceFrom && <span className="opacity-45">{t('common.from')} </span>}
+                {price}
+              </span>
+            )}
           </div>
         </div>
       </Link>

@@ -174,6 +174,8 @@ const ro = {
   'piece.related': 'Din aceeași colecție',
   'piece.relatedCategory': 'Din aceeași categorie',
   'piece.priceNote': 'Preț de listă, textil standard. TVA inclus.',
+  'piece.priceNoteOption':
+    'Preț de listă pentru varianta aleasă, textil standard. TVA inclus.',
   'piece.roNote': 'Descriere din fișa de producție.',
   'piece.plan': 'Plan',
   'piece.planTitle': 'Cotele piesei',
@@ -191,6 +193,10 @@ const ro = {
   'piece.sizeUnit': 'cm',
   'piece.sizeNote':
     'Dimensiunea saltelei, în centimetri. Fabrica fiind a noastră, se pot croi și alte dimensiuni — cereți-ne și vă răspundem în aceeași zi.',
+  'piece.mattress': 'Saltea',
+  'piece.mattressOptions': 'variante',
+  'piece.mattressNote':
+    'Aceeași piesă, cu salteaua aleasă de dumneavoastră. Prețul se schimbă odată cu ea.',
   'piece.gallery': 'Galerie',
   'piece.detail': 'În detaliu',
   'piece.shotIn': 'Fotografiat în',
@@ -425,6 +431,8 @@ const en: Record<keyof typeof ro, string> = {
   'piece.related': 'From the same collection',
   'piece.relatedCategory': 'From the same category',
   'piece.priceNote': 'List price, standard textile. VAT included.',
+  'piece.priceNoteOption':
+    'List price for the option selected, standard textile. VAT included.',
   'piece.roNote': 'Description as written on the production sheet, in Romanian.',
   'piece.plan': 'Plan',
   'piece.planTitle': 'Measured drawing',
@@ -442,6 +450,10 @@ const en: Record<keyof typeof ro, string> = {
   'piece.sizeUnit': 'cm',
   'piece.sizeNote':
     'Mattress size, in centimetres. The workshop is ours, so other sizes can be cut — ask and we answer the same day.',
+  'piece.mattress': 'Mattress',
+  'piece.mattressOptions': 'options',
+  'piece.mattressNote':
+    'The same piece, with the mattress you choose. The price moves with it.',
   'piece.gallery': 'Gallery',
   'piece.detail': 'In detail',
   'piece.shotIn': 'Photographed in',

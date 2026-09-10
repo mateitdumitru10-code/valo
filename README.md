@@ -33,10 +33,14 @@ pnpm build && pnpm start   # Express serves apps/web/dist and /api on :8787
 1. `pnpm ingest` reads Samobi's WooCommerce Store API, keeps the seven upholstery
    categories, parses millimetre dimensions out of the Romanian copy, and
    downloads the original images into `media-src/`.
-2. `pnpm media` renders each image at 700/1200/2000px WebP, applies one house
+2. `pnpm adopt` copies the client's own photography out of `docs/` and into
+   `media-src/` under the names the pipeline expects. `media-src/` is gitignored,
+   so `docs/` is the only durable copy of anything the client shoots, and the
+   table in `scripts/adopt.mjs` is the record of which frame is which.
+3. `pnpm media` renders each image at 700/1200/2000px WebP, applies one house
    colour grade, inlines a 20px LQIP into the catalogue, and writes
    `data/catalog.json` plus the copy the web app bundles.
-3. `pnpm sheets` builds labelled contact sheets of `media-src/` — how the
+4. `pnpm sheets` builds labelled contact sheets of `media-src/` — how the
    curation below was decided.
 
 Total media drops from ~171 MB of originals to ~25 MB of renditions.
@@ -74,11 +78,22 @@ the same way.
 - **`covers`** — one image per category.
 - **`editorial`** — images allowed to run large. Everything else is confined to
   small gallery thumbs on a product page, and never gets a full-bleed frame.
+- **`options`** — what a piece is offered in, and what each of those costs.
 
 `scripts/media.mjs` also applies a single restrained grade (saturation ×0.88,
 slight contrast and gamma lift) so mixed sources read as one brand. When real
-photography arrives, drop it into `media-src/`, add the filenames to
-`curation.json`, and rerun `pnpm media`.
+photography arrives, drop it into `docs/`, add a row to the table in
+`scripts/adopt.mjs`, list the new names in `curation.json`, and rerun
+`pnpm adopt && pnpm media`.
+
+The client names their files by what they show, and it is worth knowing how to
+read them: a trailing **C** is the piece head-on in one colour — those are the
+colour sweep and become `<slug>-cN`. No C means another angle, the piece opened
+out, or a detail, and those become `<slug>-studio-N`. The exception holds in
+every family shot so far: the unsuffixed `1` file is a colour frame they forgot
+to suffix, on the same camera as the C set, in a colour that has no C file of
+its own. Filed as a view it would point the gallery at a colour the picker
+cannot show.
 
 ## The hero
 
@@ -149,6 +164,13 @@ Tokens live in `apps/web/src/styles/global.css`.
 Copy lives in `apps/web/src/lib/i18n.tsx` (RO + EN). Showroom addresses, phone
 numbers and opening hours in `apps/web/src/lib/showrooms.ts` come from Samobi's
 contact page — no invented claims about company age, awards or volumes.
+
+Prices come from the client's own list, `docs/LISTA PRETURI VALLO.pdf`, and are
+authoritative over the scraped Samobi figure wherever the two disagree — which
+is everywhere they overlap. They live in `curation.json` rather than in the
+generated catalogue so that a re-ingest cannot quietly restore the old number.
+Beds are priced per mattress width, so the picker moves the figure on the page;
+the thirteen pieces the list does not cover keep their Samobi price.
 
 ## API
 

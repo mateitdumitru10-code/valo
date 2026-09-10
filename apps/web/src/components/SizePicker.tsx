@@ -1,37 +1,48 @@
 import { motion } from 'motion/react'
 import clsx from 'clsx'
-import type { Size } from '~/lib/catalog'
+import type { Options } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 import { expo } from '~/lib/motion'
 
 type Props = {
-  sizes: Size[]
-  active: Size
-  onSelect: (size: Size) => void
+  options: Options
+  active: number
+  onSelect: (index: number) => void
 }
 
 /**
- * Mattress size. The figure is the whole size — 140 × 200 — because a width on
- * its own never says what it is a width of.
+ * What the piece is offered in — a mattress size, an overall dimension, a
+ * choice of mattress. The figure is the whole size — 140 × 200 — because a
+ * width on its own never says what it is a width of.
  *
- * The measure beneath it is drawn at the true fraction of the widest size
- * offered, so 140 sits at seven tenths of 200 on screen. Photography cannot
- * carry that: every bed is shot to fill the same frame.
+ * Where the options are lengths, the measure beneath is drawn at the true
+ * fraction of the largest offered, so 140 sits at seven tenths of 200 on
+ * screen. Photography cannot carry that: every bed is shot to fill the same
+ * frame. Where they are not lengths — Relaxa against memory foam — there is
+ * nothing to compare, and the bar is left off rather than drawn between two
+ * numbers that do not exist.
  *
  * Same restraint as the colour picker — hairlines, no boxes, no shadows, and
  * the value set large in the display face.
  */
-export function SizePicker({ sizes, active, onSelect }: Props) {
-  const { t } = useI18n()
-  const [width, length] = active
-  const widest = Math.max(...sizes.map(([w]) => w))
+export function SizePicker({ options, active, onSelect }: Props) {
+  const { t, lang } = useI18n()
+  const items = options.items
+  const current = items[Math.min(active, items.length - 1)]
+  const measures = items.map((item) => item.measure)
+  const scaled = measures.every((m): m is number => typeof m === 'number')
+  const largest = scaled ? Math.max(...measures) : 0
+  const label = (index: number) => (lang === 'ro' ? items[index].ro : items[index].en)
 
   return (
-    <section aria-label={t('piece.size')}>
+    <section aria-label={t(options.kind === 'spec' ? 'piece.mattress' : 'piece.size')}>
       <div className="flex items-baseline justify-between gap-4">
-        <p className="eyebrow opacity-45">{t('piece.size')}</p>
+        <p className="eyebrow opacity-45">
+          {t(options.kind === 'spec' ? 'piece.mattress' : 'piece.size')}
+        </p>
         <p className="eyebrow tabular-nums opacity-35">
-          {String(sizes.length).padStart(2, '0')} {t('piece.sizeOptions')}
+          {String(items.length).padStart(2, '0')}{' '}
+          {t(options.kind === 'spec' ? 'piece.mattressOptions' : 'piece.sizeOptions')}
         </p>
       </div>
 
@@ -39,30 +50,32 @@ export function SizePicker({ sizes, active, onSelect }: Props) {
 
       <p className="mt-4 flex items-baseline gap-2">
         <span className="font-display text-2xl leading-none tabular-nums whitespace-nowrap">
-          {width} × {length}
+          {lang === 'ro' ? current.ro : current.en}
         </span>
-        <span className="eyebrow opacity-40">{t('piece.sizeUnit')}</span>
+        {scaled && <span className="eyebrow opacity-40">{t('piece.sizeUnit')}</span>}
       </p>
 
-      {/* The track is the widest size offered; the bar is the one selected, at
-          its true proportion of it. */}
-      <div className="mt-5 h-px w-full bg-ink/12">
-        <motion.div
-          className="h-px origin-left bg-ink"
-          initial={false}
-          animate={{ scaleX: width / widest }}
-          transition={{ duration: 0.7, ease: expo }}
-        />
-      </div>
+      {/* The track is the largest option offered; the bar is the one selected,
+          at its true proportion of it. */}
+      {scaled && (
+        <div className="mt-5 h-px w-full bg-ink/12">
+          <motion.div
+            className="h-px origin-left bg-ink"
+            initial={false}
+            animate={{ scaleX: (current.measure ?? 0) / largest }}
+            transition={{ duration: 0.7, ease: expo }}
+          />
+        </div>
+      )}
 
-      <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
-        {sizes.map(([w, l]) => {
-          const selected = w === width && l === length
+      <ul className={clsx('flex flex-wrap gap-x-6 gap-y-3', scaled ? 'mt-4' : 'mt-5')}>
+        {items.map((item, index) => {
+          const selected = index === Math.min(active, items.length - 1)
           return (
-            <li key={`${w}x${l}`}>
+            <li key={`${item.ro}-${index}`}>
               <button
                 type="button"
-                onClick={() => onSelect([w, l])}
+                onClick={() => onSelect(index)}
                 aria-pressed={selected}
                 className={clsx(
                   'font-display text-base tabular-nums whitespace-nowrap transition-opacity duration-300',
@@ -71,14 +84,16 @@ export function SizePicker({ sizes, active, onSelect }: Props) {
                     : 'opacity-35 hover:opacity-70',
                 )}
               >
-                {w} × {l}
+                {label(index)}
               </button>
             </li>
           )
         })}
       </ul>
 
-      <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">{t('piece.sizeNote')}</p>
+      <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">
+        {t(options.kind === 'spec' ? 'piece.mattressNote' : 'piece.sizeNote')}
+      </p>
     </section>
   )
 }

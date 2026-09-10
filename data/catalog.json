@@ -14,7 +14,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 6500,
+      "price": 6000,
       "currency": "RON",
       "lead": "Design generos. Confort fără compromis. Construit să dureze.",
       "summary": "Design generos. Confort fără compromis. Construit să dureze.\n\nSpațiu generos, confort profund și o prezență puternică. Șezutul cu memory foam oferă un confort aparte, iar extensia îl transformă cu ușurință într-un spațiu generos pentru relaxare. Lada de depozitare completează funcționalitatea, în timp ce structura din lemn masiv îi oferă rezistență și stabilitate pe termen lung.",
@@ -302,6 +302,24 @@
         }
       ],
       "category": "sectionals",
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "270 × 180",
+            "en": "270 × 180",
+            "measure": 270,
+            "price": 6000
+          },
+          {
+            "ro": "330 × 190",
+            "en": "330 × 190",
+            "measure": 330,
+            "price": 7000
+          }
+        ]
+      },
+      "priceFrom": true,
       "collection": "aldo"
     },
     {
@@ -316,7 +334,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 4299,
+      "price": 4500,
       "currency": "RON",
       "lead": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
       "summary": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
@@ -503,7 +521,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 3599,
+      "price": 3600,
       "currency": "RON",
       "lead": "Pat fantezie cu noptiere incluse – eleganță și confort pentru dormitorul tău",
       "summary": "Pat fantezie cu noptiere incluse – eleganță și confort pentru dormitorul tău\n\nTransformă-ți dormitorul într-un spațiu modern și relaxant cu acest pat de tip fantezie, conceput pentru a îmbina perfect designul elegant cu funcționalitatea. Setul include două noptiere practice (400&#215;400 mm), ideale pentru a avea la îndemână lucrurile esențiale.\n\nPatul este compatibil cu saltele de dimensiunea 1600&#215;2000 mm, oferind spațiu generos pentru un somn odihnitor. Designul său atrăgător adaugă un plus de stil încăperii, fiind potrivit atât pentru amenajări moderne, cât și clasice.\n\n✔ Dimensiune saltea: 1600&#215;2000 mm✔ Noptiere incluse: 2 bucăți (400&#215;400 mm)✔ Design elegant și practic✔ Ideal pentru confort și organizare\n\nAlege acest set pentru un dormitor bine organizat și cu un aspect rafinat.",
@@ -723,24 +741,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3950
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4300
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4700
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": 250,
@@ -752,7 +782,7 @@
         "Colecția Living",
         "Colecția Modern"
       ],
-      "price": 3499,
+      "price": 3800,
       "currency": "RON",
       "lead": "Confort autentic. Funcționalitate discretă. Design cu personalitate.",
       "summary": "Confort autentic. Funcționalitate discretă. Design cu personalitate.\n\nEleganță discretă și confort construit pentru fiecare zi. Șezutul cu arcuri sinusoidale oferă o susținere plăcută și un confort de durată, iar extensia transformă canapeaua într-un spațiu generos de relaxare. Lada de depozitare completează funcționalitatea, păstrând designul curat al piesei.",
@@ -1021,7 +1051,7 @@
         "Mobilier pentru dormitor",
         "Mobilier pentru living"
       ],
-      "price": 3299,
+      "price": 3800,
       "currency": "RON",
       "lead": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
       "summary": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
@@ -1200,7 +1230,23 @@
           }
         }
       ],
-      "category": "sectionals"
+      "category": "sectionals",
+      "options": {
+        "kind": "spec",
+        "items": [
+          {
+            "ro": "Saltea Relaxa",
+            "en": "Relaxa mattress",
+            "price": 3800
+          },
+          {
+            "ro": "Memory foam",
+            "en": "Memory foam",
+            "price": 4700
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 7088,
@@ -1209,7 +1255,7 @@
       "collections": [
         "Canapele"
       ],
-      "price": 3200,
+      "price": 3800,
       "currency": "RON",
       "lead": "",
       "summary": "Canapea Sonia extensibila",
@@ -1456,7 +1502,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 2899,
+      "price": 2500,
       "currency": "RON",
       "lead": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate",
       "summary": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate\n\nAcest pat impresionează prin designul modern și ordonat al tăbliei, realizată din panouri dreptunghiulare tapițate, care adaugă un plus de eleganță și confort vizual dormitorului. Liniile curate și simetria formelor îl fac ușor de integrat în orice amenajare contemporană.\n\nConceput pentru relaxare deplină, patul este destinat unei saltele de 160 x 200 cm și dispune de o ladă de depozitare spațioasă, ideală pentru păstrarea lenjeriilor sau a altor obiecte necesare.\n\nUn avantaj important este sistemul culisant al saltelei (sus-jos), care oferă acces rapid și ușor la spațiul de depozitare, fără efort, menținând în același timp un grad ridicat de confort în utilizare.\n\nPractic, elegant și bine gândit, acest pat este alegerea ideală pentru un dormitor modern și organizat.",
@@ -1674,24 +1720,42 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2500
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 2900
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3300
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3700
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6996,
@@ -1700,7 +1764,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 2899,
+      "price": 2800,
       "currency": "RON",
       "lead": "Patul SUN impresionează printr-un design contemporan și elegant, evidențiat de tăblia spectaculoasă cu model radial, care adaugă personalitate și rafinament oricărui dormitor.",
       "summary": "Pat SUN – design modern cu funcționalitate inteligentă\n\nPatul SUN impresionează printr-un design contemporan și elegant, evidențiat de tăblia spectaculoasă cu model radial, care adaugă personalitate și rafinament oricărui dormitor. Tapițeria premium și liniile bine definite îl transformă într-o piesă centrală deosebită.\n\nConceput pentru confort și utilitate, patul este prevăzut pentru o saltea de 160 x 200 cm și include o ladă de depozitare generoasă, ideală pentru organizarea eficientă a spațiului.\n\nUn avantaj major îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces facil la spațiul de depozitare, oferind în același timp o utilizare practică și ergonomică.\n\nPatul SUN este alegerea perfectă pentru cei care își doresc un echilibru între estetică modernă și funcționalitate inteligentă.",
@@ -1918,24 +1982,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2800
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3200
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3450
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3800
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6746,
@@ -2034,7 +2110,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 2600,
+      "price": 2300,
       "currency": "RON",
       "lead": "Patul Colț îmbină funcționalitatea cu estetica, oferind un spațiu de odihnă confortabil și bine organizat, perfect adaptat stilului de viață modern.",
       "summary": "Patul Colț îmbină funcționalitatea cu estetica, oferind un spațiu de odihnă confortabil și bine organizat, perfect adaptat stilului de viață modern.",
@@ -2149,24 +2225,6 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
-        ]
-      ],
       "views": [
         {
           "src": "pat-colt-studio-1",
@@ -2227,7 +2285,37 @@
             "en": "Dusty rose"
           }
         }
-      ]
+      ],
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "100 × 200",
+            "en": "100 × 200",
+            "measure": 100,
+            "price": 2300
+          },
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2700
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3000
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3500
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6637,
@@ -2236,7 +2324,7 @@
       "collections": [
         "Colțare"
       ],
-      "price": 7499,
+      "price": 8500,
       "currency": "RON",
       "lead": "Spațiu generos. Confort profund. Design care se face remarcat.",
       "summary": "Spațiu generos. Confort profund. Design care se face remarcat.\n\nGeneros prin dimensiune, rafinat în fiecare detaliu. Cele trei lăzi de depozitare oferă spațiu practic, iar extensia transformă colțarul într-un loc generos pentru relaxare. Șezutul cu arcuri sinusoidale asigură susținere și confort, completat de șezlongul cu formă ondulată, care îi oferă un plus de personalitate.",
@@ -2397,7 +2485,6 @@
           "in": "coltar-soria-in-forma-de-u-c7"
         }
       ],
-      "collection": "soria",
       "variants": [
         {
           "src": "coltar-soria-in-forma-de-u-c1",
@@ -2462,7 +2549,8 @@
             "en": "Mustard"
           }
         }
-      ]
+      ],
+      "collection": "soria"
     },
     {
       "id": 6646,
@@ -2476,7 +2564,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 4600,
+      "price": 4800,
       "currency": "RON",
       "lead": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi.",
       "summary": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi. Cu un design echilibrat și dimensiuni generoase, acest colțar transformă orice living într-un spațiu primitor, plin de confort și eleganță.",
@@ -2618,7 +2706,6 @@
           "in": "coltar-soria-c6"
         }
       ],
-      "collection": "soria",
       "variants": [
         {
           "src": "coltar-soria-c1",
@@ -2674,7 +2761,8 @@
             "en": "Beige with olive cushions"
           }
         }
-      ]
+      ],
+      "collection": "soria"
     },
     {
       "id": 6633,
@@ -2688,7 +2776,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 4600,
+      "price": 5400,
       "currency": "RON",
       "lead": "Confort care se adaptează. Spațiu creat pentru relaxare.",
       "summary": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie.",
@@ -2811,7 +2899,6 @@
           "in": "coltar-torro-c6"
         }
       ],
-      "collection": "torro",
       "variants": [
         {
           "src": "coltar-torro-c1",
@@ -2867,7 +2954,8 @@
             "en": "Camel"
           }
         }
-      ]
+      ],
+      "collection": "torro"
     },
     {
       "id": 7049,
@@ -2876,7 +2964,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 4000,
+      "price": 3800,
       "currency": "RON",
       "lead": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.",
       "summary": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.\n\nUn pat cu prezență, creat pentru interioare în care designul are ultimul cuvânt. Construcția masivă și materialele atent alese îi oferă robustețe și stabilitate, în timp ce lada de depozitare generoasă adaugă funcționalitate fără a compromite estetica.\n\nSomiera cu pistoane permite ridicarea ușoară a bazei, oferind acces rapid la întreg spațiul de depozitare.",
@@ -3096,24 +3184,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3800
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 4200
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4600
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4800
+          }
         ]
-      ],
+      },
+      "priceFrom": true,
       "collection": "aldo"
     },
     {
@@ -3123,7 +3223,7 @@
       "collections": [
         "Canapele"
       ],
-      "price": 3299,
+      "price": 4400,
       "currency": "RON",
       "lead": "Confort ajustabil. Susținere precisă. Design contemporan.",
       "summary": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare.",
@@ -3290,7 +3390,6 @@
           "in": "canapea-toro-c5"
         }
       ],
-      "collection": "torro",
       "variants": [
         {
           "src": "canapea-toro-c1",
@@ -3337,7 +3436,8 @@
             "en": "Navy"
           }
         }
-      ]
+      ],
+      "collection": "torro"
     },
     {
       "id": 7008,
@@ -3346,7 +3446,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 2800,
+      "price": 2500,
       "currency": "RON",
       "lead": "Patul Happy este alegerea ideală pentru camera copilului, îmbinând perfect designul vesel cu funcționalitatea inteligentă.",
       "summary": "Pat Happy – confort, funcționalitate și design jucăuș\n\nPatul Happy este alegerea ideală pentru camera copilului, îmbinând perfect designul vesel cu funcționalitatea inteligentă. Cu un aspect prietenos și modern, evidențiat de panourile decorative rotunjite în nuanțe armonioase, acest pat transformă orice spațiu într-un loc cald și primitor.\n\nCu dimensiunea generoasă de 120 x 200 cm, patul oferă confort optim atât pentru odihnă, cât și pentru momentele de relaxare sau joacă. Este prevăzut cu o ladă de depozitare spațioasă, perfectă pentru organizarea eficientă a lenjeriilor, pernelor sau jucăriilor, ajutând la menținerea ordinii în cameră.\n\nUn mare avantaj îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces rapid și ușor la spațiul de depozitare, fără efort.\n\n✔ Design atractiv și prietenos pentru copii✔ Dimensiune: 120 x 200 cm✔ Ladă de depozitare încăpătoare✔ Sistem practic de ridicare a saltelei✔ Materiale confortabile și plăcute la atingere\n\nPat Happy nu este doar un loc de dormit, ci un spațiu unde confortul întâlnește bucuria copilăriei.",
@@ -3409,24 +3509,6 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
-        ]
-      ],
       "views": [
         {
           "src": "pat-happy-studio-1",
@@ -3438,7 +3520,37 @@
           "ro": "Ladă de depozitare",
           "en": "Storage box"
         }
-      ]
+      ],
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "100 × 200",
+            "en": "100 × 200",
+            "measure": 100,
+            "price": 2500
+          },
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2900
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3200
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3700
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 225,
@@ -3518,7 +3630,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 2150,
+      "price": 2200,
       "currency": "RON",
       "lead": "Patul Paul oferă echilibrul perfect între estetică și funcționalitate, fiind soluția ideală pentru un spațiu de odihnă confortabil și bine organizat.",
       "summary": "Patul Paul oferă echilibrul perfect între estetică și funcționalitate, fiind soluția ideală pentru un spațiu de odihnă confortabil și bine organizat.",
@@ -3659,24 +3771,6 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
-        ]
-      ],
       "views": [
         {
           "src": "pat-paul-studio-1",
@@ -3755,7 +3849,43 @@
             "en": "Light grey"
           }
         }
-      ]
+      ],
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2200
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2500
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 2700
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3000
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3500
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6287,
@@ -3765,7 +3895,7 @@
         "Canapele",
         "Colecția Living"
       ],
-      "price": 2050,
+      "price": 2500,
       "currency": "RON",
       "lead": "Canapea extensibilă Spring – compactă, elegantă și practică, ideală pentru spații moderne.",
       "summary": "Canapea extensibilă Spring – compactă, elegantă și practică, ideală pentru spații moderne. Se transformă rapid într-un pat confortabil, fiind perfectă pentru relaxare zilnică sau pentru oaspeți.",
@@ -3973,7 +4103,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 4960,
+      "price": 6200,
       "currency": "RON",
       "lead": "Colțarul Bela impresionează prin designul său modern, liniile rotunjite și aspectul elegant, fiind piesa centrală ideală pentru un living primitor.",
       "summary": "Colțarul Bela impresionează prin designul său modern, liniile rotunjite și aspectul elegant, fiind piesa centrală ideală pentru un living primitor. Forma sa amplă oferă spațiu generos pentru relaxare, transformând fiecare moment petrecut acasă într-o experiență plăcută alături de familie sau prieteni.",
@@ -4184,7 +4314,7 @@
         "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 4680,
+      "price": 5000,
       "currency": "RON",
       "lead": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
       "summary": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
@@ -4261,7 +4391,7 @@
       "collections": [
         "Canapele"
       ],
-      "price": 4500,
+      "price": 4800,
       "currency": "RON",
       "lead": "Canapea Bela este o canapea fixă cu design modern și forme rotunjite, creată pentru a oferi confort și eleganță în orice living.",
       "summary": "Canapea Bela este o canapea fixă cu design modern și forme rotunjite, creată pentru a oferi confort și eleganță în orice living. Liniile sale fluide și aspectul rafinat o transformă într-o piesă centrală ideală pentru un decor contemporan.",
@@ -4490,7 +4620,7 @@
       "collections": [
         "Canapele"
       ],
-      "price": 3999,
+      "price": 4400,
       "currency": "RON",
       "lead": "Confort profund. Funcționalitate integrată. Design ALDO.",
       "summary": "Confort profund. Funcționalitate integrată. Design ALDO.\n\nO siluetă generoasă, creată pentru un confort aparte. Șezutul cu strat de memory foam oferă o senzație plăcută de susținere, în timp ce extensia o transformă rapid într-un spațiu de relaxare mai generos. Lada de depozitare adaugă funcționalitate discretă, fără să compromită designul.",
@@ -4749,7 +4879,7 @@
         "Mobilier pentru dormitor",
         "Paturi"
       ],
-      "price": 3800,
+      "price": 3600,
       "currency": "RON",
       "lead": "Pat Miraj cu ladă de depozitare – Design modern și confort premium",
       "summary": "Pat Miraj cu ladă de depozitare – Design modern și confort premium\n\nPatul Miraj este alegerea ideală pentru cei care își doresc un dormitor elegant, bine organizat și confortabil. Cu un design modern și rafinat, acest pat devine piesa centrală a camerei, oferind atât stil, cât și funcționalitate.\n\nConstruit pentru durabilitate și confort, patul este prevăzut cu ladă de depozitare spațioasă, perfectă pentru păstrarea lenjeriilor, pilotelor sau altor obiecte esențiale. Astfel, economisești spațiu și menții dormitorul ordonat.\n\nDatorită dimensiunilor generoase pentru saltea și structurii solide, Patul Miraj oferă suport optim pentru un somn odihnitor, fiind potrivit atât pentru dormitoare moderne, cât și pentru amenajări elegante sau minimaliste.\n\nAvantajele Patului Miraj\n\n✔ Design modern și elegant – potrivit pentru orice stil de dormitor✔ Ladă de depozitare încăpătoare – ideală pentru lenjerii și textile✔ Structură solidă și durabilă – stabilitate și rezistență în timp✔ Confort optim pentru somn – suport excelent pentru saltea✔ Aspect premium – transformă dormitorul într-un spațiu sofisticat\n\nSpecificații tehnice\n\n• \nModel: Pat Miraj\n\n• \nDimensiune saltea compatibilă: 200 × 160 cm\n\n• \nDimensiuni gabarit pat: 220 × 170 cm\n\n• \nLadă de depozitare: Da\n\n• \nTip pat: Pat matrimonial cu spațiu de depozitare",
@@ -4923,24 +5053,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3900
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4200
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4500
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6770,
@@ -4951,7 +5093,7 @@
         "Mobilier pentru dormitor",
         "Paturi"
       ],
-      "price": 3499,
+      "price": 3000,
       "currency": "RON",
       "lead": "Pat matrimonial modern cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor confortabil și bine organizat.",
       "summary": "Pat matrimonial modern cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor confortabil și bine organizat.",
@@ -5066,24 +5208,6 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
-        ]
-      ],
       "views": [
         {
           "src": "pat-matrimonial-studio-1",
@@ -5144,7 +5268,37 @@
             "en": "Beige"
           }
         }
-      ]
+      ],
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3000
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3600
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3900
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4500
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6757,
@@ -5155,7 +5309,7 @@
         "Mobilier pentru dormitor",
         "Paturi"
       ],
-      "price": 3199,
+      "price": 2500,
       "currency": "RON",
       "lead": "Pat One este un pat modern tapițat, cu design elegant și ladă de depozitare spațioasă, ideal pentru organizarea eficientă a dormitorului și pentru un somn confortabil.",
       "summary": "Pat One este un pat modern tapițat, cu design elegant și ladă de depozitare spațioasă, ideal pentru organizarea eficientă a dormitorului și pentru un somn confortabil.",
@@ -5283,24 +5437,6 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
-        ]
-      ],
       "views": [
         {
           "src": "pat-one-studio-1",
@@ -5370,7 +5506,43 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2500
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2900
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3300
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3600
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4000
+          }
+        ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6748,
@@ -5878,7 +6050,7 @@
       "collections": [
         "Colțare"
       ],
-      "price": 4999,
+      "price": 6000,
       "currency": "RON",
       "lead": "Proporții îndrăznețe. Confort generos. Design fără compromis.",
       "summary": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
@@ -6110,7 +6282,7 @@
       "collections": [
         "Paturi"
       ],
-      "price": 3499,
+      "price": 3800,
       "currency": "RON",
       "lead": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.",
       "summary": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nDesign minimalist, confort generos și funcționalitate discretă. Patul CUBIC integrează o ladă de depozitare generoasă, ușor accesibilă prin somiera cu pistoane, care permite ridicarea fără efort.",
@@ -6387,24 +6559,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3800
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 4200
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4600
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4800
+          }
         ]
-      ],
+      },
+      "priceFrom": true,
       "collection": "cubic"
     },
     {
@@ -6416,7 +6600,7 @@
         "Mobilier pentru dormitor",
         "Paturi"
       ],
-      "price": 3199,
+      "price": 2800,
       "currency": "RON",
       "lead": "Pat Chesterfield este un pat elegant cu tăblie capitonată, prevăzut cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor stilat și organizat.",
       "summary": "Pat Chesterfield este un pat elegant cu tăblie capitonată, prevăzut cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor stilat și organizat.",
@@ -6451,24 +6635,42 @@
       },
       "editorial": false,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2800
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3300
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3800
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4200
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4600
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": 6760,
@@ -6514,24 +6716,35 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": null
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": null
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": null
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": null
+          }
         ]
-      ]
+      }
     },
     {
       "id": 6766,
@@ -6577,24 +6790,35 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": null
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": null
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": null
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": null
+          }
         ]
-      ]
+      }
     },
     {
       "id": 6764,
@@ -6640,24 +6864,35 @@
       },
       "editorial": true,
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": null
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": null
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": null
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": null
+          }
         ]
-      ]
+      }
     },
     {
       "id": 275,
@@ -6936,7 +7171,7 @@
       "slug": "canapea-cubiq",
       "name": "Canapea Cubiq",
       "collections": [],
-      "price": null,
+      "price": 5300,
       "currency": "RON",
       "lead": "Simplă în formă. Generoasă în confort.",
       "summary": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
@@ -7207,7 +7442,7 @@
       "slug": "canapea-rotunda-aldo",
       "name": "Canapea rotundă Aldo",
       "collections": [],
-      "price": null,
+      "price": 10500,
       "currency": "RON",
       "lead": "O formă aparte. Un confort pe măsură.",
       "summary": "O formă aparte. Un confort pe măsură.\n\nO interpretare îndrăzneață a colecției ALDO, creată pentru interioare cu personalitate. Forma rotunjită îi oferă o prezență aparte, în timp ce stratul de memory foam transformă fiecare moment într-o experiență de confort profund.",
@@ -7363,6 +7598,24 @@
         }
       ],
       "category": "sofas",
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "Ø 330",
+            "en": "Ø 330",
+            "measure": 330,
+            "price": 10500
+          },
+          {
+            "ro": "Ø 450",
+            "en": "Ø 450",
+            "measure": 450,
+            "price": 13000
+          }
+        ]
+      },
+      "priceFrom": true,
       "collection": "aldo"
     },
     {
@@ -7370,7 +7623,7 @@
       "slug": "pat-loris",
       "name": "Pat Loris",
       "collections": [],
-      "price": null,
+      "price": 3600,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -7571,31 +7824,43 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 4000
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4400
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4600
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": "valo-coltar-vallo",
       "slug": "coltar-vallo",
       "name": "Colțar Vallo",
       "collections": [],
-      "price": null,
+      "price": 5500,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -7800,7 +8065,7 @@
       "slug": "coltar-zeno",
       "name": "Colțar Zeno",
       "collections": [],
-      "price": null,
+      "price": 8200,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -7869,7 +8134,7 @@
       "slug": "coltar-linear",
       "name": "Colțar Linear",
       "collections": [],
-      "price": null,
+      "price": 5500,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -8063,7 +8328,7 @@
       "slug": "pat-linear",
       "name": "Pat Linear",
       "collections": [],
-      "price": null,
+      "price": 2400,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -8302,24 +8567,42 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2400
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2500
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 2700
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 2900
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3300
+          }
         ]
-      ],
+      },
+      "priceFrom": true,
       "collection": "linear"
     },
     {
@@ -8327,7 +8610,7 @@
       "slug": "pat-king",
       "name": "Pat King",
       "collections": [],
-      "price": null,
+      "price": 3200,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -8544,24 +8827,36 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 3200
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 3700
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 4000
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 4400
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": "valo-modul-cubiq",
@@ -8793,7 +9088,7 @@
       "slug": "pat-geometry",
       "name": "Pat Geometry",
       "collections": [],
-      "price": 3400,
+      "price": 2600,
       "currency": "RON",
       "lead": "",
       "summary": "",
@@ -8967,31 +9262,43 @@
         }
       ],
       "category": "beds",
-      "sizes": [
-        [
-          140,
-          200
-        ],
-        [
-          160,
-          200
-        ],
-        [
-          180,
-          200
-        ],
-        [
-          200,
-          200
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 2900
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3300
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3700
+          }
         ]
-      ]
+      },
+      "priceFrom": true
     },
     {
       "id": "valo-modul-aldo",
       "slug": "modul-aldo",
       "name": "Modul Aldo",
       "collections": [],
-      "price": null,
+      "price": 3000,
       "currency": "RON",
       "lead": "Compact ca dimensiune. Generos în confort.",
       "summary": "Compact ca dimensiune. Generos în confort.\n\nCreat pentru spații în care fiecare centimetru contează, fără să faci compromisuri la confort sau design. Dimensiunea compactă și lipsa brațelor îi oferă flexibilitate, iar pernele laterale adaugă susținere și confort. Extensia și lada de depozitare transformă modulul într-o piesă practică și versatilă pentru apartamentele moderne.",

@@ -15,7 +15,6 @@ import {
   category,
   collection,
   collectionName,
-  type Size,
   formatPrice,
   loadPiece,
   related,
@@ -33,7 +32,7 @@ export function PiecePage() {
   const { t, lang } = useI18n()
   const piece = bySlug(slug)
   const [textile, setTextile] = useState(0)
-  const [size, setSize] = useState<Size | null>(null)
+  const [option, setOption] = useState(0)
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
   // here. The cover comes from the index, so the page has an image to show
   // from the first frame.
@@ -43,7 +42,7 @@ export function PiecePage() {
     let live = true
     setDetail(null)
     setTextile(0)
-    setSize(null)
+    setOption(0)
     loadPiece(slug).then((data) => {
       if (live) setDetail(data)
     })
@@ -56,7 +55,6 @@ export function PiecePage() {
 
   const kind = category(piece.category)
   const range = collection(piece.collection)
-  const price = formatPrice(piece.price, lang)
 
   // With textiles, the lead image is whichever one is selected, and the
   // remaining textile shots leave the gallery — they are the picker's job now.
@@ -64,10 +62,17 @@ export function PiecePage() {
   const variants = detail?.variants ?? []
   const variantSrcs = new Set(variants.map((v) => v.src))
   const selected = variants[Math.min(textile, variants.length - 1)]
-  // Beds are offered in several widths. Nothing is preselected in state, so the
-  // narrowest stands as the default until the visitor says otherwise.
-  const sizes = detail?.sizes ?? []
-  const chosenSize = size ?? sizes[0] ?? [0, 0]
+  // What the piece is offered in — a mattress width, an overall dimension, a
+  // choice of mattress. The first option stands as the default, and since the
+  // list is written cheapest first that is the figure the card promised.
+  const options = detail?.options
+  const items = options?.items ?? []
+  const chosen = Math.min(option, Math.max(items.length - 1, 0))
+  // The picker moves the price — but only where the client's list gives one per
+  // option. A bed it does not cover has known widths and one price, and the
+  // note under the figure must not claim the width chose it.
+  const priced = items.some((item) => typeof item.price === 'number')
+  const price = formatPrice(items[chosen]?.price ?? piece.price, lang)
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
   // The other views of the piece — the angle, the side, the sofa opened out,
   // the storage box lifted. They are the atelier's record of the model, not the
@@ -174,9 +179,9 @@ export function PiecePage() {
               </div>
             )}
 
-            {sizes.length > 1 && (
+            {options && items.length > 1 && (
               <div className="mb-12">
-                <SizePicker sizes={sizes} active={chosenSize} onSelect={setSize} />
+                <SizePicker options={options} active={chosen} onSelect={setOption} />
               </div>
             )}
 
@@ -188,7 +193,9 @@ export function PiecePage() {
                 <div className="border-b border-ink/10 py-4">
                   <dt className="eyebrow opacity-45">{t('piece.price')}</dt>
                   <dd className="mt-2 font-display text-xl">{price}</dd>
-                  <p className="mt-1 text-xs opacity-45">{t('piece.priceNote')}</p>
+                  <p className="mt-1 text-xs opacity-45">
+                    {t(priced && items.length > 1 ? 'piece.priceNoteOption' : 'piece.priceNote')}
+                  </p>
                 </div>
               )}
               {(detail?.dimensions?.length ?? 0) > 0 && (
@@ -244,7 +251,9 @@ export function PiecePage() {
             <div className="mt-8">
               <ArrowLink
                 to={`/contact?piece=${encodeURIComponent(piece.name)}${
-                  sizes.length > 1 ? `&size=${chosenSize[0]}x${chosenSize[1]}` : ''
+                  items.length > 1
+                    ? `&size=${encodeURIComponent(lang === 'ro' ? items[chosen].ro : items[chosen].en)}`
+                    : ''
                 }`}
               >
                 {t('common.enquire')}
