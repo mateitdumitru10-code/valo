@@ -650,9 +650,9 @@
     ]
   },
   "schematics": {
-    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot.",
+    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot. Figures are the outer ones printed on the sheet; `depthBack` only where the sheet prints the body depth beside the chaise. Colțar Aldo's sheet is the 330 × 190 size of the two it is sold in. Canapea Aldo's newer sheet (CP ALDO SCHITA, 2026-10) prints 110 deep and a 90 seat where the grey drawing it replaces printed 115 and 85 — taken as the correction, pending the client's word.",
     "coltar-aldo": {
-      "file": "schita-coltar-aldo-2",
+      "file": "schita-coltar-aldo-3",
       "cm": {
         "width": 330,
         "depth": 170,
@@ -661,11 +661,11 @@
       }
     },
     "canapea-extensibila-aldo": {
-      "file": "schita-canapea-aldo",
+      "file": "schita-canapea-aldo-2",
       "cm": {
         "width": 240,
-        "depth": 115,
-        "seat": 85
+        "depth": 110,
+        "seat": 90
       }
     },
     "coltar-linear": {
@@ -675,6 +675,63 @@
         "depth": 145,
         "depthBack": 105,
         "seat": 70
+      }
+    },
+    "coltar-bela": {
+      "file": "schita-coltar-bela",
+      "cm": {
+        "width": 285,
+        "depth": 135,
+        "seat": 80
+      }
+    },
+    "coltar-cubic-fix": {
+      "file": "schita-coltar-cubic-fix",
+      "cm": {
+        "width": 300,
+        "depth": 155,
+        "seat": 85
+      }
+    },
+    "coltar-extensibil-eco": {
+      "file": "schita-coltar-extensibil-eco",
+      "cm": {
+        "width": 240,
+        "depth": 160,
+        "seat": 80
+      }
+    },
+    "coltar-sam": {
+      "file": "schita-coltar-sam",
+      "cm": {
+        "width": 270,
+        "depth": 180,
+        "seat": 80
+      }
+    },
+    "coltar-soria": {
+      "file": "schita-coltar-soria",
+      "cm": {
+        "width": 270,
+        "depth": 170,
+        "depthBack": 110,
+        "seat": 85
+      }
+    },
+    "coltar-torro": {
+      "file": "schita-coltar-torro",
+      "cm": {
+        "width": 270,
+        "depth": 170,
+        "seat": 70
+      }
+    },
+    "canapea-extensibila-soria": {
+      "file": "schita-canapea-extensibila-soria",
+      "cm": {
+        "width": 240,
+        "depth": 110,
+        "seat": 85
       }
     }
   },

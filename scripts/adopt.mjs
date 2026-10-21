@@ -212,6 +212,30 @@ const ADOPT = {
   'PAT PAUL 2.jpg': 'pat-paul-studio-1',
   'PAT PAUL 3.jpg': 'pat-paul-studio-2',
   'PAT PAUL 4.jpg': 'pat-paul-studio-3',
+
+  // ── Plan drawings ──────────────────────────────────────────────────────────
+  // Not photography: these feed scripts/schematics.mjs, keyed in `schematics`
+  // in curation.json. Each sheet stacks the piece closed above the piece
+  // opened into a bed, except Bella and Cubic, which are fixed.
+  //
+  // CL is colțar and CP is canapea, as everywhere else — so `CL BELLA` is
+  // Colțar Bela, not Canapea Bella, and `CL ECO` is the extending Eco (240 ×
+  // 160, the size Samobi lists and the one the Relaxa / memory foam prices in
+  // the client's list belong to), not Eco II. Aldo's two supersede the grey
+  // drawings adopted before this table existed: the corner's figures agree,
+  // and the sofa's do not — see the note in curation.json.
+  //
+  // `CL VISION SCHITA` is not adopted: Colțar Vision is on the exclude list,
+  // so there is no page for it to sit on.
+  'CL ALDO SCHITA .png': 'schita-coltar-aldo-3',
+  'CP ALDO SCHITA .png': 'schita-canapea-aldo-2',
+  'CL BELLA SCHITA .png': 'schita-coltar-bela',
+  'CL CUBIC SCHITA .png': 'schita-coltar-cubic-fix',
+  'CL ECO SCHITA .png': 'schita-coltar-extensibil-eco',
+  'CL SAM SCHITA.png': 'schita-coltar-sam',
+  'CL SORIA SCHITA .png': 'schita-coltar-soria',
+  'CP SORIA SCHITA .png': 'schita-canapea-extensibila-soria',
+  'CL TORRO SCHITA .png': 'schita-coltar-torro',
 }
 
 /**

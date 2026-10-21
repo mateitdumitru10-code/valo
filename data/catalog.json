@@ -260,8 +260,8 @@
       ],
       "schematic": {
         "src": "/media/schema/coltar-aldo.webp",
-        "w": 1528,
-        "h": 1029,
+        "w": 1536,
+        "h": 1024,
         "cm": {
           "width": 330,
           "depth": 170,
@@ -1040,7 +1040,17 @@
         }
       ],
       "category": "sofas",
-      "collection": "soria"
+      "collection": "soria",
+      "schematic": {
+        "src": "/media/schema/canapea-extensibila-soria.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 240,
+          "depth": 110,
+          "seat": 85
+        }
+      }
     },
     {
       "id": 6699,
@@ -1246,7 +1256,17 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "schematic": {
+        "src": "/media/schema/coltar-extensibil-eco.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 240,
+          "depth": 160,
+          "seat": 80
+        }
+      }
     },
     {
       "id": 7088,
@@ -2762,7 +2782,18 @@
           }
         }
       ],
-      "collection": "soria"
+      "collection": "soria",
+      "schematic": {
+        "src": "/media/schema/coltar-soria.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 270,
+          "depth": 170,
+          "depthBack": 110,
+          "seat": 85
+        }
+      }
     },
     {
       "id": 6633,
@@ -2955,7 +2986,17 @@
           }
         }
       ],
-      "collection": "torro"
+      "collection": "torro",
+      "schematic": {
+        "src": "/media/schema/coltar-torro.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 270,
+          "depth": 170,
+          "seat": 70
+        }
+      }
     },
     {
       "id": 7049,
@@ -4229,7 +4270,17 @@
             "en": "Dusty rose"
           }
         }
-      ]
+      ],
+      "schematic": {
+        "src": "/media/schema/coltar-bela.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 285,
+          "depth": 135,
+          "seat": 80
+        }
+      }
     },
     {
       "id": 6649,
@@ -4311,7 +4362,17 @@
         "studio": true
       },
       "editorial": true,
-      "category": "sectionals"
+      "category": "sectionals",
+      "schematic": {
+        "src": "/media/schema/coltar-sam.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 270,
+          "depth": 180,
+          "seat": 80
+        }
+      }
     },
     {
       "id": 6725,
@@ -4769,12 +4830,12 @@
       ],
       "schematic": {
         "src": "/media/schema/canapea-extensibila-aldo.webp",
-        "w": 1539,
-        "h": 1022,
+        "w": 1536,
+        "h": 1024,
         "cm": {
           "width": 240,
-          "depth": 115,
-          "seat": 85
+          "depth": 110,
+          "seat": 90
         }
       },
       "views": [
@@ -6202,7 +6263,17 @@
         }
       ],
       "category": "sectionals",
-      "collection": "cubic"
+      "collection": "cubic",
+      "schematic": {
+        "src": "/media/schema/coltar-cubic-fix.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 300,
+          "depth": 155,
+          "seat": 85
+        }
+      }
     },
     {
       "id": 7191,
