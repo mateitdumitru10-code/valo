@@ -30,12 +30,14 @@ export function Img({
 
   return (
     <div
-      className={clsx('relative overflow-hidden bg-mist', className)}
-      style={{
-        backgroundImage: `url(${img.lqip})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+      className={clsx('relative overflow-hidden', img.studio ? 'bg-white' : 'bg-mist', className)}
+      // A studio frame is a piece on white, shown whole: its placeholder is the
+      // white itself, not a blurred stretch that would show past the letterbox.
+      style={
+        img.studio
+          ? undefined
+          : { backgroundImage: `url(${img.lqip})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+      }
     >
       <img
         src={srcFor(img, 1200)}
@@ -49,7 +51,10 @@ export function Img({
         decoding="async"
         onLoad={() => setLoaded(true)}
         className={clsx(
-          'h-full w-full object-cover transition-[opacity,transform] duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]',
+          'h-full w-full transition-[opacity,transform] duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]',
+          // Studio frames are never cropped: a frame shaped differently from
+          // the photograph letterboxes it in white instead of cutting the piece.
+          img.studio ? 'object-contain' : 'object-cover',
           loaded ? 'opacity-100' : 'opacity-0',
           zoom && 'group-hover:scale-[1.045]',
           imgClassName,

@@ -82,7 +82,7 @@ export function Index({ items }: { items: IndexItem[] }) {
 
       <div className="hidden md:col-span-4 md:col-start-9 md:block">
         <div className="sticky top-28">
-          <div className="relative aspect-[4/5] w-full overflow-hidden bg-mist">
+          <div className="relative aspect-[4/3] w-full overflow-hidden bg-white">
             {items.map((item) =>
               item.cover ? (
                 <motion.img
@@ -91,7 +91,7 @@ export function Index({ items }: { items: IndexItem[] }) {
                   alt={item.label}
                   loading="lazy"
                   decoding="async"
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className={`absolute inset-0 h-full w-full ${item.cover.studio ? 'object-contain' : 'object-cover'}`}
                   initial={false}
                   animate={{ opacity: active === item.id ? 1 : 0 }}
                   transition={{ duration: 0.6, ease: expo }}

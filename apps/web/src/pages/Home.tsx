@@ -228,7 +228,7 @@ export function Home() {
                 key={piece.slug}
                 piece={piece}
                 index={i}
-                ratio="portrait"
+                ratio="landscape"
                 sizes="(max-width: 640px) 78vw, (max-width: 1024px) 46vw, 30vw"
               />
             ))}
