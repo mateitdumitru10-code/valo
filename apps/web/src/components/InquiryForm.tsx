@@ -5,6 +5,7 @@ import { useI18n } from '~/lib/i18n'
 import { pieces } from '~/lib/catalog'
 import { Cta } from './UI'
 import { expo } from '~/lib/motion'
+import { sendInquiry as send } from '~/lib/inquiry'
 
 type Status = 'idle' | 'sending' | 'sent' | 'error'
 type Errors = Partial<Record<'name' | 'email' | 'message', string>>
@@ -36,31 +37,6 @@ function Field({
 
 const inputClass =
   'w-full border-b border-ink/20 bg-transparent py-3 text-base outline-none transition-colors placeholder:text-ink/30 focus:border-ink'
-
-/**
- * Two destinations, because the site has two homes.
- *
- * In development the Express API is running, so requests go there and land in
- * data/inquiries.jsonl. In production the site is static on Netlify, where
- * there is no API — submissions go to Netlify Forms, declared in
- * public/__forms.html. It posts to that file rather than to "/" because the SPA
- * rewrite in netlify.toml would otherwise swallow the request.
- */
-function send(data: Record<string, string>) {
-  if (import.meta.env.DEV) {
-    return fetch('/api/inquiries', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(data),
-    })
-  }
-
-  return fetch('/__forms.html', {
-    method: 'POST',
-    headers: { 'content-type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ 'form-name': 'inquiry', ...data }).toString(),
-  })
-}
 
 export function InquiryForm({
   defaultPiece,

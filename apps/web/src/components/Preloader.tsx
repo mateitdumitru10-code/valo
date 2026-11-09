@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { expo, quint } from '~/lib/motion'
 import { stopScroll } from '~/lib/scroll'
+import { heroClip } from '~/lib/hero'
 
 /** Floor on how long the curtain is held. Anything more is self-inflicted. */
 const MIN_MS = 280
@@ -30,7 +31,7 @@ export function Preloader() {
     // iOS allows very few simultaneous video decoders, and a hidden element
     // holding one starves the hero's own element — the clip then never paints.
     const clip = Promise.race([
-      fetch('/media/hero.mp4', { headers: { range: 'bytes=0-262143' } })
+      fetch(heroClip(), { headers: { range: 'bytes=0-262143' } })
         .then(() => undefined)
         .catch(() => undefined),
       new Promise<void>((resolve) => setTimeout(resolve, 3000)),

@@ -99,7 +99,9 @@ api.post('/inquiries', async (req, res) => {
 
   const errors = []
   if (!inquiry.name) errors.push('name')
-  if (!isEmail(inquiry.email)) errors.push('email')
+  // A way to answer is required, but either one will do: the HoReCa form asks
+  // for a phone number or an email, and plenty of venues only give a phone.
+  if (inquiry.email ? !isEmail(inquiry.email) : !inquiry.phone) errors.push('email')
   if (!inquiry.message) errors.push('message')
   if (errors.length) return res.status(422).json({ error: 'invalid', fields: errors })
 

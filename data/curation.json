@@ -10,6 +10,20 @@
     "fotoliu-king-1",
     "coltar-torro-1"
   ],
+  "order": [
+    "coltar-aldo",
+    "canapea-sonia-extensibila",
+    "pat-fantezie",
+    "coltar-extensibil-eco",
+    "coltar-eco-2",
+    "pat-panouri-dreptunghiulare",
+    "coltar-soria",
+    "canapea-extensibila-soria",
+    "coltar-sam",
+    "coltar-cubic-fix",
+    "canapea-cubic",
+    "coltar-vallo"
+  ],
   "craft": { "src": "coltar-cubic-fix-c3", "piece": "coltar-cubic-fix" },
   "story": [
     { "src": "coltar-aldo-c7", "piece": "coltar-aldo" },
@@ -82,7 +96,7 @@
       "coltar-cubic-fix-c7",
       "coltar-cubiq-studio-2"
     ],
-    "canapea-cubiq": [
+    "canapea-cubic": [
       "canapea-cubiq-studio-1",
       "canapea-cubiq-c1",
       "canapea-cubiq-c2",
@@ -174,10 +188,10 @@
       "canapea-toro-studio-4"
     ],
     "canapea-sonia-extensibila": [
+      "canapea-sonia-extensibila-c6",
       "canapea-sonia-extensibila-c1",
       "canapea-sonia-extensibila-c3",
       "canapea-sonia-studio-1",
-      "canapea-sonia-extensibila-c6",
       "canapea-sonia-extensibila-c5",
       "canapea-sonia-extensibila-c4",
       "canapea-sonia-extensibila-c2",
@@ -273,7 +287,7 @@
       "canapea-ela-studio-2",
       "canapea-ela-studio-3"
     ],
-    "modul-cubiq": [
+    "modul-cubic": [
       "modul-cubiq-studio-1",
       "modul-cubiq-c1",
       "modul-cubiq-c2",
@@ -439,8 +453,8 @@
   },
   "products": {
     "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue, and corrections to pieces that do exist — a name here overrides the one the API returns. media.mjs applies both. `category` is the kind of piece; the range it belongs to is set in `collections` below. Price is null until Samobi supplies one; the app then omits it. `lead`, `summary` and `body` override the scraped Samobi prose with the client's own copy, and sit here rather than in the generated piece files so that re-ingesting never undoes them. The first paragraph of `body` is never rendered — Piece.tsx reads it only as a fallback lead — so it repeats the lead by convention and the prose proper starts at the second.",
-    "canapea-cubiq": {
-      "name": "Canapea Cubiq",
+    "canapea-cubic": {
+      "name": "Canapea Cubic",
       "price": 5300,
       "category": "sofas",
       "lead": "Simplă în formă. Generoasă în confort.",
@@ -514,8 +528,8 @@
       "summary": "Compact ca dimensiune. Generos în confort.\n\nCreat pentru spații în care fiecare centimetru contează, fără să faci compromisuri la confort sau design. Dimensiunea compactă și lipsa brațelor îi oferă flexibilitate, iar pernele laterale adaugă susținere și confort. Extensia și lada de depozitare transformă modulul într-o piesă practică și versatilă pentru apartamentele moderne.",
       "body": "Compact ca dimensiune. Generos în confort.\n\nCreat pentru spații în care fiecare centimetru contează, fără să faci compromisuri la confort sau design. Dimensiunea compactă și lipsa brațelor îi oferă flexibilitate, iar pernele laterale adaugă susținere și confort. Extensia și lada de depozitare transformă modulul într-o piesă practică și versatilă pentru apartamentele moderne."
     },
-    "modul-cubiq": {
-      "name": "Modul Cubiq",
+    "modul-cubic": {
+      "name": "Modul Cubic",
       "price": 5200,
       "category": "sectionals"
     },
@@ -925,7 +939,7 @@
         "en": "Dark brown"
       }
     ],
-    "canapea-cubiq": [
+    "canapea-cubic": [
       {
         "src": "canapea-cubiq-studio-1",
         "ro": "Gri deschis",
@@ -1107,6 +1121,11 @@
     ],
     "canapea-sonia-extensibila": [
       {
+        "src": "canapea-sonia-extensibila-c6",
+        "ro": "Verde oliv",
+        "en": "Olive"
+      },
+      {
         "src": "canapea-sonia-extensibila-c1",
         "ro": "Bej",
         "en": "Beige"
@@ -1120,11 +1139,6 @@
         "src": "canapea-sonia-studio-1",
         "ro": "Petrol",
         "en": "Teal"
-      },
-      {
-        "src": "canapea-sonia-extensibila-c6",
-        "ro": "Verde oliv",
-        "en": "Olive"
       },
       {
         "src": "canapea-sonia-extensibila-c5",
@@ -1450,7 +1464,7 @@
         "en": "Burgundy"
       }
     ],
-    "modul-cubiq": [
+    "modul-cubic": [
       {
         "src": "modul-cubiq-studio-1",
         "ro": "Gri deschis",
@@ -2131,7 +2145,7 @@
         "in": "coltar-cubiq-studio-1"
       }
     ],
-    "canapea-cubiq": [
+    "canapea-cubic": [
       {
         "src": "canapea-cubiq-studio-2",
         "ro": "Trei sferturi",
@@ -2346,7 +2360,7 @@
         "en": "Side view"
       }
     ],
-    "modul-cubiq": [
+    "modul-cubic": [
       {
         "src": "modul-cubiq-studio-2",
         "ro": "Trei sferturi",
@@ -3052,9 +3066,9 @@
     "cubic": {
       "cover": "modul-cubiq-studio-1",
       "pieces": [
-        "modul-cubiq",
+        "modul-cubic",
         "coltar-cubic-fix",
-        "canapea-cubiq",
+        "canapea-cubic",
         "pat-cubic"
       ]
     },

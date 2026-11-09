@@ -24,6 +24,12 @@ import {
 } from '~/lib/catalog'
 import { useI18n } from '~/lib/i18n'
 
+/** Pieces whose address changed, so old links still land on them. */
+const RENAMED: Record<string, string> = {
+  'canapea-cubiq': 'canapea-cubic',
+  'modul-cubiq': 'modul-cubic',
+}
+
 /** One slot in the gallery: a photograph, and what it shows when it is a named view. */
 type Frame = { view: View | null; img: Photo }
 
@@ -51,7 +57,10 @@ export function PiecePage() {
     }
   }, [slug])
 
-  if (!piece) return <Navigate to="/produse" replace />
+  if (!piece) {
+    const renamed = slug ? RENAMED[slug] : undefined
+    return <Navigate to={renamed ? `/produse/${renamed}` : '/produse'} replace />
+  }
 
   const kind = category(piece.category)
   const range = collection(piece.collection)

@@ -76,6 +76,7 @@ export function Cta({
   className,
   type,
   disabled,
+  onClick,
 }: {
   to?: string
   href?: string
@@ -84,6 +85,7 @@ export function Cta({
   className?: string
   type?: 'submit' | 'button'
   disabled?: boolean
+  onClick?: () => void
 }) {
   const classes = clsx(
     'group/cta relative inline-flex items-center justify-center overflow-hidden border px-8 py-4 transition-colors duration-500',
@@ -108,7 +110,7 @@ export function Cta({
 
   if (type) {
     return (
-      <button type={type} className={classes} disabled={disabled}>
+      <button type={type} className={classes} disabled={disabled} onClick={onClick}>
         {body}
       </button>
     )

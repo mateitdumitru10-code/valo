@@ -354,6 +354,15 @@ for (const product of catalog.products) {
 const excluded = new Set(curation.exclude?.slugs ?? [])
 catalog.products = catalog.products.filter((p) => p.cover && !excluded.has(p.slug))
 
+// Hand-set lead: the pieces named in curation.order open every listing, in that
+// order; the rest keep the order ingest gave them.
+const lead = curation.order ?? []
+const rank = (slug) => (lead.includes(slug) ? lead.indexOf(slug) : lead.length)
+catalog.products = catalog.products
+  .map((p, i) => ({ p, i }))
+  .sort((a, b) => rank(a.p.slug) - rank(b.p.slug) || a.i - b.i)
+  .map(({ p }) => p)
+
 // Counts come from ingest, which has seen neither the pieces created above nor
 // the ones dropped here. A category left with nothing in it goes too.
 for (const category of catalog.categories) {

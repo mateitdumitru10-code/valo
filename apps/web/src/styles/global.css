@@ -16,7 +16,10 @@
   --color-ember: #a8492a;
 
   --font-display: 'Bodoni Moda Variable', 'Bodoni Moda', 'Didot', 'Times New Roman', serif;
-  --font-sans: 'Schibsted Grotesk Variable', 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;
+  /* A Helvetica-style neo-grotesk, the voice of Zara's text (the brand's own
+     typefaces are proprietary). Apple devices have Helvetica Neue itself;
+     everywhere else gets Inter Tight, self-hosted, rather than Arial. */
+  --font-sans: 'Helvetica Neue', Helvetica, 'Inter Tight Variable', 'Inter Tight', Arial, sans-serif;
 
   --text-micro: 0.6875rem;
   --text-micro--line-height: 1.1;

@@ -9,14 +9,12 @@ import {
 import { useI18n, type Key } from '~/lib/i18n'
 import { scrollTo } from '~/lib/scroll'
 import { expo } from '~/lib/motion'
+import { HERO_POSTER, heroClip } from '~/lib/hero'
 
 const CHAPTERS = [1, 2, 3] as const
 
-const CLIP = '/media/hero.mp4'
-/** First frame, so the hero is never a black rectangle while the clip loads. */
-const POSTER = '/media/hero-poster.webp'
-/** hero.mp4's length. Only a fallback: the element's own duration wins. */
-const CLIP_SECONDS = 2.03
+/** The clip's length. Only a fallback: the element's own duration wins. */
+const CLIP_SECONDS = 1.03
 /**
  * How much scroll the clip is stretched over, in viewport heights. The stage is
  * one screen of that and sticks, so the scrub itself runs over LENGTH - 1.
@@ -94,6 +92,8 @@ export function HeroFilm() {
     if (el && el.readyState >= 1) learnDuration(el)
   }, [])
   const reduced = useReducedMotion()
+  // Chosen once: swapping sources on resize would restart the decoder mid-scrub.
+  const [clip] = useState(heroClip)
   const mobile = useMedia(MOBILE)
   const length = mobile ? LENGTH_MOBILE : LENGTH
 
@@ -233,8 +233,8 @@ export function HeroFilm() {
         {/* Full bleed: the clip fills the stage, cropping rather than letterboxing. */}
         <video
           ref={video}
-          src={CLIP}
-          poster={POSTER}
+          src={clip}
+          poster={HERO_POSTER}
           className="absolute inset-0 h-full w-full object-cover"
           muted
           playsInline

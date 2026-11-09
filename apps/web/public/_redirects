@@ -9,6 +9,12 @@
 
 # The product listing moved from /piese to /produse. Old links, bookmarks and
 # search results get a permanent redirect rather than the SPA's not-found page.
+# Cubiq was renamed Cubic; its two pieces moved with it.
+/produse/canapea-cubiq  /produse/canapea-cubic  301
+/produse/modul-cubiq    /produse/modul-cubic    301
+/piese/canapea-cubiq    /produse/canapea-cubic  301
+/piese/modul-cubiq      /produse/modul-cubic    301
+
 /piese    /produse    301
 /piese/*  /produse/:splat  301
 

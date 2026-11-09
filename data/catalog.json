@@ -323,26 +323,21 @@
       "collection": "aldo"
     },
     {
-      "id": 6643,
-      "slug": "coltar-eco-2",
-      "name": "Colțar Eco 2",
+      "id": 7088,
+      "slug": "canapea-sonia-extensibila",
+      "name": "Canapea Sonia extensibilă",
       "collections": [
-        "Colecția Dormitor",
-        "Colecția Hol",
-        "Colecția Modern",
-        "Colțare",
-        "Mobilier pentru birou",
-        "Mobilier pentru living"
+        "Canapele"
       ],
-      "price": 4500,
+      "price": 3800,
       "currency": "RON",
-      "lead": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
-      "summary": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
-      "body": "Colțar Eco 2 – confort, culoare și funcționalitate\n\nColțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău. Designul său modern, completat de pernele decorative cu imprimeuri florale, oferă un aer vesel și primitor oricărui spațiu, transformând sufrageria într-un loc perfect pentru relaxare.\n\nDatorită formei sale generoase, colțarul oferă spațiu amplu pentru întreaga familie, fiind ideal pentru momentele petrecute alături de cei dragi, seri de film sau discuții relaxante. În același timp, mecanismul de extensie îl transformă rapid într-un spațiu confortabil de dormit, fiind o soluție practică pentru oaspeți.\n\nStructura solidă și materialele atent alese asigură durabilitate și confort pe termen lung, iar pernele moi contribuie la o experiență plăcută de relaxare.\n\nColțarul Eco 2 se realizează la comandă, oferind posibilitatea de a alege dimensiunile, culorile și materialele, astfel încât să se potrivească perfect stilului și spațiului locuinței tale.\n\nUn colțar versatil și confortabil, gândit pentru a aduce funcționalitate, stil și un plus de energie în livingul tău.",
+      "lead": "",
+      "summary": "Canapea Sonia extensibila",
+      "body": "Canapea Sonia extensibila",
       "dimensions": [],
       "images": [
         {
-          "src": "coltar-eco-2-c6",
+          "src": "canapea-sonia-extensibila-c6",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -350,12 +345,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk8ZclZsyZmmAA/vNvohz85R84E1drZkWJc8WRsuUiset7DjYTd31IQ3IAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c1",
+          "src": "canapea-sonia-extensibila-c1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -363,12 +358,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDGfCHXX4jvl093qgAA/vNwIWbSxanJXHLxiQP0YwKcBM6IqMbTDgAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDDNCHfxoa3nJy6KAD+826vY2D9JNj/GEa5BzZegMoWxEyAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c2",
+          "src": "canapea-sonia-extensibila-c3",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -376,12 +371,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JYwAAW9N4eo0BrgTcAAD+83AaDhr3XHdyXTpY6Hyj7UVa4FPlqag7ORXuf0F3hMAAAA==",
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+uXEd4K0BdAAP7za+y6d5V0ySWj/7YAAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c3",
+          "src": "canapea-sonia-studio-1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -389,12 +384,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+sf1/7e9YoAAP7zbvv7d5bJLyHk2s9mNQ6DHTb7AgA=",
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAW9aFZdm8eSyAAP7zcCFm0sS2c21JK1KtMzSb3gfM+EHbUN+H4toOgAAA",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c4",
+          "src": "canapea-sonia-extensibila-c5",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -402,12 +397,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQDG9CHfv8BTfpc/iuAA/vNvt+GvdceuDIM5pS1Etv5v8yug0FxkkyGjSIYAAAA=",
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+hPbryjsQ3rgAD+83AaDhr2K9utZLjmhkgdbk3I24YArV+kkt/JmkklqJf4UAAA",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c5",
+          "src": "canapea-sonia-extensibila-c4",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -415,12 +410,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW871/Qzlz/iggAD+83AhZtM5FvwhG3QXdPVmaCrVbHCNBYwgoAA=",
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAW+hPfQr04syZmmAA/vNwGg4a9ivbmZr3RA8YaKVo86nvOyRtgq26KKWM8YhAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-eco-2-studio-1",
+          "src": "canapea-sonia-extensibila-c2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -428,14 +423,53 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAW/D01BH1ot4umAD+8357FO5ydDxtdm9ZXHk8GwbDM+J/lgmTeWWOK6trJPD9AAAA",
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JaQAAW+uXXi0RiFv8gAD+82+3thtMHAdqn3pqBd3shG/mAR4r4pP1lDzEpyAAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQAAW+uXoeX9J4c4AAD+82+hvtIJrfW2v759gA4Fy6pOrnBCsdavMHpto7iGeYAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZQAASnd6uOElKGXGcAD+8d+Xl42QO7y9+xxdEW1BF0w/HBI24V3V63yZb3oAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-sonia-studio-4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAUVwaoGbA/6XKjoAA/vOCtRPcLupZviPN7E6bh6cq0H9bwAAA",
           "editorial": true,
           "studio": true
         }
       ],
-      "source": "https://mobilasamobi.ro/products/coltar-eco-2/",
+      "source": "https://mobilasamobi.ro/products/canapea-sonia-extensibila/",
       "cover": {
-        "src": "coltar-eco-2-c6",
+        "src": "canapea-sonia-extensibila-c6",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -443,76 +477,97 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk8ZclZsyZmmAA/vNvohz85R84E1drZkWJc8WRsuUiset7DjYTd31IQ3IAAA==",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
-      "category": "sectionals",
       "views": [
         {
-          "src": "coltar-eco-2-studio-1",
+          "src": "canapea-sonia-studio-2",
           "ro": "Trei sferturi",
           "en": "Three-quarter",
-          "in": "coltar-eco-2-c6"
+          "in": "canapea-sonia-studio-1"
+        },
+        {
+          "src": "canapea-sonia-studio-3",
+          "ro": "Deschisă, pat",
+          "en": "Opened as a bed",
+          "in": "canapea-sonia-studio-1"
+        },
+        {
+          "src": "canapea-sonia-studio-4",
+          "ro": "Ladă de depozitare",
+          "en": "Storage box",
+          "in": "canapea-sonia-studio-1"
         }
       ],
       "variants": [
         {
-          "src": "coltar-eco-2-c6",
-          "chip": "/media/coltar-eco-2-c6-700.webp",
-          "swatch": "#646233",
+          "src": "canapea-sonia-extensibila-c6",
+          "chip": "/media/canapea-sonia-extensibila-c6-700.webp",
+          "swatch": "#30331f",
           "tone": {
-            "ro": "Verde oliv, perne crem",
-            "en": "Olive, cream cushions"
+            "ro": "Verde oliv",
+            "en": "Olive"
           }
         },
         {
-          "src": "coltar-eco-2-c1",
-          "chip": "/media/coltar-eco-2-c1-700.webp",
-          "swatch": "#685647",
+          "src": "canapea-sonia-extensibila-c1",
+          "chip": "/media/canapea-sonia-extensibila-c1-700.webp",
+          "swatch": "#ac9885",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c3",
+          "chip": "/media/canapea-sonia-extensibila-c3-700.webp",
+          "swatch": "#b3b1af",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "canapea-sonia-studio-1",
+          "chip": "/media/canapea-sonia-studio-1-700.webp",
+          "swatch": "#44676d",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c5",
+          "chip": "/media/canapea-sonia-extensibila-c5-700.webp",
+          "swatch": "#102016",
+          "tone": {
+            "ro": "Verde smarald",
+            "en": "Emerald"
+          }
+        },
+        {
+          "src": "canapea-sonia-extensibila-c4",
+          "chip": "/media/canapea-sonia-extensibila-c4-700.webp",
+          "swatch": "#2a221e",
           "tone": {
             "ro": "Ciocolată",
             "en": "Chocolate"
           }
         },
         {
-          "src": "coltar-eco-2-c2",
-          "chip": "/media/coltar-eco-2-c2-700.webp",
-          "swatch": "#50161d",
+          "src": "canapea-sonia-extensibila-c2",
+          "chip": "/media/canapea-sonia-extensibila-c2-700.webp",
+          "swatch": "#313131",
           "tone": {
-            "ro": "Bordo",
-            "en": "Burgundy"
-          }
-        },
-        {
-          "src": "coltar-eco-2-c3",
-          "chip": "/media/coltar-eco-2-c3-700.webp",
-          "swatch": "#8a827b",
-          "tone": {
-            "ro": "Greige",
-            "en": "Greige"
-          }
-        },
-        {
-          "src": "coltar-eco-2-c4",
-          "chip": "/media/coltar-eco-2-c4-700.webp",
-          "swatch": "#152f50",
-          "tone": {
-            "ro": "Bleumarin",
-            "en": "Navy"
-          }
-        },
-        {
-          "src": "coltar-eco-2-c5",
-          "chip": "/media/coltar-eco-2-c5-700.webp",
-          "swatch": "#4d4d38",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
+            "ro": "Antracit",
+            "en": "Charcoal"
           }
         }
-      ]
+      ],
+      "category": "sofas"
     },
     {
       "id": 7042,
@@ -771,6 +826,899 @@
         ]
       },
       "priceFrom": true
+    },
+    {
+      "id": 6699,
+      "slug": "coltar-extensibil-eco",
+      "name": "Colțar extensibil Eco",
+      "collections": [
+        "Colțare",
+        "Mobilier pentru dormitor",
+        "Mobilier pentru living"
+      ],
+      "price": 3800,
+      "currency": "RON",
+      "lead": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
+      "summary": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
+      "body": "Coltare extensibile ECO concepute pentru confortul tau.\n\nColtarul extensibil ECO este idealpentru orice tip de living sau birou; datorita formei sale poate fi asezat cuusurinta in unele spatii mai dificile cum ar fi colturile incaperilor deoarecestim ca de multe ori acestea raman neexploatate. In plus o data cu achizitiaacestuia beneficiati practic de un pat suplimentar pentru prietenii care decidsa ramana peste noapte sau cunoscuti, dar si de doua spatii de depozitare alenjeriei sau a altor obiecte mai putin folosite. Astfel prin coltareextensibile va ajutam sa economisiti spatiu si bani.\n\nAni de relaxare si confort prin coltare extensibile la comanda\n\nFiind confectionat pe o structuradin lemn masiv de fag menita sa-i asigure o rezistenta indelungata in timp,imbinari realizate cu multa grija, intarituri si lonjeroane din acelasi lemn decalitate superioara, poliuretan de mare densitate si perne umplute cu vata siliconata,aceste coltare extensibile se pot incadra cu usurinta in sfera mobilei lacomanda premium. In plus pentru orice coltar comandat beneficiati de 24 de lunigarantie.\n\nDimensiuni: 2400 x 1600 x 1050 mm\n\nExtensie: 2000 X 1600 mm\n\nColtarul are lada de depozitare\n\nColtare extensibile adaptate nevoilor tale\n\nStim ca vrei sa te simti bine in livingul tau, de aceea la noi confortul vine imbracat intr-o multitudine de forme si nuante, clientul avand posibilitatea de a-si alege dimensiunile, culoarea, stofa de acoperire precum si tipul de saltea dorita.\n\nAlege Coltare Extensibile ECO direct de la producator.\n\nOferta de pret este valabila pentru materialele si dimensiunile standard.\n\nPentru materialul Antelope, Emo si Salerno, preturile se fac in magazine.\n\nPentru orice detalii sau informatii suplimentare ne puteti contacta la telefonele de mai jos iar unul dintre consultantii nostri va fi mai mult decat incantat sa va ajute.",
+      "dimensions": [
+        {
+          "w": 2400,
+          "d": 1600,
+          "h": 1050
+        }
+      ],
+      "images": [
+        {
+          "src": "coltar-extensibil-eco-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+tJoQhty94pHAAA/vNu+/1W6gPujxBi8+5WKNvZTzc89H1YV1SCcSA4AAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDImCHfsykPGTtvmugAAP7zbvv9gkYKdWva3lv7EvTLTsjb3KxAJ6Gx7ffb+UDkAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAW+sSwvD4wVgaYAD+8277/YJGAeOXdZMu60yTc3bVlBpvAyINbMQpfoAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAW+vdPt+Q5diSsgAA/vNu+/2CRgsrv/i56z0vMW6ONfftlp8WkBCB91QAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+sCjfNuYhpAAP7za8jlXxOmZdEUfdbaJ9jAxvGQELnXgAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "https://mobilasamobi.ro/products/coltar-extensibil-eco/",
+      "cover": {
+        "src": "coltar-extensibil-eco-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "views": [
+        {
+          "src": "coltar-extensibil-eco-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-extensibil-eco-c1",
+          "chip": "/media/coltar-extensibil-eco-c1-700.webp",
+          "swatch": "#ae9988",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c2",
+          "chip": "/media/coltar-extensibil-eco-c2-700.webp",
+          "swatch": "#37331c",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c4",
+          "chip": "/media/coltar-extensibil-eco-c4-700.webp",
+          "swatch": "#1b2c47",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-studio-1",
+          "chip": "/media/coltar-extensibil-eco-studio-1-700.webp",
+          "swatch": "#353434",
+          "tone": {
+            "ro": "Antracit",
+            "en": "Charcoal"
+          }
+        },
+        {
+          "src": "coltar-extensibil-eco-c3",
+          "chip": "/media/coltar-extensibil-eco-c3-700.webp",
+          "swatch": "#2f221a",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        }
+      ],
+      "category": "sectionals",
+      "options": {
+        "kind": "spec",
+        "items": [
+          {
+            "ro": "Saltea Relaxa",
+            "en": "Relaxa mattress",
+            "price": 3800
+          },
+          {
+            "ro": "Memory foam",
+            "en": "Memory foam",
+            "price": 4700
+          }
+        ]
+      },
+      "priceFrom": true,
+      "schematic": {
+        "src": "/media/schema/coltar-extensibil-eco.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 240,
+          "depth": 160,
+          "seat": 80
+        }
+      }
+    },
+    {
+      "id": 6643,
+      "slug": "coltar-eco-2",
+      "name": "Colțar Eco 2",
+      "collections": [
+        "Colecția Dormitor",
+        "Colecția Hol",
+        "Colecția Modern",
+        "Colțare",
+        "Mobilier pentru birou",
+        "Mobilier pentru living"
+      ],
+      "price": 4500,
+      "currency": "RON",
+      "lead": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
+      "summary": "Colțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău.",
+      "body": "Colțar Eco 2 – confort, culoare și funcționalitate\n\nColțarul Eco 2 este o piesă de mobilier practică și plină de personalitate, creată pentru a aduce culoare și confort în livingul tău. Designul său modern, completat de pernele decorative cu imprimeuri florale, oferă un aer vesel și primitor oricărui spațiu, transformând sufrageria într-un loc perfect pentru relaxare.\n\nDatorită formei sale generoase, colțarul oferă spațiu amplu pentru întreaga familie, fiind ideal pentru momentele petrecute alături de cei dragi, seri de film sau discuții relaxante. În același timp, mecanismul de extensie îl transformă rapid într-un spațiu confortabil de dormit, fiind o soluție practică pentru oaspeți.\n\nStructura solidă și materialele atent alese asigură durabilitate și confort pe termen lung, iar pernele moi contribuie la o experiență plăcută de relaxare.\n\nColțarul Eco 2 se realizează la comandă, oferind posibilitatea de a alege dimensiunile, culorile și materialele, astfel încât să se potrivească perfect stilului și spațiului locuinței tale.\n\nUn colțar versatil și confortabil, gândit pentru a aduce funcționalitate, stil și un plus de energie în livingul tău.",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "coltar-eco-2-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDGfCHXX4jvl093qgAA/vNwIWbSxanJXHLxiQP0YwKcBM6IqMbTDgAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JYwAAW9N4eo0BrgTcAAD+83AaDhr3XHdyXTpY6Hyj7UVa4FPlqag7ORXuf0F3hMAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+sf1/7e9YoAAP7zbvv7d5bJLyHk2s9mNQ6DHTb7AgA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZQDG9CHfv8BTfpc/iuAA/vNvt+GvdceuDIM5pS1Etv5v8yug0FxkkyGjSIYAAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW871/Qzlz/iggAD+83AhZtM5FvwhG3QXdPVmaCrVbHCNBYwgoAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-eco-2-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAW/D01BH1ot4umAD+8357FO5ydDxtdm9ZXHk8GwbDM+J/lgmTeWWOK6trJPD9AAAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "https://mobilasamobi.ro/products/coltar-eco-2/",
+      "cover": {
+        "src": "coltar-eco-2-c6",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "category": "sectionals",
+      "views": [
+        {
+          "src": "coltar-eco-2-studio-1",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-eco-2-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-eco-2-c6",
+          "chip": "/media/coltar-eco-2-c6-700.webp",
+          "swatch": "#646233",
+          "tone": {
+            "ro": "Verde oliv, perne crem",
+            "en": "Olive, cream cushions"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c1",
+          "chip": "/media/coltar-eco-2-c1-700.webp",
+          "swatch": "#685647",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c2",
+          "chip": "/media/coltar-eco-2-c2-700.webp",
+          "swatch": "#50161d",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c3",
+          "chip": "/media/coltar-eco-2-c3-700.webp",
+          "swatch": "#8a827b",
+          "tone": {
+            "ro": "Greige",
+            "en": "Greige"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c4",
+          "chip": "/media/coltar-eco-2-c4-700.webp",
+          "swatch": "#152f50",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-eco-2-c5",
+          "chip": "/media/coltar-eco-2-c5-700.webp",
+          "swatch": "#4d4d38",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7002,
+      "slug": "pat-panouri-dreptunghiulare",
+      "name": "Pat panouri dreptunghiulare",
+      "collections": [
+        "Paturi"
+      ],
+      "price": 2500,
+      "currency": "RON",
+      "lead": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate",
+      "summary": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate\n\nAcest pat impresionează prin designul modern și ordonat al tăbliei, realizată din panouri dreptunghiulare tapițate, care adaugă un plus de eleganță și confort vizual dormitorului. Liniile curate și simetria formelor îl fac ușor de integrat în orice amenajare contemporană.\n\nConceput pentru relaxare deplină, patul este destinat unei saltele de 160 x 200 cm și dispune de o ladă de depozitare spațioasă, ideală pentru păstrarea lenjeriilor sau a altor obiecte necesare.\n\nUn avantaj important este sistemul culisant al saltelei (sus-jos), care oferă acces rapid și ușor la spațiul de depozitare, fără efort, menținând în același timp un grad ridicat de confort în utilizare.\n\nPractic, elegant și bine gândit, acest pat este alegerea ideală pentru un dormitor modern și organizat.",
+      "body": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate\n\nAcest pat impresionează prin designul modern și ordonat al tăbliei, realizată din panouri dreptunghiulare tapițate, care adaugă un plus de eleganță și confort vizual dormitorului. Liniile curate și simetria formelor îl fac ușor de integrat în orice amenajare contemporană.\n\nConceput pentru relaxare deplină, patul este destinat unei saltele de 160 x 200 cm și dispune de o ladă de depozitare spațioasă, ideală pentru păstrarea lenjeriilor sau a altor obiecte necesare.\n\nUn avantaj important este sistemul culisant al saltelei (sus-jos), care oferă acces rapid și ușor la spațiul de depozitare, fără efort, menținând în același timp un grad ridicat de confort în utilizare.\n\nPractic, elegant și bine gândit, acest pat este alegerea ideală pentru un dormitor modern și organizat.",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDE2B6R4R2gUbnHOcgAAP7zgri9d6UJeBgtgaPlw2Ao33CZTyqgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQC7AB6R4nrmhOvIenAA/vOC0GVwVbwA6LKiWktmDPLvQAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQBACdASoUAA8APu1orU6ppiSiMAgBMB2JYwC7AB6R4R/ZCU1pkhIKAAD+84KAKDwVT+jDXZYMevqe5aLJHD0Ih5hEAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaAAAUqU3r33Y8JcBJAAA/vOB8uyCK320pX27hYM58+wOfpekABtw62BfFkysvSA0lQFKnwAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZQAAUz70ice8zMI1OZAA/vN/nzxDfZsmVEa4LQj/hh8trs8cwkXO32Rfa+yHjCVjYA36AAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAUz6A2+JGuXQAAP7zgZvrMVV1EAqe9EDRDmN0Ge8P7cD+1r6fXMY/7AXFYWWbHKiaakfYAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+i+p0pg8NCAAP7xzW+jajRuiqrjN8a/gAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1iqk4ppaQiMAgBMB2JaQAAW+m0hSHIuAAA/vInO/rTw2fMZWFyHZdhtUQAAA==",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "https://mobilasamobi.ro/products/pat-panouri-dreptunghiulare/",
+      "cover": {
+        "src": "pat-panouri-dreptunghiulare-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "views": [
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view"
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-3",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter"
+        }
+      ],
+      "variants": [
+        {
+          "src": "pat-panouri-dreptunghiulare-studio-1",
+          "chip": "/media/pat-panouri-dreptunghiulare-studio-1-700.webp",
+          "swatch": "#afaba8",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c6",
+          "chip": "/media/pat-panouri-dreptunghiulare-c6-700.webp",
+          "swatch": "#a99283",
+          "tone": {
+            "ro": "Taupe",
+            "en": "Taupe"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c3",
+          "chip": "/media/pat-panouri-dreptunghiulare-c3-700.webp",
+          "swatch": "#cca29c",
+          "tone": {
+            "ro": "Roz pudră",
+            "en": "Powder pink"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c5",
+          "chip": "/media/pat-panouri-dreptunghiulare-c5-700.webp",
+          "swatch": "#b47d65",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c2",
+          "chip": "/media/pat-panouri-dreptunghiulare-c2-700.webp",
+          "swatch": "#ad791d",
+          "tone": {
+            "ro": "Muștar",
+            "en": "Mustard"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c1",
+          "chip": "/media/pat-panouri-dreptunghiulare-c1-700.webp",
+          "swatch": "#19434d",
+          "tone": {
+            "ro": "Petrol",
+            "en": "Teal"
+          }
+        },
+        {
+          "src": "pat-panouri-dreptunghiulare-c4",
+          "chip": "/media/pat-panouri-dreptunghiulare-c4-700.webp",
+          "swatch": "#3c1f2c",
+          "tone": {
+            "ro": "Prună",
+            "en": "Plum"
+          }
+        }
+      ],
+      "category": "beds",
+      "options": {
+        "kind": "size",
+        "items": [
+          {
+            "ro": "120 × 200",
+            "en": "120 × 200",
+            "measure": 120,
+            "price": 2500
+          },
+          {
+            "ro": "140 × 200",
+            "en": "140 × 200",
+            "measure": 140,
+            "price": 2600
+          },
+          {
+            "ro": "160 × 200",
+            "en": "160 × 200",
+            "measure": 160,
+            "price": 2900
+          },
+          {
+            "ro": "180 × 200",
+            "en": "180 × 200",
+            "measure": 180,
+            "price": 3300
+          },
+          {
+            "ro": "200 × 200",
+            "en": "200 × 200",
+            "measure": 200,
+            "price": 3700
+          }
+        ]
+      },
+      "priceFrom": true
+    },
+    {
+      "id": 6646,
+      "slug": "coltar-soria",
+      "name": "Colțar Soria",
+      "collections": [
+        "Colecția Dormitor",
+        "Colecția Hol",
+        "Colecția Modern",
+        "Colțare",
+        "Mobilier pentru birou",
+        "Mobilier pentru living"
+      ],
+      "price": 4800,
+      "currency": "RON",
+      "lead": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi.",
+      "summary": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi. Cu un design echilibrat și dimensiuni generoase, acest colțar transformă orice living într-un spațiu primitor, plin de confort și eleganță.",
+      "body": "Colțar extensibil Soria – locul unde confortul devine acasă\n\nColțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi. Cu un design echilibrat și dimensiuni generoase, acest colțar transformă orice living într-un spațiu primitor, plin de confort și eleganță.\n\nConstruit pe o structură solidă din lemn masiv de bine uscat, colțarul Soria oferă durabilitate și stabilitate în timp. Confortul este susținut de baza cu arcuri sinusoidale, extrem de elastice și rezistente, care asigură o susținere optimă pentru relaxare zilnică. La acestea se adaugă salteaua din poliuretan de înaltă densitate, completată de fibre moi, pentru o senzație plăcută și un nivel superior de confort.\n\nDatorită mecanismului de extensie, colțarul se transformă rapid într-un spațiu generos de dormit, ideal pentru momentele în care aveți oaspeți sau când doriți mai multă relaxare. În plus, lada de depozitare integrată oferă un spațiu practic pentru păstrarea lenjeriei sau a altor obiecte utile.\n\nÎmbrăcat în stofă de cea mai bună calitate, rezistentă la trafic intens, colțarul Soria este conceput pentru a rămâne frumos și confortabil în timp.\n\nDimensiuni colțar:2700 × 1700 mm\n\nSuprafață de dormit:2200 × 1600 mm\n\nColțarul Soria este alegerea ideală pentru cei care își doresc un mobilier elegant, durabil și extrem de confortabil – un loc unde fiecare moment de relaxare devine special.",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "coltar-soria-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk2lx82z3uE4AA/vNvt7o8Pcc1DXT09H5Qb5B9NrK5qBgHYdtnRfTHf8KAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQDImCHf49WWD9edC6AA/vNu+/zm+gF2jK8l1n9qU5Nsg5YLtAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+uW64l3T7bvgAD+826v90Ccv0hZqDyCXRrI+gAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwAAW+uXcnublKo/+AD+8277/VUhcmXQb5XLDV3rai1H71ooajXOOAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW+mQ+fCBqK2BAAD+8270crttghjqOHbFSqnA8QwMAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW9OKGdV3MlPeAAD+83AhZs8+WRxDKhGN+Weg8cRQ7569mOAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-soria-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+ze5w0TjikXMsAA/vNvoctmCGA/6+1lBbxusRay/8MFE3W4AAA=",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "https://mobilasamobi.ro/products/coltar-soria/",
+      "cover": {
+        "src": "coltar-soria-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "category": "sectionals",
+      "views": [
+        {
+          "src": "coltar-soria-studio-1",
+          "ro": "Deschis, pat",
+          "en": "Opened as a bed",
+          "in": "coltar-soria-c5"
+        },
+        {
+          "src": "coltar-soria-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-soria-c6"
+        }
+      ],
+      "variants": [
+        {
+          "src": "coltar-soria-c1",
+          "chip": "/media/coltar-soria-c1-700.webp",
+          "swatch": "#383a2b",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-soria-c2",
+          "chip": "/media/coltar-soria-c2-700.webp",
+          "swatch": "#1f1511",
+          "tone": {
+            "ro": "Ciocolată",
+            "en": "Chocolate"
+          }
+        },
+        {
+          "src": "coltar-soria-c3",
+          "chip": "/media/coltar-soria-c3-700.webp",
+          "swatch": "#7e544e",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "coltar-soria-c4",
+          "chip": "/media/coltar-soria-c4-700.webp",
+          "swatch": "#84817d",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "coltar-soria-c5",
+          "chip": "/media/coltar-soria-c5-700.webp",
+          "swatch": "#6d5f53",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "coltar-soria-c6",
+          "chip": "/media/coltar-soria-c6-700.webp",
+          "swatch": "#b3a395",
+          "tone": {
+            "ro": "Bej cu perne verde oliv",
+            "en": "Beige with olive cushions"
+          }
+        }
+      ],
+      "schematic": {
+        "src": "/media/schema/coltar-soria.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 270,
+          "depth": 170,
+          "depthBack": 110,
+          "seat": 85
+        }
+      },
+      "collection": "soria"
     },
     {
       "id": 250,
@@ -1053,29 +2001,32 @@
       "collection": "soria"
     },
     {
-      "id": 6699,
-      "slug": "coltar-extensibil-eco",
-      "name": "Colțar extensibil Eco",
+      "id": 6649,
+      "slug": "coltar-sam",
+      "name": "Colțar Sam",
       "collections": [
+        "Colecția Dormitor",
+        "Colecția Living",
+        "Colecția Modern",
         "Colțare",
-        "Mobilier pentru dormitor",
+        "Mobilier pentru birou",
         "Mobilier pentru living"
       ],
-      "price": 3800,
+      "price": 5000,
       "currency": "RON",
-      "lead": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
-      "summary": "Colțarul extensibil ECO este o piesă de mobilier practică și confortabilă, prevăzută cu sistem de extensie și ladă de depozitare, realizată pe structură solidă din lemn masiv, ideală pentru economisirea spațiului în orice living.",
-      "body": "Coltare extensibile ECO concepute pentru confortul tau.\n\nColtarul extensibil ECO este idealpentru orice tip de living sau birou; datorita formei sale poate fi asezat cuusurinta in unele spatii mai dificile cum ar fi colturile incaperilor deoarecestim ca de multe ori acestea raman neexploatate. In plus o data cu achizitiaacestuia beneficiati practic de un pat suplimentar pentru prietenii care decidsa ramana peste noapte sau cunoscuti, dar si de doua spatii de depozitare alenjeriei sau a altor obiecte mai putin folosite. Astfel prin coltareextensibile va ajutam sa economisiti spatiu si bani.\n\nAni de relaxare si confort prin coltare extensibile la comanda\n\nFiind confectionat pe o structuradin lemn masiv de fag menita sa-i asigure o rezistenta indelungata in timp,imbinari realizate cu multa grija, intarituri si lonjeroane din acelasi lemn decalitate superioara, poliuretan de mare densitate si perne umplute cu vata siliconata,aceste coltare extensibile se pot incadra cu usurinta in sfera mobilei lacomanda premium. In plus pentru orice coltar comandat beneficiati de 24 de lunigarantie.\n\nDimensiuni: 2400 x 1600 x 1050 mm\n\nExtensie: 2000 X 1600 mm\n\nColtarul are lada de depozitare\n\nColtare extensibile adaptate nevoilor tale\n\nStim ca vrei sa te simti bine in livingul tau, de aceea la noi confortul vine imbracat intr-o multitudine de forme si nuante, clientul avand posibilitatea de a-si alege dimensiunile, culoarea, stofa de acoperire precum si tipul de saltea dorita.\n\nAlege Coltare Extensibile ECO direct de la producator.\n\nOferta de pret este valabila pentru materialele si dimensiunile standard.\n\nPentru materialul Antelope, Emo si Salerno, preturile se fac in magazine.\n\nPentru orice detalii sau informatii suplimentare ne puteti contacta la telefonele de mai jos iar unul dintre consultantii nostri va fi mai mult decat incantat sa va ajute.",
+      "lead": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
+      "summary": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
+      "body": "Colțare living Sam – simplitate, eleganță și confort pentru casa ta\n\nGama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță. Prin liniile sale curate și designul minimalist, acest colțar aduce în sufragerie o atmosferă modernă, aerisită și primitoare – exact ceea ce își dorește orice locuință în care relaxarea și bunul gust sunt importante.\n\nÎntr-o lume în care timpul este prețios, colțarele Sam sunt concepute pentru oamenii activi care preferă un living ordonat, funcțional și fără elemente inutile. Designul său inteligent oferă atât un loc confortabil pentru momentele de relaxare, cât și o soluție practică pentru spațiile moderne.\n\nFie că îl folosiți ca o canapea perfectă pentru seri liniștite de toamnă, în care vă bucurați de o carte sau de un film, fie că îl transformați într-un pat confortabil pentru nopțile lungi de iarnă, colțarul Sam se adaptează cu ușurință nevoilor dumneavoastră. În plus, fiecare model din această gamă este prevăzut cu două spații generoase de depozitare, ideale pentru lenjerii, perne sau alte lucruri pe care doriți să le aveți la îndemână.\n\nDe ce să alegi colțarele extensibile Samobi?\n\nȘtim că alegerea mobilierului potrivit poate însemna mult timp petrecut în căutări prin magazine sau pe internet. Tocmai de aceea ne dorim ca, odată ajuns la noi, să găsești colțarul care ți se potrivește și de care să te bucuri ani de zile.\n\nColțarele extensibile Sam sunt realizate din materiale atent selecționate, precum:\n\n• \nstructură solidă din lemn masiv, pentru rezistență și stabilitate\n\n• \nsaltea relaxa, pentru un confort sporit\n\n• \nperne umplute cu vată siliconată, pentru o susținere plăcută\n\n• \nstofă de înaltă calitate, rezistentă în timp\n\nToate acestea contribuie la durabilitatea și confortul produsului, iar pentru siguranța dumneavoastră oferim 24 de luni garanție pentru fiecare colțar din această gamă.\n\nDimensiuni colțar extensibil Sam\n\n• \nDimensiuni: 2700 × 1800 × 900 mm\n\n• \nSuprafață de dormit: 1400 × 2100 mm\n\nColțarul este prevăzut cu ladă de depozitare, ideală pentru organizarea eficientă a spațiului.\n\nColțare extensibile personalizate\n\nPentru că fiecare locuință este diferită, oferim posibilitatea de a realiza colțare la comandă, adaptate preferințelor dumneavoastră. Puteți alege:\n\n• \nculoarea stofei\n\n• \ntipul de saltea\n\n• \nculoarea și umplutura pernelor\n\n• \ndimensiunile colțarului\n\nAstfel, mobilierul se va integra perfect în sufrageria sau biroul dumneavoastră.\n\nColțare extensibile la preț de producător\n\nNe dorim să avem o relație directă și transparentă cu clienții noștri, motiv pentru care comercializăm produsele direct de la producător, fără intermediari. Astfel, puteți achiziționa colțare extensibile de calitate la prețuri accesibile, beneficiind de un raport excelent între preț și durabilitate.\n\nColțarele Sam sunt create pentru a transforma livingul într-un spațiu în care confortul, funcționalitatea și designul modern se întâlnesc perfect.",
       "dimensions": [
         {
-          "w": 2400,
-          "d": 1600,
-          "h": 1050
+          "w": 2700,
+          "d": 1800,
+          "h": 900
         }
       ],
       "images": [
         {
-          "src": "coltar-extensibil-eco-c1",
+          "src": "coltar-sam-studio-1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1083,12 +2034,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAW+sqx6mhEAAA/vNrxtt/jKTqubUrUbdTdbgAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-extensibil-eco-c2",
+          "src": "coltar-sam-studio-2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1096,12 +2047,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+tJoQhty94pHAAA/vNu+/1W6gPujxBi8+5WKNvZTzc89H1YV1SCcSA4AAA=",
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6xgB6vLjHtAA/vNrxzVnO5n63n1u60kuAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "coltar-extensibil-eco-c4",
+          "src": "coltar-sam-studio-3",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1109,66 +2060,14 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZwDImCHfsykPGTtvmugAAP7zbvv9gkYKdWva3lv7EvTLTsjb3KxAJ6Gx7ffb+UDkAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-extensibil-eco-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+tg2/+m5kfq6QAA/vNuu+49f3CthXlDvYnKBU587jy01Fx61RuoAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-extensibil-eco-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAW+sSwvD4wVgaYAD+8277/YJGAeOXdZMu60yTc3bVlBpvAyINbMQpfoAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-extensibil-eco-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZwAAW+vdPt+Q5diSsgAA/vNu+/2CRgsrv/i56z0vMW6ONfftlp8WkBCB91QAAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-extensibil-eco-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+sCjfNuYhpAAP7za8jlXxOmZdEUfdbaJ9jAxvGQELnXgAAA",
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+sg7SBT0coAAP7za+yxp8ZhzXQtewPit+gAAA==",
           "editorial": true,
           "studio": true
         }
       ],
-      "source": "https://mobilasamobi.ro/products/coltar-extensibil-eco/",
+      "source": "https://mobilasamobi.ro/products/coltar-sam/",
       "cover": {
-        "src": "coltar-extensibil-eco-c1",
+        "src": "coltar-sam-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -1176,114 +2075,39 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwDGfCHf3XVLQjxofDAA/vNr7jJ+PCd7mY1NvfGWt9QA",
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAW+sqx6mhEAAA/vNrxtt/jKTqubUrUbdTdbgAAA==",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
-      "views": [
-        {
-          "src": "coltar-extensibil-eco-studio-2",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter"
-        },
-        {
-          "src": "coltar-extensibil-eco-studio-3",
-          "ro": "Vedere laterală",
-          "en": "Side view"
-        }
-      ],
-      "variants": [
-        {
-          "src": "coltar-extensibil-eco-c1",
-          "chip": "/media/coltar-extensibil-eco-c1-700.webp",
-          "swatch": "#ae9988",
-          "tone": {
-            "ro": "Bej",
-            "en": "Beige"
-          }
-        },
-        {
-          "src": "coltar-extensibil-eco-c2",
-          "chip": "/media/coltar-extensibil-eco-c2-700.webp",
-          "swatch": "#37331c",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
-          }
-        },
-        {
-          "src": "coltar-extensibil-eco-c4",
-          "chip": "/media/coltar-extensibil-eco-c4-700.webp",
-          "swatch": "#1b2c47",
-          "tone": {
-            "ro": "Bleumarin",
-            "en": "Navy"
-          }
-        },
-        {
-          "src": "coltar-extensibil-eco-studio-1",
-          "chip": "/media/coltar-extensibil-eco-studio-1-700.webp",
-          "swatch": "#353434",
-          "tone": {
-            "ro": "Antracit",
-            "en": "Charcoal"
-          }
-        },
-        {
-          "src": "coltar-extensibil-eco-c3",
-          "chip": "/media/coltar-extensibil-eco-c3-700.webp",
-          "swatch": "#2f221a",
-          "tone": {
-            "ro": "Ciocolată",
-            "en": "Chocolate"
-          }
-        }
-      ],
       "category": "sectionals",
-      "options": {
-        "kind": "spec",
-        "items": [
-          {
-            "ro": "Saltea Relaxa",
-            "en": "Relaxa mattress",
-            "price": 3800
-          },
-          {
-            "ro": "Memory foam",
-            "en": "Memory foam",
-            "price": 4700
-          }
-        ]
-      },
-      "priceFrom": true,
       "schematic": {
-        "src": "/media/schema/coltar-extensibil-eco.webp",
+        "src": "/media/schema/coltar-sam.webp",
         "w": 1536,
         "h": 1024,
         "cm": {
-          "width": 240,
-          "depth": 160,
+          "width": 270,
+          "depth": 180,
           "seat": 80
         }
       }
     },
     {
-      "id": 7088,
-      "slug": "canapea-sonia-extensibila",
-      "name": "Canapea Sonia extensibilă",
+      "id": 7189,
+      "slug": "coltar-cubic-fix",
+      "name": "Colțar Cubic fix",
       "collections": [
-        "Canapele"
+        "Colțare"
       ],
-      "price": 3800,
+      "price": 6000,
       "currency": "RON",
-      "lead": "",
-      "summary": "Canapea Sonia extensibila",
-      "body": "Canapea Sonia extensibila",
+      "lead": "Proporții îndrăznețe. Confort generos. Design fără compromis.",
+      "summary": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
+      "body": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
       "dimensions": [],
       "images": [
         {
-          "src": "canapea-sonia-extensibila-c1",
+          "src": "coltar-cubiq-studio-1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1291,12 +2115,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDDNCHfxoa3nJy6KAD+826vY2D9JNj/GEa5BzZegMoWxEyAAA==",
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-extensibila-c3",
+          "src": "coltar-cubic-fix-c1",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1304,12 +2128,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JaQAAW+uXEd4K0BdAAP7za+y6d5V0ySWj/7YAAAA=",
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8ALrV2u12jqampiYC0SzgGN6Id+9/ldxWBXUAA/vivynrCxUW0C81sv2UVqz6EsmmGD5AhAAAA",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-studio-1",
+          "src": "coltar-cubic-fix-c2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1317,12 +2141,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZQAAW9aFZdm8eSyAAP7zcCFm0sS2c21JK1KtMzSb3gfM+EHbUN+H4toOgAAA",
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAgCdASoUAA8AA4BaJYwAAudaNjtVjXpqaAD++K/KeovLdAwHzsuLu85eoKjdyD9UAAAA",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-extensibila-c6",
+          "src": "coltar-cubic-fix-c3",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1330,12 +2154,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk8ZclZsyZmmAA/vNvohz85R84E1drZkWJc8WRsuUiset7DjYTd31IQ3IAAA==",
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW9Nv9alsACkAAP7zcBoLx4o1HCLAR5SOtJ7oF/xys/Np7ESM5S4LNzbmugAAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-extensibila-c5",
+          "src": "coltar-cubic-fix-c4",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1343,12 +2167,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+hPbryjsQ3rgAD+83AaDhr2K9utZLjmhkgdbk3I24YArV+kkt/JmkklqJf4UAAA",
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9oRUAqzdrb6AAD+83AIi5xkAPU9Z6KQayW5G3FuzgcHA2a0MsBgWOAA",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-extensibila-c4",
+          "src": "coltar-cubic-fix-c5",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1356,12 +2180,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAW+hPfQr04syZmmAA/vNwGg4a9ivbmZr3RA8YaKVo86nvOyRtgq26KKWM8YhAAA==",
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYwC/WIjDApwUtCKaCpvQAP7zcBoLx4kvr1hQDAOFV7xn1Aimr5bL8NcocftBxe8KrJYAAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-extensibila-c2",
+          "src": "coltar-cubic-fix-c6",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1369,12 +2193,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JaQAAW+uXXi0RiFv8gAD+82+3thtMHAdqn3pqBd3shG/mAR4r4pP1lDzEpyAAAAA=",
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JYgC7IKnDA1wVzpkEz9DwAP7zb7e2FXHMwn5mOZv2L6z9yg9PTzt6RgJVyjcVg+ln/5cXAAA=",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-studio-2",
+          "src": "coltar-cubic-fix-c7",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1382,12 +2206,12 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQAAW+uXoeX9J4c4AAD+82+hvtIJrfW2v759gA4Fy6pOrnBCsdavMHpto7iGeYAAAA==",
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9W8OguBLGBXAAD+83AJtLiicUn1LCykdjN91cMrusSkKw8ta21Kd4L4goAAAA==",
           "editorial": true,
           "studio": true
         },
         {
-          "src": "canapea-sonia-studio-3",
+          "src": "coltar-cubiq-studio-2",
           "w": 2000,
           "h": 1500,
           "widths": [
@@ -1395,27 +2219,14 @@
             1200,
             700
           ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZQAASnd6uOElKGXGcAD+8d+Xl42QO7y9+xxdEW1BF0w/HBI24V3V63yZb3oAAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-sonia-studio-4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1mq04ppaQiMAgBMB2JZwAAUVwaoGbA/6XKjoAA/vOCtRPcLupZviPN7E6bh6cq0H9bwAAA",
+          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAUrok7PhMPqLAAAD+8eDDrrBz55XR0PQYQH6tM3h7lBHzNPk9MR9wa5gAAAA=",
           "editorial": true,
           "studio": true
         }
       ],
-      "source": "https://mobilasamobi.ro/products/canapea-sonia-extensibila/",
+      "source": "https://mobilasamobi.ro/products/coltar-cubic-fix/",
       "cover": {
-        "src": "canapea-sonia-extensibila-c1",
+        "src": "coltar-cubiq-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -1423,359 +2234,581 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDDNCHfxoa3nJy6KAD+826vY2D9JNj/GEa5BzZegMoWxEyAAA==",
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
         "editorial": true,
         "studio": true
       },
       "editorial": true,
-      "views": [
-        {
-          "src": "canapea-sonia-studio-2",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter",
-          "in": "canapea-sonia-studio-1"
-        },
-        {
-          "src": "canapea-sonia-studio-3",
-          "ro": "Deschisă, pat",
-          "en": "Opened as a bed",
-          "in": "canapea-sonia-studio-1"
-        },
-        {
-          "src": "canapea-sonia-studio-4",
-          "ro": "Ladă de depozitare",
-          "en": "Storage box",
-          "in": "canapea-sonia-studio-1"
-        }
-      ],
       "variants": [
         {
-          "src": "canapea-sonia-extensibila-c1",
-          "chip": "/media/canapea-sonia-extensibila-c1-700.webp",
-          "swatch": "#ac9885",
+          "src": "coltar-cubiq-studio-1",
+          "chip": "/media/coltar-cubiq-studio-1-700.webp",
+          "swatch": "#6b6a6a",
+          "tone": {
+            "ro": "Gri",
+            "en": "Grey"
+          }
+        },
+        {
+          "src": "coltar-cubic-fix-c1",
+          "chip": "/media/coltar-cubic-fix-c1-700.webp",
+          "swatch": "#97826f",
           "tone": {
             "ro": "Bej",
             "en": "Beige"
           }
         },
         {
-          "src": "canapea-sonia-extensibila-c3",
-          "chip": "/media/canapea-sonia-extensibila-c3-700.webp",
-          "swatch": "#b3b1af",
+          "src": "coltar-cubic-fix-c2",
+          "chip": "/media/coltar-cubic-fix-c2-700.webp",
+          "swatch": "#c79996",
           "tone": {
-            "ro": "Gri deschis",
-            "en": "Light grey"
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
           }
         },
         {
-          "src": "canapea-sonia-studio-1",
-          "chip": "/media/canapea-sonia-studio-1-700.webp",
-          "swatch": "#44676d",
-          "tone": {
-            "ro": "Petrol",
-            "en": "Teal"
-          }
-        },
-        {
-          "src": "canapea-sonia-extensibila-c6",
-          "chip": "/media/canapea-sonia-extensibila-c6-700.webp",
-          "swatch": "#30331f",
+          "src": "coltar-cubic-fix-c3",
+          "chip": "/media/coltar-cubic-fix-c3-700.webp",
+          "swatch": "#383720",
           "tone": {
             "ro": "Verde oliv",
             "en": "Olive"
           }
         },
         {
-          "src": "canapea-sonia-extensibila-c5",
-          "chip": "/media/canapea-sonia-extensibila-c5-700.webp",
-          "swatch": "#102016",
+          "src": "coltar-cubic-fix-c4",
+          "chip": "/media/coltar-cubic-fix-c4-700.webp",
+          "swatch": "#212c19",
           "tone": {
-            "ro": "Verde smarald",
-            "en": "Emerald"
+            "ro": "Verde închis",
+            "en": "Dark green"
           }
         },
         {
-          "src": "canapea-sonia-extensibila-c4",
-          "chip": "/media/canapea-sonia-extensibila-c4-700.webp",
-          "swatch": "#2a221e",
+          "src": "coltar-cubic-fix-c5",
+          "chip": "/media/coltar-cubic-fix-c5-700.webp",
+          "swatch": "#0b2b4e",
           "tone": {
-            "ro": "Ciocolată",
-            "en": "Chocolate"
+            "ro": "Albastru regal",
+            "en": "Royal blue"
           }
         },
         {
-          "src": "canapea-sonia-extensibila-c2",
-          "chip": "/media/canapea-sonia-extensibila-c2-700.webp",
-          "swatch": "#313131",
-          "tone": {
-            "ro": "Antracit",
-            "en": "Charcoal"
-          }
-        }
-      ],
-      "category": "sofas"
-    },
-    {
-      "id": 7002,
-      "slug": "pat-panouri-dreptunghiulare",
-      "name": "Pat panouri dreptunghiulare",
-      "collections": [
-        "Paturi"
-      ],
-      "price": 2500,
-      "currency": "RON",
-      "lead": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate",
-      "summary": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate\n\nAcest pat impresionează prin designul modern și ordonat al tăbliei, realizată din panouri dreptunghiulare tapițate, care adaugă un plus de eleganță și confort vizual dormitorului. Liniile curate și simetria formelor îl fac ușor de integrat în orice amenajare contemporană.\n\nConceput pentru relaxare deplină, patul este destinat unei saltele de 160 x 200 cm și dispune de o ladă de depozitare spațioasă, ideală pentru păstrarea lenjeriilor sau a altor obiecte necesare.\n\nUn avantaj important este sistemul culisant al saltelei (sus-jos), care oferă acces rapid și ușor la spațiul de depozitare, fără efort, menținând în același timp un grad ridicat de confort în utilizare.\n\nPractic, elegant și bine gândit, acest pat este alegerea ideală pentru un dormitor modern și organizat.",
-      "body": "Pat cu panouri dreptunghiulare – echilibru perfect între stil și funcționalitate\n\nAcest pat impresionează prin designul modern și ordonat al tăbliei, realizată din panouri dreptunghiulare tapițate, care adaugă un plus de eleganță și confort vizual dormitorului. Liniile curate și simetria formelor îl fac ușor de integrat în orice amenajare contemporană.\n\nConceput pentru relaxare deplină, patul este destinat unei saltele de 160 x 200 cm și dispune de o ladă de depozitare spațioasă, ideală pentru păstrarea lenjeriilor sau a altor obiecte necesare.\n\nUn avantaj important este sistemul culisant al saltelei (sus-jos), care oferă acces rapid și ușor la spațiul de depozitare, fără efort, menținând în același timp un grad ridicat de confort în utilizare.\n\nPractic, elegant și bine gândit, acest pat este alegerea ideală pentru un dormitor modern și organizat.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c6",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZwDE2B6R4R2gUbnHOcgAAP7zgri9d6UJeBgtgaPlw2Ao33CZTyqgAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JZQC7AB6R4nrmhOvIenAA/vOC0GVwVbwA6LKiWktmDPLvQAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c5",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQBACdASoUAA8APu1orU6ppiSiMAgBMB2JYwC7AB6R4R/ZCU1pkhIKAAD+84KAKDwVT+jDXZYMevqe5aLJHD0Ih5hEAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaAAAUqU3r33Y8JcBJAAA/vOB8uyCK320pX27hYM58+wOfpekABtw62BfFkysvSA0lQFKnwAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JZQAAUz70ice8zMI1OZAA/vN/nzxDfZsmVEa4LQj/hh8trs8cwkXO32Rfa+yHjCVjYA36AAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAUz6A2+JGuXQAAP7zgZvrMVV1EAqe9EDRDmN0Ge8P7cD+1r6fXMY/7AXFYWWbHKiaakfYAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JaQAAW+i+p0pg8NCAAP7xzW+jajRuiqrjN8a/gAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1iqk4ppaQiMAgBMB2JaQAAW+m0hSHIuAAA/vInO/rTw2fMZWFyHZdhtUQAAA==",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/pat-panouri-dreptunghiulare/",
-      "cover": {
-        "src": "pat-panouri-dreptunghiulare-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUz70xSbV4VmgAAD+84LQg6M2/Zuh0EB5eu68gAAA",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "views": [
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-2",
-          "ro": "Vedere laterală",
-          "en": "Side view"
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-3",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter"
-        }
-      ],
-      "variants": [
-        {
-          "src": "pat-panouri-dreptunghiulare-studio-1",
-          "chip": "/media/pat-panouri-dreptunghiulare-studio-1-700.webp",
-          "swatch": "#afaba8",
-          "tone": {
-            "ro": "Gri deschis",
-            "en": "Light grey"
-          }
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c6",
-          "chip": "/media/pat-panouri-dreptunghiulare-c6-700.webp",
-          "swatch": "#a99283",
-          "tone": {
-            "ro": "Taupe",
-            "en": "Taupe"
-          }
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c3",
-          "chip": "/media/pat-panouri-dreptunghiulare-c3-700.webp",
-          "swatch": "#cca29c",
-          "tone": {
-            "ro": "Roz pudră",
-            "en": "Powder pink"
-          }
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c5",
-          "chip": "/media/pat-panouri-dreptunghiulare-c5-700.webp",
-          "swatch": "#b47d65",
+          "src": "coltar-cubic-fix-c6",
+          "chip": "/media/coltar-cubic-fix-c6-700.webp",
+          "swatch": "#7f3a23",
           "tone": {
             "ro": "Teracotă",
             "en": "Terracotta"
           }
         },
         {
-          "src": "pat-panouri-dreptunghiulare-c2",
-          "chip": "/media/pat-panouri-dreptunghiulare-c2-700.webp",
-          "swatch": "#ad791d",
+          "src": "coltar-cubic-fix-c7",
+          "chip": "/media/coltar-cubic-fix-c7-700.webp",
+          "swatch": "#2d2017",
           "tone": {
-            "ro": "Muștar",
-            "en": "Mustard"
-          }
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c1",
-          "chip": "/media/pat-panouri-dreptunghiulare-c1-700.webp",
-          "swatch": "#19434d",
-          "tone": {
-            "ro": "Petrol",
-            "en": "Teal"
-          }
-        },
-        {
-          "src": "pat-panouri-dreptunghiulare-c4",
-          "chip": "/media/pat-panouri-dreptunghiulare-c4-700.webp",
-          "swatch": "#3c1f2c",
-          "tone": {
-            "ro": "Prună",
-            "en": "Plum"
+            "ro": "Maro închis",
+            "en": "Dark brown"
           }
         }
       ],
-      "category": "beds",
-      "options": {
-        "kind": "size",
-        "items": [
-          {
-            "ro": "120 × 200",
-            "en": "120 × 200",
-            "measure": 120,
-            "price": 2500
-          },
-          {
-            "ro": "140 × 200",
-            "en": "140 × 200",
-            "measure": 140,
-            "price": 2600
-          },
-          {
-            "ro": "160 × 200",
-            "en": "160 × 200",
-            "measure": 160,
-            "price": 2900
-          },
-          {
-            "ro": "180 × 200",
-            "en": "180 × 200",
-            "measure": 180,
-            "price": 3300
-          },
-          {
-            "ro": "200 × 200",
-            "en": "200 × 200",
-            "measure": 200,
-            "price": 3700
-          }
-        ]
+      "views": [
+        {
+          "src": "coltar-cubiq-studio-2",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "coltar-cubiq-studio-1"
+        }
+      ],
+      "category": "sectionals",
+      "schematic": {
+        "src": "/media/schema/coltar-cubic-fix.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 300,
+          "depth": 155,
+          "seat": 85
+        }
       },
-      "priceFrom": true
+      "collection": "cubic"
+    },
+    {
+      "id": "valo-canapea-cubic",
+      "slug": "canapea-cubic",
+      "name": "Canapea Cubic",
+      "collections": [],
+      "price": 5300,
+      "currency": "RON",
+      "lead": "Simplă în formă. Generoasă în confort.",
+      "summary": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
+      "body": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "canapea-cubiq-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDImCHf+5IWcSrdi4AA/vNr+T88+WdbWTPmyatdox5eHvlMgAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYwAAW+uYR121pp/DIAD+82vHACwxu+UMdp5060WWNqDoAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQC+SCHfzsPb0LAtJWAA/vNr/NDbD2ltw9BLaVI/RCQdFFeLWZWH0mHgAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JQBdkERhga9ejEZuyAuUAAP7za/zQzpHju0KgGJZYZkFwpYFTHOJv3kyCLHtcg55IAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JYgC/WIjDA17RP+fjRVboAP7zbvv862SKNXqYbZQdBn4D0asxVC3WxgiAuKoUbXJHDmNjLAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+sSVaiy98utIAD+8277/YJGCtQMolreSGQOhPrJ1JbPcEVWhm5hyFEsVQAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c7",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZQDG9CHf/hZvXfubCaZgAP7zbvv9pEgNsoL6bY6rgpJN0zlv3NxTZCcFkgLjGME6EJCgAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-c8",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYwAAW+vU8wBDQ5e+XXDgAP7zbvv9mPe0xEvsrDftgYMYb3ZcQzc5vN667ePR5dsL1biEAAA=",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+ziGiXnNjv1rAAA/vNu+/b3etlE5508gAAAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "canapea-cubiq-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUYJeP6EaXETgAAD+84J3lQ+7ALBXjoeN3zgJTN/bBLQYHgAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "canapea-cubiq-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "variants": [
+        {
+          "src": "canapea-cubiq-studio-1",
+          "chip": "/media/canapea-cubiq-studio-1-700.webp",
+          "swatch": "#979596",
+          "tone": {
+            "ro": "Gri deschis",
+            "en": "Light grey"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c1",
+          "chip": "/media/canapea-cubiq-c1-700.webp",
+          "swatch": "#93806d",
+          "tone": {
+            "ro": "Bej",
+            "en": "Beige"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c2",
+          "chip": "/media/canapea-cubiq-c2-700.webp",
+          "swatch": "#cb9996",
+          "tone": {
+            "ro": "Roz prăfuit",
+            "en": "Dusty rose"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c3",
+          "chip": "/media/canapea-cubiq-c3-700.webp",
+          "swatch": "#605552",
+          "tone": {
+            "ro": "Gri șifonat",
+            "en": "Washed grey"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c4",
+          "chip": "/media/canapea-cubiq-c4-700.webp",
+          "swatch": "#996234",
+          "tone": {
+            "ro": "Coniac",
+            "en": "Cognac"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c5",
+          "chip": "/media/canapea-cubiq-c5-700.webp",
+          "swatch": "#8b4229",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c6",
+          "chip": "/media/canapea-cubiq-c6-700.webp",
+          "swatch": "#31301a",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c7",
+          "chip": "/media/canapea-cubiq-c7-700.webp",
+          "swatch": "#061833",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "canapea-cubiq-c8",
+          "chip": "/media/canapea-cubiq-c8-700.webp",
+          "swatch": "#3b1318",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        }
+      ],
+      "views": [
+        {
+          "src": "canapea-cubiq-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "canapea-cubiq-studio-1"
+        },
+        {
+          "src": "canapea-cubiq-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "canapea-cubiq-studio-1"
+        }
+      ],
+      "category": "sofas",
+      "collection": "cubic"
+    },
+    {
+      "id": "valo-coltar-vallo",
+      "slug": "coltar-vallo",
+      "name": "Colțar Vallo",
+      "collections": [],
+      "price": 5500,
+      "currency": "RON",
+      "lead": "",
+      "summary": "",
+      "body": "",
+      "dimensions": [],
+      "images": [
+        {
+          "src": "coltar-vallo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYgCsINiDApu+LLOnAm4AAP7zcBoN/jIn02J5ZyMuMOim9e2PkSkH2VdfUENPrrewWMAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-c2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwAAW9N9WInmJwAAAP7zcBoOGu53lWdOdpBHFM6o6PSkv94oXoAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-c3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHYK468EkxNMwAA/vNwCJEKyuCogssS/5ppT38cWndqCL+B2nywAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-c4",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQAAW9N9WInmJy4AAP7zcAiRCtbvfSAXOEL0CN292CPbyM/4ESkM9HLeQwAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-c5",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW9W75WBdicagAP7zcAiRCsrgqILLgzDDHDZs0t03DhvnvpEOMmwAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-studio-2",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC7ACHahqw69QAA/vNwIWbKHw3b0sBGtLMag/8Zc7FsRpLAAA==",
+          "editorial": true,
+          "studio": true
+        },
+        {
+          "src": "coltar-vallo-studio-3",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwC/OCHf3BuyOmJwm4AA/vN1KwOuMVLprWP96QiMZWxtmCXY2LrjTn/0rI+wQqoIShAA",
+          "editorial": true,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "cover": {
+        "src": "coltar-vallo-studio-1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
+        "editorial": true,
+        "studio": true
+      },
+      "editorial": true,
+      "variants": [
+        {
+          "src": "coltar-vallo-studio-1",
+          "chip": "/media/coltar-vallo-studio-1-700.webp",
+          "swatch": "#978269",
+          "tone": {
+            "ro": "Crem",
+            "en": "Cream"
+          }
+        },
+        {
+          "src": "coltar-vallo-c1",
+          "chip": "/media/coltar-vallo-c1-700.webp",
+          "swatch": "#7e3118",
+          "tone": {
+            "ro": "Teracotă",
+            "en": "Terracotta"
+          }
+        },
+        {
+          "src": "coltar-vallo-c2",
+          "chip": "/media/coltar-vallo-c2-700.webp",
+          "swatch": "#2f2d17",
+          "tone": {
+            "ro": "Verde oliv",
+            "en": "Olive"
+          }
+        },
+        {
+          "src": "coltar-vallo-c3",
+          "chip": "/media/coltar-vallo-c3-700.webp",
+          "swatch": "#041830",
+          "tone": {
+            "ro": "Bleumarin",
+            "en": "Navy"
+          }
+        },
+        {
+          "src": "coltar-vallo-c4",
+          "chip": "/media/coltar-vallo-c4-700.webp",
+          "swatch": "#320f14",
+          "tone": {
+            "ro": "Bordo",
+            "en": "Burgundy"
+          }
+        },
+        {
+          "src": "coltar-vallo-c5",
+          "chip": "/media/coltar-vallo-c5-700.webp",
+          "swatch": "#21160f",
+          "tone": {
+            "ro": "Maro închis",
+            "en": "Dark brown"
+          }
+        }
+      ],
+      "views": [
+        {
+          "src": "coltar-vallo-studio-2",
+          "ro": "Trei sferturi",
+          "en": "Three-quarter",
+          "in": "coltar-vallo-studio-1"
+        },
+        {
+          "src": "coltar-vallo-studio-3",
+          "ro": "Vedere laterală",
+          "en": "Side view",
+          "in": "coltar-vallo-studio-1"
+        }
+      ],
+      "category": "sectionals",
+      "collection": "vallo"
     },
     {
       "id": 6996,
@@ -2570,229 +3603,6 @@
           }
         }
       ],
-      "collection": "soria"
-    },
-    {
-      "id": 6646,
-      "slug": "coltar-soria",
-      "name": "Colțar Soria",
-      "collections": [
-        "Colecția Dormitor",
-        "Colecția Hol",
-        "Colecția Modern",
-        "Colțare",
-        "Mobilier pentru birou",
-        "Mobilier pentru living"
-      ],
-      "price": 4800,
-      "currency": "RON",
-      "lead": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi.",
-      "summary": "Colțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi. Cu un design echilibrat și dimensiuni generoase, acest colțar transformă orice living într-un spațiu primitor, plin de confort și eleganță.",
-      "body": "Colțar extensibil Soria – locul unde confortul devine acasă\n\nColțarul extensibil Soria este mai mult decât o piesă de mobilier – este spațiul în care începe relaxarea după o zi lungă și locul unde se adună momentele frumoase petrecute alături de cei dragi. Cu un design echilibrat și dimensiuni generoase, acest colțar transformă orice living într-un spațiu primitor, plin de confort și eleganță.\n\nConstruit pe o structură solidă din lemn masiv de bine uscat, colțarul Soria oferă durabilitate și stabilitate în timp. Confortul este susținut de baza cu arcuri sinusoidale, extrem de elastice și rezistente, care asigură o susținere optimă pentru relaxare zilnică. La acestea se adaugă salteaua din poliuretan de înaltă densitate, completată de fibre moi, pentru o senzație plăcută și un nivel superior de confort.\n\nDatorită mecanismului de extensie, colțarul se transformă rapid într-un spațiu generos de dormit, ideal pentru momentele în care aveți oaspeți sau când doriți mai multă relaxare. În plus, lada de depozitare integrată oferă un spațiu practic pentru păstrarea lenjeriei sau a altor obiecte utile.\n\nÎmbrăcat în stofă de cea mai bună calitate, rezistentă la trafic intens, colțarul Soria este conceput pentru a rămâne frumos și confortabil în timp.\n\nDimensiuni colțar:2700 × 1700 mm\n\nSuprafață de dormit:2200 × 1600 mm\n\nColțarul Soria este alegerea ideală pentru cei care își doresc un mobilier elegant, durabil și extrem de confortabil – un loc unde fiecare moment de relaxare devine special.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "coltar-soria-c1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-c2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APu1orU6ppiSiMAgBMB2JZwAAW+zk2lx82z3uE4AA/vNvt7o8Pcc1DXT09H5Qb5B9NrK5qBgHYdtnRfTHf8KAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQDImCHf49WWD9edC6AA/vNu+/zm+gF2jK8l1n9qU5Nsg5YLtAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-c4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+uW64l3T7bvgAD+826v90Ccv0hZqDyCXRrI+gAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-c5",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZwAAW+uXcnublKo/+AD+8277/VUhcmXQb5XLDV3rai1H71ooajXOOAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-c6",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW+mQ+fCBqK2BAAD+8270crttghjqOHbFSqnA8QwMAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW9OKGdV3MlPeAAD+83AhZs8+WRxDKhGN+Weg8cRQ7569mOAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-soria-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JZwAAW+ze5w0TjikXMsAA/vNvoctmCGA/6+1lBbxusRay/8MFE3W4AAA=",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/coltar-soria/",
-      "cover": {
-        "src": "coltar-soria-c1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9aShDwjryqAAP7zcCFm05i2xh6l6qRQwzLUGXQ5Bule4HuPd5iDsHAA",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "category": "sectionals",
-      "views": [
-        {
-          "src": "coltar-soria-studio-1",
-          "ro": "Deschis, pat",
-          "en": "Opened as a bed",
-          "in": "coltar-soria-c5"
-        },
-        {
-          "src": "coltar-soria-studio-2",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter",
-          "in": "coltar-soria-c6"
-        }
-      ],
-      "variants": [
-        {
-          "src": "coltar-soria-c1",
-          "chip": "/media/coltar-soria-c1-700.webp",
-          "swatch": "#383a2b",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
-          }
-        },
-        {
-          "src": "coltar-soria-c2",
-          "chip": "/media/coltar-soria-c2-700.webp",
-          "swatch": "#1f1511",
-          "tone": {
-            "ro": "Ciocolată",
-            "en": "Chocolate"
-          }
-        },
-        {
-          "src": "coltar-soria-c3",
-          "chip": "/media/coltar-soria-c3-700.webp",
-          "swatch": "#7e544e",
-          "tone": {
-            "ro": "Roz prăfuit",
-            "en": "Dusty rose"
-          }
-        },
-        {
-          "src": "coltar-soria-c4",
-          "chip": "/media/coltar-soria-c4-700.webp",
-          "swatch": "#84817d",
-          "tone": {
-            "ro": "Gri deschis",
-            "en": "Light grey"
-          }
-        },
-        {
-          "src": "coltar-soria-c5",
-          "chip": "/media/coltar-soria-c5-700.webp",
-          "swatch": "#6d5f53",
-          "tone": {
-            "ro": "Bej",
-            "en": "Beige"
-          }
-        },
-        {
-          "src": "coltar-soria-c6",
-          "chip": "/media/coltar-soria-c6-700.webp",
-          "swatch": "#b3a395",
-          "tone": {
-            "ro": "Bej cu perne verde oliv",
-            "en": "Beige with olive cushions"
-          }
-        }
-      ],
-      "schematic": {
-        "src": "/media/schema/coltar-soria.webp",
-        "w": 1536,
-        "h": 1024,
-        "cm": {
-          "width": 270,
-          "depth": 170,
-          "depthBack": 110,
-          "seat": 85
-        }
-      },
       "collection": "soria"
     },
     {
@@ -4278,98 +5088,6 @@
         "cm": {
           "width": 285,
           "depth": 135,
-          "seat": 80
-        }
-      }
-    },
-    {
-      "id": 6649,
-      "slug": "coltar-sam",
-      "name": "Colțar Sam",
-      "collections": [
-        "Colecția Dormitor",
-        "Colecția Living",
-        "Colecția Modern",
-        "Colțare",
-        "Mobilier pentru birou",
-        "Mobilier pentru living"
-      ],
-      "price": 5000,
-      "currency": "RON",
-      "lead": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
-      "summary": "Gama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță.",
-      "body": "Colțare living Sam – simplitate, eleganță și confort pentru casa ta\n\nGama de colțare living Sam este creată pentru cei care apreciază echilibrul dintre simplitate, confort și eleganță. Prin liniile sale curate și designul minimalist, acest colțar aduce în sufragerie o atmosferă modernă, aerisită și primitoare – exact ceea ce își dorește orice locuință în care relaxarea și bunul gust sunt importante.\n\nÎntr-o lume în care timpul este prețios, colțarele Sam sunt concepute pentru oamenii activi care preferă un living ordonat, funcțional și fără elemente inutile. Designul său inteligent oferă atât un loc confortabil pentru momentele de relaxare, cât și o soluție practică pentru spațiile moderne.\n\nFie că îl folosiți ca o canapea perfectă pentru seri liniștite de toamnă, în care vă bucurați de o carte sau de un film, fie că îl transformați într-un pat confortabil pentru nopțile lungi de iarnă, colțarul Sam se adaptează cu ușurință nevoilor dumneavoastră. În plus, fiecare model din această gamă este prevăzut cu două spații generoase de depozitare, ideale pentru lenjerii, perne sau alte lucruri pe care doriți să le aveți la îndemână.\n\nDe ce să alegi colțarele extensibile Samobi?\n\nȘtim că alegerea mobilierului potrivit poate însemna mult timp petrecut în căutări prin magazine sau pe internet. Tocmai de aceea ne dorim ca, odată ajuns la noi, să găsești colțarul care ți se potrivește și de care să te bucuri ani de zile.\n\nColțarele extensibile Sam sunt realizate din materiale atent selecționate, precum:\n\n• \nstructură solidă din lemn masiv, pentru rezistență și stabilitate\n\n• \nsaltea relaxa, pentru un confort sporit\n\n• \nperne umplute cu vată siliconată, pentru o susținere plăcută\n\n• \nstofă de înaltă calitate, rezistentă în timp\n\nToate acestea contribuie la durabilitatea și confortul produsului, iar pentru siguranța dumneavoastră oferim 24 de luni garanție pentru fiecare colțar din această gamă.\n\nDimensiuni colțar extensibil Sam\n\n• \nDimensiuni: 2700 × 1800 × 900 mm\n\n• \nSuprafață de dormit: 1400 × 2100 mm\n\nColțarul este prevăzut cu ladă de depozitare, ideală pentru organizarea eficientă a spațiului.\n\nColțare extensibile personalizate\n\nPentru că fiecare locuință este diferită, oferim posibilitatea de a realiza colțare la comandă, adaptate preferințelor dumneavoastră. Puteți alege:\n\n• \nculoarea stofei\n\n• \ntipul de saltea\n\n• \nculoarea și umplutura pernelor\n\n• \ndimensiunile colțarului\n\nAstfel, mobilierul se va integra perfect în sufrageria sau biroul dumneavoastră.\n\nColțare extensibile la preț de producător\n\nNe dorim să avem o relație directă și transparentă cu clienții noștri, motiv pentru care comercializăm produsele direct de la producător, fără intermediari. Astfel, puteți achiziționa colțare extensibile de calitate la prețuri accesibile, beneficiind de un raport excelent între preț și durabilitate.\n\nColțarele Sam sunt create pentru a transforma livingul într-un spațiu în care confortul, funcționalitatea și designul modern se întâlnesc perfect.",
-      "dimensions": [
-        {
-          "w": 2700,
-          "d": 1800,
-          "h": 900
-        }
-      ],
-      "images": [
-        {
-          "src": "coltar-sam-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAW+sqx6mhEAAA/vNrxtt/jKTqubUrUbdTdbgAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-sam-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlnAABc6xgB6vLjHtAA/vNrxzVnO5n63n1u60kuAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-sam-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwAAW+sg7SBT0coAAP7za+yxp8ZhzXQtewPit+gAAA==",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/coltar-sam/",
-      "cover": {
-        "src": "coltar-sam-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA8APu1mq04ppaQiMAgBMB2JaQAAW+sqx6mhEAAA/vNrxtt/jKTqubUrUbdTdbgAAA==",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "category": "sectionals",
-      "schematic": {
-        "src": "/media/schema/coltar-sam.webp",
-        "w": 1536,
-        "h": 1024,
-        "cm": {
-          "width": 270,
-          "depth": 180,
           "seat": 80
         }
       }
@@ -6034,248 +6752,6 @@
       "category": "sofas"
     },
     {
-      "id": 7189,
-      "slug": "coltar-cubic-fix",
-      "name": "Colțar Cubic fix",
-      "collections": [
-        "Colțare"
-      ],
-      "price": 6000,
-      "currency": "RON",
-      "lead": "Proporții îndrăznețe. Confort generos. Design fără compromis.",
-      "summary": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
-      "body": "Proporții îndrăznețe. Confort generos. Design fără compromis.\n\nO expresie a minimalismului generos. Colțarul CUBIC impresionează prin proporțiile sale ample și șezutul lat, creat pentru momente lungi de relaxare. Buretele de înaltă calitate oferă o senzație moale și confortabilă, în timp ce designul cu linii curate păstrează o prezență elegantă și contemporană.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "coltar-cubiq-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAA8ALrV2u12jqampiYC0SzgGN6Id+9/ldxWBXUAA/vivynrCxUW0C81sv2UVqz6EsmmGD5AhAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAgCdASoUAA8AA4BaJYwAAudaNjtVjXpqaAD++K/KeovLdAwHzsuLu85eoKjdyD9UAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW9Nv9alsACkAAP7zcBoLx4o1HCLAR5SOtJ7oF/xys/Np7ESM5S4LNzbmugAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9oRUAqzdrb6AAD+83AIi5xkAPU9Z6KQayW5G3FuzgcHA2a0MsBgWOAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c5",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYwC/WIjDApwUtCKaCpvQAP7zcBoLx4kvr1hQDAOFV7xn1Aimr5bL8NcocftBxe8KrJYAAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c6",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JYgC7IKnDA1wVzpkEz9DwAP7zb7e2FXHMwn5mOZv2L6z9yg9PTzt6RgJVyjcVg+ln/5cXAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubic-fix-c7",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZwAAW9W8OguBLGBXAAD+83AJtLiicUn1LCykdjN91cMrusSkKw8ta21Kd4L4goAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-cubiq-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JaQAAUrok7PhMPqLAAAD+8eDDrrBz55XR0PQYQH6tM3h7lBHzNPk9MR9wa5gAAAA=",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/coltar-cubic-fix/",
-      "cover": {
-        "src": "coltar-cubiq-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA8APu1Ct1apoqakGAEwHYlpAABc02/1p2wDkgAA/vNwIWbRxnC9xY9Y0BDV6z1kwiyAAAA=",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "variants": [
-        {
-          "src": "coltar-cubiq-studio-1",
-          "chip": "/media/coltar-cubiq-studio-1-700.webp",
-          "swatch": "#6b6a6a",
-          "tone": {
-            "ro": "Gri",
-            "en": "Grey"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c1",
-          "chip": "/media/coltar-cubic-fix-c1-700.webp",
-          "swatch": "#97826f",
-          "tone": {
-            "ro": "Bej",
-            "en": "Beige"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c2",
-          "chip": "/media/coltar-cubic-fix-c2-700.webp",
-          "swatch": "#c79996",
-          "tone": {
-            "ro": "Roz prăfuit",
-            "en": "Dusty rose"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c3",
-          "chip": "/media/coltar-cubic-fix-c3-700.webp",
-          "swatch": "#383720",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c4",
-          "chip": "/media/coltar-cubic-fix-c4-700.webp",
-          "swatch": "#212c19",
-          "tone": {
-            "ro": "Verde închis",
-            "en": "Dark green"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c5",
-          "chip": "/media/coltar-cubic-fix-c5-700.webp",
-          "swatch": "#0b2b4e",
-          "tone": {
-            "ro": "Albastru regal",
-            "en": "Royal blue"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c6",
-          "chip": "/media/coltar-cubic-fix-c6-700.webp",
-          "swatch": "#7f3a23",
-          "tone": {
-            "ro": "Teracotă",
-            "en": "Terracotta"
-          }
-        },
-        {
-          "src": "coltar-cubic-fix-c7",
-          "chip": "/media/coltar-cubic-fix-c7-700.webp",
-          "swatch": "#2d2017",
-          "tone": {
-            "ro": "Maro închis",
-            "en": "Dark brown"
-          }
-        }
-      ],
-      "views": [
-        {
-          "src": "coltar-cubiq-studio-2",
-          "ro": "Vedere laterală",
-          "en": "Side view",
-          "in": "coltar-cubiq-studio-1"
-        }
-      ],
-      "category": "sectionals",
-      "schematic": {
-        "src": "/media/schema/coltar-cubic-fix.webp",
-        "w": 1536,
-        "h": 1024,
-        "cm": {
-          "width": 300,
-          "depth": 155,
-          "seat": 85
-        }
-      },
-      "collection": "cubic"
-    },
-    {
       "id": 7191,
       "slug": "pat-cubic",
       "name": "Pat Cubic",
@@ -6858,277 +7334,6 @@
       ]
     },
     {
-      "id": "valo-canapea-cubiq",
-      "slug": "canapea-cubiq",
-      "name": "Canapea Cubiq",
-      "collections": [],
-      "price": 5300,
-      "currency": "RON",
-      "lead": "Simplă în formă. Generoasă în confort.",
-      "summary": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
-      "body": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "canapea-cubiq-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDImCHf+5IWcSrdi4AA/vNr+T88+WdbWTPmyatdox5eHvlMgAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYwAAW+uYR121pp/DIAD+82vHACwxu+UMdp5060WWNqDoAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1qrU8ppiQiMAgBMB2JZQC+SCHfzsPb0LAtJWAA/vNr/NDbD2ltw9BLaVI/RCQdFFeLWZWH0mHgAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JQBdkERhga9ejEZuyAuUAAP7za/zQzpHju0KgGJZYZkFwpYFTHOJv3kyCLHtcg55IAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c5",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA8APu1orU6ppiSiMAgBMB2JYgC/WIjDA17RP+fjRVboAP7zbvv862SKNXqYbZQdBn4D0asxVC3WxgiAuKoUbXJHDmNjLAAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c6",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwAAW+sSVaiy98utIAD+8277/YJGCtQMolreSGQOhPrJ1JbPcEVWhm5hyFEsVQAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c7",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1krU6ppaSiMAgBMB2JZQDG9CHf/hZvXfubCaZgAP7zbvv9pEgNsoL6bY6rgpJN0zlv3NxTZCcFkgLjGME6EJCgAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-c8",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYwAAW+vU8wBDQ5e+XXDgAP7zbvv9mPe0xEvsrDftgYMYb3ZcQzc5vN667ePR5dsL1biEAAA=",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+ziGiXnNjv1rAAA/vNu+/b3etlE5508gAAAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "canapea-cubiq-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JaQAAUYJeP6EaXETgAAD+84J3lQ+7ALBXjoeN3zgJTN/bBLQYHgAA",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "",
-      "cover": {
-        "src": "canapea-cubiq-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JaQAAW+tfdDi6iD41YAAA/vNr7kWastAwfdAXKNVAAAAA",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "variants": [
-        {
-          "src": "canapea-cubiq-studio-1",
-          "chip": "/media/canapea-cubiq-studio-1-700.webp",
-          "swatch": "#979596",
-          "tone": {
-            "ro": "Gri deschis",
-            "en": "Light grey"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c1",
-          "chip": "/media/canapea-cubiq-c1-700.webp",
-          "swatch": "#93806d",
-          "tone": {
-            "ro": "Bej",
-            "en": "Beige"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c2",
-          "chip": "/media/canapea-cubiq-c2-700.webp",
-          "swatch": "#cb9996",
-          "tone": {
-            "ro": "Roz prăfuit",
-            "en": "Dusty rose"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c3",
-          "chip": "/media/canapea-cubiq-c3-700.webp",
-          "swatch": "#605552",
-          "tone": {
-            "ro": "Gri șifonat",
-            "en": "Washed grey"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c4",
-          "chip": "/media/canapea-cubiq-c4-700.webp",
-          "swatch": "#996234",
-          "tone": {
-            "ro": "Coniac",
-            "en": "Cognac"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c5",
-          "chip": "/media/canapea-cubiq-c5-700.webp",
-          "swatch": "#8b4229",
-          "tone": {
-            "ro": "Teracotă",
-            "en": "Terracotta"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c6",
-          "chip": "/media/canapea-cubiq-c6-700.webp",
-          "swatch": "#31301a",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c7",
-          "chip": "/media/canapea-cubiq-c7-700.webp",
-          "swatch": "#061833",
-          "tone": {
-            "ro": "Bleumarin",
-            "en": "Navy"
-          }
-        },
-        {
-          "src": "canapea-cubiq-c8",
-          "chip": "/media/canapea-cubiq-c8-700.webp",
-          "swatch": "#3b1318",
-          "tone": {
-            "ro": "Bordo",
-            "en": "Burgundy"
-          }
-        }
-      ],
-      "views": [
-        {
-          "src": "canapea-cubiq-studio-2",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter",
-          "in": "canapea-cubiq-studio-1"
-        },
-        {
-          "src": "canapea-cubiq-studio-3",
-          "ro": "Vedere laterală",
-          "en": "Side view",
-          "in": "canapea-cubiq-studio-1"
-        }
-      ],
-      "category": "sofas",
-      "collection": "cubic"
-    },
-    {
       "id": "valo-canapea-rotunda-aldo",
       "slug": "canapea-rotunda-aldo",
       "name": "Canapea rotundă Aldo",
@@ -7545,211 +7750,6 @@
         ]
       },
       "priceFrom": true
-    },
-    {
-      "id": "valo-coltar-vallo",
-      "slug": "coltar-vallo",
-      "name": "Colțar Vallo",
-      "collections": [],
-      "price": 5500,
-      "currency": "RON",
-      "lead": "",
-      "summary": "",
-      "body": "",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "coltar-vallo-studio-1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-c1",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JYgCsINiDApu+LLOnAm4AAP7zcBoN/jIn02J5ZyMuMOim9e2PkSkH2VdfUENPrrewWMAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-c2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAA8APu1yrU+pp6QiMAgBMB2JZwAAW9N9WInmJwAAAP7zcBoOGu53lWdOdpBHFM6o6PSkv94oXoAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-c3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHYK468EkxNMwAA/vNwCJEKyuCogssS/5ppT38cWndqCL+B2nywAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-c4",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA8APu1krU2ppaSiMAgBMB2JZQAAW9N9WInmJy4AAP7zcAiRCtbvfSAXOEL0CN292CPbyM/4ESkM9HLeQwAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-c5",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZwAAW9W75WBdicagAP7zcAiRCsrgqILLgzDDHDZs0t03DhvnvpEOMmwAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-studio-2",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQC7ACHahqw69QAA/vNwIWbKHw3b0sBGtLMag/8Zc7FsRpLAAA==",
-          "editorial": true,
-          "studio": true
-        },
-        {
-          "src": "coltar-vallo-studio-3",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYwC/OCHf3BuyOmJwm4AA/vN1KwOuMVLprWP96QiMZWxtmCXY2LrjTn/0rI+wQqoIShAA",
-          "editorial": true,
-          "studio": true
-        }
-      ],
-      "source": "",
-      "cover": {
-        "src": "coltar-vallo-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAA8APu1orU2ppqSiMAgBMB2JZQDE2CHfwJwRYGXqoAD+827770qS6iUujq/Qk9l0flrBr0AAAA==",
-        "editorial": true,
-        "studio": true
-      },
-      "editorial": true,
-      "variants": [
-        {
-          "src": "coltar-vallo-studio-1",
-          "chip": "/media/coltar-vallo-studio-1-700.webp",
-          "swatch": "#978269",
-          "tone": {
-            "ro": "Crem",
-            "en": "Cream"
-          }
-        },
-        {
-          "src": "coltar-vallo-c1",
-          "chip": "/media/coltar-vallo-c1-700.webp",
-          "swatch": "#7e3118",
-          "tone": {
-            "ro": "Teracotă",
-            "en": "Terracotta"
-          }
-        },
-        {
-          "src": "coltar-vallo-c2",
-          "chip": "/media/coltar-vallo-c2-700.webp",
-          "swatch": "#2f2d17",
-          "tone": {
-            "ro": "Verde oliv",
-            "en": "Olive"
-          }
-        },
-        {
-          "src": "coltar-vallo-c3",
-          "chip": "/media/coltar-vallo-c3-700.webp",
-          "swatch": "#041830",
-          "tone": {
-            "ro": "Bleumarin",
-            "en": "Navy"
-          }
-        },
-        {
-          "src": "coltar-vallo-c4",
-          "chip": "/media/coltar-vallo-c4-700.webp",
-          "swatch": "#320f14",
-          "tone": {
-            "ro": "Bordo",
-            "en": "Burgundy"
-          }
-        },
-        {
-          "src": "coltar-vallo-c5",
-          "chip": "/media/coltar-vallo-c5-700.webp",
-          "swatch": "#21160f",
-          "tone": {
-            "ro": "Maro închis",
-            "en": "Dark brown"
-          }
-        }
-      ],
-      "views": [
-        {
-          "src": "coltar-vallo-studio-2",
-          "ro": "Trei sferturi",
-          "en": "Three-quarter",
-          "in": "coltar-vallo-studio-1"
-        },
-        {
-          "src": "coltar-vallo-studio-3",
-          "ro": "Vedere laterală",
-          "en": "Side view",
-          "in": "coltar-vallo-studio-1"
-        }
-      ],
-      "category": "sectionals",
-      "collection": "vallo"
     },
     {
       "id": "valo-coltar-zeno",
@@ -8550,9 +8550,9 @@
       "priceFrom": true
     },
     {
-      "id": "valo-modul-cubiq",
-      "slug": "modul-cubiq",
-      "name": "Modul Cubiq",
+      "id": "valo-modul-cubic",
+      "slug": "modul-cubic",
+      "name": "Modul Cubic",
       "collections": [],
       "price": 5200,
       "currency": "RON",
@@ -9731,9 +9731,9 @@
       "id": "cubic",
       "count": 4,
       "pieces": [
-        "modul-cubiq",
+        "modul-cubic",
         "coltar-cubic-fix",
-        "canapea-cubiq",
+        "canapea-cubic",
         "pat-cubic"
       ],
       "cover": {
