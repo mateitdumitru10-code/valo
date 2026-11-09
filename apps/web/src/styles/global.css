@@ -54,18 +54,6 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* Lenis drives the scroll; keep native smooth scrolling out of the way. */
-  html.lenis,
-  html.lenis body {
-    height: auto;
-  }
-  .lenis.lenis-smooth {
-    scroll-behavior: auto !important;
-  }
-  .lenis.lenis-stopped {
-    overflow: hidden;
-  }
-
   ::selection {
     background: var(--color-ink);
     color: var(--color-bone);

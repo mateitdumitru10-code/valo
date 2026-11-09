@@ -28,6 +28,8 @@ export async function emit(catalog, root) {
     categories: catalog.categories,
     collections: catalog.collections,
     hero: catalog.hero,
+    story: catalog.story ?? [],
+    craft: catalog.craft ?? null,
     products: catalog.products.map((p) => ({
       id: p.id,
       slug: p.slug,

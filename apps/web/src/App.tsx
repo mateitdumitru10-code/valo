@@ -17,7 +17,7 @@ const Story = lazy(() => import('~/pages/Story').then((m) => ({ default: m.Story
 const Showrooms = lazy(() => import('~/pages/Showrooms').then((m) => ({ default: m.Showrooms })))
 const Contact = lazy(() => import('~/pages/Contact').then((m) => ({ default: m.Contact })))
 const NotFound = lazy(() => import('~/pages/NotFound').then((m) => ({ default: m.NotFound })))
-import { useSmoothScroll, scrollToTop } from '~/hooks/useLenis'
+import { scrollToTop } from '~/lib/scroll'
 import { expo } from '~/lib/motion'
 
 function ScrollToTop() {
@@ -29,7 +29,6 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  useSmoothScroll()
   const location = useLocation()
 
   return (

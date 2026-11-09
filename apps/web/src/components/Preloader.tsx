@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { expo, quint } from '~/lib/motion'
-import { stopScroll } from '~/hooks/useLenis'
+import { stopScroll } from '~/lib/scroll'
 
 /** Floor on how long the curtain is held. Anything more is self-inflicted. */
 const MIN_MS = 280

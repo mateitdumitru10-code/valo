@@ -10,6 +10,15 @@
     "fotoliu-king-1",
     "coltar-torro-1"
   ],
+  "craft": { "src": "coltar-cubic-fix-c3", "piece": "coltar-cubic-fix" },
+  "story": [
+    { "src": "coltar-aldo-c7", "piece": "coltar-aldo" },
+    { "src": "pat-cubic-detail-1", "piece": "pat-cubic" },
+    { "src": "canapea-sonia-extensibila-c1", "piece": "canapea-sonia-extensibila" },
+    { "src": "pat-cubic-c1", "piece": "pat-cubic" },
+    { "src": "canapea-sonia-extensibila-c6", "piece": "canapea-sonia-extensibila" },
+    { "src": "coltar-aldo-c1", "piece": "coltar-aldo" }
+  ],
   "images": {
     "_note": "Own photography, replacing the scraped set for a piece. Filenames live in media-src/ and survive a re-ingest, since ingest only writes the scraped list and media.mjs applies these over the top.",
     "canapea-extensibila-aldo": [

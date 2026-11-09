@@ -6,7 +6,7 @@ import { Index, type IndexItem } from '~/components/Index'
 import { PieceCard } from '~/components/PieceCard'
 import { Rail } from '~/components/Rail'
 import { Img } from '~/components/Img'
-import { Drift, Reveal, RevealImage, RevealLines } from '~/components/Reveal'
+import { Reveal, RevealImage, RevealLines } from '~/components/Reveal'
 import { Parallax } from '~/components/Parallax'
 import { ArrowLink, Cta, Eyebrow, Rule } from '~/components/UI'
 import { InquiryForm } from '~/components/InquiryForm'
@@ -18,6 +18,8 @@ import {
   inCollection,
   pieces,
   priceRange,
+  story,
+  craftFrame,
 } from '~/lib/catalog'
 import { useI18n, type Key } from '~/lib/i18n'
 import { locations, parentSite } from '~/lib/showrooms'
@@ -25,18 +27,22 @@ import { expo, viewport } from '~/lib/motion'
 
 const CRAFT = [1, 2, 3, 4] as const
 
-/** The three landing statements and the margin each is set against, in order.
- *  Left, right, left: the alternation is the section's whole structure, so it
- *  is declared here rather than derived from the index at the call site. */
-const STATEMENTS = [
-  { key: 'manifesto.body', from: 'left' },
-  { key: 'manifesto.stance', from: 'right' },
-  { key: 'manifesto.made', from: 'left' },
-] as const satisfies readonly { key: Key; from: 'left' | 'right' }[]
+/**
+ * The opening section's photographs, by where each sits: three pieces —
+ * Colțar Aldo, Canapea Sonia, Pat Cubic — in their quieter colours, beige,
+ * stone and one olive, with a seam close-up of the bed for the work behind them.
+ */
+const STORY_SLOTS = [
+  'col-span-2 md:col-span-8',
+  'col-span-1 md:col-span-3 md:col-start-10 md:mt-48',
+  'col-span-1 md:col-span-4',
+  'col-span-1 md:col-span-4 md:mt-24',
+  'col-span-1 md:col-span-4',
+  'col-span-2 md:col-span-7 md:col-start-6',
+]
 
-/** Two pieces whose photography can hold a full-bleed frame. */
+/** The craft section's lead frame. The second is curated: see `craftFrame`. */
 const CRAFT_IMAGE_A = 'coltar-sam'
-const CRAFT_IMAGE_B = 'pat-matrimonial'
 
 /** The four pairs of hands a sectional passes through, in order. */
 const HANDS = [1, 2, 3, 4] as const
@@ -44,7 +50,9 @@ const HANDS = [1, 2, 3, 4] as const
 export function Home() {
   const { t, lang } = useI18n()
   const craftA = bySlug(CRAFT_IMAGE_A) ?? featured[0]
-  const craftB = bySlug(CRAFT_IMAGE_B) ?? featured[1]
+  const craftPiece = (craftFrame && bySlug(craftFrame.piece)) ?? featured[1]
+  // A sectional, so it is shown whole at its own 4:3 rather than cut tall.
+  const craftB = { img: craftFrame?.img ?? craftPiece.cover, name: craftPiece.name }
   const showrooms = locations.filter((l) => l.kind === 'showroom')
 
   // The landing index is the ranges, not the kinds of piece: a name is worth
@@ -98,28 +106,45 @@ export function Home() {
           </Reveal>
         </header>
 
-        {/* Three statements, set alternately against the left and the right
-            margin with most of a screen between them, each drifting in from
-            the side it is set on. The brief asked for them to arrive one at a
-            time with room to breathe, and the alternation is what makes the
-            room read as intended rather than as a gap.
+        {/* One statement, then the pieces it is about. */}
+        <Reveal className="mx-auto mt-24 max-w-3xl text-center md:mt-36">
+          <p className="font-display text-[clamp(1.25rem,1.05rem+0.9vw,1.75rem)] leading-[1.45] opacity-85">
+            {t('manifesto.body')}
+          </p>
+        </Reveal>
 
-            Five columns of twelve, not six: at six the two sides very nearly
-            meet in the middle and the page reads as one ragged block. */}
-        <div className="mt-28 grid gap-y-24 md:mt-44 md:grid-cols-12 md:gap-y-52">
-          {STATEMENTS.map(({ key, from }) => (
-            <Drift
-              key={key}
-              from={from}
-              className={
-                from === 'left'
-                  ? 'md:col-span-5 md:col-start-1'
-                  : 'md:col-span-5 md:col-start-8'
-              }
-            >
-              <p className="text-[0.95rem] leading-relaxed opacity-75">{t(key)}</p>
-            </Drift>
-          ))}
+        <div className="mt-20 grid grid-cols-2 gap-x-4 gap-y-12 md:mt-32 md:grid-cols-12 md:gap-x-6 md:gap-y-24">
+          {story.map(({ img, piece }, i) => {
+            const p = bySlug(piece)
+            if (!p) return null
+            // Studio frames are staged on a 4:3 white field and shown whole.
+            // The seam close-up alone is cut tall, which only trims white
+            // from either side of it.
+            const ratio = i === 1 ? 'aspect-[3/4]' : img.studio ? 'aspect-[4/3]' : 'aspect-[3/2]'
+            const wide = STORY_SLOTS[i]?.startsWith('col-span-2')
+            return (
+              <Parallax
+                key={img.src}
+                distance={wide ? 30 : 55}
+                className={STORY_SLOTS[i] ?? 'col-span-1 md:col-span-4'}
+              >
+                <Link to={`/piese/${p.slug}`} className="group block">
+                  <RevealImage>
+                    <Img
+                      img={img}
+                      alt={p.name}
+                      zoom
+                      sizes={wide ? '(max-width: 768px) 100vw, 62vw' : '(max-width: 768px) 50vw, 31vw'}
+                      className={`${ratio} w-full`}
+                    />
+                  </RevealImage>
+                  <p className="eyebrow mt-4 opacity-55 transition-opacity group-hover:opacity-100">
+                    {p.name}
+                  </p>
+                </Link>
+              </Parallax>
+            )
+          })}
         </div>
 
         {/* The claim above is a promise; these four are the only evidence the
@@ -295,10 +320,10 @@ export function Home() {
               <Parallax distance={70} className="col-span-1 mt-8">
                 <RevealImage>
                   <Img
-                    img={craftB.cover}
+                    img={craftB.img}
                     alt={craftB.name}
                     sizes="(max-width: 768px) 50vw, 28vw"
-                    className="aspect-[3/4] w-full"
+                    className="aspect-[4/3] w-full"
                   />
                 </RevealImage>
               </Parallax>

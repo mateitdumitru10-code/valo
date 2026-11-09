@@ -6,7 +6,7 @@ import { useI18n } from '~/lib/i18n'
 import { collectionName, collections } from '~/lib/catalog'
 import { mainPhone, mainPhoneHref } from '~/lib/showrooms'
 import { expo } from '~/lib/motion'
-import { stopScroll } from '~/hooks/useLenis'
+import { stopScroll } from '~/lib/scroll'
 
 const links = [
   { to: '/colectii', key: 'nav.collections' },

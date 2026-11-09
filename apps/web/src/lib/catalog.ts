@@ -157,6 +157,10 @@ type Catalog = {
   collections: Collection[]
   products: Piece[]
   hero: Img[]
+  /** Photographs set into the home page's opening section, each with its piece. */
+  story: { img: Img; piece: string }[]
+  /** The second frame in the home page's craft section. */
+  craft: { img: Img; piece: string } | null
 }
 
 const details = new Map<string, Promise<PieceDetail | null>>()
@@ -191,6 +195,8 @@ export const pieces = catalog.products
   .filter((p) => p.cover)
   .sort((a, b) => Number(b.cover.studio ?? false) - Number(a.cover.studio ?? false))
 export const heroFrames = catalog.hero
+export const story = catalog.story ?? []
+export const craftFrame = catalog.craft ?? null
 
 export const bySlug = (slug: string) => pieces.find((p) => p.slug === slug)
 

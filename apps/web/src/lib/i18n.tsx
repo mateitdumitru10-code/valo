@@ -48,18 +48,12 @@ const ro = {
   'hero.chapter.2.line': 'Cadre din lemn, spume pe densități, arcuri în serpentină.',
   'hero.chapter.3.label': 'Textile',
   'hero.chapter.3.line': 'Țesături alese la atingere, nu din catalog.',
-  'hero.chapter.4.label': 'Livrare',
-  'hero.chapter.4.line': 'În toată țara, cu montaj la fața locului.',
 
   'manifesto.eyebrow': 'Cine suntem',
   'manifesto.title': 'Mai mult decât mobilier. O expresie a spațiului tău.',
   'manifesto.lede': 'Un interior memorabil începe cu piese care au prezență.',
   'manifesto.body':
     'VALLO creează mobilier contemporan în care designul, confortul și materialele se întâlnesc într-o formă atent construită. Fiecare volum, fiecare cusătură și fiecare textură este aleasă pentru a crea o experiență care se vede, se simte și rămâne.',
-  'manifesto.stance':
-    'Selecția de țesături este parte din identitatea fiecărei colecții — de la texturi bogate și sofisticate până la materiale cu o senzație aparte la atingere. Le alegem nu doar pentru aspect, ci pentru felul în care completează designul și experiența piesei.',
-  'manifesto.made':
-    'În spatele fiecărui produs se află experiența de producție Samobi, transformată în piese realizate în România cu atenție pentru structură, confort și rezistență în timp.',
   'manifesto.pull':
     'Forme care atrag privirea. Materiale care invită la atingere. Confort creat pentru a fi trăit.',
   'manifesto.close': 'Aceasta este VALLO.',
@@ -305,18 +299,12 @@ const en: Record<keyof typeof ro, string> = {
   'hero.chapter.2.line': 'Timber frames, layered foam, serpentine springs.',
   'hero.chapter.3.label': 'Textiles',
   'hero.chapter.3.line': 'Fabrics chosen by hand, not from a swatch list.',
-  'hero.chapter.4.label': 'Delivery',
-  'hero.chapter.4.line': 'Nationwide, assembled in the room.',
 
   'manifesto.eyebrow': 'Who we are',
   'manifesto.title': 'More than furniture. An expression of your space.',
   'manifesto.lede': 'A memorable interior starts with pieces that have presence.',
   'manifesto.body':
     'VALLO makes contemporary furniture where design, comfort and material meet in one carefully built form. Every volume, every seam and every texture is chosen for what it does — to the eye, to the hand, and over the years.',
-  'manifesto.stance':
-    'The fabrics are part of each collection’s identity — from rich, textured weaves to cloths you notice the moment you touch them. We choose them not just for the look, but for how they complete the design and the piece itself.',
-  'manifesto.made':
-    'Behind every piece stands Samobi’s factory experience — furniture made in Romania with care for its structure, its comfort, and how long it lasts.',
   'manifesto.pull':
     'Shapes that draw the eye. Materials that ask to be touched. Comfort built to be lived in.',
   'manifesto.close': 'This is VALLO.',

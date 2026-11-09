@@ -7,14 +7,16 @@ import {
   useTransform,
 } from 'motion/react'
 import { useI18n, type Key } from '~/lib/i18n'
-import { scrollTo } from '~/hooks/useLenis'
+import { scrollTo } from '~/lib/scroll'
 import { expo } from '~/lib/motion'
 
-const CHAPTERS = [1, 2, 3, 4] as const
+const CHAPTERS = [1, 2, 3] as const
 
 const CLIP = '/media/hero.mp4'
 /** First frame, so the hero is never a black rectangle while the clip loads. */
 const POSTER = '/media/hero-poster.webp'
+/** hero.mp4's length. Only a fallback: the element's own duration wins. */
+const CLIP_SECONDS = 2.03
 /**
  * How much scroll the clip is stretched over, in viewport heights. The stage is
  * one screen of that and sticks, so the scrub itself runs over LENGTH - 1.
@@ -37,22 +39,12 @@ const LENGTH_MOBILE = 2
 const MOBILE = '(max-width: 767px)'
 /**
  * How hard the playhead chases the scroll, per 60Hz frame. Lower is smoother
- * and laggier.
- *
- * This sits downstream of Lenis, which has already smoothed the scroll, so the
- * two are low-pass filters in series and their lag adds up. It was low enough
- * to hide how long a seek took; now that every frame is a keyframe the seeks
- * land quickly and the smoothing can be most of the way out of the way.
+ * and laggier. Scrolling is native, so nothing upstream has smoothed it: a
+ * mouse wheel arrives in steps of a hundred pixels or so, and touch momentum
+ * in uneven ones. This is the only filter between those steps and the
+ * decoder.
  */
-const CHASE = 0.3
-/**
- * Lenis leaves touch scrolling native, so on a touch screen nothing has
- * smoothed the scroll before the playhead sees it: momentum arrives in uneven
- * steps and a hard chase passes them straight to the decoder. A softer chase
- * does the filtering Lenis does on desktop.
- */
-const CHASE_TOUCH = 0.16
-const TOUCH = '(pointer: coarse)'
+const CHASE = 0.2
 
 function useMedia(query: string) {
   const [match, setMatch] = useState(() => window.matchMedia(query).matches)
@@ -82,10 +74,27 @@ export function HeroFilm() {
   const sticky = useRef<HTMLDivElement>(null)
   const video = useRef<HTMLVideoElement>(null)
   const progress = useRef(0)
-  const duration = useRef(5)
+  /**
+   * The clip's length, in seconds. A ref for the playhead loop, which must not
+   * re-render, and state for the readout, which must. The fallback is the
+   * clip's real length, so the readout is right even before metadata lands.
+   */
+  const duration = useRef(CLIP_SECONDS)
+  const [total, setTotal] = useState(CLIP_SECONDS)
+  const learnDuration = (el: HTMLVideoElement) => {
+    if (!Number.isFinite(el.duration) || el.duration <= 0) return
+    duration.current = el.duration
+    setTotal(el.duration)
+  }
+
+  // A cached clip can load its metadata before React attaches the handler,
+  // and then the event never reaches it. Read it off the element as well.
+  useEffect(() => {
+    const el = video.current
+    if (el && el.readyState >= 1) learnDuration(el)
+  }, [])
   const reduced = useReducedMotion()
   const mobile = useMedia(MOBILE)
-  const touch = useMedia(TOUCH)
   const length = mobile ? LENGTH_MOBILE : LENGTH
 
   const { scrollYProgress } = useScroll({
@@ -147,7 +156,7 @@ export function HeroFilm() {
       // easing — and so the seeks — twice as fast as a 60Hz one.
       const dt = last ? Math.min((now - last) / 1000, 0.1) : 1 / 60
       last = now
-      const ease = 1 - Math.pow(1 - (touch ? CHASE_TOUCH : CHASE), dt * 60)
+      const ease = 1 - Math.pow(1 - CHASE, dt * 60)
 
       const target = progress.current * duration.current
       const delta = target - playhead
@@ -189,7 +198,7 @@ export function HeroFilm() {
       watcher.disconnect()
       if (frame) cancelAnimationFrame(frame)
     }
-  }, [reduced, touch])
+  }, [reduced])
 
   // Only re-render when the chapter actually changes, not on every scroll event.
   const [chapter, setChapter] = useState(0)
@@ -233,7 +242,7 @@ export function HeroFilm() {
           disablePictureInPicture
           aria-hidden
           onLoadedMetadata={(e) => {
-            duration.current = e.currentTarget.duration || 5
+            learnDuration(e.currentTarget)
             e.currentTarget.currentTime = 0
           }}
         />
@@ -307,7 +316,7 @@ export function HeroFilm() {
               <span className="h-px w-24 bg-paper/30">
                 <motion.span className="block h-px bg-paper" style={{ width: bar }} />
               </span>
-              <span className="eyebrow tabular-nums">{duration.current.toFixed(1)}</span>
+              <span className="eyebrow tabular-nums">{total.toFixed(1)}</span>
             </div>
           </div>
         </div>

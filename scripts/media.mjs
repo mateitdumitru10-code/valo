@@ -245,6 +245,8 @@ const used = new Set([
   ...catalog.products.flatMap((p) => p.images),
   ...[
     ...curation.hero,
+    ...(curation.story ?? []).map((s) => s.src),
+    ...(curation.craft ? [curation.craft.src] : []),
     ...Object.values(curation.covers),
     ...Object.values(curation.headers ?? {}),
   ]
@@ -361,6 +363,16 @@ catalog.categories = catalog.categories.filter((c) => c.count > 0)
 
 const byName = new Map([...meta.values()].map((m) => [m.src, m]))
 catalog.hero = curation.hero.map((n) => byName.get(n)).filter(Boolean)
+// The photographs set into the home page's opening section. Each names the
+// piece it shows, so a frame whose piece has since been dropped goes with it.
+catalog.story = (curation.story ?? [])
+  .map(({ src, piece }) => ({ img: byName.get(src), piece }))
+  .filter((s) => s.img && catalog.products.some((p) => p.slug === s.piece))
+// The second frame in the home page's craft section, beside the process list.
+catalog.craft = curation.craft
+  ? { img: byName.get(curation.craft.src), piece: curation.craft.piece }
+  : null
+if (catalog.craft && !catalog.craft.img) catalog.craft = null
 for (const category of catalog.categories) {
   category.cover = byName.get(curation.covers[category.id]) ?? null
   // The page header can differ from the card cover; it falls back to it.
