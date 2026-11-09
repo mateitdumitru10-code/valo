@@ -27,6 +27,15 @@ const POSTER = '/media/hero-poster.webp'
  */
 const LENGTH = 2.5
 /**
+ * Phones get one screen of scrub instead of one and a half. A flick on a phone
+ * covers a screen or more, so at 2.5 the hero swallowed one to two flicks
+ * before anything else appeared. One screen is ~850px on a typical phone —
+ * still under 6px per frame, so the clip reads as motion, and each of the four
+ * captions holds for about a fifth of a screen.
+ */
+const LENGTH_MOBILE = 2
+const MOBILE = '(max-width: 767px)'
+/**
  * How hard the playhead chases the scroll, per 60Hz frame. Lower is smoother
  * and laggier.
  *
@@ -36,6 +45,26 @@ const LENGTH = 2.5
  * land quickly and the smoothing can be most of the way out of the way.
  */
 const CHASE = 0.3
+/**
+ * Lenis leaves touch scrolling native, so on a touch screen nothing has
+ * smoothed the scroll before the playhead sees it: momentum arrives in uneven
+ * steps and a hard chase passes them straight to the decoder. A softer chase
+ * does the filtering Lenis does on desktop.
+ */
+const CHASE_TOUCH = 0.16
+const TOUCH = '(pointer: coarse)'
+
+function useMedia(query: string) {
+  const [match, setMatch] = useState(() => window.matchMedia(query).matches)
+  useEffect(() => {
+    const mq = window.matchMedia(query)
+    const on = () => setMatch(mq.matches)
+    on()
+    mq.addEventListener('change', on)
+    return () => mq.removeEventListener('change', on)
+  }, [query])
+  return match
+}
 
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v))
 
@@ -55,6 +84,9 @@ export function HeroFilm() {
   const progress = useRef(0)
   const duration = useRef(5)
   const reduced = useReducedMotion()
+  const mobile = useMedia(MOBILE)
+  const touch = useMedia(TOUCH)
+  const length = mobile ? LENGTH_MOBILE : LENGTH
 
   const { scrollYProgress } = useScroll({
     target: section,
@@ -115,7 +147,7 @@ export function HeroFilm() {
       // easing — and so the seeks — twice as fast as a 60Hz one.
       const dt = last ? Math.min((now - last) / 1000, 0.1) : 1 / 60
       last = now
-      const ease = 1 - Math.pow(1 - CHASE, dt * 60)
+      const ease = 1 - Math.pow(1 - (touch ? CHASE_TOUCH : CHASE), dt * 60)
 
       const target = progress.current * duration.current
       const delta = target - playhead
@@ -157,11 +189,16 @@ export function HeroFilm() {
       watcher.disconnect()
       if (frame) cancelAnimationFrame(frame)
     }
-  }, [reduced])
+  }, [reduced, touch])
 
+  // Only re-render when the chapter actually changes, not on every scroll event.
   const [chapter, setChapter] = useState(0)
+  const chapterRef = useRef(0)
   useMotionValueEvent(scrollYProgress, 'change', (p) => {
-    setChapter(Math.min(CHAPTERS.length - 1, Math.floor(clamp01(p) * CHAPTERS.length)))
+    const next = Math.min(CHAPTERS.length - 1, Math.floor(clamp01(p) * CHAPTERS.length))
+    if (next === chapterRef.current) return
+    chapterRef.current = next
+    setChapter(next)
   })
 
   // Keyed to progress, which is a fraction of the scrub — so shortening the
@@ -180,7 +217,7 @@ export function HeroFilm() {
   return (
     <div
       ref={section}
-      style={{ height: reduced ? '100svh' : `${LENGTH * 100}svh` }}
+      style={{ height: reduced ? '100svh' : `${length * 100}svh` }}
       className="relative bg-night"
     >
       <div ref={sticky} className="sticky top-0 h-[100svh] w-full overflow-hidden grain">
@@ -228,7 +265,7 @@ export function HeroFilm() {
           <motion.span
             initial={{ opacity: 0, letterSpacing: '0.6em', marginRight: '-0.6em' }}
             animate={{ opacity: 1, letterSpacing: '0.34em', marginRight: '-0.34em' }}
-            transition={{ duration: 1.8, ease: expo, delay: 0.15 }}
+            transition={{ duration: 1.2, ease: expo, delay: 0.1 }}
             className="font-display text-[clamp(3.5rem,17vw,17rem)] leading-none"
           >
             VALLO
@@ -236,7 +273,7 @@ export function HeroFilm() {
           <motion.span
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 0.75, y: 0 }}
-            transition={{ duration: 1.2, ease: expo, delay: 0.9 }}
+            transition={{ duration: 0.8, ease: expo, delay: 0.35 }}
             className="eyebrow mt-6 text-paper/80"
           >
             {t('hero.kicker')}
