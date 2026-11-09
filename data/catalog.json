@@ -342,6 +342,19 @@
       "dimensions": [],
       "images": [
         {
+          "src": "coltar-eco-2-c6",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
+          "editorial": true,
+          "studio": true
+        },
+        {
           "src": "coltar-eco-2-c1",
           "w": 2000,
           "h": 1500,
@@ -407,19 +420,6 @@
           "studio": true
         },
         {
-          "src": "coltar-eco-2-c6",
-          "w": 2000,
-          "h": 1500,
-          "widths": [
-            2000,
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
-          "editorial": true,
-          "studio": true
-        },
-        {
           "src": "coltar-eco-2-studio-1",
           "w": 2000,
           "h": 1500,
@@ -435,7 +435,7 @@
       ],
       "source": "https://mobilasamobi.ro/products/coltar-eco-2/",
       "cover": {
-        "src": "coltar-eco-2-c1",
+        "src": "coltar-eco-2-c6",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -443,7 +443,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JZwDGfCHXX4jvl093qgAA/vNwIWbSxanJXHLxiQP0YwKcBM6IqMbTDgAAAA==",
+        "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQAAW+vT2b1wEkSy4AAA/vNu+/uDCGF2Bed/agqt/Wxr2pr3FOzpVNCCAAAA",
         "editorial": true,
         "studio": true
       },
@@ -458,6 +458,15 @@
         }
       ],
       "variants": [
+        {
+          "src": "coltar-eco-2-c6",
+          "chip": "/media/coltar-eco-2-c6-700.webp",
+          "swatch": "#646233",
+          "tone": {
+            "ro": "Verde oliv, perne crem",
+            "en": "Olive, cream cushions"
+          }
+        },
         {
           "src": "coltar-eco-2-c1",
           "chip": "/media/coltar-eco-2-c1-700.webp",
@@ -501,15 +510,6 @@
           "tone": {
             "ro": "Verde oliv",
             "en": "Olive"
-          }
-        },
-        {
-          "src": "coltar-eco-2-c6",
-          "chip": "/media/coltar-eco-2-c6-700.webp",
-          "swatch": "#646233",
-          "tone": {
-            "ro": "Verde oliv, perne crem",
-            "en": "Olive, cream cushions"
           }
         }
       ]
@@ -9894,7 +9894,7 @@
     },
     {
       "img": {
-        "src": "pat-cubic-detail-1",
+        "src": "pat-cubiq-studio-1",
         "w": 2000,
         "h": 1500,
         "widths": [
@@ -9902,7 +9902,7 @@
           1200,
           700
         ],
-        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDE2CHgUXwrvlPYAP7zdQOX5XQviNJuMKvU6+yYT0AA",
+        "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JaQAAUqPlIVgy8Re1AAD+83+RV7sqH/xt0DMJ+RLHtUL0AYm/lykp76HLDR8KSOH+ZF9HEAAAAA==",
         "editorial": true,
         "studio": true
       },
@@ -9955,22 +9955,6 @@
         "studio": true
       },
       "piece": "canapea-sonia-extensibila"
-    },
-    {
-      "img": {
-        "src": "coltar-aldo-c1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JaQAAW+mRCa5J7vQ6AAD+826zA3kgbBwOMNMwYYjROBWzoAjAwAAA",
-        "editorial": true,
-        "studio": true
-      },
-      "piece": "coltar-aldo"
     }
   ],
   "craft": {

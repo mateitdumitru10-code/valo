@@ -30,7 +30,7 @@ const CRAFT = [1, 2, 3, 4] as const
 /**
  * The opening section's photographs, by where each sits: three pieces —
  * Colțar Aldo, Canapea Sonia, Pat Cubic — in their quieter colours, beige,
- * stone and one olive, with a seam close-up of the bed for the work behind them.
+ * stone and one olive, plus the bed in black.
  */
 const STORY_SLOTS = [
   'col-span-2 md:col-span-8',
@@ -38,7 +38,6 @@ const STORY_SLOTS = [
   'col-span-1 md:col-span-4',
   'col-span-1 md:col-span-4 md:mt-24',
   'col-span-1 md:col-span-4',
-  'col-span-2 md:col-span-7 md:col-start-6',
 ]
 
 /** The craft section's lead frame. The second is curated: see `craftFrame`. */
@@ -118,9 +117,7 @@ export function Home() {
             const p = bySlug(piece)
             if (!p) return null
             // Studio frames are staged on a 4:3 white field and shown whole.
-            // The seam close-up alone is cut tall, which only trims white
-            // from either side of it.
-            const ratio = i === 1 ? 'aspect-[3/4]' : img.studio ? 'aspect-[4/3]' : 'aspect-[3/2]'
+            const ratio = img.studio ? 'aspect-[4/3]' : 'aspect-[3/2]'
             const wide = STORY_SLOTS[i]?.startsWith('col-span-2')
             return (
               <Parallax
@@ -128,7 +125,7 @@ export function Home() {
                 distance={wide ? 30 : 55}
                 className={STORY_SLOTS[i] ?? 'col-span-1 md:col-span-4'}
               >
-                <Link to={`/piese/${p.slug}`} className="group block">
+                <Link to={`/produse/${p.slug}`} className="group block">
                   <RevealImage>
                     <Img
                       img={img}
@@ -175,19 +172,6 @@ export function Home() {
             </Reveal>
           ))}
         </ol>
-
-        <div className="mt-14 grid grid-cols-12 gap-x-6 border-t border-ink/12 pt-10">
-          {/* The same line the atelier page closes on, quoted the same way. A
-              house line earns its keep by recurring, so it is read from one
-              key and never retyped. Roman, not italic: the variable Bodoni is
-              loaded without an italic face, so `italic` would only get a faux
-              oblique, and shearing a didone's hairlines looks like a mistake. */}
-          <blockquote className="col-span-12 md:col-span-7 md:col-start-5">
-            <p className="font-display text-[clamp(1.125rem,1rem+0.8vw,1.5rem)] leading-[1.45] opacity-70">
-              {`„${t('story.quote')}”`}
-            </p>
-          </blockquote>
-        </div>
 
         {/* What the three statements have been building to, and the only place
             on the page the brand states its own name as a sentence. Centred,
@@ -252,7 +236,7 @@ export function Home() {
         </div>
 
         <div className="gutter mt-10">
-          <ArrowLink to="/piese">{t('nav.pieces')}</ArrowLink>
+          <ArrowLink to="/produse">{t('nav.pieces')}</ArrowLink>
         </div>
       </section>
 

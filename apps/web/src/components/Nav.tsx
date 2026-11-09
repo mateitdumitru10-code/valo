@@ -10,8 +10,8 @@ import { stopScroll } from '~/lib/scroll'
 
 const links = [
   { to: '/colectii', key: 'nav.collections' },
-  { to: '/piese', key: 'nav.pieces' },
-  { to: '/atelier', key: 'nav.atelier' },
+  { to: '/produse', key: 'nav.pieces' },
+  { to: '/horeca', key: 'nav.horeca' },
   { to: '/showroom-uri', key: 'nav.showrooms' },
   { to: '/contact', key: 'nav.contact' },
 ] as const

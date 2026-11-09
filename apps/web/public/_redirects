@@ -7,7 +7,15 @@
 # success for a request nobody received.
 /api/*  /index.html  404
 
+# The product listing moved from /piese to /produse. Old links, bookmarks and
+# search results get a permanent redirect rather than the SPA's not-found page.
+/piese    /produse    301
+/piese/*  /produse/:splat  301
+
+# The atelier page was retired; its address goes to the home page.
+/atelier  /  301
+
 # Single-page app: every route is rendered by the client, so any path that is
 # not a real file has to be served index.html — otherwise a direct visit to
-# /piese/coltar-aldo asks for a file that was never built.
+# /produse/coltar-aldo asks for a file that was never built.
 /*  /index.html  200

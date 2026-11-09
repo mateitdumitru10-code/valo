@@ -149,7 +149,7 @@ export function CollectionPage() {
           ))}
         </ul>
         <div className="mt-10">
-          <ArrowLink to="/piese">{t('nav.pieces')}</ArrowLink>
+          <ArrowLink to="/produse">{t('nav.pieces')}</ArrowLink>
         </div>
       </section>
     </div>

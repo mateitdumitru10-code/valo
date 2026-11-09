@@ -20,7 +20,7 @@ import { Categories } from '~/pages/Categories'
 import { CategoryPage } from '~/pages/Category'
 import { Pieces } from '~/pages/Pieces'
 import { PiecePage } from '~/pages/Piece'
-import { Story } from '~/pages/Story'
+import { Horeca } from '~/pages/Horeca'
 import { Showrooms } from '~/pages/Showrooms'
 import { Contact } from '~/pages/Contact'
 import { NotFound } from '~/pages/NotFound'
@@ -32,9 +32,9 @@ const table = [
   { path: '/colectii/:id', element: <CollectionPage /> },
   { path: '/categorii', element: <Categories /> },
   { path: '/categorii/:id', element: <CategoryPage /> },
-  { path: '/piese', element: <Pieces /> },
-  { path: '/piese/:slug', element: <PiecePage /> },
-  { path: '/atelier', element: <Story /> },
+  { path: '/produse', element: <Pieces /> },
+  { path: '/produse/:slug', element: <PiecePage /> },
+  { path: '/horeca', element: <Horeca /> },
   { path: '/showroom-uri', element: <Showrooms /> },
   { path: '/contact', element: <Contact /> },
   { path: '*', element: <NotFound /> },
@@ -46,13 +46,13 @@ const urls = [
   ...collections.map((c) => `/colectii/${c.id}`),
   '/categorii',
   ...categories.map((c) => `/categorii/${c.id}`),
-  '/piese',
-  ...pieces.slice(0, 6).map((p) => `/piese/${p.slug}`),
+  '/produse',
+  ...pieces.slice(0, 6).map((p) => `/produse/${p.slug}`),
   // Detail — prose, gallery, drawing, textiles — is fetched at runtime and so
   // is absent here; these render the page's no-detail-yet path, which is what
   // every visitor sees on the first frame.
-  `/piese/${pieces[pieces.length - 1].slug}`,
-  '/atelier',
+  `/produse/${pieces[pieces.length - 1].slug}`,
+  '/horeca',
   '/showroom-uri',
   '/contact?piece=Canapea%20Toro',
   '/nu-exista',

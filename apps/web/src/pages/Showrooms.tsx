@@ -2,7 +2,7 @@ import { motion } from 'motion/react'
 import { RevealLines } from '~/components/Reveal'
 import { ArrowLink, Eyebrow } from '~/components/UI'
 import { useI18n } from '~/lib/i18n'
-import { cities, locations, mainPhoneHref } from '~/lib/showrooms'
+import { cities, locations, mainPhone, mainPhoneHref } from '~/lib/showrooms'
 import { expo, viewport } from '~/lib/motion'
 
 export function Showrooms() {
@@ -105,7 +105,7 @@ export function Showrooms() {
           href={`tel:${mainPhoneHref}`}
           className="mt-4 inline-block font-display text-[clamp(1.5rem,1.15rem+1.25vw,2rem)] leading-none transition-opacity hover:opacity-60"
         >
-          0733 853 257
+          {mainPhone}
         </a>
       </section>
     </div>

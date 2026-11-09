@@ -91,7 +91,7 @@ export const locations: Location[] = [
     city: 'Prahova',
     name: 'Fabrica Samobi',
     address: 'Comuna Vadu Săpat, sat Ungureni, jud. Prahova',
-    phone: '0733 853 257',
+    phone: '0733 358 066',
     hours: [{ ro: 'Vizite pe bază de programare', en: 'Visits by appointment' }],
     kind: 'factory',
     map: maps('Vadu Sapat Ungureni Prahova'),
@@ -99,6 +99,6 @@ export const locations: Location[] = [
 ]
 
 export const cities = [...new Set(locations.map((l) => l.city))]
-export const mainPhone = '0733 853 257'
-export const mainPhoneHref = '+40733853257'
+export const mainPhone = '0733 358 066'
+export const mainPhoneHref = '+40733358066'
 export const parentSite = 'https://mobilasamobi.ro'

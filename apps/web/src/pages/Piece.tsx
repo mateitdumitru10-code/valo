@@ -51,7 +51,7 @@ export function PiecePage() {
     }
   }, [slug])
 
-  if (!piece) return <Navigate to="/piese" replace />
+  if (!piece) return <Navigate to="/produse" replace />
 
   const kind = category(piece.category)
   const range = collection(piece.collection)
@@ -106,7 +106,7 @@ export function PiecePage() {
     <div className="pt-28 md:pt-36">
       <div className="gutter">
         <nav className="eyebrow flex items-center gap-3 opacity-45">
-          <Link to="/piese" className="hover:opacity-100">
+          <Link to="/produse" className="hover:opacity-100">
             {t('nav.pieces')}
           </Link>
           <span>/</span>

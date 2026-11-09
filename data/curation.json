@@ -13,11 +13,10 @@
   "craft": { "src": "coltar-cubic-fix-c3", "piece": "coltar-cubic-fix" },
   "story": [
     { "src": "coltar-aldo-c7", "piece": "coltar-aldo" },
-    { "src": "pat-cubic-detail-1", "piece": "pat-cubic" },
+    { "src": "pat-cubiq-studio-1", "piece": "pat-cubic" },
     { "src": "canapea-sonia-extensibila-c1", "piece": "canapea-sonia-extensibila" },
     { "src": "pat-cubic-c1", "piece": "pat-cubic" },
-    { "src": "canapea-sonia-extensibila-c6", "piece": "canapea-sonia-extensibila" },
-    { "src": "coltar-aldo-c1", "piece": "coltar-aldo" }
+    { "src": "canapea-sonia-extensibila-c6", "piece": "canapea-sonia-extensibila" }
   ],
   "images": {
     "_note": "Own photography, replacing the scraped set for a piece. Filenames live in media-src/ and survive a re-ingest, since ingest only writes the scraped list and media.mjs applies these over the top.",
@@ -336,12 +335,12 @@
       "coltar-bela-studio-2"
     ],
     "coltar-eco-2": [
+      "coltar-eco-2-c6",
       "coltar-eco-2-c1",
       "coltar-eco-2-c2",
       "coltar-eco-2-c3",
       "coltar-eco-2-c4",
       "coltar-eco-2-c5",
-      "coltar-eco-2-c6",
       "coltar-eco-2-studio-1"
     ],
     "coltar-soria": [
@@ -1652,6 +1651,11 @@
     ],
     "coltar-eco-2": [
       {
+        "src": "coltar-eco-2-c6",
+        "ro": "Verde oliv, perne crem",
+        "en": "Olive, cream cushions"
+      },
+      {
         "src": "coltar-eco-2-c1",
         "ro": "Ciocolată",
         "en": "Chocolate"
@@ -1675,11 +1679,6 @@
         "src": "coltar-eco-2-c5",
         "ro": "Verde oliv",
         "en": "Olive"
-      },
-      {
-        "src": "coltar-eco-2-c6",
-        "ro": "Verde oliv, perne crem",
-        "en": "Olive, cream cushions"
       }
     ],
     "coltar-soria": [

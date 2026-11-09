@@ -31,7 +31,7 @@ export function PieceCard({
 
   return (
     <article className={clsx('group', className)}>
-      <Link to={`/piese/${piece.slug}`}>
+      <Link to={`/produse/${piece.slug}`}>
         <Img
           img={piece.cover}
           alt={piece.name}

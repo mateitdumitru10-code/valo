@@ -81,8 +81,8 @@ export function Footer() {
           </a>
           <ul className="mt-6 space-y-2">
             <li>
-              <Link to="/atelier" className="text-sm opacity-70 hover:opacity-100">
-                {t('nav.atelier')}
+              <Link to="/horeca" className="text-sm opacity-70 hover:opacity-100">
+                {t('nav.horeca')}
               </Link>
             </li>
             <li>

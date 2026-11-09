@@ -19,8 +19,8 @@ export type Lang = 'ro' | 'en'
 const ro = {
   'nav.collections': 'Colecții',
   'nav.categories': 'Categorii',
-  'nav.pieces': 'Piese',
-  'nav.atelier': 'Atelier',
+  'nav.pieces': 'Produse',
+  'nav.horeca': 'HoReCa',
   'nav.showrooms': 'Showroom-uri',
   'nav.contact': 'Contact',
   'nav.menu': 'Meniu',
@@ -28,12 +28,12 @@ const ro = {
 
   'common.back': 'Înapoi',
   'common.all': 'Toate',
-  'common.pieces': 'piese',
-  'common.piece': 'piesă',
+  'common.pieces': 'produse',
+  'common.piece': 'produs',
   'common.from': 'de la',
   'common.enquire': 'Cere ofertă',
   'common.explore': 'Vezi colecția',
-  'common.viewPiece': 'Vezi piesa',
+  'common.viewPiece': 'Vezi produsul',
   'common.scroll': 'Derulează',
   'common.index': 'Index',
   'common.collections': 'colecții',
@@ -41,7 +41,7 @@ const ro = {
   'common.loading': 'Se încarcă',
 
   'hero.kicker': 'Mobilier tapițat · România',
-  'hero.tagline': 'Piese construite pentru camerele în care se trăiește.',
+  'hero.tagline': 'Produse construite pentru camerele în care se trăiește.',
   'hero.chapter.1.label': 'Atelier',
   'hero.chapter.1.line': 'Croit și tapițat în Vadu Săpat, Prahova.',
   'hero.chapter.2.label': 'Structură',
@@ -51,7 +51,7 @@ const ro = {
 
   'manifesto.eyebrow': 'Cine suntem',
   'manifesto.title': 'Mai mult decât mobilier. O expresie a spațiului tău.',
-  'manifesto.lede': 'Un interior memorabil începe cu piese care au prezență.',
+  'manifesto.lede': 'Un interior memorabil începe cu produse care au prezență.',
   'manifesto.body':
     'VALLO creează mobilier contemporan în care designul, confortul și materialele se întâlnesc într-o formă atent construită. Fiecare volum, fiecare cusătură și fiecare textură este aleasă pentru a crea o experiență care se vede, se simte și rămâne.',
   'manifesto.pull':
@@ -59,7 +59,7 @@ const ro = {
   'manifesto.close': 'Aceasta este VALLO.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
-    'Un colțar trece prin patru perechi de mâini înainte să plece din Vadu Săpat.',
+    'Un produs trece prin 4 etape înainte să părăsească fabrica.',
   'manifesto.hand.1.role': 'Tâmplarul',
   'manifesto.hand.1.act': 'Închide cadrul.',
   'manifesto.hand.2.role': 'Croitorul',
@@ -73,49 +73,49 @@ const ro = {
   'collections.eyebrow': 'Colecții',
   'collections.title': 'Un desen, dus mai departe',
   'collections.lede':
-    'O colecție e un desen dus mai departe: același braț, același soclu, aceeași cusătură, croite pe rând ca fotoliu, colțar, modul sau pat. Se comandă o piesă sau se scrie camera întreagă în aceeași limbă.',
+    'O colecție e un desen dus mai departe: același braț, același soclu, aceeași cusătură, croite pe rând ca fotoliu, colțar, modul sau pat. Se comandă un produs sau se scrie camera întreagă în aceeași limbă.',
   'collections.hoverHint': 'Treci cu mouse-ul peste un titlu',
 
   'categories.eyebrow': 'Categorii',
-  'categories.title': 'Șase feluri de piese',
+  'categories.title': 'Șase feluri de produse',
   'categories.lede':
     'Catalogul întreg, împărțit după cum se folosește o casă: locul unde stai, locul unde dormi, locul prin care treci.',
   'collection.across': 'Se regăsește în',
-  'collection.only': 'O singură piesă, deocamdată.',
+  'collection.only': 'Un singur produs, deocamdată.',
 
   'featured.eyebrow': 'Selecție',
-  'featured.title': 'Piese în lumină',
+  'featured.title': 'Produse în lumină',
   'featured.lede':
-    'Zece piese pe care le-am fotografiat în camere reale, nu pe fundal alb.',
+    'Zece produse pe care le-am fotografiat în camere reale, nu pe fundal alb.',
   'featured.drag': 'Trage lateral',
 
   'craft.eyebrow': 'Cum se face',
   'craft.title': 'Patru pași. Nicio scurtătură.',
-  'craft.lede': 'O piesă VALLO nu începe cu tapițeria. Începe cu ceea ce nu se vede.',
+  'craft.lede': 'Un produs VALLO nu începe cu tapițeria. Începe cu ceea ce nu se vede.',
   'craft.body':
     'De la structura interioară până la ultimul detaliu al finisajului, fiecare etapă este parte dintr-un proces construit pentru confort, rezistență și un rezultat care se simte în fiecare zi.',
   'craft.1.title': 'Structura',
   'craft.1.tag': 'Totul începe din interior.',
   'craft.1.body':
-    'O structură bine construită este fundația unei piese care rezistă. Folosim materiale atent selecționate și îmbinări realizate cu precizie pentru a oferi stabilitate și rezistență pe termen lung.',
+    'O structură bine construită este fundația unui produs care rezistă. Folosim materiale atent selecționate și îmbinări realizate cu precizie pentru a oferi stabilitate și rezistență pe termen lung.',
   'craft.2.title': 'Confortul',
   'craft.2.tag': 'Confortul nu se vede. Se simte.',
   'craft.2.body':
-    'Alegem fiecare strat în funcție de experiența pe care vrem să o ofere piesa. Bureți de calitate, arcuri și, acolo unde designul o cere, memory foam — fiecare contribuie la senzația de confort pe care o simți din primul moment.',
+    'Alegem fiecare strat în funcție de experiența pe care vrem să o ofere produsul. Bureți de calitate, arcuri și, acolo unde designul o cere, memory foam — fiecare contribuie la senzația de confort pe care o simți din primul moment.',
   'craft.3.title': 'Tapițeria',
   'craft.3.tag': 'Ultimul strat. Prima impresie.',
   'craft.3.body':
-    'Țesătura dă personalitate unei piese. Selectăm materiale pentru textura, aspectul și senzația lor la atingere, astfel încât fiecare colecție să poată fi adaptată spațiului și stilului tău.',
+    'Țesătura dă personalitate unui produs. Selectăm materiale pentru textura, aspectul și senzația lor la atingere, astfel încât fiecare colecție să poată fi adaptată spațiului și stilului tău.',
   'craft.4.title': 'Finisajul',
   'craft.4.tag': 'Detaliile fac diferența.',
   'craft.4.body':
-    'Ultimele cusături, proporțiile, liniile și finisajele sunt verificate cu aceeași atenție cu care începe construcția. Pentru că o piesă bine făcută nu trebuie doar să arate impecabil. Trebuie să se simtă impecabil.',
+    'Ultimele cusături, proporțiile, liniile și finisajele sunt verificate cu aceeași atenție cu care începe construcția. Pentru că un produs bine făcut nu trebuie doar să arate impecabil. Trebuie să se simtă impecabil.',
   'craft.close': 'Designul atrage privirea. Execuția îi dă valoare.',
 
   'lineage.eyebrow': 'Origine',
   'lineage.title': 'Un nume nou. O fabrică veche de tot.',
   'lineage.body':
-    'Samobi produce mobilier tapițat în comuna Vadu Săpat, județul Prahova, și îl vinde prin showroom-uri proprii în București, Ploiești, Constanța și Buzău. Vallo preia din acest catalog piesele cu cea mai lungă viață și le duce mai departe, sub un nume propriu.',
+    'Samobi produce mobilier tapițat în comuna Vadu Săpat, județul Prahova, și îl vinde prin showroom-uri proprii în București, Ploiești, Constanța și Buzău. Vallo preia din acest catalog produsele cu cea mai lungă viață și le duce mai departe, sub un nume propriu.',
   'lineage.stat.1': 'Fabrică proprie',
   'lineage.stat.1.value': 'Vadu Săpat, PH',
   'lineage.stat.2': 'Garanție',
@@ -136,22 +136,22 @@ const ro = {
   'contact.eyebrow': 'Contact',
   'contact.title': 'Spuneți-ne ce cameră amenajați',
   'contact.lede':
-    'Trimiteți dimensiunile camerei și piesa care vă interesează. Răspundem cu o ofertă și cu variantele de textile disponibile.',
+    'Trimiteți dimensiunile camerei și produsul care vă interesează. Răspundem cu o ofertă și cu variantele de textile disponibile.',
   'contact.name': 'Nume',
   'contact.email': 'Email',
   'contact.phone': 'Telefon',
-  'contact.piece': 'Piesa de interes',
+  'contact.piece': 'Produsul de interes',
   'contact.message': 'Mesaj',
   'contact.messagePlaceholder': 'Camera, dimensiunile, culoarea la care vă gândiți…',
   'contact.submit': 'Trimite cererea',
   'contact.sending': 'Se trimite…',
   'contact.success': 'Am primit cererea. Vă răspundem în cel mult o zi lucrătoare.',
-  'contact.error': 'Cererea nu a putut fi trimisă. Sunați-ne la 0733 853 257.',
+  'contact.error': 'Cererea nu a putut fi trimisă. Sunați-ne la 0733 358 066.',
   'contact.required': 'Câmp obligatoriu',
   'contact.invalidEmail': 'Adresă de email invalidă',
   'contact.optional': 'opțional',
 
-  'piece.eyebrow': 'Piesă',
+  'piece.eyebrow': 'Produs',
   'piece.dimensions': 'Dimensiuni',
   'piece.dimensionsNote': 'lățime × adâncime × înălțime, mm',
   'piece.description': 'Descriere',
@@ -172,7 +172,7 @@ const ro = {
     'Preț de listă pentru varianta aleasă, textil standard. TVA inclus.',
   'piece.roNote': 'Descriere din fișa de producție.',
   'piece.plan': 'Plan',
-  'piece.planTitle': 'Cotele piesei',
+  'piece.planTitle': 'Cotele produsului',
   'piece.planNote': 'Cote în centimetri, preluate din desenul de execuție al atelierului.',
   'piece.width': 'Lățime',
   'piece.depth': 'Adâncime, cu șezlong',
@@ -190,16 +190,16 @@ const ro = {
   'piece.mattress': 'Saltea',
   'piece.mattressOptions': 'variante',
   'piece.mattressNote':
-    'Aceeași piesă, cu salteaua aleasă de dumneavoastră. Prețul se schimbă odată cu ea.',
+    'Același produs, cu salteaua aleasă de dumneavoastră. Prețul se schimbă odată cu ea.',
   'piece.gallery': 'Galerie',
   'piece.detail': 'În detaliu',
   'piece.shotIn': 'Fotografiat în',
   'piece.views': 'vederi',
 
   'category.lede.sectionals':
-    'Colțare modulare, cu ladă de depozitare și extensie de dormit. Piesa care organizează un living întreg.',
+    'Colțare modulare, cu ladă de depozitare și extensie de dormit. Produsul care organizează un living întreg.',
   'category.lede.sofas':
-    'Canapele fixe și extensibile, de la două locuri la piese de patru metri.',
+    'Canapele fixe și extensibile, de la două locuri la produse de patru metri.',
   'category.lede.beds':
     'Paturi tapițate cu somieră rabatabilă și ladă. Tăblii capitonate sau cu panouri cusute.',
   'category.lede.armchairs':
@@ -209,10 +209,10 @@ const ro = {
   'category.lede.nightstands':
     'Noptiere tapițate, asortate tăbliilor de pat din aceeași colecție.',
   'category.lede.seating':
-    'Scaune și taburete tapițate — piesele mici care leagă restul camerei.',
+    'Scaune și taburete tapițate — produsele mici care leagă restul camerei.',
 
   'collection.lede.aldo':
-    'Blocuri adânci, capitonate mărunt, pe picioare joase. Cinci piese pe același desen: colțarul, canapeaua extensibilă, modulul, canapeaua rotundă și patul.',
+    'Blocuri adânci, capitonate mărunt, pe picioare joase. Cinci produse pe același desen: colțarul, canapeaua extensibilă, modulul, canapeaua rotundă și patul.',
   'collection.lede.cubic':
     'Volume drepte așezate pe un soclu cu falduri strânse. Aceeași geometrie la patru scări — modul, colțar, canapea și pat.',
   'collection.lede.soria':
@@ -222,7 +222,7 @@ const ro = {
   'collection.lede.linear':
     'Linie joasă, fără ornament, cu o singură cusătură orizontală. Un colțar și un pat croite din aceeași tăietură.',
   'collection.lede.bella':
-    'Brațe rotunjite și perne libere, într-un bouclé care ține forma. Deocamdată o singură piesă.',
+    'Brațe rotunjite și perne libere, într-un bouclé care ține forma. Deocamdată un singur produs.',
   'collection.lede.ela':
     'Corp jos, cu falduri strânse pe soclu și perne libere pe toată lungimea. Deocamdată o singură canapea, în șapte nuanțe.',
   'collection.lede.vallo':
@@ -234,7 +234,7 @@ const ro = {
      concrete blurb the index needs, and is not the same sentence twice. */
   'collection.pull.aldo': 'Confort care se simte. Design care rămâne.',
   'collection.body.aldo':
-    'ALDO este o colecție construită în jurul confortului generos și al unei prezențe imposibil de ignorat. Tapițeria bouclé, stratul de memory foam și structura din lemn masiv de fag, brad și placaj de eucalipt oferă senzația de confort profund, susținută de o construcție gândită să reziste în timp.\n\nCanapea, colțar, modul — fiecare piesă este extensibilă sau configurabilă pentru felul în care alegi să trăiești spațiul.\n\nALDO. O colecție în care confortul devine parte din design.',
+    'ALDO este o colecție construită în jurul confortului generos și al unei prezențe imposibil de ignorat. Tapițeria bouclé, stratul de memory foam și structura din lemn masiv de fag, brad și placaj de eucalipt oferă senzația de confort profund, susținută de o construcție gândită să reziste în timp.\n\nCanapea, colțar, modul — fiecare produs este extensibil sau configurabil pentru felul în care alegi să trăiești spațiul.\n\nALDO. O colecție în care confortul devine parte din design.',
   'collection.pull.cubic': 'Minimalism în formă. Generozitate în confort.',
   'collection.body.cubic':
     'CUBIC se remarcă printr-un design minimalist, proporții neobișnuite și un șezut surprinzător de lat și moale. Buretele de înaltă calitate oferă un confort aparte, transformând liniile simple ale colecției într-o experiență de relaxare pe care o simți imediat.\n\nLinii curate. Dimensiuni aparte. Confort fără compromis.',
@@ -245,25 +245,31 @@ const ro = {
   'collection.body.torro':
     'TORRO combină liniile contemporane cu un confort atent construit. Șezutul cu arcuri sinusoidale oferă susținere plăcută și rezistență în timp, iar tetierele reglabile permit ajustarea poziției pentru un plus de confort. Extensia completează funcționalitatea colecției, transformând fiecare moment de relaxare într-o experiență mai generoasă.\n\nSusținere precisă. Confort personalizat.',
 
-  'story.eyebrow': 'Atelier',
-  'story.title': 'Mobilă făcută unde se și vinde',
-  'story.p1':
-    'Piesele Vallo se croiesc și se tapițează în hala Samobi din comuna Vadu Săpat, județul Prahova. Nu importăm containere; producem la 60 de kilometri de București și livrăm de acolo în toată țara.',
-  'story.p2':
-    'Un colțar trece prin patru mâini: tâmplarul care încheie cadrul, croitorul care taie textila, tapițerul care o trage pe spumă și omul care verifică cusătura înainte de ambalare. Ne place să credem că se vede.',
-  'story.p3':
-    'Pentru că fabrica e a noastră, se poate schimba ce vrea clientul: dimensiunea, partea pe care cade colțul, textila, adâncimea șezutului. Cereți-ne o modificare și vă spunem în aceeași zi dacă se poate.',
-  'story.quote': 'O canapea bună se recunoaște după cadru, nu după pernă.',
 
   'footer.tagline': 'Mobilier tapițat, distribuit din Prahova în toată România.',
   'footer.rights': 'Toate drepturile rezervate.',
   'footer.parent': 'Companie a',
-  'footer.newsletter': 'Piese noi, o dată pe lună',
+  'horeca.eyebrow': 'HoReCa',
+  'horeca.title': 'Mobilier pentru hoteluri, restaurante și cafenele',
+  'horeca.lede':
+    'Canapele, banchete, fotolii și scaune realizate la comandă pentru spații comerciale, în fabrica Samobi din Vadu Săpat. Răsfoiți cataloagele aici sau descărcați-le în format PDF.',
+  'horeca.open': 'Răsfoiește catalogul',
+  'horeca.download': 'Descarcă PDF',
+  'horeca.loading': 'Se încarcă catalogul…',
+  'horeca.failed': 'Catalogul nu a putut fi deschis. Încercați să îl descărcați.',
+  'horeca.close': 'Închide',
+  'horeca.fullscreen': 'Ecran complet',
+  'horeca.prev': 'Pagina anterioară',
+  'horeca.next': 'Pagina următoare',
+  'horeca.zoomIn': 'Mărește',
+  'horeca.zoomOut': 'Micșorează',
+  'horeca.cta': 'Pentru un proiect anume — dimensiuni, cantități, textile — scrieți-ne și revenim cu o ofertă.',
+  'footer.newsletter': 'Produse noi, o dată pe lună',
   'footer.subscribe': 'Abonează-te',
   'footer.emailPlaceholder': 'Adresa de email',
 
   'notFound.title': 'Pagina nu există',
-  'notFound.body': 'Linkul e greșit sau piesa a ieșit din catalog.',
+  'notFound.body': 'Linkul e greșit sau produsul a ieșit din catalog.',
   'notFound.link': 'Înapoi la colecții',
 } as const
 
@@ -271,7 +277,7 @@ const en: Record<keyof typeof ro, string> = {
   'nav.collections': 'Collections',
   'nav.categories': 'Categories',
   'nav.pieces': 'Pieces',
-  'nav.atelier': 'Atelier',
+  'nav.horeca': 'HoReCa',
   'nav.showrooms': 'Showrooms',
   'nav.contact': 'Contact',
   'nav.menu': 'Menu',
@@ -310,7 +316,7 @@ const en: Record<keyof typeof ro, string> = {
   'manifesto.close': 'This is VALLO.',
   'manifesto.origin': 'Samobi · Vadu Săpat, Prahova',
   'manifesto.hands.lead':
-    'A sectional passes through four pairs of hands before it leaves Vadu Săpat.',
+    'A piece passes through 4 stages before it leaves the factory.',
   'manifesto.hand.1.role': 'The joiner',
   'manifesto.hand.1.act': 'Closes the frame.',
   'manifesto.hand.2.role': 'The cutter',
@@ -397,7 +403,7 @@ const en: Record<keyof typeof ro, string> = {
   'contact.submit': 'Send request',
   'contact.sending': 'Sending…',
   'contact.success': 'Request received. We answer within one working day.',
-  'contact.error': 'The request could not be sent. Call us on +40 733 853 257.',
+  'contact.error': 'The request could not be sent. Call us on +40 733 358 066.',
   'contact.required': 'Required field',
   'contact.invalidEmail': 'Invalid email address',
   'contact.optional': 'optional',
@@ -492,19 +498,25 @@ const en: Record<keyof typeof ro, string> = {
   'category.lede.seating':
     'Upholstered chairs and stools — the small pieces that tie the room together.',
 
-  'story.eyebrow': 'Atelier',
-  'story.title': 'Furniture made where it is sold',
-  'story.p1':
-    'Vallo pieces are cut and upholstered in the Samobi workshop in Vadu Săpat, Prahova County. We do not import containers; we make furniture 60 kilometres from Bucharest and ship it from there across the country.',
-  'story.p2':
-    'A sectional passes through four pairs of hands: the joiner who closes the frame, the cutter who lays the textile, the upholsterer who pulls it over the foam, and the person who checks the seam before it is wrapped. We like to think it shows.',
-  'story.p3':
-    'Because the factory is ours, what a client wants can change: the size, the side the corner falls on, the textile, the seat depth. Ask us for a modification and we will tell you the same day whether it can be done.',
-  'story.quote': 'A good sofa is judged by its frame, not by its cushion.',
 
   'footer.tagline': 'Upholstered furniture, distributed from Prahova across Romania.',
   'footer.rights': 'All rights reserved.',
   'footer.parent': 'A company of',
+  'horeca.eyebrow': 'HoReCa',
+  'horeca.title': 'Furniture for hotels, restaurants and cafés',
+  'horeca.lede':
+    'Sofas, banquettes, armchairs and chairs made to order for commercial spaces, in the Samobi factory at Vadu Săpat. Browse the catalogues here or download them as PDF.',
+  'horeca.open': 'Browse the catalogue',
+  'horeca.download': 'Download PDF',
+  'horeca.loading': 'Loading the catalogue…',
+  'horeca.failed': 'The catalogue could not be opened. Try downloading it instead.',
+  'horeca.close': 'Close',
+  'horeca.fullscreen': 'Fullscreen',
+  'horeca.prev': 'Previous page',
+  'horeca.next': 'Next page',
+  'horeca.zoomIn': 'Zoom in',
+  'horeca.zoomOut': 'Zoom out',
+  'horeca.cta': 'For a specific project — sizes, quantities, fabrics — write to us and we will come back with a quote.',
   'footer.newsletter': 'New pieces, once a month',
   'footer.subscribe': 'Subscribe',
   'footer.emailPlaceholder': 'Email address',
