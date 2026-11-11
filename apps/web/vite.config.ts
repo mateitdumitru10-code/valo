@@ -10,6 +10,11 @@ export default defineConfig({
       '~': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  build: {
+    // Read by scripts/prerender.mjs, to <link rel=modulepreload> each page's
+    // own chunk into its HTML.
+    manifest: true,
+  },
   server: {
     proxy: {
       '/api': 'http://localhost:8787',

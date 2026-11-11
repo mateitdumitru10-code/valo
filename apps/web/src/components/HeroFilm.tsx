@@ -271,14 +271,17 @@ export function HeroFilm() {
             margin cancels that trailing space, and is animated alongside the
             tracking so the mark stays centred for the whole entrance.
           */}
-          <motion.span
+          {/* The page's one heading. The wordmark is all that shows; the rest
+              says to search and to screen readers what VALLO is. */}
+          <motion.h1
             initial={{ opacity: 0, letterSpacing: '0.6em', marginRight: '-0.6em' }}
             animate={{ opacity: 1, letterSpacing: '0.34em', marginRight: '-0.34em' }}
             transition={{ duration: 1.2, ease: expo, delay: 0.1 }}
             className="font-display text-[clamp(3.5rem,17vw,17rem)] leading-none"
           >
             VALLO
-          </motion.span>
+            <span className="sr-only"> — canapele, colțare și paturi tapițate, produse în România</span>
+          </motion.h1>
           <motion.span
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 0.75, y: 0 }}

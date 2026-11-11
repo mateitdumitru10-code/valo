@@ -12,6 +12,7 @@ import { InquiryForm } from '~/components/InquiryForm'
 import { ArrowLink, Eyebrow, Rule } from '~/components/UI'
 import {
   bySlug,
+  cachedPiece,
   category,
   collection,
   collectionName,
@@ -42,11 +43,13 @@ export function PiecePage() {
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
   // here. The cover comes from the index, so the page has an image to show
   // from the first frame.
-  const [detail, setDetail] = useState<PieceDetail | null>(null)
+  // A prerendered page, or one opened before, has its detail already: start
+  // from it, so the first frame is the whole page rather than a skeleton.
+  const [detail, setDetail] = useState<PieceDetail | null>(() => cachedPiece(slug))
 
   useEffect(() => {
     let live = true
-    setDetail(null)
+    setDetail(cachedPiece(slug))
     setTextile(0)
     setOption(0)
     loadPiece(slug).then((data) => {

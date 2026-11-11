@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import { expo, quint } from '~/lib/motion'
 import { stopScroll } from '~/lib/scroll'
@@ -6,16 +7,28 @@ import { heroClip } from '~/lib/hero'
 
 /** Floor on how long the curtain is held. Anything more is self-inflicted. */
 const MIN_MS = 280
+/**
+ * Ceiling on the wait for the opening clip. Past this, a slow connection gets
+ * the page and the clip catches up; the curtain is not worth more than this to
+ * anyone, least of all to the page's paint timings.
+ */
+const CLIP_MS = 1800
 
 /**
  * First paint: hold the page until the fonts and enough of the opening clip are
  * buffered that scrubbing it does not stall on the first drag of the scroll.
  */
 export function Preloader() {
-  const [done, setDone] = useState(false)
+  // Only the home page opens on the film the curtain buffers for. Any other
+  // address opening behind it would hold its content back for nothing — and
+  // that content, prerendered, is what search and the visitor came for.
+  const { pathname } = useLocation()
+  const [film] = useState(() => pathname === '/')
+  const [done, setDone] = useState(!film)
   const [progress, setProgress] = useState(0)
 
   useEffect(() => {
+    if (!film) return
     stopScroll(true)
     const started = performance.now()
     let ticking = true
@@ -34,7 +47,7 @@ export function Preloader() {
       fetch(heroClip(), { headers: { range: 'bytes=0-262143' } })
         .then(() => undefined)
         .catch(() => undefined),
-      new Promise<void>((resolve) => setTimeout(resolve, 3000)),
+      new Promise<void>((resolve) => setTimeout(resolve, CLIP_MS)),
     ])
 
     Promise.all([clip, document.fonts?.ready ?? Promise.resolve()]).then(() => {
@@ -53,7 +66,7 @@ export function Preloader() {
       ticking = false
       stopScroll(false)
     }
-  }, [])
+  }, [film])
 
   return (
     <AnimatePresence>

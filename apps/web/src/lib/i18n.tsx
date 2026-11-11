@@ -535,6 +535,9 @@ const dict: Record<Lang, Record<string, string>> = { ro, en }
 
 export type Key = keyof typeof ro
 
+/** A string outside React — for page titles and descriptions, which are built before anything renders. */
+export const translate = (key: Key, lang: Lang = 'ro') => dict[lang][key] ?? dict.ro[key] ?? key
+
 type Ctx = {
   lang: Lang
   setLang: (l: Lang) => void

@@ -117,10 +117,14 @@ api.post('/inquiries', async (req, res) => {
 
 app.use('/api', api)
 
-// Production: serve the built SPA. In development Vite does this and proxies /api.
+// Production: serve the built site. In development Vite does this and proxies /api.
+// Every page is prerendered to its own file (scripts/prerender.mjs), served
+// at its address without the extension — /produse/coltar-sam from
+// produse/coltar-sam.html — as Cloudflare Pages and Netlify do.
 if (existsSync(WEB_DIST)) {
   app.use(
     express.static(WEB_DIST, {
+      extensions: ['html'],
       setHeaders(res, path) {
         if (path.includes('/media/') || path.includes('/assets/')) {
           res.setHeader('cache-control', 'public, max-age=31536000, immutable')
@@ -128,7 +132,9 @@ if (existsSync(WEB_DIST)) {
       },
     }),
   )
-  app.get(/.*/, (_req, res) => res.sendFile(join(WEB_DIST, 'index.html')))
+  // Anything not built does not exist: the not-found page, with the status
+  // that says so, rather than the home page and a 200.
+  app.use((_req, res) => res.status(404).sendFile(join(WEB_DIST, '404.html')))
 }
 
 createServer(app).listen(PORT, () => {

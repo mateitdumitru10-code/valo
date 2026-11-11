@@ -192,6 +192,21 @@ type Catalog = {
 }
 
 const details = new Map<string, Promise<PieceDetail | null>>()
+/** The same details, once they have arrived — readable without waiting. */
+const settled = new Map<string, PieceDetail>()
+
+/**
+ * Hands over a piece's detail that is already in hand: the prerenderer reads it
+ * from disk, and a prerendered page carries it inline so the first client render
+ * draws the same page the HTML did instead of an empty one.
+ */
+export function primePiece(detail: PieceDetail) {
+  settled.set(detail.slug, detail)
+  details.set(detail.slug, Promise.resolve(detail))
+}
+
+/** A piece's detail if it has already arrived, without fetching. */
+export const cachedPiece = (slug: string) => settled.get(slug) ?? null
 
 /** Loads a piece's detail once and remembers it for the rest of the session. */
 export function loadPiece(slug: string) {
@@ -200,6 +215,10 @@ export function loadPiece(slug: string) {
 
   const request = fetch(`/data/pieces/${slug}.json`)
     .then((res) => (res.ok ? (res.json() as Promise<PieceDetail>) : null))
+    .then((detail) => {
+      if (detail) settled.set(slug, detail)
+      return detail
+    })
     .catch(() => null)
   details.set(slug, request)
   return request

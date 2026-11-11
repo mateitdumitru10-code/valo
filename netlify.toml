@@ -6,22 +6,17 @@
   NODE_VERSION = "24"
 
 # The API is a long-running Express process and does not exist on Netlify.
-# This rule must come first: without it the catch-all below would answer
-# /api/inquiries with index.html and a 200, and the quote form would report
-# success for a request nobody received.
+# An unknown address already gets 404.html and a 404; this says so
+# explicitly, so the quote form can never read a 200 for a request nobody
+# received.
 [[redirects]]
   from = "/api/*"
-  to = "/index.html"
+  to = "/404.html"
   status = 404
 
-# Single-page app: every route is rendered by the client, so any path that is
-# not a real file has to be served index.html. Without this, /piese/coltar-aldo
-# works when reached in-app — the router handles it — but a direct visit or a
-# refresh asks Netlify for a file that was never built, and gets a 404.
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Every page is prerendered to its own file (scripts/prerender.mjs), so there
+# is no catch-all to index.html: it answered addresses that do not exist with
+# the home page and a 200. Netlify serves 404.html for anything not built.
 
 # Vite hashes these filenames, so they can never change under the same name.
 [[headers]]
