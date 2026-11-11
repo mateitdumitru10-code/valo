@@ -275,6 +275,12 @@ export function pageMeta(pathname: string): Meta {
         url: `${SITE_URL}/`,
         inLanguage: 'ro-RO',
         publisher: { '@id': `${SITE_URL}/#organization` },
+        // The products page filters by ?q=, the same search as the panel in the header.
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/produse?q={search_term_string}` },
+          'query-input': 'required name=search_term_string',
+        },
       }),
     })
   }

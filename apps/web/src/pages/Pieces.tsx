@@ -1,4 +1,6 @@
 import { useMemo } from 'react'
+import { SearchIcon } from '~/components/Search'
+import { searchPieces } from '~/lib/search'
 import { useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import clsx from 'clsx'
@@ -16,14 +18,17 @@ export function Pieces() {
   const [params, setParams] = useSearchParams()
   const active = params.get('c') as CategoryId | null
   const sort = (params.get('sort') as Sort) ?? 'featured'
+  const query = params.get('q') ?? ''
 
   const list = useMemo(() => {
-    const filtered = active ? pieces.filter((p) => p.category === active) : pieces
+    // A query narrows the list and, until a price sort is chosen, orders it by relevance.
+    const found = query.trim() ? searchPieces(query) : pieces
+    const filtered = active ? found.filter((p) => p.category === active) : found
     const sorted = [...filtered]
     if (sort === 'price-asc') sorted.sort((a, b) => (a.price ?? 0) - (b.price ?? 0))
     if (sort === 'price-desc') sorted.sort((a, b) => (b.price ?? 0) - (a.price ?? 0))
     return sorted
-  }, [active, sort])
+  }, [active, sort, query])
 
   const set = (key: string, value: string | null) => {
     const next = new URLSearchParams(params)
@@ -72,6 +77,30 @@ export function Pieces() {
           </div>
 
           <div className="flex items-center gap-4">
+            <label className="flex items-center gap-2 border-b border-ink/20 pb-1 focus-within:border-ink/60">
+              <SearchIcon className="h-3.5 w-3.5 shrink-0 opacity-45" />
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => set('q', e.target.value || null)}
+                placeholder={t('search.label')}
+                aria-label={t('search.label')}
+                autoComplete="off"
+                spellCheck={false}
+                enterKeyHint="search"
+                className="w-32 bg-transparent text-sm outline-none placeholder:text-ink/40 sm:w-44 [&::-webkit-search-cancel-button]:hidden"
+              />
+              {query && (
+                <button
+                  type="button"
+                  onClick={() => set('q', null)}
+                  aria-label={t('search.clear')}
+                  className="text-sm leading-none opacity-45 hover:opacity-100"
+                >
+                  ×
+                </button>
+              )}
+            </label>
             <span className="eyebrow opacity-35 tabular-nums">
               {String(list.length).padStart(2, '0')}
             </span>
@@ -87,6 +116,13 @@ export function Pieces() {
           </div>
         </div>
       </div>
+
+      {list.length === 0 && (
+        <div className="gutter py-16">
+          <p className="font-display text-2xl">{t('search.none')}</p>
+          <p className="mt-3 max-w-md text-sm leading-relaxed opacity-60">{t('search.hint')}</p>
+        </div>
+      )}
 
       <section className="gutter grid grid-cols-1 gap-x-6 gap-y-14 py-16 sm:grid-cols-2 lg:grid-cols-3">
         <AnimatePresence mode="popLayout">

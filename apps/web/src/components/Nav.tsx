@@ -7,6 +7,7 @@ import { collectionName, collections } from '~/lib/catalog'
 import { mainPhone, mainPhoneHref } from '~/lib/showrooms'
 import { expo } from '~/lib/motion'
 import { stopScroll } from '~/lib/scroll'
+import { Search, SearchIcon } from '~/components/Search'
 
 const links = [
   { to: '/colectii', key: 'nav.collections' },
@@ -83,7 +84,24 @@ export function Nav() {
   const inverted = useInverted()
   const scrolled = useScrolled()
   const [open, setOpen] = useState(false)
+  const [searching, setSearching] = useState(false)
   const location = useLocation()
+
+  // "/" and ⌘K / Ctrl+K open search from anywhere, except while typing.
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      const target = event.target
+      const typing =
+        target instanceof Element && target.closest('input, textarea, select, [contenteditable="true"]')
+      if ((event.key === 'k' && (event.metaKey || event.ctrlKey)) || (event.key === '/' && !typing)) {
+        event.preventDefault()
+        setOpen(false)
+        setSearching(true)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
   const first = useRef(true)
 
   useEffect(() => {
@@ -92,6 +110,7 @@ export function Nav() {
       return
     }
     setOpen(false)
+    setSearching(false)
   }, [location.pathname])
 
   useEffect(() => {
@@ -157,6 +176,19 @@ export function Nav() {
           </nav>
 
           <div className="flex items-center gap-5">
+            <button
+              type="button"
+              onClick={() => {
+                setOpen(false)
+                setSearching(true)
+              }}
+              className="eyebrow flex items-center gap-2 opacity-60 transition-opacity hover:opacity-100"
+              aria-label={t('search.label')}
+            >
+              <SearchIcon className="h-3.5 w-3.5" />
+              <span className="hidden lg:inline">{t('search.label')}</span>
+            </button>
+
             <a
               href={`tel:${mainPhoneHref}`}
               className="eyebrow hidden opacity-60 transition-opacity hover:opacity-100 xl:block"
@@ -206,6 +238,8 @@ export function Nav() {
           </div>
         </div>
       </header>
+
+      <Search open={searching} onClose={() => setSearching(false)} />
 
       <AnimatePresence>
         {open && (
