@@ -846,6 +846,184 @@
         }
       ]
     },
+    "canapea-cubic": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "300 cm"
+        },
+        {
+          "ro": "Adâncime totală",
+          "en": "Overall depth",
+          "value": "150 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "120 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete",
+                "en": "Wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, integrate discret în construcție",
+                "en": "Concealed, set discreetly into the frame"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR la bază și strat superior de Memory Foam",
+                "en": "HR foam base with a Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard foam; loose cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structura canapelei",
+                "en": "Fixed, built into the sofa"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Canapea dreaptă, fixă, fără ladă de depozitare",
+                "en": "Straight, fixed sofa, without storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cheder",
+                "en": "Piping"
+              },
+              "value": {
+                "ro": "Pe toate lateralele",
+                "en": "Along every side"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
     "coltar-sam": {
       "figures": [
         {

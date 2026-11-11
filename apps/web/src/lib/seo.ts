@@ -134,7 +134,7 @@ function pieceTitle(piece: Piece, detail: PieceDetail | null) {
   // with its optional extension, and its standard row says "fără ladă".
   const storage = sheet.some(
     (r) =>
-      r.label.ro === 'Depozitare' ||
+      (r.label.ro === 'Depozitare' && !/^fără/i.test(r.value.ro)) ||
       (r.label.ro === 'Configurație standard' && /cu ladă/i.test(r.value.ro)),
   )
   if (!extends_ && !storage) return `${piece.name} — mobilier tapițat la comandă | ${BRAND}`

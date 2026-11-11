@@ -3890,9 +3890,9 @@
       "collections": [],
       "price": 5300,
       "currency": "RON",
-      "lead": "Simplă în formă. Generoasă în confort.",
-      "summary": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
-      "body": "Simplă în formă. Generoasă în confort.\n\nMinimalism cu o prezență aparte. Canapeaua CUBIC impresionează prin șezutul generos și proporțiile neobișnuite, oferind un spațiu amplu pentru relaxare. Buretele de înaltă calitate și șezutul moale creează un confort profund, păstrând în același timp liniile curate ale designului.",
+      "lead": "Design minimalist. Proporții generoase. Confort fără compromisuri.",
+      "summary": "Design minimalist. Proporții generoase. Confort fără compromisuri.\n\nCanapeaua CUBIC interpretează confortul într-o formă contemporană, prin linii minimaliste și proporții generoase. Silueta sa echilibrată pune în valoare simplitatea designului, în timp ce detaliile atent lucrate îi conferă o prezență discretă și elegantă.",
+      "body": "Design minimalist. Proporții generoase. Confort fără compromisuri.\n\nCanapeaua CUBIC interpretează confortul într-o formă contemporană, prin linii minimaliste și proporții generoase. Silueta sa echilibrată pune în valoare simplitatea designului, în timp ce detaliile atent lucrate îi conferă o prezență discretă și elegantă.\n\nElementul definitoriu este șezutul extra-adânc, cu o adâncime impresionantă de 120 cm — un spațiu amplu, gândit pentru relaxare în voie. Construcția din spumă HR, completată de un strat superior de Memory Foam, oferă o experiență de confort adaptivă și primitoare.\n\nSpătarul din spumă standard este completat de perne umplute cu fibră siliconică, mobile și repoziționabile. Pernele decorative sunt incluse în configurația standard. Husele pernelor mobile sunt prevăzute cu fermoar și pot fi detașate pentru curățare sau înlocuire, în funcție de recomandările de întreținere ale materialului ales.\n\nStructura interioară îmbină lemnul masiv de fag și lemnul de brad cu placajul din eucalipt. Brațele au structură din lemn și burete, iar chederul aplicat pe toate lateralele evidențiază conturul piesei și atenția acordată finisajelor. Picioarele ascunse păstrează aspectul vizual curat al canapelei.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -4152,6 +4152,182 @@
         }
       ],
       "category": "sofas",
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "300 cm"
+        },
+        {
+          "ro": "Adâncime totală",
+          "en": "Overall depth",
+          "value": "150 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "120 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete",
+                "en": "Wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, integrate discret în construcție",
+                "en": "Concealed, set discreetly into the frame"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR la bază și strat superior de Memory Foam",
+                "en": "HR foam base with a Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard foam; loose cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structura canapelei",
+                "en": "Fixed, built into the sofa"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Canapea dreaptă, fixă, fără ladă de depozitare",
+                "en": "Straight, fixed sofa, without storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cheder",
+                "en": "Piping"
+              },
+              "value": {
+                "ro": "Pe toate lateralele",
+                "en": "Along every side"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ],
       "collection": "cubic"
     },
     {
