@@ -17,3 +17,16 @@
 # are a few kilobytes each: revalidate every time and let the ETag answer.
 /data/*
   cache-control: public, max-age=0, must-revalidate
+
+# Until release the site lives only on Cloudflare's own addresses, while every
+# page names https://vallo.ro as its canonical (src/lib/seo.ts). Search engines
+# are told to keep these copies out of the index, so vallo.ro starts clean
+# rather than competing with its own staging. The rules match only the
+# pages.dev hosts — production and branch previews — never vallo.ro. robots.txt
+# must not block these hosts: a crawler that cannot fetch a page never reads
+# this header.
+https://:project.pages.dev/*
+  x-robots-tag: noindex
+
+https://:version.:project.pages.dev/*
+  x-robots-tag: noindex
