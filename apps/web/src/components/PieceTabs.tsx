@@ -51,7 +51,7 @@ export function PieceTabs({ tabs, label }: { tabs: Tab[]; label: string }) {
       <div
         role="tablist"
         aria-label={label}
-        className="flex gap-6 overflow-x-auto border-b border-ink/12 [scrollbar-width:none] sm:gap-8 md:gap-12"
+        className="flex justify-between gap-3 overflow-x-auto border-b border-ink/12 [scrollbar-width:none] sm:justify-start sm:gap-8 md:gap-12"
       >
         {tabs.map((tab, i) => {
           const on = tab.id === current
@@ -70,7 +70,7 @@ export function PieceTabs({ tabs, label }: { tabs: Tab[]; label: string }) {
               onClick={() => choose(tab.id)}
               onKeyDown={(event) => onKeyDown(event, i)}
               className={clsx(
-                'relative shrink-0 whitespace-nowrap pb-4 font-display text-[clamp(1.0625rem,0.98rem+0.45vw,1.375rem)] transition-opacity duration-300',
+                'relative shrink-0 whitespace-nowrap pb-4 font-display text-[clamp(0.9375rem,0.8rem+0.6vw,1.375rem)] transition-opacity duration-300',
                 'focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-4 focus-visible:outline-ink/40',
                 on ? 'opacity-100' : 'opacity-40 hover:opacity-75',
               )}

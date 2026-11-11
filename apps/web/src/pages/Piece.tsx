@@ -157,7 +157,17 @@ export function PiecePage() {
       ),
     })
   }
-  if (dimensionRows.length > 0 || sheet.length > 0) {
+  if (detail?.schematic) {
+    tabs.push({
+      id: 'dimensiuni',
+      label: t('piece.dimensions'),
+      content: (
+        <div className="pt-12 pb-20 md:pt-16 md:pb-28">
+          <Schematic drawing={detail.schematic} name={piece.name} embedded />
+        </div>
+      ),
+    })
+  }  if (dimensionRows.length > 0 || sheet.length > 0) {
     const groups = [
       ...(dimensionRows.length
         ? [{ title: t('piece.dimensions'), rows: dimensionRows, note: dimensionNote }]
@@ -241,17 +251,7 @@ export function PiecePage() {
       </div>
     ),
   })
-  if (detail?.schematic) {
-    tabs.push({
-      id: 'plan',
-      label: t('piece.plan'),
-      content: (
-        <div className="pt-12 pb-20 md:pt-16 md:pb-28">
-          <Schematic drawing={detail.schematic} name={piece.name} embedded />
-        </div>
-      ),
-    })
-  }
+
 
   return (
     <div className="pt-28 md:pt-36">
