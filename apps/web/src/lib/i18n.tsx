@@ -200,6 +200,7 @@ const ro = {
   'piece.planApprox':
     'Schiță de atelier, orientativă. Cotele confirmate sunt cele din fișa tehnică.',
   'piece.gallery': 'Galerie',
+  'piece.details': 'Detalii',
   'piece.detail': 'În detaliu',
   'piece.shotIn': 'Fotografiat în',
   'piece.views': 'vederi',
@@ -459,6 +460,7 @@ const en: Record<keyof typeof ro, string> = {
   'piece.buildNote': 'From the workshop’s technical sheet. Any custom configuration is confirmed in the individual quote.',
   'piece.planApprox': 'Workshop sketch, for orientation. The confirmed figures are those in the specification.',
   'piece.gallery': 'Gallery',
+  'piece.details': 'Details',
   'piece.detail': 'In detail',
   'piece.shotIn': 'Photographed in',
   'piece.views': 'views',

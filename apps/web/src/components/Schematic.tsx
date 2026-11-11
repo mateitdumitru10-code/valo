@@ -12,7 +12,16 @@ import { expo, viewport } from '~/lib/motion'
  * on the paper ground with nothing boxing it in. Registration ticks at the
  * corners do the framing that a border would otherwise have to do.
  */
-export function Schematic({ drawing, name }: { drawing: Drawing; name: string }) {
+export function Schematic({
+  drawing,
+  name,
+  embedded = false,
+}: {
+  drawing: Drawing
+  name: string
+  /** Inside the product page's tabs: no band of its own, and the tab already names it. */
+  embedded?: boolean
+}) {
   const { t } = useI18n()
   // Only the figures the drawing actually carries: a sofa without a chaise has
   // one depth, a sectional has two.
@@ -25,12 +34,13 @@ export function Schematic({ drawing, name }: { drawing: Drawing; name: string })
     ] satisfies [Key, number | undefined][]
   ).flatMap(([key, value]) => (typeof value === 'number' ? [[key, value] as [Key, number]] : []))
 
+  const Band = embedded ? 'div' : 'section'
   return (
-    <section className="gutter border-t border-ink/12 py-20 md:py-28">
+    <Band className={embedded ? undefined : 'gutter border-t border-ink/12 py-20 md:py-28'}>
       <div className="grid gap-12 md:grid-cols-12">
         <div className="md:col-span-3">
-          <Eyebrow>{t('piece.plan')}</Eyebrow>
-          <h2 className="display-md mt-5">{t('piece.planTitle')}</h2>
+          {!embedded && <Eyebrow>{t('piece.plan')}</Eyebrow>}
+          <h2 className={embedded ? 'display-md' : 'display-md mt-5'}>{t('piece.planTitle')}</h2>
 
           <dl className="mt-10 border-t border-ink/12">
             {figures.map(([key, value], i) => (
@@ -88,6 +98,6 @@ export function Schematic({ drawing, name }: { drawing: Drawing; name: string })
           />
         </motion.figure>
       </div>
-    </section>
+    </Band>
   )
 }

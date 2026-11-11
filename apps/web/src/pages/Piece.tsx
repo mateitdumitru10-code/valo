@@ -6,8 +6,9 @@ import { Img } from '~/components/Img'
 import { SizePicker } from '~/components/SizePicker'
 import { TextilePicker } from '~/components/TextilePicker'
 import { Schematic } from '~/components/Schematic'
+import { PieceTabs, type Tab } from '~/components/PieceTabs'
 import { PieceCard } from '~/components/PieceCard'
-import { RevealImage, RevealLines, Reveal } from '~/components/Reveal'
+import { RevealImage, RevealLines } from '~/components/Reveal'
 import { InquiryForm } from '~/components/InquiryForm'
 import { ArrowLink, Eyebrow, Rule } from '~/components/UI'
 import {
@@ -116,6 +117,142 @@ export function PiecePage() {
     .map((line) => line.trim())
     .filter(Boolean)
 
+  const rowClass = 'grid gap-1 border-b border-ink/10 py-3 sm:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] sm:gap-6'
+  const dimensionRows = figures.length
+    ? figures.map((figure) => ({
+        key: figure.ro,
+        label: lang === 'ro' ? figure.ro : figure.en,
+        value: figure.value,
+      }))
+    : (detail?.dimensions ?? []).map((d) => ({
+        key: `${d.w}-${d.d}-${d.h}`,
+        label: t('piece.dimensionsNote'),
+        value: `${d.w} × ${d.d} × ${d.h}`,
+      }))
+  // The client's sheet gives its figures in cm and never a total height, so
+  // where it exists it replaces the scraped w × d × h rows rather than joining them.
+  const dimensionNote = figures.length
+    ? detail?.figuresNote && (lang === 'ro' ? detail.figuresNote.ro : detail.figuresNote.en)
+    : undefined
+
+  const tabs: Tab[] = []
+  if (paragraphs.length > 0) {
+    tabs.push({
+      id: 'descriere',
+      label: t('piece.description'),
+      content: (
+        <div className="grid gap-8 pt-12 pb-20 md:grid-cols-12 md:pt-16 md:pb-28">
+          <div className="md:col-span-5">
+            <p className="font-display text-[clamp(1.1875rem,1.05rem+0.7vw,1.5rem)] leading-[1.35]">
+              {detail?.lead || paragraphs[0]}
+            </p>
+            {lang === 'en' && <p className="mt-4 text-xs opacity-45">{t('piece.roNote')}</p>}
+          </div>
+          <div className="max-w-prose space-y-4 text-sm leading-relaxed opacity-70 md:col-span-6 md:col-start-7">
+            {paragraphs.slice(1, 8).map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
+        </div>
+      ),
+    })
+  }
+  if (dimensionRows.length > 0 || sheet.length > 0) {
+    const groups = [
+      ...(dimensionRows.length
+        ? [{ title: t('piece.dimensions'), rows: dimensionRows, note: dimensionNote }]
+        : []),
+      ...sheet.map((group) => ({
+        title: lang === 'ro' ? group.title.ro : group.title.en,
+        rows: group.rows.map((row) => ({
+          key: row.label.ro,
+          label: lang === 'ro' ? row.label.ro : row.label.en,
+          value: lang === 'ro' ? row.value.ro : row.value.en,
+        })),
+        note: undefined as string | undefined,
+      })),
+    ]
+    tabs.push({
+      id: 'fisa-tehnica',
+      label: t('piece.spec'),
+      content: (
+        <div className="pt-12 pb-20 md:pt-16 md:pb-28">
+          {/* Two flowing columns, so a short group never leaves a hole beside a long one. */}
+          <div className="gap-16 md:columns-2">
+            {groups.map((group) => (
+              <div key={group.title} className="mb-12 break-inside-avoid last:mb-0">
+                <h3 className="eyebrow opacity-60">{group.title}</h3>
+                <dl className="mt-4 border-t border-ink/12 text-sm">
+                  {group.rows.map((row) => (
+                    <div key={row.key} className={rowClass}>
+                      <dt className="opacity-45">{row.label}</dt>
+                      <dd className="leading-relaxed tabular-nums">{row.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+                {group.note && <p className="mt-3 text-xs opacity-45">{group.note}</p>}
+              </div>
+            ))}
+          </div>
+          {sheet.length > 0 && (
+            <p className="mt-14 max-w-md text-xs leading-relaxed opacity-45">{t('piece.buildNote')}</p>
+          )}
+        </div>
+      ),
+    })
+  }
+  tabs.push({
+    id: 'detalii',
+    label: t('piece.details'),
+    content: (
+      <div className="pt-12 pb-20 md:pt-16 md:pb-28">
+        <dl className="grid border-t border-ink/12 text-sm md:max-w-2xl">
+          {range && (
+            <div className={rowClass}>
+              <dt className="opacity-45">{t('piece.collection')}</dt>
+              <dd>
+                <Link to={`/colectii/${range.id}`} className="underline underline-offset-4">
+                  {collectionName(range.id)}
+                </Link>
+              </dd>
+            </div>
+          )}
+          <div className={rowClass}>
+            <dt className="opacity-45">{t('piece.category')}</dt>
+            <dd>
+              <Link to={`/categorii/${piece.category}`} className="underline underline-offset-4">
+                {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
+              </Link>
+            </dd>
+          </div>
+          <div className={rowClass}>
+            <dt className="opacity-45">{t('piece.origin')}</dt>
+            <dd>{t('piece.originValue')}</dd>
+          </div>
+          <div className={rowClass}>
+            <dt className="opacity-45">{t('piece.warranty')}</dt>
+            <dd>{t('piece.warrantyValue')}</dd>
+          </div>
+          <div className={rowClass}>
+            <dt className="opacity-45">{t('piece.code')}</dt>
+            <dd className="tabular-nums opacity-70">{piece.slug}</dd>
+          </div>
+        </dl>
+      </div>
+    ),
+  })
+  if (detail?.schematic) {
+    tabs.push({
+      id: 'plan',
+      label: t('piece.plan'),
+      content: (
+        <div className="pt-12 pb-20 md:pt-16 md:pb-28">
+          <Schematic drawing={detail.schematic} name={piece.name} embedded />
+        </div>
+      ),
+    })
+  }
+
   return (
     <div className="pt-28 md:pt-36">
       <div className="gutter">
@@ -183,6 +320,20 @@ export function PiecePage() {
         {/* -------------------------------------------------------- spec -- */}
         <aside className="md:col-span-4">
           <div className="md:sticky md:top-28">
+            {/* The price leads the column: it answers the first question, and
+                the pickers below it are what move it. */}
+            {price && (
+              <div className="mb-12">
+                <p className="font-display text-[clamp(1.75rem,1.5rem+1vw,2.375rem)] leading-none tabular-nums">
+                  {price}
+                </p>
+                <p className="mt-3 text-xs opacity-45">
+                  {t(priced && items.length > 1 ? 'piece.priceNoteOption' : 'piece.priceNote')}
+                </p>
+                <Rule className="mt-8" />
+              </div>
+            )}
+
             {variants.length > 1 && (
               <div className="mb-12">
                 <TextilePicker
@@ -199,91 +350,7 @@ export function PiecePage() {
               </div>
             )}
 
-            <Eyebrow>{t('piece.spec')}</Eyebrow>
-            <Rule className="mt-4" />
-
-            <dl className="text-sm">
-              {price && (
-                <div className="border-b border-ink/10 py-4">
-                  <dt className="eyebrow opacity-45">{t('piece.price')}</dt>
-                  <dd className="mt-2 font-display text-xl">{price}</dd>
-                  <p className="mt-1 text-xs opacity-45">
-                    {t(priced && items.length > 1 ? 'piece.priceNoteOption' : 'piece.priceNote')}
-                  </p>
-                </div>
-              )}
-              {/* The client's technical sheet gives its figures in cm and never
-                  a total height, so where it exists it replaces the scraped
-                  w × d × h row rather than sitting beside it. */}
-              {figures.length > 0 && (
-                <div className="border-b border-ink/10 py-4">
-                  <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
-                  <dd className="mt-2 space-y-1.5">
-                    {figures.map((figure) => (
-                      <p key={figure.ro} className="flex items-baseline justify-between gap-4">
-                        <span className="opacity-60">{lang === 'ro' ? figure.ro : figure.en}</span>
-                        <span className="tabular-nums whitespace-nowrap">{figure.value}</span>
-                      </p>
-                    ))}
-                    {detail?.figuresNote && (
-                      <p className="pt-1 text-xs opacity-45">
-                        {lang === 'ro' ? detail.figuresNote.ro : detail.figuresNote.en}
-                      </p>
-                    )}
-                  </dd>
-                </div>
-              )}
-              {figures.length === 0 && (detail?.dimensions?.length ?? 0) > 0 && (
-                <div className="border-b border-ink/10 py-4">
-                  <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
-                  <dd className="mt-2 space-y-1 tabular-nums">
-                    {detail?.dimensions.map((d) => (
-                      <p key={`${d.w}-${d.d}-${d.h}`}>
-                        {d.w} × {d.d} × {d.h} mm
-                      </p>
-                    ))}
-                    <p className="mt-1 text-xs opacity-45">{t('piece.dimensionsNote')}</p>
-                  </dd>
-                </div>
-              )}
-
-              {range && (
-                <div className="border-b border-ink/10 py-4">
-                  <dt className="eyebrow opacity-45">{t('piece.collection')}</dt>
-                  <dd className="mt-2">
-                    <Link to={`/colectii/${range.id}`} className="underline underline-offset-4">
-                      {collectionName(range.id)}
-                    </Link>
-                  </dd>
-                </div>
-              )}
-
-              <div className="border-b border-ink/10 py-4">
-                <dt className="eyebrow opacity-45">{t('piece.category')}</dt>
-                <dd className="mt-2">
-                  <Link to={`/categorii/${piece.category}`} className="underline underline-offset-4">
-                    {kind ? (lang === 'ro' ? kind.ro : kind.en) : ''}
-                  </Link>
-                </dd>
-              </div>
-
-              <div className="border-b border-ink/10 py-4">
-                <dt className="eyebrow opacity-45">{t('piece.origin')}</dt>
-                <dd className="mt-2">{t('piece.originValue')}</dd>
-              </div>
-
-              <div className="border-b border-ink/10 py-4">
-                <dt className="eyebrow opacity-45">{t('piece.warranty')}</dt>
-                <dd className="mt-2">{t('piece.warrantyValue')}</dd>
-              </div>
-
-              <div className="border-b border-ink/10 py-4">
-                <dt className="eyebrow opacity-45">{t('piece.code')}</dt>
-                <dd className="mt-2 tabular-nums opacity-70">{piece.slug}</dd>
-              </div>
-            </dl>
-
-            <div className="mt-8">
+            <div>
               <ArrowLink
                 to={`/contact?piece=${encodeURIComponent(piece.name)}${
                   items.length > 1
@@ -296,6 +363,13 @@ export function PiecePage() {
             </div>
           </div>
         </aside>
+      </section>
+
+      {/* ---------------------------------------------------- reading -- */}
+      {/* Description, technical sheet, details and plan share one place on the
+          page, a tab each, instead of four bands stacked down it. */}
+      <section className="gutter mt-16 md:mt-24">
+        <PieceTabs key={slug} label={piece.name} tabs={tabs} />
       </section>
 
       {/* ------------------------------------------------------ in detail -- */}
@@ -365,59 +439,6 @@ export function PiecePage() {
           </div>
         </section>
       )}
-
-      {/* ---------------------------------------------------- description -- */}
-      {paragraphs.length > 0 && (
-        <section className="gutter grid gap-8 py-20 md:grid-cols-12 md:py-28">
-          <div className="md:col-span-4">
-            <Eyebrow>{t('piece.description')}</Eyebrow>
-            {lang === 'en' && <p className="mt-3 text-xs opacity-45">{t('piece.roNote')}</p>}
-          </div>
-          <div className="md:col-span-7 md:col-start-6">
-            <Reveal>
-              <p className="font-display text-[clamp(1.1875rem,1.05rem+0.7vw,1.5rem)] leading-[1.35]">
-                {detail?.lead || paragraphs[0]}
-              </p>
-            </Reveal>
-            <div className="mt-8 space-y-4 text-sm leading-relaxed opacity-70">
-              {paragraphs.slice(1, 8).map((line) => (
-                <p key={line}>{line}</p>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* ---------------------------------------------------- the sheet -- */}
-      {sheet.length > 0 && (
-        <section className="gutter grid gap-8 border-t border-ink/12 py-20 md:grid-cols-12 md:py-28">
-          <div className="md:col-span-4">
-            <Eyebrow>{t('piece.build')}</Eyebrow>
-            <p className="mt-3 max-w-xs text-xs leading-relaxed opacity-45">{t('piece.buildNote')}</p>
-          </div>
-          <div className="space-y-12 md:col-span-7 md:col-start-6">
-            {sheet.map((group) => (
-              <Reveal key={group.title.ro}>
-                <h3 className="eyebrow opacity-60">{lang === 'ro' ? group.title.ro : group.title.en}</h3>
-                <dl className="mt-4 border-t border-ink/12 text-sm">
-                  {group.rows.map((row) => (
-                    <div
-                      key={row.label.ro}
-                      className="grid gap-1 border-b border-ink/10 py-3 sm:grid-cols-[minmax(0,2fr)_minmax(0,5fr)] sm:gap-6"
-                    >
-                      <dt className="opacity-45">{lang === 'ro' ? row.label.ro : row.label.en}</dt>
-                      <dd className="leading-relaxed">{lang === 'ro' ? row.value.ro : row.value.en}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* ----------------------------------------------------------- plan -- */}
-      {detail?.schematic && <Schematic drawing={detail.schematic} name={piece.name} />}
 
       {/* -------------------------------------------------------- related -- */}
       {siblings.length > 0 && (
