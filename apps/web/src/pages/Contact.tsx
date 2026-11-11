@@ -12,6 +12,8 @@ export function Contact() {
   // A width chosen on a bed page rides the link here; it is put in the message
   // rather than in the piece field, which is a fixed list of catalogue names.
   const size = params.get('size') ?? undefined
+  // Likewise a choice that is not a size — springs or Memory Foam in the seat.
+  const option = params.get('option') ?? undefined
   const factory = locations.find((l) => l.kind === 'factory')!
 
   return (
@@ -54,7 +56,7 @@ export function Contact() {
         </div>
 
         <div className="md:col-span-7 md:col-start-6">
-          <InquiryForm defaultPiece={piece} defaultSize={size} />
+          <InquiryForm defaultPiece={piece} defaultSize={size} defaultOption={option} />
         </div>
       </section>
     </div>

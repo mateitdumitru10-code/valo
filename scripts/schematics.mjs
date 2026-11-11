@@ -38,7 +38,7 @@ const find = (name) =>
 
 let count = 0
 for (const [slug, entry] of Object.entries(schematics)) {
-  const { file: name, cm } = typeof entry === 'string' ? { file: entry } : entry
+  const { file: name, cm, approximate } = typeof entry === 'string' ? { file: entry } : entry
   const product = catalog.products.find((p) => p.slug === slug)
   const file = find(name)
   if (!product || !file) continue
@@ -94,7 +94,10 @@ for (const [slug, entry] of Object.entries(schematics)) {
     h: meta.height ?? height,
     // Figures as printed on the drawing, so the page can set them as type
     // rather than leaving them locked inside the image.
-    cm: cm ?? null,
+    // A sketch the client's newer technical sheet contradicts keeps its
+    // place as a picture of the shape, but its figures are not repeated.
+    cm: approximate ? null : (cm ?? null),
+    ...(approximate ? { approximate: true } : {}),
   }
   count++
 }

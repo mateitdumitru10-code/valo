@@ -1,8 +1,15 @@
 import { motion } from 'motion/react'
 import clsx from 'clsx'
 import type { Options } from '~/lib/catalog'
-import { useI18n } from '~/lib/i18n'
+import { useI18n, type Key } from '~/lib/i18n'
 import { expo } from '~/lib/motion'
+
+/** What the picker is called, how its options are counted, and the note under it. */
+const LABELS = {
+  size: { title: 'piece.size', count: 'piece.sizeOptions', note: 'piece.sizeNote' },
+  spec: { title: 'piece.mattress', count: 'piece.mattressOptions', note: 'piece.mattressNote' },
+  seat: { title: 'piece.seatType', count: 'piece.mattressOptions', note: 'piece.seatNote' },
+} satisfies Record<Options['kind'], { title: Key; count: Key; note: Key }>
 
 type Props = {
   options: Options
@@ -32,17 +39,18 @@ export function SizePicker({ options, active, onSelect }: Props) {
   const measures = items.map((item) => item.measure)
   const scaled = measures.every((m): m is number => typeof m === 'number')
   const largest = scaled ? Math.max(...measures) : 0
+  const keys = LABELS[options.kind]
   const label = (index: number) => (lang === 'ro' ? items[index].ro : items[index].en)
 
   return (
-    <section aria-label={t(options.kind === 'spec' ? 'piece.mattress' : 'piece.size')}>
+    <section aria-label={t(keys.title)}>
       <div className="flex items-baseline justify-between gap-4">
         <p className="eyebrow opacity-45">
-          {t(options.kind === 'spec' ? 'piece.mattress' : 'piece.size')}
+          {t(keys.title)}
         </p>
         <p className="eyebrow tabular-nums opacity-35">
           {String(items.length).padStart(2, '0')}{' '}
-          {t(options.kind === 'spec' ? 'piece.mattressOptions' : 'piece.sizeOptions')}
+          {t(keys.count)}
         </p>
       </div>
 
@@ -92,7 +100,7 @@ export function SizePicker({ options, active, onSelect }: Props) {
       </ul>
 
       <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">
-        {t(options.kind === 'spec' ? 'piece.mattressNote' : 'piece.sizeNote')}
+        {t(keys.note)}
       </p>
     </section>
   )

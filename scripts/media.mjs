@@ -200,7 +200,7 @@ for (const [slug, spec] of Object.entries(curation.products ?? {})) {
   const existing = catalog.products.find((p) => p.slug === slug)
   if (existing) {
     // Only what the entry actually states — a missing price must not wipe one.
-    for (const field of ['name', 'category', 'price', 'lead', 'summary', 'body']) {
+    for (const field of ['name', 'category', 'price', 'lead', 'summary', 'body', 'dimensions']) {
       if (spec[field] !== undefined && spec[field] !== null) existing[field] = spec[field]
     }
     continue
@@ -221,6 +221,18 @@ for (const [slug, spec] of Object.entries(curation.products ?? {})) {
     images: [],
     source: '',
   })
+}
+
+// The client's technical sheets (docs/VALLO_*.pdf), transcribed. Kept apart
+// from curation.json because they are long, bilingual and come from one
+// source; re-ingesting never touches them.
+const specs = JSON.parse(await readFile(join(ROOT, 'data/specs.json'), 'utf8'))
+for (const product of catalog.products) {
+  const sheet = specs.pieces?.[product.slug]
+  for (const field of ['figures', 'figuresNote', 'specs']) {
+    if (sheet?.[field]) product[field] = sheet[field]
+    else delete product[field]
+  }
 }
 
 // Own photography wins over the scraped set. Applied here rather than in

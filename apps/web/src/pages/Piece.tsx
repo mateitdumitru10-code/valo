@@ -106,6 +106,8 @@ export function PiecePage() {
   const oneTone = tones.length > 0 && tones.every((tone) => tone && tone === tones[0])
   const solo = frames.length === 1
   const siblings = related(piece)
+  const figures = detail?.figures ?? []
+  const sheet = detail?.specs ?? []
   const paragraphs = (detail?.body ?? '')
     .split('\n')
     .map((line) => line.trim())
@@ -207,7 +209,28 @@ export function PiecePage() {
                   </p>
                 </div>
               )}
-              {(detail?.dimensions?.length ?? 0) > 0 && (
+              {/* The client's technical sheet gives its figures in cm and never
+                  a total height, so where it exists it replaces the scraped
+                  w × d × h row rather than sitting beside it. */}
+              {figures.length > 0 && (
+                <div className="border-b border-ink/10 py-4">
+                  <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
+                  <dd className="mt-2 space-y-1.5">
+                    {figures.map((figure) => (
+                      <p key={figure.ro} className="flex items-baseline justify-between gap-4">
+                        <span className="opacity-60">{lang === 'ro' ? figure.ro : figure.en}</span>
+                        <span className="tabular-nums whitespace-nowrap">{figure.value}</span>
+                      </p>
+                    ))}
+                    {detail?.figuresNote && (
+                      <p className="pt-1 text-xs opacity-45">
+                        {lang === 'ro' ? detail.figuresNote.ro : detail.figuresNote.en}
+                      </p>
+                    )}
+                  </dd>
+                </div>
+              )}
+              {figures.length === 0 && (detail?.dimensions?.length ?? 0) > 0 && (
                 <div className="border-b border-ink/10 py-4">
                   <dt className="eyebrow opacity-45">{t('piece.dimensions')}</dt>
                   <dd className="mt-2 space-y-1 tabular-nums">
@@ -261,7 +284,7 @@ export function PiecePage() {
               <ArrowLink
                 to={`/contact?piece=${encodeURIComponent(piece.name)}${
                   items.length > 1
-                    ? `&size=${encodeURIComponent(lang === 'ro' ? items[chosen].ro : items[chosen].en)}`
+                    ? `&${options?.kind === 'size' ? 'size' : 'option'}=${encodeURIComponent(lang === 'ro' ? items[chosen].ro : items[chosen].en)}`
                     : ''
                 }`}
               >
@@ -358,6 +381,34 @@ export function PiecePage() {
                 <p key={line}>{line}</p>
               ))}
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* ---------------------------------------------------- the sheet -- */}
+      {sheet.length > 0 && (
+        <section className="gutter grid gap-8 border-t border-ink/12 py-20 md:grid-cols-12 md:py-28">
+          <div className="md:col-span-4">
+            <Eyebrow>{t('piece.build')}</Eyebrow>
+            <p className="mt-3 max-w-xs text-xs leading-relaxed opacity-45">{t('piece.buildNote')}</p>
+          </div>
+          <div className="space-y-12 md:col-span-7 md:col-start-6">
+            {sheet.map((group) => (
+              <Reveal key={group.title.ro}>
+                <h3 className="eyebrow opacity-60">{lang === 'ro' ? group.title.ro : group.title.en}</h3>
+                <dl className="mt-4 border-t border-ink/12 text-sm">
+                  {group.rows.map((row) => (
+                    <div
+                      key={row.label.ro}
+                      className="grid gap-1 border-b border-ink/10 py-3 sm:grid-cols-[minmax(0,2fr)_minmax(0,5fr)] sm:gap-6"
+                    >
+                      <dt className="opacity-45">{lang === 'ro' ? row.label.ro : row.label.en}</dt>
+                      <dd className="leading-relaxed">{lang === 'ro' ? row.value.ro : row.value.en}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </Reveal>
+            ))}
           </div>
         </section>
       )}

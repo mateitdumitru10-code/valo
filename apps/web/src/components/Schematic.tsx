@@ -52,7 +52,7 @@ export function Schematic({ drawing, name }: { drawing: Drawing; name: string })
           </dl>
 
           <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">
-            {t('piece.planNote')}
+            {t(drawing.approximate ? 'piece.planApprox' : 'piece.planNote')}
           </p>
         </div>
 

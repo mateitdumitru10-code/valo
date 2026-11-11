@@ -191,6 +191,14 @@ const ro = {
   'piece.mattressOptions': 'variante',
   'piece.mattressNote':
     'Același produs, cu salteaua aleasă de dumneavoastră. Prețul se schimbă odată cu ea.',
+  'piece.seatType': 'Șezut',
+  'piece.seatNote':
+    'Același produs, cu șezutul pe care îl preferați: plasă de arcuri sau Memory Foam. Prețul variantei îl confirmăm în ofertă.',
+  'contact.optionPrefill': 'Mă interesează varianta: {option}.',
+  'piece.build': 'Construcție și dotări',
+  'piece.buildNote': 'Din fișa tehnică a atelierului. Orice configurație personalizată se confirmă în oferta individuală.',
+  'piece.planApprox':
+    'Schiță de atelier, orientativă. Cotele confirmate sunt cele din fișa tehnică.',
   'piece.gallery': 'Galerie',
   'piece.detail': 'În detaliu',
   'piece.shotIn': 'Fotografiat în',
@@ -443,6 +451,13 @@ const en: Record<keyof typeof ro, string> = {
   'piece.mattressOptions': 'options',
   'piece.mattressNote':
     'The same piece, with the mattress you choose. The price moves with it.',
+  'piece.seatType': 'Seat',
+  'piece.seatNote':
+    'The same piece, with the seat you prefer: spring mesh or Memory Foam. We confirm the price of each in the quote.',
+  'contact.optionPrefill': 'I am interested in this option: {option}.',
+  'piece.build': 'Construction and features',
+  'piece.buildNote': 'From the workshop’s technical sheet. Any custom configuration is confirmed in the individual quote.',
+  'piece.planApprox': 'Workshop sketch, for orientation. The confirmed figures are those in the specification.',
   'piece.gallery': 'Gallery',
   'piece.detail': 'In detail',
   'piece.shotIn': 'Photographed in',

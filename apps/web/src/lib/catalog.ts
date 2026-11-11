@@ -76,10 +76,26 @@ export type Option = {
   price: number | null
 }
 
+/**
+ * `size` is a length (a mattress, an overall dimension), `spec` a choice of
+ * mattress, `seat` a choice of seat construction — springs or Memory Foam.
+ */
 export type Options = {
-  kind: 'size' | 'spec'
+  kind: 'size' | 'spec' | 'seat'
   items: Option[]
 }
+
+/** A Romanian string and its English counterpart. */
+export type Bilingual = { ro: string; en: string }
+
+/** One headline figure from the client's technical sheet: a label and a value in cm. */
+export type Figure = Bilingual & { value: string }
+
+/** A row of the technical sheet. */
+export type SpecRow = { label: Bilingual; value: Bilingual }
+
+/** Rows of the technical sheet under one heading — construction, comfort, function. */
+export type SpecGroup = { title: Bilingual; rows: SpecRow[] }
 
 /** The workshop's dimensioned plan drawing, processed to ink on transparent. */
 export type Schematic = {
@@ -94,6 +110,12 @@ export type Schematic = {
     depthBack?: number
     seat?: number
   } | null
+  /**
+   * The sketch disagrees with the client's newer technical sheet. It stays as
+   * a picture of the shape, its figures are not set as type, and the page says
+   * the sheet's figures are the ones that hold.
+   */
+  approximate?: boolean
 }
 
 /** The same piece photographed in another textile. See data/curation.json. */
@@ -149,6 +171,12 @@ export type PieceDetail = {
   /** What the piece is offered in, and what each of those costs. */
   options?: Options
   schematic?: Schematic
+  /** Headline figures from the client's technical sheet, in cm. See data/specs.json. */
+  figures?: Figure[]
+  /** Which version the figures describe, where the piece comes in several sizes. */
+  figuresNote?: Bilingual
+  /** The rest of the technical sheet: construction, comfort, function, finish. */
+  specs?: SpecGroup[]
 }
 
 type Catalog = {

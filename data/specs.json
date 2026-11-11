@@ -1,0 +1,2098 @@
+{
+  "_note": "Technical sheets transcribed from the client's documents (docs/VALLO_*.pdf, edition of 10 November 2026). Only what those sheets confirm is here: a figure they mark as unconfirmed — total height, most seat depths, box sizes, the foam in the spring-mesh seats — is left out, never estimated. Where a sheet and an older workshop sketch disagree, the sheet wins (client's instruction, 2026-11-11) and the sketch is flagged `approximate` in curation.json. media.mjs merges this into each piece; emit.mjs writes `figures`, `figuresNote` and `specs` into its detail file.",
+  "pieces": {
+    "coltar-aldo": {
+      "figures": [
+        {
+          "ro": "Dimensiuni exterioare",
+          "en": "Overall",
+          "value": "330 × 190 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "180 × 210 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Cote pentru varianta de 330 × 190 cm.",
+        "en": "Figures for the 330 × 190 cm size."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse",
+                "en": "Concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Burete cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Fără arcuri și fără chingi elastice; susținere prin structura din lemn",
+                "en": "No springs or elastic webbing; the wooden frame carries the seat"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard și fibră siliconică",
+                "en": "Standard foam and silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Mobile",
+                "en": "Loose"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Extensibilă, cu ladă de depozitare",
+                "en": "Extending, with storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Integral din lemn, fără mecanism metalic, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All wood, with no metal mechanism, on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Colț pe stânga sau pe dreapta, la comandă",
+                "en": "Corner on the left or right, chosen when ordering"
+              }
+            },
+            {
+              "label": {
+                "ro": "Variantă fixă",
+                "en": "Fixed version"
+              },
+              "value": {
+                "ro": "La comandă, fără extensie și fără ladă de depozitare",
+                "en": "Made to order, without extension or storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Mai multe stofe, inclusiv Bouclé",
+                "en": "A range of fabrics, Bouclé included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-extensibila-aldo": {
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse",
+                "en": "Concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Burete cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Fără arcuri și fără chingi elastice; susținere prin structura din lemn",
+                "en": "No springs or elastic webbing; the wooden frame carries the seat"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard și fibră siliconică",
+                "en": "Standard foam and silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Mobile",
+                "en": "Loose"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Extensibilă, cu ladă de depozitare",
+                "en": "Extending, with storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Integral din lemn, fără mecanism metalic, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All wood, with no metal mechanism, on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Variantă fixă",
+                "en": "Fixed version"
+              },
+              "value": {
+                "ro": "La comandă, fără extensie și fără ladă de depozitare",
+                "en": "Made to order, without extension or storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Mai multe stofe, inclusiv Bouclé",
+                "en": "A range of fabrics, Bouclé included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "modul-aldo": {
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Burete cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Fără arcuri și fără chingi elastice; susținere prin structura din lemn",
+                "en": "No springs or elastic webbing; the wooden frame carries the seat"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard și fibră siliconică",
+                "en": "Standard foam and silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Mobile",
+                "en": "Loose"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație",
+                "en": "Configuration"
+              },
+              "value": {
+                "ro": "Fără brațe, cu două perne în locul brațelor",
+                "en": "Armless, with two cushions in place of the arms"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Extensibilă, cu ladă de depozitare",
+                "en": "Extending, with storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Integral din lemn, fără mecanism metalic, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All wood, with no metal mechanism, on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Variantă fixă",
+                "en": "Fixed version"
+              },
+              "value": {
+                "ro": "La comandă, fără extensie și fără ladă de depozitare",
+                "en": "Made to order, without extension or storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Mai multe stofe, inclusiv Bouclé",
+                "en": "A range of fabrics, Bouclé included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-sonia-extensibila": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "240 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "150 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm",
+                "en": "Low, about 2.5 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Burete cu densitatea de 35 kg/m³ și strat superior din burete HR",
+                "en": "35 kg/m³ foam with an HR foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale",
+                "en": "Sinuous springs"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard și fibră siliconică",
+                "en": "Standard foam and silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Mobile, repoziționabile",
+                "en": "Loose, can be rearranged"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă de depozitare, inclusă în configurația standard",
+                "en": "Storage box, part of the standard configuration"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Dimensiunile brațelor pot fi modificate la comandă",
+                "en": "Arm size can be changed to order"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-cubic-fix": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "300 cm"
+        },
+        {
+          "ro": "Adâncime totală",
+          "en": "Overall depth",
+          "value": "180 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "85 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structură din lemn, fără arcuri",
+                "en": "Wooden frame, no springs"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete",
+                "en": "Wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR la bază și strat superior de Memory Foam",
+                "en": "HR foam base with a Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard foam; loose cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Fixă, fără extensie și fără ladă",
+                "en": "Fixed, without extension or storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Opțional",
+                "en": "Option"
+              },
+              "value": {
+                "ro": "Extensibilă, cu ladă de depozitare: mecanism VALLO din lemn, pe role; șezutul glisează înainte, iar spătarul se rabatează peste ladă",
+                "en": "Extending, with storage box: VALLO wooden mechanism on rollers; the seat slides forward and the back folds over the box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Colț pe stânga sau pe dreapta, la comandă",
+                "en": "Corner on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cheder",
+                "en": "Piping"
+              },
+              "value": {
+                "ro": "Pe toate lateralele",
+                "en": "Along every side"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-sam": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "240 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 190 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Lemn și burete, cu o placă de lemn integrată deasupra, pe care se pot așeza o cană sau un pahar",
+                "en": "Wood and foam, topped with an inset wooden board to set down a cup or a glass"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut, varianta 1",
+                "en": "Seat, option 1"
+              },
+              "value": {
+                "ro": "Plasă de arcuri, spumă și un strat superior de confort din spumă standard",
+                "en": "Spring mesh, foam and a standard-foam comfort layer on top"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezut, varianta 2",
+                "en": "Seat, option 2"
+              },
+              "value": {
+                "ro": "Spumă cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structura din lemn, la ambele variante",
+                "en": "The wooden frame, in both options"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard foam; loose cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "O ladă, sub partea extensibilă",
+                "en": "One box, under the extending section"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Șezlong pe stânga sau pe dreapta, la comandă",
+                "en": "Chaise on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-extensibil-eco": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "240 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 200 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structură din lemn",
+                "en": "Wooden frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut, varianta 1",
+                "en": "Seat, option 1"
+              },
+              "value": {
+                "ro": "Plasă de arcuri, spumă și un strat superior de confort din spumă standard",
+                "en": "Spring mesh, foam and a standard-foam comfort layer on top"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezut, varianta 2",
+                "en": "Seat, option 2"
+              },
+              "value": {
+                "ro": "Spumă cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă standard și fibră siliconică",
+                "en": "Standard foam and silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Mobile, repoziționabile",
+                "en": "Loose, can be rearranged"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă de depozitare",
+                "en": "Storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Colț pe stânga sau pe dreapta, la comandă",
+                "en": "Corner on the left or right, chosen when ordering"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Fix, fără tetiere reglabile",
+                "en": "Fixed, without adjustable headrests"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-eco-2": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "300 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 200 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn de fag, lemn de brad, placaj și PAL",
+                "en": "Beech, fir, plywood and chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn, căptușită cu burete",
+                "en": "Wooden frame, padded with foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut, varianta 1",
+                "en": "Seat, option 1"
+              },
+              "value": {
+                "ro": "Plasă de arcuri, spumă și un strat superior de confort din spumă standard",
+                "en": "Spring mesh, foam and a standard-foam comfort layer on top"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezut, varianta 2",
+                "en": "Seat, option 2"
+              },
+              "value": {
+                "ro": "Spumă cu densitatea de 35 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structura din lemn, la ambele variante",
+                "en": "The wooden frame, in both options"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Perne umplute cu fibră siliconică, mobile",
+                "en": "Loose cushions filled with silicone fibre"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă într-o parte a colțarului",
+                "en": "A box in one side of the sectional"
+              }
+            },
+            {
+              "label": {
+                "ro": "Taburet",
+                "en": "Ottoman"
+              },
+              "value": {
+                "ro": "80 × 60 cm, inclus; fără ladă",
+                "en": "80 × 60 cm, included; no storage"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Colț pe stânga sau pe dreapta, la comandă",
+                "en": "Corner on the left or right, chosen when ordering"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Fix, fără tetiere reglabile",
+                "en": "Fixed, without adjustable headrests"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-extensibila-soria": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "240 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad, placaj și PAL",
+                "en": "Solid beech, fir, plywood and chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Forma SORIA; dimensiunile lor pot fi personalizate",
+                "en": "The SORIA shape; their size can be customised"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Decorative, din lemn, vizibile, aproximativ 5 cm",
+                "en": "Decorative, wooden, visible, about 5 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale și spumă HR cu densitatea de 35–36 kg/m³",
+                "en": "Sinuous springs and 35–36 kg/m³ HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Corp din spumă standard; perne cu fibră siliconică",
+                "en": "Standard-foam body; cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne",
+                "en": "Cushions"
+              },
+              "value": {
+                "ro": "Șezut fix; două perne de spătar mobile",
+                "en": "Fixed seat; two loose back cushions"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub întreaga suprafață a șezutului",
+                "en": "A box under the whole seat"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cusături",
+                "en": "Stitching"
+              },
+              "value": {
+                "ro": "Decorative, pe șezut și pe perne",
+                "en": "Decorative, on the seat and cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Nu sunt incluse",
+                "en": "Not included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-soria": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "270 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 200 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad, placaj și PAL",
+                "en": "Solid beech, fir, plywood and chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Forma SORIA; dimensiunile lor pot fi personalizate",
+                "en": "The SORIA shape; their size can be customised"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale și spumă HR cu densitatea de 35–36 kg/m³",
+                "en": "Sinuous springs and 35–36 kg/m³ HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Corp din spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard-foam body; loose cushions filled with silicone fibre"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Două lăzi: sub șezutul extensibil și sub șezlong",
+                "en": "Two boxes: under the extending seat and under the chaise"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Șezlong pe stânga sau pe dreapta, stabilit la comandă; nu este reversibil",
+                "en": "Chaise on the left or right, set when ordering; not reversible"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Fix, fără tetiere reglabile",
+                "en": "Fixed, without adjustable headrests"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cusături",
+                "en": "Stitching"
+              },
+              "value": {
+                "ro": "Decorative, pe șezut și pe perne",
+                "en": "Decorative, on the seat and cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-soria-in-forma-de-u": {
+      "figures": [
+        {
+          "ro": "Lungime totală",
+          "en": "Overall length",
+          "value": "380 cm"
+        },
+        {
+          "ro": "Adâncime totală",
+          "en": "Overall depth",
+          "value": "180 cm"
+        },
+        {
+          "ro": "Șezlonguri",
+          "en": "Chaises",
+          "value": "160 / 180 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "160 × 200 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad, placaj și PAL",
+                "en": "Solid beech, fir, plywood and chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Forma SORIA; dimensiunile lor pot fi personalizate",
+                "en": "The SORIA shape; their size can be customised"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Decorative, din lemn, vizibile, aproximativ 5 cm",
+                "en": "Decorative, wooden, visible, about 5 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Zona centrală",
+                "en": "Centre"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale și spumă HR cu densitatea de 35–36 kg/m³",
+                "en": "Sinuous springs and 35–36 kg/m³ HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezlong de 160 cm",
+                "en": "160 cm chaise"
+              },
+              "value": {
+                "ro": "Aceeași construcție ca la Colțarul SORIA",
+                "en": "Built like the SORIA sectional's chaise"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezlong de 180 cm",
+                "en": "180 cm chaise"
+              },
+              "value": {
+                "ro": "Formă ondulată; spumă HR cu densitatea de 35–36 kg/m³, fără arcuri",
+                "en": "Curved; 35–36 kg/m³ HR foam, no springs"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătare",
+                "en": "Backs"
+              },
+              "value": {
+                "ro": "Corp din spumă standard; perne cu fibră siliconică, mobile",
+                "en": "Standard-foam body; loose cushions filled with silicone fibre"
+              }
+            },
+            {
+              "label": {
+                "ro": "Șezuturi",
+                "en": "Seats"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație",
+                "en": "Configuration"
+              },
+              "value": {
+                "ro": "În U: canapea centrală extensibilă și două șezlonguri",
+                "en": "U-shaped: an extending centre sofa and two chaises"
+              }
+            },
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism integral din lemn, pe role: șezutul se trage înainte, iar spătarul se coboară peste lada de depozitare",
+                "en": "All-wood mechanism on rollers: the seat pulls forward and the back folds down over the storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Trei lăzi: sub extensia centrală și sub fiecare șezlong",
+                "en": "Three boxes: under the centre extension and under each chaise"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Fix, fără tetiere reglabile",
+                "en": "Fixed, without adjustable headrests"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cusături",
+                "en": "Stitching"
+              },
+              "value": {
+                "ro": "Decorative, pe șezut și pe perne",
+                "en": "Decorative, on the seat and cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse",
+                "en": "Included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

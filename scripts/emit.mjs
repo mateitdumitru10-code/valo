@@ -62,6 +62,9 @@ export async function emit(catalog, root) {
         ...(p.views ? { views: p.views } : {}),
         ...(p.options ? { options: p.options } : {}),
         ...(p.schematic ? { schematic: p.schematic } : {}),
+        ...(p.figures ? { figures: p.figures } : {}),
+        ...(p.figuresNote ? { figuresNote: p.figuresNote } : {}),
+        ...(p.specs ? { specs: p.specs } : {}),
       }),
     )
   }
