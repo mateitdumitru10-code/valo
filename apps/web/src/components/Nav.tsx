@@ -12,6 +12,7 @@ import { Search, SearchIcon } from '~/components/Search'
 const links = [
   { to: '/colectii', key: 'nav.collections' },
   { to: '/produse', key: 'nav.pieces' },
+  { to: '/saltele', key: 'nav.mattresses' },
   { to: '/showroom-uri', key: 'nav.showrooms' },
   { to: '/horeca', key: 'nav.horeca' },
   { to: '/contact', key: 'nav.contact' },
@@ -143,19 +144,19 @@ export function Nav() {
             <span className="-mr-[0.3em] font-display text-xl leading-none tracking-[0.3em] md:text-2xl">
               VALLO
             </span>
-            <span className="eyebrow hidden opacity-55 transition-opacity group-hover:opacity-100 sm:block">
+            <span className="eyebrow hidden whitespace-nowrap opacity-55 transition-opacity group-hover:opacity-100 sm:block lg:hidden xl:block">
               by Samobi
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-8 lg:flex">
+          <nav className="hidden items-center gap-5 lg:flex xl:gap-8">
             {links.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
                   clsx(
-                    'eyebrow relative py-2 transition-opacity',
+                    'eyebrow relative whitespace-nowrap py-2 transition-opacity',
                     isActive ? 'opacity-100' : 'opacity-60 hover:opacity-100',
                   )
                 }

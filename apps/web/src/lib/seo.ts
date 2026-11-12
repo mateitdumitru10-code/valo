@@ -421,6 +421,19 @@ export function pageMeta(pathname: string): Meta {
     })
   }
 
+  if (path === '/saltele') {
+    // A preview built from workshop photographs: kept out of search until the
+    // mattress has a technical sheet and a price.
+    return page({
+      title: `Saltele — construite strat cu strat | ${BRAND}`,
+      description:
+        'Saltea VALLO din trei straturi de spumă, în husă matlasată Aloe Vera cu bandă din plasă 3D, pe măsura paturilor din catalog.',
+      path,
+      noindex: true,
+      jsonLd: graph(breadcrumbs([['Saltele', path]])),
+    })
+  }
+
   if (path === '/contact') {
     return page({
       title: `Contact și cerere de ofertă | ${BRAND}`,
@@ -517,6 +530,7 @@ export function sitePaths() {
     ...categories.map((c) => `/categorii/${c.id}`),
     '/colectii',
     ...collections.map((c) => `/colectii/${c.id}`),
+    '/saltele',
     '/horeca',
     '/showroom-uri',
     '/contact',

@@ -58,6 +58,7 @@ function pageSource(path) {
   if (path.startsWith('/categorii/')) return 'src/pages/Category.tsx'
   if (path === '/colectii') return 'src/pages/Collections.tsx'
   if (path.startsWith('/colectii/')) return 'src/pages/Collection.tsx'
+  if (path === '/saltele') return 'src/pages/Mattresses.tsx'
   if (path === '/horeca') return 'src/pages/Horeca.tsx'
   if (path === '/showroom-uri') return 'src/pages/Showrooms.tsx'
   if (path === '/contact') return 'src/pages/Contact.tsx'
@@ -186,7 +187,8 @@ try {
   const site = app.SITE_URL
   const xml = (s) =>
     String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-  const urls = paths.map((path) => {
+  // A page kept out of search is kept out of the sitemap too.
+  const urls = paths.filter((path) => !app.pageMeta(path).noindex).map((path) => {
     const loc = path === '/' ? `${site}/` : `${site}${path}`
     const piece = path.startsWith('/produse/') ? app.bySlug(path.split('/')[2]) : null
     const image = piece
