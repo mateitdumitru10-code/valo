@@ -235,15 +235,17 @@ const ro = {
   'collection.lede.soria':
     'Braț lat, șezut adânc, extensie de dormit. Un colțar, un colțar în U și canapeaua din aceeași familie.',
   'collection.lede.torro':
-    'Braț-bloc și tetiere rabatabile. Colțarul și canapeaua, aceeași linie citită la două lungimi.',
+    'Braț-bloc și tetiere reglabile. Colțarul și canapeaua, aceeași linie citită la două lungimi.',
   'collection.lede.linear':
     'Linie joasă, fără ornament, cu o singură cusătură orizontală. Un colțar și un pat croite din aceeași tăietură.',
   'collection.lede.bella':
-    'Brațe rotunjite și perne libere, într-un bouclé care ține forma. Deocamdată un singur produs.',
+    'Un design curbat, cu forme fluide și linii rotunjite, pe un șezut din spumă HR și Memory Foam. Canapeaua și colțarul, din aceeași linie.',
   'collection.lede.ela':
     'Corp jos, cu falduri strânse pe soclu și perne libere pe toată lungimea. Deocamdată o singură canapea, în șapte nuanțe.',
   'collection.lede.vallo':
-    'Spătare joase și o cusătură verticală care împarte șezutul. Deocamdată un singur colțar.',
+    'O tapițerie deliberat lejeră, cu pliuri și cute, peste arcuri, spumă HR și Memory Foam. Deocamdată un singur colțar.',
+  'collection.lede.spring':
+    'Proporții compacte și brațe înguste, cu un loc de dormit în plus. Canapeaua și fotoliul, gândite și pentru camerele de hotel.',
 
   /* The four ranges the client has written a full description for. `pull` is
      the statement the collection page opens on, `body` the prose under it —
@@ -500,15 +502,17 @@ const en: Record<keyof typeof ro, string> = {
   'collection.lede.soria':
     'A wide arm, a deep seat, a bed inside. A corner, a corner in a U, and the sofa of the same family.',
   'collection.lede.torro':
-    'Block arms and folding headrests. The corner and the sofa, one line read at two lengths.',
+    'Block arms and adjustable headrests. The corner and the sofa, one line read at two lengths.',
   'collection.lede.linear':
     'A low line, no ornament, a single horizontal seam. A corner and a bed cut the same way.',
   'collection.lede.bella':
-    'Rounded arms and loose cushions, in a bouclé that holds its shape. One piece so far.',
+    'A curved design of flowing forms and rounded lines, on a seat of HR foam and Memory Foam. The sofa and the corner, from one line.',
   'collection.lede.ela':
     'A low body, gathered along the base, loose cushions its whole length. One sofa so far, in seven tones.',
   'collection.lede.vallo':
-    'Low backs and a vertical seam dividing the seat. One corner so far.',
+    'Deliberately relaxed upholstery, folded and creased, over springs, HR foam and Memory Foam. One corner so far.',
+  'collection.lede.spring':
+    'Compact proportions and narrow arms, with an extra bed inside. The sofa and the armchair, made with hotel rooms in mind too.',
 
   'collection.pull.aldo': 'Comfort you feel. Design that stays.',
   'collection.body.aldo':

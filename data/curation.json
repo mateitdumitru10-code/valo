@@ -453,6 +453,26 @@
   },
   "products": {
     "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue, and corrections to pieces that do exist — a name here overrides the one the API returns. media.mjs applies both. `category` is the kind of piece; the range it belongs to is set in `collections` below. Price is null until Samobi supplies one; the app then omits it. `lead`, `summary` and `body` override the scraped Samobi prose with the client's own copy, and sit here rather than in the generated piece files so that re-ingesting never undoes them. The first paragraph of `body` is never rendered — Piece.tsx reads it only as a fallback lead — so it repeats the lead by convention and the prose proper starts at the second.",
+    "fotoliu-spring": {
+      "lead": "Fotoliul SPRING oferă funcționalitatea unui loc suplimentar de dormit într-un format compact, conceput pentru spații în care optimizarea suprafeței este esențială.",
+      "summary": "Fotoliul SPRING oferă funcționalitatea unui loc suplimentar de dormit într-un format compact, conceput pentru spații în care optimizarea suprafeței este esențială.\n\nDatorită brațelor înguste și dimensiunilor sale atent proporționate, este o alegere practică pentru camere de hotel și alte amenajări HoReCa în care este necesar un al treilea loc de dormit.",
+      "body": "Fotoliul SPRING oferă funcționalitatea unui loc suplimentar de dormit într-un format compact, conceput pentru spații în care optimizarea suprafeței este esențială.\n\nDatorită brațelor înguste și dimensiunilor sale atent proporționate, este o alegere practică pentru camere de hotel și alte amenajări HoReCa în care este necesar un al treilea loc de dormit.\n\nȘezutul din spumă HR este susținut de o structură din lemn de fag și placaj, iar spătarul este realizat din spumă HR. Prin tragerea șezutului în față și rabatarea spătarului peste lada de depozitare, fotoliul se transformă într-o suprafață de dormit de 75 × 190 cm.\n\nLada de depozitare este realizată din PAL melaminat alb, cu finisajul alb la vedere. Pernele decorative sunt incluse în configurația standard, au umplutură din fibră siliconică și huse cu fermoar, detașabile pentru curățare sau înlocuire. Brațele au structură din lemn și burete, iar picioarele sunt vizibile și realizate din lemn.\n\nFotoliul poate fi tapițat cu orice stofă din colecția VALLO. Este conceput pentru a adăuga flexibilitate amenajărilor HoReCa, oferind un loc de dormit suplimentar fără a ocupa spațiul unei canapele.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-paul": {
+      "lead": "PAT PAUL se remarcă printr-o prezență elegantă și echilibrată, definită de tăblia înaltă, cu panouri matlasate în format pătrat și nasturi îmbrăcați în aceeași stofă.",
+      "summary": "PAT PAUL se remarcă printr-o prezență elegantă și echilibrată, definită de tăblia înaltă, cu panouri matlasate în format pătrat și nasturi îmbrăcați în aceeași stofă.\n\nBaza complet tapițată păstrează un aspect curat și unitar, cu laterale simple, fără matlasări sau cusături decorative. Proporțiile sale sunt completate de o tăblie cu grosimea de 10 cm și laterale de 5 cm.",
+      "body": "PAT PAUL se remarcă printr-o prezență elegantă și echilibrată, definită de tăblia înaltă, cu panouri matlasate în format pătrat și nasturi îmbrăcați în aceeași stofă.\n\nBaza complet tapițată păstrează un aspect curat și unitar, cu laterale simple, fără matlasări sau cusături decorative. Proporțiile sale sunt completate de o tăblie cu grosimea de 10 cm și laterale de 5 cm.\n\nTapițeria poate fi aleasă de client, atât ca material, cât și ca nuanță. În varianta prezentată, lateralele au un strat de burete de 1 cm; la comandă, grosimea acestuia poate fi mărită sau buretele poate fi eliminat complet pentru un aspect mai slim.\n\nSalteaua și noptierele se comercializează separat.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-matrimonial": {
+      "lead": "Eleganță clasică, completată de detalii Chesterfield.",
+      "summary": "Eleganță clasică, completată de detalii Chesterfield.\n\nPAT MATRIMONIAL îmbină liniile clasice cu un detaliu decorativ elegant. Tăblia are un contur ușor curbat, iar panoul central în stil Chesterfield, decorat cu nasturi tapițați în aceeași stofă, adaugă profunzime și rafinament designului.",
+      "body": "Eleganță clasică, completată de detalii Chesterfield.\n\nPAT MATRIMONIAL îmbină liniile clasice cu un detaliu decorativ elegant. Tăblia are un contur ușor curbat, iar panoul central în stil Chesterfield, decorat cu nasturi tapițați în aceeași stofă, adaugă profunzime și rafinament designului.\n\nAspectul său echilibrat îl face potrivit pentru dormitoare amenajate într-un stil clasic sau contemporan cu accente elegante. Stofa și culoarea se aleg din colecția VALLO, pentru o configurare adaptată preferințelor fiecărui client.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-miraj": {
+      "lead": "Panouri verticale cu volum rotunjit și aspect capitonat.",
+      "summary": "Panouri verticale cu volum rotunjit și aspect capitonat.\n\nPAT MIRAJ se definește prin panourile verticale cu forme rotunjite, aplicate atât pe tăblie, cât și pe partea frontală a lăzii. Volumul generos al acestora creează un aspect capitonat, cu linii moi și o prezență vizuală distinctă în dormitor.",
+      "body": "Panouri verticale cu volum rotunjit și aspect capitonat.\n\nPAT MIRAJ se definește prin panourile verticale cu forme rotunjite, aplicate atât pe tăblie, cât și pe partea frontală a lăzii. Volumul generos al acestora creează un aspect capitonat, cu linii moi și o prezență vizuală distinctă în dormitor.\n\nPanourile sunt realizate cu burete modelat în formă cilindrică, apoi tapițat, pentru a obține profilul rotunjit specific modelului. Stofa și culoarea se aleg din colecția VALLO, astfel încât patul să poată fi integrat în stilul dorit.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
     "canapea-cubic": {
       "name": "Canapea Cubic",
       "lead": "Design minimalist. Proporții generoase. Confort fără compromisuri.",
@@ -476,27 +496,39 @@
     },
     "coltar-vallo": {
       "name": "Colțar Vallo",
+      "lead": "COLȚARUL VALLO propune o estetică relaxată, definită de forme confortabile și de o tapițerie cu aspect deliberat lejer.",
+      "summary": "COLȚARUL VALLO propune o estetică relaxată, definită de forme confortabile și de o tapițerie cu aspect deliberat lejer.\n\nPliurile și cutele integrate în material creează o expresie naturală și lipsită de rigiditate, oferind piesei o prezență distinctă și o senzație vizuală de moliciune.",
+      "body": "COLȚARUL VALLO propune o estetică relaxată, definită de forme confortabile și de o tapițerie cu aspect deliberat lejer.\n\nPliurile și cutele integrate în material creează o expresie naturală și lipsită de rigiditate, oferind piesei o prezență distinctă și o senzație vizuală de moliciune.\n\nConfortul este construit în straturi. Șezutul îmbină arcurile sinusoidale cu burete HR de 35–36 kg/m³ și un strat suplimentar de Memory Foam de 4 cm. Peste straturile de burete este aplicat un strat generos de melană, poziționat între burete și stofă. Aceasta contribuie la efectul de lejeritate al tapițeriei și la aspectul moale, relaxat, specific modelului.\n\nSpătarul are o structură din lemn, completată de un strat mai gros de burete și melană, iar buretele formează direct spătarul tapițat. Brațele continuă aceeași atenție acordată construcției, având structură din lemn, burete și melană.\n\nPernele decorative sunt incluse în configurația standard și au umplutură din fibră siliconică. COLȚARUL VALLO este un model fix, fără extensie și fără ladă de depozitare, conceput pentru a păstra caracterul și confortul configurației sale actuale.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 5500,
       "category": "sectionals"
     },
     "coltar-zeno": {
       "name": "Colțar Zeno",
+      "lead": "Design modular. Confort care se simte.",
+      "summary": "Design modular. Confort care se simte.\n\nCOLȚARUL ZENO este creat pentru interioare în care confortul generos și libertatea de configurare au un rol esențial. Designul său modular permite alegerea modulelor și alcătuirea unei configurații adaptate spațiului, astfel încât fiecare proiect să răspundă firesc nevoilor și preferințelor clientului.",
+      "body": "Design modular. Confort care se simte.\n\nCOLȚARUL ZENO este creat pentru interioare în care confortul generos și libertatea de configurare au un rol esențial. Designul său modular permite alegerea modulelor și alcătuirea unei configurații adaptate spațiului, astfel încât fiecare proiect să răspundă firesc nevoilor și preferințelor clientului.\n\nConfortul șezutului este construit printr-o combinație atent aleasă de arcuri sinusoidale, spumă HR cu densitatea de 35–36 kg/m³ și un strat superior de Memory Foam de 4 cm. Împreună, aceste materiale îmbină susținerea elastică a arcurilor cu suportul spumei HR și adaptabilitatea stratului de Memory Foam, pentru o senzație plăcută și profundă de relaxare.\n\nSpătarul definește personalitatea vizuală a modelului ZENO. Peste structura simplă, prevăzută cu un strat subțire de burete, sunt așezate două rânduri de perne. Primul rând este format din perne mai mari, fixate de spătar cu sistem cu arici, iar al doilea rând, cu perne de dimensiuni mai mici, adaugă volum și profunzime. Ambele rânduri sunt detașabile și pot fi repoziționate liber, oferind flexibilitate în aranjarea zonei de relaxare.\n\nPernele decorative completează aspectul colțarului. Atât pernele celor două rânduri de spătar, cât și pernele decorative au umplutură din fibră siliconică și huse prevăzute cu fermoar, care pot fi detașate pentru curățare sau înlocuire. Numărul pernelor decorative variază în funcție de configurația aleasă.\n\nStructura principală este realizată din lemn masiv de fag, lemn de brad și placaj. Brațele au structură din lemn și burete, iar finisajul șezutului este pus în valoare de marginile ușor rotunjite, obținute prin tensionarea stofei în jos. Cusăturile sunt simple, fără detalii decorative.\n\nZENO nu este extensibil și nu include ladă de depozitare. Este un colțar conceput pentru confortul de zi cu zi, cu libertatea unui design modular care se adaptează stilului de viață și spațiului.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 8200,
       "category": "sectionals"
     },
     "coltar-linear": {
       "name": "Colțar Linear",
+      "lead": "COLȚAR LINEAR preia confortul și calitatea constructivă specifice gamei ALDO, reinterpretate într-un design propriu, mai compact și mai minimalist.",
+      "summary": "COLȚAR LINEAR preia confortul și calitatea constructivă specifice gamei ALDO, reinterpretate într-un design propriu, mai compact și mai minimalist.\n\nÎn locul modelului pătrat, specific tapițeriei bouclé din gama ALDO, LINEAR pune în valoare linii simple și curate, care îi definesc identitatea vizuală.",
+      "body": "COLȚAR LINEAR preia confortul și calitatea constructivă specifice gamei ALDO, reinterpretate într-un design propriu, mai compact și mai minimalist.\n\nÎn locul modelului pătrat, specific tapițeriei bouclé din gama ALDO, LINEAR pune în valoare linii simple și curate, care îi definesc identitatea vizuală.\n\nStructura este realizată din lemn de fag, lemn de brad și placaj din eucalipt. Șezutul are la bază spumă cu densitatea de 35 kg/m³, completată de un strat de 4 cm Memory Foam, pentru o senzație de confort moale și adaptiv. Aceeași compoziție este folosită și în zona de șezlong.\n\nSpătarul este realizat dintr-un strat gros de burete și are construcție fixă, fără reglaj și fără perne separate. Pernele decorative sunt incluse în configurația standard, au umplutură din fibră siliconică și huse cu fermoar, detașabile pentru curățare sau înlocuire.\n\nConfigurația actuală este fixă, fără extensie și fără ladă de depozitare, inclusiv sub șezlong. O variantă extensibilă poate fi realizată la comandă, în funcție de proiect și de configurația solicitată.\n\nCOLȚAR LINEAR poate fi tapițat cu orice stofă din colecția VALLO. Dimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 5500,
       "category": "sectionals"
     },
     "pat-fantezie": {
-      "name": "Pat Fantezie"
+      "name": "Pat Fantezie",
+      "lead": "Pat tapițat cu panouri decorative și proporții elegante.",
+      "summary": "Pat tapițat cu panouri decorative și proporții elegante.\n\nPAT FANTEZIE se remarcă prin tăblia amplă, completată de panouri decorative tapițate, care creează un efect vizual elegant și distinctiv. Volumul panourilor și posibilitatea de a combina materiale diferite oferă libertate în configurarea unui pat cu personalitate, adaptat stilului dormitorului.",
+      "body": "Pat tapițat cu panouri decorative și proporții elegante.\n\nPAT FANTEZIE se remarcă prin tăblia amplă, completată de panouri decorative tapițate, care creează un efect vizual elegant și distinctiv. Volumul panourilor și posibilitatea de a combina materiale diferite oferă libertate în configurarea unui pat cu personalitate, adaptat stilului dormitorului.\n\nPanourile decorative pot fi realizate în aceeași stofă ca patul sau într-o altă stofă, în funcție de preferințe. Lateralele sunt tapițate cu stofă matlasată, iar aspectul și nivelul de buretare pot fi personalizate la cerere.\n\nNoptierele nu sunt incluse în configurația standard și se pot comanda separat. Salteaua și accesoriile decorative nu sunt incluse.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "canapea-toro": {
       "name": "Canapea Torro",
       "lead": "Confort ajustabil. Susținere precisă. Design contemporan.",
-      "summary": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare.",
-      "body": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nConfortul TORRO se adaptează felului în care alegi să te relaxezi. Tetierele reglabile permit ajustarea poziției, iar șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută. Prin extensie, canapeaua îți oferă un spațiu generos pentru relaxare.",
+      "summary": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nCanapeaua TORRO aduce un plus de funcționalitate într-un design contemporan, păstrând o linie clară și un confort bine susținut. Șezutul este construit pe o structură cu arcuri sinusoidale și spumă HR, iar spătarul din burete standard este completat de tetiere reglabile, pentru ajustarea poziției în funcție de preferințe.",
+      "body": "Confort ajustabil. Susținere precisă. Design contemporan.\n\nCanapeaua TORRO aduce un plus de funcționalitate într-un design contemporan, păstrând o linie clară și un confort bine susținut. Șezutul este construit pe o structură cu arcuri sinusoidale și spumă HR, iar spătarul din burete standard este completat de tetiere reglabile, pentru ajustarea poziției în funcție de preferințe.\n\nSistemul extensibil este integrat în partea inferioară a șezutului și se extrage pentru a forma o suprafață de dormit de 150 × 190 cm. Spre deosebire de mecanismele cu rabatarea spătarului peste ladă, TORRO folosește un sistem diferit și nu include ladă de depozitare.\n\nBrațele au structură din lemn și burete, iar dimensiunile acestora pot fi personalizate la comandă. Pernele decorative sunt incluse în configurația standard și au huse cu fermoar, detașabile pentru curățare sau înlocuire. Șezutul este fix, integrat în structură. Canapeaua poate fi tapițată cu orice stofă din colecția VALLO și are picioare ascunse, de aproximativ 2,5 cm.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 4400
     },
     "canapea-sonia-extensibila": {
@@ -508,6 +540,9 @@
     },
     "pat-linear": {
       "name": "Pat Linear",
+      "lead": "Trecere verticală și design echilibrat.",
+      "summary": "Trecere verticală și design echilibrat.\n\nPAT LINEAR aduce un plus de ordine și ritm vizual în dormitor prin tăblia sa tapițată, decorată cu panouri verticale. Designul simplu și proporțiile echilibrate îl fac ușor de integrat în amenajări contemporane, păstrând confortul și funcționalitatea unui pat cu spațiu de depozitare.",
+      "body": "Trecere verticală și design echilibrat.\n\nPAT LINEAR aduce un plus de ordine și ritm vizual în dormitor prin tăblia sa tapițată, decorată cu panouri verticale. Designul simplu și proporțiile echilibrate îl fac ușor de integrat în amenajări contemporane, păstrând confortul și funcționalitatea unui pat cu spațiu de depozitare.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": null,
       "category": "beds"
     },
@@ -538,6 +573,9 @@
     },
     "pat-geometry": {
       "name": "Pat Geometry",
+      "lead": "Tăblie tapițată cu detalii geometrice.",
+      "summary": "Tăblie tapițată cu detalii geometrice.\n\nPAT GEOMETRY se remarcă prin tăblia tapițată, decorată cu linii și forme geometrice care creează un joc discret de suprafețe. Este un model cu design contemporan, potrivit pentru un dormitor în care detaliile grafice adaugă personalitate fără a încărca vizual spațiul.",
+      "body": "Tăblie tapițată cu detalii geometrice.\n\nPAT GEOMETRY se remarcă prin tăblia tapițată, decorată cu linii și forme geometrice care creează un joc discret de suprafețe. Este un model cu design contemporan, potrivit pentru un dormitor în care detaliile grafice adaugă personalitate fără a încărca vizual spațiul.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 3400,
       "category": "beds"
     },
@@ -548,7 +586,10 @@
       "body": "Design generos. Confort fără compromis. Construit să dureze.\n\nConceput pentru interioare în care confortul și rafinamentul se completează firesc, colțarul ALDO aduce împreună forme contemporane, materiale atent selecționate și o construcție gândită pentru utilizarea de zi cu zi.\n\nProporțiile generoase și formele sale primitoare creează un spațiu dedicat relaxării, în timp ce tapițeria disponibilă într-o varietate de stofe, inclusiv Bouclé, permite integrarea armonioasă în diferite concepte de amenajare.\n\nExperiența confortului este susținută de un șezut realizat din burete cu densitatea de 35 kg/m³, completat de un strat superior de Memory Foam de 4 cm. Această combinație oferă o senzație plăcută la utilizare și o adaptare mai bună la presiunea exercitată asupra șezutului.\n\nConstrucția interioară îmbină lemnul masiv de fag, lemnul de brad și placajul din eucalipt, materiale alese pentru realizarea unei structuri solide și stabile.\n\nSistemul extensibil, realizat integral din lemn și prevăzut cu role, permite transformarea simplă a colțarului într-o suprafață generoasă de dormit. Sub șezut se află o ladă de depozitare practică, integrată în configurația standard.\n\nPernele mobile de spătar sunt realizate din burete și fibră siliconică, iar husele prevăzute cu fermoar pot fi scoase pentru curățare sau înlocuire."
     },
     "coltar-bela": {
-      "name": "Colțar Bela",
+      "name": "Colțar Bella",
+      "lead": "Colțarul BELLA păstrează limbajul estetic al colecției: linii rotunjite, forme fluide și un design curbat care aduce eleganță și continuitate vizuală în amenajare.",
+      "summary": "Colțarul BELLA păstrează limbajul estetic al colecției: linii rotunjite, forme fluide și un design curbat care aduce eleganță și continuitate vizuală în amenajare.\n\nȘezutul și zona de șezlong sunt realizate din spumă HR și Memory Foam, pe suport din placaj, pentru un confort moale și plăcut pe întreaga suprafață.",
+      "body": "Colțarul BELLA păstrează limbajul estetic al colecției: linii rotunjite, forme fluide și un design curbat care aduce eleganță și continuitate vizuală în amenajare.\n\nȘezutul și zona de șezlong sunt realizate din spumă HR și Memory Foam, pe suport din placaj, pentru un confort moale și plăcut pe întreaga suprafață.\n\nModelul este fix și nu include ladă de depozitare, nici sub șezlong. Se poate configura cu șezlongul pe stânga sau pe dreapta, în funcție de spațiul disponibil. Pernele decorative sunt incluse, cu umplutură din fibră siliconică și huse detașabile cu fermoar.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 6200
     },
     "coltar-eco-2": {
@@ -576,8 +617,8 @@
     "coltar-torro": {
       "name": "Colțar Torro",
       "lead": "Confort care se adaptează. Spațiu creat pentru relaxare.",
-      "summary": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie.",
-      "body": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nUn echilibru între design contemporan și confort adaptabil. Șezutul cu arcuri sinusoidale oferă susținere și elasticitate plăcută, în timp ce tetierele reglabile îți permit să găsești poziția ideală de relaxare. Extensia completează versatilitatea colțarului, oferind un spațiu generos atunci când ai nevoie.",
+      "summary": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nColțarul TORRO îmbină un design contemporan cu funcționalitatea unei configurații generoase, concepute pentru momente de relaxare și confort de zi cu zi. Șezlongul amplu oferă un spațiu suplimentar de relaxare, iar lada de depozitare integrată sub acesta adaugă un plus de utilitate, păstrând spațiul de locuit ordonat.",
+      "body": "Confort care se adaptează. Spațiu creat pentru relaxare.\n\nColțarul TORRO îmbină un design contemporan cu funcționalitatea unei configurații generoase, concepute pentru momente de relaxare și confort de zi cu zi. Șezlongul amplu oferă un spațiu suplimentar de relaxare, iar lada de depozitare integrată sub acesta adaugă un plus de utilitate, păstrând spațiul de locuit ordonat.\n\nȘezutul este construit pe o structură cu arcuri sinusoidale și spumă HR, pentru susținere și confort. Spătarul din burete standard este completat de tetiere reglabile, care permit ajustarea poziției în funcție de preferințe. Brațele au structură din lemn și burete, iar dimensiunile lor pot fi personalizate la comandă.\n\nColțarul este extensibil printr-un mecanism care iese din partea inferioară a șezutului, transformându-l într-o suprafață de dormit de 150 × 190 cm. Acest sistem este diferit de mecanismele la care spătarul se rabatează peste lada de depozitare.\n\nConfigurația poate fi realizată cu șezlong pe partea stângă sau dreaptă, în funcție de preferințele clientului. Colțarul poate fi tapițat cu orice stofă din colecția VALLO și se sprijină pe picioare discrete, ascunse, cu înălțimea de aproximativ 2,5 cm.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 5400
     },
     "coltar-cubic-fix": {
@@ -621,25 +662,34 @@
       "body": "Aceeași siluetă. Spătarul, capitonat.\n\nFotoliul King Chester păstrează linia fotoliului King — spătar înalt, brațe rotunjite, picioare conice — și înlocuiește spatele simplu cu un capitonaj în romburi. Cusătura prinde lumina altfel la fiecare oră a zilei, așa că piesa citește mai adânc decât o spune conturul ei.\n\nSe așază la fel de firesc în living, în dormitor sau într-un colț de lectură, lângă fotoliul King sau în locul lui."
     },
     "pat-panouri-dreptunghiulare": {
-      "name": "Pat panouri dreptunghiulare"
+      "name": "Pat panouri dreptunghiulare",
+      "lead": "Design clasic, completat de panouri decorative tapițate.",
+      "summary": "Design clasic, completat de panouri decorative tapițate.\n\nPAT PANOURI DREPTUNGHIULARE păstrează liniile unui pat cu design clasic, iar panourile dreptunghiulare tapițate aplicate pe tăblie adaugă un detaliu discret și ordonat. Compoziția simplă îl face ușor de integrat în amenajări diverse, de la dormitoare contemporane la interioare cu accente clasice.",
+      "body": "Design clasic, completat de panouri decorative tapițate.\n\nPAT PANOURI DREPTUNGHIULARE păstrează liniile unui pat cu design clasic, iar panourile dreptunghiulare tapițate aplicate pe tăblie adaugă un detaliu discret și ordonat. Compoziția simplă îl face ușor de integrat în amenajări diverse, de la dormitoare contemporane la interioare cu accente clasice.\n\nPanourile decorative sunt tapițate și pot fi configurate în aceeași stofă ca patul sau într-o altă stofă, în funcție de preferințe. Materialul și culoarea tapițeriei se aleg din colecția VALLO.\n\nNoptiera și salteaua nu sunt incluse în configurația standard. Produsul este realizat la comandă, cu dimensiuni, stofă și culoare configurabile.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "pat-panouri-verticale": {
       "name": "Pat panouri verticale"
     },
     "pat-aldo": {
       "lead": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.",
-      "summary": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.\n\nUn pat cu prezență, creat pentru interioare în care designul are ultimul cuvânt. Construcția masivă și materialele atent alese îi oferă robustețe și stabilitate, în timp ce lada de depozitare generoasă adaugă funcționalitate fără a compromite estetica.\n\nSomiera cu pistoane permite ridicarea ușoară a bazei, oferind acces rapid la întreg spațiul de depozitare.",
-      "body": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.\n\nUn pat cu prezență, creat pentru interioare în care designul are ultimul cuvânt. Construcția masivă și materialele atent alese îi oferă robustețe și stabilitate, în timp ce lada de depozitare generoasă adaugă funcționalitate fără a compromite estetica.\n\nSomiera cu pistoane permite ridicarea ușoară a bazei, oferind acces rapid la întreg spațiul de depozitare."
+      "summary": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.\n\nPatul ALDO se remarcă printr-un design tapițat, construit în jurul unor volume verticale cu forme rotunjite, care creează un efect vizual ritmat și o prezență elegantă în dormitor. Tăblia este alcătuită din panouri verticale individuale, cu partea superioară rotunjită și spații vizibile între ele. Același limbaj estetic este continuat de panourile laterale, pentru un aspect unitar și coerent. Numărul panourilor se adaptează dimensiunii patului.",
+      "body": "Prezență impunătoare. Confort. Funcționalitate gândită în fiecare detaliu.\n\nPatul ALDO se remarcă printr-un design tapițat, construit în jurul unor volume verticale cu forme rotunjite, care creează un efect vizual ritmat și o prezență elegantă în dormitor. Tăblia este alcătuită din panouri verticale individuale, cu partea superioară rotunjită și spații vizibile între ele. Același limbaj estetic este continuat de panourile laterale, pentru un aspect unitar și coerent. Numărul panourilor se adaptează dimensiunii patului.\n\nTăblia și lateralele sunt tapițate cu burete și melană, fără cusături decorative și fără cheder. Patul include o ladă de depozitare tapițată complet la exterior, iar accesul la spațiul interior se face prin ridicarea somierei, cu ajutorul balamalelor metalice și al pistoanelor pe gaz.\n\nTapițeria poate fi aleasă din orice material textil disponibil în colecția VALLO, iar dimensiunile patului pot fi personalizate pentru a se potrivi spațiului.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "pat-cubic": {
       "lead": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.",
-      "summary": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nDesign minimalist, confort generos și funcționalitate discretă. Patul CUBIC integrează o ladă de depozitare generoasă, ușor accesibilă prin somiera cu pistoane, care permite ridicarea fără efort.",
-      "body": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nDesign minimalist, confort generos și funcționalitate discretă. Patul CUBIC integrează o ladă de depozitare generoasă, ușor accesibilă prin somiera cu pistoane, care permite ridicarea fără efort."
+      "summary": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nPATUL CUBIC îmbină un design geometric, drept și echilibrat cu detalii de confort discret integrate. Tăblia este alcătuită din două elemente tapițate, fiecare cu un mic bombeu central realizat dintr-un strat mai gros de melană. Acest detaliu adaugă volum și un plus de confort, păstrând aspectul minimalist al modelului.",
+      "body": "Linii curate. Spațiu inteligent. Confort în fiecare detaliu.\n\nPATUL CUBIC îmbină un design geometric, drept și echilibrat cu detalii de confort discret integrate. Tăblia este alcătuită din două elemente tapițate, fiecare cu un mic bombeu central realizat dintr-un strat mai gros de melană. Acest detaliu adaugă volum și un plus de confort, păstrând aspectul minimalist al modelului.\n\nTăblia are o structură din lemn masiv și placaj, completată cu burete și melană. Lateralele sunt construite în același spirit, cu burete și un strat mai redus de melană. Chederul aplicat pe marginile tăbliei și ale lăzilor conturează discret forma patului și evidențiază finisajele.\n\nBaza patului este realizată conform construcției standard VALLO, cu lăzi tapițate și spațiu de depozitare. Sistemul de ridicare este echipat cu balama metalică și pistoane, pentru acces ușor la interior. Patul poate fi configurat cu somieră clasică din fier sau cu somieră din lemn fabricată de VALLO.\n\nPATUL CUBIC poate fi realizat pentru dimensiuni diferite de saltea, iar dimensiunile finale pot fi adaptate la comandă, atât pe lungime, cât și pe lățime. Pentru acest model, gabaritul exterior standard este cu 10 cm mai mare pe fiecare parte față de dimensiunea saltelei.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "canapea-spring": {
+      "lead": "Canapeaua SPRING este o soluție inteligentă pentru amenajările în care fiecare centimetru contează.",
+      "summary": "Canapeaua SPRING este o soluție inteligentă pentru amenajările în care fiecare centimetru contează.\n\nProporțiile sale compacte și brațele înguste permit integrarea facilă în spații mici, fără a renunța la funcționalitatea unui loc suplimentar de dormit.",
+      "body": "Canapeaua SPRING este o soluție inteligentă pentru amenajările în care fiecare centimetru contează.\n\nProporțiile sale compacte și brațele înguste permit integrarea facilă în spații mici, fără a renunța la funcționalitatea unui loc suplimentar de dormit.\n\nȘezutul din spumă HR este susținut de o structură din lemn de fag și placaj, iar spătarul este realizat din spumă HR. Sistemul extensibil transformă canapeaua într-o suprafață de dormit de 140 × 190 cm: șezutul se trage în față, iar spătarul se rabatează peste lada de depozitare.\n\nLada este realizată din PAL melaminat alb, păstrat la vedere. Pernele decorative, incluse în configurația standard, au umplutură din fibră siliconică și huse cu fermoar, detașabile pentru curățare sau înlocuire. Brațele au structură din lemn și burete, iar picioarele sunt vizibile și realizate din lemn.\n\nDatorită dimensiunilor sale aparte, canapeaua SPRING este potrivită pentru proiecte HoReCa, în special pentru mobilarea camerelor de hotel în care este necesar un al treilea loc de dormit. Poate fi tapițată cu orice stofă din colecția VALLO.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 2500
     },
     "canapea-bella": {
+      "lead": "Canapeaua BELLA îmbină un profil curbat și fluid cu un confort generos.",
+      "summary": "Canapeaua BELLA îmbină un profil curbat și fluid cu un confort generos.\n\nFormele rotunjite conturează o prezență elegantă, iar șezutul realizat din spumă HR și Memory Foam oferă o senzație moale și plăcută. Spătarul este construit din burete standard, fără perne separate, pentru un aspect unitar și ordonat.",
+      "body": "Canapeaua BELLA îmbină un profil curbat și fluid cu un confort generos.\n\nFormele rotunjite conturează o prezență elegantă, iar șezutul realizat din spumă HR și Memory Foam oferă o senzație moale și plăcută. Spătarul este construit din burete standard, fără perne separate, pentru un aspect unitar și ordonat.\n\nPernele decorative sunt incluse în configurația standard, au umplutură din fibră siliconică și huse cu fermoar, detașabile. Canapeaua poate fi tapițată cu orice stofă din colecția VALLO.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 4800
     }
   },
@@ -690,7 +740,7 @@
     ]
   },
   "schematics": {
-    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot. Figures are the outer ones printed on the sheet; `depthBack` only where the sheet prints the body depth beside the chaise. Colțar Aldo's sheet is the 330 × 190 size of the two it is sold in. Canapea Aldo's newer sheet (CP ALDO SCHITA, 2026-10) prints 110 deep and a 90 seat where the grey drawing it replaces printed 115 and 85 — taken as the correction, pending the client's word. `approximate` marks a sketch the client's technical sheets (docs/VALLO_*.pdf, 2026-11) contradict — Colțar Aldo 190 deep, Cubic Fix 180, Soria a 160 chaise — the sheet wins, so the page shows the sketch as orientation and sets no figures from it. Colțar Sam's sketch (270, sleeping 140) is withdrawn: the sheet gives 240 and 160 × 190.",
+    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot. Figures are the outer ones printed on the sheet; `depthBack` only where the sheet prints the body depth beside the chaise. Colțar Aldo's sheet is the 330 × 190 size of the two it is sold in. Canapea Aldo's newer sheet (CP ALDO SCHITA, 2026-10) prints 110 deep and a 90 seat where the grey drawing it replaces printed 115 and 85 — taken as the correction, pending the client's word. `approximate` marks a sketch the client's technical sheets (docs/VALLO_*.pdf, 2026-11) contradict — Colțar Aldo 190 deep, Cubic Fix 180, Soria a 160 chaise — the sheet wins, so the page shows the sketch as orientation and sets no figures from it. Colțar Sam's sketch (270, sleeping 140) is withdrawn: the sheet gives 240 and 160 × 190. Second batch (2026-11-12): Colțar Bella's sketch prints 285 × 135 with an 80 seat and Linear's 145 deep with a 70 seat, where the sheets give 280 × 160 and seats of 90 and 80 — both approximate. Torro's matches its sheet (270 × 170).",
     "coltar-aldo": {
       "file": "schita-coltar-aldo-3",
       "approximate": true,
@@ -716,7 +766,8 @@
         "depth": 145,
         "depthBack": 105,
         "seat": 70
-      }
+      },
+      "approximate": true
     },
     "coltar-bela": {
       "file": "schita-coltar-bela",
@@ -724,7 +775,8 @@
         "width": 285,
         "depth": 135,
         "seat": 80
-      }
+      },
+      "approximate": true
     },
     "coltar-cubic-fix": {
       "file": "schita-coltar-cubic-fix",
@@ -3065,7 +3117,7 @@
     "pat-happy-studio-2"
   ],
   "collections": {
-    "_note": "Named ranges — one design carried across several kinds of piece. Membership is listed rather than matched on the name: a rename then never moves a piece silently, and a near-miss like Coltar Bela never joins Bella. `cover` is optional and falls back to the first piece listed.",
+    "_note": "Named ranges — one design carried across several kinds of piece. Membership is listed rather than matched on the name: a rename then never moves a piece silently, and a piece joins a range only when the client says so (Colțar Bella joined Bella with its sheet, 2026-11-12). `cover` is optional and falls back to the first piece listed.",
     "aldo": {
       "cover": "coltar-aldo-c1",
       "pieces": [
@@ -3110,7 +3162,8 @@
     "bella": {
       "cover": "canapea-bella-c2",
       "pieces": [
-        "canapea-bella"
+        "canapea-bella",
+        "coltar-bela"
       ]
     },
     "ela": {
@@ -3123,6 +3176,13 @@
       "cover": "coltar-vallo-studio-1",
       "pieces": [
         "coltar-vallo"
+      ]
+    },
+    "spring": {
+      "cover": "canapea-spring-c2",
+      "pieces": [
+        "canapea-spring",
+        "fotoliu-spring"
       ]
     }
   },

@@ -47,6 +47,7 @@ export type CollectionId =
   | 'bella'
   | 'ela'
   | 'vallo'
+  | 'spring'
 
 export type Collection = {
   id: CollectionId

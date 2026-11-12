@@ -1,5 +1,5 @@
 {
-  "_note": "Technical sheets transcribed from the client's documents (docs/VALLO_*.pdf, edition of 10 November 2026). Only what those sheets confirm is here: a figure they mark as unconfirmed — total height, most seat depths, box sizes, the foam in the spring-mesh seats — is left out, never estimated. Where a sheet and an older workshop sketch disagree, the sheet wins (client's instruction, 2026-11-11) and the sketch is flagged `approximate` in curation.json. media.mjs merges this into each piece; emit.mjs writes `figures`, `figuresNote` and `specs` into its detail file.",
+  "_note": "Technical sheets transcribed from the client's documents (docs/VALLO_*.pdf, editions of 10–12 November 2026). Only what those sheets confirm is here: a figure they mark as unconfirmed — total height, most seat depths, box sizes, the foam in the spring-mesh seats — is left out, never estimated. Where a sheet and an older workshop sketch disagree, the sheet wins (client's instruction, 2026-11-11) and the sketch is flagged `approximate` in curation.json. media.mjs merges this into each piece; emit.mjs writes `figures`, `figuresNote` and `specs` into its detail file.",
   "pieces": {
     "coltar-aldo": {
       "figures": [
@@ -2266,6 +2266,3167 @@
               "value": {
                 "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
                 "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-bella": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "285 cm"
+        },
+        {
+          "ro": "Adâncime totală",
+          "en": "Overall depth",
+          "value": "120 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "90 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn de fag și placaj",
+                "en": "Beech and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Suport șezut",
+                "en": "Seat support"
+              },
+              "value": {
+                "ro": "Placaj",
+                "en": "Plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, nevizibile din exterior",
+                "en": "Concealed, not visible from outside"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR și Memory Foam",
+                "en": "HR foam and Memory Foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard, fără perne separate",
+                "en": "Standard foam, no separate cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Fixă, fără extensie și fără ladă de depozitare",
+                "en": "Fixed, without extension or storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Design",
+                "en": "Design"
+              },
+              "value": {
+                "ro": "Curbat, cu forme fluide și linii rotunjite",
+                "en": "Curved, with flowing forms and rounded lines"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-bela": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "280 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "90 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn de fag și placaj",
+                "en": "Beech and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Suport șezut",
+                "en": "Seat support"
+              },
+              "value": {
+                "ro": "Placaj",
+                "en": "Plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, nevizibile din exterior",
+                "en": "Concealed, not visible from outside"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut și șezlong",
+                "en": "Seat and chaise"
+              },
+              "value": {
+                "ro": "Spumă HR și Memory Foam, pe suport din placaj",
+                "en": "HR foam and Memory Foam on a plywood base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard, fix, fără reglaj și fără perne separate",
+                "en": "Standard foam, fixed, not adjustable, no separate cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Fixă, fără extensie și fără ladă de depozitare, nici sub șezlong",
+                "en": "Fixed, without extension or storage box, under the chaise included"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Șezlong pe stânga sau pe dreapta, la comandă",
+                "en": "Chaise on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Design",
+                "en": "Design"
+              },
+              "value": {
+                "ro": "Curbat, cu forme fluide și linii rotunjite",
+                "en": "Curved, with flowing forms and rounded lines"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-linear": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "280 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "160 cm"
+        },
+        {
+          "ro": "Adâncime șezut",
+          "en": "Seat depth",
+          "value": "80 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj din eucalipt",
+                "en": "Solid beech, fir and eucalyptus plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Suport șezut",
+                "en": "Seat support"
+              },
+              "value": {
+                "ro": "Structură din lemn",
+                "en": "Wooden frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, nevizibile din exterior",
+                "en": "Concealed, not visible from outside"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut și șezlong",
+                "en": "Seat and chaise"
+              },
+              "value": {
+                "ro": "Spumă cu densitatea de 35 kg/m³ și strat de 4 cm Memory Foam",
+                "en": "35 kg/m³ foam with a 4 cm Memory Foam layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Strat gros de burete; fix, fără reglaj și fără perne separate",
+                "en": "A thick layer of foam; fixed, not adjustable, no separate cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Fixă, fără extensie și fără ladă de depozitare",
+                "en": "Fixed, without extension or storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Variantă extensibilă",
+                "en": "Extending version"
+              },
+              "value": {
+                "ro": "La comandă, în funcție de proiect",
+                "en": "Made to order, depending on the project"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Șezlong pe stânga sau pe dreapta, la comandă",
+                "en": "Chaise on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-vallo": {
+      "figures": [],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj",
+                "en": "Solid beech, fir and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structură din lemn și arcuri sinusoidale",
+                "en": "Wooden frame and sinuous springs"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn, burete și melană",
+                "en": "Wood, foam and wadding"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Ascunse, nevizibile din exterior",
+                "en": "Concealed, not visible from outside"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Burete HR cu densitatea de 35–36 kg/m³ și strat de 4 cm Memory Foam",
+                "en": "35–36 kg/m³ HR foam with a 4 cm Memory Foam layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Strat de melană",
+                "en": "Wadding layer"
+              },
+              "value": {
+                "ro": "Strat generos între burete și stofă, care dă tapițeriei aspectul lejer",
+                "en": "A generous layer between foam and fabric, which gives the upholstery its relaxed look"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Structură din lemn, strat mai gros de burete și melană; buretele formează direct spătarul tapițat",
+                "en": "Wooden frame, a thicker layer of foam and wadding; the foam itself forms the upholstered back"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în tapițerie",
+                "en": "Fixed, part of the upholstery"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Colțar fix, fără extensie și fără ladă de depozitare",
+                "en": "Fixed sectional, without extension or storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Lejeră, cu pliuri și cute integrate; orice stofă din colecția VALLO",
+                "en": "Relaxed, with folds and creases built in; any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-zeno": {
+      "figures": [
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Dimensiunile depind de modulele alese și se stabilesc la comandă.",
+        "en": "Dimensions depend on the modules chosen and are set when ordering."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, lemn de brad și placaj",
+                "en": "Solid beech, fir and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Susținere",
+                "en": "Support"
+              },
+              "value": {
+                "ro": "Structură din lemn și arcuri sinusoidale",
+                "en": "Wooden frame and sinuous springs"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete",
+                "en": "Wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR cu densitatea de 35–36 kg/m³ și strat superior de 4 cm Memory Foam",
+                "en": "35–36 kg/m³ HR foam with a 4 cm Memory Foam top layer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, tapițate permanent, fără fermoar",
+                "en": "Fixed, permanently upholstered, no zip"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Structură simplă, cu un strat subțire de burete; înălțime fixă",
+                "en": "A simple frame with a thin layer of foam; fixed height"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de spătar",
+                "en": "Back cushions"
+              },
+              "value": {
+                "ro": "Două rânduri, detașabile și repoziționabile: perne mari prinse cu arici, apoi perne mai mici",
+                "en": "Two rows, removable and free to rearrange: large cushions held with hook-and-loop, then smaller ones"
+              }
+            },
+            {
+              "label": {
+                "ro": "Umplutură",
+                "en": "Filling"
+              },
+              "value": {
+                "ro": "Fibră siliconică, pentru pernele de spătar și cele decorative",
+                "en": "Silicone fibre, in the back and scatter cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; numărul depinde de configurație",
+                "en": "Included; how many depends on the configuration"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Configurație",
+                "en": "Configuration"
+              },
+              "value": {
+                "ro": "Modulară: modulele și configurația se aleg, dimensiunile modulelor se adaptează la comandă",
+                "en": "Modular: you choose the modules and the layout; module sizes are adapted to order"
+              }
+            },
+            {
+              "label": {
+                "ro": "Module",
+                "en": "Modules"
+              },
+              "value": {
+                "ro": "Prinse între ele cu cleme speciale; doar unele pot fi folosite separat",
+                "en": "Joined with special clips; only some can be used on their own"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurație standard",
+                "en": "Standard configuration"
+              },
+              "value": {
+                "ro": "Fixă, fără extensie și fără ladă de depozitare",
+                "en": "Fixed, without extension or storage box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Colț pe stânga sau pe dreapta, la comandă",
+                "en": "Corner on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Finisaj",
+                "en": "Finish"
+              },
+              "value": {
+                "ro": "Cusături simple; marginile șezutului ușor rotunjite, prin tensionarea stofei",
+                "en": "Plain seams; the seat edges softly rounded by drawing the fabric down"
+              }
+            },
+            {
+              "label": {
+                "ro": "Huse",
+                "en": "Covers"
+              },
+              "value": {
+                "ro": "Cu fermoar, detașabile pentru curățare sau înlocuire; întreținerea după instrucțiunile stofei alese",
+                "en": "Zipped and removable for cleaning or replacement; care follows the instructions for the chosen fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coltar-torro": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "270 cm"
+        },
+        {
+          "ro": "Adâncime șezlong",
+          "en": "Chaise depth",
+          "value": "170 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "150 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Adâncimea șezlongului se măsoară din spatele spătarului până în față.",
+        "en": "Chaise depth is measured from the back of the backrest to the front."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "PAL, lemn de brad și lemn de fag",
+                "en": "Chipboard, fir and beech"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete; dimensiuni personalizabile",
+                "en": "Wood and foam; size can be customised"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale și spumă HR",
+                "en": "Sinuous springs and HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard; tetiere reglabile",
+                "en": "Standard foam; adjustable headrests"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de spătar",
+                "en": "Back cushions"
+              },
+              "value": {
+                "ro": "Fără perne separate pe spătar",
+                "en": "No separate back cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; huse cu fermoar, detașabile",
+                "en": "Included; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism care se extrage din partea inferioară a șezutului; spătarul nu se rabatează",
+                "en": "A mechanism that pulls out from under the seat; the back does not fold down"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă voluminoasă sub șezlong",
+                "en": "A deep box under the chaise"
+              }
+            },
+            {
+              "label": {
+                "ro": "Orientare",
+                "en": "Orientation"
+              },
+              "value": {
+                "ro": "Șezlong pe stânga sau pe dreapta, la comandă",
+                "en": "Chaise on the left or right, chosen when ordering"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-toro": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "240 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "100 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "150 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Frame"
+              },
+              "value": {
+                "ro": "PAL, lemn de brad și lemn de fag",
+                "en": "Chipboard, fir and beech"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Structură din lemn și burete; dimensiuni personalizabile",
+                "en": "Wood and foam; size can be customised"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Joase, aproximativ 2,5 cm, ascunse",
+                "en": "Low, about 2.5 cm, concealed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Arcuri sinusoidale și spumă HR",
+                "en": "Sinuous springs and HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Burete standard; tetiere reglabile",
+                "en": "Standard foam; adjustable headrests"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de spătar",
+                "en": "Back cushions"
+              },
+              "value": {
+                "ro": "Fără perne separate pe spătar",
+                "en": "No separate back cushions"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; huse cu fermoar, detașabile",
+                "en": "Included; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Mecanism care se extrage din partea inferioară a șezutului; spătarul nu se rabatează",
+                "en": "A mechanism that pulls out from under the seat; the back does not fold down"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Fără ladă de depozitare",
+                "en": "No storage box"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "canapea-spring": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "145 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "140 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura șezutului",
+                "en": "Seat frame"
+              },
+              "value": {
+                "ro": "Lemn de fag și placaj",
+                "en": "Beech and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Înguste; structură din lemn și burete",
+                "en": "Narrow; wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Vizibile, din lemn",
+                "en": "Visible, wooden"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR",
+                "en": "HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă HR; fără tetiere",
+                "en": "HR foam; no headrests"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Șezutul se trage în față, iar spătarul se rabatează peste ladă",
+                "en": "The seat pulls forward and the back folds down over the box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă din PAL melaminat alb, lăsat la vedere",
+                "en": "A box in white melamine chipboard, left visible"
+              }
+            },
+            {
+              "label": {
+                "ro": "Potrivit pentru",
+                "en": "Suited to"
+              },
+              "value": {
+                "ro": "Camere de hotel care au nevoie de al treilea loc de dormit",
+                "en": "Hotel rooms that need a third bed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "fotoliu-spring": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "85 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "75 × 190 cm"
+        },
+        {
+          "ro": "Înălțime șezut",
+          "en": "Seat height",
+          "value": "45 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura șezutului",
+                "en": "Seat frame"
+              },
+              "value": {
+                "ro": "Lemn de fag și placaj",
+                "en": "Beech and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Brațe",
+                "en": "Arms"
+              },
+              "value": {
+                "ro": "Înguste; structură din lemn și burete",
+                "en": "Narrow; wood and foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "Vizibile, din lemn",
+                "en": "Visible, wooden"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Confort",
+            "en": "Comfort"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Șezut",
+                "en": "Seat"
+              },
+              "value": {
+                "ro": "Spumă HR",
+                "en": "HR foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Spătar",
+                "en": "Back"
+              },
+              "value": {
+                "ro": "Spumă HR; fără tetiere",
+                "en": "HR foam; no headrests"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne de șezut",
+                "en": "Seat cushions"
+              },
+              "value": {
+                "ro": "Fixe, integrate în structură",
+                "en": "Fixed, built into the frame"
+              }
+            },
+            {
+              "label": {
+                "ro": "Perne decorative",
+                "en": "Scatter cushions"
+              },
+              "value": {
+                "ro": "Incluse; umplutură din fibră siliconică; huse cu fermoar, detașabile",
+                "en": "Included; silicone-fibre filling; zipped, removable covers"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Extensie",
+                "en": "Extension"
+              },
+              "value": {
+                "ro": "Șezutul se trage în față, iar spătarul se rabatează peste ladă",
+                "en": "The seat pulls forward and the back folds down over the box"
+              }
+            },
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă din PAL melaminat alb, lăsat la vedere",
+                "en": "A box in white melamine chipboard, left visible"
+              }
+            },
+            {
+              "label": {
+                "ro": "Potrivit pentru",
+                "en": "Suited to"
+              },
+              "value": {
+                "ro": "Camere de hotel care au nevoie de al treilea loc de dormit",
+                "en": "Hotel rooms that need a third bed"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă din colecția VALLO",
+                "en": "Any fabric in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Dimensiunile pot fi adaptate spațiului dumneavoastră",
+                "en": "Dimensions can be adapted to your space"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-aldo": {
+      "figures": [
+        {
+          "ro": "Gabarit",
+          "en": "Overall size",
+          "value": "saltea + 30 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie și laterale",
+          "en": "Headboard and side thickness",
+          "value": "15 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "15 cm în plus pe fiecare latură. Exemplu: saltea 160 × 200 cm, pat 190 × 230 cm.",
+        "en": "15 cm added on every side. For example: a 160 × 200 cm mattress makes a 190 × 230 cm bed."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Lemn masiv și placaj",
+                "en": "Solid wood and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tăblie și laterale",
+                "en": "Headboard and sides"
+              },
+              "value": {
+                "ro": "Tapițate cu burete și melană",
+                "en": "Upholstered over foam and wadding"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5, 5, 10 sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Design și personalizare",
+            "en": "Design and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Design",
+                "en": "Design"
+              },
+              "value": {
+                "ro": "Panouri verticale cu partea de sus rotunjită, separate vizibil; numărul lor urmează lățimea patului",
+                "en": "Vertical panels with rounded tops, visibly spaced; their number follows the bed's width"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj",
+                "en": "Finish"
+              },
+              "value": {
+                "ro": "Fără cheder și fără cusături decorative",
+                "en": "No piping and no decorative stitching"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-cubic": {
+      "figures": [
+        {
+          "ro": "Gabarit",
+          "en": "Overall size",
+          "value": "saltea + 20 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie și laterale",
+          "en": "Headboard and side thickness",
+          "value": "10 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "10 cm în plus pe fiecare latură. Exemplu: saltea 160 × 200 cm, pat 180 × 220 cm.",
+        "en": "10 cm added on every side. For example: a 160 × 200 cm mattress makes a 180 × 220 cm bed."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Lemn masiv și placaj",
+                "en": "Solid wood and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tăblie",
+                "en": "Headboard"
+              },
+              "value": {
+                "ro": "Două elemente drepte, fiecare cu un bombeu central din melană mai groasă; burete și melană",
+                "en": "Two straight sections, each with a raised centre of thicker wadding; foam and wadding"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete și un strat mai subțire de melană",
+                "en": "Foam with a thinner layer of wadding"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5, 5, 10 sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Cheder",
+                "en": "Piping"
+              },
+              "value": {
+                "ro": "Pe marginile tăbliei și ale lăzilor",
+                "en": "Along the edges of the headboard and boxes"
+              }
+            },
+            {
+              "label": {
+                "ro": "Bombeuri",
+                "en": "Raised panels"
+              },
+              "value": {
+                "ro": "Fără cusături decorative",
+                "en": "No decorative stitching"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-fantezie": {
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 80 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 40 cm pe fiecare parte.",
+        "en": "The headboard extends 40 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Suport din placaj, burete de 4 cm și tapițerie",
+                "en": "Plywood backing, 4 cm foam and upholstery"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete de 2 cm și stofă matlasată; la cerere, burete mai gros",
+                "en": "2 cm foam and quilted fabric; thicker foam on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu sunt incluse",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua și noptierele, care se comandă separat",
+                "en": "The mattress and bedside tables, which are ordered separately"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Panouri",
+                "en": "Panels"
+              },
+              "value": {
+                "ro": "În aceeași stofă ca patul sau într-una diferită",
+                "en": "In the bed's fabric or a different one"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-panouri-dreptunghiulare": {
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Dreptunghiulare, aplicate pe tăblie: suport din placaj, burete de 4 cm și tapițerie",
+                "en": "Rectangular, set on the headboard: plywood backing, 4 cm foam and upholstery"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete de 2 cm și stofă matlasată; la cerere, burete mai gros",
+                "en": "2 cm foam and quilted fabric; thicker foam on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu sunt incluse",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua și noptierele, care se comandă separat",
+                "en": "The mattress and bedside tables, which are ordered separately"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Panouri",
+                "en": "Panels"
+              },
+              "value": {
+                "ro": "În aceeași stofă ca patul sau într-una diferită",
+                "en": "In the bed's fabric or a different one"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-paul": {
+      "figures": [
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Grosime laterale",
+          "en": "Side thickness",
+          "value": "5 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Lemn și placaj",
+                "en": "Wood and plywood"
+              }
+            },
+            {
+              "label": {
+                "ro": "Prinderea tăbliei",
+                "en": "Headboard fixing"
+              },
+              "value": {
+                "ro": "Înșurubată de ladă, pentru o susținere puternică",
+                "en": "Screwed to the box, for firm support"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm",
+                "en": "2.5 cm"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu sunt incluse",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua și noptierele, care se comandă separat",
+                "en": "The mattress and bedside tables, which are ordered separately"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Design și personalizare",
+            "en": "Design and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tăblie",
+                "en": "Headboard"
+              },
+              "value": {
+                "ro": "Matlasată în pătrate, cu nasturi îmbrăcați în aceeași stofă",
+                "en": "Quilted in squares, with buttons covered in the same fabric"
+              }
+            },
+            {
+              "label": {
+                "ro": "Bază",
+                "en": "Base"
+              },
+              "value": {
+                "ro": "Complet tapițată, simplă, fără matlasări sau cusături decorative",
+                "en": "Fully upholstered and plain, without quilting or decorative stitching"
+              }
+            },
+            {
+              "label": {
+                "ro": "Burete pe laterale",
+                "en": "Foam on the sides"
+              },
+              "value": {
+                "ro": "1 cm în varianta prezentată; la comandă mai gros sau deloc, pentru un aspect mai subțire",
+                "en": "1 cm as shown; thicker, or none for a slimmer look, to order"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-geometry": {
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Linii și forme geometrice pe tăblie: suport din placaj, burete de 4 cm și tapițerie",
+                "en": "Geometric lines and shapes on the headboard: plywood backing, 4 cm foam and upholstery"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete de 2 cm și stofă matlasată; la cerere, burete mai gros",
+                "en": "2 cm foam and quilted fabric; thicker foam on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-linear": {
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Verticale, pe tăblie: suport din placaj, burete de 4 cm și tapițerie",
+                "en": "Vertical, on the headboard: plywood backing, 4 cm foam and upholstery"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete de 2 cm și stofă matlasată; la cerere, burete mai gros",
+                "en": "2 cm foam and quilted fabric; thicker foam on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-matrimonial": {
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Panou central în stil Chesterfield, cu nasturi îmbrăcați în aceeași stofă și burete de 4 cm",
+                "en": "A Chesterfield-style centre panel, with buttons covered in the same fabric and 4 cm foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Burete de 2 cm și stofă matlasată; la cerere, burete mai gros",
+                "en": "2 cm foam and quilted fabric; thicker foam on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tăblie",
+                "en": "Headboard"
+              },
+              "value": {
+                "ro": "Contur ușor curbat",
+                "en": "A gently curved outline"
+              }
+            },
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pat-miraj": {
+      "figures": [
+        {
+          "ro": "Gabarit",
+          "en": "Overall size",
+          "value": "saltea + 10 cm × saltea + 20 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "5 cm în plus pe fiecare parte și 20 cm în lungime. Exemplu: saltea 160 × 200 cm, pat 170 × 220 cm.",
+        "en": "5 cm added on each side and 20 cm in length. For example: a 160 × 200 cm mattress makes a 170 × 220 cm bed."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri verticale",
+                "en": "Vertical panels"
+              },
+              "value": {
+                "ro": "Pe tăblie și pe fața lăzii: burete de 6 cm modelat cilindric, apoi tapițat",
+                "en": "On the headboard and the front of the box: 6 cm foam shaped into a cylinder, then upholstered"
+              }
+            },
+            {
+              "label": {
+                "ro": "Grosimea feței lăzii",
+                "en": "Box front thickness"
+              },
+              "value": {
+                "ro": "10 cm",
+                "en": "10 cm"
+              }
+            },
+            {
+              "label": {
+                "ro": "Structura lăzii",
+                "en": "Box"
+              },
+              "value": {
+                "ro": "Lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; tapițată, îmbrăcată în burete și stofă",
+                "en": "Solid beech, white melamine chipboard and hardboard; upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele, cu aceleași adaosuri exterioare",
+                "en": "Length and width adapted to any mattress, keeping the same outer margins"
               }
             }
           ]

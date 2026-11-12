@@ -128,13 +128,15 @@ const rows = (detail: PieceDetail | null) => detail?.specs?.flatMap((g) => g.row
 function pieceTitle(piece: Piece, detail: PieceDetail | null) {
   const sheet = rows(detail)
   const extends_ = sheet.some(
-    (r) => r.label.ro === 'Extensie' || (r.label.ro === 'Configurație standard' && /^extensibil/i.test(r.value.ro)),
+    (r) =>
+      (r.label.ro === 'Extensie' && !/^(fără|nu) /i.test(r.value.ro)) ||
+      (r.label.ro === 'Configurație standard' && /^extensibil/i.test(r.value.ro)),
   )
   // Only where the standard configuration has the box: Cubic Fix offers one
   // with its optional extension, and its standard row says "fără ladă".
   const storage = sheet.some(
     (r) =>
-      (r.label.ro === 'Depozitare' && !/^fără/i.test(r.value.ro)) ||
+      (r.label.ro === 'Depozitare' && !/^(fără|nu) /i.test(r.value.ro)) ||
       (r.label.ro === 'Configurație standard' && /cu ladă/i.test(r.value.ro)),
   )
   if (!extends_ && !storage) return `${piece.name} — mobilier tapițat la comandă | ${BRAND}`
