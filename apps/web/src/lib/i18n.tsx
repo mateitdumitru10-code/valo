@@ -221,12 +221,8 @@ const ro = {
     'Paturi tapițate cu somieră rabatabilă și ladă. Tăblii capitonate sau cu panouri cusute.',
   'category.lede.armchairs':
     'Fotolii fixe și extensibile, pentru colțul de citit sau pentru un oaspete peste noapte.',
-  'category.lede.hallway':
-    'Ansambluri pentru hol și living: canapea, fotolii și măsuță, gândite împreună.',
   'category.lede.nightstands':
     'Noptiere tapițate, asortate tăbliilor de pat din aceeași colecție.',
-  'category.lede.seating':
-    'Scaune și taburete tapițate — produsele mici care leagă restul camerei.',
 
   'collection.lede.aldo':
     'Blocuri adânci, capitonate mărunt, pe picioare joase. Cinci produse pe același desen: colțarul, canapeaua extensibilă, modulul, canapeaua rotundă și patul.',
@@ -491,8 +487,6 @@ const en: Record<keyof typeof ro, string> = {
     'Upholstered beds with lift-up bases and storage. Buttoned or panel-stitched headboards.',
   'category.lede.armchairs':
     'Fixed and extendable armchairs, for the reading corner or an overnight guest.',
-  'category.lede.hallway':
-    'Hallway and living sets: sofa, armchairs and table, designed together.',
   'category.lede.nightstands':
     'Upholstered nightstands matched to the headboards of the same collection.',
   'collection.lede.aldo':
@@ -527,8 +521,6 @@ const en: Record<keyof typeof ro, string> = {
   'collection.body.torro':
     'TORRO joins contemporary lines with carefully built comfort. The sinuous-spring seat gives support that lasts, and the adjustable headrests let you set the position that suits you. A sleeping extension completes the collection, giving every evening more room to stretch out.\n\nPrecise support. Comfort you set yourself.',
 
-  'category.lede.seating':
-    'Upholstered chairs and stools — the small pieces that tie the room together.',
 
 
   'footer.tagline': 'Upholstered furniture, distributed from Prahova across Romania.',

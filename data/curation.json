@@ -473,6 +473,9 @@
       "summary": "Panouri verticale cu volum rotunjit și aspect capitonat.\n\nPAT MIRAJ se definește prin panourile verticale cu forme rotunjite, aplicate atât pe tăblie, cât și pe partea frontală a lăzii. Volumul generos al acestora creează un aspect capitonat, cu linii moi și o prezență vizuală distinctă în dormitor.",
       "body": "Panouri verticale cu volum rotunjit și aspect capitonat.\n\nPAT MIRAJ se definește prin panourile verticale cu forme rotunjite, aplicate atât pe tăblie, cât și pe partea frontală a lăzii. Volumul generos al acestora creează un aspect capitonat, cu linii moi și o prezență vizuală distinctă în dormitor.\n\nPanourile sunt realizate cu burete modelat în formă cilindrică, apoi tapițat, pentru a obține profilul rotunjit specific modelului. Stofa și culoarea se aleg din colecția VALLO, astfel încât patul să poată fi integrat în stilul dorit.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
+    "demifotoliu": {
+      "category": "armchairs"
+    },
     "canapea-cubic": {
       "name": "Canapea Cubic",
       "lead": "Design minimalist. Proporții generoase. Confort fără compromisuri.",
@@ -736,7 +739,8 @@
       "paturi-dan",
       "paturi-dormitor-david",
       "fotoliu-corina",
-      "scaun-heatar"
+      "scaun-heatar",
+      "hol-chesterfield"
     ]
   },
   "schematics": {
@@ -2698,9 +2702,7 @@
     "sectionals": "coltar-sam-1",
     "sofas": "canapea-ela-1",
     "beds": "pat-one-studio-1",
-    "armchairs": "fotoliu-king-studio-1",
-    "hallway": "hol-chesterfield-1",
-    "seating": "demifotoliu-studio-1"
+    "armchairs": "fotoliu-king-studio-1"
   },
   "headers": {
     "_note": "Full-bleed image at the top of a collection page. Falls back to `covers` when a collection has no entry here — split out because a studio cut-out can work as a small cover and still be wrong behind a headline."

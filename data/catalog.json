@@ -10690,7 +10690,7 @@
         "studio": true
       },
       "editorial": true,
-      "category": "seating",
+      "category": "armchairs",
       "views": [
         {
           "src": "demifotoliu-studio-1",
@@ -10752,51 +10752,6 @@
           }
         }
       ]
-    },
-    {
-      "id": 6798,
-      "slug": "hol-chesterfield",
-      "name": "Hol Chesterfield",
-      "collections": [
-        "Colecția Hol",
-        "Colecția Living",
-        "Holuri"
-      ],
-      "price": 9400,
-      "currency": "RON",
-      "lead": "Hol Chesterfield – Un set elegant inspirat din stilul clasic britanic, cu capitonaj distinctiv și design atemporal, care aduce rafinament și confort în orice interior.",
-      "summary": "Hol Chesterfield – Un set elegant inspirat din stilul clasic britanic, cu capitonaj distinctiv și design atemporal, care aduce rafinament și confort în orice interior.",
-      "body": "Holul Chesterfield este o piesă de mobilier elegantă, inspirată din stilul clasic britanic, recunoscut pentru rafinamentul și designul său atemporal. Realizat cu atenție la detalii, acest set format din canapea și taburet impresionează prin capitonajul caracteristic cu nasturi și liniile armonioase care definesc stilul Chesterfield.\n\nSpătarul înalt, brațele rotunjite și structura solidă oferă atât un aspect impunător, cât și un confort deosebit. Taburetul capitonat completează perfect ansamblul, adăugând funcționalitate și un plus de stil, fiind ideal pentru relaxare sau ca element decorativ într-un spațiu amenajat cu bun gust.\n\nHolul Chesterfield se potrivește perfect în livinguri elegante, birouri rafinate sau zone de recepție, unde poate deveni cu ușurință punctul central al încăperii. Prin designul său clasic și versatil, această piesă de mobilier aduce un aer de distincție și confort în orice interior.",
-      "dimensions": [],
-      "images": [
-        {
-          "src": "hol-chesterfield-1",
-          "w": 1536,
-          "h": 1024,
-          "widths": [
-            1200,
-            700
-          ],
-          "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-          "editorial": true,
-          "studio": false
-        }
-      ],
-      "source": "https://mobilasamobi.ro/products/hol-chesterfield/",
-      "cover": {
-        "src": "hol-chesterfield-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "editorial": true,
-      "category": "hallway"
     },
     {
       "id": 6730,
@@ -14970,7 +14925,7 @@
       "id": "armchairs",
       "ro": "Fotolii",
       "en": "Armchairs",
-      "count": 3,
+      "count": 4,
       "cover": {
         "src": "fotoliu-king-studio-1",
         "w": 2000,
@@ -14994,68 +14949,6 @@
           700
         ],
         "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwAAWlzAIy7NPYAA/vN+/+4TpX/hpGZDqemM8tvDFLyRfX0VCX0wrAAAAA==",
-        "editorial": true,
-        "studio": true
-      }
-    },
-    {
-      "id": "hallway",
-      "ro": "Holuri",
-      "en": "Hallway",
-      "count": 1,
-      "cover": {
-        "src": "hol-chesterfield-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true,
-        "studio": false
-      },
-      "header": {
-        "src": "hol-chesterfield-1",
-        "w": 1536,
-        "h": 1024,
-        "widths": [
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAA0APu1oqk6ppiQiMAgBMB2JZQAAUm3m/CaG8oAA/falzro6wdKFyUfZ3ayFzT8xFrpuGvq9PqNFqnZG/zWk15guHuVgAAA=",
-        "editorial": true,
-        "studio": false
-      }
-    },
-    {
-      "id": "seating",
-      "ro": "Scaune",
-      "en": "Seating",
-      "count": 1,
-      "cover": {
-        "src": "demifotoliu-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUqdIRLYeAAD+83t9BcdJ2ERhWdKO8qH5uB2bJMmXvj1yiGQAAAA=",
-        "editorial": true,
-        "studio": true
-      },
-      "header": {
-        "src": "demifotoliu-studio-1",
-        "w": 2000,
-        "h": 1500,
-        "widths": [
-          2000,
-          1200,
-          700
-        ],
-        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA8APu1kq04ppaQiMAgBMB2JaQAAUqdIRLYeAAD+83t9BcdJ2ERhWdKO8qH5uB2bJMmXvj1yiGQAAAA=",
         "editorial": true,
         "studio": true
       }

@@ -17,9 +17,7 @@ export type CategoryId =
   | 'sofas'
   | 'beds'
   | 'armchairs'
-  | 'hallway'
   | 'nightstands'
-  | 'seating'
 
 export type Category = {
   id: CategoryId

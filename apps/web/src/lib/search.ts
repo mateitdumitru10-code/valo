@@ -21,9 +21,7 @@ const KIND_WORDS: Record<string, string> = {
   sectionals: 'coltar coltare colt canapea de colt corner sectional sectionals',
   sofas: 'canapea canapele sofa sofas couch',
   beds: 'pat paturi bed beds dormitor bedroom',
-  armchairs: 'fotoliu fotolii armchair armchairs chair',
-  hallway: 'hol holuri hallway bench banca',
-  seating: 'scaun scaune demifotoliu seating chair',
+  armchairs: 'fotoliu fotolii armchair armchairs chair demifotoliu scaun',
 }
 
 type Entry = { piece: Piece; name: string; words: string[] }

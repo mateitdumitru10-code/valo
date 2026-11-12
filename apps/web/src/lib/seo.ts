@@ -236,9 +236,7 @@ const CATEGORY_TITLE: Record<string, string> = {
   sofas: 'Canapele extensibile și fixe, la comandă',
   beds: 'Paturi tapițate cu ladă de depozitare',
   armchairs: 'Fotolii tapițate, fixe și extensibile',
-  hallway: 'Ansambluri tapițate pentru hol și living',
   nightstands: 'Noptiere tapițate',
-  seating: 'Scaune și taburete tapițate',
 }
 
 // -------------------------------------------------------------------- pages --
