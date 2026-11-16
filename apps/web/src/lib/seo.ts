@@ -27,6 +27,7 @@ import {
   type PieceDetail,
 } from './catalog'
 import { horeca } from './horeca'
+import { bySlug as mattressBySlug, mattresses } from './mattresses'
 import { translate, type Key } from './i18n'
 import { locations, mainPhoneHref } from './showrooms'
 
@@ -434,6 +435,18 @@ export function pageMeta(pathname: string): Meta {
     })
   }
 
+  const model = path.startsWith('/saltele/') ? mattressBySlug(path.slice('/saltele/'.length)) : undefined
+  if (model) {
+    // Previews too, like /saltele, until the workshop's technical sheet.
+    return page({
+      title: `Saltea ${model.name} | ${BRAND}`,
+      description: clip(model.lede.ro),
+      path,
+      noindex: true,
+      jsonLd: graph(breadcrumbs([['Saltele', '/saltele'], [model.name, path]])),
+    })
+  }
+
   if (path === '/contact') {
     return page({
       title: `Contact și cerere de ofertă | ${BRAND}`,
@@ -531,6 +544,7 @@ export function sitePaths() {
     '/colectii',
     ...collections.map((c) => `/colectii/${c.id}`),
     '/saltele',
+    ...mattresses.map((m) => `/saltele/${m.slug}`),
     '/horeca',
     '/showroom-uri',
     '/contact',

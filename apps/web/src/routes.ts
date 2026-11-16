@@ -17,6 +17,7 @@ const CategoryPage = lazyPage(() => import('~/pages/Category').then((m) => m.Cat
 const Pieces = lazyPage(() => import('~/pages/Pieces').then((m) => m.Pieces))
 const PiecePage = lazyPage(() => import('~/pages/Piece').then((m) => m.PiecePage))
 const Mattresses = lazyPage(() => import('~/pages/Mattresses').then((m) => m.Mattresses))
+const MattressPage = lazyPage(() => import('~/pages/Mattress').then((m) => m.MattressPage))
 const Horeca = lazyPage(() => import('~/pages/Horeca').then((m) => m.Horeca))
 const Showrooms = lazyPage(() => import('~/pages/Showrooms').then((m) => m.Showrooms))
 const Contact = lazyPage(() => import('~/pages/Contact').then((m) => m.Contact))
@@ -32,6 +33,7 @@ export const PAGES = [
   ['/produse', Pieces],
   ['/produse/:slug', PiecePage],
   ['/saltele', Mattresses],
+  ['/saltele/:slug', MattressPage],
   ['/horeca', Horeca],
   ['/showroom-uri', Showrooms],
   ['/contact', Contact],

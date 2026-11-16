@@ -59,6 +59,7 @@ function pageSource(path) {
   if (path === '/colectii') return 'src/pages/Collections.tsx'
   if (path.startsWith('/colectii/')) return 'src/pages/Collection.tsx'
   if (path === '/saltele') return 'src/pages/Mattresses.tsx'
+  if (path.startsWith('/saltele/')) return 'src/pages/Mattress.tsx'
   if (path === '/horeca') return 'src/pages/Horeca.tsx'
   if (path === '/showroom-uri') return 'src/pages/Showrooms.tsx'
   if (path === '/contact') return 'src/pages/Contact.tsx'

@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { motion, useInView, useReducedMotion } from 'motion/react'
 import clsx from 'clsx'
-import { mattress, type Layer } from '~/lib/mattresses'
+import { band, mattresses, type Layer, type Mattress } from '~/lib/mattresses'
 import { useI18n } from '~/lib/i18n'
 import { expo } from '~/lib/motion'
 
@@ -18,6 +18,7 @@ const L = 200 // length, cm
 const W = 160 // width, cm
 const K = 2.4 // vertical exaggeration: a 22 cm mattress is a sliver at true scale
 const GAP = 22 // lift between slabs when exploded, in drawing units
+const SPRING_GAP = 34 // extra lift over a spring unit, to show the coils
 
 const A = (14 * Math.PI) / 180
 const B = (38 * Math.PI) / 180
@@ -29,6 +30,9 @@ const sb = Math.sin(B)
 type Pt = [number, number]
 const P = (x: number, y: number, z: number): Pt => [x * ca - y * cb, x * sa + y * sb - z]
 const poly = (pts: Pt[]) => pts.map(([x, y]) => `${x.toFixed(2)},${y.toFixed(2)}`).join(' ')
+/** The top of a box, at height z. */
+const rect = (x0: number, y0: number, x1: number, y1: number, z: number) =>
+  poly([P(x0, y0, z), P(x1, y0, z), P(x1, y1, z), P(x0, y1, z)])
 
 /** Darken a hex colour by a factor, for the shaded faces. */
 function shade(hex: string, f: number) {
@@ -37,54 +41,173 @@ function shade(hex: string, f: number) {
   return `rgb(${c.join(',')})`
 }
 
-const layers: Layer[] = mattress.layers
-const n = layers.length
-// Assembled heights, bottom up.
-const base: number[] = []
-{
+/** Where a slab's leader starts: the middle of its short end face. */
+const anchor = (z0: number, h: number): Pt => P(L, W * 0.55, z0 + h / 2)
+
+/** The highest point of a stack, opened. */
+function stackTop(layers: Layer[]) {
+  let up = 0
+  let total = 0
+  for (let i = layers.length - 1; i >= 0; i--) {
+    total += layers[i].draw * K
+    if (i > 0) up += GAP + (layers[i].texture === 'springs' ? SPRING_GAP : 0)
+  }
+  return P(0, 0, total + up)[1]
+}
+
+/** The highest stack among all the models, for the cards' common frame. */
+const cardTop = () => Math.min(...mattresses.map((m) => stackTop(m.layers)))
+
+/** Heights and frame for one model's stack — every model has its own. */
+function geometry(layers: Layer[], compact: boolean) {
+  const n = layers.length
+  // Assembled heights, bottom up.
+  const base: number[] = []
   let z = 0
   for (let i = n - 1; i >= 0; i--) {
     base[i] = z
     z += layers[i].draw * K
   }
+  const total = z
+  // Each slab rises one gap above the one below it; over the springs the gap
+  // is wider, so the coils inside the frame can be seen.
+  const lifts: number[] = []
+  let up = 0
+  for (let i = n - 1; i >= 0; i--) {
+    lifts[i] = up
+    up += GAP + (layers[i].texture === 'springs' ? SPRING_GAP : 0)
+  }
+  const lift = (i: number) => lifts[i]
+  // Frame: the exploded stack, the floor shadow, and room for the numbered leaders.
+  // A card frames every model alike — to the tallest stack — so the cards
+  // share one scale and one floor line.
+  const own = P(0, 0, total + lift(0))[1]
+  const topY = compact ? Math.min(own, cardTop()) : own
+  const bottomY = P(L, W, 0)[1]
+  const leftX = P(0, W, 0)[0]
+  const rightX = P(L, 0, 0)[0]
+  const lead = rightX + 26
+  const pad = 14
+  const right = compact ? rightX + pad : lead + 30
+  return {
+    base,
+    lift,
+    lead,
+    coreTop: base[0], // top of the foam, bottom of the top cover
+    coreBottom: base[n - 1] + layers[n - 1].draw * K,
+    view: `${leftX - pad} ${topY - pad} ${right - leftX + pad} ${bottomY - topY + pad * 2 + 10}`,
+  }
 }
-const total = layers.reduce((sum, l) => sum + l.draw * K, 0)
-const lift = (i: number) => (n - 1 - i) * GAP
-const coreTop = base[0] // top of the foam, bottom of the top cover
-const coreBottom = base[n - 1] + layers[n - 1].draw * K
 
-// Frame: the exploded stack, the floor shadow, and room for the numbered leaders.
-const topY = P(0, 0, total + lift(0))[1]
-const bottomY = P(L, W, 0)[1]
-const leftX = P(0, W, 0)[0]
-const rightX = P(L, 0, 0)[0]
-const LEAD = rightX + 26
-const PAD = 14
-const VIEW = `${leftX - PAD} ${topY - PAD} ${LEAD + 30 - leftX + PAD} ${bottomY - topY + PAD * 2 + 10}`
+// ----------------------------------------------------------- spring unit --
+const RAIL = 12 // width of the foam frame round the springs, cm
+const PITCH = 14.5 // spring centres, cm
+const COIL = 5.4 // spring radius, cm
 
-/** Where a slab's leader starts: the middle of its short end face. */
-const anchor = (z0: number, h: number): Pt => P(L, W * 0.55, z0 + h / 2)
+/** Spring centres inside the frame, back to front so nearer coils paint last. */
+const coils: Pt[] = (() => {
+  const list: Pt[] = []
+  const nx = Math.floor((L - 2 * RAIL) / PITCH)
+  const ny = Math.floor((W - 2 * RAIL) / PITCH)
+  const ox = (L - (nx - 1) * PITCH) / 2
+  const oy = (W - (ny - 1) * PITCH) / 2
+  for (let i = 0; i < nx; i++) for (let j = 0; j < ny; j++) list.push([ox + i * PITCH, oy + j * PITCH])
+  return list.sort((a, b) => a[0] * sa + a[1] * sb - (b[0] * sa + b[1] * sb))
+})()
 
-const textureFor: Record<Layer['texture'], string> = {
-  quilt: 'url(#m-quilt)',
-  knit: 'url(#m-knit)',
-  foam: 'url(#m-pores)',
-  'foam-speckled': 'url(#m-specks)',
+/** A Bonnell coil: an hourglass helix, wide at both ends, waisted in the middle. */
+function coilPath(cx: number, cy: number, z0: number, z1: number) {
+  const turns = 4.5
+  const steps = 54
+  const pts: Pt[] = []
+  for (let s = 0; s <= steps; s++) {
+    const t = s / steps
+    const a = t * turns * 2 * Math.PI
+    const r = COIL * (1 - 0.38 * Math.sin(Math.PI * t))
+    pts.push(P(cx + r * Math.cos(a), cy + r * Math.sin(a), z0 + (z1 - z0) * t))
+  }
+  return poly(pts)
+}
+
+/**
+ * The spring unit, opened: foam rails on four sides, felt in the bottom of the
+ * frame and the coils standing on it. Painted far to near — the back and left
+ * rails, the felt, the two inner walls that face the viewer, the coils, then
+ * the front and end rails over them.
+ */
+function SpringUnit({ layer, z0, h, url }: { layer: Layer; z0: number; h: number; url: (id: string) => string }) {
+  const z1 = z0 + h
+  const felt = '#b3b4ae'
+  const wire = '#4f5459'
+  const inner = { x0: RAIL, y0: RAIL, x1: L - RAIL, y1: W - RAIL }
+  const backWall = poly([P(inner.x0, inner.y0, z0), P(inner.x1, inner.y0, z0), P(inner.x1, inner.y0, z1), P(inner.x0, inner.y0, z1)])
+  const leftWall = poly([P(inner.x0, inner.y0, z0), P(inner.x0, inner.y1, z0), P(inner.x0, inner.y1, z1), P(inner.x0, inner.y0, z1)])
+  const front = poly([P(0, W, z0), P(L, W, z0), P(L, W, z1), P(0, W, z1)])
+  const end = poly([P(L, 0, z0), P(L, W, z0), P(L, W, z1), P(L, 0, z1)])
+  const pores = url('pores')
+  return (
+    <>
+      {[rect(0, 0, L, RAIL, z1), rect(0, 0, RAIL, W, z1)].map((pts) => (
+        <g key={pts}>
+          <polygon points={pts} fill={layer.tone} />
+          <polygon points={pts} fill={pores} />
+        </g>
+      ))}
+      <polygon points={rect(inner.x0, inner.y0, inner.x1, inner.y1, z0)} fill={felt} />
+      <polygon points={rect(inner.x0, inner.y0, inner.x1, inner.y1, z0)} fill={url('felt')} />
+      <polygon points={backWall} fill={shade(layer.tone, 0.9)} />
+      <polygon points={leftWall} fill={shade(layer.tone, 0.8)} />
+      <g fill="none" stroke={wire} strokeWidth={0.4} strokeLinejoin="round">
+        {coils.map(([cx, cy]) => (
+          <polyline key={`${cx},${cy}`} points={coilPath(cx, cy, z0 + 0.6, z1 - 0.4)} />
+        ))}
+      </g>
+      {[rect(0, W - RAIL, L, W, z1), rect(L - RAIL, 0, L, W, z1)].map((pts) => (
+        <g key={pts}>
+          <polygon points={pts} fill={layer.tone} />
+          <polygon points={pts} fill={pores} />
+          <polygon points={pts} fill={url('light')} />
+        </g>
+      ))}
+      <polygon points={front} fill={shade(layer.tone, 0.92)} />
+      <polygon points={front} fill={pores} />
+      <polygon points={end} fill={shade(layer.tone, 0.82)} />
+      <polygon points={end} fill={pores} />
+      <g fill="none" stroke="#14120f" strokeOpacity={0.55} strokeWidth={0.45} strokeLinejoin="round">
+        <polygon points={rect(0, 0, L, W, z1)} />
+        <polygon points={rect(inner.x0, inner.y0, inner.x1, inner.y1, z1)} />
+        <polygon points={front} />
+        <polygon points={end} />
+      </g>
+    </>
+  )
 }
 
 type Props = {
+  mattress: Mattress
   active: string | null
   onActive: (id: string | null) => void
   exploded: boolean
   onExploded: (v: boolean) => void
   /** Leader numbers, by layer id, matching the legend. */
   numbers: Record<string, string>
+  /** A card's thumbnail: no leaders, no opening on view, opened by the card. */
+  compact?: boolean
 }
 
-export function MattressDrawing({ active, onActive, exploded, onExploded, numbers }: Props) {
+export function MattressDrawing({ mattress, active, onActive, exploded, onExploded, numbers, compact }: Props) {
   const { lang } = useI18n()
   const still = useReducedMotion()
   const ref = useRef<SVGSVGElement>(null)
+  const layers = mattress.layers
+  const { base, lift, lead, coreTop, coreBottom, view } = useMemo(
+    () => geometry(mattress.layers, Boolean(compact)),
+    [mattress, compact],
+  )
+  // Several drawings can share a page (the cards): each keeps its own pattern ids.
+  const uid = useId().replace(/[^a-zA-Z0-9]/g, '')
+  const id = (name: string) => `${uid}-${name}`
+  const url = (name: string) => `url(#${id(name)})`
   // The numbers are drawn in the drawing's own units, so on a phone, where the
   // drawing is shrunk to a third, they are drawn larger to stay legible.
   const [small, setSmall] = useState(false)
@@ -97,37 +220,64 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
   }, [])
   const label = small ? 11 : 6
   const seen = useInView(ref, { once: true, margin: '-20% 0px -20% 0px' })
-  // Shown assembled first; it opens once, as it comes into view.
+  // Shown assembled first; it opens once, as it comes into view. A card's
+  // thumbnail leaves that to the card.
   useEffect(() => {
-    if (!seen) return
+    if (!seen || compact) return
     if (still) return onExploded(true)
     const t = setTimeout(() => onExploded(true), 450)
     return () => clearTimeout(t)
-  }, [seen, still, onExploded])
+  }, [seen, still, onExploded, compact])
 
   const open = exploded && active !== 'band'
   const ease = still ? { duration: 0 } : { duration: 1.1, ease: expo }
-  const dim = (id: string) => (active && active !== id ? 0.28 : 1)
+  const dim = (layerId: string) => (active && active !== layerId ? 0.28 : 1)
+
+  const textureFor: Record<Layer['texture'], string> = {
+    quilt: url('quilt'),
+    knit: url('knit'),
+    foam: url('pores'),
+    'foam-speckled': url('specks'),
+    springs: url('pores'),
+  }
 
   // The floor shadow: the footprint, blurred, a touch larger than the bed.
   const shadow = poly([P(-6, -4, 0), P(L + 6, -4, 0), P(L + 8, W + 8, 0), P(-6, W + 8, 0)])
 
+  const leader = (ax: number, ay: number, text: string) => (
+    <>
+      <line x1={ax} y1={ay} x2={lead} y2={ay} stroke="#14120f" strokeOpacity={0.4} strokeWidth={0.35} />
+      <circle cx={ax} cy={ay} r={0.9} fill="#14120f" />
+      <text
+        x={lead + 4}
+        y={ay}
+        dominantBaseline="middle"
+        className="font-sans"
+        fontSize={label}
+        letterSpacing={0.6}
+        fill="#14120f"
+      >
+        {text}
+      </text>
+    </>
+  )
+
   return (
     <svg
       ref={ref}
-      viewBox={VIEW}
-      className="h-auto w-full select-none"
+      viewBox={view}
+      className={clsx('w-full select-none', compact ? 'h-full' : 'h-auto')}
       role="img"
       aria-label={
         lang === 'ro'
-          ? `${mattress.name.ro}, în secțiune: ${layers.map((l) => l.name.ro).join(', ')}.`
-          : `${mattress.name.en}, layer by layer: ${layers.map((l) => l.name.en).join(', ')}.`
+          ? `${mattress.name}, în secțiune: ${layers.map((l) => l.name.ro).join(', ')}.`
+          : `${mattress.name}, layer by layer: ${layers.map((l) => l.name.en).join(', ')}.`
       }
     >
       <defs>
         {/* Wave quilting, laid in the plane of the top face. */}
         <pattern
-          id="m-quilt"
+          id={id('quilt')}
           patternUnits="userSpaceOnUse"
           width="34"
           height="22"
@@ -144,39 +294,45 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
           <circle cx="28" cy="11" r="0.45" fill="#9fb77f" />
           <circle cx="12" cy="22" r="0.45" fill="#9fb77f" />
         </pattern>
-        <pattern id="m-knit" patternUnits="userSpaceOnUse" width="3" height="3">
+        <pattern id={id('knit')} patternUnits="userSpaceOnUse" width="3" height="3">
           <circle cx="1.5" cy="1.5" r="0.32" fill="#c9d3bb" />
         </pattern>
         {/* Open-cell pores, and the darker flecks in the blue foam. */}
-        <pattern id="m-pores" patternUnits="userSpaceOnUse" width="9" height="7">
+        <pattern id={id('pores')} patternUnits="userSpaceOnUse" width="9" height="7">
           <circle cx="1.2" cy="1.4" r="0.4" fill="#000" opacity="0.09" />
           <circle cx="5.6" cy="3.1" r="0.35" fill="#000" opacity="0.07" />
           <circle cx="3.4" cy="5.6" r="0.45" fill="#000" opacity="0.08" />
           <circle cx="7.8" cy="6.2" r="0.3" fill="#fff" opacity="0.4" />
         </pattern>
-        <pattern id="m-specks" patternUnits="userSpaceOnUse" width="13" height="9">
+        <pattern id={id('specks')} patternUnits="userSpaceOnUse" width="13" height="9">
           <circle cx="1.2" cy="1.4" r="0.4" fill="#000" opacity="0.08" />
           <circle cx="6.6" cy="3.6" r="0.35" fill="#000" opacity="0.07" />
           <circle cx="3.4" cy="7.1" r="0.42" fill="#1d3f8a" opacity="0.55" />
           <circle cx="10.4" cy="2.2" r="0.32" fill="#1d3f8a" opacity="0.4" />
           <circle cx="11.6" cy="7.6" r="0.4" fill="#000" opacity="0.07" />
         </pattern>
+        {/* Felt under the springs: grey, flecked dark and light. */}
+        <pattern id={id('felt')} patternUnits="userSpaceOnUse" width="5" height="4">
+          <circle cx="0.8" cy="0.9" r="0.5" fill="#000" opacity="0.18" />
+          <circle cx="3.4" cy="2.6" r="0.45" fill="#fff" opacity="0.3" />
+          <circle cx="1.9" cy="3.4" r="0.3" fill="#000" opacity="0.12" />
+        </pattern>
         {/* 3D spacer mesh: a tight grid of open cells. */}
-        <pattern id="m-mesh" patternUnits="userSpaceOnUse" width="2.6" height="2.2">
+        <pattern id={id('mesh')} patternUnits="userSpaceOnUse" width="2.6" height="2.2">
           <circle cx="1.3" cy="1.1" r="0.62" fill="#6f9410" opacity="0.55" />
         </pattern>
         {/* Light from the upper left, across every top face. */}
-        <linearGradient id="m-light" x1="0" y1="0" x2="1" y2="1">
+        <linearGradient id={id('light')} x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#fff" stopOpacity="0.45" />
           <stop offset="0.55" stopColor="#fff" stopOpacity="0.08" />
           <stop offset="1" stopColor="#000" stopOpacity="0.04" />
         </linearGradient>
-        <filter id="m-soft" x="-20%" y="-20%" width="140%" height="140%">
+        <filter id={id('soft')} x="-20%" y="-20%" width="140%" height="140%">
           <feGaussianBlur stdDeviation="5" />
         </filter>
       </defs>
 
-      <polygon points={shadow} fill="#14120f" opacity={0.13} filter="url(#m-soft)" />
+      <polygon points={shadow} fill="#14120f" opacity={0.13} filter={url('soft')} />
 
       {/* Bottom slab first, so each one above paints over the one below. */}
       {[...layers.keys()].reverse().map((i) => {
@@ -184,12 +340,12 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
         const z0 = base[i]
         const h = layer.draw * K
         const z1 = z0 + h
-        const top = poly([P(0, 0, z1), P(L, 0, z1), P(L, W, z1), P(0, W, z1)])
+        const top = rect(0, 0, L, W, z1)
         const front = poly([P(0, W, z0), P(L, W, z0), P(L, W, z1), P(0, W, z1)])
         const end = poly([P(L, 0, z0), P(L, W, z0), P(L, W, z1), P(L, 0, z1)])
         const texture = textureFor[layer.texture]
+        const sides = layer.texture === 'quilt' ? url('knit') : texture
         const [ax, ay] = anchor(z0, h)
-        const seam = layer.id === 'core'
         return (
           <motion.g
             key={layer.id}
@@ -200,43 +356,39 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
             onPointerLeave={() => onActive(null)}
             style={{ cursor: 'default' }}
           >
-            <polygon points={top} fill={layer.tone} />
-            <polygon points={top} fill={texture} />
-            <polygon points={top} fill="url(#m-light)" />
-            <polygon points={front} fill={shade(layer.tone, 0.92)} />
-            <polygon points={front} fill={texture === 'url(#m-quilt)' ? 'url(#m-knit)' : texture} />
-            <polygon points={end} fill={shade(layer.tone, 0.82)} />
-            <polygon points={end} fill={texture === 'url(#m-quilt)' ? 'url(#m-knit)' : texture} />
-            {seam && (
-              // The core is two sheets bonded together: the glue line shows.
-              <polyline
-                points={poly([P(0, W, z0 + h / 2), P(L, W, z0 + h / 2), P(L, 0, z0 + h / 2)])}
-                fill="none"
-                stroke={shade(layer.tone, 0.7)}
-                strokeWidth={0.5}
-              />
+            {layer.texture === 'springs' ? (
+              <SpringUnit layer={layer} z0={z0} h={h} url={url} />
+            ) : (
+              <>
+                <polygon points={top} fill={layer.tone} />
+                <polygon points={top} fill={texture} />
+                <polygon points={top} fill={url('light')} />
+                <polygon points={front} fill={shade(layer.tone, 0.92)} />
+                <polygon points={front} fill={sides} />
+                <polygon points={end} fill={shade(layer.tone, 0.82)} />
+                <polygon points={end} fill={sides} />
+                {layer.seam && (
+                  // Two sheets bonded together: the glue line shows.
+                  <polyline
+                    points={poly([P(0, W, z0 + h / 2), P(L, W, z0 + h / 2), P(L, 0, z0 + h / 2)])}
+                    fill="none"
+                    stroke={shade(layer.tone, 0.7)}
+                    strokeWidth={0.5}
+                  />
+                )}
+                <g fill="none" stroke="#14120f" strokeOpacity={0.55} strokeWidth={0.45} strokeLinejoin="round">
+                  <polygon points={top} />
+                  <polygon points={front} />
+                  <polygon points={end} />
+                </g>
+              </>
             )}
-            <g fill="none" stroke="#14120f" strokeOpacity={0.55} strokeWidth={0.45} strokeLinejoin="round">
-              <polygon points={top} />
-              <polygon points={front} />
-              <polygon points={end} />
-            </g>
             {/* Leader to the number, travelling with its slab. */}
-            <motion.g initial={false} animate={{ opacity: open ? 1 : 0 }} transition={ease}>
-              <line x1={ax} y1={ay} x2={LEAD} y2={ay} stroke="#14120f" strokeOpacity={0.4} strokeWidth={0.35} />
-              <circle cx={ax} cy={ay} r={0.9} fill="#14120f" />
-              <text
-                x={LEAD + 4}
-                y={ay}
-                dominantBaseline="middle"
-                className="font-sans"
-                fontSize={label}
-                letterSpacing={0.6}
-                fill="#14120f"
-              >
-                {numbers[layer.id]}
-              </text>
-            </motion.g>
+            {!compact && (
+              <motion.g initial={false} animate={{ opacity: open ? 1 : 0 }} transition={ease}>
+                {leader(ax, ay, numbers[layer.id])}
+              </motion.g>
+            )}
           </motion.g>
         )
       })}
@@ -255,19 +407,15 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
             onPointerEnter={() => onActive('band')}
             onPointerLeave={() => onActive(null)}
           >
-            <polygon points={front} fill={shade(mattress.band.tone, 0.94)} />
-            <polygon points={front} fill="url(#m-mesh)" />
-            <polygon points={end} fill={shade(mattress.band.tone, 0.82)} />
-            <polygon points={end} fill="url(#m-mesh)" />
+            <polygon points={front} fill={shade(band.tone, 0.94)} />
+            <polygon points={front} fill={url('mesh')} />
+            <polygon points={end} fill={shade(band.tone, 0.82)} />
+            <polygon points={end} fill={url('mesh')} />
             <g fill="none" stroke="#14120f" strokeOpacity={0.55} strokeWidth={0.45}>
               <polygon points={front} />
               <polygon points={end} />
             </g>
-            <line x1={ax} y1={ay} x2={LEAD} y2={ay} stroke="#14120f" strokeOpacity={0.4} strokeWidth={0.35} />
-            <circle cx={ax} cy={ay} r={0.9} fill="#14120f" />
-            <text x={LEAD + 4} y={ay} dominantBaseline="middle" fontSize={label} letterSpacing={0.6} fill="#14120f">
-              {numbers.band}
-            </text>
+            {!compact && leader(ax, ay, numbers.band)}
           </motion.g>
         )
       })()}
@@ -276,15 +424,16 @@ export function MattressDrawing({ active, onActive, exploded, onExploded, number
 }
 
 /** The drawing with its numbered key and the open/closed switch. */
-export function MattressLayers() {
+export function MattressLayers({ mattress }: { mattress: Mattress }) {
   const { lang } = useI18n()
   const [active, setActive] = useState<string | null>(null)
   const [exploded, setExploded] = useState(false)
+  const layers = mattress.layers
 
   // The key reads top to bottom, the band after the cover it is sewn to.
   const items = [
     { id: layers[0].id, name: layers[0].name, detail: layers[0].detail, pending: false },
-    { id: 'band', name: mattress.band.name, detail: mattress.band.detail, pending: false },
+    { id: 'band', name: band.name, detail: band.detail, pending: false },
     ...layers.slice(1).map((l) => ({ id: l.id, name: l.name, detail: l.detail, pending: Boolean(l.pending) })),
   ]
   const numbers = Object.fromEntries(items.map((item, i) => [item.id, String(i + 1).padStart(2, '0')]))
@@ -294,6 +443,7 @@ export function MattressLayers() {
     <div className="grid gap-12 md:grid-cols-12 md:gap-6">
       <div className="md:col-span-7 lg:col-span-8">
         <MattressDrawing
+          mattress={mattress}
           active={active}
           onActive={setActive}
           exploded={exploded}
@@ -351,5 +501,22 @@ export function MattressLayers() {
         ))}
       </ol>
     </div>
+  )
+}
+
+const noop = () => {}
+
+/** A card's picture: the model, assembled, opening into its layers on hover. */
+export function MattressThumb({ mattress, open }: { mattress: Mattress; open: boolean }) {
+  return (
+    <MattressDrawing
+      mattress={mattress}
+      active={null}
+      onActive={noop}
+      exploded={open}
+      onExploded={noop}
+      numbers={{}}
+      compact
+    />
   )
 }
