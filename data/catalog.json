@@ -5043,9 +5043,9 @@
       ],
       "price": 2800,
       "currency": "RON",
-      "lead": "Patul SUN impresionează printr-un design contemporan și elegant, evidențiat de tăblia spectaculoasă cu model radial, care adaugă personalitate și rafinament oricărui dormitor.",
-      "summary": "Pat SUN – design modern cu funcționalitate inteligentă\n\nPatul SUN impresionează printr-un design contemporan și elegant, evidențiat de tăblia spectaculoasă cu model radial, care adaugă personalitate și rafinament oricărui dormitor. Tapițeria premium și liniile bine definite îl transformă într-o piesă centrală deosebită.\n\nConceput pentru confort și utilitate, patul este prevăzut pentru o saltea de 160 x 200 cm și include o ladă de depozitare generoasă, ideală pentru organizarea eficientă a spațiului.\n\nUn avantaj major îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces facil la spațiul de depozitare, oferind în același timp o utilizare practică și ergonomică.\n\nPatul SUN este alegerea perfectă pentru cei care își doresc un echilibru între estetică modernă și funcționalitate inteligentă.",
-      "body": "Pat SUN – design modern cu funcționalitate inteligentă\n\nPatul SUN impresionează printr-un design contemporan și elegant, evidențiat de tăblia spectaculoasă cu model radial, care adaugă personalitate și rafinament oricărui dormitor. Tapițeria premium și liniile bine definite îl transformă într-o piesă centrală deosebită.\n\nConceput pentru confort și utilitate, patul este prevăzut pentru o saltea de 160 x 200 cm și include o ladă de depozitare generoasă, ideală pentru organizarea eficientă a spațiului.\n\nUn avantaj major îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces facil la spațiul de depozitare, oferind în același timp o utilizare practică și ergonomică.\n\nPatul SUN este alegerea perfectă pentru cei care își doresc un echilibru între estetică modernă și funcționalitate inteligentă.",
+      "lead": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.",
+      "summary": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.",
+      "body": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.\n\nPanourile sunt buretate și tapițate, păstrând un relief discret care pune în valoare compoziția radială. Stofa și culoarea pot fi alese din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -5288,7 +5288,159 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Aplicate în formă de raze de soare; burete de 3 cm și finisaj tapițat",
+                "en": "Laid out as the sun's rays; 3 cm foam, upholstered"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6746,
@@ -5560,15 +5712,15 @@
     {
       "id": 7012,
       "slug": "pat-colt",
-      "name": "Pat Colt",
+      "name": "Pat de colț",
       "collections": [
         "Paturi"
       ],
       "price": 2300,
       "currency": "RON",
-      "lead": "Patul Colț îmbină funcționalitatea cu estetica, oferind un spațiu de odihnă confortabil și bine organizat, perfect adaptat stilului de viață modern.",
-      "summary": "Patul Colț îmbină funcționalitatea cu estetica, oferind un spațiu de odihnă confortabil și bine organizat, perfect adaptat stilului de viață modern.",
-      "body": "Pat Colt – soluția perfectă pentru confort și optimizarea spațiului\n\nPatul Colț este alegerea ideală pentru cei care își doresc un design modern, dar și o utilizare inteligentă a spațiului. Forma sa practică, cu spătar pe colț, oferă un plus de confort și susținere, transformând patul într-un loc perfect atât pentru odihnă, cât și pentru relaxare pe timpul zilei.\n\nCu dimensiunea de 120 x 200 cm, acest pat este potrivit atât pentru camere de tineret, cât și pentru spații mai compacte, unde fiecare centimetru contează. Designul său elegant, cu panouri verticale tapițate, adaugă un aspect rafinat și primitor oricărui interior.\n\nPatul este dotat cu o ladă de depozitare generoasă, ideală pentru organizarea eficientă a lenjeriei, pernelor sau altor obiecte. În plus, sistemul culisant al saltelei (sus-jos) permite acces rapid și ușor la spațiul de depozitare, fără efort.\n\n✔ Dimensiune saltea: 120 x 200 cm✔ Design de colț – ideal pentru economisirea spațiului✔ Spătar confortabil pe două laturi✔ Ladă de depozitare încăpătoare✔ Sistem practic de ridicare a saltelei✔ Tapițerie elegantă, plăcută la atingere\n\nPatul Colț îmbină funcționalitatea cu estetica, oferind un spațiu de odihnă confortabil și bine organizat, perfect adaptat stilului de viață modern.",
+      "lead": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.",
+      "summary": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.\n\nPAT DE COLȚ este conceput pentru a valorifica eficient spațiul din dormitor, fiind potrivit pentru amplasarea lângă perete. Tăblia principală și cea laterală formează un ansamblu practic și confortabil, iar tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, în funcție de configurația camerei.",
+      "body": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.\n\nPAT DE COLȚ este conceput pentru a valorifica eficient spațiul din dormitor, fiind potrivit pentru amplasarea lângă perete. Tăblia principală și cea laterală formează un ansamblu practic și confortabil, iar tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, în funcție de configurația camerei.\n\nAmbele tăblii sunt decorate cu panouri verticale drepte, tapițate, care conturează un aspect ordonat și contemporan. Modelul este disponibil pentru lățimi cuprinse între 80 și 160 cm, iar tapițeria poate fi aleasă din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -5769,7 +5921,169 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Lățimi",
+          "en": "Widths",
+          "value": "80–160 cm"
+        },
+        {
+          "ro": "Înălțime tăblii",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblii",
+          "en": "Headboard thickness",
+          "value": "5 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia principală și cea laterală au aceeași înălțime și grosime.",
+        "en": "The main and side headboards share one height and thickness."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tăblii",
+                "en": "Headboards"
+              },
+              "value": {
+                "ro": "O tăblie principală și una laterală, montată pe stânga sau pe dreapta",
+                "en": "A main headboard and a side one, fitted on the left or the right"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Panouri verticale drepte, tapițate, pe ambele tăblii; burete de 3 cm",
+                "en": "Straight vertical panels, upholstered, on both headboards; 3 cm foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează saltelei dorite, în lățimile de 80–160 cm",
+                "en": "Length and width adapted to the mattress you choose, within widths of 80–160 cm"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6637,
@@ -7458,9 +7772,9 @@
       ],
       "price": 2500,
       "currency": "RON",
-      "lead": "Patul Happy este alegerea ideală pentru camera copilului, îmbinând perfect designul vesel cu funcționalitatea inteligentă.",
-      "summary": "Pat Happy – confort, funcționalitate și design jucăuș\n\nPatul Happy este alegerea ideală pentru camera copilului, îmbinând perfect designul vesel cu funcționalitatea inteligentă. Cu un aspect prietenos și modern, evidențiat de panourile decorative rotunjite în nuanțe armonioase, acest pat transformă orice spațiu într-un loc cald și primitor.\n\nCu dimensiunea generoasă de 120 x 200 cm, patul oferă confort optim atât pentru odihnă, cât și pentru momentele de relaxare sau joacă. Este prevăzut cu o ladă de depozitare spațioasă, perfectă pentru organizarea eficientă a lenjeriilor, pernelor sau jucăriilor, ajutând la menținerea ordinii în cameră.\n\nUn mare avantaj îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces rapid și ușor la spațiul de depozitare, fără efort.\n\n✔ Design atractiv și prietenos pentru copii✔ Dimensiune: 120 x 200 cm✔ Ladă de depozitare încăpătoare✔ Sistem practic de ridicare a saltelei✔ Materiale confortabile și plăcute la atingere\n\nPat Happy nu este doar un loc de dormit, ci un spațiu unde confortul întâlnește bucuria copilăriei.",
-      "body": "Pat Happy – confort, funcționalitate și design jucăuș\n\nPatul Happy este alegerea ideală pentru camera copilului, îmbinând perfect designul vesel cu funcționalitatea inteligentă. Cu un aspect prietenos și modern, evidențiat de panourile decorative rotunjite în nuanțe armonioase, acest pat transformă orice spațiu într-un loc cald și primitor.\n\nCu dimensiunea generoasă de 120 x 200 cm, patul oferă confort optim atât pentru odihnă, cât și pentru momentele de relaxare sau joacă. Este prevăzut cu o ladă de depozitare spațioasă, perfectă pentru organizarea eficientă a lenjeriilor, pernelor sau jucăriilor, ajutând la menținerea ordinii în cameră.\n\nUn mare avantaj îl reprezintă sistemul culisant al saltelei (sus-jos), care permite acces rapid și ușor la spațiul de depozitare, fără efort.\n\n✔ Design atractiv și prietenos pentru copii✔ Dimensiune: 120 x 200 cm✔ Ladă de depozitare încăpătoare✔ Sistem practic de ridicare a saltelei✔ Materiale confortabile și plăcute la atingere\n\nPat Happy nu este doar un loc de dormit, ci un spațiu unde confortul întâlnește bucuria copilăriei.",
+      "lead": "Pat pentru copii, cu tăblie laterală în stil gărduleț.",
+      "summary": "Pat pentru copii, cu tăblie laterală în stil gărduleț.\n\nPAT HAPPY este un pat pentru copii, gândit pentru amplasarea lângă perete. Tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, astfel încât patul să se adapteze ușor spațiului.",
+      "body": "Pat pentru copii, cu tăblie laterală în stil gărduleț.\n\nPAT HAPPY este un pat pentru copii, gândit pentru amplasarea lângă perete. Tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, astfel încât patul să se adapteze ușor spațiului.\n\nDesignul este inspirat de forma unui gărduleț: panourile verticale sunt tapițate, iar capetele superioare sunt rotunjite, oferind modelului un aspect delicat și prietenos. Panourile decorative sunt prezente atât pe tăblia principală, cât și pe cea laterală. Modelul este disponibil pentru lățimi cuprinse între 80 și 160 cm, cu posibilitatea alegerii stofei și culorii din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -7560,7 +7874,169 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Lățimi",
+          "en": "Widths",
+          "value": "80–160 cm"
+        },
+        {
+          "ro": "Înălțime tăblii",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblii",
+          "en": "Headboard thickness",
+          "value": "5 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia principală și cea laterală au aceeași înălțime și grosime.",
+        "en": "The main and side headboards share one height and thickness."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tăblii",
+                "en": "Headboards"
+              },
+              "value": {
+                "ro": "O tăblie principală și una laterală, montată pe stânga sau pe dreapta",
+                "en": "A main headboard and a side one, fitted on the left or the right"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Panouri verticale tapițate, rotunjite sus, în stil gărduleț, pe ambele tăblii; burete de 3 cm",
+                "en": "Upholstered vertical panels, rounded at the top like a picket fence, on both headboards; 3 cm foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează saltelei dorite, în lățimile de 80–160 cm",
+                "en": "Length and width adapted to the mattress you choose, within widths of 80–160 cm"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 7022,
@@ -10336,9 +10812,9 @@
       ],
       "price": 2500,
       "currency": "RON",
-      "lead": "Pat One este un pat modern tapițat, cu design elegant și ladă de depozitare spațioasă, ideal pentru organizarea eficientă a dormitorului și pentru un somn confortabil.",
-      "summary": "Pat One este un pat modern tapițat, cu design elegant și ladă de depozitare spațioasă, ideal pentru organizarea eficientă a dormitorului și pentru un somn confortabil.",
-      "body": "Pat One cu ladă de depozitare – Design modern și funcționalitate inteligentă\n\nPatul One este soluția ideală pentru dormitoarele moderne care îmbină confortul cu eficiența spațiului. Cu un design simplu și elegant, acest pat tapițat oferă un aspect rafinat și devine rapid piesa centrală a dormitorului.\n\nConstruit pentru durabilitate și confort, Patul One este prevăzut cu ladă de depozitare spațioasă, accesibilă prin mecanism de ridicare cu pistoane, perfectă pentru depozitarea lenjeriilor, pilotelor sau altor obiecte utile. Astfel, îți poți menține dormitorul ordonat și organizat fără efort.\n\nStructura solidă și materialele de calitate asigură stabilitate și rezistență în timp, oferind suport optim pentru saltea și un somn odihnitor. Designul său modern îl face ușor de integrat în diferite stiluri de amenajare, de la dormitoare minimaliste până la interioare contemporane elegante.\n\nAvantajele Patului One\n\n✔ Design modern și elegant – potrivit pentru orice tip de dormitor✔ Ladă de depozitare generoasă – ideală pentru lenjerii și textile✔ Mecanism de ridicare ușor de utilizat – acces rapid la spațiul de depozitare✔ Structură solidă și durabilă – stabilitate pe termen lung✔ Economisirea spațiului – perfect pentru dormitoare compacte\n\nDimensiuni\n\n• \nDimensiune exterioară pat: 220 × 150 cm\n\n• \nDimensiune saltea compatibilă: 200 × 140 cm",
+      "lead": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.",
+      "summary": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.\n\nPAT ONE aduce un plus de confort vizual prin tăblia sa cu panouri orizontale rotunjite, dispuse într-o compoziție ordonată și încadrate de o ramă tapițată. Formele moi și volumul panourilor creează un aspect primitor, păstrând în același timp o estetică modernă și echilibrată.",
+      "body": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.\n\nPAT ONE aduce un plus de confort vizual prin tăblia sa cu panouri orizontale rotunjite, dispuse într-o compoziție ordonată și încadrate de o ramă tapițată. Formele moi și volumul panourilor creează un aspect primitor, păstrând în același timp o estetică modernă și echilibrată.\n\nPanourile sunt realizate cu burete modelat cu profil rotunjit și apoi tapițat, pentru a evidenția relieful specific modelului. Stofa și culoarea pot fi alese din colecția VALLO, pentru integrarea patului în amenajarea dormitorului.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -10567,7 +11043,159 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Lățime exterioară",
+          "en": "Overall width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "5 cm în plus pe fiecare parte a saltelei.",
+        "en": "5 cm added on each side of the mattress."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structura tăbliei",
+                "en": "Headboard frame"
+              },
+              "value": {
+                "ro": "Placaj, lemn masiv de brad și fag și PFL",
+                "en": "Plywood, solid fir and beech, and hardboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Orizontale, rotunjite, încadrate de o ramă tapițată; burete de 6 cm modelat cu profil rotunjit",
+                "en": "Horizontal and rounded, framed by an upholstered surround; 6 cm foam shaped to a rounded profile"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6748,
@@ -11527,9 +12155,9 @@
       ],
       "price": 2800,
       "currency": "RON",
-      "lead": "Pat Chesterfield este un pat elegant cu tăblie capitonată, prevăzut cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor stilat și organizat.",
-      "summary": "Pat Chesterfield este un pat elegant cu tăblie capitonată, prevăzut cu ladă de depozitare și sistem de culisare a saltelei sus-jos, ideal pentru un dormitor stilat și organizat.",
-      "body": "Pat Chesterfield impresionează prin designul său elegant și tăblia capitonată în stil clasic, care adaugă un plus de rafinament oricărui dormitor. Pe lângă aspectul sofisticat, patul este și foarte practic, fiind prevăzut cu ladă de depozitare spațioasă, accesibilă prin sistemul de culisare al saltelei sus-jos, ideal pentru depozitarea lenjeriilor sau a altor obiecte. Confortabil și funcțional, Patul Chesterfield devine piesa centrală a dormitorului, îmbinând perfect stilul cu utilitatea.\n\nDimensiuni standard: \n\nDimensiune pat: 220 x 165 cm\n\nDimensiune Saltea; 200 x 160 cm",
+      "lead": "Tăblie capitonată prin tehnica tradițională Chesterfield.",
+      "summary": "Tăblie capitonată prin tehnica tradițională Chesterfield.\n\nPAT CHESTERFIELD pune în valoare eleganța clasică printr-o tăblie amplă, capitonată în stilul autentic Chesterfield. Nasturii sunt îmbrăcați în aceeași stofă cu tăblia și trași prin tapițerie cu sfoară, prin tehnica tradițională de capitonare, pentru un relief profund și un aspect elegant.",
+      "body": "Tăblie capitonată prin tehnica tradițională Chesterfield.\n\nPAT CHESTERFIELD pune în valoare eleganța clasică printr-o tăblie amplă, capitonată în stilul autentic Chesterfield. Nasturii sunt îmbrăcați în aceeași stofă cu tăblia și trași prin tapițerie cu sfoară, prin tehnica tradițională de capitonare, pentru un relief profund și un aspect elegant.\n\nAceastă metodă de realizare păstrează caracterul Chesterfield tradițional, diferit de variantele decorative cu nasturi tip cui. Stofa și culoarea se aleg din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -11595,7 +12223,169 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Lățime tăblie",
+          "en": "Headboard width",
+          "value": "saltea + 10 cm"
+        },
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "20 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Tăblia depășește salteaua cu 5 cm pe fiecare parte.",
+        "en": "The headboard extends 5 cm beyond the mattress on each side."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Capitonaj",
+                "en": "Tufting"
+              },
+              "value": {
+                "ro": "Chesterfield tradițional: nasturi îmbrăcați în aceeași stofă, trași cu sfoară prin tapițerie",
+                "en": "Traditional Chesterfield: buttons covered in the same fabric, drawn through the upholstery with twine"
+              }
+            },
+            {
+              "label": {
+                "ro": "Burete tăblie",
+                "en": "Headboard foam"
+              },
+              "value": {
+                "ro": "4 cm",
+                "en": "4 cm"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 275,
@@ -11970,9 +12760,9 @@
       "collections": [],
       "price": 3600,
       "currency": "RON",
-      "lead": "",
-      "summary": "",
-      "body": "",
+      "lead": "Forme rotunjite și volume tapițate pentru un design cu prezență.",
+      "summary": "Forme rotunjite și volume tapițate pentru un design cu prezență.\n\nPAT LORIS se remarcă printr-o siluetă generoasă, definită de tăblia amplă, cu margini rotunjite, și de lateralele tapițate cu volume individuale. Formele moi și aspectul plin creează o prezență confortabilă și elegantă, transformând patul într-un element central al dormitorului.",
+      "body": "Forme rotunjite și volume tapițate pentru un design cu prezență.\n\nPAT LORIS se remarcă printr-o siluetă generoasă, definită de tăblia amplă, cu margini rotunjite, și de lateralele tapițate cu volume individuale. Formele moi și aspectul plin creează o prezență confortabilă și elegantă, transformând patul într-un element central al dormitorului.\n\nTăblia are un profil rotunjit, cu grosime generoasă, iar lateralele preiau limbajul vizual al modelului ALDO: elemente tapițate, cu volum și delimitări vizibile între panouri. Tapițeria poate fi configurată prin alegerea stofei și a culorii din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard. Patul poate fi realizat pentru dimensiunile de saltea solicitate.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -12198,7 +12988,164 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie",
+          "en": "Headboard thickness",
+          "value": "15–20 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Grosimea tăbliei variază cu configurația; dimensiunile exterioare se stabilesc în funcție de configurația aleasă.",
+        "en": "The headboard's thickness varies with the configuration; the overall size follows the configuration chosen."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tăblie",
+                "en": "Headboard"
+              },
+              "value": {
+                "ro": "Amplă, cu contur și margini rotunjite, complet tapițată",
+                "en": "Broad, with a rounded outline and edges, fully upholstered"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale",
+                "en": "Sides"
+              },
+              "value": {
+                "ro": "Ca la PAT ALDO: panouri tapițate cu burete și melană, cu volume rotunjite și delimitări vizibile; fără cheder și fără cusături decorative",
+                "en": "As on the ALDO bed: panels upholstered over foam and wadding, rounded and clearly divided; no piping or decorative stitching"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Prinderea tăbliei",
+                "en": "Headboard fixing"
+              },
+              "value": {
+                "ro": "Înșurubată de ladă, pentru o susținere stabilă",
+                "en": "Screwed to the box, for steady support"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu este inclusă",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua",
+                "en": "The mattress"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "valo-coltar-zeno",
@@ -13311,9 +14258,9 @@
       "collections": [],
       "price": 3200,
       "currency": "RON",
-      "lead": "",
-      "summary": "",
-      "body": "",
+      "lead": "Proporții generoase și un design cu prezență puternică.",
+      "summary": "Proporții generoase și un design cu prezență puternică.\n\nPAT KING se remarcă prin proporțiile sale generoase și printr-un design cu prezență puternică. Tăblia înaltă și partea frontală a lăzilor sunt accentuate de panouri verticale tapițate, dispuse într-o compoziție simetrică, cu înălțimi variabile.",
+      "body": "Proporții generoase și un design cu prezență puternică.\n\nPAT KING se remarcă prin proporțiile sale generoase și printr-un design cu prezență puternică. Tăblia înaltă și partea frontală a lăzilor sunt accentuate de panouri verticale tapițate, dispuse într-o compoziție simetrică, cu înălțimi variabile.\n\nContururile ușor curbate și tranzițiile line dintre panouri creează un efect vizual elegant, cu un ritm decorativ inspirat de formele arhitecturale. Aspectul masiv al bazei este echilibrat de finisajul textil, pentru un pat care devine punctul central al dormitorului.\n\nSalteaua și accesoriile prezentate în fotografii nu sunt incluse, dacă nu sunt menționate separat în ofertă.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "dimensions": [],
       "images": [
         {
@@ -13555,7 +14502,160 @@
           }
         ]
       },
-      "priceFrom": true
+      "priceFrom": true,
+      "figures": [
+        {
+          "ro": "Înălțime tăblie",
+          "en": "Headboard height",
+          "value": "110 cm"
+        },
+        {
+          "ro": "Grosime tăblie și panou frontal",
+          "en": "Headboard and front panel thickness",
+          "value": "10 cm"
+        },
+        {
+          "ro": "Înălțime ladă",
+          "en": "Box height",
+          "value": "30 cm"
+        }
+      ],
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Panouri decorative",
+                "en": "Decorative panels"
+              },
+              "value": {
+                "ro": "Verticale, pe tăblie și pe fața lăzilor, cu înălțimi variabile și contururi ușor curbate; burete de 4 cm",
+                "en": "Vertical, on the headboard and the front of the box, of varying heights with gently curved outlines; 4 cm foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Laterale și ladă",
+                "en": "Sides and box"
+              },
+              "value": {
+                "ro": "Structură unitară din lemn masiv de fag, PAL melaminat alb și PFL melaminat alb; ladă tapițată, îmbrăcată în burete și stofă",
+                "en": "One structure in solid beech, white melamine chipboard and hardboard; the box upholstered over foam"
+              }
+            },
+            {
+              "label": {
+                "ro": "Configurația lăzii",
+                "en": "Box layout"
+              },
+              "value": {
+                "ro": "Două cutii unite pentru lățimi de 140–200 cm; o singură cutie sub 140 cm",
+                "en": "Two joined boxes for widths of 140–200 cm; a single box below 140 cm"
+              }
+            },
+            {
+              "label": {
+                "ro": "Prinderea tăbliei",
+                "en": "Headboard fixing"
+              },
+              "value": {
+                "ro": "Înșurubată de ladă, pentru o susținere stabilă",
+                "en": "Screwed to the box, for steady support"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Funcționalitate",
+            "en": "Function"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Depozitare",
+                "en": "Storage"
+              },
+              "value": {
+                "ro": "Ladă sub somieră, deschisă prin ridicarea somierei",
+                "en": "A box under the bed base, opened by lifting the base"
+              }
+            },
+            {
+              "label": {
+                "ro": "Somieră",
+                "en": "Bed base"
+              },
+              "value": {
+                "ro": "Metalică sau din lemn, realizată de VALLO, la alegere",
+                "en": "Metal, or wooden made by VALLO, as you prefer"
+              }
+            },
+            {
+              "label": {
+                "ro": "Sistem de ridicare",
+                "en": "Lift"
+              },
+              "value": {
+                "ro": "Balamale metalice și pistoane pe gaz",
+                "en": "Metal hinges and gas struts"
+              }
+            },
+            {
+              "label": {
+                "ro": "Picioare",
+                "en": "Legs"
+              },
+              "value": {
+                "ro": "2,5 cm standard; la cerere 5, 10 sau 15 cm",
+                "en": "2.5 cm as standard; 5, 10 or 15 cm on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Nu sunt incluse",
+                "en": "Not included"
+              },
+              "value": {
+                "ro": "Salteaua și accesoriile din fotografii, dacă oferta nu le menționează",
+                "en": "The mattress and the accessories in the photographs, unless the quote lists them"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Finisaj și personalizare",
+            "en": "Finish and options"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Tapițerie",
+                "en": "Upholstery"
+              },
+              "value": {
+                "ro": "Orice stofă și culoare din colecția VALLO",
+                "en": "Any fabric and colour in the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni la comandă",
+                "en": "Made to measure"
+              },
+              "value": {
+                "ro": "Lungimea și lățimea se adaptează oricărei saltele",
+                "en": "Length and width adapted to any mattress"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "valo-modul-cubic",

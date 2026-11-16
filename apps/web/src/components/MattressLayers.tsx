@@ -450,9 +450,15 @@ export function MattressLayers({ mattress }: { mattress: Mattress }) {
 
   // The key reads top to bottom, the band after the cover it is sewn to.
   const items = [
-    { id: layers[0].id, name: layers[0].name, detail: layers[0].detail, pending: false },
-    { id: 'band', name: band.name, detail: band.detail, pending: false },
-    ...layers.slice(1).map((l) => ({ id: l.id, name: l.name, detail: l.detail, pending: Boolean(l.pending) })),
+    { id: layers[0].id, name: layers[0].name, detail: layers[0].detail, grade: undefined, pending: false },
+    { id: 'band', name: band.name, detail: band.detail, grade: undefined, pending: false },
+    ...layers.slice(1).map((l) => ({
+      id: l.id,
+      name: l.name,
+      detail: l.detail,
+      grade: l.grade,
+      pending: Boolean(l.pending),
+    })),
   ]
   const numbers = Object.fromEntries(items.map((item, i) => [item.id, String(i + 1).padStart(2, '0')]))
   const tx = (t: { ro: string; en: string }) => (lang === 'ro' ? t.ro : t.en)
@@ -508,6 +514,16 @@ export function MattressLayers({ mattress }: { mattress: Mattress }) {
               <span>
                 <span className="block font-display text-lg leading-snug">{tx(item.name)}</span>
                 <span className="mt-1 block text-sm leading-relaxed opacity-60">{tx(item.detail)}</span>
+                {item.grade && (
+                  <span className="mt-2 flex gap-5 text-xs tabular-nums opacity-70">
+                    <span>
+                      <span className="opacity-60">{lang === 'ro' ? 'Densitate' : 'Density'}</span> {item.grade.density} kg/m³
+                    </span>
+                    <span>
+                      <span className="opacity-60">{lang === 'ro' ? 'Duritate' : 'Hardness'}</span> {item.grade.hardness} kPa
+                    </span>
+                  </span>
+                )}
                 {item.pending && (
                   <span className="mt-2 inline-block text-xs opacity-45">
                     {lang === 'ro' ? 'De confirmat cu atelierul' : 'To be confirmed by the workshop'}

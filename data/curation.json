@@ -495,7 +495,10 @@
     "pat-loris": {
       "name": "Pat Loris",
       "price": null,
-      "category": "beds"
+      "category": "beds",
+      "lead": "Forme rotunjite și volume tapițate pentru un design cu prezență.",
+      "summary": "Forme rotunjite și volume tapițate pentru un design cu prezență.\n\nPAT LORIS se remarcă printr-o siluetă generoasă, definită de tăblia amplă, cu margini rotunjite, și de lateralele tapițate cu volume individuale. Formele moi și aspectul plin creează o prezență confortabilă și elegantă, transformând patul într-un element central al dormitorului.",
+      "body": "Forme rotunjite și volume tapițate pentru un design cu prezență.\n\nPAT LORIS se remarcă printr-o siluetă generoasă, definită de tăblia amplă, cu margini rotunjite, și de lateralele tapițate cu volume individuale. Formele moi și aspectul plin creează o prezență confortabilă și elegantă, transformând patul într-un element central al dormitorului.\n\nTăblia are un profil rotunjit, cu grosime generoasă, iar lateralele preiau limbajul vizual al modelului ALDO: elemente tapițate, cu volum și delimitări vizibile între panouri. Tapițeria poate fi configurată prin alegerea stofei și a culorii din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard. Patul poate fi realizat pentru dimensiunile de saltea solicitate.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "coltar-vallo": {
       "name": "Colțar Vallo",
@@ -552,7 +555,10 @@
     "pat-king": {
       "name": "Pat King",
       "price": null,
-      "category": "beds"
+      "category": "beds",
+      "lead": "Proporții generoase și un design cu prezență puternică.",
+      "summary": "Proporții generoase și un design cu prezență puternică.\n\nPAT KING se remarcă prin proporțiile sale generoase și printr-un design cu prezență puternică. Tăblia înaltă și partea frontală a lăzilor sunt accentuate de panouri verticale tapițate, dispuse într-o compoziție simetrică, cu înălțimi variabile.",
+      "body": "Proporții generoase și un design cu prezență puternică.\n\nPAT KING se remarcă prin proporțiile sale generoase și printr-un design cu prezență puternică. Tăblia înaltă și partea frontală a lăzilor sunt accentuate de panouri verticale tapițate, dispuse într-o compoziție simetrică, cu înălțimi variabile.\n\nContururile ușor curbate și tranzițiile line dintre panouri creează un efect vizual elegant, cu un ritm decorativ inspirat de formele arhitecturale. Aspectul masiv al bazei este echilibrat de finisajul textil, pentru un pat care devine punctul central al dormitorului.\n\nSalteaua și accesoriile prezentate în fotografii nu sunt incluse, dacă nu sunt menționate separat în ofertă.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     },
     "canapea-extensibila-soria": {
       "name": "Canapea Soria extensibilă",
@@ -694,6 +700,32 @@
       "summary": "Canapeaua BELLA îmbină un profil curbat și fluid cu un confort generos.\n\nFormele rotunjite conturează o prezență elegantă, iar șezutul realizat din spumă HR și Memory Foam oferă o senzație moale și plăcută. Spătarul este construit din burete standard, fără perne separate, pentru un aspect unitar și ordonat.",
       "body": "Canapeaua BELLA îmbină un profil curbat și fluid cu un confort generos.\n\nFormele rotunjite conturează o prezență elegantă, iar șezutul realizat din spumă HR și Memory Foam oferă o senzație moale și plăcută. Spătarul este construit din burete standard, fără perne separate, pentru un aspect unitar și ordonat.\n\nPernele decorative sunt incluse în configurația standard, au umplutură din fibră siliconică și huse cu fermoar, detașabile. Canapeaua poate fi tapițată cu orice stofă din colecția VALLO.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră.",
       "price": 4800
+    },
+    "pat-chesterfield": {
+      "lead": "Tăblie capitonată prin tehnica tradițională Chesterfield.",
+      "summary": "Tăblie capitonată prin tehnica tradițională Chesterfield.\n\nPAT CHESTERFIELD pune în valoare eleganța clasică printr-o tăblie amplă, capitonată în stilul autentic Chesterfield. Nasturii sunt îmbrăcați în aceeași stofă cu tăblia și trași prin tapițerie cu sfoară, prin tehnica tradițională de capitonare, pentru un relief profund și un aspect elegant.",
+      "body": "Tăblie capitonată prin tehnica tradițională Chesterfield.\n\nPAT CHESTERFIELD pune în valoare eleganța clasică printr-o tăblie amplă, capitonată în stilul autentic Chesterfield. Nasturii sunt îmbrăcați în aceeași stofă cu tăblia și trași prin tapițerie cu sfoară, prin tehnica tradițională de capitonare, pentru un relief profund și un aspect elegant.\n\nAceastă metodă de realizare păstrează caracterul Chesterfield tradițional, diferit de variantele decorative cu nasturi tip cui. Stofa și culoarea se aleg din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-colt": {
+      "name": "Pat de colț",
+      "lead": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.",
+      "summary": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.\n\nPAT DE COLȚ este conceput pentru a valorifica eficient spațiul din dormitor, fiind potrivit pentru amplasarea lângă perete. Tăblia principală și cea laterală formează un ansamblu practic și confortabil, iar tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, în funcție de configurația camerei.",
+      "body": "Pat pentru amplasare lângă perete, cu tăblie laterală reversibilă.\n\nPAT DE COLȚ este conceput pentru a valorifica eficient spațiul din dormitor, fiind potrivit pentru amplasarea lângă perete. Tăblia principală și cea laterală formează un ansamblu practic și confortabil, iar tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, în funcție de configurația camerei.\n\nAmbele tăblii sunt decorate cu panouri verticale drepte, tapițate, care conturează un aspect ordonat și contemporan. Modelul este disponibil pentru lățimi cuprinse între 80 și 160 cm, iar tapițeria poate fi aleasă din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-happy": {
+      "lead": "Pat pentru copii, cu tăblie laterală în stil gărduleț.",
+      "summary": "Pat pentru copii, cu tăblie laterală în stil gărduleț.\n\nPAT HAPPY este un pat pentru copii, gândit pentru amplasarea lângă perete. Tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, astfel încât patul să se adapteze ușor spațiului.",
+      "body": "Pat pentru copii, cu tăblie laterală în stil gărduleț.\n\nPAT HAPPY este un pat pentru copii, gândit pentru amplasarea lângă perete. Tăblia laterală poate fi montată pe partea stângă sau pe partea dreaptă, astfel încât patul să se adapteze ușor spațiului.\n\nDesignul este inspirat de forma unui gărduleț: panourile verticale sunt tapițate, iar capetele superioare sunt rotunjite, oferind modelului un aspect delicat și prietenos. Panourile decorative sunt prezente atât pe tăblia principală, cât și pe cea laterală. Modelul este disponibil pentru lățimi cuprinse între 80 și 160 cm, cu posibilitatea alegerii stofei și culorii din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-one": {
+      "lead": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.",
+      "summary": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.\n\nPAT ONE aduce un plus de confort vizual prin tăblia sa cu panouri orizontale rotunjite, dispuse într-o compoziție ordonată și încadrate de o ramă tapițată. Formele moi și volumul panourilor creează un aspect primitor, păstrând în același timp o estetică modernă și echilibrată.",
+      "body": "Panouri orizontale rotunjite, încadrate de o ramă tapițată.\n\nPAT ONE aduce un plus de confort vizual prin tăblia sa cu panouri orizontale rotunjite, dispuse într-o compoziție ordonată și încadrate de o ramă tapițată. Formele moi și volumul panourilor creează un aspect primitor, păstrând în același timp o estetică modernă și echilibrată.\n\nPanourile sunt realizate cu burete modelat cu profil rotunjit și apoi tapițat, pentru a evidenția relieful specific modelului. Stofa și culoarea pot fi alese din colecția VALLO, pentru integrarea patului în amenajarea dormitorului.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "pat-sun": {
+      "lead": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.",
+      "summary": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.",
+      "body": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.\n\nPanourile sunt buretate și tapițate, păstrând un relief discret care pune în valoare compoziția radială. Stofa și culoarea pot fi alese din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
     }
   },
   "exclude": {

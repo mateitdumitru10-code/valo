@@ -13,8 +13,9 @@
  * - Relaxa: the same spring mattress without the memory foam (no photograph:
  *   drawn from Relaxa Memory Foam with that layer left out).
  *
- * What the photographs cannot show — densities, the exact foam grades, every
- * thickness — is left marked `pending` and worded as such. The drawn
+ * Eflex Memory Foam's three foams have their grades from the client's layer
+ * sheet. What the photographs cannot show for the others — densities, foam
+ * grades, every thickness — is left marked `pending` and worded as such. The drawn
  * thicknesses are proportions read off the photographs, for the drawing only.
  */
 
@@ -32,6 +33,8 @@ export type Layer = {
   texture: 'quilt' | 'foam' | 'foam-speckled' | 'knit' | 'springs'
   /** Two sheets bonded together: the glue line is drawn halfway up. */
   seam?: boolean
+  /** Density and hardness, where a sheet gives them. */
+  grade?: { density: number; hardness: number }
   /** Not yet confirmed by the workshop. */
   pending?: boolean
 }
@@ -209,25 +212,45 @@ export const mattresses: Mattress[] = [
     name: 'Eflex Memory Foam',
     kind: { ro: 'Memory foam peste spumă', en: 'Memory foam over foam' },
     lede: {
-      ro: 'Memory foam peste două straturi de spumă, într-o husă matlasată Aloe Vera cu bandă din plasă 3D pe laturi.',
-      en: 'Memory foam over two layers of foam, in a quilted Aloe Vera cover with a 3D mesh band round the sides.',
+      ro: 'Memory Foam 28–10 peste burete 30–28 și burete HR 38–40, într-o husă matlasată Aloe Vera cu bandă din plasă 3D pe laturi.',
+      en: 'Memory Foam 28–10 over 30–28 foam and HR 38–40 foam, in a quilted Aloe Vera cover with a 3D mesh band round the sides.',
     },
+    // Grades from the client's sheet "Straturile saltelelor VALLO"
+    // (docs/VALLO Memory Foam Sleep Layers.png), which shows this stack.
     layers: [
       coverTop,
-      memoryFoam,
-      yellow,
+      {
+        ...memoryFoam,
+        name: { ro: 'Memory Foam 28–10', en: 'Memory Foam 28–10' },
+        detail: {
+          ro: 'Strat de confort din burete vâscoelastic, care se mulează după corp, reduce punctele de presiune și oferă o senzație de relaxare profundă.',
+          en: 'A comfort layer of viscoelastic foam that takes the shape of the body, eases pressure points and gives a feeling of deep relaxation.',
+        },
+        grade: { density: 28, hardness: 10 },
+        pending: false,
+      },
+      {
+        ...yellow,
+        name: { ro: 'Burete 30–28', en: 'Foam 30–28' },
+        detail: {
+          ro: 'Strat de tranziție din burete poliuretanic, care echilibrează confortul și susținerea și distribuie uniform presiunea.',
+          en: 'A transition layer of polyurethane foam that balances comfort and support and spreads pressure evenly.',
+        },
+        grade: { density: 30, hardness: 28 },
+        pending: false,
+      },
       {
         id: 'core',
-        name: { ro: 'Miez de susținere', en: 'Support core' },
+        name: { ro: 'Burete HR 38–40', en: 'HR foam 38–40' },
         detail: {
-          ro: 'Spumă roz, în două plăci lipite, care poartă greutatea.',
-          en: 'Pink foam, two sheets bonded together, carrying the weight.',
+          ro: 'Strat de susținere din burete High Resilience, în două plăci lipite: elastic, rezistent în timp, pentru o susținere fermă și stabilă.',
+          en: 'A support layer of High Resilience foam, two sheets bonded together: springy and lasting, for firm, steady support.',
         },
         draw: 8,
         tone: PINK,
         texture: 'foam',
         seam: true,
-        pending: true,
+        grade: { density: 38, hardness: 40 },
       },
       coverBottom,
     ],
