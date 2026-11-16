@@ -41,61 +41,78 @@ function shade(hex: string, f: number) {
   return `rgb(${c.join(',')})`
 }
 
-/** Where a slab's leader starts: the middle of its short end face. */
-const anchor = (z0: number, h: number): Pt => P(L, W * 0.55, z0 + h / 2)
+/**
+ * Where a slab's leader starts: the back corner of its end face, the drawing's
+ * rightmost edge, so the line runs out into clear space and never across a
+ * slab below.
+ */
+const anchor = (z0: number, h: number): Pt => P(L, 0, z0 + h / 2)
 
-/** The highest point of a stack, opened. */
-function stackTop(layers: Layer[]) {
-  let up = 0
-  let total = 0
-  for (let i = layers.length - 1; i >= 0; i--) {
-    total += layers[i].draw * K
-    if (i > 0) up += GAP + (layers[i].texture === 'springs' ? SPRING_GAP : 0)
-  }
-  return P(0, 0, total + up)[1]
+// The floor shadow: the footprint, blurred, a touch larger than the bed.
+const SHADOW: Pt[] = [P(-6, -4, 0), P(L + 6, -4, 0), P(L + 8, W + 8, 0), P(-6, W + 8, 0)]
+const BLUR = 5
+/** Clear space round the drawing: the blur's full reach, and some air. */
+const MARGIN = BLUR * 3 + 12
+const left = Math.min(...SHADOW.map(([x]) => x), P(0, W, 0)[0]) - MARGIN
+const edge = Math.max(...SHADOW.map(([x]) => x), P(L, 0, 0)[0])
+const floor = Math.max(...SHADOW.map(([, y]) => y)) + MARGIN
+
+/** The gap each slab rises by when opened. A card opens tighter, to stay legible small. */
+function gapOver(layer: Layer, compact: boolean) {
+  const gap = compact ? 13 : GAP
+  const extra = compact ? 22 : SPRING_GAP
+  return gap + (layer.texture === 'springs' ? extra : 0)
 }
 
-/** The highest stack among all the models, for the cards' common frame. */
-const cardTop = () => Math.min(...mattresses.map((m) => stackTop(m.layers)))
-
-/** Heights and frame for one model's stack — every model has its own. */
-function geometry(layers: Layer[], compact: boolean) {
+/** Assembled heights and opened lifts, bottom up. */
+function stack(layers: Layer[], compact: boolean) {
   const n = layers.length
-  // Assembled heights, bottom up.
   const base: number[] = []
-  let z = 0
-  for (let i = n - 1; i >= 0; i--) {
-    base[i] = z
-    z += layers[i].draw * K
-  }
-  const total = z
-  // Each slab rises one gap above the one below it; over the springs the gap
-  // is wider, so the coils inside the frame can be seen.
   const lifts: number[] = []
+  let z = 0
   let up = 0
   for (let i = n - 1; i >= 0; i--) {
+    base[i] = z
     lifts[i] = up
-    up += GAP + (layers[i].texture === 'springs' ? SPRING_GAP : 0)
+    z += layers[i].draw * K
+    // Each slab rises one gap above the one below it; over the springs the gap
+    // is wider, so the coils inside the frame can be seen.
+    up += gapOver(layers[i], compact)
   }
-  const lift = (i: number) => lifts[i]
-  // Frame: the exploded stack, the floor shadow, and room for the numbered leaders.
-  // A card frames every model alike — to the tallest stack — so the cards
-  // share one scale and one floor line.
-  const own = P(0, 0, total + lift(0))[1]
-  const topY = compact ? Math.min(own, cardTop()) : own
-  const bottomY = P(L, W, 0)[1]
-  const leftX = P(0, W, 0)[0]
-  const rightX = P(L, 0, 0)[0]
-  const lead = rightX + 26
-  const pad = 14
-  const right = compact ? rightX + pad : lead + 30
+  return { base, lifts, total: z }
+}
+
+/** Top of a stack, closed and opened. */
+function tops(layers: Layer[], compact: boolean) {
+  const { lifts, total } = stack(layers, compact)
+  return { closed: P(0, 0, total)[1] - MARGIN, open: P(0, 0, total + lifts[0])[1] - MARGIN }
+}
+
+/** The tallest opened stack among the models: every card is framed to it. */
+const cardHeight = () => Math.max(...mattresses.map((m) => floor - tops(m.layers, true).open))
+
+/** Heights and frame for one model's stack. */
+function geometry(layers: Layer[], compact: boolean) {
+  const n = layers.length
+  const { base, lifts, total } = stack(layers, compact)
+  const lead = edge + 22
+  const right = compact ? edge + MARGIN : lead + 30
+  const top = tops(layers, compact)
+  // A card centres the mattress in its frame, closed or opened, and every card
+  // shares one frame, so all four are drawn to one scale. The page's drawing
+  // frames its own opened stack.
+  const height = compact ? cardHeight() : floor - top.open
+  const y0 = compact ? -height / 2 : top.open
+  const centre = (t: number) => (compact ? -(t + floor) / 2 : 0)
   return {
     base,
-    lift,
+    lift: (i: number) => lifts[i],
     lead,
+    shift: { closed: centre(top.closed), open: centre(top.open) },
     coreTop: base[0], // top of the foam, bottom of the top cover
     coreBottom: base[n - 1] + layers[n - 1].draw * K,
-    view: `${leftX - pad} ${topY - pad} ${right - leftX + pad} ${bottomY - topY + pad * 2 + 10}`,
+    total,
+    view: `${left} ${y0} ${right - left} ${height}`,
   }
 }
 
@@ -200,7 +217,7 @@ export function MattressDrawing({ mattress, active, onActive, exploded, onExplod
   const still = useReducedMotion()
   const ref = useRef<SVGSVGElement>(null)
   const layers = mattress.layers
-  const { base, lift, lead, coreTop, coreBottom, view } = useMemo(
+  const { base, lift, lead, shift, coreTop, coreBottom, view } = useMemo(
     () => geometry(mattress.layers, Boolean(compact)),
     [mattress, compact],
   )
@@ -241,13 +258,12 @@ export function MattressDrawing({ mattress, active, onActive, exploded, onExplod
     springs: url('pores'),
   }
 
-  // The floor shadow: the footprint, blurred, a touch larger than the bed.
-  const shadow = poly([P(-6, -4, 0), P(L + 6, -4, 0), P(L + 8, W + 8, 0), P(-6, W + 8, 0)])
+  const shadow = poly(SHADOW)
 
   const leader = (ax: number, ay: number, text: string) => (
     <>
-      <line x1={ax} y1={ay} x2={lead} y2={ay} stroke="#14120f" strokeOpacity={0.4} strokeWidth={0.35} />
-      <circle cx={ax} cy={ay} r={0.9} fill="#14120f" />
+      <line x1={ax + 2.5} y1={ay} x2={lead} y2={ay} stroke="#14120f" strokeOpacity={0.4} strokeWidth={0.35} />
+      <circle cx={ax + 2.5} cy={ay} r={0.9} fill="#14120f" />
       <text
         x={lead + 4}
         y={ay}
@@ -327,11 +343,12 @@ export function MattressDrawing({ mattress, active, onActive, exploded, onExplod
           <stop offset="0.55" stopColor="#fff" stopOpacity="0.08" />
           <stop offset="1" stopColor="#000" stopOpacity="0.04" />
         </linearGradient>
-        <filter id={id('soft')} x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur stdDeviation="5" />
+        <filter id={id('soft')} x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur stdDeviation={BLUR} />
         </filter>
       </defs>
 
+      <motion.g initial={false} animate={{ y: open ? shift.open : shift.closed }} transition={ease}>
       <polygon points={shadow} fill="#14120f" opacity={0.13} filter={url('soft')} />
 
       {/* Bottom slab first, so each one above paints over the one below. */}
@@ -419,6 +436,7 @@ export function MattressDrawing({ mattress, active, onActive, exploded, onExplod
           </motion.g>
         )
       })()}
+      </motion.g>
     </svg>
   )
 }
