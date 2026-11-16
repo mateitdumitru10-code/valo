@@ -8,8 +8,6 @@ import { useI18n } from '~/lib/i18n'
 export function MattressCard({ mattress, index }: { mattress: Mattress; index?: number }) {
   const { lang } = useI18n()
   const [open, setOpen] = useState(false)
-  // What the key lists: every layer, and the side band.
-  const count = mattress.layers.length + 1
   return (
     <article className="group">
       <Link
@@ -28,9 +26,6 @@ export function MattressCard({ mattress, index }: { mattress: Mattress; index?: 
           <div className="absolute inset-[6%]">
             <MattressThumb mattress={mattress} open={open} />
           </div>
-          <span className="eyebrow absolute bottom-4 left-5 tabular-nums opacity-40">
-            {count} {lang === 'ro' ? 'straturi' : 'layers'}
-          </span>
           <span className="eyebrow absolute bottom-4 right-5 translate-y-1 opacity-0 transition duration-500 group-hover:translate-y-0 group-hover:opacity-60 group-focus-visible:opacity-60">
             {lang === 'ro' ? 'Vezi salteaua' : 'View mattress'} →
           </span>
