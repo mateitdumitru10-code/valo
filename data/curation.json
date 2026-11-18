@@ -3267,7 +3267,7 @@
     }
   },
   "options": {
-    "_note": "What a piece is offered in, and what each of those costs. Beds are keyed on mattress size; the two Aldo sectionals on their overall dimension; the Eco sofa bed on which mattress goes in it; Eco 2 and Sam on their seat (springs or Memory Foam), unpriced until the client prices them — the piece keeps its single price. `measure` is the figure the picker draws its comparison bar from, and is left off where the options are not a length — a bar across two mattress types would compare nothing. Prices come from the client's own list (docs/LISTA PRETURI VALLO.pdf), which is authoritative over the scraped Samobi figure wherever the two disagree. A piece not listed here keeps its single `price`, and a bed not listed here falls back to the widths in `sizes`.",
+    "_note": "What a piece is offered in, and what each of those costs. Beds are keyed on mattress size; the two Aldo sectionals on their overall dimension; the Eco sofa bed on which mattress goes in it; Eco 2 and Sam on their seat (springs or Memory Foam): Eco 2 priced by the client on 2026-11-18 (springs 4500, Memory Foam 5600), Sam unpriced until the client prices it — it keeps its single price. `measure` is the figure the picker draws its comparison bar from, and is left off where the options are not a length — a bar across two mattress types would compare nothing. Prices come from the client's own list (docs/LISTA PRETURI VALLO.pdf), which is authoritative over the scraped Samobi figure wherever the two disagree. A piece not listed here keeps its single `price`, and a bed not listed here falls back to the widths in `sizes`.",
     "pat-fantezie": {
       "kind": "size",
       "items": [
@@ -3817,12 +3817,12 @@
         {
           "ro": "Plasă de arcuri",
           "en": "Spring mesh",
-          "price": null
+          "price": 4500
         },
         {
           "ro": "Memory Foam",
           "en": "Memory Foam",
-          "price": null
+          "price": 5600
         }
       ]
     },

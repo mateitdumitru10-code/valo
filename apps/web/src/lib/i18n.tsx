@@ -196,6 +196,8 @@ const ro = {
   'piece.seatType': 'Șezut',
   'piece.seatNote':
     'Același produs, cu șezutul pe care îl preferați: plasă de arcuri sau Memory Foam. Prețul variantei îl confirmăm în ofertă.',
+  'piece.seatNotePriced':
+    'Același produs, cu șezutul pe care îl preferați: plasă de arcuri sau Memory Foam.',
   'contact.optionPrefill': 'Mă interesează varianta: {option}.',
   'contact.extrasPrefill': 'Cu: {extras}.',
   'piece.extras': 'Opțiuni',
@@ -474,6 +476,8 @@ const en: Record<keyof typeof ro, string> = {
   'piece.seatType': 'Seat',
   'piece.seatNote':
     'The same piece, with the seat you prefer: spring mesh or Memory Foam. We confirm the price of each in the quote.',
+  'piece.seatNotePriced':
+    'The same piece, with the seat you prefer: spring mesh or Memory Foam.',
   'contact.optionPrefill': 'I am interested in this option: {option}.',
   'contact.extrasPrefill': 'With: {extras}.',
   'piece.extras': 'Options',

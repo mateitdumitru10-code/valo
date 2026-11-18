@@ -100,7 +100,7 @@ export function SizePicker({ options, active, onSelect }: Props) {
       </ul>
 
       <p className="mt-5 max-w-xs text-xs leading-relaxed opacity-40">
-        {t(keys.note)}
+        {t(options.kind === 'seat' && items.every((item) => typeof item.price === 'number') ? 'piece.seatNotePriced' : keys.note)}
       </p>
     </section>
   )

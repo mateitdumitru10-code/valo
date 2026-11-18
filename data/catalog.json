@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:02:32.011Z",
+  "generatedAt": "2026-11-18T15:09:32.992Z",
   "source": "mobilasamobi.ro",
   "categories": [
     {
@@ -2255,15 +2255,16 @@
           {
             "ro": "Plasă de arcuri",
             "en": "Spring mesh",
-            "price": null
+            "price": 4500
           },
           {
             "ro": "Memory Foam",
             "en": "Memory Foam",
-            "price": null
+            "price": 5600
           }
         ]
       },
+      "priceFrom": true,
       "schematic": {
         "src": "/media/schema/coltar-eco-2.webp",
         "w": 1536,
