@@ -5,6 +5,8 @@ import clsx from 'clsx'
 import { Img } from '~/components/Img'
 import { SizePicker } from '~/components/SizePicker'
 import { BedExtras } from '~/components/BedExtras'
+import { ChaiseSide } from '~/components/ChaiseSide'
+import { describeChaise, hasChaiseSide } from '~/lib/chaise'
 import { describeExtras, extrasPrice } from '~/lib/bedExtras'
 import { TextilePicker } from '~/components/TextilePicker'
 import { Schematic } from '~/components/Schematic'
@@ -44,6 +46,7 @@ export function PiecePage() {
   const [textile, setTextile] = useState(0)
   const [option, setOption] = useState(0)
   const [leg, setLeg] = useState(0)
+  const [side, setSide] = useState(1)
   const [legColour, setLegColour] = useState(0)
   const [withNightstands, setNightstands] = useState(false)
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
@@ -59,6 +62,7 @@ export function PiecePage() {
     setTextile(0)
     setOption(0)
     setLeg(0)
+    setSide(1)
     setLegColour(0)
     setNightstands(false)
     loadPiece(slug).then((data) => {
@@ -97,7 +101,15 @@ export function PiecePage() {
   // and the figure above the pickers is the bed with them.
   const isBed = piece.category === 'beds'
   const added = isBed ? extrasPrice(leg, withNightstands) : 0
-  const extras = isBed ? describeExtras(leg, legColour, withNightstands, lang) : ''
+  // A colțar is made with its chaise on either side, seen from the front.
+  // Right is where the choice starts.
+  const sided = hasChaiseSide(piece.slug, piece.category)
+  const extras = [
+    sided ? describeChaise(side, lang) : '',
+    isBed ? describeExtras(leg, legColour, withNightstands, lang) : '',
+  ]
+    .filter(Boolean)
+    .join(', ')
   const base = items[chosen]?.price ?? piece.price
   const price = formatPrice(base ? base + added : null, lang)
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
@@ -361,6 +373,12 @@ export function PiecePage() {
             {options && items.length > 1 && (
               <div className="mb-12">
                 <SizePicker options={options} active={chosen} onSelect={setOption} />
+              </div>
+            )}
+
+            {sided && (
+              <div className="mb-12">
+                <ChaiseSide side={side} onSide={setSide} />
               </div>
             )}
 
