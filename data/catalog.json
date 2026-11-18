@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:18:23.094Z",
+  "generatedAt": "2026-11-18T15:02:32.011Z",
   "source": "mobilasamobi.ro",
   "categories": [
     {
@@ -2015,12 +2015,12 @@
         {
           "ro": "Lungime",
           "en": "Length",
-          "value": "300 cm"
+          "value": "310 cm"
         },
         {
           "ro": "Adâncime șezlong",
           "en": "Chaise depth",
-          "value": "160 cm"
+          "value": "190 cm"
         },
         {
           "ro": "Suprafață de dormit",
@@ -2263,6 +2263,17 @@
             "price": null
           }
         ]
+      },
+      "schematic": {
+        "src": "/media/schema/coltar-eco-2.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 310,
+          "depth": 190,
+          "depthBack": 100,
+          "seat": 80
+        }
       },
       "variants": [
         {
@@ -4530,7 +4541,7 @@
         {
           "ro": "Adâncime totală",
           "en": "Overall depth",
-          "value": "150 cm"
+          "value": "140 cm"
         },
         {
           "ro": "Adâncime șezut",
@@ -4726,6 +4737,16 @@
         }
       ],
       "collection": "cubic",
+      "schematic": {
+        "src": "/media/schema/canapea-cubic.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 300,
+          "depth": 140,
+          "seat": 120
+        }
+      },
       "variants": [
         {
           "src": "canapea-cubiq-studio-1",
@@ -7766,12 +7787,12 @@
         {
           "ro": "Adâncime",
           "en": "Depth",
-          "value": "100 cm"
+          "value": "105 cm"
         },
         {
           "ro": "Suprafață de dormit",
           "en": "Sleeping surface",
-          "value": "150 × 190 cm"
+          "value": "140 × 190 cm"
         },
         {
           "ro": "Înălțime șezut",
@@ -7974,6 +7995,16 @@
         }
       ],
       "collection": "torro",
+      "schematic": {
+        "src": "/media/schema/canapea-toro.webp",
+        "w": 1536,
+        "h": 1024,
+        "cm": {
+          "width": 240,
+          "depth": 105,
+          "seat": 70
+        }
+      },
       "variants": [
         {
           "src": "canapea-toro-c1",

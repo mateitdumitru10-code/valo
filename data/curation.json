@@ -781,7 +781,7 @@
     ]
   },
   "schematics": {
-    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot. Figures are the outer ones printed on the sheet; `depthBack` only where the sheet prints the body depth beside the chaise. Colțar Aldo's sheet is the 330 × 190 size of the two it is sold in. Canapea Aldo's newer sheet (CP ALDO SCHITA, 2026-10) prints 110 deep and a 90 seat where the grey drawing it replaces printed 115 and 85 — taken as the correction, pending the client's word. `approximate` marks a sketch the client's technical sheets (docs/VALLO_*.pdf, 2026-11) contradict — Colțar Aldo 190 deep, Cubic Fix 180, Soria a 160 chaise — the sheet wins, so the page shows the sketch as orientation and sets no figures from it. Colțar Sam's sketch (270, sleeping 140) is withdrawn: the sheet gives 240 and 160 × 190. Second batch (2026-11-12): Colțar Bella's sketch prints 285 × 135 with an 80 seat and Linear's 145 deep with a 70 seat, where the sheets give 280 × 160 and seats of 90 and 80 — both approximate. Torro's matches its sheet (270 × 170). Third (2026-11-18): one sheet for Canapea Sonia and Canapea Vision, which the client says share their dimensions — 230 × 100, an 80 seat, a 150 × 190 bed. For Sonia it corrects the technical sheet's 240 × 110 (client's word, 2026-11-18), so specs.json was changed to match it.",
+    "_note": "Dimensioned plan drawings. Processed by scripts/schematics.mjs into ink-on-transparent artwork so they sit on the page as a printed plan rather than as a pasted screenshot. Figures are the outer ones printed on the sheet; `depthBack` only where the sheet prints the body depth beside the chaise. Colțar Aldo's sheet is the 330 × 190 size of the two it is sold in. Canapea Aldo's newer sheet (CP ALDO SCHITA, 2026-10) prints 110 deep and a 90 seat where the grey drawing it replaces printed 115 and 85 — taken as the correction, pending the client's word. `approximate` marks a sketch the client's technical sheets (docs/VALLO_*.pdf, 2026-11) contradict — Colțar Aldo 190 deep, Cubic Fix 180, Soria a 160 chaise — the sheet wins, so the page shows the sketch as orientation and sets no figures from it. Colțar Sam's sketch (270, sleeping 140) is withdrawn: the sheet gives 240 and 160 × 190. Second batch (2026-11-12): Colțar Bella's sketch prints 285 × 135 with an 80 seat and Linear's 145 deep with a 70 seat, where the sheets give 280 × 160 and seats of 90 and 80 — both approximate. Torro's matches its sheet (270 × 170). Third (2026-11-18): one sheet for Canapea Sonia and Canapea Vision, which the client says share their dimensions — 230 × 100, an 80 seat, a 150 × 190 bed. For Sonia it corrects the technical sheet's 240 × 110 (client's word, 2026-11-18), so specs.json was changed to match it. Colțar Eco II's sheet (dimensiuni eco II, 2026-11-18) prints 310 × 190, a 100 body, an 80 seat and an 80 × 60 ottoman, where the technical sheet gave 300 and a 160 chaise — the drawing wins, as the client ruled for Sonia, and specs.json follows it. Same day and rule: Canapea Cubic's sheet prints 300 × 140 with a 120 seat (technical sheet: 150 deep), Canapea Toro's 240 × 105 with a 70 seat and a 140 × 190 bed (technical sheet: 100 deep, 150 × 190).",
     "coltar-aldo": {
       "file": "schita-coltar-aldo-3",
       "approximate": true,
@@ -868,6 +868,31 @@
         "width": 230,
         "depth": 100,
         "seat": 80
+      }
+    },
+    "coltar-eco-2": {
+      "file": "schita-coltar-eco-2",
+      "cm": {
+        "width": 310,
+        "depth": 190,
+        "depthBack": 100,
+        "seat": 80
+      }
+    },
+    "canapea-cubic": {
+      "file": "schita-canapea-cubic",
+      "cm": {
+        "width": 300,
+        "depth": 140,
+        "seat": 120
+      }
+    },
+    "canapea-toro": {
+      "file": "schita-canapea-toro",
+      "cm": {
+        "width": 240,
+        "depth": 105,
+        "seat": 70
       }
     },
     "canapea-vision": {

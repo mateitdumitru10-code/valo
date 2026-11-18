@@ -856,7 +856,7 @@
         {
           "ro": "Adâncime totală",
           "en": "Overall depth",
-          "value": "150 cm"
+          "value": "140 cm"
         },
         {
           "ro": "Adâncime șezut",
@@ -1440,12 +1440,12 @@
         {
           "ro": "Lungime",
           "en": "Length",
-          "value": "300 cm"
+          "value": "310 cm"
         },
         {
           "ro": "Adâncime șezlong",
           "en": "Chaise depth",
-          "value": "160 cm"
+          "value": "190 cm"
         },
         {
           "ro": "Suprafață de dormit",
@@ -3362,12 +3362,12 @@
         {
           "ro": "Adâncime",
           "en": "Depth",
-          "value": "100 cm"
+          "value": "105 cm"
         },
         {
           "ro": "Suprafață de dormit",
           "en": "Sleeping surface",
-          "value": "150 × 190 cm"
+          "value": "140 × 190 cm"
         },
         {
           "ro": "Înălțime șezut",
