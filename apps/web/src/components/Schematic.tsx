@@ -28,7 +28,7 @@ export function Schematic({
   const figures: [Key, number][] = (
     [
       ['piece.width', drawing.cm?.width],
-      ['piece.depth', drawing.cm?.depth],
+      [drawing.cm?.depthBack ? 'piece.depth' : 'piece.depthPlain', drawing.cm?.depth],
       ['piece.depthBack', drawing.cm?.depthBack],
       ['piece.seat', drawing.cm?.seat],
     ] satisfies [Key, number | undefined][]

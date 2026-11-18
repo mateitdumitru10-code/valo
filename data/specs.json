@@ -475,12 +475,12 @@
         {
           "ro": "Lungime",
           "en": "Length",
-          "value": "240 cm"
+          "value": "230 cm"
         },
         {
           "ro": "Adâncime",
           "en": "Depth",
-          "value": "110 cm"
+          "value": "100 cm"
         },
         {
           "ro": "Suprafață de dormit",
@@ -6544,6 +6544,25 @@
               }
             }
           ]
+        }
+      ]
+    },
+    "canapea-vision": {
+      "figures": [
+        {
+          "ro": "Lungime",
+          "en": "Length",
+          "value": "230 cm"
+        },
+        {
+          "ro": "Adâncime",
+          "en": "Depth",
+          "value": "100 cm"
+        },
+        {
+          "ro": "Suprafață de dormit",
+          "en": "Sleeping surface",
+          "value": "150 × 190 cm"
         }
       ]
     }

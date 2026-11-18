@@ -236,6 +236,9 @@ const ADOPT = {
   'CL SORIA SCHITA .png': 'schita-coltar-soria',
   'CP SORIA SCHITA .png': 'schita-canapea-extensibila-soria',
   'CL TORRO SCHITA .png': 'schita-coltar-torro',
+  // One sheet for Canapea Sonia and Canapea Vision, which the client says
+  // share their dimensions; both schematics entries point at it.
+  'dimensiuni sonia si vision.png': 'schita-canapea-sonia',
 }
 
 /**
