@@ -5,7 +5,7 @@ import { Reveal, RevealLines } from '~/components/Reveal'
 import { Cta, Eyebrow } from '~/components/UI'
 import { useI18n } from '~/lib/i18n'
 import { catalogues, type Catalogue } from '~/lib/catalogues'
-import { horeca, works, type ProjectGroup } from '~/lib/horeca'
+import { clips, horeca, works, type ProjectGroup } from '~/lib/horeca'
 import { sendInquiry } from '~/lib/inquiry'
 import { scrollTo, stopScroll } from '~/lib/scroll'
 import { expo, viewport } from '~/lib/motion'
@@ -85,6 +85,9 @@ export function Horeca() {
         <p className="mt-3 max-w-md text-[0.95rem] opacity-65">{copy.galleryLede}</p>
         <Projects />
       </section>
+
+      {/* ----------------------------------------------------------- films */}
+      {clips.length > 0 && <Films />}
 
       {/* ------------------------------------------- made to measure, fabric */}
       <section className="gutter mt-16 grid gap-10 md:mt-24 md:grid-cols-2 md:gap-12">
@@ -522,7 +525,54 @@ function Projects() {
 }
 
 /**
- * A silent clip in the projects rail. It loads nothing until it is near the
+ * The videos, set apart from the photographs on a dark band so they read as
+ * the page's moving centrepiece. Three tall frames side by side on a wide
+ * screen; on a phone they become a row to swipe.
+ */
+function Films() {
+  const { lang } = useI18n()
+  const copy = horeca[lang]
+  const [open, setOpen] = useState<number | null>(null)
+
+  return (
+    <section aria-labelledby="filme" className="mt-14 bg-night py-16 text-paper md:mt-20 md:py-24">
+      <div className="gutter flex flex-wrap items-end justify-between gap-x-10 gap-y-3">
+        <h2 id="filme" className="display-md">
+          <RevealLines lines={[copy.filmsTitle]} />
+        </h2>
+        <p className="max-w-sm text-[0.95rem] leading-relaxed text-paper/60">{copy.filmsLede}</p>
+      </div>
+
+      <ul className="-mb-2 mt-10 flex snap-x snap-mandatory gap-3 overflow-x-auto px-[var(--spacing-gutter)] pb-2 [scroll-padding-inline:var(--spacing-gutter)] [scrollbar-width:none] md:mt-14 md:grid md:grid-cols-3 md:gap-5 md:overflow-visible [&::-webkit-scrollbar]:hidden">
+        {clips.map((c, i) => (
+          <li key={c.src} className="w-[68vw] shrink-0 snap-start sm:w-[44vw] md:w-auto">
+            <button
+              type="button"
+              onClick={() => setOpen(i)}
+              className="group relative block aspect-[9/16] w-full overflow-hidden bg-paper/5 md:aspect-auto md:h-[min(68vh,580px)]"
+              aria-label={c.delivered[lang]}
+            >
+              <RailClip src={c.video!} poster={c.src} />
+            </button>
+            <p className="mt-3 flex items-baseline gap-3 text-sm">
+              <span className="tabular-nums text-paper/35">{String(i + 1).padStart(2, '0')}</span>
+              <span className="text-paper/75">{c.delivered[lang]}</span>
+            </p>
+          </li>
+        ))}
+      </ul>
+
+      <AnimatePresence>
+        {open !== null && (
+          <Lightbox items={clips} index={open} onIndex={setOpen} onClose={() => setOpen(null)} />
+        )}
+      </AnimatePresence>
+    </section>
+  )
+}
+
+/**
+ * A silent clip. It loads nothing until it is near the
  * screen, plays only while at least half of it is in view, and stays on its
  * poster for anyone who asks for reduced motion. The files carry no audio
  * track, so `muted` here is what lets browsers autoplay, not what keeps it quiet.
@@ -558,11 +608,6 @@ function RailClip({ src, poster }: { src: string; poster: string }) {
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
       />
-      <span className="absolute left-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-night/45 text-paper backdrop-blur-sm" aria-hidden>
-        <svg width="9" height="10" viewBox="0 0 9 10" fill="currentColor">
-          <path d="M0 0.5v9l8.5-4.5z" />
-        </svg>
-      </span>
     </>
   )
 }

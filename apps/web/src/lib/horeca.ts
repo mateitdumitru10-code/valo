@@ -35,6 +35,8 @@ export type HorecaCopy = {
   galleryEyebrow: string
   galleryTitle: string
   galleryLede: string
+  filmsTitle: string
+  filmsLede: string
   groups: Record<'all' | ProjectGroup, string>
   cataloguesEyebrow: string
   cataloguesTitle: string
@@ -114,6 +116,8 @@ const ro: HorecaCopy = {
   galleryEyebrow: 'Proiecte',
   galleryTitle: 'Lucrări realizate',
   galleryLede: 'Mobilier livrat în restaurante, hoteluri, terase și plaje.',
+  filmsTitle: 'Filmat în sală',
+  filmsLede: 'Trei restaurante mobilate de noi, filmate în sală.',
   groups: { all: 'Toate', restaurant: 'Restaurante și cafenele', hotel: 'Hoteluri', exterior: 'Terase și plaje' },
   cataloguesEyebrow: 'Cataloage',
   cataloguesTitle: 'Cataloage HoReCa',
@@ -202,6 +206,8 @@ const en: HorecaCopy = {
   galleryEyebrow: 'Projects',
   galleryTitle: 'Finished work',
   galleryLede: 'Furniture delivered to restaurants, hotels, terraces and beaches.',
+  filmsTitle: 'Filmed on site',
+  filmsLede: 'Three restaurants we furnished, filmed in the room.',
   groups: { all: 'All', restaurant: 'Restaurants and cafés', hotel: 'Hotels', exterior: 'Terraces and beaches' },
   cataloguesEyebrow: 'Catalogues',
   cataloguesTitle: 'HoReCa catalogues',
@@ -273,9 +279,15 @@ const clip = (name: string, group: ProjectGroup, ro: string, en: string): Work =
   video: `/proiecte/${name}.mp4`,
 })
 
+/** The three phone videos, shown in their own band under the photographs. */
+export const clips: Work[] = [
+  clip('restaurant-video-01', 'restaurant', 'Banchete, scaune și mese pentru sala de mese', 'Dining hall banquettes, chairs and tables'),
+  clip('restaurant-video-02', 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
+  clip('restaurant-video-03', 'restaurant', 'Banchete cu perne, scaune și mese', 'Cushioned banquettes, chairs and tables'),
+]
+
 export const works: Work[] = [
   work('restaurant-01', 1200, 1238, 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
-  clip('restaurant-video-01', 'restaurant', 'Banchete, scaune și mese pentru sala de mese', 'Dining hall banquettes, chairs and tables'),
   work('restaurant-05', 855, 551, 'restaurant', 'Banchete și scaune pentru sală', 'Banquettes and dining chairs'),
   work('hotel-01', 519, 325, 'hotel', 'Canapea pentru hol', 'Lobby sofa'),
   work('hotel-08', 1600, 1200, 'hotel', 'Paturi și tăblie capitonată', 'Beds and a tufted headboard'),
@@ -283,7 +295,6 @@ export const works: Work[] = [
   work('restaurant-11', 960, 1280, 'restaurant', 'Banchetă capitonată, scaune și mese', 'Channel-tufted banquette, chairs and tables'),
   work('restaurant-03', 681, 517, 'restaurant', 'Banchete capitonate', 'Channel-tufted banquettes'),
   work('hotel-03', 483, 382, 'hotel', 'Pat și tăblie tapițată', 'Bed and upholstered headboard'),
-  clip('restaurant-video-02', 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
   work('restaurant-07', 511, 309, 'restaurant', 'Banchete și scaune', 'Banquettes and chairs'),
   work('hotel-06', 960, 1280, 'hotel', 'Pat și panou tapițat de perete', 'Bed and upholstered wall panel'),
   work('exterior-01', 600, 335, 'exterior', 'Canapele, fotolii și mese de exterior', 'Outdoor sofas, armchairs and tables'),
@@ -293,7 +304,6 @@ export const works: Work[] = [
   work('restaurant-09', 960, 1280, 'restaurant', 'Banchete pentru sala de mese', 'Dining hall banquettes'),
   work('restaurant-02', 649, 485, 'restaurant', 'Scaune și mese', 'Chairs and tables'),
   work('exterior-02', 601, 345, 'exterior', 'Colțar și măsuțe pentru plajă', 'Beach corner sofa and tables'),
-  clip('restaurant-video-03', 'restaurant', 'Banchete cu perne, scaune și mese', 'Cushioned banquettes, chairs and tables'),
   work('hotel-07', 896, 769, 'hotel', 'Pat tapițat și canapea', 'Upholstered bed and sofa'),
   work('restaurant-06', 519, 309, 'restaurant', 'Banchetă și scaune', 'Banquette and chairs'),
   work('hotel-04', 458, 425, 'hotel', 'Pat și tăblie tapițată', 'Bed and upholstered headboard'),
