@@ -1,5 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
-import { AnimatePresence, motion } from 'motion/react'
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import clsx from 'clsx'
 import { Reveal, RevealLines } from '~/components/Reveal'
 import { Cta, Eyebrow } from '~/components/UI'
@@ -464,15 +464,19 @@ function Projects() {
                 style={{ aspectRatio: `${w.w} / ${w.h}` }}
                 aria-label={`${copy.groups[w.group]}: ${w.delivered[lang]}`}
               >
-                <img
-                  src={w.src}
-                  alt=""
-                  width={w.w}
-                  height={w.h}
-                  loading="lazy"
-                  decoding="async"
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
-                />
+                {w.video ? (
+                  <RailClip src={w.video} poster={w.src} />
+                ) : (
+                  <img
+                    src={w.src}
+                    alt=""
+                    width={w.w}
+                    height={w.h}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+                  />
+                )}
               </button>
               <figcaption className="mt-3 flex w-0 min-w-full items-baseline gap-3 text-sm">
                 <span className="tabular-nums opacity-35">{String(i + 1).padStart(2, '0')}</span>
@@ -517,6 +521,52 @@ function Projects() {
   )
 }
 
+/**
+ * A silent clip in the projects rail. It loads nothing until it is near the
+ * screen, plays only while at least half of it is in view, and stays on its
+ * poster for anyone who asks for reduced motion. The files carry no audio
+ * track, so `muted` here is what lets browsers autoplay, not what keeps it quiet.
+ */
+function RailClip({ src, poster }: { src: string; poster: string }) {
+  const ref = useRef<HTMLVideoElement>(null)
+  const still = useReducedMotion() ?? false
+
+  useEffect(() => {
+    const video = ref.current
+    if (!video || still) return
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) video.play().catch(() => {})
+        else video.pause()
+      },
+      { threshold: 0.5 },
+    )
+    io.observe(video)
+    return () => io.disconnect()
+  }, [still])
+
+  return (
+    <>
+      <video
+        ref={ref}
+        src={src}
+        poster={poster}
+        muted
+        loop
+        playsInline
+        preload="none"
+        aria-hidden
+        className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+      />
+      <span className="absolute left-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-night/45 text-paper backdrop-blur-sm" aria-hidden>
+        <svg width="9" height="10" viewBox="0 0 9 10" fill="currentColor">
+          <path d="M0 0.5v9l8.5-4.5z" />
+        </svg>
+      </span>
+    </>
+  )
+}
+
 function Lightbox({
   items,
   index,
@@ -531,6 +581,7 @@ function Lightbox({
   const { t, lang } = useI18n()
   const copy = horeca[lang]
   const item = items[index]
+  const still = useReducedMotion() ?? false
   const go = useCallback(
     (d: number) => onIndex((index + d + items.length) % items.length),
     [index, items.length, onIndex],
@@ -586,16 +637,35 @@ function Lightbox({
           if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1)
         }}
       >
-        <motion.img
-          key={item.src}
-          src={item.src}
-          alt={item.delivered[lang]}
-          initial={{ opacity: 0, scale: 0.985 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, ease: expo }}
-          onClick={(e) => e.stopPropagation()}
-          className="max-h-full max-w-full object-contain"
-        />
+        {item.video ? (
+          <motion.video
+            key={item.video}
+            src={item.video}
+            poster={item.src}
+            aria-label={item.delivered[lang]}
+            autoPlay={!still}
+            controls={still}
+            muted
+            loop
+            playsInline
+            initial={{ opacity: 0, scale: 0.985 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, ease: expo }}
+            onClick={(e) => e.stopPropagation()}
+            className="max-h-full max-w-full object-contain"
+          />
+        ) : (
+          <motion.img
+            key={item.src}
+            src={item.src}
+            alt={item.delivered[lang]}
+            initial={{ opacity: 0, scale: 0.985 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, ease: expo }}
+            onClick={(e) => e.stopPropagation()}
+            className="max-h-full max-w-full object-contain"
+          />
+        )}
         {items.length > 1 && (
           <>
             <button

@@ -241,6 +241,12 @@ export const horeca = { ro, en }
  * original resolution into public/proiecte. The catalogue names neither the
  * venues nor their cities, so neither is claimed here: each photograph says
  * only what kind of place it is and what was made for it.
+ *
+ * A second batch came from the client directly (docs/, 2026-11-18): eight
+ * photographs (`image copy 8`–`15`) and three phone videos of finished rooms.
+ * The videos are re-encoded with no audio track at all, so the page cannot
+ * play sound even by accident; `src` is then the poster frame. `hotel-07` is
+ * cropped clear of a slider's arrows and `restaurant-12` of a venue's logo.
  */
 export type ProjectGroup = 'restaurant' | 'hotel' | 'exterior'
 
@@ -250,6 +256,8 @@ export type Work = {
   h: number
   group: ProjectGroup
   delivered: { ro: string; en: string }
+  /** A silent MP4 shown in place of the photograph, which is its poster. */
+  video?: string
 }
 
 const work = (name: string, w: number, h: number, group: ProjectGroup, ro: string, en: string): Work => ({
@@ -260,22 +268,38 @@ const work = (name: string, w: number, h: number, group: ProjectGroup, ro: strin
   delivered: { ro, en },
 })
 
+const clip = (name: string, group: ProjectGroup, ro: string, en: string): Work => ({
+  ...work(name, 720, 1280, group, ro, en),
+  video: `/proiecte/${name}.mp4`,
+})
+
 export const works: Work[] = [
   work('restaurant-01', 1200, 1238, 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
+  clip('restaurant-video-01', 'restaurant', 'Banchete, scaune și mese pentru sala de mese', 'Dining hall banquettes, chairs and tables'),
   work('restaurant-05', 855, 551, 'restaurant', 'Banchete și scaune pentru sală', 'Banquettes and dining chairs'),
   work('hotel-01', 519, 325, 'hotel', 'Canapea pentru hol', 'Lobby sofa'),
+  work('hotel-08', 1600, 1200, 'hotel', 'Paturi și tăblie capitonată', 'Beds and a tufted headboard'),
   work('exterior-03', 586, 373, 'exterior', 'Banchete, scaune și mese pentru terasă', 'Terrace banquettes, chairs and tables'),
+  work('restaurant-11', 960, 1280, 'restaurant', 'Banchetă capitonată, scaune și mese', 'Channel-tufted banquette, chairs and tables'),
   work('restaurant-03', 681, 517, 'restaurant', 'Banchete capitonate', 'Channel-tufted banquettes'),
   work('hotel-03', 483, 382, 'hotel', 'Pat și tăblie tapițată', 'Bed and upholstered headboard'),
+  clip('restaurant-video-02', 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
   work('restaurant-07', 511, 309, 'restaurant', 'Banchete și scaune', 'Banquettes and chairs'),
+  work('hotel-06', 960, 1280, 'hotel', 'Pat și panou tapițat de perete', 'Bed and upholstered wall panel'),
   work('exterior-01', 600, 335, 'exterior', 'Canapele, fotolii și mese de exterior', 'Outdoor sofas, armchairs and tables'),
+  work('restaurant-12', 1504, 803, 'restaurant', 'Banchete și scaune', 'Banquettes and chairs'),
   work('restaurant-04', 583, 505, 'restaurant', 'Scaune tapițate', 'Upholstered chairs'),
   work('hotel-02', 511, 314, 'hotel', 'Canapea și fotoliu capitonate', 'Tufted sofa and armchair'),
+  work('restaurant-09', 960, 1280, 'restaurant', 'Banchete pentru sala de mese', 'Dining hall banquettes'),
   work('restaurant-02', 649, 485, 'restaurant', 'Scaune și mese', 'Chairs and tables'),
   work('exterior-02', 601, 345, 'exterior', 'Colțar și măsuțe pentru plajă', 'Beach corner sofa and tables'),
+  clip('restaurant-video-03', 'restaurant', 'Banchete cu perne, scaune și mese', 'Cushioned banquettes, chairs and tables'),
+  work('hotel-07', 896, 769, 'hotel', 'Pat tapițat și canapea', 'Upholstered bed and sofa'),
   work('restaurant-06', 519, 309, 'restaurant', 'Banchetă și scaune', 'Banquette and chairs'),
   work('hotel-04', 458, 425, 'hotel', 'Pat și tăblie tapițată', 'Bed and upholstered headboard'),
+  work('restaurant-10', 960, 1280, 'restaurant', 'Banchete, scaune și mese', 'Banquettes, chairs and tables'),
   work('exterior-04', 585, 335, 'exterior', 'Șezlonguri pentru plajă', 'Beach loungers'),
+  work('hotel-09', 1600, 1200, 'hotel', 'Paturi și tăblie capitonată', 'Beds and a tufted headboard'),
   work('restaurant-08', 473, 304, 'restaurant', 'Banchetă, scaune și masă', 'Banquette, chairs and table'),
   work('hotel-05', 504, 403, 'hotel', 'Pat și tăblie tapițată', 'Bed and upholstered headboard'),
 ]
