@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useState, type FormEvent, type ReactNode } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import clsx from 'clsx'
 import { Reveal, RevealLines } from '~/components/Reveal'
@@ -382,11 +382,11 @@ function HorecaForm() {
 }
 
 /**
- * Finished work: a filter by kind of venue, a grid that leads with the first
- * photograph at double size, and a lightbox to see each one larger.
+ * Finished work: a filter by kind of venue, one row of photographs at a
+ * fixed height that scrolls sideways, and a lightbox to see each one larger.
  */
 function Projects() {
-  const { lang } = useI18n()
+  const { t, lang } = useI18n()
   const copy = horeca[lang]
   const [group, setGroup] = useState<'all' | ProjectGroup>('all')
   const [open, setOpen] = useState<number | null>(null)
@@ -394,6 +394,29 @@ function Projects() {
   const groups = (['all', 'restaurant', 'hotel', 'exterior'] as const).filter(
     (g) => g === 'all' || works.some((w) => w.group === g),
   )
+
+  // One row that scrolls sideways, with a progress line and arrows under it.
+  const rail = useRef<HTMLDivElement>(null)
+  const [progress, setProgress] = useState(0)
+  const measure = useCallback(() => {
+    const el = rail.current
+    if (!el) return
+    const max = el.scrollWidth - el.clientWidth
+    setProgress(max > 0 ? el.scrollLeft / max : 1)
+  }, [])
+  const step = (d: number) => {
+    const el = rail.current
+    if (el) el.scrollBy({ left: d * el.clientWidth * 0.8, behavior: 'smooth' })
+  }
+  useEffect(() => {
+    rail.current?.scrollTo({ left: 0 })
+    const id = requestAnimationFrame(measure)
+    window.addEventListener('resize', measure)
+    return () => {
+      cancelAnimationFrame(id)
+      window.removeEventListener('resize', measure)
+    }
+  }, [group, measure])
 
   return (
     <>
@@ -418,41 +441,72 @@ function Projects() {
         ))}
       </div>
 
-      <motion.div layout className="mt-6 grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3">
+      <div
+        ref={rail}
+        onScroll={measure}
+        className="-mx-[var(--spacing-gutter)] mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-[var(--spacing-gutter)] pb-2 [scroll-padding-inline:var(--spacing-gutter)] [scrollbar-width:none] md:gap-4 [&::-webkit-scrollbar]:hidden"
+      >
         <AnimatePresence mode="popLayout" initial={false}>
           {shown.map((w, i) => (
-            <motion.button
+            <motion.figure
               layout
               key={w.src}
-              type="button"
-              onClick={() => setOpen(i)}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.45, ease: expo }}
-              className={clsx(
-                'group relative block overflow-hidden bg-mist text-left',
-                i === 0 ? 'col-span-2 row-span-2 aspect-square md:aspect-auto' : 'aspect-[4/3]',
-              )}
-              aria-label={`${copy.groups[w.group]}: ${w.delivered[lang]}`}
+              className="shrink-0 snap-start"
             >
-              <img
-                src={w.src}
-                alt=""
-                width={w.w}
-                height={w.h}
-                loading="lazy"
-                decoding="async"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
-              />
-              <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night/75 to-transparent px-3 pb-2.5 pt-10 text-paper opacity-0 transition-opacity duration-500 group-hover:opacity-100 md:px-4 md:pb-3">
-                <span className="eyebrow block text-paper/70">{copy.groups[w.group]}</span>
-                <span className="mt-1 block text-sm">{w.delivered[lang]}</span>
-              </span>
-            </motion.button>
+              <button
+                type="button"
+                onClick={() => setOpen(i)}
+                className="group relative block h-52 overflow-hidden bg-mist sm:h-64 md:h-72"
+                style={{ aspectRatio: `${w.w} / ${w.h}` }}
+                aria-label={`${copy.groups[w.group]}: ${w.delivered[lang]}`}
+              >
+                <img
+                  src={w.src}
+                  alt=""
+                  width={w.w}
+                  height={w.h}
+                  loading="lazy"
+                  decoding="async"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+                />
+              </button>
+              <figcaption className="mt-3 flex w-0 min-w-full items-baseline gap-3 text-sm">
+                <span className="tabular-nums opacity-35">{String(i + 1).padStart(2, '0')}</span>
+                <span className="truncate opacity-75">{w.delivered[lang]}</span>
+              </figcaption>
+            </motion.figure>
           ))}
         </AnimatePresence>
-      </motion.div>
+      </div>
+
+      <div className="mt-4 flex items-center gap-5">
+        <div className="relative h-px flex-1 bg-ink/12" aria-hidden>
+          <span
+            className="absolute inset-y-0 left-0 bg-ink transition-[width] duration-300"
+            style={{ width: `${Math.max(progress, 0.04) * 100}%` }}
+          />
+        </div>
+        <div className="flex gap-1">
+          {([-1, 1] as const).map((d) => (
+            <button
+              key={d}
+              type="button"
+              onClick={() => step(d)}
+              disabled={d < 0 ? progress <= 0.001 : progress >= 0.999}
+              aria-label={d < 0 ? t('horeca.prev') : t('horeca.next')}
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-ink/15 transition-[border-color,opacity] hover:border-ink disabled:opacity-30 disabled:hover:border-ink/15"
+            >
+              <svg width="14" height="14" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+                <path d={d < 0 ? 'M11 3L5 9l6 6' : 'M7 3l6 6-6 6'} />
+              </svg>
+            </button>
+          ))}
+        </div>
+      </div>
 
       <AnimatePresence>
         {open !== null && shown[open] && (
