@@ -42,10 +42,12 @@ export function InquiryForm({
   defaultPiece,
   defaultSize,
   defaultOption,
+  defaultExtras,
 }: {
   defaultPiece?: string
   defaultSize?: string
   defaultOption?: string
+  defaultExtras?: string
 }) {
   const { t } = useI18n()
   const [status, setStatus] = useState<Status>('idle')
@@ -136,11 +138,16 @@ export function InquiryForm({
             name="message"
             rows={4}
             defaultValue={
-              defaultSize
-                ? t('contact.sizePrefill').replace('{size}', defaultSize)
-                : defaultOption
-                  ? t('contact.optionPrefill').replace('{option}', defaultOption)
-                  : undefined
+              [
+                defaultSize
+                  ? t('contact.sizePrefill').replace('{size}', defaultSize)
+                  : defaultOption
+                    ? t('contact.optionPrefill').replace('{option}', defaultOption)
+                    : '',
+                defaultExtras ? t('contact.extrasPrefill').replace('{extras}', defaultExtras) : '',
+              ]
+                .filter(Boolean)
+                .join(' ') || undefined
             }
             placeholder={t('contact.messagePlaceholder')}
             className={clsx(inputClass, 'resize-none')}

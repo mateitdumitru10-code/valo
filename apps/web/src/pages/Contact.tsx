@@ -14,6 +14,8 @@ export function Contact() {
   const size = params.get('size') ?? undefined
   // Likewise a choice that is not a size — springs or Memory Foam in the seat.
   const option = params.get('option') ?? undefined
+  // A bed's add-ons — legs, nightstands — ride along the same way.
+  const extras = params.get('extras') ?? undefined
   const factory = locations.find((l) => l.kind === 'factory')!
 
   return (
@@ -56,7 +58,7 @@ export function Contact() {
         </div>
 
         <div className="md:col-span-7 md:col-start-6">
-          <InquiryForm defaultPiece={piece} defaultSize={size} defaultOption={option} />
+          <InquiryForm defaultPiece={piece} defaultSize={size} defaultOption={option} defaultExtras={extras} />
         </div>
       </section>
     </div>

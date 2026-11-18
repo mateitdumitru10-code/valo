@@ -4,6 +4,8 @@ import { AnimatePresence, motion } from 'motion/react'
 import clsx from 'clsx'
 import { Img } from '~/components/Img'
 import { SizePicker } from '~/components/SizePicker'
+import { BedExtras } from '~/components/BedExtras'
+import { describeExtras, extrasPrice } from '~/lib/bedExtras'
 import { TextilePicker } from '~/components/TextilePicker'
 import { Schematic } from '~/components/Schematic'
 import { PieceTabs, type Tab } from '~/components/PieceTabs'
@@ -41,6 +43,9 @@ export function PiecePage() {
   const piece = bySlug(slug)
   const [textile, setTextile] = useState(0)
   const [option, setOption] = useState(0)
+  const [leg, setLeg] = useState(0)
+  const [legColour, setLegColour] = useState(0)
+  const [withNightstands, setNightstands] = useState(false)
   // Prose, gallery, drawing and textiles live outside the bundle and arrive
   // here. The cover comes from the index, so the page has an image to show
   // from the first frame.
@@ -53,6 +58,9 @@ export function PiecePage() {
     setDetail(cachedPiece(slug))
     setTextile(0)
     setOption(0)
+    setLeg(0)
+    setLegColour(0)
+    setNightstands(false)
     loadPiece(slug).then((data) => {
       if (live) setDetail(data)
     })
@@ -85,7 +93,13 @@ export function PiecePage() {
   // option. A bed it does not cover has known widths and one price, and the
   // note under the figure must not claim the width chose it.
   const priced = items.some((item) => typeof item.price === 'number')
-  const price = formatPrice(items[chosen]?.price ?? piece.price, lang)
+  // Every bed takes the same add-ons — taller legs, a pair of nightstands —
+  // and the figure above the pickers is the bed with them.
+  const isBed = piece.category === 'beds'
+  const added = isBed ? extrasPrice(leg, withNightstands) : 0
+  const extras = isBed ? describeExtras(leg, legColour, withNightstands, lang) : ''
+  const base = items[chosen]?.price ?? piece.price
+  const price = formatPrice(base ? base + added : null, lang)
   const cover = (selected && images.find((img) => img.src === selected.src)) ?? images[0]
   // The other views of the piece — the angle, the side, the sofa opened out,
   // the storage box lifted. They are the atelier's record of the model, not the
@@ -328,7 +342,7 @@ export function PiecePage() {
                   {price}
                 </p>
                 <p className="mt-3 text-xs opacity-45">
-                  {t(priced && items.length > 1 ? 'piece.priceNoteOption' : 'piece.priceNote')}
+                  {t(added ? 'piece.priceNoteExtras' : priced && items.length > 1 ? 'piece.priceNoteOption' : 'piece.priceNote')}
                 </p>
                 <Rule className="mt-8" />
               </div>
@@ -350,13 +364,26 @@ export function PiecePage() {
               </div>
             )}
 
+            {isBed && (
+              <div className="mb-12">
+                <BedExtras
+                  leg={leg}
+                  onLeg={setLeg}
+                  colour={legColour}
+                  onColour={setLegColour}
+                  withNightstands={withNightstands}
+                  onNightstands={setNightstands}
+                />
+              </div>
+            )}
+
             <div>
               <ArrowLink
                 to={`/contact?piece=${encodeURIComponent(piece.name)}${
                   items.length > 1
                     ? `&${options?.kind === 'size' ? 'size' : 'option'}=${encodeURIComponent(lang === 'ro' ? items[chosen].ro : items[chosen].en)}`
                     : ''
-                }`}
+                }${extras ? `&extras=${encodeURIComponent(extras)}` : ''}`}
               >
                 {t('common.enquire')}
               </ArrowLink>
