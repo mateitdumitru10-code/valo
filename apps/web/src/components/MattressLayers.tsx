@@ -537,20 +537,3 @@ export function MattressLayers({ mattress }: { mattress: Mattress }) {
     </div>
   )
 }
-
-const noop = () => {}
-
-/** A card's picture: the model, assembled, opening into its layers on hover. */
-export function MattressThumb({ mattress, open }: { mattress: Mattress; open: boolean }) {
-  return (
-    <MattressDrawing
-      mattress={mattress}
-      active={null}
-      onActive={noop}
-      exploded={open}
-      onExploded={noop}
-      numbers={{}}
-      compact
-    />
-  )
-}

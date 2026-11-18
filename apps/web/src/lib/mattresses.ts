@@ -50,9 +50,24 @@ export type Mattress = {
   lede: Text
   /** Top to bottom, as the drawing stacks them. */
   layers: Layer[]
-  /** Workshop photographs, as `/media/saltele/{src}-{600,860}.webp`. */
-  photos: Photo[]
 }
+
+/**
+ * The two studio shots every model leads with, on white, as
+ * `/media/saltele/{slug}-{produs,straturi}-{700,1400}.webp`: the mattress cut
+ * open, then its foams stacked and labelled with their grades.
+ */
+export const shots = (m: Mattress) =>
+  [
+    {
+      src: `${m.slug}-produs`,
+      alt: { ro: `Salteaua ${m.name}, în secțiune`, en: `The ${m.name} mattress, in section` },
+    },
+    {
+      src: `${m.slug}-straturi`,
+      alt: { ro: `Straturile saltelei ${m.name}, cu densitățile lor`, en: `The layers of the ${m.name}, with their grades` },
+    },
+  ] satisfies Photo[]
 
 // ------------------------------------------------------------- shared layers --
 
@@ -202,10 +217,6 @@ export const mattresses: Mattress[] = [
       },
       coverBottom,
     ],
-    photos: [
-      { src: 'eflex-1', alt: { ro: 'Eflex în secțiune, din față', en: 'Eflex in section, from the front' } },
-      { src: 'eflex-2', alt: { ro: 'Eflex în secțiune, din lateral', en: 'Eflex in section, from the side' } },
-    ],
   },
   {
     slug: 'eflex-memory-foam',
@@ -254,16 +265,6 @@ export const mattresses: Mattress[] = [
       },
       coverBottom,
     ],
-    photos: [
-      {
-        src: 'eflex-memory-foam-1',
-        alt: { ro: 'Eflex Memory Foam în secțiune, din față', en: 'Eflex Memory Foam in section, from the front' },
-      },
-      {
-        src: 'eflex-memory-foam-2',
-        alt: { ro: 'Eflex Memory Foam în secțiune, din lateral', en: 'Eflex Memory Foam in section, from the side' },
-      },
-    ],
   },
   {
     slug: 'relaxa',
@@ -274,7 +275,6 @@ export const mattresses: Mattress[] = [
       en: 'Bonnell springs in a foam frame under a sheet of white foam, in a quilted Aloe Vera cover with a 3D mesh band round the sides.',
     },
     layers: [coverTop, relaxaSheet, springs, relaxaBase, coverBottom],
-    photos: [],
   },
   {
     slug: 'relaxa-memory-foam',
@@ -285,16 +285,6 @@ export const mattresses: Mattress[] = [
       en: 'Relaxa with a layer of memory foam on top: Bonnell springs in a foam frame, in a quilted Aloe Vera cover with a 3D mesh band round the sides.',
     },
     layers: [coverTop, { ...memoryFoam, draw: 4 }, relaxaSheet, springs, relaxaBase, coverBottom],
-    photos: [
-      {
-        src: 'relaxa-memory-foam-1',
-        alt: { ro: 'Relaxa Memory Foam în secțiune, din față', en: 'Relaxa Memory Foam in section, from the front' },
-      },
-      {
-        src: 'relaxa-memory-foam-2',
-        alt: { ro: 'Relaxa Memory Foam în secțiune, din lateral', en: 'Relaxa Memory Foam in section, from the side' },
-      },
-    ],
   },
 ]
 

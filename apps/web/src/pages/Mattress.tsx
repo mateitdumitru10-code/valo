@@ -2,7 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { Reveal, RevealImage, RevealLines } from '~/components/Reveal'
 import { Cta, Eyebrow } from '~/components/UI'
 import { MattressLayers } from '~/components/MattressLayers'
-import { bySlug, mattresses, sizes } from '~/lib/mattresses'
+import { bySlug, mattresses, shots, sizes } from '~/lib/mattresses'
 import { useI18n } from '~/lib/i18n'
 import { MattressCard } from '~/components/MattressCard'
 
@@ -13,13 +13,6 @@ const copy = {
     buildEyebrow: 'Construcție',
     buildTitle: 'Ce este înăuntru',
     buildLede: 'Treceți peste un strat pentru a-l vedea. Desenul păstrează proporțiile, nu cotele.',
-    photosEyebrow: 'Atelier',
-    photosTitle: 'Fotografiată în secțiune',
-    materialsTitle: 'Materialele, fotografiate în atelier',
-    materials: [
-      { src: 'husa', title: 'Husa', body: 'Tricot Aloe Vera, matlasat în valuri.' },
-      { src: 'plasa', title: 'Banda laterală', body: 'Plasă 3D, cu ochiuri deschise.' },
-    ],
     sizesEyebrow: 'Dimensiuni',
     sizesTitle: 'Pentru fiecare pat',
     sizesBody: 'Aceleași dimensiuni ca paturile din catalog. Prețurile și alte dimensiuni, la cerere.',
@@ -34,13 +27,6 @@ const copy = {
     buildEyebrow: 'Construction',
     buildTitle: 'What is inside',
     buildLede: 'Point at a layer to see it. The drawing keeps the proportions, not the measurements.',
-    photosEyebrow: 'Workshop',
-    photosTitle: 'Photographed in section',
-    materialsTitle: 'The materials, photographed in the workshop',
-    materials: [
-      { src: 'husa', title: 'The cover', body: 'Aloe Vera knit, quilted in waves.' },
-      { src: 'plasa', title: 'The side band', body: '3D mesh, with open cells.' },
-    ],
     sizesEyebrow: 'Sizes',
     sizesTitle: 'For every bed',
     sizesBody: 'The same sizes as the beds in the catalogue. Prices and other sizes on request.',
@@ -76,6 +62,26 @@ export function MattressPage() {
         </Reveal>
       </header>
 
+      {/* ------------------------------------------------------ studio shots */}
+      <section className="gutter mt-12 grid gap-6 sm:grid-cols-2 md:mt-16">
+        {shots(mattress).map((p, i) => (
+          <figure key={p.src}>
+            <RevealImage>
+              <img
+                src={`/media/saltele/${p.src}-1400.webp`}
+                srcSet={`/media/saltele/${p.src}-700.webp 700w, /media/saltele/${p.src}-1400.webp 1400w`}
+                sizes="(max-width: 640px) 92vw, 46vw"
+                alt={tx(p.alt)}
+                loading={i === 0 ? 'eager' : 'lazy'}
+                fetchPriority={i === 0 ? 'high' : 'auto'}
+                decoding="async"
+                className="aspect-[4/3] w-full bg-white object-contain p-[5%]"
+              />
+            </RevealImage>
+          </figure>
+        ))}
+      </section>
+
       {/* ------------------------------------------------------ construction */}
       <section className="gutter mt-16 border-t border-ink/12 pt-12 md:mt-24 md:pt-16">
         <div className="flex flex-wrap items-end justify-between gap-6">
@@ -91,54 +97,10 @@ export function MattressPage() {
         </div>
       </section>
 
-      {/* ------------------------------------------------- photographs */}
-      <section className="gutter mt-20 border-t border-ink/12 pt-12 md:mt-28 md:pt-16">
-        <Eyebrow index="02">{c.photosEyebrow}</Eyebrow>
-        <h2 className="display-md mt-4">{mattress.photos.length ? c.photosTitle : c.materialsTitle}</h2>
-        <div className="mt-10 grid gap-10 sm:grid-cols-2 sm:gap-6">
-          {mattress.photos.length
-            ? mattress.photos.map((p) => (
-                <figure key={p.src}>
-                  <RevealImage>
-                    <img
-                      src={`/media/saltele/${p.src}-860.webp`}
-                      srcSet={`/media/saltele/${p.src}-600.webp 600w, /media/saltele/${p.src}-860.webp 860w`}
-                      sizes="(max-width: 640px) 92vw, 46vw"
-                      alt={tx(p.alt)}
-                      loading="lazy"
-                      decoding="async"
-                      className="aspect-[4/5] w-full object-cover"
-                    />
-                  </RevealImage>
-                  <figcaption className="mt-4 text-sm opacity-60">{tx(p.alt)}</figcaption>
-                </figure>
-              ))
-            : c.materials.map((m) => (
-                <figure key={m.src}>
-                  <RevealImage>
-                    <img
-                      src={`/media/saltele/${m.src}-1200.webp`}
-                      srcSet={`/media/saltele/${m.src}-700.webp 700w, /media/saltele/${m.src}-1200.webp 1200w`}
-                      sizes="(max-width: 640px) 92vw, 46vw"
-                      alt={`${m.title} — ${m.body}`}
-                      loading="lazy"
-                      decoding="async"
-                      className="aspect-[4/5] w-full object-cover"
-                    />
-                  </RevealImage>
-                  <figcaption className="mt-4">
-                    <span className="block font-display text-lg">{m.title}</span>
-                    <span className="mt-1 block text-sm opacity-60">{m.body}</span>
-                  </figcaption>
-                </figure>
-              ))}
-        </div>
-      </section>
-
       {/* ------------------------------------------------------------- sizes */}
       <section className="gutter mt-20 grid gap-10 border-t border-ink/12 py-12 md:mt-28 md:grid-cols-12 md:py-16">
         <div className="md:col-span-5">
-          <Eyebrow index="03">{c.sizesEyebrow}</Eyebrow>
+          <Eyebrow index="02">{c.sizesEyebrow}</Eyebrow>
           <h2 className="display-md mt-4">{c.sizesTitle}</h2>
           <p className="mt-4 max-w-sm text-sm leading-relaxed opacity-65">{c.sizesBody}</p>
         </div>
