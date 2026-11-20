@@ -24,6 +24,7 @@ import { Horeca } from '~/pages/Horeca'
 import { Showrooms } from '~/pages/Showrooms'
 import { Contact } from '~/pages/Contact'
 import { NotFound } from '~/pages/NotFound'
+import { Privacy, TermsPage } from '~/pages/Legal'
 import { categories, collections, pieces } from '~/lib/catalog'
 
 const table = [
@@ -37,6 +38,8 @@ const table = [
   { path: '/horeca', element: <Horeca /> },
   { path: '/showroom-uri', element: <Showrooms /> },
   { path: '/contact', element: <Contact /> },
+  { path: '/confidentialitate', element: <Privacy /> },
+  { path: '/termeni', element: <TermsPage /> },
   { path: '*', element: <NotFound /> },
 ]
 
@@ -55,6 +58,8 @@ const urls = [
   '/horeca',
   '/showroom-uri',
   '/contact?piece=Canapea%20Toro',
+  '/confidentialitate',
+  '/termeni',
   '/nu-exista',
 ]
 

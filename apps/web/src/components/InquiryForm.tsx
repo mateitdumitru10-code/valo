@@ -6,6 +6,8 @@ import { pieces } from '~/lib/catalog'
 import { Cta } from './UI'
 import { expo } from '~/lib/motion'
 import { sendInquiry as send } from '~/lib/inquiry'
+import { Turnstile } from './Turnstile'
+import { PrivacyNote } from './PrivacyNote'
 
 type Status = 'idle' | 'sending' | 'sent' | 'error'
 type Errors = Partial<Record<'name' | 'email' | 'message', string>>
@@ -49,9 +51,11 @@ export function InquiryForm({
   defaultOption?: string
   defaultExtras?: string
 }) {
-  const { t } = useI18n()
+  const { t, lang } = useI18n()
   const [status, setStatus] = useState<Status>('idle')
   const [errors, setErrors] = useState<Errors>({})
+  // A Turnstile token is good for one try: a failed send gets a fresh widget.
+  const [attempt, setAttempt] = useState(0)
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -74,6 +78,7 @@ export function InquiryForm({
       form.reset()
     } catch {
       setStatus('error')
+      setAttempt((n) => n + 1)
     }
   }
 
@@ -92,8 +97,8 @@ export function InquiryForm({
 
   return (
     <form onSubmit={submit} noValidate className="grid gap-8 sm:grid-cols-2">
-      {/* Honeypot: invisible to people, irresistible to bots. Netlify drops any
-          submission that arrives with it filled in. */}
+      {/* Honeypot: invisible to people, irresistible to bots. The function
+          (functions/api/inquiries.ts) drops any request with it filled in. */}
       <input
         type="text"
         name="bot-field"
@@ -155,12 +160,16 @@ export function InquiryForm({
         </Field>
       </div>
 
+      <Turnstile key={attempt} lang={lang} />
+
       <div className="flex flex-wrap items-center gap-6 sm:col-span-2">
         <Cta type="submit" disabled={status === 'sending'}>
           {status === 'sending' ? t('contact.sending') : t('contact.submit')}
         </Cta>
         {status === 'error' && <p className="text-sm text-ember">{t('contact.error')}</p>}
       </div>
+
+      <PrivacyNote />
     </form>
   )
 }

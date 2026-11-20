@@ -63,6 +63,7 @@ function pageSource(path) {
   if (path === '/horeca') return 'src/pages/Horeca.tsx'
   if (path === '/showroom-uri') return 'src/pages/Showrooms.tsx'
   if (path === '/contact') return 'src/pages/Contact.tsx'
+  if (path === '/confidentialitate' || path === '/termeni') return 'src/pages/Legal.tsx'
   return 'src/pages/NotFound.tsx'
 }
 
@@ -119,6 +120,7 @@ const server = await createServer({
 
 let written = 0
 const problems = []
+let missingCompany = []
 const titles = new Map()
 
 try {
@@ -127,8 +129,10 @@ try {
     ...(await server.ssrLoadModule('/src/lib/seo.ts')),
     ...(await server.ssrLoadModule('/src/lib/catalog.ts')),
     ...(await server.ssrLoadModule('/src/prerender.tsx')),
+    ...(await server.ssrLoadModule('/src/lib/company.ts')),
   }
   const paths = app.sitePaths()
+  missingCompany = app.missingCompanyFields()
 
   async function write(path, file, { detail } = {}) {
     const body = await app.render(path)
@@ -180,7 +184,7 @@ try {
     await write(path, path === '/' ? 'index.html' : `${path.slice(1)}.html`, { detail })
   }
 
-  // Anything the site does not serve. Cloudflare Pages and Netlify both answer
+  // Anything the site does not serve. Cloudflare Pages answers
   // an unknown address with this file and a 404 status.
   await write('/404', '404.html')
 
@@ -210,8 +214,6 @@ try {
       'User-agent: *',
       // The quote form posts here; nothing to index.
       'Disallow: /api/',
-      // Netlify Forms' detection stub, not a page.
-      'Disallow: /__forms.html',
       '',
       `Sitemap: ${site}/sitemap.xml`,
       '',
@@ -230,3 +232,9 @@ if (problems.length) {
   process.exitCode = 1
 }
 console.log(`prerender: ${written} pages, sitemap and robots.txt written`)
+if (missingCompany.length) {
+  // Not an error: staging builds go out before the client has sent these. But
+  // the footer and the legal pages are incomplete until they are filled in
+  // src/lib/company.ts, and the site must not be released like that.
+  console.warn(`prerender: ⚠ not releasable yet — missing in src/lib/company.ts: ${missingCompany.join(', ')}`)
+}

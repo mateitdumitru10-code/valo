@@ -21,6 +21,8 @@ const MattressPage = lazyPage(() => import('~/pages/Mattress').then((m) => m.Mat
 const Horeca = lazyPage(() => import('~/pages/Horeca').then((m) => m.Horeca))
 const Showrooms = lazyPage(() => import('~/pages/Showrooms').then((m) => m.Showrooms))
 const Contact = lazyPage(() => import('~/pages/Contact').then((m) => m.Contact))
+const Privacy = lazyPage(() => import('~/pages/Legal').then((m) => m.Privacy))
+const TermsPage = lazyPage(() => import('~/pages/Legal').then((m) => m.TermsPage))
 export const NotFound = lazyPage(() => import('~/pages/NotFound').then((m) => m.NotFound))
 
 /** The pages, by route — read by <App/> and by `preloadFor`. */
@@ -37,6 +39,8 @@ export const PAGES = [
   ['/horeca', Horeca],
   ['/showroom-uri', Showrooms],
   ['/contact', Contact],
+  ['/confidentialitate', Privacy],
+  ['/termeni', TermsPage],
 ] as const
 
 /** Fetches the page an address opens on, so the first render does not suspend. */

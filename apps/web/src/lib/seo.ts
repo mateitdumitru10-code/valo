@@ -30,6 +30,8 @@ import { horeca } from './horeca'
 import { bySlug as mattressBySlug, mattresses } from './mattresses'
 import { translate, type Key } from './i18n'
 import { locations, mainPhoneHref } from './showrooms'
+import { legalDocs } from './legal'
+import { company } from './company'
 
 /** The production address. Canonicals, the sitemap and preview images are built on it. */
 export const SITE_URL = 'https://vallo.ro'
@@ -92,7 +94,11 @@ const organization: JsonLd = {
   '@id': `${SITE_URL}/#organization`,
   name: BRAND,
   url: `${SITE_URL}/`,
+  logo: absolute('/icon-512.png'),
   telephone: mainPhoneHref,
+  ...(company.email ? { email: company.email } : {}),
+  ...(company.legalName ? { legalName: company.legalName } : {}),
+  ...(company.cui ? { vatID: company.cui } : {}),
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Sat Ungureni',
@@ -100,6 +106,24 @@ const organization: JsonLd = {
     addressRegion: 'Prahova',
     addressCountry: 'RO',
   },
+}
+
+const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+const RO_DAYS = ['Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă', 'Duminică']
+
+/**
+ * "Luni–Vineri 10:00–19:00" as schema.org opening hours. A line that is not a
+ * day range and two times ("Vizite pe bază de programare") is left out.
+ */
+function openingHours(hours: { ro: string }[]): JsonLd[] {
+  return hours.flatMap(({ ro: line }) => {
+    const m = line.match(/^(\p{L}+)(?:–(\p{L}+))? (\d{2}:\d{2})–(\d{2}:\d{2})$/u)
+    if (!m) return []
+    const from = RO_DAYS.indexOf(m[1])
+    const to = m[2] ? RO_DAYS.indexOf(m[2]) : from
+    if (from < 0 || to < from) return []
+    return [{ '@type': 'OpeningHoursSpecification', dayOfWeek: DAYS.slice(from, to + 1), opens: m[3], closes: m[4] }]
+  })
 }
 
 const breadcrumbs = (trail: [string, string][]): JsonLd => ({
@@ -405,8 +429,13 @@ export function pageMeta(pathname: string): Meta {
         {
           ...organization,
           location: locations.map((l) => ({
-            '@type': 'Place',
-            name: l.kind === 'factory' ? l.name : `${l.name}, ${l.city}`,
+            '@type': l.kind === 'showroom' ? 'FurnitureStore' : 'Place',
+            '@id': `${SITE_URL}/showroom-uri#${l.id}`,
+            name: l.kind === 'factory' ? l.name : `${BRAND} — ${l.name}, ${l.city}`,
+            ...(l.kind === 'showroom'
+              ? { parentOrganization: { '@id': `${SITE_URL}/#organization` }, url: absolute(path), image: absolute(DEFAULT_IMAGE) }
+              : {}),
+            ...(openingHours(l.hours).length ? { openingHoursSpecification: openingHours(l.hours) } : {}),
             telephone: `+4${l.phone.replace(/\s/g, '')}`,
             address: {
               '@type': 'PostalAddress',
@@ -453,6 +482,16 @@ export function pageMeta(pathname: string): Meta {
       description: clip(`${ro('contact.lede')} Telefon ${factory.phone}.`),
       path,
       jsonLd: graph(organization, breadcrumbs([['Contact', path]])),
+    })
+  }
+
+  const legal = legalDocs.find((d) => d.path === path)
+  if (legal) {
+    return page({
+      title: `${legal.title} | ${BRAND}`,
+      description: clip(legal.lede),
+      path,
+      jsonLd: graph(breadcrumbs([[legal.title, path]])),
     })
   }
 
@@ -548,6 +587,7 @@ export function sitePaths() {
     '/horeca',
     '/showroom-uri',
     '/contact',
+    ...legalDocs.map((d) => d.path),
   ]
 }
 

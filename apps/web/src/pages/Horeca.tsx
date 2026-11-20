@@ -7,6 +7,8 @@ import { useI18n } from '~/lib/i18n'
 import { catalogues, type Catalogue } from '~/lib/catalogues'
 import { clips, horeca, works, type ProjectGroup } from '~/lib/horeca'
 import { sendInquiry } from '~/lib/inquiry'
+import { Turnstile } from '~/components/Turnstile'
+import { PrivacyNote } from '~/components/PrivacyNote'
 import { scrollTo, stopScroll } from '~/lib/scroll'
 import { expo, viewport } from '~/lib/motion'
 
@@ -294,6 +296,7 @@ function HorecaForm() {
   const f = horeca[lang].form
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [errors, setErrors] = useState<Errors>({})
+  const [attempt, setAttempt] = useState(0)
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -316,6 +319,7 @@ function HorecaForm() {
     try {
       const res = await sendInquiry({
         'bot-field': data['bot-field'] ?? '',
+        'cf-turnstile-response': data['cf-turnstile-response'] ?? '',
         name: `HoReCa · ${data.venue} · ${data.city.trim()}`,
         email: isEmail ? contact : '',
         phone: isEmail ? '' : contact,
@@ -331,6 +335,7 @@ function HorecaForm() {
       form.reset()
     } catch {
       setStatus('error')
+      setAttempt((n) => n + 1)
     }
   }
 
@@ -374,12 +379,16 @@ function HorecaForm() {
         <input id="h-contact" name="contact" className={inputClass} autoComplete="email" />
       </Field>
 
+      <Turnstile key={attempt} lang={lang} />
+
       <div className="flex flex-wrap items-center gap-6 sm:col-span-2">
         <Cta type="submit" disabled={status === 'sending'}>
           {status === 'sending' ? f.sending : f.submit}
         </Cta>
         {status === 'error' && <p className="text-sm text-ember">{t('contact.error')}</p>}
       </div>
+
+      <PrivacyNote />
     </form>
   )
 }

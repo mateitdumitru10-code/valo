@@ -3,8 +3,17 @@ import { useI18n } from '~/lib/i18n'
 import { collectionName, collections } from '~/lib/catalog'
 import { locations, mainPhone, mainPhoneHref, parentSite } from '~/lib/showrooms'
 import { Rule } from './UI'
+import { company } from '~/lib/company'
 
 const year = new Date().getFullYear()
+
+const identity = [
+  company.legalName,
+  company.cui && `CUI ${company.cui}`,
+  company.regCom && `Reg. Com. ${company.regCom}`,
+  company.seat && `Sediu: ${company.seat}`,
+  company.email,
+].filter((x): x is string => Boolean(x))
 
 export function Footer() {
   const { t } = useI18n()
@@ -110,6 +119,35 @@ export function Footer() {
           © {year} Vallo — {t('footer.rights')}
         </p>
         <p className="eyebrow">Vadu Săpat · Prahova · România</p>
+      </div>
+
+      {/* The seller's identity (Law 365/2002) and the consumer-protection
+          links (ANPC Order 449/2022). A fact the client has not sent yet is
+          left out here; src/lib/company.ts lists what is missing. */}
+      <div className="mt-5 flex flex-col gap-4 text-xs opacity-55 lg:flex-row lg:items-start lg:justify-between">
+        {identity.length > 0 && <p className="max-w-xl leading-relaxed">{identity.join(' · ')}</p>}
+        <ul className="flex flex-wrap gap-x-5 gap-y-2">
+          <li>
+            <Link to="/confidentialitate" className="hover:opacity-100 hover:underline">
+              {t('footer.privacy')}
+            </Link>
+          </li>
+          <li>
+            <Link to="/termeni" className="hover:opacity-100 hover:underline">
+              {t('footer.terms')}
+            </Link>
+          </li>
+          <li>
+            <a href="https://anpc.ro" target="_blank" rel="noreferrer" className="hover:underline">
+              {t('footer.anpc')}
+            </a>
+          </li>
+          <li>
+            <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noreferrer" className="hover:underline">
+              {t('footer.sal')}
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   )
