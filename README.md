@@ -131,10 +131,10 @@ cannot show.
 ## The hero
 
 `components/HeroFilm.tsx` — the clip is the hero, and the scroll is its transport.
-`public/media/hero.mp4` is stretched across five screens of scrolling (`LENGTH`):
-stop scrolling and the frame holds; scroll and it advances. Its duration is read
-from the file, so replacing the clip needs no code change. Four chapter captions
-and the elapsed-seconds readout ride the same scroll progress. Under
+It is stretched across several screens of scrolling (`LENGTH`): stop scrolling
+and the frame holds; scroll and it advances. Its duration is read from the
+file, so replacing the clip needs no code change. Chapter captions and the
+elapsed-seconds readout ride the same scroll progress. Under
 `prefers-reduced-motion` the section collapses to one screen and is never
 scrubbed.
 
@@ -142,50 +142,42 @@ The playhead is eased toward the scroll position in a rAF loop (`CHASE`) rather
 than assigned on every scroll event — queuing seeks faster than the decoder
 retires them is what makes naive scrubbing stutter.
 
-The footage is landscape (1280×720) and fills the frame with `object-cover` at
-every width. An earlier portrait clip needed an ambient canvas fill either side
-of it; that clip and that code are both gone.
+### The clips
 
-### Encoding the clip
+`bash scripts/hero.sh` cuts three files from the 4K render in `docs/`, every
+frame a keyframe (`-g 1`) so any seek decodes one frame, `+faststart` so the
+browser can seek before the whole file arrives:
 
-Two things matter, and both are invisible locally — the file reads off an SSD
-instantly, so problems only appear once it is served over a network.
+| File | Size | Served to |
+| --- | --- | --- |
+| `bed-portrait.mp4` | 600×800, ~1.2 MB | portrait screens under 1024px — the middle of the frame, which is all a phone's cover-crop shows |
+| `bed-1080.mp4` | 1920×1080, ~4.7 MB | 1024px and wider |
+| `bed-720.mp4` | 1280×720, ~2.3 MB | everything else |
 
-- **`+movflags faststart`.** Phone and camera exports put the `moov` index at the
-  end of the file. Until the browser has that index it cannot decode a frame,
-  report a duration or seek, so it downloads the whole clip first: a black hero
-  and a dead scrub until it finishes.
-- **A short GOP.** Seeking decodes forward from the nearest keyframe, so sparse
-  keyframes make scrubbing lag. `-g 6` puts one every twelfth of a second at the
-  clip's 72.5fps. All-intra (`-g 1`) is smoother still but doubled the file here
-  for no visible gain.
-- **Frames, not seconds.** Scrub resolution is the frame count, not the running
-  time. The 6s export was compressed to 2s by `setpts` with `-r 145/2` rather
-  than trimmed, so all 145 frames survive: the camera move still runs end to
-  end, and the scroll covers it in a third of the timeline. The odd frame rate
-  is the point — rounding it down would throw frames away, and 720p at 72.5fps
-  is H.264 Level 4.2, which every current browser decodes.
+The browser picks from `<source media>` in the prerendered HTML
+(`src/lib/hero.ts`), and the posters are the stage's CSS background per
+orientation. Rename the files when the footage changes: `/media` is cached for
+a week.
 
-```bash
-# 6.048s of source into 2s, every frame kept: 145 / 2 = 72.5fps
-ffmpeg -i source.mp4 -an -vf "setpts=(2/6.048)*PTS" -r 145/2 \
-  -c:v libx264 -crf 23 -preset slow \
-  -g 6 -keyint_min 6 -sc_threshold 0 -pix_fmt yuv420p -movflags +faststart \
-  apps/web/public/media/hero.mp4
+## Performance notes
 
-# poster: first frame, graded to match the house look
-ffmpeg -i apps/web/public/media/hero.mp4 -vf "select=eq(n\,0)" -vframes 1 poster.png
-```
-
-Dropping the audio track (`-an`) is free — the hero is muted by definition.
-The current clip is 1.45 MB and 2.0 seconds, from a 9.2 MB export. Encode from
-that export rather than from the shipped file: a second pass over an encode
-costs about 40% more bytes at the same `crf` for no more picture.
+- **Entrances are CSS** (`components/Reveal.tsx`, "Entrances" in `global.css`),
+  started by the inline script in `index.html`. The prerendered page is
+  *hydrated*, so content paints from the HTML and nothing animates twice.
+  Never give prerendered content a hidden starting state that only JavaScript
+  can lift.
+- `src/prerender.tsx` sets `progressiveChunkSize` so React keeps each page's
+  content in place instead of streaming it to the end of the document.
+- **Fonts:** the plain latin files plus Romanian's letters cut from latin-ext
+  (`sh scripts/fonts.sh`, needs fonttools). Re-run after upgrading fontsource.
+- **Textile chips** are 240px renditions written by `scripts/swatches.mjs`.
+- **Icons:** `pnpm icons` renders the PNGs and manifest from `favicon.svg`.
 
 ## Type and palette
 
 - Display: **Bodoni Moda** — the didone contrast of the wordmark.
-- Text: **Schibsted Grotesk**.
+- Text: **Helvetica Neue** where installed, otherwise **Inter Tight**
+  (self-hosted).
 - Bone `#EFEBE2`, ink `#14120F`, night `#0D0C0A`, ember `#A8492A` used sparingly.
 - Square corners throughout; hairlines instead of cards; a paper-grain overlay on
   photography.

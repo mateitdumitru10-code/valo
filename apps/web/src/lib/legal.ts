@@ -27,7 +27,7 @@ export const privacy: LegalDoc = {
       heading: 'Ce date primim',
       body: [
         'Prin formularul de cerere de ofertă și prin formularul HoReCa: numele, adresa de email și/sau numărul de telefon, produsul care vă interesează și mesajul pe care ni-l scrieți. Nu cerem și nu vă rugăm să ne trimiteți alte date.',
-        'Date tehnice: la fiecare vizită, furnizorul de găzduire înregistrează automat adresa IP, tipul browserului și paginile accesate, pentru funcționarea și securitatea site-ului. Verificarea anti-spam a formularelor (Cloudflare Turnstile) folosește aceleași date tehnice pentru a deosebi o persoană de un program automat.',
+        'Date tehnice: la fiecare vizită, furnizorul de găzduire înregistrează automat adresa IP, tipul browserului și paginile accesate, pentru funcționarea și securitatea site-ului. Dacă este activată, verificarea anti-spam a formularelor (Cloudflare Turnstile) folosește aceleași date tehnice pentru a deosebi o persoană de un program automat.',
       ],
     },
     {
