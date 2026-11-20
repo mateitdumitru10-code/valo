@@ -33,11 +33,10 @@ export const company: Company = {
   cui: 'RO17713165',
   regCom: 'J29/1382/2005',
   seat: 'Sat Ungureni, Comuna Vadu Săpat, nr. FN, județul Prahova',
-  // Waiting for contact@vallo.ro (Cloudflare Email Routing). Samobi's own
-  // site lists a Gmail address and a canapelebucuresti.ro address for GDPR;
-  // neither belongs on VALLO.
-  email: null,
-  privacyEmail: null,
+  // Cloudflare Email Routing forwards it to the team's inbox; the site never
+  // names that inbox, so it can change without touching the site.
+  email: 'contact@vallo.ro',
+  privacyEmail: 'contact@vallo.ro',
 }
 
 /** Terms of sale: what the client decides. Each is a phrase that reads inside a sentence. */
