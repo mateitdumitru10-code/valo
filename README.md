@@ -8,8 +8,9 @@ quote request, which is how a distribution business actually sells.
 
 ```
 apps/web     Vite + React 19 + TypeScript + Tailwind v4 + Motion + Lenis
-apps/api     Express 5 — catalogue endpoints, quote requests, static host in prod
-scripts/     Catalogue ingest, image pipeline, contact sheets
+apps/api     Express 5 — local development only: catalogue endpoints, quote requests
+functions/   Cloudflare Pages Functions — POST /api/inquiries in production
+scripts/     Catalogue ingest, image pipeline, prerender, icons, link check
 data/        Generated catalogue + curation manifest
 media-src/   Original imagery (gitignored — regenerate with `pnpm ingest`)
 ```
@@ -22,11 +23,43 @@ pnpm data      # fetch the Samobi catalogue + build optimised imagery (first run
 pnpm dev       # api on :8787, web on :5173 (proxying /api)
 ```
 
-Production:
+## Deploying
+
+The site is hosted on **Cloudflare Pages** (project `valo`), which builds on
+every push to `main`: build command `pnpm build`, output `apps/web/dist`, and
+`functions/` at the project root for the one dynamic route. Every page is
+prerendered to static HTML; `apps/web/public/_headers` and `_redirects` carry
+the caching, security headers, noindex for the `pages.dev` hosts, and old-URL
+redirects. Production is **https://vallo.ro** (`SITE_URL` in
+`apps/web/src/lib/seo.ts`).
+
+Before a release:
 
 ```bash
-pnpm build && pnpm start   # Express serves apps/web/dist and /api on :8787
+pnpm typecheck && pnpm smoke && pnpm build && pnpm links
 ```
+
+`pnpm build` prints `⚠ not releasable yet` while any company fact or term of
+sale in `apps/web/src/lib/company.ts` is still `null` — those feed the footer
+and the two legal pages, `/confidentialitate` and `/termeni`.
+
+### The quote form
+
+Both forms POST JSON to `/api/inquiries`. In production that is
+`functions/api/inquiries.ts`, which emails the request through Resend; in
+development Vite proxies it to Express, which appends to `data/inquiries.jsonl`.
+Set these in the Pages project (Settings → Variables and secrets):
+
+| Variable                 | Where     | Notes                                                      |
+| ------------------------ | --------- | ---------------------------------------------------------- |
+| `RESEND_API_KEY`         | function  | secret, required — without it the form answers 503         |
+| `INQUIRY_TO`             | function  | recipient(s), comma-separated, required                    |
+| `INQUIRY_FROM`           | function  | e.g. `VALLO <site@vallo.ro>` once vallo.ro is verified     |
+| `TURNSTILE_SECRET`       | function  | secret, optional — when set, a Turnstile token is required |
+| `VITE_TURNSTILE_SITE_KEY`| build     | optional — renders the Turnstile widget on both forms      |
+
+Set the two Turnstile values together: a secret without a site key rejects
+every request.
 
 ## The catalogue pipeline
 
@@ -184,5 +217,5 @@ the thirteen pieces the list does not cover keep their Samobi price.
 | GET    | `/api/products/:slug`   |                                          |
 | POST   | `/api/inquiries`        | quote request → `data/inquiries.jsonl`   |
 
-Quote requests are validated server-side and rate limited to 5/minute per IP.
-Wiring them to email or a CRM is a one-function change in `apps/api/src/server.js`.
+This API runs in development only. In production the catalogue is bundled and
+prerendered, and only `POST /api/inquiries` exists, as a Pages Function.

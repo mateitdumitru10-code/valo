@@ -16,7 +16,9 @@
     "data": "node scripts/ingest.mjs && node scripts/adopt.mjs && node scripts/media.mjs",
     "sheets": "node scripts/contact-sheet.mjs",
     "typecheck": "pnpm --filter @valo/web exec tsc -b --noEmit",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/smoke.mjs",
+    "icons": "node scripts/icons.mjs",
+    "links": "node scripts/check-links.mjs"
   },
   "devDependencies": {
     "concurrently": "^9.2.4",

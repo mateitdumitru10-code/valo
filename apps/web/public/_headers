@@ -1,5 +1,14 @@
-# Cloudflare Pages reads this from the build output; Netlify takes the same
-# rules from netlify.toml.
+# Cloudflare Pages reads this from the build output.
+
+# Every response. No framing by other sites, no MIME sniffing, the full
+# referrer only to ourselves, and no access to device features the site never
+# uses. HSTS is deliberately absent until vallo.ro is live on HTTPS: once a
+# browser has seen it, it cannot be taken back for the max-age.
+/*
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  referrer-policy: strict-origin-when-cross-origin
+  permissions-policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
 
 # Vite hashes these filenames, so they can never change under the same name.
 /assets/*
