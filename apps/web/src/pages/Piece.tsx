@@ -332,7 +332,7 @@ export function PiecePage() {
                     alt={
                       selected ? `${piece.name} — ${selected.tone[lang]}` : piece.name
                     }
-                    sizes="(max-width: 768px) 100vw, 64vw"
+                    sizes="(max-width: 768px) calc(100vw - 2.5rem), 64vw"
                     priority
                     className="h-full w-full"
                   />
@@ -459,10 +459,10 @@ export function PiecePage() {
                       alt={[piece.name, label ?? `${i + 2}`, tone].filter(Boolean).join(' — ')}
                       sizes={
                         solo
-                          ? '(max-width: 768px) 100vw, 62vw'
+                          ? '(max-width: 768px) calc(100vw - 2.5rem), 62vw'
                           : wide
-                            ? '(max-width: 640px) 100vw, 92vw'
-                            : '(max-width: 640px) 100vw, 46vw'
+                            ? '(max-width: 640px) calc(100vw - 2.5rem), 92vw'
+                            : '(max-width: 640px) calc(100vw - 2.5rem), 46vw'
                       }
                       className="aspect-[4/3] w-full"
                     />

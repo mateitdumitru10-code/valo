@@ -8,6 +8,7 @@ import { NotFound, PAGES } from '~/routes'
 import { applyHead, pageMeta } from '~/lib/seo'
 import { cachedPiece, loadPiece } from '~/lib/catalog'
 import { scrollToTop } from '~/lib/scroll'
+import { markHydrated } from '~/components/Img'
 import { expo } from '~/lib/motion'
 
 /**
@@ -49,6 +50,9 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  // After the first commit — the hydration of the prerendered page — images
+  // that mount from here on fade in (components/Img.tsx).
+  useEffect(markHydrated, [])
   const location = useLocation()
 
   return (
@@ -58,7 +62,10 @@ export default function App() {
       <Nav />
       <ScrollToTop />
 
-      <AnimatePresence mode="wait">
+      {/* initial={false}: the first page is the prerendered one, already on
+          screen. Fading it in from opacity 0 hid every page's content until
+          the JavaScript had loaded. Only later route changes cross-fade. */}
+      <AnimatePresence mode="wait" initial={false}>
         <motion.main
           key={location.pathname}
           initial={{ opacity: 0 }}

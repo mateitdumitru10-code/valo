@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, type CSSProperties } from 'react'
 import { SearchIcon } from '~/components/Search'
 import { searchPieces } from '~/lib/search'
 import { useSearchParams } from 'react-router-dom'
@@ -125,11 +125,14 @@ export function Pieces() {
       )}
 
       <section className="gutter grid grid-cols-1 gap-x-6 gap-y-14 py-16 sm:grid-cols-2 lg:grid-cols-3">
-        <AnimatePresence mode="popLayout">
+        <AnimatePresence mode="popLayout" initial={false}>
           {list.map((piece, i) => (
             <motion.div
               key={piece.slug}
               layout
+              data-rv=""
+              className="rv-fade"
+              style={{ '--i': Math.min(i, 8) } as CSSProperties}
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}

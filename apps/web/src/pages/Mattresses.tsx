@@ -1,10 +1,9 @@
-import { motion } from 'motion/react'
+import type { CSSProperties } from 'react'
 import { Reveal, RevealLines } from '~/components/Reveal'
 import { Eyebrow } from '~/components/UI'
 import { MattressCard } from '~/components/MattressCard'
 import { mattresses } from '~/lib/mattresses'
 import { useI18n } from '~/lib/i18n'
-import { expo } from '~/lib/motion'
 
 const copy = {
   ro: {
@@ -41,14 +40,9 @@ export function Mattresses() {
 
       <section className="gutter mt-14 grid grid-cols-1 gap-x-6 gap-y-14 border-t border-ink/12 py-16 sm:grid-cols-2">
         {mattresses.map((m, i) => (
-          <motion.div
-            key={m.slug}
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: expo, delay: i * 0.05 }}
-          >
+          <div key={m.slug} data-rv="" className="rv-up" style={{ '--i': i } as CSSProperties}>
             <MattressCard mattress={m} index={i} />
-          </motion.div>
+          </div>
         ))}
       </section>
     </div>

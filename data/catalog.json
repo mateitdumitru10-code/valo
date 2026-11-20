@@ -587,7 +587,7 @@
       "variants": [
         {
           "src": "coltar-aldo-c1",
-          "chip": "/media/coltar-aldo-c1-700.webp",
+          "chip": "/media/coltar-aldo-c1-chip.webp",
           "swatch": "#938980",
           "tone": {
             "ro": "Greige",
@@ -596,7 +596,7 @@
         },
         {
           "src": "coltar-aldo-c7",
-          "chip": "/media/coltar-aldo-c7-700.webp",
+          "chip": "/media/coltar-aldo-c7-chip.webp",
           "swatch": "#96816f",
           "tone": {
             "ro": "Bej",
@@ -605,7 +605,7 @@
         },
         {
           "src": "coltar-aldo-c2",
-          "chip": "/media/coltar-aldo-c2-700.webp",
+          "chip": "/media/coltar-aldo-c2-chip.webp",
           "swatch": "#bc9a97",
           "tone": {
             "ro": "Roz prăfuit",
@@ -614,7 +614,7 @@
         },
         {
           "src": "coltar-aldo-c3",
-          "chip": "/media/coltar-aldo-c3-700.webp",
+          "chip": "/media/coltar-aldo-c3-chip.webp",
           "swatch": "#30302f",
           "tone": {
             "ro": "Antracit",
@@ -623,7 +623,7 @@
         },
         {
           "src": "coltar-aldo-c4",
-          "chip": "/media/coltar-aldo-c4-700.webp",
+          "chip": "/media/coltar-aldo-c4-chip.webp",
           "swatch": "#37331c",
           "tone": {
             "ro": "Verde oliv",
@@ -632,7 +632,7 @@
         },
         {
           "src": "coltar-aldo-c5",
-          "chip": "/media/coltar-aldo-c5-700.webp",
+          "chip": "/media/coltar-aldo-c5-chip.webp",
           "swatch": "#7b3a22",
           "tone": {
             "ro": "Teracotă",
@@ -641,7 +641,7 @@
         },
         {
           "src": "coltar-aldo-c6",
-          "chip": "/media/coltar-aldo-c6-700.webp",
+          "chip": "/media/coltar-aldo-c6-chip.webp",
           "swatch": "#2d1d16",
           "tone": {
             "ro": "Maro închis",
@@ -1021,7 +1021,7 @@
       "variants": [
         {
           "src": "canapea-sonia-extensibila-c6",
-          "chip": "/media/canapea-sonia-extensibila-c6-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c6-chip.webp",
           "swatch": "#30331f",
           "tone": {
             "ro": "Verde oliv",
@@ -1030,7 +1030,7 @@
         },
         {
           "src": "canapea-sonia-extensibila-c1",
-          "chip": "/media/canapea-sonia-extensibila-c1-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c1-chip.webp",
           "swatch": "#ac9885",
           "tone": {
             "ro": "Bej",
@@ -1039,7 +1039,7 @@
         },
         {
           "src": "canapea-sonia-extensibila-c3",
-          "chip": "/media/canapea-sonia-extensibila-c3-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c3-chip.webp",
           "swatch": "#b3b1af",
           "tone": {
             "ro": "Gri deschis",
@@ -1048,7 +1048,7 @@
         },
         {
           "src": "canapea-sonia-studio-1",
-          "chip": "/media/canapea-sonia-studio-1-700.webp",
+          "chip": "/media/canapea-sonia-studio-1-chip.webp",
           "swatch": "#44676d",
           "tone": {
             "ro": "Petrol",
@@ -1057,7 +1057,7 @@
         },
         {
           "src": "canapea-sonia-extensibila-c5",
-          "chip": "/media/canapea-sonia-extensibila-c5-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c5-chip.webp",
           "swatch": "#102016",
           "tone": {
             "ro": "Verde smarald",
@@ -1066,7 +1066,7 @@
         },
         {
           "src": "canapea-sonia-extensibila-c4",
-          "chip": "/media/canapea-sonia-extensibila-c4-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c4-chip.webp",
           "swatch": "#2a221e",
           "tone": {
             "ro": "Ciocolată",
@@ -1075,7 +1075,7 @@
         },
         {
           "src": "canapea-sonia-extensibila-c2",
-          "chip": "/media/canapea-sonia-extensibila-c2-700.webp",
+          "chip": "/media/canapea-sonia-extensibila-c2-chip.webp",
           "swatch": "#313131",
           "tone": {
             "ro": "Antracit",
@@ -1451,7 +1451,7 @@
       "variants": [
         {
           "src": "pat-fantezie-c2",
-          "chip": "/media/pat-fantezie-c2-700.webp",
+          "chip": "/media/pat-fantezie-c2-chip.webp",
           "swatch": "#998779",
           "tone": {
             "ro": "Greige",
@@ -1460,7 +1460,7 @@
         },
         {
           "src": "pat-fantezie-c4",
-          "chip": "/media/pat-fantezie-c4-700.webp",
+          "chip": "/media/pat-fantezie-c4-chip.webp",
           "swatch": "#9b826e",
           "tone": {
             "ro": "Taupe",
@@ -1469,7 +1469,7 @@
         },
         {
           "src": "pat-fantezie-c1",
-          "chip": "/media/pat-fantezie-c1-700.webp",
+          "chip": "/media/pat-fantezie-c1-chip.webp",
           "swatch": "#86532a",
           "tone": {
             "ro": "Coniac",
@@ -1478,7 +1478,7 @@
         },
         {
           "src": "pat-fantezie-c3",
-          "chip": "/media/pat-fantezie-c3-700.webp",
+          "chip": "/media/pat-fantezie-c3-chip.webp",
           "swatch": "#38391d",
           "tone": {
             "ro": "Verde oliv",
@@ -1487,7 +1487,7 @@
         },
         {
           "src": "pat-fantezie-c6",
-          "chip": "/media/pat-fantezie-c6-700.webp",
+          "chip": "/media/pat-fantezie-c6-chip.webp",
           "swatch": "#032349",
           "tone": {
             "ro": "Bleumarin",
@@ -1496,7 +1496,7 @@
         },
         {
           "src": "pat-fantezie-c7",
-          "chip": "/media/pat-fantezie-c7-700.webp",
+          "chip": "/media/pat-fantezie-c7-chip.webp",
           "swatch": "#350a10",
           "tone": {
             "ro": "Bordo",
@@ -1505,7 +1505,7 @@
         },
         {
           "src": "pat-fantezie-c5",
-          "chip": "/media/pat-fantezie-c5-700.webp",
+          "chip": "/media/pat-fantezie-c5-chip.webp",
           "swatch": "#2e1f17",
           "tone": {
             "ro": "Ciocolată",
@@ -1885,7 +1885,7 @@
       "variants": [
         {
           "src": "coltar-extensibil-eco-c1",
-          "chip": "/media/coltar-extensibil-eco-c1-700.webp",
+          "chip": "/media/coltar-extensibil-eco-c1-chip.webp",
           "swatch": "#ae9988",
           "tone": {
             "ro": "Bej",
@@ -1894,7 +1894,7 @@
         },
         {
           "src": "coltar-extensibil-eco-c2",
-          "chip": "/media/coltar-extensibil-eco-c2-700.webp",
+          "chip": "/media/coltar-extensibil-eco-c2-chip.webp",
           "swatch": "#37331c",
           "tone": {
             "ro": "Verde oliv",
@@ -1903,7 +1903,7 @@
         },
         {
           "src": "coltar-extensibil-eco-c4",
-          "chip": "/media/coltar-extensibil-eco-c4-700.webp",
+          "chip": "/media/coltar-extensibil-eco-c4-chip.webp",
           "swatch": "#1b2c47",
           "tone": {
             "ro": "Bleumarin",
@@ -1912,7 +1912,7 @@
         },
         {
           "src": "coltar-extensibil-eco-studio-1",
-          "chip": "/media/coltar-extensibil-eco-studio-1-700.webp",
+          "chip": "/media/coltar-extensibil-eco-studio-1-chip.webp",
           "swatch": "#353434",
           "tone": {
             "ro": "Antracit",
@@ -1921,7 +1921,7 @@
         },
         {
           "src": "coltar-extensibil-eco-c3",
-          "chip": "/media/coltar-extensibil-eco-c3-700.webp",
+          "chip": "/media/coltar-extensibil-eco-c3-chip.webp",
           "swatch": "#2f221a",
           "tone": {
             "ro": "Ciocolată",
@@ -2311,7 +2311,7 @@
       "variants": [
         {
           "src": "coltar-eco-2-c6",
-          "chip": "/media/coltar-eco-2-c6-700.webp",
+          "chip": "/media/coltar-eco-2-c6-chip.webp",
           "swatch": "#646233",
           "tone": {
             "ro": "Verde oliv, perne crem",
@@ -2320,7 +2320,7 @@
         },
         {
           "src": "coltar-eco-2-c1",
-          "chip": "/media/coltar-eco-2-c1-700.webp",
+          "chip": "/media/coltar-eco-2-c1-chip.webp",
           "swatch": "#685647",
           "tone": {
             "ro": "Ciocolată",
@@ -2329,7 +2329,7 @@
         },
         {
           "src": "coltar-eco-2-c2",
-          "chip": "/media/coltar-eco-2-c2-700.webp",
+          "chip": "/media/coltar-eco-2-c2-chip.webp",
           "swatch": "#50161d",
           "tone": {
             "ro": "Bordo",
@@ -2338,7 +2338,7 @@
         },
         {
           "src": "coltar-eco-2-c3",
-          "chip": "/media/coltar-eco-2-c3-700.webp",
+          "chip": "/media/coltar-eco-2-c3-chip.webp",
           "swatch": "#8a827b",
           "tone": {
             "ro": "Greige",
@@ -2347,7 +2347,7 @@
         },
         {
           "src": "coltar-eco-2-c4",
-          "chip": "/media/coltar-eco-2-c4-700.webp",
+          "chip": "/media/coltar-eco-2-c4-chip.webp",
           "swatch": "#152f50",
           "tone": {
             "ro": "Bleumarin",
@@ -2356,7 +2356,7 @@
         },
         {
           "src": "coltar-eco-2-c5",
-          "chip": "/media/coltar-eco-2-c5-700.webp",
+          "chip": "/media/coltar-eco-2-c5-chip.webp",
           "swatch": "#4d4d38",
           "tone": {
             "ro": "Verde oliv",
@@ -2736,7 +2736,7 @@
       "variants": [
         {
           "src": "pat-panouri-dreptunghiulare-studio-1",
-          "chip": "/media/pat-panouri-dreptunghiulare-studio-1-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-studio-1-chip.webp",
           "swatch": "#afaba8",
           "tone": {
             "ro": "Gri deschis",
@@ -2745,7 +2745,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c6",
-          "chip": "/media/pat-panouri-dreptunghiulare-c6-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c6-chip.webp",
           "swatch": "#a99283",
           "tone": {
             "ro": "Taupe",
@@ -2754,7 +2754,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c3",
-          "chip": "/media/pat-panouri-dreptunghiulare-c3-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c3-chip.webp",
           "swatch": "#cca29c",
           "tone": {
             "ro": "Roz pudră",
@@ -2763,7 +2763,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c5",
-          "chip": "/media/pat-panouri-dreptunghiulare-c5-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c5-chip.webp",
           "swatch": "#b47d65",
           "tone": {
             "ro": "Teracotă",
@@ -2772,7 +2772,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c2",
-          "chip": "/media/pat-panouri-dreptunghiulare-c2-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c2-chip.webp",
           "swatch": "#ad791d",
           "tone": {
             "ro": "Muștar",
@@ -2781,7 +2781,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c1",
-          "chip": "/media/pat-panouri-dreptunghiulare-c1-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c1-chip.webp",
           "swatch": "#19434d",
           "tone": {
             "ro": "Petrol",
@@ -2790,7 +2790,7 @@
         },
         {
           "src": "pat-panouri-dreptunghiulare-c4",
-          "chip": "/media/pat-panouri-dreptunghiulare-c4-700.webp",
+          "chip": "/media/pat-panouri-dreptunghiulare-c4-chip.webp",
           "swatch": "#3c1f2c",
           "tone": {
             "ro": "Prună",
@@ -3159,7 +3159,7 @@
       "variants": [
         {
           "src": "coltar-soria-c1",
-          "chip": "/media/coltar-soria-c1-700.webp",
+          "chip": "/media/coltar-soria-c1-chip.webp",
           "swatch": "#383a2b",
           "tone": {
             "ro": "Verde oliv",
@@ -3168,7 +3168,7 @@
         },
         {
           "src": "coltar-soria-c2",
-          "chip": "/media/coltar-soria-c2-700.webp",
+          "chip": "/media/coltar-soria-c2-chip.webp",
           "swatch": "#1f1511",
           "tone": {
             "ro": "Ciocolată",
@@ -3177,7 +3177,7 @@
         },
         {
           "src": "coltar-soria-c3",
-          "chip": "/media/coltar-soria-c3-700.webp",
+          "chip": "/media/coltar-soria-c3-chip.webp",
           "swatch": "#7e544e",
           "tone": {
             "ro": "Roz prăfuit",
@@ -3186,7 +3186,7 @@
         },
         {
           "src": "coltar-soria-c4",
-          "chip": "/media/coltar-soria-c4-700.webp",
+          "chip": "/media/coltar-soria-c4-chip.webp",
           "swatch": "#84817d",
           "tone": {
             "ro": "Gri deschis",
@@ -3195,7 +3195,7 @@
         },
         {
           "src": "coltar-soria-c5",
-          "chip": "/media/coltar-soria-c5-700.webp",
+          "chip": "/media/coltar-soria-c5-chip.webp",
           "swatch": "#6d5f53",
           "tone": {
             "ro": "Bej",
@@ -3204,7 +3204,7 @@
         },
         {
           "src": "coltar-soria-c6",
-          "chip": "/media/coltar-soria-c6-700.webp",
+          "chip": "/media/coltar-soria-c6-chip.webp",
           "swatch": "#b3a395",
           "tone": {
             "ro": "Bej cu perne verde oliv",
@@ -3616,7 +3616,7 @@
       "variants": [
         {
           "src": "canapea-extensibila-soria-c6",
-          "chip": "/media/canapea-extensibila-soria-c6-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c6-chip.webp",
           "swatch": "#96897b",
           "tone": {
             "ro": "Bej",
@@ -3625,7 +3625,7 @@
         },
         {
           "src": "canapea-extensibila-soria-c1",
-          "chip": "/media/canapea-extensibila-soria-c1-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c1-chip.webp",
           "swatch": "#af9c8a",
           "tone": {
             "ro": "Taupe",
@@ -3634,7 +3634,7 @@
         },
         {
           "src": "canapea-soria-studio-1",
-          "chip": "/media/canapea-soria-studio-1-700.webp",
+          "chip": "/media/canapea-soria-studio-1-chip.webp",
           "swatch": "#024764",
           "tone": {
             "ro": "Petrol",
@@ -3643,7 +3643,7 @@
         },
         {
           "src": "canapea-extensibila-soria-c5",
-          "chip": "/media/canapea-extensibila-soria-c5-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c5-chip.webp",
           "swatch": "#072049",
           "tone": {
             "ro": "Albastru regal",
@@ -3652,7 +3652,7 @@
         },
         {
           "src": "canapea-extensibila-soria-c2",
-          "chip": "/media/canapea-extensibila-soria-c2-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c2-chip.webp",
           "swatch": "#333521",
           "tone": {
             "ro": "Verde oliv",
@@ -3661,7 +3661,7 @@
         },
         {
           "src": "canapea-extensibila-soria-c4",
-          "chip": "/media/canapea-extensibila-soria-c4-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c4-chip.webp",
           "swatch": "#b15031",
           "tone": {
             "ro": "Teracotă",
@@ -3670,7 +3670,7 @@
         },
         {
           "src": "canapea-extensibila-soria-c3",
-          "chip": "/media/canapea-extensibila-soria-c3-700.webp",
+          "chip": "/media/canapea-extensibila-soria-c3-chip.webp",
           "swatch": "#2c1e16",
           "tone": {
             "ro": "Ciocolată",
@@ -4334,7 +4334,7 @@
       "variants": [
         {
           "src": "coltar-cubiq-studio-1",
-          "chip": "/media/coltar-cubiq-studio-1-700.webp",
+          "chip": "/media/coltar-cubiq-studio-1-chip.webp",
           "swatch": "#6b6a6a",
           "tone": {
             "ro": "Gri",
@@ -4343,7 +4343,7 @@
         },
         {
           "src": "coltar-cubic-fix-c1",
-          "chip": "/media/coltar-cubic-fix-c1-700.webp",
+          "chip": "/media/coltar-cubic-fix-c1-chip.webp",
           "swatch": "#97826f",
           "tone": {
             "ro": "Bej",
@@ -4352,7 +4352,7 @@
         },
         {
           "src": "coltar-cubic-fix-c2",
-          "chip": "/media/coltar-cubic-fix-c2-700.webp",
+          "chip": "/media/coltar-cubic-fix-c2-chip.webp",
           "swatch": "#c79996",
           "tone": {
             "ro": "Roz prăfuit",
@@ -4361,7 +4361,7 @@
         },
         {
           "src": "coltar-cubic-fix-c3",
-          "chip": "/media/coltar-cubic-fix-c3-700.webp",
+          "chip": "/media/coltar-cubic-fix-c3-chip.webp",
           "swatch": "#383720",
           "tone": {
             "ro": "Verde oliv",
@@ -4370,7 +4370,7 @@
         },
         {
           "src": "coltar-cubic-fix-c4",
-          "chip": "/media/coltar-cubic-fix-c4-700.webp",
+          "chip": "/media/coltar-cubic-fix-c4-chip.webp",
           "swatch": "#212c19",
           "tone": {
             "ro": "Verde închis",
@@ -4379,7 +4379,7 @@
         },
         {
           "src": "coltar-cubic-fix-c5",
-          "chip": "/media/coltar-cubic-fix-c5-700.webp",
+          "chip": "/media/coltar-cubic-fix-c5-chip.webp",
           "swatch": "#0b2b4e",
           "tone": {
             "ro": "Albastru regal",
@@ -4388,7 +4388,7 @@
         },
         {
           "src": "coltar-cubic-fix-c6",
-          "chip": "/media/coltar-cubic-fix-c6-700.webp",
+          "chip": "/media/coltar-cubic-fix-c6-chip.webp",
           "swatch": "#7f3a23",
           "tone": {
             "ro": "Teracotă",
@@ -4397,7 +4397,7 @@
         },
         {
           "src": "coltar-cubic-fix-c7",
-          "chip": "/media/coltar-cubic-fix-c7-700.webp",
+          "chip": "/media/coltar-cubic-fix-c7-chip.webp",
           "swatch": "#2d2017",
           "tone": {
             "ro": "Maro închis",
@@ -4782,7 +4782,7 @@
       "variants": [
         {
           "src": "canapea-cubiq-studio-1",
-          "chip": "/media/canapea-cubiq-studio-1-700.webp",
+          "chip": "/media/canapea-cubiq-studio-1-chip.webp",
           "swatch": "#979596",
           "tone": {
             "ro": "Gri deschis",
@@ -4791,7 +4791,7 @@
         },
         {
           "src": "canapea-cubiq-c1",
-          "chip": "/media/canapea-cubiq-c1-700.webp",
+          "chip": "/media/canapea-cubiq-c1-chip.webp",
           "swatch": "#93806d",
           "tone": {
             "ro": "Bej",
@@ -4800,7 +4800,7 @@
         },
         {
           "src": "canapea-cubiq-c2",
-          "chip": "/media/canapea-cubiq-c2-700.webp",
+          "chip": "/media/canapea-cubiq-c2-chip.webp",
           "swatch": "#cb9996",
           "tone": {
             "ro": "Roz prăfuit",
@@ -4809,7 +4809,7 @@
         },
         {
           "src": "canapea-cubiq-c3",
-          "chip": "/media/canapea-cubiq-c3-700.webp",
+          "chip": "/media/canapea-cubiq-c3-chip.webp",
           "swatch": "#605552",
           "tone": {
             "ro": "Gri șifonat",
@@ -4818,7 +4818,7 @@
         },
         {
           "src": "canapea-cubiq-c4",
-          "chip": "/media/canapea-cubiq-c4-700.webp",
+          "chip": "/media/canapea-cubiq-c4-chip.webp",
           "swatch": "#996234",
           "tone": {
             "ro": "Coniac",
@@ -4827,7 +4827,7 @@
         },
         {
           "src": "canapea-cubiq-c5",
-          "chip": "/media/canapea-cubiq-c5-700.webp",
+          "chip": "/media/canapea-cubiq-c5-chip.webp",
           "swatch": "#8b4229",
           "tone": {
             "ro": "Teracotă",
@@ -4836,7 +4836,7 @@
         },
         {
           "src": "canapea-cubiq-c6",
-          "chip": "/media/canapea-cubiq-c6-700.webp",
+          "chip": "/media/canapea-cubiq-c6-chip.webp",
           "swatch": "#31301a",
           "tone": {
             "ro": "Verde oliv",
@@ -4845,7 +4845,7 @@
         },
         {
           "src": "canapea-cubiq-c7",
-          "chip": "/media/canapea-cubiq-c7-700.webp",
+          "chip": "/media/canapea-cubiq-c7-chip.webp",
           "swatch": "#061833",
           "tone": {
             "ro": "Bleumarin",
@@ -4854,7 +4854,7 @@
         },
         {
           "src": "canapea-cubiq-c8",
-          "chip": "/media/canapea-cubiq-c8-700.webp",
+          "chip": "/media/canapea-cubiq-c8-chip.webp",
           "swatch": "#3b1318",
           "tone": {
             "ro": "Bordo",
@@ -5169,7 +5169,7 @@
       "variants": [
         {
           "src": "coltar-vallo-studio-1",
-          "chip": "/media/coltar-vallo-studio-1-700.webp",
+          "chip": "/media/coltar-vallo-studio-1-chip.webp",
           "swatch": "#978269",
           "tone": {
             "ro": "Crem",
@@ -5178,7 +5178,7 @@
         },
         {
           "src": "coltar-vallo-c1",
-          "chip": "/media/coltar-vallo-c1-700.webp",
+          "chip": "/media/coltar-vallo-c1-chip.webp",
           "swatch": "#7e3118",
           "tone": {
             "ro": "Teracotă",
@@ -5187,7 +5187,7 @@
         },
         {
           "src": "coltar-vallo-c2",
-          "chip": "/media/coltar-vallo-c2-700.webp",
+          "chip": "/media/coltar-vallo-c2-chip.webp",
           "swatch": "#2f2d17",
           "tone": {
             "ro": "Verde oliv",
@@ -5196,7 +5196,7 @@
         },
         {
           "src": "coltar-vallo-c3",
-          "chip": "/media/coltar-vallo-c3-700.webp",
+          "chip": "/media/coltar-vallo-c3-chip.webp",
           "swatch": "#041830",
           "tone": {
             "ro": "Bleumarin",
@@ -5205,7 +5205,7 @@
         },
         {
           "src": "coltar-vallo-c4",
-          "chip": "/media/coltar-vallo-c4-700.webp",
+          "chip": "/media/coltar-vallo-c4-chip.webp",
           "swatch": "#320f14",
           "tone": {
             "ro": "Bordo",
@@ -5214,7 +5214,7 @@
         },
         {
           "src": "coltar-vallo-c5",
-          "chip": "/media/coltar-vallo-c5-700.webp",
+          "chip": "/media/coltar-vallo-c5-chip.webp",
           "swatch": "#21160f",
           "tone": {
             "ro": "Maro închis",
@@ -5569,7 +5569,7 @@
       "variants": [
         {
           "src": "pat-sun-c2",
-          "chip": "/media/pat-sun-c2-700.webp",
+          "chip": "/media/pat-sun-c2-chip.webp",
           "swatch": "#ae9d87",
           "tone": {
             "ro": "Bej",
@@ -5578,7 +5578,7 @@
         },
         {
           "src": "pat-sun-c4",
-          "chip": "/media/pat-sun-c4-700.webp",
+          "chip": "/media/pat-sun-c4-chip.webp",
           "swatch": "#cd9b94",
           "tone": {
             "ro": "Roz pudră",
@@ -5587,7 +5587,7 @@
         },
         {
           "src": "pat-sun-c5",
-          "chip": "/media/pat-sun-c5-700.webp",
+          "chip": "/media/pat-sun-c5-chip.webp",
           "swatch": "#a36a54",
           "tone": {
             "ro": "Teracotă",
@@ -5596,7 +5596,7 @@
         },
         {
           "src": "pat-sun-studio-1",
-          "chip": "/media/pat-sun-studio-1-700.webp",
+          "chip": "/media/pat-sun-studio-1-chip.webp",
           "swatch": "#a37b2c",
           "tone": {
             "ro": "Muștar",
@@ -5605,7 +5605,7 @@
         },
         {
           "src": "pat-sun-c1",
-          "chip": "/media/pat-sun-c1-700.webp",
+          "chip": "/media/pat-sun-c1-chip.webp",
           "swatch": "#2f311c",
           "tone": {
             "ro": "Verde oliv",
@@ -5614,7 +5614,7 @@
         },
         {
           "src": "pat-sun-c6",
-          "chip": "/media/pat-sun-c6-700.webp",
+          "chip": "/media/pat-sun-c6-chip.webp",
           "swatch": "#163946",
           "tone": {
             "ro": "Petrol",
@@ -5623,7 +5623,7 @@
         },
         {
           "src": "pat-sun-c3",
-          "chip": "/media/pat-sun-c3-700.webp",
+          "chip": "/media/pat-sun-c3-chip.webp",
           "swatch": "#231811",
           "tone": {
             "ro": "Ciocolată",
@@ -6353,7 +6353,7 @@
       "variants": [
         {
           "src": "pat-colt-c1",
-          "chip": "/media/pat-colt-c1-700.webp",
+          "chip": "/media/pat-colt-c1-chip.webp",
           "swatch": "#4f4c38",
           "tone": {
             "ro": "Verde oliv",
@@ -6362,7 +6362,7 @@
         },
         {
           "src": "pat-colt-c2",
-          "chip": "/media/pat-colt-c2-700.webp",
+          "chip": "/media/pat-colt-c2-chip.webp",
           "swatch": "#1a344f",
           "tone": {
             "ro": "Bleumarin",
@@ -6371,7 +6371,7 @@
         },
         {
           "src": "pat-colt-c3",
-          "chip": "/media/pat-colt-c3-700.webp",
+          "chip": "/media/pat-colt-c3-chip.webp",
           "swatch": "#4c1b21",
           "tone": {
             "ro": "Bordo",
@@ -6380,7 +6380,7 @@
         },
         {
           "src": "pat-colt-c4",
-          "chip": "/media/pat-colt-c4-700.webp",
+          "chip": "/media/pat-colt-c4-chip.webp",
           "swatch": "#4e382c",
           "tone": {
             "ro": "Ciocolată",
@@ -6389,7 +6389,7 @@
         },
         {
           "src": "pat-colt-c5",
-          "chip": "/media/pat-colt-c5-700.webp",
+          "chip": "/media/pat-colt-c5-chip.webp",
           "swatch": "#856865",
           "tone": {
             "ro": "Roz prăfuit",
@@ -6794,7 +6794,7 @@
       "variants": [
         {
           "src": "coltar-soria-in-forma-de-u-c1",
-          "chip": "/media/coltar-soria-in-forma-de-u-c1-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c1-chip.webp",
           "swatch": "#7e6f61",
           "tone": {
             "ro": "Taupe",
@@ -6803,7 +6803,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c2",
-          "chip": "/media/coltar-soria-in-forma-de-u-c2-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c2-chip.webp",
           "swatch": "#a38279",
           "tone": {
             "ro": "Roz prăfuit",
@@ -6812,7 +6812,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c3",
-          "chip": "/media/coltar-soria-in-forma-de-u-c3-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c3-chip.webp",
           "swatch": "#2d3022",
           "tone": {
             "ro": "Verde oliv",
@@ -6821,7 +6821,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c4",
-          "chip": "/media/coltar-soria-in-forma-de-u-c4-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c4-chip.webp",
           "swatch": "#302019",
           "tone": {
             "ro": "Ciocolată",
@@ -6830,7 +6830,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c5",
-          "chip": "/media/coltar-soria-in-forma-de-u-c5-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c5-chip.webp",
           "swatch": "#9b4f37",
           "tone": {
             "ro": "Teracotă",
@@ -6839,7 +6839,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c6",
-          "chip": "/media/coltar-soria-in-forma-de-u-c6-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c6-chip.webp",
           "swatch": "#16324e",
           "tone": {
             "ro": "Bleumarin",
@@ -6848,7 +6848,7 @@
         },
         {
           "src": "coltar-soria-in-forma-de-u-c7",
-          "chip": "/media/coltar-soria-in-forma-de-u-c7-700.webp",
+          "chip": "/media/coltar-soria-in-forma-de-u-c7-chip.webp",
           "swatch": "#b89768",
           "tone": {
             "ro": "Muștar",
@@ -7196,7 +7196,7 @@
       "variants": [
         {
           "src": "coltar-torro-c1",
-          "chip": "/media/coltar-torro-c1-700.webp",
+          "chip": "/media/coltar-torro-c1-chip.webp",
           "swatch": "#7b6956",
           "tone": {
             "ro": "Bej",
@@ -7205,7 +7205,7 @@
         },
         {
           "src": "coltar-torro-c2",
-          "chip": "/media/coltar-torro-c2-700.webp",
+          "chip": "/media/coltar-torro-c2-chip.webp",
           "swatch": "#343522",
           "tone": {
             "ro": "Verde oliv",
@@ -7214,7 +7214,7 @@
         },
         {
           "src": "coltar-torro-c3",
-          "chip": "/media/coltar-torro-c3-700.webp",
+          "chip": "/media/coltar-torro-c3-chip.webp",
           "swatch": "#a58178",
           "tone": {
             "ro": "Roz prăfuit",
@@ -7223,7 +7223,7 @@
         },
         {
           "src": "coltar-torro-c4",
-          "chip": "/media/coltar-torro-c4-700.webp",
+          "chip": "/media/coltar-torro-c4-chip.webp",
           "swatch": "#1e0809",
           "tone": {
             "ro": "Bordo",
@@ -7232,7 +7232,7 @@
         },
         {
           "src": "coltar-torro-c5",
-          "chip": "/media/coltar-torro-c5-700.webp",
+          "chip": "/media/coltar-torro-c5-chip.webp",
           "swatch": "#878683",
           "tone": {
             "ro": "Gri deschis",
@@ -7241,7 +7241,7 @@
         },
         {
           "src": "coltar-torro-c6",
-          "chip": "/media/coltar-torro-c6-700.webp",
+          "chip": "/media/coltar-torro-c6-chip.webp",
           "swatch": "#684934",
           "tone": {
             "ro": "Camel",
@@ -7613,7 +7613,7 @@
       "variants": [
         {
           "src": "pat-aldo-c1",
-          "chip": "/media/pat-aldo-c1-700.webp",
+          "chip": "/media/pat-aldo-c1-chip.webp",
           "swatch": "#92897f",
           "tone": {
             "ro": "Greige",
@@ -7622,7 +7622,7 @@
         },
         {
           "src": "pat-aldo-c2",
-          "chip": "/media/pat-aldo-c2-700.webp",
+          "chip": "/media/pat-aldo-c2-chip.webp",
           "swatch": "#646857",
           "tone": {
             "ro": "Verde salvie",
@@ -7631,7 +7631,7 @@
         },
         {
           "src": "pat-aldo-c3",
-          "chip": "/media/pat-aldo-c3-700.webp",
+          "chip": "/media/pat-aldo-c3-chip.webp",
           "swatch": "#7d512c",
           "tone": {
             "ro": "Camel",
@@ -7640,7 +7640,7 @@
         },
         {
           "src": "pat-aldo-c4",
-          "chip": "/media/pat-aldo-c4-700.webp",
+          "chip": "/media/pat-aldo-c4-chip.webp",
           "swatch": "#783b25",
           "tone": {
             "ro": "Teracotă",
@@ -7649,7 +7649,7 @@
         },
         {
           "src": "pat-aldo-c5",
-          "chip": "/media/pat-aldo-c5-700.webp",
+          "chip": "/media/pat-aldo-c5-chip.webp",
           "swatch": "#32311c",
           "tone": {
             "ro": "Verde oliv",
@@ -7658,7 +7658,7 @@
         },
         {
           "src": "pat-aldo-c6",
-          "chip": "/media/pat-aldo-c6-700.webp",
+          "chip": "/media/pat-aldo-c6-chip.webp",
           "swatch": "#0a1935",
           "tone": {
             "ro": "Bleumarin",
@@ -7667,7 +7667,7 @@
         },
         {
           "src": "pat-aldo-c7",
-          "chip": "/media/pat-aldo-c7-700.webp",
+          "chip": "/media/pat-aldo-c7-chip.webp",
           "swatch": "#2f2118",
           "tone": {
             "ro": "Maro închis",
@@ -8040,7 +8040,7 @@
       "variants": [
         {
           "src": "canapea-toro-c1",
-          "chip": "/media/canapea-toro-c1-700.webp",
+          "chip": "/media/canapea-toro-c1-chip.webp",
           "swatch": "#886360",
           "tone": {
             "ro": "Roz prăfuit",
@@ -8049,7 +8049,7 @@
         },
         {
           "src": "canapea-toro-c2",
-          "chip": "/media/canapea-toro-c2-700.webp",
+          "chip": "/media/canapea-toro-c2-chip.webp",
           "swatch": "#87817d",
           "tone": {
             "ro": "Gri deschis",
@@ -8058,7 +8058,7 @@
         },
         {
           "src": "canapea-toro-c3",
-          "chip": "/media/canapea-toro-c3-700.webp",
+          "chip": "/media/canapea-toro-c3-chip.webp",
           "swatch": "#211712",
           "tone": {
             "ro": "Ciocolată",
@@ -8067,7 +8067,7 @@
         },
         {
           "src": "canapea-toro-c4",
-          "chip": "/media/canapea-toro-c4-700.webp",
+          "chip": "/media/canapea-toro-c4-chip.webp",
           "swatch": "#32331e",
           "tone": {
             "ro": "Verde oliv",
@@ -8076,7 +8076,7 @@
         },
         {
           "src": "canapea-toro-c5",
-          "chip": "/media/canapea-toro-c5-700.webp",
+          "chip": "/media/canapea-toro-c5-chip.webp",
           "swatch": "#032f4c",
           "tone": {
             "ro": "Bleumarin",
@@ -8745,7 +8745,7 @@
       "variants": [
         {
           "src": "pat-paul-c1",
-          "chip": "/media/pat-paul-c1-700.webp",
+          "chip": "/media/pat-paul-c1-chip.webp",
           "swatch": "#31221d",
           "tone": {
             "ro": "Ciocolată",
@@ -8754,7 +8754,7 @@
         },
         {
           "src": "pat-paul-c2",
-          "chip": "/media/pat-paul-c2-700.webp",
+          "chip": "/media/pat-paul-c2-chip.webp",
           "swatch": "#203349",
           "tone": {
             "ro": "Bleumarin",
@@ -8763,7 +8763,7 @@
         },
         {
           "src": "pat-paul-c3",
-          "chip": "/media/pat-paul-c3-700.webp",
+          "chip": "/media/pat-paul-c3-chip.webp",
           "swatch": "#4c4b37",
           "tone": {
             "ro": "Verde oliv",
@@ -8772,7 +8772,7 @@
         },
         {
           "src": "pat-paul-c4",
-          "chip": "/media/pat-paul-c4-700.webp",
+          "chip": "/media/pat-paul-c4-chip.webp",
           "swatch": "#895f39",
           "tone": {
             "ro": "Camel",
@@ -8781,7 +8781,7 @@
         },
         {
           "src": "pat-paul-c5",
-          "chip": "/media/pat-paul-c5-700.webp",
+          "chip": "/media/pat-paul-c5-chip.webp",
           "swatch": "#a28683",
           "tone": {
             "ro": "Roz prăfuit",
@@ -8790,7 +8790,7 @@
         },
         {
           "src": "pat-paul-c6",
-          "chip": "/media/pat-paul-c6-700.webp",
+          "chip": "/media/pat-paul-c6-chip.webp",
           "swatch": "#876734",
           "tone": {
             "ro": "Muștar",
@@ -8799,7 +8799,7 @@
         },
         {
           "src": "pat-paul-c7",
-          "chip": "/media/pat-paul-c7-700.webp",
+          "chip": "/media/pat-paul-c7-chip.webp",
           "swatch": "#97969b",
           "tone": {
             "ro": "Gri deschis",
@@ -9143,7 +9143,7 @@
       "variants": [
         {
           "src": "canapea-spring-c2",
-          "chip": "/media/canapea-spring-c2-700.webp",
+          "chip": "/media/canapea-spring-c2-chip.webp",
           "swatch": "#af9a82",
           "tone": {
             "ro": "Bej",
@@ -9152,7 +9152,7 @@
         },
         {
           "src": "canapea-spring-c5",
-          "chip": "/media/canapea-spring-c5-700.webp",
+          "chip": "/media/canapea-spring-c5-chip.webp",
           "swatch": "#cf9c9b",
           "tone": {
             "ro": "Roz pudră",
@@ -9161,7 +9161,7 @@
         },
         {
           "src": "canapea-spring-c1",
-          "chip": "/media/canapea-spring-c1-700.webp",
+          "chip": "/media/canapea-spring-c1-chip.webp",
           "swatch": "#34371e",
           "tone": {
             "ro": "Verde oliv",
@@ -9170,7 +9170,7 @@
         },
         {
           "src": "canapea-spring-c3",
-          "chip": "/media/canapea-spring-c3-700.webp",
+          "chip": "/media/canapea-spring-c3-chip.webp",
           "swatch": "#943822",
           "tone": {
             "ro": "Teracotă",
@@ -9179,7 +9179,7 @@
         },
         {
           "src": "canapea-spring-c4",
-          "chip": "/media/canapea-spring-c4-700.webp",
+          "chip": "/media/canapea-spring-c4-chip.webp",
           "swatch": "#2f2018",
           "tone": {
             "ro": "Ciocolată",
@@ -9519,7 +9519,7 @@
       "variants": [
         {
           "src": "coltar-bela-c1",
-          "chip": "/media/coltar-bela-c1-700.webp",
+          "chip": "/media/coltar-bela-c1-chip.webp",
           "swatch": "#514c2c",
           "tone": {
             "ro": "Verde oliv",
@@ -9528,7 +9528,7 @@
         },
         {
           "src": "coltar-bela-c2",
-          "chip": "/media/coltar-bela-c2-700.webp",
+          "chip": "/media/coltar-bela-c2-chip.webp",
           "swatch": "#a39b95",
           "tone": {
             "ro": "Greige",
@@ -9537,7 +9537,7 @@
         },
         {
           "src": "coltar-bela-c3",
-          "chip": "/media/coltar-bela-c3-700.webp",
+          "chip": "/media/coltar-bela-c3-chip.webp",
           "swatch": "#1e344d",
           "tone": {
             "ro": "Bleumarin",
@@ -9546,7 +9546,7 @@
         },
         {
           "src": "coltar-bela-c4",
-          "chip": "/media/coltar-bela-c4-700.webp",
+          "chip": "/media/coltar-bela-c4-chip.webp",
           "swatch": "#998879",
           "tone": {
             "ro": "Bej",
@@ -9555,7 +9555,7 @@
         },
         {
           "src": "coltar-bela-c5",
-          "chip": "/media/coltar-bela-c5-700.webp",
+          "chip": "/media/coltar-bela-c5-chip.webp",
           "swatch": "#4a1c22",
           "tone": {
             "ro": "Bordo",
@@ -9564,7 +9564,7 @@
         },
         {
           "src": "coltar-bela-c6",
-          "chip": "/media/coltar-bela-c6-700.webp",
+          "chip": "/media/coltar-bela-c6-chip.webp",
           "swatch": "#866866",
           "tone": {
             "ro": "Roz prăfuit",
@@ -9895,7 +9895,7 @@
       "variants": [
         {
           "src": "canapea-bella-c2",
-          "chip": "/media/canapea-bella-c2-700.webp",
+          "chip": "/media/canapea-bella-c2-chip.webp",
           "swatch": "#af9b84",
           "tone": {
             "ro": "Bej",
@@ -9904,7 +9904,7 @@
         },
         {
           "src": "canapea-bella-c3",
-          "chip": "/media/canapea-bella-c3-700.webp",
+          "chip": "/media/canapea-bella-c3-chip.webp",
           "swatch": "#e1b9b3",
           "tone": {
             "ro": "Roz pudră",
@@ -9913,7 +9913,7 @@
         },
         {
           "src": "canapea-bella-studio-1",
-          "chip": "/media/canapea-bella-studio-1-700.webp",
+          "chip": "/media/canapea-bella-studio-1-chip.webp",
           "swatch": "#856860",
           "tone": {
             "ro": "Roz prăfuit",
@@ -9922,7 +9922,7 @@
         },
         {
           "src": "canapea-bella-c1",
-          "chip": "/media/canapea-bella-c1-700.webp",
+          "chip": "/media/canapea-bella-c1-chip.webp",
           "swatch": "#323015",
           "tone": {
             "ro": "Verde oliv",
@@ -9931,7 +9931,7 @@
         },
         {
           "src": "canapea-bella-c4",
-          "chip": "/media/canapea-bella-c4-700.webp",
+          "chip": "/media/canapea-bella-c4-chip.webp",
           "swatch": "#310a0f",
           "tone": {
             "ro": "Bordo",
@@ -9940,7 +9940,7 @@
         },
         {
           "src": "canapea-bella-c5",
-          "chip": "/media/canapea-bella-c5-700.webp",
+          "chip": "/media/canapea-bella-c5-chip.webp",
           "swatch": "#031737",
           "tone": {
             "ro": "Bleumarin",
@@ -9949,7 +9949,7 @@
         },
         {
           "src": "canapea-bella-c6",
-          "chip": "/media/canapea-bella-c6-700.webp",
+          "chip": "/media/canapea-bella-c6-chip.webp",
           "swatch": "#2e1f17",
           "tone": {
             "ro": "Ciocolată",
@@ -10297,7 +10297,7 @@
       "variants": [
         {
           "src": "canapea-extensibila-aldo-c1",
-          "chip": "/media/canapea-extensibila-aldo-c1-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c1-chip.webp",
           "swatch": "#a08a7a",
           "tone": {
             "ro": "Bej",
@@ -10306,7 +10306,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c2",
-          "chip": "/media/canapea-extensibila-aldo-c2-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c2-chip.webp",
           "swatch": "#9b630e",
           "tone": {
             "ro": "Muștar",
@@ -10315,7 +10315,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c3",
-          "chip": "/media/canapea-extensibila-aldo-c3-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c3-chip.webp",
           "swatch": "#373414",
           "tone": {
             "ro": "Verde oliv",
@@ -10324,7 +10324,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c4",
-          "chip": "/media/canapea-extensibila-aldo-c4-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c4-chip.webp",
           "swatch": "#0f3138",
           "tone": {
             "ro": "Petrol",
@@ -10333,7 +10333,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c5",
-          "chip": "/media/canapea-extensibila-aldo-c5-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c5-chip.webp",
           "swatch": "#102136",
           "tone": {
             "ro": "Bleumarin",
@@ -10342,7 +10342,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c6",
-          "chip": "/media/canapea-extensibila-aldo-c6-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c6-chip.webp",
           "swatch": "#2f040a",
           "tone": {
             "ro": "Bordo",
@@ -10351,7 +10351,7 @@
         },
         {
           "src": "canapea-extensibila-aldo-c7",
-          "chip": "/media/canapea-extensibila-aldo-c7-700.webp",
+          "chip": "/media/canapea-extensibila-aldo-c7-chip.webp",
           "swatch": "#2b1b14",
           "tone": {
             "ro": "Ciocolată",
@@ -10691,7 +10691,7 @@
       "variants": [
         {
           "src": "pat-miraj-c1",
-          "chip": "/media/pat-miraj-c1-700.webp",
+          "chip": "/media/pat-miraj-c1-chip.webp",
           "swatch": "#947f70",
           "tone": {
             "ro": "Taupe",
@@ -10700,7 +10700,7 @@
         },
         {
           "src": "pat-miraj-c4",
-          "chip": "/media/pat-miraj-c4-700.webp",
+          "chip": "/media/pat-miraj-c4-chip.webp",
           "swatch": "#9a4b34",
           "tone": {
             "ro": "Teracotă",
@@ -10709,7 +10709,7 @@
         },
         {
           "src": "pat-miraj-c2",
-          "chip": "/media/pat-miraj-c2-700.webp",
+          "chip": "/media/pat-miraj-c2-chip.webp",
           "swatch": "#2f2f19",
           "tone": {
             "ro": "Verde oliv",
@@ -10718,7 +10718,7 @@
         },
         {
           "src": "pat-miraj-c3",
-          "chip": "/media/pat-miraj-c3-700.webp",
+          "chip": "/media/pat-miraj-c3-chip.webp",
           "swatch": "#201610",
           "tone": {
             "ro": "Ciocolată",
@@ -10727,7 +10727,7 @@
         },
         {
           "src": "pat-miraj-studio-1",
-          "chip": "/media/pat-miraj-studio-1-700.webp",
+          "chip": "/media/pat-miraj-studio-1-chip.webp",
           "swatch": "#303030",
           "tone": {
             "ro": "Grafit",
@@ -11079,7 +11079,7 @@
       "variants": [
         {
           "src": "pat-matrimonial-c1",
-          "chip": "/media/pat-matrimonial-c1-700.webp",
+          "chip": "/media/pat-matrimonial-c1-chip.webp",
           "swatch": "#4d4a36",
           "tone": {
             "ro": "Verde oliv",
@@ -11088,7 +11088,7 @@
         },
         {
           "src": "pat-matrimonial-c2",
-          "chip": "/media/pat-matrimonial-c2-700.webp",
+          "chip": "/media/pat-matrimonial-c2-chip.webp",
           "swatch": "#31211a",
           "tone": {
             "ro": "Ciocolată",
@@ -11097,7 +11097,7 @@
         },
         {
           "src": "pat-matrimonial-c3",
-          "chip": "/media/pat-matrimonial-c3-700.webp",
+          "chip": "/media/pat-matrimonial-c3-chip.webp",
           "swatch": "#1f314a",
           "tone": {
             "ro": "Bleumarin",
@@ -11106,7 +11106,7 @@
         },
         {
           "src": "pat-matrimonial-c4",
-          "chip": "/media/pat-matrimonial-c4-700.webp",
+          "chip": "/media/pat-matrimonial-c4-chip.webp",
           "swatch": "#938883",
           "tone": {
             "ro": "Greige",
@@ -11115,7 +11115,7 @@
         },
         {
           "src": "pat-matrimonial-c5",
-          "chip": "/media/pat-matrimonial-c5-700.webp",
+          "chip": "/media/pat-matrimonial-c5-chip.webp",
           "swatch": "#a08d7f",
           "tone": {
             "ro": "Bej",
@@ -11466,7 +11466,7 @@
       "variants": [
         {
           "src": "pat-one-c1",
-          "chip": "/media/pat-one-c1-700.webp",
+          "chip": "/media/pat-one-c1-chip.webp",
           "swatch": "#a0897b",
           "tone": {
             "ro": "Taupe",
@@ -11475,7 +11475,7 @@
         },
         {
           "src": "pat-one-c2",
-          "chip": "/media/pat-one-c2-700.webp",
+          "chip": "/media/pat-one-c2-chip.webp",
           "swatch": "#37351b",
           "tone": {
             "ro": "Verde oliv",
@@ -11484,7 +11484,7 @@
         },
         {
           "src": "pat-one-c3",
-          "chip": "/media/pat-one-c3-700.webp",
+          "chip": "/media/pat-one-c3-chip.webp",
           "swatch": "#32221b",
           "tone": {
             "ro": "Ciocolată",
@@ -11493,7 +11493,7 @@
         },
         {
           "src": "pat-one-c4",
-          "chip": "/media/pat-one-c4-700.webp",
+          "chip": "/media/pat-one-c4-chip.webp",
           "swatch": "#17304d",
           "tone": {
             "ro": "Bleumarin",
@@ -11502,7 +11502,7 @@
         },
         {
           "src": "pat-one-c5",
-          "chip": "/media/pat-one-c5-700.webp",
+          "chip": "/media/pat-one-c5-chip.webp",
           "swatch": "#b78480",
           "tone": {
             "ro": "Roz prăfuit",
@@ -11511,7 +11511,7 @@
         },
         {
           "src": "pat-one-c6",
-          "chip": "/media/pat-one-c6-700.webp",
+          "chip": "/media/pat-one-c6-chip.webp",
           "swatch": "#82202f",
           "tone": {
             "ro": "Bordo",
@@ -11659,7 +11659,7 @@
       "variants": [
         {
           "src": "demifotoliu-c1",
-          "chip": "/media/demifotoliu-c1-700.webp",
+          "chip": "/media/demifotoliu-c1-chip.webp",
           "swatch": "#484931",
           "tone": {
             "ro": "Verde oliv",
@@ -11668,7 +11668,7 @@
         },
         {
           "src": "demifotoliu-c2",
-          "chip": "/media/demifotoliu-c2-700.webp",
+          "chip": "/media/demifotoliu-c2-chip.webp",
           "swatch": "#a49589",
           "tone": {
             "ro": "Taupe",
@@ -11677,7 +11677,7 @@
         },
         {
           "src": "demifotoliu-c3",
-          "chip": "/media/demifotoliu-c3-700.webp",
+          "chip": "/media/demifotoliu-c3-chip.webp",
           "swatch": "#49372f",
           "tone": {
             "ro": "Ciocolată",
@@ -11686,7 +11686,7 @@
         },
         {
           "src": "demifotoliu-c4",
-          "chip": "/media/demifotoliu-c4-700.webp",
+          "chip": "/media/demifotoliu-c4-chip.webp",
           "swatch": "#07121f",
           "tone": {
             "ro": "Bleumarin",
@@ -11695,7 +11695,7 @@
         },
         {
           "src": "demifotoliu-c5",
-          "chip": "/media/demifotoliu-c5-700.webp",
+          "chip": "/media/demifotoliu-c5-chip.webp",
           "swatch": "#141518",
           "tone": {
             "ro": "Antracit",
@@ -11867,7 +11867,7 @@
       "variants": [
         {
           "src": "canapea-ela-studio-1",
-          "chip": "/media/canapea-ela-studio-1-700.webp",
+          "chip": "/media/canapea-ela-studio-1-chip.webp",
           "swatch": "#bebab5",
           "tone": {
             "ro": "Gri deschis",
@@ -11876,7 +11876,7 @@
         },
         {
           "src": "canapea-ela-c2",
-          "chip": "/media/canapea-ela-c2-700.webp",
+          "chip": "/media/canapea-ela-c2-chip.webp",
           "swatch": "#ae9a87",
           "tone": {
             "ro": "Bej",
@@ -11885,7 +11885,7 @@
         },
         {
           "src": "canapea-ela-c6",
-          "chip": "/media/canapea-ela-c6-700.webp",
+          "chip": "/media/canapea-ela-c6-chip.webp",
           "swatch": "#bf9894",
           "tone": {
             "ro": "Roz prăfuit",
@@ -11894,7 +11894,7 @@
         },
         {
           "src": "canapea-ela-c5",
-          "chip": "/media/canapea-ela-c5-700.webp",
+          "chip": "/media/canapea-ela-c5-chip.webp",
           "swatch": "#976c46",
           "tone": {
             "ro": "Camel",
@@ -11903,7 +11903,7 @@
         },
         {
           "src": "canapea-ela-c1",
-          "chip": "/media/canapea-ela-c1-700.webp",
+          "chip": "/media/canapea-ela-c1-chip.webp",
           "swatch": "#37341d",
           "tone": {
             "ro": "Verde oliv",
@@ -11912,7 +11912,7 @@
         },
         {
           "src": "canapea-ela-c3",
-          "chip": "/media/canapea-ela-c3-700.webp",
+          "chip": "/media/canapea-ela-c3-chip.webp",
           "swatch": "#1c2d49",
           "tone": {
             "ro": "Bleumarin",
@@ -11921,7 +11921,7 @@
         },
         {
           "src": "canapea-ela-c4",
-          "chip": "/media/canapea-ela-c4-700.webp",
+          "chip": "/media/canapea-ela-c4-chip.webp",
           "swatch": "#4a171b",
           "tone": {
             "ro": "Bordo",
@@ -12403,7 +12403,7 @@
       "variants": [
         {
           "src": "pat-cubiq-studio-1",
-          "chip": "/media/pat-cubiq-studio-1-700.webp",
+          "chip": "/media/pat-cubiq-studio-1-chip.webp",
           "swatch": "#222222",
           "tone": {
             "ro": "Negru",
@@ -12412,7 +12412,7 @@
         },
         {
           "src": "pat-cubic-c1",
-          "chip": "/media/pat-cubic-c1-700.webp",
+          "chip": "/media/pat-cubic-c1-chip.webp",
           "swatch": "#897766",
           "tone": {
             "ro": "Taupe",
@@ -12421,7 +12421,7 @@
         },
         {
           "src": "pat-cubic-c2",
-          "chip": "/media/pat-cubic-c2-700.webp",
+          "chip": "/media/pat-cubic-c2-chip.webp",
           "swatch": "#cb908c",
           "tone": {
             "ro": "Roz prăfuit",
@@ -12430,7 +12430,7 @@
         },
         {
           "src": "pat-cubic-c3",
-          "chip": "/media/pat-cubic-c3-700.webp",
+          "chip": "/media/pat-cubic-c3-chip.webp",
           "swatch": "#8a3c24",
           "tone": {
             "ro": "Teracotă",
@@ -12439,7 +12439,7 @@
         },
         {
           "src": "pat-cubic-c4",
-          "chip": "/media/pat-cubic-c4-700.webp",
+          "chip": "/media/pat-cubic-c4-chip.webp",
           "swatch": "#353321",
           "tone": {
             "ro": "Oliv închis",
@@ -12448,7 +12448,7 @@
         },
         {
           "src": "pat-cubic-c5",
-          "chip": "/media/pat-cubic-c5-700.webp",
+          "chip": "/media/pat-cubic-c5-chip.webp",
           "swatch": "#031531",
           "tone": {
             "ro": "Bleumarin",
@@ -12457,7 +12457,7 @@
         },
         {
           "src": "pat-cubic-c6",
-          "chip": "/media/pat-cubic-c6-700.webp",
+          "chip": "/media/pat-cubic-c6-chip.webp",
           "swatch": "#3a0f17",
           "tone": {
             "ro": "Bordo",
@@ -12850,7 +12850,7 @@
       "variants": [
         {
           "src": "fotoliu-king-c1",
-          "chip": "/media/fotoliu-king-c1-700.webp",
+          "chip": "/media/fotoliu-king-c1-chip.webp",
           "swatch": "#897a6a",
           "tone": {
             "ro": "Taupe",
@@ -12859,7 +12859,7 @@
         },
         {
           "src": "fotoliu-king-c2",
-          "chip": "/media/fotoliu-king-c2-700.webp",
+          "chip": "/media/fotoliu-king-c2-chip.webp",
           "swatch": "#33341f",
           "tone": {
             "ro": "Verde oliv",
@@ -12868,7 +12868,7 @@
         },
         {
           "src": "fotoliu-king-c3",
-          "chip": "/media/fotoliu-king-c3-700.webp",
+          "chip": "/media/fotoliu-king-c3-chip.webp",
           "swatch": "#2e2017",
           "tone": {
             "ro": "Ciocolată",
@@ -12877,7 +12877,7 @@
         },
         {
           "src": "fotoliu-king-c4",
-          "chip": "/media/fotoliu-king-c4-700.webp",
+          "chip": "/media/fotoliu-king-c4-chip.webp",
           "swatch": "#133450",
           "tone": {
             "ro": "Bleumarin",
@@ -12886,7 +12886,7 @@
         },
         {
           "src": "fotoliu-king-c5",
-          "chip": "/media/fotoliu-king-c5-700.webp",
+          "chip": "/media/fotoliu-king-c5-chip.webp",
           "swatch": "#165149",
           "tone": {
             "ro": "Verde smarald",
@@ -13030,7 +13030,7 @@
       "variants": [
         {
           "src": "canapea-rotunda-aldo-c1",
-          "chip": "/media/canapea-rotunda-aldo-c1-700.webp",
+          "chip": "/media/canapea-rotunda-aldo-c1-chip.webp",
           "swatch": "#9f8a79",
           "tone": {
             "ro": "Bej",
@@ -13039,7 +13039,7 @@
         },
         {
           "src": "canapea-rotunda-aldo-c2",
-          "chip": "/media/canapea-rotunda-aldo-c2-700.webp",
+          "chip": "/media/canapea-rotunda-aldo-c2-chip.webp",
           "swatch": "#34331f",
           "tone": {
             "ro": "Verde oliv",
@@ -13048,7 +13048,7 @@
         },
         {
           "src": "canapea-rotunda-aldo-c3",
-          "chip": "/media/canapea-rotunda-aldo-c3-700.webp",
+          "chip": "/media/canapea-rotunda-aldo-c3-chip.webp",
           "swatch": "#131f33",
           "tone": {
             "ro": "Bleumarin",
@@ -13057,7 +13057,7 @@
         },
         {
           "src": "canapea-rotunda-aldo-c4",
-          "chip": "/media/canapea-rotunda-aldo-c4-700.webp",
+          "chip": "/media/canapea-rotunda-aldo-c4-chip.webp",
           "swatch": "#2f0a11",
           "tone": {
             "ro": "Bordo",
@@ -13066,7 +13066,7 @@
         },
         {
           "src": "canapea-rotunda-aldo-c5",
-          "chip": "/media/canapea-rotunda-aldo-c5-700.webp",
+          "chip": "/media/canapea-rotunda-aldo-c5-chip.webp",
           "swatch": "#211812",
           "tone": {
             "ro": "Maro închis",
@@ -13407,7 +13407,7 @@
       "variants": [
         {
           "src": "pat-loris-c1",
-          "chip": "/media/pat-loris-c1-700.webp",
+          "chip": "/media/pat-loris-c1-chip.webp",
           "swatch": "#b6a492",
           "tone": {
             "ro": "Bej",
@@ -13416,7 +13416,7 @@
         },
         {
           "src": "pat-loris-studio-1",
-          "chip": "/media/pat-loris-studio-1-700.webp",
+          "chip": "/media/pat-loris-studio-1-chip.webp",
           "swatch": "#1f4b62",
           "tone": {
             "ro": "Petrol",
@@ -13425,7 +13425,7 @@
         },
         {
           "src": "pat-loris-c2",
-          "chip": "/media/pat-loris-c2-700.webp",
+          "chip": "/media/pat-loris-c2-chip.webp",
           "swatch": "#333320",
           "tone": {
             "ro": "Verde oliv",
@@ -13434,7 +13434,7 @@
         },
         {
           "src": "pat-loris-c4",
-          "chip": "/media/pat-loris-c4-700.webp",
+          "chip": "/media/pat-loris-c4-chip.webp",
           "swatch": "#9a4d31",
           "tone": {
             "ro": "Teracotă",
@@ -13443,7 +13443,7 @@
         },
         {
           "src": "pat-loris-c5",
-          "chip": "/media/pat-loris-c5-700.webp",
+          "chip": "/media/pat-loris-c5-chip.webp",
           "swatch": "#092244",
           "tone": {
             "ro": "Bleumarin",
@@ -13452,7 +13452,7 @@
         },
         {
           "src": "pat-loris-c6",
-          "chip": "/media/pat-loris-c6-700.webp",
+          "chip": "/media/pat-loris-c6-chip.webp",
           "swatch": "#370b10",
           "tone": {
             "ro": "Bordo",
@@ -13461,7 +13461,7 @@
         },
         {
           "src": "pat-loris-c3",
-          "chip": "/media/pat-loris-c3-700.webp",
+          "chip": "/media/pat-loris-c3-chip.webp",
           "swatch": "#2e211a",
           "tone": {
             "ro": "Ciocolată",
@@ -14084,7 +14084,7 @@
       "variants": [
         {
           "src": "coltar-linear-c1",
-          "chip": "/media/coltar-linear-c1-700.webp",
+          "chip": "/media/coltar-linear-c1-chip.webp",
           "swatch": "#957f6a",
           "tone": {
             "ro": "Bej",
@@ -14093,7 +14093,7 @@
         },
         {
           "src": "coltar-linear-c2",
-          "chip": "/media/coltar-linear-c2-700.webp",
+          "chip": "/media/coltar-linear-c2-chip.webp",
           "swatch": "#7f341e",
           "tone": {
             "ro": "Teracotă",
@@ -14102,7 +14102,7 @@
         },
         {
           "src": "coltar-linear-c3",
-          "chip": "/media/coltar-linear-c3-700.webp",
+          "chip": "/media/coltar-linear-c3-chip.webp",
           "swatch": "#33331e",
           "tone": {
             "ro": "Verde oliv",
@@ -14111,7 +14111,7 @@
         },
         {
           "src": "coltar-linear-c4",
-          "chip": "/media/coltar-linear-c4-700.webp",
+          "chip": "/media/coltar-linear-c4-chip.webp",
           "swatch": "#091930",
           "tone": {
             "ro": "Bleumarin",
@@ -14120,7 +14120,7 @@
         },
         {
           "src": "coltar-linear-c5",
-          "chip": "/media/coltar-linear-c5-700.webp",
+          "chip": "/media/coltar-linear-c5-chip.webp",
           "swatch": "#231811",
           "tone": {
             "ro": "Maro închis",
@@ -14510,7 +14510,7 @@
       "variants": [
         {
           "src": "pat-linear-c3",
-          "chip": "/media/pat-linear-c3-700.webp",
+          "chip": "/media/pat-linear-c3-chip.webp",
           "swatch": "#ae9c8a",
           "tone": {
             "ro": "Bej",
@@ -14519,7 +14519,7 @@
         },
         {
           "src": "pat-linear-c1",
-          "chip": "/media/pat-linear-c1-700.webp",
+          "chip": "/media/pat-linear-c1-chip.webp",
           "swatch": "#a29383",
           "tone": {
             "ro": "Greige",
@@ -14528,7 +14528,7 @@
         },
         {
           "src": "pat-linear-studio-1",
-          "chip": "/media/pat-linear-studio-1-700.webp",
+          "chip": "/media/pat-linear-studio-1-chip.webp",
           "swatch": "#cdd5d5",
           "tone": {
             "ro": "Verde salvie",
@@ -14537,7 +14537,7 @@
         },
         {
           "src": "pat-linear-c6",
-          "chip": "/media/pat-linear-c6-700.webp",
+          "chip": "/media/pat-linear-c6-chip.webp",
           "swatch": "#3c3d29",
           "tone": {
             "ro": "Verde oliv",
@@ -14546,7 +14546,7 @@
         },
         {
           "src": "pat-linear-c4",
-          "chip": "/media/pat-linear-c4-700.webp",
+          "chip": "/media/pat-linear-c4-chip.webp",
           "swatch": "#944634",
           "tone": {
             "ro": "Teracotă",
@@ -14555,7 +14555,7 @@
         },
         {
           "src": "pat-linear-c5",
-          "chip": "/media/pat-linear-c5-700.webp",
+          "chip": "/media/pat-linear-c5-chip.webp",
           "swatch": "#2f211b",
           "tone": {
             "ro": "Ciocolată",
@@ -14564,7 +14564,7 @@
         },
         {
           "src": "pat-linear-c2",
-          "chip": "/media/pat-linear-c2-700.webp",
+          "chip": "/media/pat-linear-c2-chip.webp",
           "swatch": "#3c3c3c",
           "tone": {
             "ro": "Antracit",
@@ -14926,7 +14926,7 @@
       "variants": [
         {
           "src": "pat-king-c1",
-          "chip": "/media/pat-king-c1-700.webp",
+          "chip": "/media/pat-king-c1-chip.webp",
           "swatch": "#9a9389",
           "tone": {
             "ro": "Greige",
@@ -14935,7 +14935,7 @@
         },
         {
           "src": "pat-king-c5",
-          "chip": "/media/pat-king-c5-700.webp",
+          "chip": "/media/pat-king-c5-chip.webp",
           "swatch": "#e3dacb",
           "tone": {
             "ro": "Crem",
@@ -14944,7 +14944,7 @@
         },
         {
           "src": "pat-king-c6",
-          "chip": "/media/pat-king-c6-700.webp",
+          "chip": "/media/pat-king-c6-chip.webp",
           "swatch": "#85552f",
           "tone": {
             "ro": "Coniac",
@@ -14953,7 +14953,7 @@
         },
         {
           "src": "pat-king-c2",
-          "chip": "/media/pat-king-c2-700.webp",
+          "chip": "/media/pat-king-c2-chip.webp",
           "swatch": "#32301e",
           "tone": {
             "ro": "Verde oliv",
@@ -14962,7 +14962,7 @@
         },
         {
           "src": "pat-king-c4",
-          "chip": "/media/pat-king-c4-700.webp",
+          "chip": "/media/pat-king-c4-chip.webp",
           "swatch": "#49181d",
           "tone": {
             "ro": "Bordo",
@@ -14971,7 +14971,7 @@
         },
         {
           "src": "pat-king-c3",
-          "chip": "/media/pat-king-c3-700.webp",
+          "chip": "/media/pat-king-c3-chip.webp",
           "swatch": "#2d1f16",
           "tone": {
             "ro": "Ciocolată",
@@ -15287,7 +15287,7 @@
       "variants": [
         {
           "src": "modul-aldo-c1",
-          "chip": "/media/modul-aldo-c1-700.webp",
+          "chip": "/media/modul-aldo-c1-chip.webp",
           "swatch": "#99897a",
           "tone": {
             "ro": "Bej",
@@ -15296,7 +15296,7 @@
         },
         {
           "src": "modul-aldo-studio-1",
-          "chip": "/media/modul-aldo-studio-1-700.webp",
+          "chip": "/media/modul-aldo-studio-1-chip.webp",
           "swatch": "#d5d4cc",
           "tone": {
             "ro": "Alb",
@@ -15305,7 +15305,7 @@
         },
         {
           "src": "modul-aldo-c4",
-          "chip": "/media/modul-aldo-c4-700.webp",
+          "chip": "/media/modul-aldo-c4-chip.webp",
           "swatch": "#c7a39a",
           "tone": {
             "ro": "Roz prăfuit",
@@ -15314,7 +15314,7 @@
         },
         {
           "src": "modul-aldo-c2",
-          "chip": "/media/modul-aldo-c2-700.webp",
+          "chip": "/media/modul-aldo-c2-chip.webp",
           "swatch": "#2f301f",
           "tone": {
             "ro": "Verde oliv",
@@ -15323,7 +15323,7 @@
         },
         {
           "src": "modul-aldo-c5",
-          "chip": "/media/modul-aldo-c5-700.webp",
+          "chip": "/media/modul-aldo-c5-chip.webp",
           "swatch": "#10223b",
           "tone": {
             "ro": "Bleumarin",
@@ -15332,7 +15332,7 @@
         },
         {
           "src": "modul-aldo-c6",
-          "chip": "/media/modul-aldo-c6-700.webp",
+          "chip": "/media/modul-aldo-c6-chip.webp",
           "swatch": "#351013",
           "tone": {
             "ro": "Bordo",
@@ -15341,7 +15341,7 @@
         },
         {
           "src": "modul-aldo-c3",
-          "chip": "/media/modul-aldo-c3-700.webp",
+          "chip": "/media/modul-aldo-c3-chip.webp",
           "swatch": "#2d1d15",
           "tone": {
             "ro": "Ciocolată",
@@ -15512,7 +15512,7 @@
       "variants": [
         {
           "src": "modul-cubiq-studio-1",
-          "chip": "/media/modul-cubiq-studio-1-700.webp",
+          "chip": "/media/modul-cubiq-studio-1-chip.webp",
           "swatch": "#b1b1b3",
           "tone": {
             "ro": "Gri deschis",
@@ -15521,7 +15521,7 @@
         },
         {
           "src": "modul-cubiq-c1",
-          "chip": "/media/modul-cubiq-c1-700.webp",
+          "chip": "/media/modul-cubiq-c1-chip.webp",
           "swatch": "#9a8a7a",
           "tone": {
             "ro": "Greige",
@@ -15530,7 +15530,7 @@
         },
         {
           "src": "modul-cubiq-c2",
-          "chip": "/media/modul-cubiq-c2-700.webp",
+          "chip": "/media/modul-cubiq-c2-chip.webp",
           "swatch": "#b28987",
           "tone": {
             "ro": "Roz pudră",
@@ -15539,7 +15539,7 @@
         },
         {
           "src": "modul-cubiq-c6",
-          "chip": "/media/modul-cubiq-c6-700.webp",
+          "chip": "/media/modul-cubiq-c6-chip.webp",
           "swatch": "#803520",
           "tone": {
             "ro": "Teracotă",
@@ -15548,7 +15548,7 @@
         },
         {
           "src": "modul-cubiq-c5",
-          "chip": "/media/modul-cubiq-c5-700.webp",
+          "chip": "/media/modul-cubiq-c5-chip.webp",
           "swatch": "#2c2e19",
           "tone": {
             "ro": "Verde oliv",
@@ -15557,7 +15557,7 @@
         },
         {
           "src": "modul-cubiq-c4",
-          "chip": "/media/modul-cubiq-c4-700.webp",
+          "chip": "/media/modul-cubiq-c4-chip.webp",
           "swatch": "#0a1a31",
           "tone": {
             "ro": "Bleumarin",
@@ -15566,7 +15566,7 @@
         },
         {
           "src": "modul-cubiq-c3",
-          "chip": "/media/modul-cubiq-c3-700.webp",
+          "chip": "/media/modul-cubiq-c3-chip.webp",
           "swatch": "#300f14",
           "tone": {
             "ro": "Bordo",
@@ -15903,7 +15903,7 @@
       "variants": [
         {
           "src": "pat-geometry-c3",
-          "chip": "/media/pat-geometry-c3-700.webp",
+          "chip": "/media/pat-geometry-c3-chip.webp",
           "swatch": "#a49585",
           "tone": {
             "ro": "Bej",
@@ -15912,7 +15912,7 @@
         },
         {
           "src": "pat-geometry-studio-1",
-          "chip": "/media/pat-geometry-studio-1-700.webp",
+          "chip": "/media/pat-geometry-studio-1-chip.webp",
           "swatch": "#555353",
           "tone": {
             "ro": "Gri",
@@ -15921,7 +15921,7 @@
         },
         {
           "src": "pat-geometry-c2",
-          "chip": "/media/pat-geometry-c2-700.webp",
+          "chip": "/media/pat-geometry-c2-chip.webp",
           "swatch": "#363521",
           "tone": {
             "ro": "Verde oliv",
@@ -15930,7 +15930,7 @@
         },
         {
           "src": "pat-geometry-c1",
-          "chip": "/media/pat-geometry-c1-700.webp",
+          "chip": "/media/pat-geometry-c1-chip.webp",
           "swatch": "#1a2a45",
           "tone": {
             "ro": "Bleumarin",
@@ -15939,7 +15939,7 @@
         },
         {
           "src": "pat-geometry-c4",
-          "chip": "/media/pat-geometry-c4-700.webp",
+          "chip": "/media/pat-geometry-c4-chip.webp",
           "swatch": "#380b12",
           "tone": {
             "ro": "Bordo",
@@ -16098,7 +16098,7 @@
       "variants": [
         {
           "src": "fotoliu-king-chester-c1",
-          "chip": "/media/fotoliu-king-chester-c1-700.webp",
+          "chip": "/media/fotoliu-king-chester-c1-chip.webp",
           "swatch": "#82715f",
           "tone": {
             "ro": "Taupe",
@@ -16107,7 +16107,7 @@
         },
         {
           "src": "fotoliu-king-chester-c2",
-          "chip": "/media/fotoliu-king-chester-c2-700.webp",
+          "chip": "/media/fotoliu-king-chester-c2-chip.webp",
           "swatch": "#1a354c",
           "tone": {
             "ro": "Bleumarin",
@@ -16116,7 +16116,7 @@
         },
         {
           "src": "fotoliu-king-chester-c3",
-          "chip": "/media/fotoliu-king-chester-c3-700.webp",
+          "chip": "/media/fotoliu-king-chester-c3-chip.webp",
           "swatch": "#2f2119",
           "tone": {
             "ro": "Ciocolată",
@@ -16125,7 +16125,7 @@
         },
         {
           "src": "fotoliu-king-chester-c4",
-          "chip": "/media/fotoliu-king-chester-c4-700.webp",
+          "chip": "/media/fotoliu-king-chester-c4-chip.webp",
           "swatch": "#b2847d",
           "tone": {
             "ro": "Roz prăfuit",
@@ -16134,7 +16134,7 @@
         },
         {
           "src": "fotoliu-king-chester-c5",
-          "chip": "/media/fotoliu-king-chester-c5-700.webp",
+          "chip": "/media/fotoliu-king-chester-c5-chip.webp",
           "swatch": "#301721",
           "tone": {
             "ro": "Prună",
@@ -16143,7 +16143,7 @@
         },
         {
           "src": "fotoliu-king-chester-c6",
-          "chip": "/media/fotoliu-king-chester-c6-700.webp",
+          "chip": "/media/fotoliu-king-chester-c6-chip.webp",
           "swatch": "#494e36",
           "tone": {
             "ro": "Verde oliv",

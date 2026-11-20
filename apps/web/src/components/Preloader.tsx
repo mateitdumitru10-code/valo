@@ -3,20 +3,32 @@ import { useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import { expo, quint } from '~/lib/motion'
 import { stopScroll } from '~/lib/scroll'
-import { heroClip } from '~/lib/hero'
 
 /** Floor on how long the curtain is held. Anything more is self-inflicted. */
 const MIN_MS = 280
 /**
  * Ceiling on the wait for the opening clip. Past this, a slow connection gets
- * the page and the clip catches up; the curtain is not worth more than this to
- * anyone, least of all to the page's paint timings.
+ * the page and the clip catches up. It was 1.8s; on a phone that was most of
+ * the time anyone spent looking at the home page before seeing it.
  */
-const CLIP_MS = 1800
+const CLIP_MS = 800
+/** Set once the curtain has been seen; read by the inline script in index.html. */
+const SEEN_KEY = 'valo:curtain'
+
+/** Resolves once the hero's own <video> can play, or never if there is none. */
+function clipReady() {
+  return new Promise<void>((resolve) => {
+    const el = document.querySelector<HTMLVideoElement>('video[data-hero]')
+    if (!el) return
+    if (el.readyState >= 3) return resolve()
+    el.addEventListener('canplay', () => resolve(), { once: true })
+  })
+}
 
 /**
- * First paint: hold the page until the fonts and enough of the opening clip are
- * buffered that scrubbing it does not stall on the first drag of the scroll.
+ * First paint on the home page: hold it until the fonts and the start of the
+ * opening clip are ready, so the first drag of the scroll does not stall. Once
+ * per session — a visitor coming back to the home page goes straight to it.
  */
 export function Preloader() {
   // Only the home page opens on the film the curtain buffers for. Any other
@@ -24,33 +36,49 @@ export function Preloader() {
   // that content, prerendered, is what search and the visitor came for.
   const { pathname } = useLocation()
   const [film] = useState(() => pathname === '/')
+  // Starts the same on the server and in the browser, so hydration matches;
+  // a visitor who has seen the curtain never sees it even so, because the
+  // inline script hides it with CSS before the first paint.
   const [done, setDone] = useState(!film)
   const [progress, setProgress] = useState(0)
 
   useEffect(() => {
     if (!film) return
+    const root = document.documentElement
+    const lift = () => {
+      root.classList.remove('rv-curtain')
+      try {
+        sessionStorage.setItem(SEEN_KEY, '1')
+      } catch {
+        // Private mode: the curtain shows again next time. Harmless.
+      }
+    }
+    if (root.classList.contains('rv-nocurtain')) {
+      setDone(true)
+      return
+    }
+
     stopScroll(true)
     const started = performance.now()
     let ticking = true
 
     const tick = () => {
       if (!ticking) return
-      setProgress((p) => Math.min(p + (95 - p) * 0.04 + 0.6, 95))
+      setProgress((p) => Math.min(p + (95 - p) * 0.08 + 1, 95))
       requestAnimationFrame(tick)
     }
     requestAnimationFrame(tick)
 
-    // Warm the cache with a plain ranged fetch rather than a second <video>.
-    // iOS allows very few simultaneous video decoders, and a hidden element
-    // holding one starves the hero's own element — the clip then never paints.
-    const clip = Promise.race([
-      fetch(heroClip(), { headers: { range: 'bytes=0-262143' } })
-        .then(() => undefined)
-        .catch(() => undefined),
-      new Promise<void>((resolve) => setTimeout(resolve, CLIP_MS)),
+    // Waits on the hero's own element rather than a separate fetch of the
+    // clip: the browser did not reuse that fetch for the <video>, so the
+    // first 256 KB were downloaded twice.
+    const clip = Promise.race([clipReady(), new Promise<void>((resolve) => setTimeout(resolve, CLIP_MS))])
+    const fonts = Promise.race([
+      document.fonts?.ready ?? Promise.resolve(),
+      new Promise((resolve) => setTimeout(resolve, CLIP_MS)),
     ])
 
-    Promise.all([clip, document.fonts?.ready ?? Promise.resolve()]).then(() => {
+    Promise.all([clip, fonts]).then(() => {
       const wait = Math.max(0, MIN_MS - (performance.now() - started))
       setTimeout(() => {
         ticking = false
@@ -58,6 +86,7 @@ export function Preloader() {
         setTimeout(() => {
           setDone(true)
           stopScroll(false)
+          lift()
         }, 180)
       }, wait)
     })
@@ -72,6 +101,7 @@ export function Preloader() {
     <AnimatePresence>
       {!done && (
         <motion.div
+          data-curtain=""
           className="fixed inset-0 z-[70] flex flex-col items-center justify-center bg-bone"
           exit={{ y: '-100%' }}
           transition={{ duration: 0.62, ease: quint }}

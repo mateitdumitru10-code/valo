@@ -9,6 +9,48 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#F3F0E9" />
     <!--
+      Starts each entrance (src/styles/global.css, "Entrances") when it
+      scrolls into view. Inline and first in <head> so it is watching before
+      the prerendered body is parsed: nothing waits for the app's JavaScript.
+      Content within the first screen plays at once; the rest waits, paused
+      on its first frame, until it is reached.
+    -->
+    <script>
+      ;(function () {
+        var root = document.documentElement
+        // The home page's opening curtain: once per session (Preloader).
+        if (location.pathname === '/') {
+          var seen = false
+          try {
+            seen = sessionStorage.getItem('valo:curtain') === '1'
+          } catch (e) {}
+          root.classList.add(seen ? 'rv-nocurtain' : 'rv-curtain')
+        }
+        if (!('IntersectionObserver' in window) || !('MutationObserver' in window)) return
+        root.classList.add('rv-wait')
+        var io = new IntersectionObserver(
+          function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (!entries[i].isIntersecting) continue
+              entries[i].target.classList.add('rv-in')
+              io.unobserve(entries[i].target)
+            }
+          },
+          { rootMargin: '0px 0px -8% 0px' },
+        )
+        function watch(node) {
+          if (node.nodeType !== 1) return
+          if (node.hasAttribute('data-rv')) io.observe(node)
+          var inner = node.querySelectorAll('[data-rv]')
+          for (var i = 0; i < inner.length; i++) io.observe(inner[i])
+        }
+        new MutationObserver(function (records) {
+          for (var i = 0; i < records.length; i++)
+            for (var j = 0; j < records[i].addedNodes.length; j++) watch(records[i].addedNodes[j])
+        }).observe(root, { childList: true, subtree: true })
+      })()
+    </script>
+    <!--
       Between the two markers: title, description, canonical, preview and
       structured data. scripts/prerender.mjs rewrites them for every page from
       src/lib/seo.ts; what stands here serves only the dev server and is

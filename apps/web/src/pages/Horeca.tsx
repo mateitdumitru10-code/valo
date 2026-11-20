@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useRef, useState, type CSSProperties, type FormEvent, type ReactNode } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import clsx from 'clsx'
 import { Reveal, RevealLines } from '~/components/Reveal'
@@ -10,7 +10,7 @@ import { sendInquiry } from '~/lib/inquiry'
 import { Turnstile } from '~/components/Turnstile'
 import { PrivacyNote } from '~/components/PrivacyNote'
 import { scrollTo, stopScroll } from '~/lib/scroll'
-import { expo, viewport } from '~/lib/motion'
+import { expo } from '~/lib/motion'
 
 // The viewer pulls in pdf.js; it loads when a catalogue is first opened.
 const PdfViewer = lazy(() => import('~/components/PdfViewer').then((m) => ({ default: m.PdfViewer })))
@@ -161,12 +161,11 @@ export function Horeca() {
         <SectionHead index={next()} eyebrow={copy.cataloguesEyebrow} title={copy.cataloguesTitle} />
         <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-ink/12 pt-10 lg:grid-cols-4 md:mt-10">
           {catalogues.map((c, i) => (
-            <motion.article
+            <article
               key={c.id}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={viewport}
-              transition={{ duration: 0.9, ease: expo, delay: i * 0.08 }}
+              data-rv=""
+              className="rv-up"
+              style={{ '--i': i, '--rv-step': '80ms' } as CSSProperties}
             >
               <button
                 type="button"
@@ -212,7 +211,7 @@ export function Horeca() {
                   {t('horeca.download')}
                 </a>
               </div>
-            </motion.article>
+            </article>
           ))}
         </div>
       </section>

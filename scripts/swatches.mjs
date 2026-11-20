@@ -9,7 +9,7 @@
  * near-black pixels as background, and picks the most saturated colour cluster
  * that still covers a meaningful share of it.
  */
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, writeFile, stat } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
@@ -18,6 +18,22 @@ import { emit } from './emit.mjs'
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = join(ROOT, 'media-src')
 const CATALOG = join(ROOT, 'data/catalog.json')
+const MEDIA = join(ROOT, 'apps/web/public/media')
+
+/**
+ * The picker's chip, at the size it is shown: 80–96 CSS pixels wide, so 240
+ * covers a 2.5× screen. It used to be the 700px gallery rendition — ten
+ * kilobytes a chip, seven chips a piece, for a thumbnail. Cut from that
+ * rendition rather than the source, so it carries the same colour grade.
+ */
+async function chipOf(name) {
+  const from = join(MEDIA, `${name}-700.webp`)
+  const to = join(MEDIA, `${name}-chip.webp`)
+  const [a, b] = await Promise.all([stat(from).catch(() => null), stat(to).catch(() => null)])
+  if (!a) return `/media/${name}-700.webp`
+  if (!b || b.mtimeMs < a.mtimeMs) await sharp(from).resize({ width: 240 }).webp({ quality: 74 }).toFile(to)
+  return `/media/${name}-chip.webp`
+}
 const only = process.argv[2]
 
 const BUCKET = 26
@@ -158,7 +174,7 @@ if (only) {
         src: name,
         // The swatch is the piece itself in that colour — a crop of cloth says
         // less here than seeing the whole thing upholstered.
-        chip: `/media/${name}-700.webp`,
+        chip: await chipOf(name),
         swatch,
         tone:
           typeof entry === 'string'

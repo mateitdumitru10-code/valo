@@ -23,6 +23,14 @@ export async function render(url: string) {
         <App />
       </I18nProvider>
     </StaticRouter>,
+    // React moves a Suspense boundary's content larger than this out of
+    // place, to the end of the document, and swaps it in with an inline
+    // script — batched to animation frames since React 19.2. Every page is
+    // larger than the default, so each one painted an empty placeholder and
+    // the footer first, then jumped (CLS 0.3) and held its main image back by
+    // up to two seconds. A static page gains nothing from streaming: keep it
+    // all in place.
+    { progressiveChunkSize: Number.MAX_SAFE_INTEGER },
   )
   // The stream yields bytes; decode as they come so a character split across
   // two chunks is joined rather than garbled.

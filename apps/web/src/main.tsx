@@ -1,8 +1,7 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import '@fontsource-variable/bodoni-moda'
-import '@fontsource-variable/inter-tight'
+import '~/styles/fonts.css'
 import '~/styles/global.css'
 import App from '~/App'
 import { preloadFor } from '~/routes'
@@ -20,14 +19,30 @@ if (inline?.textContent) {
   }
 }
 
-// The prerendered HTML is replaced, not hydrated: the visitor's language and
-// the animations' starting states are decided in the browser, and a hydration
-// mismatch would cost more than the render. Fetching the page's chunk first
-// means that render draws the page, not a blank fallback.
+/**
+ * After a failed hydration React draws the page afresh, and every entrance in
+ * view would play a second time over content the visitor has already watched
+ * arrive. Those already on screen are marked done instead.
+ */
+function settleVisibleEntrances() {
+  const h = window.innerHeight
+  for (const el of document.querySelectorAll<HTMLElement>('[data-rv]')) {
+    const r = el.getBoundingClientRect()
+    if (r.bottom > 0 && r.top < h) el.classList.add('rv-in', 'rv-done')
+  }
+}
+
+// The prerendered HTML is hydrated, not replaced: its entrances are CSS
+// (components/Reveal.tsx) and have already played, and replacing the DOM would
+// play them again. Where the browser's first render differs from the HTML — an
+// English reader, reduced motion, a wide screen on the home page — React
+// recovers by rendering that page itself, as it used to every time. Fetching
+// the page's chunk first means the first render draws the page, not a fallback.
 preloadFor(window.location.pathname)
   .catch(() => undefined)
   .then(() => {
-    createRoot(document.getElementById('root')!).render(
+    hydrateRoot(
+      document.getElementById('root')!,
       <StrictMode>
         <BrowserRouter>
           <I18nProvider>
@@ -35,5 +50,8 @@ preloadFor(window.location.pathname)
           </I18nProvider>
         </BrowserRouter>
       </StrictMode>,
+      {
+        onRecoverableError: () => settleVisibleEntrances(),
+      },
     )
   })

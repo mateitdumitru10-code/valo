@@ -1,9 +1,7 @@
-import { motion } from 'motion/react'
 import { RevealLines } from '~/components/Reveal'
 import { ArrowLink, Eyebrow } from '~/components/UI'
 import { useI18n } from '~/lib/i18n'
 import { cities, locations, mainPhone, mainPhoneHref } from '~/lib/showrooms'
-import { expo, viewport } from '~/lib/motion'
 
 export function Showrooms() {
   const { t, lang } = useI18n()
@@ -23,15 +21,9 @@ export function Showrooms() {
           <div key={city} className="border-t border-ink/12 py-10 md:py-14">
             <div className="grid gap-10 md:grid-cols-12">
               <div className="md:col-span-3">
-                <motion.h2
-                  initial={{ opacity: 0, y: 18 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={viewport}
-                  transition={{ duration: 0.7, ease: expo }}
-                  className="display-md"
-                >
+                <h2 data-rv="" className="rv-up display-md">
                   {city}
-                </motion.h2>
+                </h2>
                 <p className="eyebrow mt-3 opacity-35 tabular-nums">
                   {String(cityIndex + 1).padStart(2, '0')}
                 </p>
@@ -41,13 +33,7 @@ export function Showrooms() {
                 {locations
                   .filter((l) => l.city === city)
                   .map((l) => (
-                    <motion.article
-                      key={l.id}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={viewport}
-                      transition={{ duration: 0.7, ease: expo }}
-                    >
+                    <article key={l.id} data-rv="" className="rv-up">
                       <p className="eyebrow opacity-40">
                         {l.kind === 'factory' ? t('showrooms.factory') : t('showrooms.showroom')}
                       </p>
@@ -87,7 +73,7 @@ export function Showrooms() {
                           {lang === 'ro' ? 'Deschide harta' : 'Open in maps'}
                         </ArrowLink>
                       </div>
-                    </motion.article>
+                    </article>
                   ))}
               </div>
             </div>

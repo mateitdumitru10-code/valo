@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import {
   motion,
   useMotionValueEvent,
@@ -6,10 +6,11 @@ import {
   useScroll,
   useTransform,
 } from 'motion/react'
+import clsx from 'clsx'
 import { useI18n, type Key } from '~/lib/i18n'
 import { scrollTo } from '~/lib/scroll'
 import { expo } from '~/lib/motion'
-import { HERO_POSTER, heroClip } from '~/lib/hero'
+import { HERO_POSTER_CLASS, HERO_SOURCES } from '~/lib/hero'
 
 const CHAPTERS = [1, 2, 3] as const
 
@@ -93,7 +94,6 @@ export function HeroFilm() {
   }, [])
   const reduced = useReducedMotion()
   // Chosen once: swapping sources on resize would restart the decoder mid-scrub.
-  const [clip] = useState(heroClip)
   const mobile = useMedia(MOBILE)
   const length = mobile ? LENGTH_MOBILE : LENGTH
 
@@ -231,11 +231,16 @@ export function HeroFilm() {
     >
       <div ref={sticky} className="sticky top-0 h-[100svh] w-full overflow-hidden grain">
         {/* Full bleed: the clip fills the stage, cropping rather than letterboxing. */}
+        {/* The poster is the stage's background rather than the video's
+            `poster`, so it can follow the orientation like the clip does.
+            The video is transparent until its first frame decodes. */}
         <video
           ref={video}
-          src={clip}
-          poster={HERO_POSTER}
-          className="absolute inset-0 h-full w-full object-cover"
+          data-hero=""
+          className={clsx(
+            'absolute inset-0 h-full w-full bg-cover bg-center object-cover',
+            HERO_POSTER_CLASS,
+          )}
           muted
           playsInline
           preload="auto"
@@ -245,7 +250,11 @@ export function HeroFilm() {
             learnDuration(e.currentTarget)
             e.currentTarget.currentTime = 0
           }}
-        />
+        >
+          {HERO_SOURCES.map((s) => (
+            <source key={s.src} src={s.src} media={s.media} type="video/mp4" />
+          ))}
+        </video>
 
         <motion.div className="absolute inset-0 bg-night" style={{ opacity: veil }} aria-hidden />
         {/* Vignette and the caption gradient in one layer: each full-viewport
@@ -273,23 +282,21 @@ export function HeroFilm() {
           */}
           {/* The page's one heading. The wordmark is all that shows; the rest
               says to search and to screen readers what VALLO is. */}
-          <motion.h1
-            initial={{ opacity: 0, letterSpacing: '0.6em', marginRight: '-0.6em' }}
-            animate={{ opacity: 1, letterSpacing: '0.34em', marginRight: '-0.34em' }}
-            transition={{ duration: 1.2, ease: expo, delay: 0.1 }}
-            className="font-display text-[clamp(3.5rem,17vw,17rem)] leading-none"
+          {/* CSS entrances (global.css), held by `rv-curtain` until the
+              opening curtain lifts — see Preloader. */}
+          <h1
+            className="rv-track font-display text-[clamp(3.5rem,17vw,17rem)] leading-none"
+            style={{ letterSpacing: '0.34em', marginRight: '-0.34em' }}
           >
             VALLO
             <span className="sr-only"> — canapele, colțare și paturi tapițate, produse în România</span>
-          </motion.h1>
-          <motion.span
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 0.75, y: 0 }}
-            transition={{ duration: 0.8, ease: expo, delay: 0.35 }}
-            className="eyebrow mt-6 text-paper/80"
+          </h1>
+          <span
+            className="rv-up eyebrow mt-6 text-paper/80 opacity-75"
+            style={{ '--rv-at': '0.35s', '--rv-dur': '0.8s' } as CSSProperties}
           >
             {t('hero.kicker')}
-          </motion.span>
+          </span>
         </motion.div>
 
         {/* Chapter captions, cut against the film. */}

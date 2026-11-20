@@ -1,7 +1,16 @@
-import { motion } from 'motion/react'
-import type { ReactNode } from 'react'
+import type { CSSProperties, ReactNode } from 'react'
 import clsx from 'clsx'
-import { drift, expo, fadeUp, rise, unmask, viewport } from '~/lib/motion'
+
+/**
+ * The entrances, as CSS. Each component renders plain markup with a class
+ * from src/styles/global.css ("Entrances") and a `data-rv` trigger, which the
+ * inline script in index.html starts as it scrolls into view.
+ *
+ * They used to be Motion components with `initial="hidden"`. That state was
+ * written into the prerendered HTML, so every heading and block on a page sat
+ * invisible until the JavaScript bundle had loaded and run — about a second on
+ * a phone, on every page. As CSS they play the moment the HTML paints.
+ */
 
 type Props = {
   children: ReactNode
@@ -10,17 +19,12 @@ type Props = {
   as?: 'div' | 'section' | 'li' | 'article' | 'header' | 'figure'
 }
 
-export function Reveal({ children, className, delay = 0, as = 'div' }: Props) {
-  const Tag = motion[as]
+/** The stagger index, as the custom property the animation delay reads. */
+const step = (i: number) => ({ '--i': i }) as CSSProperties
+
+export function Reveal({ children, className, delay = 0, as: Tag = 'div' }: Props) {
   return (
-    <Tag
-      className={className}
-      variants={fadeUp}
-      custom={delay}
-      initial="hidden"
-      whileInView="show"
-      viewport={viewport}
-    >
+    <Tag data-rv="" className={clsx('rv-up', className)} style={delay ? step(delay) : undefined}>
       {children}
     </Tag>
   )
@@ -34,39 +38,18 @@ export function Reveal({ children, className, delay = 0, as = 'div' }: Props) {
  */
 export function Drift({ children, className, from = 'left' }: Props & { from?: 'left' | 'right' }) {
   return (
-    <motion.div
-      className={className}
-      variants={drift}
-      custom={from}
-      initial="hidden"
-      whileInView="show"
-      viewport={viewport}
-    >
+    <div data-rv="" className={clsx(from === 'left' ? 'rv-drift-l' : 'rv-drift-r', className)}>
       {children}
-    </motion.div>
+    </div>
   )
 }
 
 /** Photography reveal: the frame uncovers, the image inside settles back. */
 export function RevealImage({ children, className }: Props) {
   return (
-    <motion.div
-      className={clsx('overflow-hidden', className)}
-      variants={unmask}
-      initial="hidden"
-      whileInView="show"
-      viewport={viewport}
-    >
-      <motion.div
-        className="h-full w-full"
-        initial={{ scale: 1.14 }}
-        whileInView={{ scale: 1 }}
-        viewport={viewport}
-        transition={{ duration: 1.4, ease: expo }}
-      >
-        {children}
-      </motion.div>
-    </motion.div>
+    <div data-rv="" className={clsx('rv-unmask overflow-hidden', className)}>
+      <div className="rv-settle h-full w-full">{children}</div>
+    </div>
   )
 }
 
@@ -82,29 +65,18 @@ export function RevealLines({
   lineClassName?: string
   delay?: number
 }) {
-  // The observer sits on the outer span, and the lines animate as its
-  // variants. It cannot sit on the lines themselves: each is pushed a full
-  // line below its own mask, so `overflow-hidden` clips it to nothing, the
-  // intersection area is zero, and `whileInView` never fires. Every display
-  // heading on the site stayed hidden that way.
+  // The trigger is the outer span, not the lines: each line starts a full
+  // line below its own mask, clipped to nothing, so it could never be seen
+  // entering the viewport itself.
   return (
-    <motion.span
-      className={clsx('block', className)}
-      initial="hidden"
-      whileInView="show"
-      viewport={viewport}
-    >
+    <span data-rv="" className={clsx('block', className)}>
       {lines.map((line, i) => (
         <span key={line} className="block overflow-hidden">
-          <motion.span
-            className={clsx('block', lineClassName)}
-            variants={rise}
-            custom={delay + i}
-          >
+          <span className={clsx('rv-rise block', lineClassName)} style={step(delay + i)}>
             {line}
-          </motion.span>
+          </span>
         </span>
       ))}
-    </motion.span>
+    </span>
   )
 }

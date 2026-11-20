@@ -157,6 +157,139 @@
   }
 }
 
+/*
+  Entrances. Plain CSS animations, so a prerendered page animates in the moment
+  its HTML paints — it no longer waits, invisible, for the JavaScript bundle to
+  download and run before anything is shown.
+
+  `fill-mode: backwards` holds the starting frame through each element's
+  stagger delay and lets go when the animation ends, so nothing keeps a
+  transform or opacity afterwards. The final state is the element's own style.
+
+  An element marked `data-rv` is a trigger. The inline script in index.html
+  sets `rv-wait` on <html> and adds `rv-in` to each trigger as it enters the
+  viewport; until then, the trigger's animations and its descendants' are
+  paused on their first frame. Without that script — or without
+  IntersectionObserver — everything simply plays on load.
+*/
+@keyframes rv-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+@keyframes rv-rise {
+  from {
+    transform: translateY(110%);
+  }
+}
+@keyframes rv-drift-l {
+  from {
+    opacity: 0;
+    transform: translate(-24px, 28px);
+  }
+}
+@keyframes rv-drift-r {
+  from {
+    opacity: 0;
+    transform: translate(24px, 28px);
+  }
+}
+@keyframes rv-unmask {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@keyframes rv-settle {
+  from {
+    transform: scale(1.14);
+  }
+}
+/* The hero wordmark: tracking closes in as it fades up. Its resting
+   letter-spacing and margin are set inline on the element. */
+@keyframes rv-track {
+  from {
+    opacity: 0;
+    letter-spacing: 0.6em;
+    margin-right: -0.6em;
+  }
+}
+@keyframes rv-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.rv-up,
+.rv-rise,
+.rv-drift-l,
+.rv-drift-r,
+.rv-unmask,
+.rv-settle,
+.rv-track,
+.rv-fade {
+  animation-duration: var(--rv-dur, 0.9s);
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  animation-fill-mode: backwards;
+  animation-delay: calc(var(--i, 0) * var(--rv-step, 70ms) + var(--rv-at, 0s));
+}
+.rv-up {
+  animation-name: rv-up;
+}
+.rv-rise {
+  animation-name: rv-rise;
+  --rv-dur: 1s;
+  --rv-step: 60ms;
+}
+.rv-drift-l {
+  animation-name: rv-drift-l;
+  --rv-dur: 1.6s;
+}
+.rv-drift-r {
+  animation-name: rv-drift-r;
+  --rv-dur: 1.6s;
+}
+.rv-unmask {
+  animation-name: rv-unmask;
+  --rv-dur: 1.25s;
+}
+.rv-settle {
+  animation-name: rv-settle;
+  --rv-dur: 1.4s;
+}
+.rv-fade {
+  animation-name: rv-fade;
+}
+.rv-track {
+  animation-name: rv-track;
+  --rv-dur: 1.2s;
+  --rv-at: 0.1s;
+}
+
+/* The home page's opening curtain (Preloader) covers the hero: its entrances
+   wait for the curtain to lift rather than playing out unseen beneath it. A
+   visitor who has already seen the curtain this session never gets it — the
+   inline script in index.html sets `rv-nocurtain`, and it is hidden before
+   the first paint. */
+html.rv-curtain .rv-track,
+html.rv-curtain .rv-track ~ .rv-up {
+  animation-play-state: paused;
+}
+html.rv-nocurtain [data-curtain] {
+  display: none;
+}
+
+html.rv-wait [data-rv]:not(.rv-in),
+html.rv-wait [data-rv]:not(.rv-in) * {
+  animation-play-state: paused;
+}
+
+/* Already seen before React took over the page (see main.tsx): no replay. */
+.rv-done,
+.rv-done * {
+  animation: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

@@ -1,4 +1,16 @@
 import { useState } from 'react'
+
+/**
+ * Whether the page has been hydrated. Photographs in the prerendered HTML
+ * must show the moment they arrive: hidden until React saw their `load`
+ * event, they stayed invisible until the JavaScript had run — and one that
+ * finished loading before hydration never got the event at all. Only images
+ * that appear later, as the visitor moves around, fade in.
+ */
+let hydrated = false
+export const markHydrated = () => {
+  hydrated = true
+}
 import clsx from 'clsx'
 import { srcFor, srcSet, type Img as ImgData } from '~/lib/catalog'
 
@@ -26,7 +38,7 @@ export function Img({
   priority,
   zoom,
 }: Props) {
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(() => !hydrated)
 
   return (
     <div

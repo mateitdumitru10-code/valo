@@ -92,17 +92,18 @@ function modulePreloads(source) {
 }
 
 /**
- * The text faces. Romanian needs the latin-ext subset for ă, â, î, ș and ț,
- * which appear in the navigation on every page, so both subsets of both
- * families are fetched from the first byte rather than after the stylesheet.
+ * The text faces' latin files, fetched from the first byte rather than after
+ * the stylesheet. Romanian's own letters (ă, ș, ț) are in two files of about
+ * 3 KB (src/styles/fonts.css), small enough that Vite inlines them into the
+ * stylesheet, so there is nothing to preload for them.
  */
 const fontFiles = Object.values(manifest)
   .flatMap((chunk) => chunk.assets ?? [])
   .concat(Object.values(manifest).map((chunk) => chunk.file))
   .filter((file, i, all) => all.indexOf(file) === i)
-  .filter((file) => /(bodoni-moda|inter-tight)-latin(-ext)?-wght-normal-[\w-]+\.woff2$/.test(file))
-if (fontFiles.length !== 4) {
-  console.warn(`prerender: expected 4 text-face files to preload, found ${fontFiles.length}`)
+  .filter((file) => /(bodoni-moda|inter-tight)-latin-wght-[\w-]+\.woff2$/.test(file))
+if (fontFiles.length !== 2) {
+  console.warn(`prerender: expected 2 text-face files to preload, found ${fontFiles.length}`)
 }
 const fontPreloads = fontFiles.map(
   (file) => `<link rel="preload" as="font" type="font/woff2" crossorigin href="/${file}" />`,

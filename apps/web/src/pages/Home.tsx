@@ -1,5 +1,5 @@
+import type { CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from 'motion/react'
 import { HeroFilm } from '~/components/HeroFilm'
 
 import { Index, type IndexItem } from '~/components/Index'
@@ -23,7 +23,6 @@ import {
 } from '~/lib/catalog'
 import { useI18n, type Key } from '~/lib/i18n'
 import { locations, parentSite } from '~/lib/showrooms'
-import { expo, viewport } from '~/lib/motion'
 
 const CRAFT = [1, 2, 3, 4] as const
 
@@ -131,7 +130,7 @@ export function Home() {
                       img={img}
                       alt={p.name}
                       zoom
-                      sizes={wide ? '(max-width: 768px) 100vw, 62vw' : '(max-width: 768px) 50vw, 31vw'}
+                      sizes={wide ? '(max-width: 768px) calc(100vw - 2.5rem), 62vw' : '(max-width: 768px) 50vw, 31vw'}
                       className={`${ratio} w-full`}
                     />
                   </RevealImage>
@@ -295,7 +294,7 @@ export function Home() {
                   <Img
                     img={craftA.cover}
                     alt={craftA.name}
-                    sizes="(max-width: 768px) 100vw, 55vw"
+                    sizes="(max-width: 768px) calc(100vw - 2.5rem), 55vw"
                     className="aspect-[16/10] w-full"
                   />
                 </RevealImage>
@@ -383,13 +382,11 @@ export function Home() {
 
         <ul className="border-t border-ink/12">
           {showrooms.map((l, i) => (
-            <motion.li
+            <li
               key={l.id}
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={viewport}
-              transition={{ duration: 0.7, ease: expo, delay: i * 0.04 }}
-              className="border-b border-ink/12"
+              data-rv=""
+              className="rv-up border-b border-ink/12"
+              style={{ '--i': i, '--rv-step': '40ms' } as CSSProperties}
             >
               <a
                 href={l.map}
@@ -406,7 +403,7 @@ export function Home() {
                   {l.phone}
                 </span>
               </a>
-            </motion.li>
+            </li>
           ))}
         </ul>
 
