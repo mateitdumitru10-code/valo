@@ -97,17 +97,17 @@ export const termsDoc: LegalDoc = {
     {
       heading: 'Comanda',
       body: [
-        'Site-ul nu preia comenzi online. Trimiteți o cerere de ofertă prin formular, telefonic sau într-un showroom; vă contactăm cu oferta, iar comanda devine fermă după ce o confirmați și achitați avansul de {advance}.',
+        'Site-ul nu preia comenzi online. Trimiteți o cerere de ofertă prin formular, telefonic sau într-un showroom; vă contactăm cu oferta, iar comanda devine fermă după ce o confirmați și achitați avansul stabilit în ofertă. Comenzile realizate la comandă nu mai pot fi anulate după intrarea în producție.',
       ],
     },
     {
       heading: 'Plata',
-      body: ['Se poate plăti prin: {payment}. Restul de plată se achită înainte de livrare sau la livrare, după cum este stabilit în ofertă.'],
+      body: ['Se poate plăti prin: {payment}. {advance}'],
     },
     {
       heading: 'Producția și livrarea',
       body: [
-        'Termenul de producție este de {leadTime}. Vă anunțăm data livrării înainte de expediere.',
+        'Termenul de livrare este, în general, de {leadTime}. Vă anunțăm data livrării înainte de expediere.',
         'Livrarea: {delivery}.',
         'La primire, verificați produsul în prezența livratorului și notați pe documentul de livrare orice deteriorare vizibilă.',
       ],
@@ -116,14 +116,14 @@ export const termsDoc: LegalDoc = {
       heading: 'Dreptul de retragere',
       body: [
         'Pentru contractele încheiate la distanță (telefon, email), consumatorul are, în general, dreptul de a se retrage în 14 zile de la primirea produsului, conform OUG nr. 34/2014.',
-        'Excepție: mobilierul confecționat după specificațiile dumneavoastră — textil, dimensiuni sau configurație alese la comandă — nu poate fi returnat pe acest temei (art. 16 lit. c) din OUG nr. 34/2014). Produsele din stoc, livrate în configurația standard, pot fi returnate în 14 zile, în starea în care au fost primite.',
+        'Excepție: mobilierul confecționat după specificațiile dumneavoastră — textil, dimensiuni sau configurație alese la comandă — nu poate fi returnat pe acest temei (art. 16 lit. c) din OUG nr. 34/2014). Produsele din stoc, livrate în configurația standard, pot fi returnate în 14 zile calendaristice, în starea în care au fost primite; transportul de retur este suportat de client, iar banii se restituie în cel mult 14 zile.',
       ],
     },
     {
       heading: 'Garanția',
       body: [
-        'Pentru produsele cumpărate de consumatori se aplică garanția legală de conformitate de 2 ani, conform OUG nr. 140/2021.',
-        'În plus, VALLO oferă o garanție comercială de {warranty}. Garanția nu acoperă uzura normală, deteriorările cauzate de folosirea necorespunzătoare, de expunerea la umezeală sau la soare direct, ori de intervenții făcute de alte persoane.',
+        'Pentru produsele cumpărate de consumatori se aplică garanția legală de conformitate, conform OUG nr. 140/2021.',
+        'Canapelele, colțarele, fotoliile și paturile au o garanție de {warranty} de la livrare. Garanția nu acoperă uzura normală, deteriorările cauzate de folosirea necorespunzătoare, de expunerea la umezeală sau la soare direct, ori de intervenții făcute de alte persoane.',
       ],
     },
     {
