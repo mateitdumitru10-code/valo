@@ -125,6 +125,38 @@
         "editorial": true,
         "studio": true
       }
+    },
+    {
+      "id": "nightstands",
+      "ro": "Noptiere",
+      "en": "Nightstands",
+      "count": 4,
+      "cover": {
+        "src": "noptiere-aldo-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JQBYdhDv3/pevyVAAAP7zbvDGiS+SMxeEKSScC51Glo6/AAA=",
+        "editorial": false,
+        "studio": true
+      },
+      "header": {
+        "src": "noptiere-aldo-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JQBYdhDv3/pevyVAAAP7zbvDGiS+SMxeEKSScC51Glo6/AAA=",
+        "editorial": false,
+        "studio": true
+      }
     }
   ],
   "products": [
@@ -545,7 +577,6 @@
         ]
       },
       "priceFrom": true,
-      "collection": "aldo",
       "schematic": {
         "src": "/media/schema/coltar-aldo.webp",
         "w": 1536,
@@ -617,7 +648,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "aldo"
     },
     {
       "id": 7088,
@@ -3117,7 +3149,6 @@
           "in": "coltar-soria-c6"
         }
       ],
-      "collection": "soria",
       "schematic": {
         "src": "/media/schema/coltar-soria.webp",
         "w": 1536,
@@ -3180,7 +3211,8 @@
             "en": "Beige with olive cushions"
           }
         }
-      ]
+      ],
+      "collection": "soria"
     },
     {
       "id": 250,
@@ -3571,7 +3603,6 @@
           "in": "canapea-soria-studio-1"
         }
       ],
-      "collection": "soria",
       "schematic": {
         "src": "/media/schema/canapea-extensibila-soria.webp",
         "w": 1536,
@@ -3646,7 +3677,8 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "collection": "soria"
     },
     {
       "id": 6649,
@@ -4292,7 +4324,6 @@
           "in": "coltar-cubiq-studio-1"
         }
       ],
-      "collection": "cubic",
       "schematic": {
         "src": "/media/schema/coltar-cubic-fix.webp",
         "w": 1536,
@@ -4373,7 +4404,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "cubic"
     },
     {
       "id": "valo-canapea-cubic",
@@ -4737,7 +4769,6 @@
           "in": "canapea-cubiq-studio-1"
         }
       ],
-      "collection": "cubic",
       "schematic": {
         "src": "/media/schema/canapea-cubic.webp",
         "w": 1536,
@@ -4830,7 +4861,8 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "collection": "cubic"
     },
     {
       "id": "valo-coltar-vallo",
@@ -5134,7 +5166,6 @@
           "in": "coltar-vallo-studio-1"
         }
       ],
-      "collection": "vallo",
       "variants": [
         {
           "src": "coltar-vallo-studio-1",
@@ -5190,7 +5221,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "vallo"
     },
     {
       "id": 6996,
@@ -6759,7 +6791,6 @@
           "in": "coltar-soria-in-forma-de-u-c7"
         }
       ],
-      "collection": "soria",
       "variants": [
         {
           "src": "coltar-soria-in-forma-de-u-c1",
@@ -6824,7 +6855,8 @@
             "en": "Mustard"
           }
         }
-      ]
+      ],
+      "collection": "soria"
     },
     {
       "id": 6633,
@@ -7151,7 +7183,6 @@
           "in": "coltar-torro-c6"
         }
       ],
-      "collection": "torro",
       "schematic": {
         "src": "/media/schema/coltar-torro.webp",
         "w": 1536,
@@ -7217,7 +7248,8 @@
             "en": "Camel"
           }
         }
-      ]
+      ],
+      "collection": "torro"
     },
     {
       "id": 7049,
@@ -7578,7 +7610,6 @@
         ]
       },
       "priceFrom": true,
-      "collection": "aldo",
       "variants": [
         {
           "src": "pat-aldo-c1",
@@ -7643,7 +7674,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "aldo"
     },
     {
       "id": 7180,
@@ -7995,7 +8027,6 @@
           "in": "canapea-toro-c5"
         }
       ],
-      "collection": "torro",
       "schematic": {
         "src": "/media/schema/canapea-toro.webp",
         "w": 1536,
@@ -8052,7 +8083,8 @@
             "en": "Navy"
           }
         }
-      ]
+      ],
+      "collection": "torro"
     },
     {
       "id": 7008,
@@ -9108,7 +9140,6 @@
           "in": "canapea-spring-c1"
         }
       ],
-      "collection": "spring",
       "variants": [
         {
           "src": "canapea-spring-c2",
@@ -9155,7 +9186,8 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "collection": "spring"
     },
     {
       "id": 6629,
@@ -9477,7 +9509,6 @@
           "in": "coltar-bela-c6"
         }
       ],
-      "collection": "bella",
       "schematic": {
         "src": "/media/schema/coltar-bela.webp",
         "w": 1536,
@@ -9540,7 +9571,8 @@
             "en": "Dusty rose"
           }
         }
-      ]
+      ],
+      "collection": "bella"
     },
     {
       "id": 6725,
@@ -9860,7 +9892,6 @@
           "in": "canapea-bella-studio-1"
         }
       ],
-      "collection": "bella",
       "variants": [
         {
           "src": "canapea-bella-c2",
@@ -9925,7 +9956,8 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "collection": "bella"
     },
     {
       "id": 3578,
@@ -10252,7 +10284,6 @@
           "in": "canapea-extensibila-aldo-c1"
         }
       ],
-      "collection": "aldo",
       "schematic": {
         "src": "/media/schema/canapea-extensibila-aldo.webp",
         "w": 1536,
@@ -10327,7 +10358,8 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "collection": "aldo"
     },
     {
       "id": 6754,
@@ -11832,7 +11864,6 @@
           "en": "Side view"
         }
       ],
-      "collection": "ela",
       "variants": [
         {
           "src": "canapea-ela-studio-1",
@@ -11897,7 +11928,8 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "collection": "ela"
     },
     {
       "id": 6727,
@@ -12368,7 +12400,6 @@
         ]
       },
       "priceFrom": true,
-      "collection": "cubic",
       "variants": [
         {
           "src": "pat-cubiq-studio-1",
@@ -12433,7 +12464,8 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "collection": "cubic"
     },
     {
       "id": 6768,
@@ -12995,7 +13027,6 @@
         ]
       },
       "priceFrom": true,
-      "collection": "aldo",
       "variants": [
         {
           "src": "canapea-rotunda-aldo-c1",
@@ -13042,7 +13073,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "aldo"
     },
     {
       "id": "valo-pat-loris",
@@ -14042,7 +14074,6 @@
           "in": "coltar-linear-c1"
         }
       ],
-      "collection": "linear",
       "schematic": {
         "src": "/media/schema/coltar-linear.webp",
         "w": 1525,
@@ -14096,7 +14127,8 @@
             "en": "Dark brown"
           }
         }
-      ]
+      ],
+      "collection": "linear"
     },
     {
       "id": "valo-pat-linear",
@@ -14475,7 +14507,6 @@
         ]
       },
       "priceFrom": true,
-      "collection": "linear",
       "variants": [
         {
           "src": "pat-linear-c3",
@@ -14540,7 +14571,8 @@
             "en": "Charcoal"
           }
         }
-      ]
+      ],
+      "collection": "linear"
     },
     {
       "id": "valo-pat-king",
@@ -15252,7 +15284,6 @@
           "in": "modul-aldo-c2"
         }
       ],
-      "collection": "aldo",
       "variants": [
         {
           "src": "modul-aldo-c1",
@@ -15317,7 +15348,8 @@
             "en": "Chocolate"
           }
         }
-      ]
+      ],
+      "collection": "aldo"
     },
     {
       "id": "valo-modul-cubic",
@@ -15477,7 +15509,6 @@
           "en": "Side view"
         }
       ],
-      "collection": "cubic",
       "variants": [
         {
           "src": "modul-cubiq-studio-1",
@@ -15542,7 +15573,8 @@
             "en": "Burgundy"
           }
         }
-      ]
+      ],
+      "collection": "cubic"
     },
     {
       "id": "valo-pat-geometry",
@@ -16119,6 +16151,599 @@
           }
         }
       ]
+    },
+    {
+      "id": "valo-noptiera-paul",
+      "slug": "noptiera-paul",
+      "name": "Noptieră Paul",
+      "category": "nightstands",
+      "categories": [],
+      "price": 399,
+      "currency": "RON",
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [
+        {
+          "w": 400,
+          "d": 400,
+          "h": 450
+        }
+      ],
+      "images": [
+        {
+          "src": "noptiera-paul-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDA3CHfT8dRjUAA/vN0fCjM3ttYSUGp6KtFAAA=",
+          "editorial": false,
+          "studio": true
+        },
+        {
+          "src": "noptiera-paul-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JYwDE2CHfSZs+QAD+83R8KM8jWrRLfYyqufRSYAA=",
+          "editorial": false,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "noptiera-paul-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZQDA3CHfT8dRjUAA/vN0fCjM3ttYSUGp6KtFAAA=",
+        "editorial": false,
+        "studio": true
+      },
+      "editorial": false,
+      "views": [
+        {
+          "src": "noptiera-paul-studio-1",
+          "ro": "Cu ușa deschisă",
+          "en": "Door open"
+        }
+      ]
+    },
+    {
+      "id": "valo-noptiere-aldo",
+      "slug": "noptiere-aldo",
+      "name": "Noptieră Aldo",
+      "category": "nightstands",
+      "categories": [],
+      "price": 399,
+      "currency": "RON",
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [
+        {
+          "w": 400,
+          "d": 400,
+          "h": 450
+        }
+      ],
+      "images": [
+        {
+          "src": "noptiere-aldo-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JQBYdhDv3/pevyVAAAP7zbvDGiS+SMxeEKSScC51Glo6/AAA=",
+          "editorial": false,
+          "studio": true
+        },
+        {
+          "src": "noptiere-aldo-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JYwDCgCHftkDhVOOKAAD+827zZsSGjwfheQHnLvaaAZxgAAA=",
+          "editorial": false,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "noptiere-aldo-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JQBYdhDv3/pevyVAAAP7zbvDGiS+SMxeEKSScC51Glo6/AAA=",
+        "editorial": false,
+        "studio": true
+      },
+      "editorial": false,
+      "views": [
+        {
+          "src": "noptiere-aldo-studio-1",
+          "ro": "Cu ușa deschisă",
+          "en": "Door open"
+        }
+      ],
+      "collection": "aldo"
+    },
+    {
+      "id": "valo-noptiere-fantezie",
+      "slug": "noptiere-fantezie",
+      "name": "Noptieră Fantezie",
+      "category": "nightstands",
+      "categories": [],
+      "price": 399,
+      "currency": "RON",
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [
+        {
+          "w": 400,
+          "d": 400,
+          "h": 450
+        }
+      ],
+      "images": [
+        {
+          "src": "noptiere-fantezie-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYgCw7CHh7ntt+JoZ1QAA/vI0Q7r+WCzLXYSVBmyS1jNB9EfFDt8t4UO7brHvA/HIm1g05xmd4O050DdJkRgAAAA=",
+          "editorial": false,
+          "studio": true
+        },
+        {
+          "src": "noptiere-fantezie-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAA8APu1kqk2ppaQiMAgBMB2JYgAAUrgyZlx3sC9NwAD+84LOBZfgzLYRqIq1AjnyFEKpYOtqtrRc6PoxOVm3CO+I5MDPH24U8qQW11+gd5bRQAA=",
+          "editorial": false,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "noptiere-fantezie-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8APu1mqk2ppaQiMAgBMB2JYgCw7CHh7ntt+JoZ1QAA/vI0Q7r+WCzLXYSVBmyS1jNB9EfFDt8t4UO7brHvA/HIm1g05xmd4O050DdJkRgAAAA=",
+        "editorial": false,
+        "studio": true
+      },
+      "editorial": false,
+      "views": [
+        {
+          "src": "noptiere-fantezie-studio-1",
+          "ro": "Cu ușa deschisă",
+          "en": "Door open"
+        }
+      ]
+    },
+    {
+      "id": "valo-noptiera-sun",
+      "slug": "noptiera-sun",
+      "name": "Noptieră Sun",
+      "category": "nightstands",
+      "categories": [],
+      "price": 399,
+      "currency": "RON",
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [
+        {
+          "w": 400,
+          "d": 400,
+          "h": 450
+        }
+      ],
+      "images": [
+        {
+          "src": "noptiera-sun-c1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JbACdACHh31UfhEztbgAA/vHbU2ak5WH2p10gezpELvvlpUHIruWXW0WM6+ZZtNPMdrxPWR1GIJgAAAA=",
+          "editorial": false,
+          "studio": true
+        },
+        {
+          "src": "noptiera-sun-studio-1",
+          "w": 2000,
+          "h": 1500,
+          "widths": [
+            2000,
+            1200,
+            700
+          ],
+          "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA8APu1mq04ppaQiMAgBMB2JbACdIKnDA0Ls8SI7meXCowAA/vN0flwIQdFfqr6jHJh7dplzwSTEdFoZy875avKh68oNVcQQQAAA",
+          "editorial": false,
+          "studio": true
+        }
+      ],
+      "source": "",
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "noptiera-sun-c1",
+        "w": 2000,
+        "h": 1500,
+        "widths": [
+          2000,
+          1200,
+          700
+        ],
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAA8APu1krU6ppaSiMAgBMB2JbACdACHh31UfhEztbgAA/vHbU2ak5WH2p10gezpELvvlpUHIruWXW0WM6+ZZtNPMdrxPWR1GIJgAAAA=",
+        "editorial": false,
+        "studio": true
+      },
+      "editorial": false,
+      "views": [
+        {
+          "src": "noptiera-sun-studio-1",
+          "ro": "Cu ușa deschisă",
+          "en": "Door open"
+        }
+      ]
     }
   ],
   "hero": [
@@ -16320,13 +16945,14 @@
   "collections": [
     {
       "id": "aldo",
-      "count": 5,
+      "count": 6,
       "pieces": [
         "coltar-aldo",
         "canapea-extensibila-aldo",
         "modul-aldo",
         "canapea-rotunda-aldo",
-        "pat-aldo"
+        "pat-aldo",
+        "noptiere-aldo"
       ],
       "cover": {
         "src": "coltar-aldo-c1",

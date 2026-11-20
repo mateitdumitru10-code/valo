@@ -9,7 +9,6 @@ import { MattressCard } from '~/components/MattressCard'
 const copy = {
   ro: {
     eyebrow: 'Saltele',
-    draft: 'Previzualizare: grosimile și densitățile se completează după fișa tehnică a atelierului.',
     buildEyebrow: 'Construcție',
     buildTitle: 'Ce este înăuntru',
     buildLede: 'Treceți peste un strat pentru a-l vedea. Desenul păstrează proporțiile, nu cotele.',
@@ -23,7 +22,6 @@ const copy = {
   },
   en: {
     eyebrow: 'Mattresses',
-    draft: 'Preview: thicknesses and densities follow once the workshop sends its technical sheet.',
     buildEyebrow: 'Construction',
     buildTitle: 'What is inside',
     buildLede: 'Point at a layer to see it. The drawing keeps the proportions, not the measurements.',
@@ -57,8 +55,14 @@ export function MattressPage() {
           <RevealLines key={mattress.slug} lines={[mattress.name]} />
         </h1>
         <Reveal delay={1}>
-          <p className="lede mt-6 max-w-xl opacity-75">{tx(mattress.lede)}</p>
-          <p className="mt-4 max-w-md text-xs leading-relaxed opacity-45">{c.draft}</p>
+          <p className="display-md mt-4 max-w-2xl opacity-60">{tx(mattress.tagline)}</p>
+          <p className="lede mt-8 max-w-xl opacity-75">{tx(mattress.lede)}</p>
+          {mattress.body.map((p) => (
+            <p key={p.ro} className="mt-4 max-w-xl text-sm leading-relaxed opacity-65">
+              {tx(p)}
+            </p>
+          ))}
+          <p className="mt-8 max-w-xl font-display text-lg italic leading-snug opacity-80">{tx(mattress.closing)}</p>
         </Reveal>
       </header>
 

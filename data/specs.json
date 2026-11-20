@@ -6565,6 +6565,330 @@
           "value": "150 × 190 cm"
         }
       ]
+    },
+    "noptiera-paul": {
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "noptiere-aldo": {
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "noptiere-fantezie": {
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "noptiera-sun": {
+      "figures": [
+        {
+          "ro": "Dimensiuni standard",
+          "en": "Standard size",
+          "value": "40 × 40 × 45 cm"
+        }
+      ],
+      "figuresNote": {
+        "ro": "Lungime × lățime × înălțime. Alte dimensiuni, la comandă.",
+        "en": "Length × width × height. Other sizes made to order."
+      },
+      "specs": [
+        {
+          "title": {
+            "ro": "Construcție",
+            "en": "Construction"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Structură",
+                "en": "Carcass"
+              },
+              "value": {
+                "ro": "PAL melaminat",
+                "en": "Melamine-faced chipboard"
+              }
+            },
+            {
+              "label": {
+                "ro": "Finisaj exterior",
+                "en": "Exterior"
+              },
+              "value": {
+                "ro": "Tapițerie textilă",
+                "en": "Upholstered in fabric"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ro": "Personalizare",
+            "en": "Made to order"
+          },
+          "rows": [
+            {
+              "label": {
+                "ro": "Stofă și culoare",
+                "en": "Fabric and colour"
+              },
+              "value": {
+                "ro": "La alegerea clientului, din colecția VALLO",
+                "en": "The client’s choice, from the VALLO collection"
+              }
+            },
+            {
+              "label": {
+                "ro": "Dimensiuni",
+                "en": "Size"
+              },
+              "value": {
+                "ro": "Personalizabile la comandă",
+                "en": "Made to measure on request"
+              }
+            },
+            {
+              "label": {
+                "ro": "Înălțimea picioarelor",
+                "en": "Leg height"
+              },
+              "value": {
+                "ro": "2,5 cm, 5 cm, 10 cm sau 15 cm",
+                "en": "2.5, 5, 10 or 15 cm"
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }

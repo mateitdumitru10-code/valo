@@ -213,6 +213,21 @@ const ADOPT = {
   'PAT PAUL 3.jpg': 'pat-paul-studio-2',
   'PAT PAUL 4.jpg': 'pat-paul-studio-3',
 
+  // ── Noptiere ───────────────────────────────────────────────────────────────
+  // One closed frame and one with the door open for each, 2026-11-19. Aldo,
+  // Fantezie and Sun are shot as a pair; Paul alone. `NOPTIERA PAUL .PNG` and
+  // `NOPTIERE PAT ALDO DESCHIS .PNG` carry a stray space before the extension.
+  // `TABURET CU CAPAC` and `TABURET CAPAC DESCHIS` arrived alongside and wait
+  // here unadopted: the taburet is on the exclude list.
+  'NOPTIERA PAUL .PNG': 'noptiera-paul-c1',
+  'NOPTIERA PAUL DESCHISA.PNG': 'noptiera-paul-studio-1',
+  'NOPTIERE PAT ALDO.PNG': 'noptiere-aldo-c1',
+  'NOPTIERE PAT ALDO DESCHIS .PNG': 'noptiere-aldo-studio-1',
+  'noptiere pat fantezi.PNG': 'noptiere-fantezie-c1',
+  'NOPTIERE PAT FANTEZI DESCHIS.PNG': 'noptiere-fantezie-studio-1',
+  'noptiere pat sun.PNG': 'noptiera-sun-c1',
+  'NOPTIERE PAT SUN DESCHIS.PNG': 'noptiera-sun-studio-1',
+
   // ── Plan drawings ──────────────────────────────────────────────────────────
   // Not photography: these feed scripts/schematics.mjs, keyed in `schematics`
   // in curation.json. Each sheet stacks the piece closed above the piece

@@ -449,7 +449,11 @@
       "pat-happy-c1",
       "pat-happy-studio-1",
       "pat-happy-studio-2"
-    ]
+    ],
+    "noptiera-paul": ["noptiera-paul-c1", "noptiera-paul-studio-1"],
+    "noptiere-aldo": ["noptiere-aldo-c1", "noptiere-aldo-studio-1"],
+    "noptiere-fantezie": ["noptiere-fantezie-c1", "noptiere-fantezie-studio-1"],
+    "noptiera-sun": ["noptiera-sun-c1", "noptiera-sun-studio-1"]
   },
   "products": {
     "_note": "Pieces that exist as Valo photography but not in Samobi's WooCommerce catalogue, and corrections to pieces that do exist — a name here overrides the one the API returns. media.mjs applies both. `category` is the kind of piece; the range it belongs to is set in `collections` below. Price is null until Samobi supplies one; the app then omits it. `lead`, `summary` and `body` override the scraped Samobi prose with the client's own copy, and sit here rather than in the generated piece files so that re-ingesting never undoes them. The first paragraph of `body` is never rendered — Piece.tsx reads it only as a fallback lead — so it repeats the lead by convention and the prose proper starts at the second.",
@@ -732,6 +736,42 @@
       "lead": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.",
       "summary": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.",
       "body": "Tăblie decorată cu panouri radiale, inspirate de razele soarelui.\n\nPAT SUN aduce un accent decorativ distinct în dormitor prin tăblia sa tapițată, decorată cu panouri aplicate în formă de raze de soare. Elementele radiale creează un joc vizual dinamic și elegant, pornind din zona centrală inferioară și deschizându-se spre partea superioară a tăbliei.\n\nPanourile sunt buretate și tapițate, păstrând un relief discret care pune în valoare compoziția radială. Stofa și culoarea pot fi alese din colecția VALLO.\n\nSalteaua nu este inclusă în configurația standard.\n\nDimensiunile produsului pot fi personalizate la comandă, pentru a se adapta cât mai bine spațiului și preferințelor dumneavoastră."
+    },
+    "noptiera-paul": {
+      "name": "Noptieră Paul",
+      "category": "nightstands",
+      "price": 399,
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [{ "w": 400, "d": 400, "h": 450 }]
+    },
+    "noptiere-aldo": {
+      "name": "Noptieră Aldo",
+      "category": "nightstands",
+      "price": 399,
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [{ "w": 400, "d": 400, "h": 450 }]
+    },
+    "noptiere-fantezie": {
+      "name": "Noptieră Fantezie",
+      "category": "nightstands",
+      "price": 399,
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [{ "w": 400, "d": 400, "h": 450 }]
+    },
+    "noptiera-sun": {
+      "name": "Noptieră Sun",
+      "category": "nightstands",
+      "price": 399,
+      "lead": "Design personalizat. Eleganță și funcționalitate.",
+      "summary": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.",
+      "body": "Design personalizat. Eleganță și funcționalitate.\n\nNoptierele VALLO completează armonios amenajarea dormitorului, îmbinând designul contemporan cu finisajele textile și posibilitatea de personalizare.\n\nRealizate din PAL melaminat și tapițate integral cu stofă, acestea pot fi configurate în funcție de preferințele fiecărui client. Materialul textil și culoarea se aleg din colecția VALLO, pentru a se integra perfect în designul dormitorului.\n\nFiecare noptieră poate fi realizată în dimensiunile dorite, cu alegerea stofei, culorii și înălțimii picioarelor. Astfel, produsul poate fi adaptat atât stilului mobilierului, cât și cerințelor spațiului în care va fi amplasat.\n\nVALLO – Designed with intention. Made to belong.",
+      "dimensions": [{ "w": 400, "d": 400, "h": 450 }]
     }
   },
   "exclude": {
@@ -742,10 +782,6 @@
       "taburet-cu-capac",
       "taburet-inima",
       "taburet-rotund",
-      "noptiere-aldo",
-      "noptiere-fantezie",
-      "noptiera-sun",
-      "noptiera-paul",
       "coltar-alex-ii",
       "coltar-alin",
       "coltar-robert-5-piese",
@@ -2774,13 +2810,18 @@
         "ro": "Ladă de depozitare",
         "en": "Storage box"
       }
-    ]
+    ],
+    "noptiera-paul": [{ "src": "noptiera-paul-studio-1", "ro": "Cu ușa deschisă", "en": "Door open" }],
+    "noptiere-aldo": [{ "src": "noptiere-aldo-studio-1", "ro": "Cu ușa deschisă", "en": "Door open" }],
+    "noptiere-fantezie": [{ "src": "noptiere-fantezie-studio-1", "ro": "Cu ușa deschisă", "en": "Door open" }],
+    "noptiera-sun": [{ "src": "noptiera-sun-studio-1", "ro": "Cu ușa deschisă", "en": "Door open" }]
   },
   "covers": {
     "sectionals": "coltar-sam-1",
     "sofas": "canapea-ela-1",
     "beds": "pat-one-studio-1",
-    "armchairs": "fotoliu-king-studio-1"
+    "armchairs": "fotoliu-king-studio-1",
+    "nightstands": "noptiere-aldo-c1"
   },
   "headers": {
     "_note": "Full-bleed image at the top of a collection page. Falls back to `covers` when a collection has no entry here — split out because a studio cut-out can work as a small cover and still be wrong behind a headline."
@@ -3205,7 +3246,8 @@
         "canapea-extensibila-aldo",
         "modul-aldo",
         "canapea-rotunda-aldo",
-        "pat-aldo"
+        "pat-aldo",
+        "noptiere-aldo"
       ]
     },
     "cubic": {
