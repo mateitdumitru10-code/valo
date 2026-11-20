@@ -1,10 +1,8 @@
-# Cloudflare Pages and Netlify both read this file from the build output.
-# netlify.toml covers Netlify already; this is what makes Cloudflare behave.
-
-# The API is a long-running Express process and exists on neither host. An
-# unknown address already gets 404.html and a 404; this says so explicitly, so
-# the quote form can never read a 200 for a request nobody received.
-/api/*  /404.html  404
+# Cloudflare Pages reads this file from the build output.
+#
+# /api/inquiries is a Pages Function (functions/api/inquiries.ts); any other
+# /api address has no function and gets 404.html with a 404, like every
+# address that was not built.
 
 # The product listing moved from /piese to /produse. Old links, bookmarks and
 # search results get a permanent redirect rather than the SPA's not-found page.
