@@ -12,7 +12,6 @@ const identity = [
   company.cui && `CUI ${company.cui}`,
   company.regCom && `Reg. Com. ${company.regCom}`,
   company.seat && `Sediu: ${company.seat}`,
-  company.email,
 ].filter((x): x is string => Boolean(x))
 
 export function Footer() {
@@ -33,6 +32,12 @@ export function Footer() {
             className="mt-8 inline-block font-display text-xl transition-opacity hover:opacity-60"
           >
             {mainPhone}
+          </a>
+          <a
+            href={`mailto:${company.email}`}
+            className="mt-2 block text-sm opacity-70 transition-opacity hover:opacity-100"
+          >
+            {company.email}
           </a>
         </div>
 

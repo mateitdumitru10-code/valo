@@ -2,6 +2,7 @@ import { RevealLines } from '~/components/Reveal'
 import { ArrowLink, Eyebrow } from '~/components/UI'
 import { useI18n } from '~/lib/i18n'
 import { cities, locations, mainPhone, mainPhoneHref } from '~/lib/showrooms'
+import { company } from '~/lib/company'
 
 export function Showrooms() {
   const { t, lang } = useI18n()
@@ -93,6 +94,14 @@ export function Showrooms() {
         >
           {mainPhone}
         </a>
+        {company.email && (
+          <a
+            href={`mailto:${company.email}`}
+            className="mt-3 block text-sm opacity-70 transition-opacity hover:opacity-100"
+          >
+            {company.email}
+          </a>
+        )}
       </section>
     </div>
   )

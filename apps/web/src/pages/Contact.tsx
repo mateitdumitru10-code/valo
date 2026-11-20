@@ -4,6 +4,7 @@ import { RevealLines } from '~/components/Reveal'
 import { Eyebrow, Rule } from '~/components/UI'
 import { useI18n } from '~/lib/i18n'
 import { locations, mainPhone, mainPhoneHref } from '~/lib/showrooms'
+import { company } from '~/lib/company'
 
 export function Contact() {
   const [params] = useSearchParams()
@@ -42,6 +43,16 @@ export function Contact() {
                 </a>
               </dd>
             </div>
+            {company.email && (
+              <div>
+                <dt className="eyebrow opacity-40">{t('contact.email')}</dt>
+                <dd className="mt-2">
+                  <a href={`mailto:${company.email}`} className="underline underline-offset-4 hover:opacity-60">
+                    {company.email}
+                  </a>
+                </dd>
+              </div>
+            )}
             <div>
               <dt className="eyebrow opacity-40">{t('showrooms.factory')}</dt>
               <dd className="mt-2 opacity-70">{factory.address}</dd>
