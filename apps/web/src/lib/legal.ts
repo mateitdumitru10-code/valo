@@ -65,8 +65,8 @@ export const privacy: LegalDoc = {
       heading: 'Cookie-uri și stocare locală',
       body: [
         'Site-ul nu folosește cookie-uri de marketing sau de urmărire și nu afișează reclame.',
-        'Browserul dumneavoastră păstrează local o singură preferință: limba aleasă (română sau engleză). Ea nu ne este transmisă și o puteți șterge oricând din setările browserului.',
-        'Statisticile de vizitare, dacă sunt activate, sunt anonime și nu folosesc cookie-uri (Cloudflare Web Analytics).',
+        'Browserul dumneavoastră păstrează local două informații tehnice: limba aleasă (română sau engleză) și, doar pe durata sesiunii, faptul că animația de deschidere a paginii principale a fost deja afișată, ca să nu se repete. Niciuna nu ne este transmisă; prima o puteți șterge oricând din setările browserului, iar a doua se șterge singură la închiderea browserului.',
+        'Statisticile de vizitare sunt anonime și nu folosesc cookie-uri (Cloudflare Web Analytics).',
       ],
     },
     {
